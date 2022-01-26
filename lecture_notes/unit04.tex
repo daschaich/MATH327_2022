@@ -1,11 +1,11 @@
 % ------------------------------------------------------------------
-\renewcommand{\thisweek}{MATH327 Week 4}
-\renewcommand{\moddate}{Last modified 24 Feb.~2021}
+\renewcommand{\thisunit}{MATH327 Unit 4}
+\renewcommand{\moddate}{Last modified 17 Jan.~2022}
 \setcounter{section}{4}
 \setcounter{subsection}{0}
 \phantomsection
-\addcontentsline{toc}{section}{Week 4: Ideal gases}
-\section*{Week 4: Ideal gases}
+\addcontentsline{toc}{section}{Unit 4: Ideal gases}
+\section*{Unit 4: Ideal gases}
 \subsection{\label{sec:regulate}Volume, energy levels, and partition function}
 This week we apply the canonical ensemble to investigate non-relativistic, classical, ideal gases.
 Using statistical physics we will explore how the large-scale behaviours of such gases emerge from the properties of the particles that compose them.
@@ -117,7 +117,7 @@ Now let's consider what we would have with indistinguishable particles.
 In the ideal gas context, distinguishability means that we can label the particles and use those labels to tell them apart as they bounce around inside the box.
 In the simple two-particle example illustrated below, these labels mean we have a different micro-state $\om_1$ when particle $A$ has momentum $\vec p_1$ while particle $B$ has momentum $\vec p_2$, compared to micro-state $\om_2$ in which particle $A$ has momentum $\vec p_2$ while particle $B$ has momentum $\vec p_1$.
 \begin{center}
-  \includegraphics[width=0.7\textwidth]{figs/week04_distinguish.pdf}
+  \includegraphics[width=0.7\textwidth]{figs/unit04_distinguish.pdf}
 \end{center}
 If the particles are indistinguishable, no such labeling is possible, and there is only one micro-state for these $\left\{\vec p_1, \vec p_2\right\}$, rather than two.
 This factor of $2$ is not accidental, as you can explore by counting how many micro-states there are for three distinguishable particles with momenta $\left\{\vec p_1, \vec p_2, \vec p_3\right\}$, compared to the single micro-state for the indistinguishable case:
@@ -202,7 +202,7 @@ We demand that both canonical ensembles are in thermodynamic equilibrium with ea
 This procedure is illustrated below, where we simplify the setup by taking the two initial systems to have equal volumes, $V_A = V_B = V$, and numbers of particles, $N_A = N_B = N$.
 
 \begin{center}
-  \includegraphics[width=0.7\textwidth]{figs/week04_mixing.pdf}
+  \includegraphics[width=0.7\textwidth]{figs/unit04_mixing.pdf}
 \end{center}
 
 We can represent the process of combining and then re-separating these systems by writing
@@ -225,12 +225,12 @@ You should find $S_C = S_A + S_B$, which is consistent with the second law of th
 
 Things are more complicated when we re-separate the systems.
 Analogously to our considerations in \secref{sec:heat_ex}, we need to sum over all the possible ways of dividing the $2N$ particles between the two re-separated boxes.
-If $N_A'$ particles end up in the left box (system $\Om_A'$), then the other system $\Om_B'$ must contain the remaining $N_B' = 2N - N_A'$ particles.
-Adding up the entropies,
+In particular, we need to carry out this sum to compute the partition function $Z'$ for $\Om_A' + \Om_B'$, since this is the fundamental quantity from which the entropy is then derived as $S = \pderiv{}{T}\left(T\log Z'\right)$ (\eq{eq:canon_entropy-F}).
+If $\nu$ particles end up in the left box (system $\Om_A'$), then the other system $\Om_B'$ must contain the remaining $2N - \nu$ particles, giving us
 \begin{align}
-  S_A' + S_B' & = \sum_{N_A' = 0}^{2N} \left[\frac{3}{2} N_A' + N_A' \log\left(\frac{eV}{N_A' \lath^3}\right) \right. \cr
-              &         \qquad\qquad + \left.\frac{3}{2} (2N - N_A') + (2N - N_A') \log\left(\frac{eV}{(2N - N_A') \lath^3}\right)\right] \label{eq:mixing_full} \\
-              & = 3N + 2N \log\left(\frac{eV}{\lath^3}\right) + \sum_{N_A' = 0}^{2N} \log\left[\left(N_A'\right)^{-N_A'} \left(2N - N_A'\right)^{-(2N - N_A')}\right]. \nonumber
+  Z_{\nu}     & = \frac{1}{\nu!} \left(\frac{V}{\lath^3}\right)^{\nu} \times \frac{1}{(2N - \nu)!} \left(\frac{V}{\lath^3}\right)^{2N - \nu} = \frac{1}{\nu! \, (2N - \nu)!} \left(\frac{V}{\lath^3}\right)^{2N} \cr
+  Z'          & = \sum_{\nu = 0}^{2N} Z_{\nu} = \left(\frac{V}{\lath^3}\right)^{2N} \sum_{\nu = 0}^{2N} \frac{1}{\nu! \, (2N - \nu)!} = \left(\frac{V}{\lath^3}\right)^{2N} \frac{1}{(2N)!} \sum_{\nu = 0}^{2N} \binom{2N}{\nu} \cr
+  S_A' + S_B' & = 2N \pderiv{}{T}\left(T\log \left[\frac{V}{\lath^3}\right]\right) - \log[(2N)!] + \log\left[\sum_{\nu = 0}^{2N} \binom{2N}{\nu}\right]. \label{eq:mixing_full}
 \end{align}
 
 Since this is hard to compare with $S_C = S_A + S_B = 3N + 2N \log\left(\frac{eV}{N\lath^3}\right)$, back in the 1870s J.\ Willard Gibbs suggested considering only the case $N_A' = N_B' = N$.

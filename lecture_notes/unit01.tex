@@ -1,20 +1,20 @@
 % ------------------------------------------------------------------
-\renewcommand{\thisweek}{MATH327 Week 1}
-\renewcommand{\moddate}{Last modified 31 Jan.~2021}
+\renewcommand{\thisunit}{MATH327 Unit 1}
+\renewcommand{\moddate}{Last modified 17 Jan.~2022}
 \setcounter{section}{1}
 \setcounter{subsection}{0}
 \phantomsection
-\addcontentsline{toc}{section}{Week 1: Central limit theorem and diffusion}
-\section*{Week 1: Central limit theorem and diffusion}
+\addcontentsline{toc}{section}{Unit 1: Central limit theorem and diffusion}
+\section*{Unit 1: Central limit theorem and diffusion}
 \subsection*{Introductory remarks: What is Statistical Physics?}
 Mathematical sciences such as physics aim to determine the laws of nature and understand how these govern experimental observations---both in everyday circumstances and under extreme conditions.
 This mathematical understanding is typically guided by reproducing a set of observations, with the resulting framework then used to make predictions for other ``observables''.
 
-Over the past few centuries this process has been tremendously successful, with theoretical physics accurately predicting experimental and observational results from sub-atomic through to extra-galactic scales.
+Over the past few centuries this process has been tremendously successful, with theoretical physics accurately predicting experimental and observational results from sub-atomic through to supra-galactic scales.
 Modern physics labs can create a vacuum better than in outer space and the coldest temperatures in the known universe, as well as going to the other extreme to reach temperatures of millions of degrees and pressures millions of times atmospheric pressure at sea level.
 Amazingly, many aspects of these realms of physics can be theoretically described by mathematics developed centuries ago.\footnote{Eugene Wigner's famous article, ``\href{https://en.wikipedia.org/wiki/The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences}{The Unreasonable Effectiveness of Mathematics in the Natural Sciences}'' (1960), and subsequent work in the philosophy of physics, elaborates on why this may be considered `amazing'.  These lecture notes will not comment extensively on philosophy.}
 
-The domain of \textbf{statistical physics} is one in which simple mathematical principles enable amazing predictive capabilities.
+Statistical physics is one domain in which simple mathematical principles enable amazing predictive capabilities.
 Initially developed in the nineteenth century, statistical physics remains a core component of modern physics, and will retain this position in years to come.
 The foundations of statistical physics lie in the use of probability theory to mathematically describe experimental observations and corresponding laws of nature that involve stochastic randomness rather than being perfectly predictable.
 
@@ -29,10 +29,10 @@ Historically, the difficulty detecting the stochastic processes underlying such 
 A crucial advance to convincingly establish the existence of atoms was Albert Einstein's use of statistical physics to explain the observed ``\href{https://en.wikipedia.org/wiki/Brownian_motion}{Brownian motion}'' of particles suspended in fluids---this work was part of Einstein's ``miracle year'' in 1905, along with special relativity and early contributions to quantum physics.
 More modern applications of statistical physics include explaining why stars don't collapse under the `weight' of their own gravity, and identifying effects of dark matter in temperature fluctuations observable in the \textit{cosmic microwave background} lingering from the early years of the universe.
 
-For this week we will focus on some of the foundational mathematics that will underlie our later development and application of statistical ensembles.
+For this unit we will focus on some of the foundational mathematics that will underlie our later development and application of statistical ensembles.
 Looking back to Boltzmann's times, we can consider the following question one of his opponents might have asked:
 \textit{If the pressure of a gas in a container results from molecules stochastically colliding with the walls of that container and pushing them out, then how can the pressure be so stable and reproducible, rather than itself fluctuating stochastically?}
-The mathematical answer lies in the \textbf{law of large numbers} and the \textbf{central limit theorem}, which this week we will learn and apply to the physics of diffusion in one dimension.
+The mathematical answer lies in the \textbf{law of large numbers} and the \textbf{central limit theorem}, which we will learn and apply to the physics of diffusion in one dimension.
 % ------------------------------------------------------------------
 
 
@@ -146,7 +146,7 @@ what are the probabilities $p_{\text{equal}}$ and $p_{\text{diff}}$ for the two 
 \end{mdframed}
 
 \begin{minipage}{0.4\textwidth}
-  \includegraphics[width=0.75\textwidth]{figs/week01_roulette.pdf}
+  \includegraphics[width=0.75\textwidth]{figs/unit01_roulette.pdf}
 \end{minipage}%
 \begin{minipage}{0.5\textwidth}
   The standard European roulette wheel shown to the left (\href{https://www.vecteezy.com/vector-art/658761-casino-roulette-wheel}{source}) has 37 pockets labelled ``0'' through ``36''.
@@ -363,9 +363,9 @@ What are the six $P_{\text{integ}}$ and $P_{\text{const}}$?
 \begin{mdframed}
   \ \\[100 pt]
 \end{mdframed}
-You can check your results against those plotted below, which come from \href{https://github.com/daschaich/MATH327_2021/blob/master/lecture_notes/week01_prob.py}{this python code} that is available for you to peruse, run for different $N$ or modify.
+You can check your results against those plotted below, which come from \href{https://github.com/daschaich/MATH327_2021/blob/master/lecture_notes/unit01_prob.py}{this python code} that is available for you to peruse, run for different $N$ or modify.
 \begin{center}
-  \includegraphics[width=\textwidth]{figs/week01_roulette_prob.pdf}
+  \includegraphics[width=\textwidth]{figs/unit01_roulette_prob.pdf}
 \end{center}
 % ------------------------------------------------------------------
 
@@ -507,7 +507,7 @@ This is a particular realization of a very general result.
 The diffusion constant $D = 2\sqrt{\frac{pq}{\De t}}$ that we computed above is specific to the current case of a fixed-step-length random walk in one dimension.
 The figure below illustrates why this behavior is called diffusion.
 \begin{center}
-  \includegraphics[width=0.45\textwidth]{figs/week01_diff_zero.pdf}
+  \includegraphics[width=0.45\textwidth]{figs/unit01_diff_zero.pdf}
 \end{center}
 This figure shows probability distributions $p(x)$ (computed below) for the special case $p = q = \frac{1}{2}$ where $\vdr = 0$, so the expectation value is always $\vev{x} = 0$ for any walk time $t$.
 However, as time goes on, there is a steady decrease in the probability that any given walker will end up at its starting point $x = 0$.\footnote{As in \secref{sec:CLT}, we can extract this probability by integrating the distribution $p(x)$ over the interval $-0.5 \leq x \leq 0.5$.}
@@ -516,7 +516,7 @@ Instead, the probability distribution spreads (or \textit{diffuses}) outward, le
 Except in the trivial cases $p = 0$ or $q = 0$, this same diffusive phenomenon occurs when the drift velocity is non-zero.
 This is shown in the two figures below, which compare the case of a low but non-zero drift velocity on the left with a high drift velocity on the right.
 \begin{center} % Don't need centering, but this will provide consistent vertical spacing
-  \includegraphics[width=0.45\textwidth]{figs/week01_diff_low.pdf}\hfill \includegraphics[width=0.45\textwidth]{figs/week01_diff_high.pdf}
+  \includegraphics[width=0.45\textwidth]{figs/unit01_diff_low.pdf}\hfill \includegraphics[width=0.45\textwidth]{figs/unit01_diff_high.pdf}
 \end{center}
 In the figure on the left, each individual probability distribution looks similar to the corresponding one for $\vdr = 0$, but now their central peaks (and expectation values $\vev{x}$) drift steadily to the right.
 The distributions in the figure on the right look a bit different, but still diffuse to exhibit shorter and broader peaks as time goes on.

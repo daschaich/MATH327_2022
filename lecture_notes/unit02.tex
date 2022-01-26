@@ -1,14 +1,14 @@
 % ------------------------------------------------------------------
-\renewcommand{\thisweek}{MATH327 Week 2}
-\renewcommand{\moddate}{Last modified 18 Feb.~2021}
+\renewcommand{\thisunit}{MATH327 Unit 2}
+\renewcommand{\moddate}{Last modified 17 Jan.~2022}
 \setcounter{section}{2}
 \setcounter{subsection}{0}
 \phantomsection
-\addcontentsline{toc}{section}{Week 2: Micro-canonical ensemble}
-\section*{Week 2: Micro-canonical ensemble}
+\addcontentsline{toc}{section}{Unit 2: Micro-canonical ensemble}
+\section*{Unit 2: Micro-canonical ensemble}
 \subsection{Statistical ensembles and thermodynamic equilibrium}
-We begin this week by developing the concept of \textit{statistical ensembles} (introduced by \href{https://en.wikipedia.org/wiki/Josiah_Willard_Gibbs}{J.\ Willard Gibbs} in the early 1900s), building on the probability foundations we laid last week.
-As forecast last week, we will be interested in `experiments' that simply allow a collection of degrees of freedom to evolve in time, subject to certain constraints.
+We begin this unit by developing the concept of \textit{statistical ensembles} (introduced by \href{https://en.wikipedia.org/wiki/Josiah_Willard_Gibbs}{J.\ Willard Gibbs} in the early 1900s), building on the probability foundations we laid in the previous unit.
+As forecast, we will be interested in `experiments' that simply allow a collection of degrees of freedom to evolve in time, subject to certain constraints.
 At a given time $t_1$, the disposition of these degrees of freedom defines the state $\om_1$ of the system.
 To consider a couple of examples, what would be a representative state for a system of $8$ \textit{spins} (arrows that can point either `up' or `down') arranged in a line?\footnote{We will consider \href{https://en.wikipedia.org/wiki/Spin_model}{spin systems} extensively in this module.  In addition to obeying simple mathematics analogous to flipping coins, spins also serve as good models of physical systems such as magnetic molecules.}
 What information would characterize the state of $N$ hydrogen (H$_2$) molecules in a container?
@@ -27,7 +27,7 @@ Because statistical physics was first developed when conservation of energy was 
 Another way of stating the first law is that any change in the internal energy of one particular system \Om must be matched by an equal and opposite change in the energy of some other system(s) with which \Om is in contact.
 We will return to this formulation of the first law in future weeks.
 
-For now, let's return to the \textbf{examples} above, and suppose that the spin system is placed in an external magnetic field.
+For now, let's return to the examples above, and suppose that the spin system is placed in an external magnetic field.
 If a spin is parallel to the field, it contributes energy $-H$ to the total energy $E$ of the system.
 If a spin is anti-parallel to the field, it instead contributes energy $H \geq 0$.
 What is the total energy $E$ of a system of $N$ spins in a state with $n_+$ spins anti-parallel to the field and $n_- = N - n_+$ parallel to it?
@@ -39,9 +39,9 @@ How many of the $2^8 = 256$ states of the spin system have this energy?
 For the $N$ hydrogen molecules in a container, we can write a simple expression for the energy $E$ by treating each molecule as a \textit{point-like particle}, with no size or structure.
 In this case each molecule contributes only its kinetic energy to $E$,
 \begin{equation*}
-  E = \frac{m}{2} \sum_{i = 1}^N \vec{v}_i^{\,2} = \frac{1}{2m} \sum_{i = 1}^N \vec{p}_i^{\,2},
+  E = \frac{m}{2} \sum_{n = 1}^N \vec{v}_n^{\,2} = \frac{1}{2m} \sum_{n = 1}^N \vec{p}_n^{\,2},
 \end{equation*}
-where $\vec v_i$ is the velocity of the $i$th molecule, $\vec p_i = m \vec v_i$ is its momentum, and all molecules have exactly the same mass $m$.
+where $\vec v_n$ is the velocity of the $n$th molecule, $\vec p_n = m \vec v_n$ is its momentum, and all molecules have exactly the same mass $m$.
 
 As emphasized in last week's introduction, we treat the time evolution of the system as a stochastic process in which the system probabilistically adopts a sequence of states $\om_i \in \Om$:
 \begin{equation*}
@@ -133,7 +133,7 @@ Extensive quantities are formally defined by considering how they behave if two 
 This is clearest to consider through the specific example shown below of two isolated spin systems, $\Om_1$ \& $\Om_2$, respectively characterized by the corresponding energies $E_1$ \& $E_2$ and particle numbers $N_1$ \& $N_2$.
 To simplify the subsequent analysis, we can assume that both systems are placed in external magnetic fields with the same $H$, so that $E_S = H\left(n_+^{(S)} - n_-^{(S)}\right)$ for $S \in \left\{1, 2\right\}$.
 \begin{center}
-  \includegraphics[width=0.7\textwidth]{figs/week02_entropy-separate.pdf}
+  \includegraphics[width=0.7\textwidth]{figs/unit02_entropy-separate.pdf}
 \end{center}
 
 In the figure above, we can take system $\Om_1$ to have $M_1$ micro-states with probabilities $p_i$ while system $\Om_2$ has $M_2$ micro-states with probabilities $q_k$.
@@ -145,7 +145,7 @@ Then, even without assuming thermodynamic equilibrium, the entropies of the two 
 \end{align*}
 
 \begin{center}
-  \includegraphics[width=0.7\textwidth]{figs/week02_entropy-combo.pdf}
+  \includegraphics[width=0.7\textwidth]{figs/unit02_entropy-combo.pdf}
 \end{center}
 
 Now we keep these two (sub)systems isolated from each other, but consider them as a combined system $\Om_{1+2}$, as illustrated above.
@@ -200,7 +200,7 @@ Let's continue considering the two spin (sub)systems discussed above, with one s
 We'll say they are in \textit{thermal contact} with each other, rather than being fully isolated.
 This is illustrated by the figure below:
 \begin{center}
-  \includegraphics[width=0.7\textwidth]{figs/week02_entropy-exchange.pdf}
+  \includegraphics[width=0.7\textwidth]{figs/unit02_entropy-exchange.pdf}
 \end{center}
 The total energy $E = E_1 + E_2$ remains conserved, so the overall system \Om is still governed by the micro-canonical ensemble.
 However, the individual energies $E_1$ and $E_2$ can now change as time passes, meaning that \textit{each subsystem is no longer micro-canonical}.
@@ -354,28 +354,28 @@ We can then re-isolate the two subsystems, which will now have energies $E_A'$ a
 This three-step procedure is illustrated below.
 
 \begin{center}
-  \includegraphics[width=0.45\textwidth]{figs/week02_heat-exchange.pdf}
+  \includegraphics[width=0.45\textwidth]{figs/unit02_heat-exchange.pdf}
 \end{center}
 
 From everyday experience, we expect that this energy exchange will result in a net flow of energy from the hotter system to the colder system, cooling the former by heating the latter.
 We will now check that the micro-canonical definition of temperature in \eq{eq:temperature} predicts this expected behaviour.
 We define
 \begin{align*}
-  E_i' & = E_i + \De E_i &
-  \left|\frac{\De E_i}{E_i}\right| & \ll 1 &
-  i & \in \left\{A, B\right\},
+  E_S' & = E_S + \De E_S &
+  \left|\frac{\De E_S}{E_S}\right| & \ll 1 &
+  S & \in \left\{A, B\right\},
 \end{align*}
 for simplicity considering the case where the change in energy is relatively small (suggesting that $E_A$ and $E_B$ are not extremely different).
 We also know $\De E_B = -\De E_A$ thanks to conservation of energy.
 
-Equation~\ref{eq:temperature} tells us that we need to consider the entropies as functions of $E_i$ and $E_i'$ in order to connect the temperatures to any flow of energy.
+Equation~\ref{eq:temperature} tells us that we need to consider the entropies as functions of $E_S$ and $E_S'$ in order to connect the temperatures to any flow of energy.
 (Because we don't change the number of particles in each system, we only need to consider the energy dependence of the entropy.)
-We assume that we can expand each of the final entropies $S(E_i')$ in a Taylor series,
+We assume that we can expand each of the final entropies $S(E_S')$ in a Taylor series,
 \begin{equation*}
-  S(E_i') = S(E_i + \De E_i) \approx S(E_i) + \left.\pderiv{S}{E}\right|_{E_i} \De E_i,
+  S(E_s') = S(E_S + \De E_S) \approx S(E_S) + \left.\pderiv{S}{E}\right|_{E_S} \De E_S,
 \end{equation*}
-neglecting all $\cO\left(\De E_i^2\right)$ terms because we consider relatively small changes in energy.\footnote{The assumption here is that $S(E)$ is continuous and infinitely differentiable, which is not the case at a \textit{first-order phase transition}, where we would need to be more careful.  We will learn about phase transitions towards the end of the term.}
-What is the linearized Taylor series above in terms of the initial temperatures $T_i$?
+neglecting all $\cO\left(\De E_S^2\right)$ terms because we consider relatively small changes in energy.\footnote{The assumption here is that $S(E)$ is continuous and infinitely differentiable, which is not the case at a \textit{first-order phase transition}, where we would need to be more careful.  We will learn about phase transitions towards the end of the term.}
+What is the linearized Taylor series above in terms of the initial temperatures $T_S$?
 \begin{mdframed}
   \ \\[50 pt]
 \end{mdframed}
@@ -402,6 +402,6 @@ Applying conservation of energy should produce
 Recalling from \secref{sec:second_law} that equality holds only in extremely special cases, we can identify three possibilities consistent with this result.
 If $T_A > T_B$, then $\left(\frac{1}{T_A} - \frac{1}{T_B}\right)$ is negative and we will generically have $\De E_A < 0$, so that energy flows out of the hotter system $\Om_A$ and into the colder one.
 Similarly, if $T_A < T_B$, we will generically have $\De E_A > 0$, and energy still flows from the hotter system $\Om_B$ into the colder one.
-We can finally conclude that $T_A = T_B$ is the very special case where there is no energy flow, $\De E_i = 0$.
+We can finally conclude that $T_A = T_B$ is the very special case where there is no energy flow, $\De E_S = 0$.
 All of this is exactly what we expected based on everyday experience.
 % ------------------------------------------------------------------

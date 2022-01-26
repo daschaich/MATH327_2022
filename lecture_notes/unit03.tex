@@ -1,11 +1,11 @@
 % ------------------------------------------------------------------
-\renewcommand{\thisweek}{MATH327 Week 3}
-\renewcommand{\moddate}{Last modified 4 Mar.~2021}
+\renewcommand{\thisunit}{MATH327 Unit 3}
+\renewcommand{\moddate}{Last modified 17 Jan.~2022}
 \setcounter{section}{3}
 \setcounter{subsection}{0}
 \phantomsection
-\addcontentsline{toc}{section}{Week 3: Canonical ensemble}
-\section*{Week 3: Canonical ensemble}
+\addcontentsline{toc}{section}{Unit 3: Canonical ensemble}
+\section*{Unit 3: Canonical ensemble}
 \subsection{\label{sec:reservoir}The thermal reservoir}
 \subsubsection{\label{sec:replicas}Replicas and occupation numbers}
 While it is relatively easy to prevent particle exchange, for example by sealing gases inside airtight containers, it is not practical to forbid energy exchange as would be needed to fully isolate statistical systems.
@@ -36,14 +36,14 @@ An extremely small example of this setup is illustrated by the figures below, wh
 For now we assume the spins are \textit{distinguishable}, so that $\downarrow\uparrow$ and $\uparrow\downarrow$ are both distinct micro-states.
 This means that each individual replica has only the $M = 4$ micro-states $\om_i$ defined below.
 \begin{center}
-  \includegraphics[width=0.7\textwidth]{figs/week03_spin-system.pdf}
+  \includegraphics[width=0.7\textwidth]{figs/unit03_spin-system.pdf}
 \end{center}
 To form the overall system $\Om_{\text{tot}}$ we now bring together the $R = 9$ replicas shown below.
 We draw boxes around each replica to remind us that they are allowed to exchange only energy with each other, while the $N = 2$ spins are conserved in each replica.
 We pick out one of these replicas (coloured red) to serve as the system \Om we will consider.
 The other $8$ are the thermal reservoir $\Om_{\text{res}}$ that fixes the temperature of $\Om$.
 \begin{center}
-  \includegraphics[width=0.7\textwidth]{figs/week03_spin-reservoir.pdf}
+  \includegraphics[width=0.7\textwidth]{figs/unit03_spin-reservoir.pdf}
 \end{center}
 
 A convenient way to analyze the overall system of $R$ replicas, $\Om_{\text{tot}}$, is to define the \textbf{occupation number} $n_i$ to be the number of replicas that adopt the micro-state $\om_i \in \Om$ in any given micro-state of $\Om_{\text{tot}}$.
@@ -344,7 +344,7 @@ These results for $\vev{E}_D$ and $S_D$ are plotted below as functions of $\frac
 Since both these quantities are extensive, we show them in natural units, $\frac{\vev{E}_D}{NH}$ and $\frac{S_D}{N}$.
 
 \begin{center}
-  \includegraphics[width=0.7\textwidth]{figs/week03_distinguish.pdf}
+  \includegraphics[width=0.7\textwidth]{figs/unit03_distinguish.pdf}
 \end{center}
 
 Let's check the asymptotic behaviour of these functions, starting with \textbf{low temperatures}.
@@ -447,7 +447,7 @@ In contrast to \eq{eq:dist_Helm}, $F_i(\be)$ is no longer proportional to $N$.
 In a homework assignment you will use $F_I$ to determine the average internal energy $\vev{E}_I$ and entropy $S_I$ shown in the figures below, and also check the low- and high-temperature expansions like we did for the distinguishable case above.
 Unlike our results for the distinguishable case, you will find that $\frac{\vev{E}_I}{NH}$ and $\frac{S_I}{N}$ depend on $N$, which requires us to fix $N = 4$ in the plots below.
 \begin{center} % Don't need centering, but this will provide consistent vertical spacing
-  \includegraphics[width=0.45\textwidth]{figs/week03_energies.pdf}\hfill \includegraphics[width=0.45\textwidth]{figs/week03_entropies.pdf}
+  \includegraphics[width=0.45\textwidth]{figs/unit03_energies.pdf}\hfill \includegraphics[width=0.45\textwidth]{figs/unit03_entropies.pdf}
 \end{center}
 
 The dash-dotted lines in these figures are exactly the distinguishable-spin results shown above.
