@@ -1,272 +1,400 @@
 % ------------------------------------------------------------------
-\renewcommand{\thisweek}{MATH327 Week 9}
-\renewcommand{\moddate}{Last modified 24 Apr.~2021}
+\renewcommand{\thisunit}{MATH327 Unit 9}
+\renewcommand{\moddate}{Last modified 17 Jan.~2022}
 \setcounter{section}{9}
 \setcounter{subsection}{0}
 \phantomsection
-\addcontentsline{toc}{section}{Week 9: Quantum gases of fermions}
-\section*{Week 9: Quantum gases of fermions}
-\subsection{\label{sec:fermi_nonrel}Non-relativistic ideal fermion gas}
-This week we wrap up our applications of the grand-canonical ensemble to investigate ideal gases of non-interacting particles.
-We again take the quantum statistical approach of defining micro-states by summing over the possible occupation numbers $n_{\ell}$ for each energy level $\cE_{\ell}$ with energy $E_{\ell}$.
-In contrast to the bosonic case considered last week, we now focus on quantum gases of fermions, where the only possible occupation numbers are $n_{\ell} = 0$ and $1$, since the Pauli exclusion principle prevents multiple identical fermions from occupying the same energy level.
+\addcontentsline{toc}{section}{Unit 9: Interacting systems}
+\section*{Unit 9: Interacting systems}
+\subsection{\label{sec:Ising}From non-interacting spins to the Ising model}
+So far in this module we have considered `ideal' systems whose constituent objects do not interact with each other.
+While we have seen that excellent mathematical models for real physical systems (such as stars and the cosmic microwave background) can be obtained despite this approximation of non-interacting particles, there are important statistical physics phenomena that cannot be captured by this approach.
 
-In \secref{sec:fermi} we derived the grand-canonical partition function (\eq{eq:partfunc_FD}) that defines quantum Fermi--Dirac statistics for such systems of non-interacting fermions,
-\begin{equation*}
-  \ZFD(\be, \mu) = \prod_{\ell = 0}^L \left[1 + e^{-\be (E_{\ell} - \mu)}\right],
-\end{equation*}
-for inverse temperature $\be = 1 / T$ and chemical potential $\mu$.
-Recall that it is possible for systems of fermions to have any value for the chemical potential (either positive or negative), in contrast to the systems of bosons we considered last week.
-From the corresponding grand-canonical potential,
-\begin{equation*}
-  \Phi_{\text{FD}} = -T \sum_{\ell = 0}^L \log\left[1 + e^{-\be (E_{\ell} - \mu)}\right]
-\end{equation*}
-we can determine the large-scale properties of the system, including its average internal energy $\vev{E}$, average particle number $\vev{N}$, entropy $S$, and pressure $P$, along with the equation of state relating these quantities.
+An important class of examples, which we will investigate this week, are \textbf{phase transitions}, where interactions allow the same particles to produce extremely different large-scale behaviours, depending on control parameters such as the temperature or pressure.
+An everyday example is the transition of H$_2$O molecules from liquid water to solid ice as the temperature decreases.
+As the temperature of the universe itself decreased during the first few micro-seconds following the big bang, elementary particles transitioned from a so-called quark--gluon plasma to the protons and neutrons we are made out of today.
+An intermediate example illustrated in the figure below (\href{https://doi.org/10.1063/PT.3.4384}{source}) involves two layers of graphene at a low temperature $T \approx 1.7$~K.
+If these two layers are rotated with respect to each other by a small ``magic angle'' $\theta \approx 1.1^{\circ}$, the system transitions from being an electrical insulator to being a superconductor.
 
-A concrete calculation requires specifying the energy levels of the particles that compose the gas, and the degeneracies of those energy levels.
-Let's begin this week by considering non-relativistic particles of the sort we previously analyzed in \secref{sec:regulate}.
-In a volume $V = L^3$, the energy levels are defined by the non-zero quantized energies
+\begin{center}\includegraphics[width=0.5\textwidth]{figs/unit09_graphene.pdf}\end{center}
+
+We will introduce interactions and explore their effects using simple spin systems of the sort we previously analyzed in some depth during weeks $2$ and $3$.
+In the non-interacting case we previously considered, the internal energy of the system (\eq{eq:spin_energy}) is
+\begin{equation*}
+  E = H \sum_{n = 1}^N s_n \qquad \mbox{(non-interacting)},
+\end{equation*}
+where $H > 0$ is the constant strength of an external magnetic field and the orientation of the $n$th spin, $s_n$, takes one of only two possible values: $s_n = 1$ if the spin is aligned anti-parallel to the field and $s_n = -1$ if the spin is aligned parallel to the field.
+The ground state of the system features all $N$ spins aligned parallel to the magnetic field, with minimal energy $E_0 = -NH$.
+This week we will only consider systems of distinguishable spins, which can be labeled by their fixed position in a $d$-dimensional simple cubic \textbf{lattice} like that shown below for $d = 2$ dimensions.
+The $d = 1$ case of a one-dimensional lattice is precisely the system of spins arranged in a line that we analyzed in \secref{sec:spin_chain}.
+
+\begin{center}\includegraphics[width=0.8\textwidth]{figs/unit09_spins.pdf}\end{center}
+
+We can see that the total internal energy of the non-interacting system can easily be written as a sum over energies for each individual spin,
 \begin{align*}
-  E(k) & = \frac{p^2}{2m} = \frac{\hbar^2 \pi^2}{2mL^2}\left(k_x^2 + k_y^2 + k_z^2\right) &
-  k_{x, y, z} & = 1, 2, \cdots.
+  E_n & = H s_n &
+  E & = \sum_{n = 1}^N E_n \qquad \mbox{(non-interacting)}.
 \end{align*}
-In addition to the usual degeneracies coming from permutations of $(k_x, k_y, k_z)$ that we discussed in previous weeks, for each distinct $\vec k$ typical fermions such as electrons have two degenerate energy levels with the same energy.
-This factor of $2$ has a different origin compared to the double degeneracy discussed for photons last week.
-Rather than worry about the physical origins of this behaviour, in both cases we simply incorporate this given information into our ansatz. % TODO: Could mention spin...
+This is a generic feature of non-interacting systems, and an aspect of the \textbf{factorization} that enormously simplifies calculations by causing the $N$-particle partition function (\eq{eq:spin_part_func}) to take the form of a product of $N$ identical terms, $Z = \left[2\cosh\left(\be H\right)\right]^N = Z_1^N$.
+However, a stronger condition needs to be satisfied in order for such factorization to be guaranteed, which rigorously defines what it means for a system to be non-interacting.
 
-The grand-canonical potential for an ideal gas of non-relativistic fermions is therefore
-\begin{equation*}
-  \Phi_{\text{f}} = T \sum_{\ell = 0}^L \log\left[1 + e^{-\be (E_{\ell} - \mu)}\right] = 2T \sum_{\vec k} \log\left[1 + \exp\left(-\frac{\hbar^2 \pi^2 k^2}{2mL^2 T} + \frac{\mu}{T}\right)\right].
-\end{equation*}
-We can again proceed by considering the gas in a large volume and approximating the sum over discrete integer $k_{x, y, z}$ by integrals over continuous real $\khat_{x, y, z}$:
-\begin{equation*}
-  \Phi_{\text{f}} \approx 2T \int d\khat_x d\khat_y d\khat_z \log\left[1 + \exp\left(-\frac{\hbar^2 \pi^2 \khat^2}{2mL^2 T} + \frac{\mu}{T}\right)\right].
-\end{equation*}
-Converting to spherical coordinates and carrying out the angular integrations over the $\frac{\pi}{2}$ solid angle of the octant of the sphere with $k_{x, y, z} > 0$, we have
-\begin{equation*}
-  \Phi_{\text{f}} \approx \pi T \int_0^{\infty} d\khat \; \khat^2 \log\left[1 + \exp\left(-\frac{\hbar^2 \pi^2 \khat^2}{2mL^2 T} + \frac{\mu}{T}\right)\right].
-\end{equation*}
-In the same spirit as the change of variables we carried out last week, to integrate over photon frequencies $\om = \Eph / \hbar$, we will now change variables to integrate over the fermion energy:
-\begin{align*}
-  E = \frac{\hbar^2 \pi^2}{2mL^2}\khat^2 \quad \lra \quad \khat & = \frac{L\sqrt{m}}{\pi \hbar} \sqrt{2E} \cr
-                                                         d\khat & = \frac{L\sqrt{m}}{\pi \hbar} \frac{dE}{\sqrt{2E}}.
-\end{align*}
-Plugging this in produces
-\begin{align}
-  \Phi_{\text{f}} & \approx \pi T \left(\frac{L^3 m^{3 / 2}}{\pi^3 \hbar^3}\right) \int_0^{\infty} dE \frac{2E}{\sqrt{2E}} \log\left[1 + e^{-\be(E - \mu)}\right] \cr
-                  & = \frac{\sqrt{2 m^3} VT}{\pi^2 \hbar^3} \int_0^{\infty} dE \sqrt{E} \log\left[1 + e^{-\be(E - \mu)}\right]. \label{eq:fermi_grand}
-\end{align}
-recognizing $L^3 = V$.
+\begin{shaded}
+  Let $\De E_i$ be the change in the system's internal energy caused by changing its $i$th degree of freedom.
+  Then the system is defined to be \textbf{non-interacting} if and only if $\De E_i$ is independent of all other degrees of freedom $k \ne i$.
+\end{shaded}
 
-With this grand-canonical potential derived, we just need to take the appropriate derivatives to determine the thermodynamics and equation of state for non-relativistic fermions.
-When doing so, we'll focus on the low-temperature regime where we expect quantum Fermi--Dirac statistics to differ significantly from the classical case we considered back in \secref{sec:regulate}.
-As we saw in \secref{sec:quantum_classical}, at high temperatures (with large negative chemical potential) the classical approach provides a good approximation to the true quantum physics.
-% TODO: Low temperatures provide a significant simplification, which is why we only consider that regime this week
-% ------------------------------------------------------------------
-
-
-
-% ------------------------------------------------------------------
-\subsection{Low-temperature equation of state}
-Rather than the average internal energy $\vev{E}_{\text{f}}$, it will prove profitable to first analyze the average particle number
+For our system of $N$ distinguishable spins, the only possible change we can make to a degree of freedom is to negate it, $s_i \to -s_i$, which corresponds to flipping its alignment relative to the external magnetic field.
+This spin flip causes the total energy to change,
 \begin{equation*}
-  \vev{N}_{\text{f}} = -\pderiv{}{\mu} \Phi_{\text{f}}
+  E = H \sum_{n = 1}^N s_n = H\left(s_i + \sum_{k \ne i} s_k\right) \quad \lra \quad H\left(-s_i + \sum_{k \ne i} s_k\right),
 \end{equation*}
-coming from the grand-canonical potential for non-relativistic fermions, \eq{eq:fermi_grand}.
-In analogy to the Planck spectrum we derived for the photon gas last week, we first express the particle number density as an integral over energies,
-\begin{equation*}
-  \frac{\vev{N}_{\text{f}}}{V} = \frac{\sqrt{2m^3}}{\pi^2 \hbar^3} \int_0^{\infty} F(E) \sqrt{E} \; dE,
-\end{equation*}
-where the function $F(E)$ is known as the Fermi function.
-In contrast to the Planck spectrum, all the constant factors are kept separate from $F(E)$:
-\begin{align}
-  \frac{\vev{N}_{\text{f}}}{V} & = \frac{\sqrt{2m^3} T}{\pi^2 \hbar^3} \int_0^{\infty} dE \sqrt{E} \pderiv{}{\mu} \log\left[1 + e^{-\be(E - \mu)}\right] \cr
-                               & = \frac{\sqrt{2m^3}}{\pi^2 \hbar^3} \int_0^{\infty} \frac{1}{e^{\be(E - \mu)} + 1} \sqrt{E} \; dE = \frac{\sqrt{2m^3}}{\pi^2 \hbar^3} \int_0^{\infty} F(E) \sqrt{E} \; dE. \label{eq:N_fermi}
-\end{align}
-This allows the Fermi function to closely resemble the average occupation numbers $\vev{n_{\ell}}$ we computed in \secref{sec:quantum_classical}:
+corresponding to $\De E_i = -2H s_i$, which is indeed independent of all spins $s_k$ with $k \ne i$.
+This simple check confirms that our definition works for the non-interacting spin system under consideration.
+
+Now let's convert this setup into a system of interacting spins by adding the simplest possible two-spin contribution to its energy:
 \begin{equation}
-  \label{eq:Fermi_func}
-  F(E) = \frac{1}{e^{\be(E - \mu)} + 1}.
+  \label{eq:Ising_energy}
+  E = -\sum_{(ij)} s_i s_j + H \sum_{n = 1}^N s_n.
 \end{equation}
-
-As usual in the grand-canonical approach, the average particle number and Fermi function depend on both the inverse temperature \be and the chemical potential $\mu$.
-Expressing $F(E)$ in terms of the dimensionless ratios $E / \mu$ and $T / \mu$,
-\begin{equation*}
-  F(E) = \frac{1}{\exp\left[\frac{E - \mu}{T}\right] + 1} = \frac{1}{\exp\left[\frac{\mu}{T}\left(\frac{E}{\mu} - 1\right)\right] + 1} = \frac{1}{\left(\exp\left[\frac{E}{\mu} - 1\right]\right)^{\mu / T} + 1},
-\end{equation*}
-we can highlight the two main features of the figure below, which plots the Fermi function against $E / \mu$ for various temperatures $T / \mu$.
-
-\begin{center}\includegraphics[width=\textwidth]{figs/week09_dist.pdf}\end{center}
-
-First, we can see that the point $E = \mu$, where $F(E) = 1 / 2$ for any non-zero temperature, is a threshold at which the behaviour of the Fermi function changes.
-For larger energies $E > \mu$, the exponential factor $\exp\left[\frac{E}{\mu} - 1\right] > 1$ and drives $F(E) \to 0$ as the energy increases.
-For smaller energies $E < \mu$, the exponential factor $\exp\left[\frac{E}{\mu} - 1\right] < 1$ and vanishes as the energy decreases, leaving $F(E) \to 1$.
-These two asymptotic limits reflect the possible energy level occupation numbers for fermions, $n_{\ell} = 0$ and $1$.
-Second, smaller temperatures cause much more rapid approach to these two limits, with the exponential factor either enhanced (if $E > \mu$) or suppressed (if $E < \mu$) by a power $\mu / T \gg 1$.
-Therefore, for small temperatures $T \ll \mu$, we can simplify our calculations by approximating the Fermi function as a step function,
-\begin{equation}
-  \label{eq:Fermi_step}
-  F(E) \approx \left\{\begin{array}{l}1 \qquad \mbox{for } \ E < \mu \\
-                                      0 \qquad \mbox{otherwise}\end{array}\right. .
-\end{equation}
-Using this approximation, what is the resulting particle number density?
+The first sum runs over all pairs of nearest-neighbour spins in the lattice, denoted $(ij)$.
+What is the change in energy $\De E_i$ from \eq{eq:Ising_energy} upon negating $s_i \to -s_i$?
+Does this indicate an interacting or non-interacting system?
 \begin{mdframed}
-  $\displaystyle \frac{\vev{N}_{\text{f}}}{V} = \frac{\sqrt{2m^3}}{\pi^2 \hbar^3} \int_0^{\infty} F(E) \sqrt{E} \; dE = $ \\[100 pt]
+  \ \\[100 pt]
+\end{mdframed}
+The pictures below illustrate nearest-neighbour pairs for simple cubic lattices in $d = 2$ and $3$ dimensions, while also introducing some additional lattice terminology.
+
+\begin{center}
+  \includegraphics[height=0.4\textwidth]{figs/unit09_lattice_2d.pdf}\hfill
+  \includegraphics[height=0.4\textwidth]{figs/unit09_lattice_3d.pdf}
+\end{center}
+
+Instead of drawing up- and down-pointing arrows, these pictures identify the spins with \textit{sites} in the lattice represented as points (or larger filled circles).
+In simple cubic lattices, all sites are positioned in a regular grid, separated by a constant distance along each basis vector.
+In between nearest-neighbour sites, we can draw \textit{links} as solid lines.
+The picture of a two-dimensional lattice on the left highlights the four links (with red hatch marks) that correspond to the four nearest neighbours (circled in red) of a particular site (circled in blue).
+While we can only have physical lattices with $d = 1$, $2$ or $3$ in nature, the mathematical construction works just as well for any integer $d \geq 1$.
+For $d \geq 2$, an elementary unit of surface area is called a \textit{plaquettes}, while for $d \geq 3$ the elementary unit of volume is called a \textit{cube}.
+
+Computing the energy in \eq{eq:Ising_energy} requires determining all of the nearest-neighbour pairs to be summed in the first term, which is equivalent to all of the links in the lattice, $\ell = (ij)$.
+The only potential complication to this task is the need to consider what happens at the edges of the (finite) lattice.
+We can avoid this complication by imposing \textbf{periodic boundary conditions}, which add an extra link between each site on the left edge of the lattice and a corresponding site on the right edge (and similarly in all other dimensions).
+This is illustrated below for the simple one-dimensional lattice, which has been drawn as a circle to emphasize that all $N$ sites remain separated by a constant distance.
+In higher dimensions, periodic boundary conditions produce flat (zero-curvature) $d$-dimensional tori that preserve the simple cubic lattice structure.
+
+\begin{center}\includegraphics[width=0.45\textwidth]{figs/unit09_lattice_1d.pdf}\end{center}
+
+With periodic boundary conditions, we can easily see that the $N$-site one-dimensional lattice drawn above has $N$ links.
+Each site has two links connecting it to its two nearest neighbours, and each of those links is shared between two sites, so that $\#\ell = 2N / 2 = N$.
+Looking back to the two-dimensional lattice drawn farther above, the four links per site produce $\#\ell = 4N / 2 = 2N$.
+How many terms are there in the sum $\sum_{(ij)}$ in \eq{eq:Ising_energy} for $N$-site lattices with periodic boundary conditions in $d$ dimensions?
+\begin{mdframed}
+  \ \\[50 pt]
 \end{mdframed}
 
-You should find a result proportional to $\mu^{3 / 2}$ but independent of $T$.
-The temperature independence can be understood by viewing this as the leading-order term in an expansion in the small temperature (known as a \textit{Sommerfeld expansion}, named after \href{https://en.wikipedia.org/wiki/Arnold_Sommerfeld}{Arnold Sommerfeld}).
-The $\mu^{3 / 2}$ dependence on the chemical potential is also what we would predict even without doing the detailed calculation.
-The step function in \eq{eq:Fermi_step} corresponds to a single fermion occupying each and every energy level with $E_{\ell} < \mu$, while all energy levels with $E_{\ell} > \mu$ are unoccupied.
-Since $E(k) \propto k^2$, summing over all $k_{x, y, z}$ corresponds to computing (a portion of) the volume of a sphere of radius $r = \sqrt{\mu}$, which is proportional to $r^3 = \mu^{3 / 2}$ as we found directly above.
-If we were to invert this relation, we would obtain the so-called \textbf{Fermi energy} as a function of the particle number density,
-\begin{equation}
-  \label{eq:Fermi_energy}
-  E_F = \mu = \frac{\hbar^2}{2m}\left(\frac{3\pi^2 \vev{N}_{\text{f}}}{V}\right)^{2 / 3}.
-\end{equation}
+The energy in \eq{eq:Ising_energy}, with nearest-neighbour spins specified by the underlying simple cubic lattice structure, defines a famous system known as the $d$-dimensional \textbf{Ising model}.
+Since the 1960s, the Ising model has been the basis of thousands of scientific studies analyzing everything from ferromagnetism to neural networks to urban segregation.\footnote{For a brief summary, see Charlie Wood, ``\href{https://www.quantamagazine.org/the-cartoon-picture-of-magnets-that-has-transformed-science-20200624/}{The Cartoon Picture of Magnets That Has Transformed Science}'', \textit{Quanta Magazine}, 24 July 2020.}
+The model was proposed in 1920 by \href{https://en.wikipedia.org/wiki/Wilhelm_Lenz}{Wilhelm Lenz}, whose PhD student \href{https://en.wikipedia.org/wiki/Ernst_Ising}{Ernst Ising} solved the one-dimensional system as a research project in 1924.
+Exactly solving the two-dimensional case (with $H = 0$) took another twenty years, culminating in renowned work by \href{https://en.wikipedia.org/wiki/Lars_Onsager}{Lars Onsager} in 1944.
+The three-dimensional Ising model remains an open mathematical question, with no known exact solution.
 
-Now we can consider the average energy density of the non-relativistic fermion gas at low temperatures.
-Rather than taking another derivative of the grand-canonical potential, we can note from \eq{eq:total_energy_levels} and from our work on the photon gas last week that
-\begin{equation}
-  \frac{\vev{E}_{\text{f}}}{V} = \frac{\sqrt{2m^3}}{\pi^2 \hbar^3} \int_0^{\infty} E \; F(E) \sqrt{E} \; dE.
-\end{equation}
-That is, instead of simply counting the number of fermions in the system, we need to add up their energies, introducing an extra factor of $E$ compared to \eq{eq:N_fermi}.
-Still using the low-temperature step-function approximation for the Fermi function in \eq{eq:Fermi_step}, what is the average energy density?
+In this context, `solving' the Ising model means deriving a closed-form expression for its canonical partition function,
+\begin{equation*}
+  Z(\be, N, H) = \sum_{\left\{s_n\right\}} \exp\left[-\be E(s_n)\right] = \sum_{\left\{s_n\right\}} \exp\left[\be\sum_{(ij)} s_i s_j - \be H \sum_n s_n\right].
+\end{equation*}
+As in \secref{sec:spin_info}, the partition function sums over all possible spin configurations $\left\{s_n\right\}$, which amounts to a sum of $2^N$ exponential factors for $N$ spins, with $\cO(N)$ terms within each exponential.
+Now that the system is interacting, the partition function can no longer be factorized into $N$ identical two-term factors, making it extremely difficult to evaluate.
+This is why there is no known exact solution to the three-dimensional Ising model, and it also makes `brute-force' numerical computations impractical.
+Even for a system of $N = 1023$ spins (tiny compared to Avogadro's number $\sim 10^{23}$) there would be roughly $2^{1023} \sim 10^{310}$ terms in the partition function, far beyond the capabilities of existing or foreseeable supercomputers.
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\subsection{\label{sec:Ising_phases}Ising model phases and phase transition}
+Similarly to how we analyzed non-interacting spin systems in \secref{sec:spin_info}, we can simplify the Ising model by considering its behaviour in the limits of high and low temperatures.
+For another simplification, we will set $H = 0$ in this section, and consider
+\begin{align}
+  \label{eq:Ising_zero_field}
+  E & = -\sum_{(ij)} s_i s_j &
+  Z(\be, N) & = \sum_{\left\{s_n\right\}} \exp\left[\be\sum_{(ij)} s_i s_j\right].
+\end{align}
+We will see that the large-scale behaviour of the Ising model is qualitatively different at high temperatures compared to low temperatures.
+In other words, the system exhibits two distinct phases for different temperatures.
+This is a necessary but not sufficient condition for there to be a true phase transition---a priori, it is possible for there to be a gradual \textit{crossover} between these two phases, as opposed to a rapid transition.
+We will use the Ising model to more rigorously define what exactly constitutes a phase transition, and how this can be distinguished from a crossover.
+
+\newpage % WARNING: FORMATTING BY HAND
+The Ising model partition function becomes extremely simple in the \textbf{high-temperature} limit $\be \to 0$.
+What is its asymptotic limit?
 \begin{mdframed}
-  $\displaystyle \frac{\vev{E}_{\text{f}}}{V} = \frac{\sqrt{2m^3}}{\pi^2 \hbar^3} \int_0^{\infty} F(E) E^{3 / 2} \; dE = $ \\[100 pt]
+  $\displaystyle Z(\be = 0, N) = $ \\[50 pt]
+\end{mdframed}
+You should find a result identical to that for a micro-canonical system with energy $E = 0$, which is clearly non-interacting since $\De E_i = 0$.
+Every spin configuration is a different micro-state of the system, all with the same probability $p_i = 1 / 2^N$, as in \eq{eq:micro_equil}.
+
+Effectively, we are considering temperatures so high that the energy from \eq{eq:Ising_zero_field} is negligible for any spin configuration.
+Although the energy no longer distinguishes between different micro-states, we can define a quantity that continues to be sensitive to the details of the spin configuration.
+This is the \textbf{magnetization} $M = n_+ - n_-$, where we redefine $n_{\pm}$ to be the number of spins with value $\pm 1$, so that $N = n_+ + n_-$.\footnote{In week $2$ we defined $n_{\pm}$ based on spins' alignment with or against the external magnetic field, which no longer applies now that we have set $H = 0$.}
+It is convenient to normalize the total magnetization $M$ by the number of spins,
+\begin{equation}
+  \label{eq:Ising_magnet}
+  |m| \equiv \frac{|M|}{N} = \frac{|n_+ - n_-|}{n_+ + n_-}
+\end{equation}
+so that $0 \leq |m| \leq 1$ for any value of $N$.
+
+Our task is now to determine the expectation value of the magnetization at high temperatures.
+Above we found that all spin configurations are equally probable in this regime, so $\vev{|m|}$ will be determined by how likely it is for these micro-states to have a particular magnetization.
+For example, there are only two micro-states with $|m| = 1$, corresponding to $(n_+, n_-) = (N, 0)$ and $(0, N)$.
+In general, just as we saw in \eq{eq:spin_states}, there are
+\begin{equation*}
+  \binom{N}{n_+} = \binom{N}{n_-} = \frac{N!}{n_+! \; n_-!}
+\end{equation*}
+equally probable micro-states with a given $n_+ = N - n_-$.
+For large $N \gg 1$ this binomial coefficient is factorially peaked around
+\begin{equation*}
+  n_+ = n_- = \frac{1}{2} N \qquad \lra \qquad |m| = 0,
+\end{equation*}
+which defines a \textbf{disordered phase} with similar numbers of up- and down-pointing spins producing a small magnetization.
+In the so-called \textit{thermodynamic limit} $N \to \infty$, the expectation value of the magnetization in the disordered phase vanishes exactly, $\vev{|m|} \to 0$.
+
+We now need to determine $\vev{|m|}$ in the \textbf{low-temperature} limit $\be \to \infty$.
+In this regime, as we saw in \secref{sec:spin_chain}, the Boltzmann factor $\exp\left[\be\sum_{(ij)} s_i s_j\right]$ makes it exponentially more likely for the system to adopt micro-states with lower energies.
+In particular, we can expect the ground state to dominate the expectation value of the magnetization, $\vev{|m|}$, up to exponentially suppressed corrections from higher-energy excited states.
+With $H = 0$, the Ising model has two degenerate ground states corresponding to the two ways all the spins can be aligned with each other: $(n_+, n_-) = (N, 0)$ and $(0, N)$.
+What is the ground-state energy of the $N$-site Ising model in $d$ dimensions?
+\begin{mdframed}
+  $\displaystyle E_0 = -\sum_{(ij)} s_i s_j = $ \\[50 pt]
 \end{mdframed}
 
-You should find
-\begin{equation}
-  \label{eq:fermi_E_N}
-  \vev{E}_{\text{f}} = \frac{3}{5} \mu \vev{N}_{\text{f}},
-\end{equation}
-which means that the average energy of the fermions in a low-temperature ideal gas is $3 / 5$ the Fermi energy $E_F = \mu$.
-In particular, because this result is also independent of the temperature, we find that non-interacting quantum fermions retain a positive energy even as the temperature approaches absolute zero, $T \to 0$.
-This can be understood by recalling that the lowest-energy pair of degenerate energy levels can each only hold a single fermion, forcing all additional fermions to `fill' energy levels with larger energies $E_{\ell} > 0$, up to the Fermi energy set by the chemical potential.
-This is a stark contrast to the classical ($\vev{E} \propto T$) and bosonic ($\vev{E} \propto T^4$) cases we considered earlier, where the average energy vanishes in the zero-temperature limit.
-As discussed in Sections~\ref{sec:spin_info} and \ref{sec:quantum_classical}, in those cases all the particles in the system are able to fall into the lowest energy level, with only an exponentially small probability for particles to occupy any energy levels with $E_{\ell} > E_0$.
-
-To get the rest of the way to the equation of state for the ideal gas of non-relativistic fermions, we need to compute the pressure
+As mentioned above, both of these degenerate ground states have the maximal magnetization $|m| = 1$.
+Let's check what effect the first excited state would have on the overall magnetization of the system.
+The first excited state involves negating (or `flipping') a single spin, corresponding to $(n_+, n_-) = (N - 1, 1)$ and $(1, N - 1)$.
+Because any one of the $N$ spins in the lattice could be flipped, the degeneracy of the first excited state grows with $N$:
 \begin{equation*}
-  P_{\text{f}} = -\left. \pderiv{}{V} \vev{E}_{\text{f}} \right|_{N, S_{\text{f}}}.
+  \binom{N}{1} + \binom{N}{N - 1} = 2N.
 \end{equation*}
-In the low-temperature limit, the condition of constant entropy $S_{\text{f}} = -\sum_{i = 1}^M p_i \log p_i$ is automatically satisfied, since the step function in \eq{eq:Fermi_step} restricts the system to a single micro-state, resulting in $S_{\text{f}} = 0$.
-This micro-state is the one in which each and every energy level with $E_{\ell} < \mu$ is occupied, while all energy levels with $E_{\ell} > \mu$ are unoccupied.
-
-Inserting \eq{eq:Fermi_energy} into \eq{eq:fermi_E_N}, we have
+At the same time, as $N$ increases the magnetization of each of these micro-states gets closer to that of the ground state,
 \begin{equation*}
-  \vev{E}_{\text{f}} = \frac{3}{5} \mu \vev{N}_{\text{f}} = \frac{3}{5} \left(\frac{\hbar^2}{2m}\right) \left(\frac{3\pi^2}{V}\right)^{2 / 3} \vev{N}_{\text{f}}^{5 / 3}.
+  |m| = \frac{N - 1}{N} = 1 - \frac{1}{N}.
 \end{equation*}
-The pressure is therefore
+The key factor is the probability for the system to be in one of these micro-states, which depends on the energy of the first excited state, $E_1$.
+What is the first-excited-state energy of the $N$-site Ising model in $d$ dimensions?
+\begin{mdframed}
+  $\displaystyle E_1 = $ \\[100 pt]
+\end{mdframed}
+
+Let's put things together by computing the relative probability for the $d$-dimensional Ising model to be in its ground state with $|m| = 1$ compared to its first excited state with $|m| = 1 - \frac{1}{N}$, accounting for the different number of micro-states in each case:
+\begin{equation*}
+  \frac{p(E_0)}{p(E_1)} = \frac{2\cdot \exp\left[\be d\cdot N\right]}{2N\cdot \exp\left[\be \left(d\cdot N - 4d\right)\right]} = \frac{\exp\left[4\be d\right]}{N}.
+\end{equation*}
+For any fixed $N$, a sufficiently low temperature will cause the ground state to dominate.
+This defines an \textbf{ordered phase} in which essentially all spins are aligned in the same direction, producing a large expectation value for the magnetization, $\vev{|m|} = 1$.
+
+We have seen that the magnetization $\vev{|m|}$ distinguishes between the high- and low-temperature behaviour of the $d$-dimensional Ising model.
+In the high-temperature disordered phase, the magnetization is small and $\vev{|m|} \to 0$ in the thermodynamic limit $N \to \infty$.
+In the low-temperature ordered phase, the magnetization is large and $\vev{|m|} \to 1$ as $T \to 0$.
+This is typical behaviour for interacting statistical systems, where the quantity distinguishing between these two phases (here the magnetization) is known as the \textbf{order parameter}.
+The behaviour of the order parameter is what distinguishes gradual crossovers from rapid phase transitions.
+
+\begin{shaded}
+  A phase transition is characterized by a discontinuity in the order parameter or its derivative(s), in the $N \to \infty$ thermodynamic limit.
+  The value(s) of the control parameter(s) at which the discontinuity occurs define the \textit{critical point} corresponding to the transition.
+\end{shaded}
+
+For the zero-field ($H = 0$) Ising model, the control parameter is the temperature $T$, and any phase transition would occur at a \textbf{critical temperature} $T_C$.
+The sketches below illustrate the most common types of phase transitions.
+When the order parameter (OP) itself is discontinuous (shown by a dashed line), the transition is said to be a \textit{first-order} phase transition.
+When the order parameter is continuous at $T_C$ but its first derivative is discontinuous, the transition is said to be a \textit{second-order} phase transition.
+This naming scheme generalizes to higher-order phase transitions, the most remarkable of which is the infinite-order BKT phase transition (named after \href{https://en.wikipedia.org/wiki/Vadim_Berezinskii}{Vadim Berezinskii}, \href{https://en.wikipedia.org/wiki/J._Michael_Kosterlitz}{J.\ Michael Kosterlitz} and \href{https://en.wikipedia.org/wiki/David_J._Thouless}{David Thouless}), which was awarded the 2016 Nobel Prize in Physics.
+
+\begin{center}\includegraphics[width=0.8\textwidth]{figs/unit09_transitions.pdf}\end{center}
+
+Because true discontinuities are only possible with an infinite number of degrees of freedom, it is really the way in which the system approaches the $N \to \infty$ thermodynamic limit that distinguishes crossovers from true phase transitions.
+We will conclude this week's consideration of interacting systems by developing a useful approximation for the Ising model, which will turn out to be more reliable as the dimensionality $d$ increases.
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\subsection{\label{sec:mean_field}The mean-field approximation}
+Looking back to \eq{eq:Ising_magnet}, we can identify the magnetization (with no absolute value) as the average spin,
+\begin{equation*}
+  m = \frac{M}{N} = \frac{1}{N}\left(n_+ - n_-\right) = \frac{1}{N} \sum_{n = 1}^N s_n.
+\end{equation*}
+The `mean' in the mean-field approximation refers to the expectation value of the average spin,
+\begin{equation*}
+  \vev{m} = \frac{1}{Z} \sum_{\left\{s_n\right\}} m \; e^{-\be E(s_n)} = \frac{1}{N} \sum_{n = 1}^N \vev{s_n},
+\end{equation*}
+which is independent of the spin configuration $\left\{s_n\right\}$ and is simply a function of the inverse temperature \be and magnetic field strength $H$.\footnote{To be consistent with the redefinition of $n_{\pm}$ above \eq{eq:Ising_magnet}, we reverse our sign convention for the magnetic field, $H \to -H$.}
+By adding and subtracting factors of $\vev{m}$, we can exactly rewrite each nearest-neighbour term in the Ising model energy, \eq{eq:Ising_energy}, as
 \begin{align}
-  P_{\text{f}} & = -\pderiv{}{V} \left[\frac{3}{5} \left(\frac{\hbar^2}{2m}\right) \left(\frac{3\pi^2}{V}\right)^{2 / 3} \vev{N}_{\text{f}}^{5 / 3}\right] = \frac{2}{3V} \left[\frac{3}{5} \left(\frac{\hbar^2}{2m}\right) \left(\frac{3\pi^2}{V}\right)^{2 / 3} \vev{N}_{\text{f}}^{5 / 3}\right] \nonumber \\
-               & = \left(3\pi^2\right)^{2 / 3} \frac{\hbar^2}{5m} \left(\frac{\vev{N}_{\text{f}}}{V}\right)^{5 / 3} = \frac{2}{5} \mu \frac{\vev{N}_{\text{f}}}{V} = \frac{2}{3} \frac{\vev{E}_{\text{f}}}{V}.
+  s_i s_j & = \left[\left(s_i - \vev{m}\right) + \vev{m}\right] \times \left[\left(s_j - \vev{m}\right) + \vev{m}\right] \cr
+          & = \left(s_i - \vev{m}\right) \left(s_j - \vev{m}\right) + \left(s_i + s_j\right)\vev{m} - \vev{m}^2. \label{eq:MF_start}
 \end{align}
-The three expressions in the second line above present several relations between the pressure, the energy density, the Fermi energy $E_F = \mu$ and the particle number density.
-In particular, we can see that the pressure (like the energy) remains positive even as the temperature approaches absolute zero, with
-\begin{equation}
-  \label{eq:degen_pressure}
-  P_{\text{f}} = \left(3\pi^2\right)^{2 / 3} \frac{\hbar^2}{5m} \rho_{\text{f}}^{5 / 3},
-\end{equation}
-where we define the density $\rho_{\text{f}} = \vev{N}_{\text{f}} / V$.
-This positive pressure in the zero-temperature limit is not due to any direct force between the fermions, which remain non-interacting in this ideal gas.
-Instead, it is a purely quantum effect resulting from the Pauli exclusion principle.
 
-As we saw earlier in this section, the temperature independence of the pressure $P_{\text{f}}$ is due to approximating the low-temperature Fermi function as a step function in \eq{eq:Fermi_step}, and systematic corrections to this approximation can be computed through a Sommerfeld expansion.
-Even without getting into such detailed calculations, we know that at high temperatures the quantum ideal gas of massive fermions will be well approximated by the classical ideal gas we considered in \secref{sec:ideal_gas}, with equation of state
-\begin{equation}
-  PV = NT \qquad \Lra \qquad P = \frac{N}{V} T = \rho T.
-\end{equation}
-In words, at high temperatures the pressure depends linearly on the temperature, with the slope corresponding to the density $\rho$.
-The plot below (produced by \href{https://github.com/daschaich/MATH327_2021/blob/master/lecture_notes/figs/week09_pressure.py}{this Python code}) shows how the pressure changes from a positive constant as $T \to 0$ to this linear behaviour at higher temperatures. \\[-24 pt] % WARNING: FORMATTING BY HAND
-
-\begin{center}\includegraphics[width=0.725\textwidth]{figs/week09_pressure.pdf}\end{center}
-% ------------------------------------------------------------------
-
-
-
-% ------------------------------------------------------------------
-\subsection{Type-Ia supernovas}
-The positive pressure that remains for a fermion gas even at zero temperature, \eq{eq:degen_pressure}, is known as the \textit{degeneracy pressure}.
-(This use of the word `degenerate' is completely unrelated to its other use describing multiple energy levels with the same value of the energy.)
-The degeneracy pressure plays a key role in a famous cosmic phenomenon---a certain class of supernova explosions of stars.
-
-As a opening remark to this topic, note that the temperature doesn't need to be exactly zero in order for the degeneracy pressure to be significant.
-The temperature just needs to be small compared to the Fermi energy, $T \ll E_F$.
-From \eq{eq:Fermi_energy} we can see that $E_F \propto \rho_{\text{f}}^{2 / 3}$ increases for larger densities $\rho_{\text{f}} = \vev{N}_{\text{f}} / V$.
-Not surprisingly, the densities of stars can be very large indeed, due to the enormous amount of matter that is being squeezed together by gravitational attraction.
-Everyday matter has densities around $10^{28}$--$10^{29}$ atoms per cubic metre (roughly corresponding to Avogadro's number per cubic centimetre), which results in Fermi energies $E_F \sim 10^4$~K. % 2--10 eV with eV~10^4 K being the Boltzmann constant
-Fermi energies for particularly dense stars known as \textit{white dwarfs} are a hundred thousand times larger, $E_F \sim 10^9$~K, corresponding to densities of roughly one tonne per cubic centimetre.
-This is around a million times more dense than our sun---while white dwarf stars have a mass similar to our sun's $M_{\odot}$, their radius is a hundred times smaller, comparable to the radius of the earth.
-
-White dwarf stars are so dense because they have exhausted the hydrogen and helium `fuel' for the nuclear fusion that generates heat and light---and therefore radiation pressure---in stars such as our sun.
-For actively `burning' stars, this radiation pressure counteracts the gravitational attraction of the star's enormous mass.
-Without nuclear fusion, white dwarfs end up gravitationally compressed into much denser and more compact objects.
-The degeneracy pressure, \eq{eq:degen_pressure}, coming from the (fermionic) electrons in the white dwarf is what stabilizes these stars and prevents them from collapsing further into even denser objects such as black holes.
-
-It is remarkable that even under these extreme conditions the electrons in white dwarf stars are well described by the non-interacting ideal fermion gas we have analyzed above.
-In particular, it is crucial that white dwarfs' Fermi energies are so large, $E_F \sim 10^9$~K.
-Even though white dwarfs have burned all their nuclear fuel, their interiors remain quite hot by everyday standards, roughly ten million kelvin ($T \sim 10^7$~K). % 0.3 MeV ~ 10^5 eV with eV~10^4 K being the Boltzmann constant
-It is only due to their large densities and Fermi energies that $T \ll E_F$ and white dwarfs can be treated as zero-temperature objects to a good approximation.
-
-So far we've seen no sign of supernovas.
-In isolation, white dwarfs will happily cool for trillions of years, supported by their degeneracy pressure, until they reach thermal equilibrium with the $T_{\text{CMB}} \approx 2.725$~K cosmic microwave background radiation we considered last week. % TODO: CMB temperature will also keep decreasing as universe continues expanding...
-Things become more interesting for a white dwarf that forms a binary system with a companion star.
-If this companion star that is still burning hydrogen or helium through nuclear fusion, it will emit matter that is then captured by the white dwarf, slowly increasing the white dwarf's mass.
-Such a binary system is pictured below, in an artist's illustration provided by the \href{https://www.esa.int/ESA_Multimedia/Images/2014/09/Artist_s_impression_of_Type_Ia_supernova}{European Space Agency}.
-
-\begin{center}\includegraphics[width=0.8\textwidth]{figs/week09_nova.pdf}\end{center}
-
-As the white dwarf accumulates the matter emitted by its companion, its mass and its density will steadily increase.
-As the mass of the white dwarf approaches a value about 40\% larger than the mass of our sun (known as the Chandrasekhar limit, named after \href{https://en.wikipedia.org/wiki/Subrahmanyan_Chandrasekhar}{Subrahmanyan Chandrasekhar}), its density becomes large enough for new types of nuclear fusion reactions to occur.
-Instead of hydrogen or helium, which the white dwarf has already burned, these new fusion reactions involve carbon and oxygen, which the white dwarf has in plenty.
-In the space of just a few seconds, these fusion reactions run away, increase the temperature of the white dwarf to billions of kelvin, and blast it apart in a supernova explosion about five billion times brighter than the sun.
-
-For obscure historical reasons, these particular stellar explosions are known as \textit{type-Ia} (``one-A'') \textit{supernovas}.
-They rely on the degeneracy pressure (\eq{eq:degen_pressure}) of a low-temperature gas of non-interacting fermions, which allows a specific amount of mass to build up before the explosion is triggered.
-The specificity of the process results in a great deal of regularity among type-Ia supernovas, which is very useful to astronomers.
-In particular, these type Ia supernovas play a key role in demonstrating that the expansion of the universe is accelerating (a phenomenon popularly called `dark energy'), which was awarded the 2011 Nobel Prize in Physics.
-% ------------------------------------------------------------------
-
-
-
-% ------------------------------------------------------------------
-\subsection{Relativistic ideal fermion gas}
-While our main focus this week is on non-relativistic gases with $E \propto p^2$, gases of relativistic fermions also appear in nature.
-In fact, by changing units we can see that the white dwarf Fermi energy discussed above, $E_F \sim 10^9~\text{K} \sim 0.3$~MeV is comparable to the $0.511$~MeV rest-energy of electrons, suggesting that relativistic effects may be non-negligible in white dwarfs.
-Such relativistic effects were indeed taken into account by Chandrasekhar and others investigating these compact stars in the twentieth century.
-While the full calculations required to analyze massive relativistic particles are beyond the scope of this module, we can benefit from last week's consideration of gases of massless photons to briefly consider similar gases of massless fermions.
-\textit{Neutrinos} (denoted `$\nu$') are physical examples of particles whose masses are so small that they can be very well approximated as massless fermions.\footnote{Neutrinos' masses are so small that it was extremely difficult to determine that they are not exactly massless.  The 2015 Nobel Prize in Physics was awarded for this discovery.}
-
-In the same way as photons, such massless fermions travel at the speed of light, $c$, and have energies $E = cp$ that depend on their angular frequencies,
-\begin{equation}
-  E_{\nu} = \hbar \om.
-\end{equation}
-In a volume $V = L^3$, these energies are quantized as usual,
+The factors of $\left(s_i - \vev{m}\right)$ correspond to the spins' fluctuations around their mean value $\vev{m}$.
+By conjecturing that these fluctuations are small \textit{on average}, we can approximate the Ising model energy by neglecting the first term in \eq{eq:MF_start} when summing over all links:
 \begin{equation*}
-  \om = \frac{2\pi c}{\la} = c \frac{\pi}{L} k,
+  E = -\sum_{(ij)} s_i s_j - H \sum_{n = 1}^N s_n \quad \lra \quad \EMF = -\sum_{(ij)} \left[\left(s_i + s_j\right)\vev{m} - \vev{m}^2\right] - H \sum_{n = 1}^N s_n.
 \end{equation*}
-where $k^2 = k_x^2 + k_y^2 + k_z^2$ and $k_{x, y, z} > 0$ are positive integers.
-Just as for the massive fermions considered in \secref{sec:fermi_nonrel}, for each distinct set of integers $\vec k = (k_x, k_y, k_z)$, typical massless fermions such as neutrinos have two degenerate energy levels with the same energy.
+The sum over the links $\ell = (ij)$ in $d$ dimensions simply counts $d\cdot N$ factors of the constant $\vev{m}^2$.
+Similarly, since the first term includes both spins $\left(s_i + s_j\right)$ on each end of the link, every individual spin appears $2d$ times in the sum over links, which we can combine with the sum over sites:
+\begin{equation}
+  \label{eq:MF_energy}
+  \EMF = d\cdot N \vev{m}^2 - \left(2d\vev{m} + H\right) \sum_{n = 1}^N s_n \equiv d\cdot N \vev{m}^2 - H_{\text{eff}} \sum_{n = 1}^N s_n,
+\end{equation}
+\newpage % WARNING: FORMATTING BY HAND
+\noindent defining an effective magnetic field $H_{\text{eff}}$ that depends on the mean spin.
+What is the change in energy $\De E_i$ from \eq{eq:MF_energy} upon negating $s_i \to -s_i$?
+Does this indicate an interacting or non-interacting system?
+\begin{mdframed}
+  \ \\[100 pt]
+\end{mdframed}
 
-The detailed analysis of a gas of massless fermions is nearly the same as the work we did last week for photon gases.
-In particular, massless fermions are also well described by a vanishing chemical potential, $\mu \approx 0$.
-Again approximating sums over discrete integer $k_{x, y, z}$ by integrals over continuous real $\khat_{x, y, z}$, and changing variables to integrate over the angular frequency, we end up with the grand-canonical potential
+The mean-field approximation producing \eq{eq:MF_energy} makes it very easy to compute the corresponding canonical partition function
 \begin{align}
-  \Phi_{\nu} = -\frac{VT}{c^3 \pi^2} \int_0^{\infty} d\om \; \om^2 \log\left[1 + e^{-\be \hbar \om}\right]. \label{eq:neutrino_grand}
+  \ZMF & = \sum_{\left\{s_n\right\}} \exp\left[-\be E(s_n)\right] = \exp\left[-\be d\cdot N \vev{m}^2\right] \sum_{s_1 = \pm 1} \cdots \sum_{s_N = \pm 1} \exp\left[-x \sum_{n = 1}^N s_n\right] \cr
+       & = \exp\left[-\be d\cdot N \vev{m}^2\right] \left(2\cosh\left[\be H_{\text{eff}}\right]\right)^N \nonumber \\
+       & = \exp\left[-\be d\cdot N \vev{m}^2\right] \left(2\cosh\left[\be \left(2d\vev{m} + H\right)\right]\right)^N,
 \end{align}
-The only change in $\Phi_{\nu}$ compared to \eq{eq:photon_grand} for photons are a couple of negative signs, precisely as we would expect from comparing the Bose--Einstein and Fermi--Dirac grand-canonical potentials in \secref{sec:quantum_classical}.
+where we defined $x = -\be H_{\text{eff}}$ to put the sums into exactly the same form as \eq{eq:spin_part_func}.
+We see that the mean-field partition function exhibits complicated dependence on $\vev{m}$.
+In order to get a handle on this dependence, we need to determine another relation between $\vev{m}$ and $\ZMF$.
 
-Carrying out the derivatives to obtain the average particle number density and the average internal energy density produces
-\begin{align}
-  \frac{\vev{E}_{\nu}}{V} & = \frac{1}{c^3 \pi^2} \int_0^{\infty} \frac{\hbar \om^3}{e^{\be \hbar \om} + 1} d\om &
-  \frac{\vev{N}_{\nu}}{V} & = \frac{1}{c^3 \pi^2} \int_0^{\infty} \frac{\om^2}{e^{\be \hbar \om} + 1} d\om,
-\end{align}
-now differing only by negative signs in their denominators compared to the photon gas results we obtained last week.
-The condition of constant entropy is still $V T^3 = \mbox{constant}$, and the resulting pressure leads to an equation of state in the usual form,
+We can do this by recalling the connection between the magnetization and the average spin discussed at the start of this section.
+Because the total $N$-spin magnetization
 \begin{equation*}
-  P_{\nu} V \propto \vev{N}_{\nu} T,
+  M = n_+ - n_- = \sum_{n = 1}^N s_n,
 \end{equation*}
-with the constant of proportionality another $\cO(1)$ number involving the Riemann zeta function.
+we can write the full Ising model energy as
+\begin{equation*}
+  E = -\sum_{(ij)} s_i s_j - H \sum_{n = 1}^N s_n = -\sum_{(ij)} s_i s_j - H M,
+\end{equation*}
+with corresponding canonical partition function
+\begin{equation*}
+  Z = \sum_{\left\{s_i\right\}} \exp\left[\be \sum_{(ij)} s_i s_j + \be H M\right].
+\end{equation*}
+\newpage % WARNING: FORMATTING BY HAND
+\noindent From our earlier experience with the canonical ensemble, it now comes as no surprise that $\vev{M} = N\vev{m}$ can be related to a derivative of the Helmholtz free energy $F = -T\log Z$.
+What is this relation?
+\begin{mdframed}
+  $\displaystyle \pderiv{}{H} F = $ \\[100 pt]
+\end{mdframed}
+
+Returning to the mean-field approximation,
+\begin{equation*}
+  \log \ZMF = N\log \cosh\left[\be \left(2d\vev{m} + H\right)\right] + \left\{H\mbox{-independent terms}\right\},
+\end{equation*}
+we can use this relation between $\vev{m}$ and $\ZMF$ to find
+\begin{equation*}
+  \vev{m} = \frac{1}{N\be} \pderiv{}{H}\log \ZMF = \frac{1}{\be} \frac{1}{\cosh\left[\be \left(2d\vev{m} + H\right)\right]} \pderiv{}{H}\cosh\left[\be \left(2d\vev{m} + H\right)\right].
+\end{equation*}
+Simplifying, we obtain a \textbf{self-consistency condition} for the magnetization in the mean-field approximation:
+\begin{equation}
+  \label{eq:consistency}
+  \vev{m} = \tanh\left[\be \left(2d\vev{m} + H\right)\right].
+\end{equation}
+Solving this equation for $\vev{m}$ is equivalent to finding the roots of the equation $\tanh\left[\be (2d\cdot x + H)\right] - x = 0$.
+
+A straightforward way to inspect such solutions is by plotting both
+\begin{align*}
+  f(\vev{m}) & = \vev{m} &
+  g(\vev{m}) & = \tanh\left[\be (2d\vev{m} + H)\right]
+\end{align*}
+and monitoring the intersections of these two functions.
+Fixing $d = 2$ dimensions, the plot below considers the simplest case $\be = \frac{1}{4}$ and $H = 0$ for which $g(\vev{m}) = \tanh\left[\vev{m}\right]$ (the solid line).
+There is only a single intersection between this function and $f(\vev{m})$ (the dashed line), at $\vev{m} = 0$.
+
+\begin{center}\includegraphics[width=0.7\textwidth]{figs/unit09_consistency.pdf}\end{center}
+
+Before interpreting this result, let's check how the intersections depend on \be and $H$.
+In the next plot below we keep the same temperature $T = 1 / \be = 4$ while turning the external magnetic field back on.
+A positive $H > 0$ simply shifts $g(\vev{m})$ to the left (the green line), while a negative $H < 0$ shifts it to the right (the blue line).
+For $H = \pm 2$, there is still only a single intersection, at $\vev{m} \approx \pm 0.88$.
+We can see that because $-1 \leq \tanh x \leq 1$, the mean-field self-consistency condition can only ever predict $-1 \leq \vev{m} \leq 1$, in accord with the definition of the magnetization.
+
+\begin{center}\includegraphics[width=0.7\textwidth]{figs/unit09_consistency_H.pdf}\end{center}
+
+Next, if we decrease the temperature, $g(\vev{m})$ becomes steeper, more rapidly interpolating between those limiting values $-1 \leq \tanh x \leq 1$.
+The plot below illustrates this for $T = 1 / \be = 2$, so that $\be = \frac{1}{2}$ is doubled.
+Already for this temperature and magnetic field $H = \pm 2$, the intersection is $\vev{m} \approx \pm 1$ to a very good approximation.
+We can interpret this result as an indication that the system is in an ordered phase where all spins are aligned with the external field.
+
+\begin{center}\includegraphics[width=0.7\textwidth]{figs/unit09_consistency_H-beta.pdf}\end{center}
+
+To search for a phase transition we need to turn off that external field by setting $H = 0$, and consider how the solutions of the self-consistency condition depend on the temperature.
+We do this in the next plot below, considering a low temperature $T = 2$ with $\be = \frac{1}{2}$ (the red line), the same green curve for $T = 4$ shown in the first plot above, and a high temperature $T = 8$ with $\be = \frac{1}{8}$ (the blue line).
+While the $\vev{m} = 0$ expected in the disordered phase is always a possible solution, something interesting happens at lower temperatures, where the steeper $\tanh$ function introduces two additional solutions at $\vev{m} = \pm m_0$.
+As $T \to 0$, this $m_0 \to 1$, approaching the magnetization of the ordered phase.
+
+\begin{center}\includegraphics[width=0.7\textwidth]{figs/unit09_consistency_beta.pdf}\end{center}
+
+When there are three solutions $\vev{m} = \left\{-m_0, 0, m_0\right\}$ at low temperatures, we can determine that the $\vev{m} = 0$ solution is actually \textit{unstable}.
+In this case, the slope of the $\tanh$ at $\vev{m} = 0$ must be greater than $1$.
+Any positive value $\vev{m} = \varepsilon > 0$ would therefore produce $\tanh\left[2\be d\vev{m}\right] > \vev{m}$, violating the self-consistency condition in \eq{eq:consistency}.
+Since the violation comes from $\vev{m}$ being too small compared to the $\tanh$, $\vev{m}$ would be driven to increase further, until it eventually reached the non-zero solution $\vev{m} = m_0$.
+The analogous argument implies any negative value $\vev{m} = -\varepsilon < 0$ would drive $\vev{m}$ away from zero and to the $\vev{m} = -m_0$ solution.
+
+This argument can be visualized by plotting $\tanh\left[2\be d\vev{m}\right] - \vev{m}$ vs.\ $\vev{m}$ as shown in the final plot below.
+Whenever this difference is negative, it implies $\vev{m}$ is larger than the self-consistency condition allows, and therefore consistency requires reducing $\vev{m}$, shown by arrows pointing to the left.
+Conversely, whenever the difference is positive, $\vev{m}$ would have to increase to recover consistency, shown by the arrows pointing to the right.
+For the low temperature $T = 2$, we see that the arrows move the system away from the unstable solution $\vev{m} = 0$ and to the stable solutions $\vev{m} = \pm m_0$.
+
+\begin{center}\includegraphics[width=0.7\textwidth]{figs/unit09_consistency_flow.pdf}\end{center}
+
+Reassuringly, the mean-field approximation with $H = 0$ therefore reproduces the behaviour we derived in the previous section.
+For high temperatures we have $\vev{m} = 0$ consistent with the disordered phase, while for low temperatures we have $|\vev{m}| = m_0 \to 1$ consistent with the ordered phase.
+We can also determine the temperature at which the $\vev{m} = \pm m_0$ solutions appear and the $\vev{m} = 0$ solution becomes unstable.
+As described above, this occurs whenever the slope of the $\tanh$ function at $\vev{m} = 0$ is greater than $1$.
+Using $\tanh(x) = x + \cO\left(x^3\right)$ for $x \approx 0$, what is the slope of this $\tanh$?
+\begin{mdframed}
+  $\displaystyle \left. \frac{d}{d\vev{m}} \tanh\left[2\be d\vev{m}\right]\right|_{\vev{m} = 0} = $ \\[50 pt]
+\end{mdframed}
+
+You should find that the change from the high-temperature disordered phase to the low-temperature ordered phase occurs at $T_c = 2d$ in $d$ dimensions, or equivalently $\be_c = \frac{1}{2d}$.
+Despite the subscript, we don't yet know if this $T_c$ is a true critical temperature.
+In order to check whether the mean-field approximation of the $H = 0$ Ising model predicts a crossover or a true phase transition, we need to check whether or not the order parameter $\vev{m}$ or its derivatives are discontinuous at $T_c$.
+We can do this by considering the self-consistency condition for a temperature $T = 1 / \be$ lower than but close to $T_c = 2d$, which would produce $0 < |\vev{m}| \ll 1$ and allow us to expand
+\begin{equation*}
+  \vev{m} = \tanh\left[\frac{2d}{T} \vev{m}\right] \approx \frac{T_c}{T} \vev{m} - \frac{1}{3}\left(\frac{T_c}{T} \vev{m}\right)^3.
+\end{equation*}
+What is the resulting prediction for $\vev{m}$?
+\begin{mdframed}
+  \ \\[100 pt]
+\end{mdframed}
+
+Approximating $\frac{T}{T_c} \approx 1$, your result should resemble
+\begin{equation*}
+  \vev{m} = \pm \sqrt{3} \left(\frac{T_c - T}{T_c}\right)^{1 / 2} \qquad \mbox{for } \ T \lesssim T_c.
+\end{equation*}
+From this, we can see that the order parameter $\vev{m}$ is continuous at $T_c$:
+\begin{equation}
+  \vev{m} \propto \left\{\begin{array}{cl} \left(T_c - T\right)^{1 / 2} & \mbox{for } \ T \lesssim T_c \\[3 pt]
+                                           0                            & \mbox{for } \ T \gtrsim T_c\end{array}\right. .
+\end{equation}
+However, its first derivative
+\begin{equation*}
+  \frac{d\vev{m}}{dT} \propto \frac{1}{\left(T_c - T\right)^{1 / 2}}
+\end{equation*}
+diverges as $T \to T_c$ from below, predicting a second-order phase transition with critical temperature $T_c = 2d$ in $d$ dimensions.
+The power-law dependence $\vev{m} \propto \left(T_c - T\right)^b$ is a generic feature of second-order phase transitions, where the power $b$ is known as a \textbf{critical exponent}, in this case $b = 1 / 2$.
+
+At this point we have invested some effort to find that the mean-field approximation of the $d$-dimensional Ising model, with $H = 0$, predicts a second-order phase transition at $T_c = 2d$ with critical exponent $1 / 2$.
+Let's wrap up by quickly checking the reliability of the mean-field approximation and the accuracy of these results it has given us.
+
+The accuracy of the mean-field results turns out to depend on the number of dimensions.
+For the one-dimensional ($d = 1$) Ising model that Ising himself solved, there is no phase transition at all.\footnote{You can find the exact solution of the one-dimensional Ising model in Section~5.3.1 of David Tong's \href{https://www.damtp.cam.ac.uk/user/tong/statphys.html}{\textit{Lectures on Statistical Physics}} (reference~1 in the list of further reading on page~6).}
+The mean-field approximation fails badly in this case.
+
+The situation improves for the two-dimensional Ising model.
+Onsager's exact $H = 0$ solution reveals a second-order phase transition, with inverse critical temperature $\be_c = \frac{1}{2} \log\left(1 + \sqrt{2}\right) \approx 0.44$ and $\vev{m} \propto \left(T_c - T\right)^{1 / 8}$ for $T \lesssim T_c$ corresponding to a critical exponent $1 / 8$.
+While the mean-field approach now provides the correct qualitative behaviour, its prediction $\be_c = \frac{1}{2d} = 0.25$ is off by almost a factor of $2$, while the mean-field critical exponent $b = 1 / 2$ is four times larger than the true $b = 1 / 8$.
+
+For higher dimensions $d \geq 3$ there is no known exact solution for the Ising model, but the existence of a second-order phase transition can be established, while the corresponding critical temperature and critical exponents can be computed numerically.
+In three dimensions the mean-field $T_c = 2d = 6$ and $b = 1 / 2$ are still only rough first approximations to the true $T_c \approx 4.5$ and $b \approx 0.32$. % From Tong and arXiv:1806.03558
+The mean-field prediction for the critical exponent $b = 1 / 2$ turns out to be correct for $d \geq 4$, while the critical temperature $T_c = 2d$ gradually approaches the true value as the number of dimensions increases.
+(Numerical computations find $T_c \approx 6.7$, $8.8$, $10.8$ and $12.9$ for $d = 4$, $5$, $6$ and $7$, respectively.) % From arXiv:1202.3031 and arXiv:1502.07613
+Formally, the mean-field approximation exactly reproduces the Ising model in the unphysical limit of infinite dimensions, $d \to \infty$.
+Roughly speaking, the greater reliability of the mean-field approach in higher dimensions is due to the larger number of nearest neighbours for each site, $2d$, which allow that site to interact with a better approximation to the mean spin.
 % ------------------------------------------------------------------
