@@ -35,8 +35,12 @@
 \renewcommand{\headrulewidth}{0pt}
 \cfoot{{\small \thisunit}\hfill \thepage\hfill {\small \moddate}}
 
-% Hopefully address Canvas complaints about pdf tagging
+% Hopefully address Canvas complaints about pdf tagging and title
 %\usepackage[tagged]{accessibility}
+\hypersetup {
+  pdfauthor={David Schaich},
+  pdftitle={Statistical Physics Lecture Notes},
+}
 % ------------------------------------------------------------------
 
 
@@ -97,7 +101,7 @@
   {\LARGE \textbf{MATH327: Statistical Physics}} \\[6 pt]
   \textbf{David Schaich \qquad\qquad\qquad\qquad Spring Term 2022} \\[48 pt]
   {\LARGE LECTURE \ NOTES} \\[6 pt]
-  Last modified 26 January 2022
+  Last modified 27 January 2022
 \end{center}
 \renewcommand{\contentsname}{}
 \setcounter{tocdepth}{1}
@@ -111,11 +115,7 @@
 \input{info.tex}
 
 \newpage
-%\input{unit01.tex}
-\phantomsection
-\addcontentsline{toc}{section}{Unit 1: Central limit theorem and diffusion}
-\section*{Unit 1: Central limit theorem and diffusion}
-Coming soon...
+\input{unit01.tex}
 
 \newpage
 %\input{unit02.tex}
