@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 1}
-\renewcommand{\moddate}{Last modified 27 Jan.~2022}
+\renewcommand{\moddate}{Last modified 30 Jan.~2022}
 \setcounter{section}{1}
 \setcounter{subsection}{0}
 \phantomsection
@@ -201,13 +201,13 @@ We can generalize this notation by writing instead
 \end{equation*}
 which provides simple expressions for the \textbf{mean} $\mu$ and \textbf{variance} $\si^2$ of the probability space,
 \begin{align}
-              \mu = \vev{X} = & \sum_{X \in A} X P(X)            \label{eq:mean} \\
-  \si^2 = \vev{(X - \mu)^2} = & \sum_{X \in A} (X - \mu)^2 P(X). \label{eq:var}
+              \mu = \vev{X} = & \sum_{X \in A} X \, P(X)            \label{eq:mean} \\
+  \si^2 = \vev{(X - \mu)^2} = & \sum_{X \in A} (X - \mu)^2 \, P(X). \label{eq:var}
 \end{align}
 The angle bracket notation indicates the \textbf{expected} (or \textbf{expectation}) \textbf{value} with general definition
 \begin{equation}
   \label{eq:expect_disc}
-  \vev{f(X)} = \sum_{X \in A} f(X) P(X),
+  \vev{f(X)} = \sum_{X \in A} f(X) \, P(X),
 \end{equation}
 which is a linear operation,
 \begin{equation*}
@@ -227,7 +227,7 @@ What is the total size of $B$?
   \ \\[100 pt]
 \end{mdframed}
 
-Each outcome in $B$ contains $R$ different $X^{(r)} \in A$ (with $\vev{X^{(r)}} = \mu$ and $\vev{(X^{(r)} - \mu)^2} = \si^2$), one for each repetition $r = 1, \cdots, R$.
+Each outcome in $B$ contains $R$ different $X^{(r)} \in A$, one for each repetition $r = 1, \cdots, R$, and each with mean $\vev{X^{(r)}} = \mu$ and variance $\vev{(X^{(r)} - \mu)^2} = \si^2$.
 Considering the case $R = 4$ for simplicity, any element of $B$ can be written as $X_i^{(1)} X_j^{(2)} X_k^{(3)} X_l^{(4)} \in B$ with corresponding probability
 \begin{equation*}
   P_B\left(X_i^{(1)} X_j^{(2)} X_k^{(3)} X_l^{(4)}\right) = P_A\left(X_i^{(1)}\right) P_A\left(X_j^{(2)}\right) P_A\left(X_k^{(3)}\right) P_A\left(X_l^{(4)}\right),
@@ -240,7 +240,7 @@ Averaging over all $R$ repetitions defines the \textit{arithmetic mean}
   \Xbar_R = \frac{1}{R} \sum_{r = 1}^R X^{(r)}.
 \end{equation}
 Unlike the true mean $\mu$, the arithmetic mean $\Xbar_R$ is a random variable---a number that may be different for each element of $B$.
-That said, $\Xbar_R$ and $\mu$ are certainly related, and so long as the standard deviation exists (i.e., $\si^2$ is finite), this relation can be proved rigorously in the limit $R \to \infty$.\footnote{In the computer project we will numerically investigate a case with divergent $\si^2$.}
+That said, $\Xbar_R$ and $\mu$ are certainly related, and so long as the standard deviation exists---that is, so long as $\si^2$ is finite---this relation can be proved rigorously in the limit $R \to \infty$.\footnote{In the computer project we will numerically investigate a situation where $\si^2$ diverges.}
 
 Here we will not be fully rigorous, and take it as given that
 \begin{equation*}
@@ -283,7 +283,7 @@ We similarly generalize the definition of an expectation value (\eq{eq:expect_di
 \begin{equation*}
   \vev{f(x)} = \int f(x) \; p(x) \; dx.
 \end{equation*}
-We will omit the limits on integrals over the entire domain, so for $x \in \Rbb$ we implicitly have $\int dx = \int_{-\infty}^{\infty} dx$.
+We will omit the limits on integrals over the entire domain, so for $x \in \Rbb$ we implicitly have $\int dx = \int_{-\infty}^{\infty} dx$, with $\int p(x) \; dx = 1$.
 An important set of expectation values is
 \begin{equation}
   \label{eq:expect_cont}
@@ -303,12 +303,12 @@ Unless stated otherwise, we will assume the mean and variance are both finite fo
 
 % ------------------------------------------------------------------
 \subsection{\label{sec:CLT}Central limit theorem}
-The central limit theorem is a major result of probability theory.
+The central limit theorem is a central result of probability theory (hence its name).
 Over the years it has been expressed in several equivalent ways, and there are also many distinct variants of the theorem accommodating different conditions and assumptions.
-In this module we are interested in applying rather than proving the central limit theorem; the curious can find proofs in many textbooks.
+In this module we are interested in applying rather than proving the central limit theorem; you can find \href{https://en.wikipedia.org/wiki/Central_limit_theorem#Proof_of_classical_CLT}{proofs} in many textbooks.
 
 The version of the theorem we use in this module assumes we have $N$ independent random variables $x_1, \cdots, x_N$, each of which has the same (finite) mean $\mu$ and variance $\si^2$.
-(Such random variables are said to be \textit{identically distributed}, and a common way to obtain them is to repeat an experiment $N$ times, as we considered in \secref{sec:LLN}.)
+Such random variables are said to be \textit{identically distributed}, and a common way to obtain them is to repeat an experiment $N$ times, as we considered in \secref{sec:LLN}.
 Just as in \eq{eq:ave}, the sum
 \begin{equation}
   \label{eq:CLTsum}
@@ -324,12 +324,14 @@ is itself a random variable.
   \end{equation}
   with the approximation becoming exact in the $N \to \infty$ limit.
 \end{shaded}
-In addition to asserting that the collective behaviour of many independent and identically distributed random variables $x_i$ is governed by a \textbf{normal} (or \textbf{gaussian}) \textbf{distribution}, the central limit theorem further specifies the precise form of this distribution in terms of the mean and variance of \textit{each individual} $x_i$.
+In addition to asserting that the collective behaviour of many independent and identically distributed random variables $x_i$ is governed by a \textbf{normal} (or \textbf{gaussian}) \textbf{distribution}, the central limit theorem further specifies the precise form of this distribution in terms of the mean and variance of \textit{each individual} $x_i$. % TODO: Could explicitly emphasize connection to big picture of statistical physics...
 
-As an example to illustrate the applicability of the central limit theorem even for a modest $N = 5$, consider the roulette wheel discussed in \secref{sec:prob}.
+In practice, $N$ often doesn't need to be very large in order for the central limit theorem to provide a reasonable approximation.
+To illustrate this, let's again consider the roulette wheel introduced in \secref{sec:prob}.
 A simple game of roulette would let us place bets on whether or not the ball will end up in a red- or black-coloured pocket: If we bet correctly we get back twice the money we put in; otherwise we lose our money.
-Define our (potentially negative) \textit{gain} to be the amount we receive minus the amount we spend on bets.
+We'll define our (potentially negative) \textit{gain} to be the amount we receive minus the amount we spend on bets.
 
+\newpage % WARNING: FORMATTING BY HAND
 Suppose we place \textsterling5 bets on `black' for each of $N$ spins of the roulette wheel.
 What are the probabilities and gains of winning and of losing for any single one of those spins?
 Letting $W = 0, \cdots, N$ be the number of spins where we win, what is our total gain $G_W$ as a function of $(N, W)$?
@@ -353,7 +355,7 @@ What is the resulting probability distribution $p(G)$ given by the central limit
 \begin{mdframed}
   \ \\[100 pt]
 \end{mdframed}
-In order to compare this approximation with the exact $p_i$ computed above, we need to extract probabilities by integrating over appropriate intervals as discussed in \secref{sec:probdist}.
+Since the central limit theorem gives us an approximate \textit{distribution}, in order to compare its prediction against the exact $p_i$ computed above, we need to extract probabilities by integrating over appropriate intervals as discussed in \secref{sec:probdist}.
 Natural intervals to consider are
 \begin{equation*}
   P_{\text{integ}}(G_W) \equiv \int_{G_W - \De G / 2}^{G_W + \De G / 2} p(g) \; dg,
@@ -364,11 +366,12 @@ Alternately, we can simplify further by approximating $p(G)$ as a constant withi
 \begin{equation*}
   P_{\text{const}}(G_W) \equiv p(G_W) \; \De G.
 \end{equation*}
-What are the six $P_{\text{integ}}$ and $P_{\text{const}}$?
+Keeping $N = 5$, what are the six $P_{\text{integ}}$ and $P_{\text{const}}$?
 \begin{mdframed}
   \ \\[100 pt]
 \end{mdframed}
 You can check your results against those plotted below, which come from \href{https://github.com/daschaich/MATH327_2022/blob/master/lecture_notes/unit01_prob.py}{this Python code} that is available for you to peruse, run for different $N$ or modify.
+As promised, the approximate $P_{\text{integ}}$ and $P_{\text{const}}$ are not far off the exact ``Direct'' probabilities, even though $N = 5$ doesn't strictly satisfy the condition $N \gg 1$.
 \begin{center}
   \includegraphics[width=\textwidth]{figs/unit01_roulette_prob.pdf}
 \end{center}
@@ -402,41 +405,39 @@ How many possible walks are there for general $N$, and what is the probability f
 
 We will be interested in the walker's final position $x$ at time $t$ after it has taken $N$ steps.
 Just as for the possible gains after $N$ spins of the roulette wheel considered in \secref{sec:CLT}, there are a range of possible final positions $x$, each of which has some probability $P(x)$ of being realized.
-The key pieces of information we want to determine are the expectation value $\vev{x}$ and the variance $\vev{x^2} - \vev{x}^2$ that indicates the scale of fluctuations we can expect around $\vev{x}$ as the $N$-step walk is repeated many times from the same starting point.\footnote{We will reserve the variables $\mu$ and $\si^2$ for the mean and variance (respectively) of the single-step process, which we will connect to the central limit theorem in \secref{sec:RW_CLT}.}
+The key pieces of information we want to determine are the expectation value $\vev{x}$ and the variance $\vev{x^2} - \vev{x}^2$ that indicates the scale of fluctuations we can expect around $\vev{x}$ as the $N$-step walk is repeated many times from the same starting point.
+(We reserve the variables $\mu$ and $\si^2$ for the mean and variance (respectively) of the single-step process, which will appear when we apply the central limit theorem in \secref{sec:RW_CLT}.)
 
 Suppose the $N$ total steps involve $r$ steps to the right.
 What is the final position $x$ of the walker in terms of $N$ and $r$?
 Check your general answer for the cases $N = 6$ and $r = 4$, $2$ considered above.
 \begin{mdframed}
-  \ \\[100 pt]
+  \ \\[80 pt]
 \end{mdframed}
 This relation makes it equivalent to consider either the probability $P_r$ of taking $r$ steps to the right, or the probability $P(x)$ of ending up at final position $x$.
 This equivalence will not hold for more general random walks in which the step length is no longer fixed and $\ell_i$ can vary from one step to the next.
 
-Because the order in which steps are taken does not affect the final position $x$, to determine the probability $P_x$ we have to count all possible ways of walking to $x$.
-For $N = 6$, what are all the possible walks that produce $x = 4$, and what is the corresponding probability $P_4$?
+Because the order in which steps are taken does not affect the final position $x$, to determine the probability $P(x)$ we have to count all possible ways of walking to $x$.
+For $N = 6$, what are all the possible walks that produce $x = 4$, and what is the corresponding probability $P(4)$?
 \begin{mdframed}
   \ \\[100 pt]
 \end{mdframed}
-Your answer should have a factor of $6$ that corresponds to the binomial coefficient $\binom{N}{r} = \binom{6}{5} = 6$.
+Your answer should have a factor of $6$ that corresponds to the binomial coefficient $\binom{6}{5} = 6$.
 In terms of this binomial coefficient, what is the general probability $P_r$ that an $N$-step walk will include $r$ steps to the right in any order?
 \begin{mdframed}
-  \ \\[100 pt]
+  \ \\[80 pt]
 \end{mdframed}
 
 Given this probability $P_r$, we can apply Eqs.~\ref{eq:mean}--\ref{eq:var} to find the expectation value $\vev{x}$ and the variance $\vev{x^2} - \vev{x}^2$.
-We will need to compute
+As a first step, what are $\vev{x}$ and $\vev{x^2}$ in terms of the expectation values $\displaystyle \vev{r^n} = \sum_{r = 0}^N r^n \, P_r$?
+\begin{mdframed}
+  $\vev{x}   = $ \\[50 pt]
+  $\vev{x^2} = $ \\[50 pt]
+\end{mdframed}
+Now we need to calculate the necessary $\vev{r^n}$.
+An efficient way to do so is to define the \textbf{generating function}
 \begin{equation}
-  \label{eq:RWmoments}
-  \begin{split}
-    \vev{x}   = \sum_{r = 0}^N (2r - N)   P_r & = 2\vev{r} - N \\
-    \vev{x^2} = \sum_{r = 0}^N (2r - N)^2 P_r & = 4\vev{r^2} - 4N\vev{r} + N^2,
-  \end{split}
-\end{equation}
-where, as usual, $\displaystyle \vev{r^n} = \sum_{r = 0}^N r^n P_r$.
-An excellent trick to calculate these expectation values $\vev{r^n}$ is to define the \textbf{generating function}
-\begin{equation}
-  T(\theta) = \sum_{r = 0}^N e^{r \theta} P_r.
+  T(\theta) = \sum_{r = 0}^N e^{r \theta} \, P_r.
 \end{equation}
 This approach introduces a parameter $\theta$ that we subsequently remove by setting $\theta = 0$.
 For example, $T(0) = \sum_{r = 0}^N P_r = 1$.
@@ -446,25 +447,22 @@ What do you obtain upon taking derivatives of the generating function and then s
   $\displaystyle \left.\frac{d^n}{d\theta^n} T(\theta)\right|_{\theta = 0} = $ \\[50 pt]
 \end{mdframed}
 
-For the current case of a fixed-step-length random walk in one dimension, the probabilities $P_r$ provide a simple closed-form expression for the generating functional:
+For the current case of a fixed-step-length random walk in one dimension, the probabilities $P_r$ produce a simple closed-form expression for the generating functional:
 \begin{equation}
   \label{eq:gen_func}
-  \left(e^{\theta} p + q\right)^N = \sum_{r = 0}^N e^{r \theta} \binom{N}{r} p^r q^{N - r} = \sum_{r = 0}^N e^{r \theta} P_r = T(\theta),
+  T(\theta) = \sum_{r = 0}^N e^{r \theta} \, P_r = \sum_{r = 0}^N e^{r \theta} \binom{N}{r} p^r q^{N - r} = \left(e^{\theta} p + q\right)^N,
 \end{equation}
 making use of the binomial formula $\left(a + b\right)^N = \sum_{i = 0}^N \binom{N}{i} a^i b^{N - i}$.
-It's straightforward to take the necessary derivatives of \eq{eq:gen_func}:
+
+\newpage % WARNING: FORMATTING BY HAND (INCLUDING PARAGRAPH BREAK)
+It's straightforward to take the necessary derivatives of \eq{eq:gen_func}, which simplify pleasantly since $\left.\left(e^{\theta} p + q\right) \right|_{\theta = 0} = p + q = 1$:
 \begin{mdframed}
   $\displaystyle \left.\frac{d}{d\theta} \left(e^{\theta} p + q\right)^N \right|_{\theta = 0} = $ \\[50 pt]
-  $\displaystyle \left.\frac{d^2}{d\theta^2} \left(e^{\theta} p + q\right)^N \right|_{\theta = 0} = $ \\[50 pt]
+  $\displaystyle \left.\frac{d^2}{d\theta^2} \left(e^{\theta} p + q\right)^N \right|_{\theta = 0} = $ \\[75 pt]
 \end{mdframed}
-Since $p + q = 1$, the simplification $\left.\left(e^{\theta} p + q\right)^n \right|_{\theta = 0} = 1$ provides
-\begin{align*}
-  \vev{r}   & = Np &
-  \vev{r^2} & = Np(Np + q).
-\end{align*}
-Plugging these results into \eq{eq:RWmoments}, we have:
+Insert the resulting $\vev{r}$ and $\vev{r^2}$ into the relations derived above:
 \begin{mdframed}
-  $\vev{x}   = $ \\[50 pt]
+  $\vev{x} = $ \\[50 pt]
   $\vev{x^2} - \vev{x}^2 = $ \\[50 pt]
 \end{mdframed}
 In the end, you should obtain
@@ -500,29 +498,32 @@ This is a particular realization of a very general result.
 \begin{shaded}
   The \textbf{law of diffusion} states that
   \begin{equation}
+    \label{eq:diff_law}
     \De x = D \sqrt{t},
   \end{equation}
   where $D$ is the \textbf{diffusion constant} and the uncertainty $\De x$ is sometimes called the \textit{diffusion length}.
 \end{shaded}
 
 The diffusion constant $D = 2\sqrt{\frac{pq}{\De t}}$ that we computed above is specific to the current case of a fixed-step-length random walk in one dimension.
-The figure below illustrates why this behavior is called diffusion.
+The behaviour it describes is illustrated by the figure below, which plots the $t$-dependent probability distribution $p(x)$ that we'll soon derive using the central limit theorem (\eq{eq:RW_CLT}).
+What we can see already, even before completing that derivation, is that the probability distribution steadily spreads out---or \textit{diffuses}---as time passes:
 \begin{center}
   \includegraphics[width=0.45\textwidth]{figs/unit01_diff_zero.pdf}
 \end{center}
-This figure shows probability distributions $p(x)$ (computed below) for the special case $p = q = \frac{1}{2}$ where $\vdr = 0$, so the expectation value is always $\vev{x} = 0$ for any walk time $t$.
-However, as time goes on, there is a steady decrease in the probability that any given walker will end up at its starting point $x = 0$.\footnote{As in \secref{sec:CLT}, we can extract this probability by integrating the distribution $p(x)$ over the interval $-0.5 \leq x \leq 0.5$.}
-Instead, the probability distribution spreads (or \textit{diffuses}) outward, leading to a constant (`one-sigma' or 68\%) probability that the walker remains within the steadily increasing interval $-D\sqrt{t} \leq x \leq D\sqrt{t}$.
+Here we are considering the special case $p = q = \frac{1}{2}$, for which the drift velocity $\vdr = 0$ and the expectation value is always $\vev{x} = 0$ for any walk time $t$.
+However, as time goes on, there is a steady decrease in the probability that the walker will end up at its starting point $x = 0$.
+(As in \secref{sec:CLT}, we can extract this probability by integrating the distribution $p(x)$ over the interval $-0.5 \leq x \leq 0.5$.)
+Instead, the interval within which we can expect to find the walker (with a constant `one-sigma' or 68\% probability) steadily grows, $-D\sqrt{t} \leq x \leq D\sqrt{t}$, with characteristic dependence on the square root of the time the diffusive process lasts.
 
-Except in the trivial cases $p = 0$ or $q = 0$, this same diffusive phenomenon occurs when the drift velocity is non-zero.
-This is shown in the two figures below, which compare the case of a low but non-zero drift velocity on the left with a high drift velocity on the right.
+Except in the trivial cases $p = 0$ or $q = 0$, diffusion also occurs when the drift velocity is non-zero.
+This is shown in the two figures below, considering a low but non-zero drift velocity on the left, and a high drift velocity on the right.
 \begin{center} % Don't need centering, but this will provide consistent vertical spacing
   \includegraphics[width=0.45\textwidth]{figs/unit01_diff_low.pdf}\hfill \includegraphics[width=0.45\textwidth]{figs/unit01_diff_high.pdf}
 \end{center}
 In the figure on the left, each individual probability distribution looks similar to the corresponding one for $\vdr = 0$, but now their central peaks (and expectation values $\vev{x}$) drift steadily to the right.
 The distributions in the figure on the right look a bit different, but still diffuse to exhibit shorter and broader peaks as time goes on.
 
-When $p \neq \frac{1}{2}$ so that $\vev{x} \neq 0$, it is interesting to compare how `fast' the expectation value drifts compared to how fast its uncertainty grows due to diffusion.
+When $p \neq \frac{1}{2}$ so that $\vev{x} \neq 0$, it is interesting to compare the drift in the expectation value against the growth in fluctuations around $\vev{x}$ due to diffusion.
 We can do this by considering the following \textit{relative} uncertainty:
 \begin{mdframed}
   $\frac{\De x}{\vev{x}} = $ \\[100 pt]
@@ -546,7 +547,7 @@ From this we can easily compute the mean and variance \textit{of the single-step
 \end{mdframed}
 
 The final position $x$ of the walker after $N$ steps is exactly the sum over these $x_i$ given in \eq{eq:CLTsum}.
-Its probability distribution $p(x)$ from the central limit theorem is therefore obtained simply by plugging in these single-step $\mu$ and $\si^2$, which we can then rewrite in terms of the drift velocity and diffusion constant:
+Its probability distribution $p(x)$ from the central limit theorem is therefore obtained directly from these single-step $\mu$ and $\si^2$, which we can also express in terms of the drift velocity and diffusion constant:
 \begin{align}
   p(x) & = \frac{1}{\sqrt{2\pi (4Npq)}} \exp\left[-\frac{(x - N(2p - 1))^2}{8Npq}\right] \cr
        & = \frac{1}{\sqrt{2\pi D^2 t}} \exp\left[-\frac{(x - \vdr t)^2}{2D^2 t}\right], \label{eq:RW_CLT}
@@ -558,13 +559,15 @@ We could have jumped straight to the final line by considering \eq{eq:CLT} and n
   \vdr t & = N(2p - 1) = N \mu &
   D^2 t & = 4pq \frac{t}{\De t} = N \si^2.
 \end{align}
-While the functions of $p$ and $q$ that we computed are specific to the particular type of random walk we're currently considering, \eq{eq:single_step} relating $\left\{\vdr, D^2\right\}$ with the single-step $\left\{\mu, \si^2\right\}$ turn out to be generic.
-This is remarkable, because it means that so long as the single-step mean and variance are finite, we end up with \eq{eq:RW_CLT} as the large-$t$ probability distribution for any random walk in a single variable $x$.
+While this dependence on $p$ and $q$ is specific to the particular fixed-step-length random walk we're currently considering, the results $\vdr t = N \mu$ and $D^2 t = N \si^2$ in \eq{eq:single_step} turn out to be generic.
+This is remarkable, because it means that the diffusive process as a whole is determined entirely by the single-step mean and variance.
+So long as $\mu$ and $\si^2$ are finite, we end up with \eq{eq:RW_CLT} as the large-$t$ probability distribution for any markovian random walk in a single variable $x$.
 
-This result is related to the generality of the law of diffusion, which we can recognize in the structure of \eq{eq:RW_CLT}.
-For any time $t$, the factor $\de x^2 \equiv (x - \vdr t)^2$ simply measures the distance from the drifting expectation value where the gaussian $p(x)$ is peaked.
-As $t$ increases, so does the factor $2D^2 t$ dividing this $\de x^2$, meaning that a larger distance from the peak is needed for the overall argument of the exponential to reach a given value---in other words, the peak becomes broader.
+This result is related to the generality of the law of diffusion (\eq{eq:diff_law}), which we can recognize in the structure of \eq{eq:RW_CLT}.
+Since $t > 0$, the exponential in the gaussian distribution $p(x)$ peaks at the drifting expectation value $x = \vdr t = \vev{x}$.
+The factor $(x - \vdr t)^2$ simply quantifies the distance from this peak.
+As $t$ increases, so does the factor $2D^2 t$ dividing this $(x - \vdr t)^2$, meaning that a larger distance from the peak is needed for the overall argument of the exponential to reach a given value---in other words, the peak becomes broader.
 This in turn requires a shorter peak, reflected in the $\frac{1}{\sqrt{t}}$ in the overall coefficient, which is set by requiring $\int p(x) \; dx = 1$.
-Therefore we can conclude that the law of diffusion holds whenever the mean and variance of the single-step process are finite.
-In the computer project we will numerically investigate the \textit{anomalous diffusion} that occurs when this condition is not satisfied.
+In other words, the law of diffusion holds whenever the central limit theorem is applicable.
+This requires that the mean and variance of the single-step process are finite, and in the computer project we will numerically investigate the \textit{anomalous diffusion} that occurs when this condition is not satisfied.
 % ------------------------------------------------------------------
