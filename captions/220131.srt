@@ -1,0 +1,3019 @@
+1
+00:00:01,610 --> 00:00:05,780
+With that, I should be able to switch back to the
+
+2
+00:00:05,780 --> 00:00:12,860
+doc cam---just on the stroke of four!  Well, welcome
+
+3
+00:00:12,860 --> 00:00:15,910
+to Statistical Physics.  I guess the bells are
+
+4
+00:00:15,910 --> 00:00:20,540
+our cue to get started. I am David Schaich and will
+
+5
+00:00:20,540 --> 00:00:25,380
+be your host for this module. And the name is
+
+6
+00:00:25,950 --> 00:00:28,980
+pronounced like in handshake. It's
+
+7
+00:00:29,790 --> 00:00:32,730
+easier to say that it is the spell. I think when I
+
+8
+00:00:32,730 --> 00:00:36,270
+was testing this doc cam itself over the weekend,
+
+9
+00:00:37,960 --> 00:00:44,000
+it was also not responding to zoom in or out, but just
+
+10
+00:00:44,050 --> 00:00:47,470
+get set up with some of the things I'll be going
+
+11
+00:00:47,470 --> 00:00:48,880
+through today, and in particular, I should
+
+12
+00:00:48,880 --> 00:00:53,050
+probably put a microphone in case I want anything
+
+13
+00:00:53,050 --> 00:00:55,510
+I'm saying to be picked up by any of these
+
+14
+00:00:55,510 --> 00:00:57,370
+recordings. I'm trying to make several.
+
+15
+00:01:00,110 --> 00:01:04,600
+The various logistical things to go through today,
+
+16
+00:01:04,600 --> 00:01:07,030
+some of which you might have seen earlier in other
+
+17
+00:01:07,030 --> 00:01:12,460
+modules, one of those is the attendance and
+
+18
+00:01:12,460 --> 00:01:17,190
+well-being monitoring system that the department
+
+19
+00:01:17,200 --> 00:01:22,600
+is. So I've got a six digit number for you all to
+
+20
+00:01:23,920 --> 00:01:27,280
+plug into that system. You want to record it. And
+
+21
+00:01:27,280 --> 00:01:33,740
+we're engaged with this stuff. That's very, very I
+
+22
+00:01:34,420 --> 00:01:41,020
+hate to leave that up on the top there as we go
+
+23
+00:01:41,020 --> 00:01:41,590
+forward.
+
+24
+00:01:44,680 --> 00:01:48,670
+And at least part of today will be spent on.
+
+25
+00:01:50,260 --> 00:01:53,380
+Logistics and other important things, but I want
+
+26
+00:01:53,380 --> 00:01:57,200
+to say, first of all, I should. Introduced myself
+
+27
+00:01:57,210 --> 00:01:59,580
+in a bit more detail in a lecture here in
+
+28
+00:01:59,850 --> 00:02:02,190
+theoretical physics, mathematical sciences. I've
+
+29
+00:02:02,730 --> 00:02:06,120
+been here for three years now and this is the
+
+30
+00:02:06,600 --> 00:02:08,700
+third time I've taught this module in a different
+
+31
+00:02:08,700 --> 00:02:12,300
+way after the excitement of the past few years.
+
+32
+00:02:13,720 --> 00:02:19,270
+And it is at this point a sufficiently small
+
+33
+00:02:19,270 --> 00:02:23,290
+module that I think I can introduce myself and ask
+
+34
+00:02:23,290 --> 00:02:26,350
+you to introduce yourselves and try to attach
+
+35
+00:02:26,350 --> 00:02:30,360
+names to faces Musubi masks. So if you're all
+
+36
+00:02:30,430 --> 00:02:33,070
+right with that, would you start by the left side
+
+37
+00:02:33,610 --> 00:02:36,460
+here and possibly introduce yourself to each other?
+
+38
+00:02:37,510 --> 00:02:39,850
+How many logical you could get together at the
+
+39
+00:02:39,850 --> 00:02:44,560
+past? If you want to see your name, that's all it
+
+40
+00:02:44,560 --> 00:02:45,160
+has to be.
+
+41
+00:02:49,090 --> 00:02:50,200
+George, George.
+
+42
+00:02:59,790 --> 00:03:04,670
+Right, right, John. Well, try to remember those
+
+43
+00:03:04,670 --> 00:03:06,880
+that, like you said at.
+
+44
+00:03:19,950 --> 00:03:22,560
+I'm just debating what to talk about first, maybe
+
+45
+00:03:22,560 --> 00:03:25,500
+the best thing to do would be to talk about why
+
+46
+00:03:25,710 --> 00:03:28,920
+we're doing what we're doing before going into
+
+47
+00:03:28,920 --> 00:03:32,400
+battle and then what? So I want to introduce and
+
+48
+00:03:32,400 --> 00:03:35,910
+motivate statistical physics as really one of the
+
+49
+00:03:36,900 --> 00:03:39,720
+pillars of physics over the past couple of
+
+50
+00:03:39,720 --> 00:03:42,150
+centuries that I'm sure for the next couple of
+
+51
+00:03:42,150 --> 00:03:45,630
+centuries coming up after that, which goes along
+
+52
+00:03:45,660 --> 00:03:49,950
+with relativity and quantum mechanics as.
+
+53
+00:03:54,640 --> 00:03:57,670
+Really, the the essence of what physics amounts to
+
+54
+00:03:57,670 --> 00:04:00,430
+in practice in these days and also
+
+55
+00:04:02,470 --> 00:04:04,030
+playing an important role in all sorts of
+
+56
+00:04:04,030 --> 00:04:08,170
+applications from the realm of nuclear physics,
+
+57
+00:04:08,170 --> 00:04:11,890
+particle physics, cosmology, to figuring squishier
+
+58
+00:04:11,890 --> 00:04:14,230
+stuff like climate physics and biological physics,
+
+59
+00:04:14,230 --> 00:04:18,760
+and compared to quantum mechanics and relativity,
+
+60
+00:04:18,760 --> 00:04:22,810
+which we usually consider in the context of
+
+61
+00:04:23,080 --> 00:04:27,070
+individual objects or simple systems, just
+
+62
+00:04:27,070 --> 00:04:29,710
+physical physics really has the unique feature.
+
+63
+00:04:30,100 --> 00:04:34,270
+That is what happens when phenomena emerge from
+
+64
+00:04:34,540 --> 00:04:37,270
+collections of large numbers of degrees of freedom
+
+65
+00:04:37,270 --> 00:04:41,050
+like atoms. So in a gram of water, the sort of
+
+66
+00:04:41,050 --> 00:04:44,350
+large number have in mind here is roughly 10 to
+
+67
+00:04:44,350 --> 00:04:48,340
+the power of 22 atoms in a couple of dozen drops
+
+68
+00:04:48,340 --> 00:04:54,010
+of water. And what that enables, in contrast to
+
+69
+00:04:54,220 --> 00:04:56,860
+some of the simpler and more fundamental things I
+
+70
+00:04:56,860 --> 00:04:59,110
+imagine you've already seen, is really the
+
+71
+00:04:59,110 --> 00:05:03,190
+emergence of waiting for the arrow of time, which
+
+72
+00:05:03,190 --> 00:05:06,910
+is not quite in theory. No, there. But we know
+
+73
+00:05:06,910 --> 00:05:10,570
+that in this series of pictures, we're putting a
+
+74
+00:05:10,570 --> 00:05:15,610
+drop of purple dye into a cup of water and seeing
+
+75
+00:05:15,610 --> 00:05:20,500
+how it expands outward as time goes on until it is
+
+76
+00:05:20,500 --> 00:05:24,290
+uniformly distributed throughout that water. And
+
+77
+00:05:24,300 --> 00:05:28,080
+if we think about this for a sec, we. Realised
+
+78
+00:05:28,080 --> 00:05:32,730
+from the classical or quantum mechanics of atoms
+
+79
+00:05:32,730 --> 00:05:35,680
+bouncing off each other in the dye, in the water.
+
+80
+00:05:36,060 --> 00:05:39,150
+We believe in atoms, all those processes look the
+
+81
+00:05:39,150 --> 00:05:42,230
+same no matter whether time is going forward or in
+
+82
+00:05:42,240 --> 00:05:45,060
+reverse. If you have two atoms or billiard balls
+
+83
+00:05:45,060 --> 00:05:47,700
+that come in and out of each other, we reverse
+
+84
+00:05:47,700 --> 00:05:50,970
+time. They come in off each other in the opposite
+
+85
+00:05:50,970 --> 00:05:55,090
+direction. But in this physical process coming
+
+86
+00:05:55,090 --> 00:05:57,610
+from the last number of degrees of freedom,
+
+87
+00:05:57,910 --> 00:06:00,970
+there's a clear direction to how things are
+
+88
+00:06:01,450 --> 00:06:05,680
+evolving. We are used to seeing things like milk
+
+89
+00:06:05,680 --> 00:06:08,810
+and coffee spreading out, and even though the
+
+90
+00:06:08,830 --> 00:06:13,900
+individual processes at play in that spreading out
+
+91
+00:06:13,900 --> 00:06:17,810
+are all reversible. It would be very surprising if
+
+92
+00:06:17,810 --> 00:06:20,630
+we were to see this process going in the opposite
+
+93
+00:06:20,630 --> 00:06:23,360
+direction, starting from a uniform mixture of
+
+94
+00:06:23,360 --> 00:06:25,700
+water dye and seeing all the dye.
+
+95
+00:06:27,810 --> 00:06:31,510
+Collect himself in a small region in that water.
+
+96
+00:06:32,520 --> 00:06:34,530
+So there is something.
+
+97
+00:06:36,710 --> 00:06:39,020
+The serious and fundamental to how the universe is
+
+98
+00:06:39,020 --> 00:06:42,100
+evolving, that is coming from the axis of physics
+
+99
+00:06:42,120 --> 00:06:45,560
+properties. The properties of statistical physics
+
+100
+00:06:46,190 --> 00:06:48,950
+that we can keep an eye on as we go through the.
+
+101
+00:06:49,850 --> 00:06:56,410
+This monument and setting that aside, can just
+
+102
+00:06:56,420 --> 00:06:59,930
+briefly look through the rough outline of this
+
+103
+00:06:59,930 --> 00:07:04,040
+march divided up into 10 units and 12 weeks. So
+
+104
+00:07:04,040 --> 00:07:08,800
+we'll be doing. A little less than one minute a
+
+105
+00:07:08,800 --> 00:07:11,690
+week or a little more than one week a unit, and
+
+106
+00:07:11,690 --> 00:07:15,370
+there won't be a very hard and rigid schedule. Go
+
+107
+00:07:15,370 --> 00:07:18,160
+over things in these lectures and tutorials, see
+
+108
+00:07:18,160 --> 00:07:23,290
+how quickly we go, and we need to speed up or add
+
+109
+00:07:23,290 --> 00:07:26,560
+more material as the term goes up. Again, this is
+
+110
+00:07:26,560 --> 00:07:29,530
+the first time I've will actually be able to do
+
+111
+00:07:29,530 --> 00:07:31,410
+this module in person.
+
+112
+00:07:34,360 --> 00:07:37,300
+And the basic idea that we are the plane that
+
+113
+00:07:37,300 --> 00:07:39,740
+we're following, what is essential physics from a
+
+114
+00:07:40,130 --> 00:07:44,320
+mathematical perspective is based on the idea of
+
+115
+00:07:44,320 --> 00:07:47,050
+what are called sophistical ensembles, which you
+
+116
+00:07:47,050 --> 00:07:50,590
+can see popping up a few times throughout this
+
+117
+00:07:50,590 --> 00:07:55,330
+course. And what we'll be doing later today or
+
+118
+00:07:55,330 --> 00:07:57,850
+later this week is putting in place the
+
+119
+00:07:57,850 --> 00:08:01,720
+probability fundamentals that define what a.
+
+120
+00:08:03,490 --> 00:08:06,430
+Statistical ensemble is and then looking for two
+
+121
+00:08:06,430 --> 00:08:10,840
+or three different examples of those ensembles and
+
+122
+00:08:10,840 --> 00:08:15,760
+applying them to various systems and in questions
+
+123
+00:08:15,760 --> 00:08:16,150
+so.
+
+124
+00:08:20,010 --> 00:08:22,680
+If I were to say things just the sentence, an
+
+125
+00:08:22,680 --> 00:08:26,850
+ensemble is a statistical system subject to a
+
+126
+00:08:26,850 --> 00:08:29,460
+certain set of constraints and different
+
+127
+00:08:29,460 --> 00:08:33,270
+constraints, four to five different ensembles. So
+
+128
+00:08:33,270 --> 00:08:35,950
+after we look at what we call the microeconomic
+
+129
+00:08:36,010 --> 00:08:38,610
+ensemble, canonical ensemble, which are subject to
+
+130
+00:08:38,610 --> 00:08:41,040
+slightly different sets of constraints, we'll get
+
+131
+00:08:41,040 --> 00:08:45,450
+to all the details in due time to apply that to
+
+132
+00:08:45,560 --> 00:08:49,020
+the idea of gases and thermodynamic cycles,
+
+133
+00:08:49,650 --> 00:08:51,780
+followed by what is called a grand canonical
+
+134
+00:08:51,780 --> 00:08:54,240
+ensemble. Another change in the constraints that
+
+135
+00:08:54,240 --> 00:08:58,410
+are imposed, which will more then apply to look at
+
+136
+00:08:58,410 --> 00:09:00,630
+quantum statistics and quantum gases. And all of
+
+137
+00:09:00,630 --> 00:09:04,620
+those ensembles will be simplified by assuming
+
+138
+00:09:04,620 --> 00:09:08,880
+that the many particles in these systems are not
+
+139
+00:09:08,880 --> 00:09:12,150
+interacting with each other. They are just free to
+
+140
+00:09:12,510 --> 00:09:15,360
+dance around without any care as to what any of
+
+141
+00:09:15,360 --> 00:09:18,870
+the other particles are doing. Maybe. An example
+
+142
+00:09:18,930 --> 00:09:22,620
+of that sort of behavior is in the physics of
+
+143
+00:09:22,620 --> 00:09:25,410
+light photons, which basically pass right through
+
+144
+00:09:25,410 --> 00:09:31,170
+each other as waves wrap up the term by at least
+
+145
+00:09:31,170 --> 00:09:33,990
+beginning to look at interacting systems where
+
+146
+00:09:33,990 --> 00:09:35,940
+individual particles are interacting with each
+
+147
+00:09:35,940 --> 00:09:38,550
+other, bouncing off of each other, which is where
+
+148
+00:09:38,550 --> 00:09:42,720
+things start to get really interesting and we'll
+
+149
+00:09:42,720 --> 00:09:46,230
+have a lot of broader applications to fill
+
+150
+00:09:46,230 --> 00:09:48,830
+whatever time remains once we get to that point.
+
+151
+00:09:50,750 --> 00:09:55,610
+And I'll try to not get too bogged down in in
+
+152
+00:09:55,610 --> 00:09:58,810
+these logistics, which I at least find fairly dull,
+
+153
+00:09:59,390 --> 00:10:02,930
+but we have three class meetings a week and then
+
+154
+00:10:02,930 --> 00:10:08,540
+one tutorial. And for whatever reason, those three
+
+155
+00:10:08,540 --> 00:10:10,880
+class meetings have to end here. And then on
+
+156
+00:10:10,880 --> 00:10:13,550
+Tuesday mornings will be next door. And the
+
+157
+00:10:13,550 --> 00:10:16,920
+tutorial also will be here on Friday afternoons.
+
+158
+00:10:17,900 --> 00:10:20,990
+There is a canvass site that I think most of you
+
+159
+00:10:20,990 --> 00:10:24,970
+have visited at this point. I said that link in an
+
+160
+00:10:24,980 --> 00:10:27,710
+announcement through canvas. And I have office
+
+161
+00:10:27,710 --> 00:10:30,980
+hours, twice a week following the lecture at this
+
+162
+00:10:30,980 --> 00:10:33,620
+time on Mondays, as well as the Friday morning
+
+163
+00:10:33,620 --> 00:10:37,070
+lecture, which will give me a chance if you come
+
+164
+00:10:37,070 --> 00:10:38,930
+to me with any questions at those office hours. I
+
+165
+00:10:38,930 --> 00:10:42,400
+have another lecture tutorial meeting immediately
+
+166
+00:10:42,440 --> 00:10:45,560
+afterwards kicks in. You don't need to be brought
+
+167
+00:10:45,560 --> 00:10:46,490
+up in half over.
+
+168
+00:10:48,720 --> 00:10:53,100
+Among the the whole group now what might be more
+
+169
+00:10:53,100 --> 00:10:57,810
+interesting, but how are you seen on canvas is
+
+170
+00:10:58,260 --> 00:11:00,630
+some of the assessments that are coming up in the
+
+171
+00:11:00,630 --> 00:11:05,820
+schedule for that. Where will have just the final
+
+172
+00:11:05,820 --> 00:11:08,520
+exam of the exam period when it comes to tests and
+
+173
+00:11:08,520 --> 00:11:10,200
+then all the interim assessment will be
+
+174
+00:11:10,560 --> 00:11:13,800
+essentially homework, a couple of traditional
+
+175
+00:11:13,800 --> 00:11:17,100
+homework assignments, some projects, no problems
+
+176
+00:11:17,100 --> 00:11:19,800
+to work through with the paper, and then a two
+
+177
+00:11:19,800 --> 00:11:25,480
+part computer project where you will have to write
+
+178
+00:11:25,500 --> 00:11:28,200
+some computer programs that will look at the
+
+179
+00:11:28,200 --> 00:11:31,680
+emergence of statistical behavior from a.
+
+180
+00:11:33,890 --> 00:11:37,530
+Underlying stochastic probabilistic process that
+
+181
+00:11:37,570 --> 00:11:41,120
+is happening with some level of randomness, but
+
+182
+00:11:41,120 --> 00:11:45,580
+repeatedly and giving rise to immersions. Have
+
+183
+00:11:45,740 --> 00:11:48,890
+from that, I don't think there's anything I can do
+
+184
+00:11:48,950 --> 00:11:50,060
+with those lights to.
+
+185
+00:11:53,930 --> 00:11:58,410
+Resolution of that can. Sorry about that.
+
+186
+00:12:02,170 --> 00:12:05,890
+There are various policies about deadlines and
+
+187
+00:12:06,490 --> 00:12:08,890
+exemptions and deductions that I will set aside
+
+188
+00:12:08,890 --> 00:12:12,160
+unless there are questions with them, I just say
+
+189
+00:12:12,160 --> 00:12:16,570
+that for each of these Intermap. Assignments,
+
+190
+00:12:16,570 --> 00:12:19,000
+we've been given a fixed deadline that's
+
+191
+00:12:19,000 --> 00:12:21,730
+coordinated within the department, and it's not in
+
+192
+00:12:21,730 --> 00:12:24,670
+my power to change the assignment itself or be
+
+193
+00:12:25,030 --> 00:12:27,370
+available to you in at least a week in advance and
+
+194
+00:12:27,370 --> 00:12:30,460
+hopefully much more than that. The first deadline
+
+195
+00:12:30,460 --> 00:12:32,350
+is coming up for that first part of the computer
+
+196
+00:12:32,710 --> 00:12:36,250
+project in a little under three weeks at this
+
+197
+00:12:36,250 --> 00:12:37,480
+point in mid-February.
+
+198
+00:12:39,730 --> 00:12:41,050
+So I'm going through.
+
+199
+00:12:43,180 --> 00:12:45,790
+But I call lecture notes, which is a bit of a
+
+200
+00:12:45,790 --> 00:12:48,940
+misnomer here, since these are
+
+201
+00:12:51,010 --> 00:12:53,860
+being updated from some of the asynchronous
+
+202
+00:12:53,860 --> 00:12:57,980
+materials that. Or developed for promoting of the
+
+203
+00:12:57,980 --> 00:13:01,880
+jury in the last term. So these are more like a
+
+204
+00:13:01,880 --> 00:13:04,790
+transcript of what I would say in the full lecture,
+
+205
+00:13:04,790 --> 00:13:08,270
+and there's not any guarantee that or let me put
+
+206
+00:13:08,270 --> 00:13:09,950
+it another way. I'm definitely not going to be
+
+207
+00:13:09,950 --> 00:13:12,350
+just reading off of these lecture notes when we're
+
+208
+00:13:12,350 --> 00:13:14,930
+meeting in person, which we get a bit tedious.
+
+209
+00:13:17,990 --> 00:13:22,190
+I will be going through with the material in the
+
+210
+00:13:22,190 --> 00:13:26,570
+order in style it's presented here and essentially
+
+211
+00:13:26,570 --> 00:13:28,880
+saying a bit more about things that seem to merit
+
+212
+00:13:28,880 --> 00:13:31,010
+a bit more discussion, maybe glossing over things
+
+213
+00:13:31,010 --> 00:13:34,310
+like these logistics that are reasonably well
+
+214
+00:13:34,640 --> 00:13:38,640
+covered in the lecture notes themselves. And I
+
+215
+00:13:38,640 --> 00:13:43,090
+know in past. Editions of this molecule, so the
+
+216
+00:13:43,090 --> 00:13:45,220
+students have been concerned about the appearance
+
+217
+00:13:45,220 --> 00:13:48,160
+of quantum physics or computer programming in the
+
+218
+00:13:48,160 --> 00:13:50,830
+outline of the assessment, so it's worth
+
+219
+00:13:50,830 --> 00:13:53,050
+emphasizing up front that there's no missing
+
+220
+00:13:53,050 --> 00:13:56,080
+background about any computer programming or
+
+221
+00:13:56,380 --> 00:13:59,530
+familiar with quantum physics. Everything you need
+
+222
+00:13:59,770 --> 00:14:02,260
+for that will be covered and in particular for
+
+223
+00:14:02,260 --> 00:14:04,840
+computer programming, starting at the editorial
+
+224
+00:14:04,840 --> 00:14:09,580
+this Friday, getting a bit of an introduction to
+
+225
+00:14:10,120 --> 00:14:12,910
+the programming languages that I personally
+
+226
+00:14:12,910 --> 00:14:15,160
+recommend for the project work, which is Python
+
+227
+00:14:16,000 --> 00:14:19,330
+and programming languages go User-Friendly and
+
+228
+00:14:19,330 --> 00:14:21,730
+very widely used around the world as well as being.
+
+229
+00:14:22,960 --> 00:14:27,520
+All pre and. It's also something that there are.
+
+230
+00:14:29,330 --> 00:14:33,080
+Various resources available online where you can
+
+231
+00:14:33,080 --> 00:14:35,840
+run Python code in case you have any trouble
+
+232
+00:14:35,840 --> 00:14:39,200
+getting it set up on the basis of your own.
+
+233
+00:14:41,920 --> 00:14:45,270
+Of which are links there often require creating a
+
+234
+00:14:45,530 --> 00:14:46,720
+a free account.
+
+235
+00:14:49,830 --> 00:14:51,900
+I should say that even though I recommend Pythonic
+
+236
+00:14:51,930 --> 00:14:55,950
+find it easy to work with your choice, if you
+
+237
+00:14:55,950 --> 00:14:58,650
+prefer to do that, project a different programming
+
+238
+00:14:58,650 --> 00:15:01,080
+language that you're already familiar with, feel
+
+239
+00:15:01,080 --> 00:15:06,300
+free to do so. Though I would warn against people,
+
+240
+00:15:06,300 --> 00:15:09,870
+which is not really up to the task that will be
+
+241
+00:15:09,870 --> 00:15:10,380
+assigned.
+
+242
+00:15:12,460 --> 00:15:13,000
+And.
+
+243
+00:15:15,200 --> 00:15:17,930
+You're all in your third year studies at this
+
+244
+00:15:17,930 --> 00:15:21,950
+point. You are experts in mathematical sciences
+
+245
+00:15:23,270 --> 00:15:25,690
+studying, but you know how to get the most out of
+
+246
+00:15:25,700 --> 00:15:28,460
+coming to how to get the most out of the module,
+
+247
+00:15:28,910 --> 00:15:33,410
+which includes coming to class. Even if everything
+
+248
+00:15:33,410 --> 00:15:35,780
+feels very easy for you and you're on top of
+
+249
+00:15:35,780 --> 00:15:38,180
+things, coming to class gives you an opportunity
+
+250
+00:15:38,180 --> 00:15:40,850
+to dig more deeply into some of the things that
+
+251
+00:15:40,850 --> 00:15:45,610
+will be oversimplified. Or perhaps glossed over
+
+252
+00:15:45,610 --> 00:15:48,520
+too quickly. So you're welcome to ask about
+
+253
+00:15:48,520 --> 00:15:53,220
+extensions or applications. Or anything else that.
+
+254
+00:15:54,190 --> 00:15:56,800
+Is it any interest to you as we really go through
+
+255
+00:15:56,980 --> 00:16:01,060
+the material and you'll see in these lecture notes,
+
+256
+00:16:01,060 --> 00:16:04,210
+there are gaps, there are going to be some
+
+257
+00:16:04,210 --> 00:16:08,940
+tutorial style exercises? Distributed both on
+
+258
+00:16:08,940 --> 00:16:12,390
+canvas and in person, and there will also, of
+
+259
+00:16:12,390 --> 00:16:14,760
+course, be a computer project and homework
+
+260
+00:16:14,760 --> 00:16:16,710
+assignment that you can work through to really get
+
+261
+00:16:17,250 --> 00:16:20,700
+a good grasp on the physics and confidence that
+
+262
+00:16:21,270 --> 00:16:24,390
+you fully understand it well enough to to actually
+
+263
+00:16:24,390 --> 00:16:29,190
+do things with it. So feel free to ask questions
+
+264
+00:16:29,550 --> 00:16:33,360
+to me, to each other or to any of the additional
+
+265
+00:16:33,930 --> 00:16:38,670
+books and and resources that are collected
+
+266
+00:16:40,680 --> 00:16:45,780
+on this last page of the logistics, which will.
+
+267
+00:16:49,620 --> 00:16:53,620
+Give you more perspectives and. Information about
+
+268
+00:16:53,620 --> 00:16:55,870
+any particular topic, especially if you are.
+
+269
+00:16:57,390 --> 00:16:59,400
+Having difficulty understanding any particular
+
+270
+00:16:59,400 --> 00:17:01,740
+aspect or even understanding why we're talking
+
+271
+00:17:01,740 --> 00:17:04,710
+about any particular aspect, all of those
+
+272
+00:17:04,980 --> 00:17:07,530
+questions are welcome and none of them is going to
+
+273
+00:17:07,530 --> 00:17:07,830
+be
+
+274
+00:17:10,170 --> 00:17:15,840
+stupid or otherwise. Problematic. So are there any
+
+275
+00:17:16,890 --> 00:17:20,100
+questions about the logistics, the health of the
+
+276
+00:17:21,390 --> 00:17:24,120
+course, the module before you really go into
+
+277
+00:17:24,660 --> 00:17:26,670
+actual physics and mathematics?
+
+278
+00:17:28,700 --> 00:17:32,540
+When will the computing project be released? So
+
+279
+00:17:32,540 --> 00:17:35,120
+the first part that's due in mid-February should
+
+280
+00:17:35,120 --> 00:17:37,330
+come out in the next few days before a tutorial
+
+281
+00:17:37,350 --> 00:17:41,480
+this Friday. I want to have it in your hand so you
+
+282
+00:17:41,480 --> 00:17:44,150
+can connect it up to what we'll be talking about
+
+283
+00:17:44,330 --> 00:17:47,120
+in terms of computer programming there. In fact, I
+
+284
+00:17:47,120 --> 00:17:49,640
+wanted to have it in your hand today, but it's
+
+285
+00:17:50,720 --> 00:17:53,030
+coming up as soon as possible this week.
+
+286
+00:17:55,300 --> 00:17:59,780
+And you'll see it on canvas and depending on. How
+
+287
+00:17:59,780 --> 00:18:02,450
+you set your notifications, you might get a
+
+288
+00:18:02,450 --> 00:18:04,540
+notification there. Just keep an eye out for it.
+
+289
+00:18:06,610 --> 00:18:07,420
+Other questions
+
+290
+00:18:10,140 --> 00:18:13,660
+could be it's an individual project, so you're
+
+291
+00:18:13,660 --> 00:18:16,290
+welcome to talk with each other about it, but
+
+292
+00:18:16,300 --> 00:18:20,500
+whatever you code up and turn in these to be your
+
+293
+00:18:20,500 --> 00:18:23,590
+own work, representing your understanding in the
+
+294
+00:18:23,590 --> 00:18:24,310
+usual way.
+
+295
+00:18:28,500 --> 00:18:33,650
+The questions and. Feel free to follow up with any
+
+296
+00:18:34,460 --> 00:18:39,170
+later on, but let's get back to introducing more
+
+297
+00:18:39,170 --> 00:18:43,670
+of this topic to physical fitness over here from
+
+298
+00:18:43,670 --> 00:18:48,120
+time to time. See if any questions. Come up in
+
+299
+00:18:50,190 --> 00:18:52,860
+the chair, so.
+
+300
+00:18:56,170 --> 00:18:59,710
+The basic starting point for medical science is
+
+301
+00:19:00,490 --> 00:19:02,860
+using mathematics to make predictions for
+
+302
+00:19:03,130 --> 00:19:04,320
+observable phenomena.
+
+303
+00:19:07,660 --> 00:19:09,850
+In physics in particular, it's this has been a
+
+304
+00:19:09,850 --> 00:19:12,760
+tremendously successful enterprise and there's.
+
+305
+00:19:13,910 --> 00:19:17,780
+Even discussions about whether it is a reasonably
+
+306
+00:19:18,200 --> 00:19:23,600
+successful, which I will not get into. In this
+
+307
+00:19:23,600 --> 00:19:26,120
+module, though, those of you who are interested in
+
+308
+00:19:26,120 --> 00:19:29,870
+philosophy are probably already familiar with that
+
+309
+00:19:30,320 --> 00:19:32,090
+argument, that mathematics is unreasonably
+
+310
+00:19:32,090 --> 00:19:35,120
+effective in the physical sciences and the various
+
+311
+00:19:35,870 --> 00:19:41,180
+debates around that topic. But in the domain of
+
+312
+00:19:41,180 --> 00:19:42,830
+statistical physics, what we're really going to
+
+313
+00:19:42,830 --> 00:19:46,860
+see is. That seems sort of amazingly broad
+
+314
+00:19:46,860 --> 00:19:50,010
+applications of simple mathematical principles to
+
+315
+00:19:50,010 --> 00:19:54,330
+all sorts of physical systems and ranging from
+
+316
+00:19:55,200 --> 00:19:58,890
+subatomic scales to cosmological scales beyond the
+
+317
+00:19:58,890 --> 00:20:01,490
+galaxy. And.
+
+318
+00:20:05,190 --> 00:20:07,410
+The temperature is colder than the vacuum of outer
+
+319
+00:20:07,410 --> 00:20:10,550
+space to really the temperatures of the sort of
+
+320
+00:20:10,560 --> 00:20:14,220
+heat seeing how statistical physics governs the
+
+321
+00:20:14,640 --> 00:20:19,290
+spectrum of radiation emitted by the sun. Later as
+
+322
+00:20:19,290 --> 00:20:23,430
+one application. They are the turban and.
+
+323
+00:20:25,630 --> 00:20:28,270
+I've already just said at the big picture level
+
+324
+00:20:28,270 --> 00:20:32,560
+brought up the fact that some physical physics
+
+325
+00:20:32,560 --> 00:20:35,890
+differs from sort of relativistic quantum
+
+326
+00:20:35,890 --> 00:20:39,820
+mechanics in terms of producing a clear arrow of
+
+327
+00:20:39,820 --> 00:20:42,670
+time in the evolution of systems. One other
+
+328
+00:20:43,180 --> 00:20:48,830
+difference that is at the practical level. Is the
+
+329
+00:20:48,830 --> 00:20:55,950
+use of probabilities to. Describe phenomena and
+
+330
+00:20:55,950 --> 00:20:59,640
+describe things, describe physical processes in
+
+331
+00:20:59,640 --> 00:21:03,780
+probabilistic terms, the Catholic terms that
+
+332
+00:21:03,780 --> 00:21:08,610
+involve stochastic randomness rather than the in
+
+333
+00:21:08,640 --> 00:21:14,370
+principle, perfectly predictive behavior of those
+
+334
+00:21:14,370 --> 00:21:17,490
+other pillars of physics. And even in quantum
+
+335
+00:21:17,490 --> 00:21:19,020
+physics that are there is.
+
+336
+00:21:21,050 --> 00:21:23,230
+You might might know or might not it's not
+
+337
+00:21:23,240 --> 00:21:25,910
+required for this knowledge of others because they
+
+338
+00:21:25,920 --> 00:21:30,200
+have to have intrinsic uncertainties in quantum
+
+339
+00:21:30,200 --> 00:21:32,090
+physics. The Heisenberg Uncertainty Principle
+
+340
+00:21:32,090 --> 00:21:35,720
+places sharp restrictions upon how well you say
+
+341
+00:21:35,720 --> 00:21:37,700
+the position or momentum of an object can be
+
+342
+00:21:37,700 --> 00:21:40,010
+something easily known. And there is a
+
+343
+00:21:40,010 --> 00:21:42,950
+probabilistic aspect to quantum wave functions.
+
+344
+00:21:44,660 --> 00:21:47,690
+But even in quantum physics, you can in principle,
+
+345
+00:21:47,690 --> 00:21:52,440
+perfectly predict. Distributions and probabilities,
+
+346
+00:21:52,870 --> 00:21:55,360
+whereas in sophistical physics.
+
+347
+00:21:57,600 --> 00:22:01,650
+The approach is characterized by practical
+
+348
+00:22:01,650 --> 00:22:06,820
+limitations on the. The way the extent to which
+
+349
+00:22:06,820 --> 00:22:09,700
+physical systems can be predicted that are arising
+
+350
+00:22:09,700 --> 00:22:14,590
+from just the sheer number of degrees of freedom.
+
+351
+00:22:14,950 --> 00:22:17,680
+Number of independent objects that are involved, I
+
+352
+00:22:17,680 --> 00:22:21,400
+think, of this number tend to be power. Twenty two
+
+353
+00:22:21,400 --> 00:22:26,170
+twenty three came up in the big picture. This is
+
+354
+00:22:28,330 --> 00:22:32,140
+known as Avogadro's number, describing the number
+
+355
+00:22:32,140 --> 00:22:35,970
+of atoms that are in everyday amounts of substance.
+
+356
+00:22:36,160 --> 00:22:39,850
+So it's about 18 grams of water. Twenty two liters
+
+357
+00:22:39,850 --> 00:22:43,330
+of air at sea level. Atmospheric pressure and
+
+358
+00:22:43,330 --> 00:22:49,260
+temperature. Evolve just this enormous amount of
+
+359
+00:22:49,890 --> 00:22:54,370
+information, amount of constituents and. You're
+
+360
+00:22:54,400 --> 00:22:59,720
+not impressed by the about 10, 20, 30 objects.
+
+361
+00:22:59,740 --> 00:23:00,580
+Maybe I could ask.
+
+362
+00:23:02,820 --> 00:23:08,050
+How easy would it be to write down? That's amount
+
+363
+00:23:08,050 --> 00:23:11,470
+of information in your laptop or even a
+
+364
+00:23:11,470 --> 00:23:13,390
+supercomputer. So.
+
+365
+00:23:15,680 --> 00:23:20,450
+If we use some of the math about imagining that
+
+366
+00:23:20,450 --> 00:23:22,700
+each of these atoms could be described just with a
+
+367
+00:23:22,700 --> 00:23:26,090
+single bytes of information, which is certainly
+
+368
+00:23:26,090 --> 00:23:30,940
+optimistic once we get up to the level of interior
+
+369
+00:23:30,980 --> 00:23:32,810
+light that you might have on your hard drive.
+
+370
+00:23:33,740 --> 00:23:39,110
+That's 10 to 12 buttons, so you accounted for one
+
+371
+00:23:39,110 --> 00:23:45,500
+part in 10 to the 10th and the 11th of a 18 grams
+
+372
+00:23:45,800 --> 00:23:50,540
+worth of water. So that is sort of large numbers
+
+373
+00:23:50,540 --> 00:23:54,470
+we're talking about in order to write down or
+
+374
+00:23:54,560 --> 00:23:58,460
+specify positions or velocities of this number of
+
+375
+00:23:58,460 --> 00:24:01,670
+objects. We need something like one hundred
+
+376
+00:24:01,670 --> 00:24:06,980
+billion terabytes worth of information and we want
+
+377
+00:24:06,980 --> 00:24:10,430
+to analyze that level of information on a
+
+378
+00:24:10,430 --> 00:24:13,940
+continuous basis going forward as the systems
+
+379
+00:24:14,210 --> 00:24:18,710
+evolve in time. So that is what's leading us to
+
+380
+00:24:18,740 --> 00:24:22,280
+where that's showing the impossibility of
+
+381
+00:24:22,580 --> 00:24:25,340
+predicting all of those positions and velocities.
+
+382
+00:24:27,750 --> 00:24:31,310
+The final thing is the ad in full detail, even
+
+383
+00:24:31,310 --> 00:24:36,710
+though in principle it's possible with. One
+
+384
+00:24:36,710 --> 00:24:39,620
+hundred billion terabytes of data that is updated
+
+385
+00:24:39,980 --> 00:24:42,530
+continuously in practice, that's not something
+
+386
+00:24:42,530 --> 00:24:47,960
+that we as humans will ever be able to do. So the
+
+387
+00:24:47,960 --> 00:24:50,990
+alternative that statistical physics is based on
+
+388
+00:24:51,710 --> 00:24:52,310
+is.
+
+389
+00:24:55,030 --> 00:24:58,630
+Figuring out what we want to analyze from these
+
+390
+00:24:58,630 --> 00:25:04,880
+large sets of data sets. And coming up with.
+
+391
+00:25:06,340 --> 00:25:10,240
+Simple mathematical descriptions of those based on.
+
+392
+00:25:11,740 --> 00:25:15,280
+A. Stochastics, treatment of the underlying
+
+393
+00:25:15,280 --> 00:25:18,880
+processes is one of those underlying processes are
+
+394
+00:25:19,120 --> 00:25:24,530
+essentially invisible. And just. As a brief,
+
+395
+00:25:24,800 --> 00:25:25,910
+historical aside,
+
+396
+00:25:28,140 --> 00:25:31,370
+approaches, statistical physics approaches were
+
+397
+00:25:31,370 --> 00:25:36,650
+developed in the eighteen hundreds and into the
+
+398
+00:25:36,680 --> 00:25:40,280
+nineteen hundred as by folks like little Boltzmann,
+
+399
+00:25:41,120 --> 00:25:45,890
+Willard Gibbs, Albert Einstein, Max Hawk where.
+
+400
+00:25:47,740 --> 00:25:49,690
+There was a great deal of debate at that time
+
+401
+00:25:50,170 --> 00:25:54,880
+about whether or not the atoms and molecules that
+
+402
+00:25:54,880 --> 00:25:58,700
+I've claimed are not familiar substances actually
+
+403
+00:25:58,730 --> 00:26:02,170
+exist, if it was well beyond the capabilities of
+
+404
+00:26:02,170 --> 00:26:06,400
+19th century technology to see an individual atom
+
+405
+00:26:06,400 --> 00:26:11,360
+or even an individual molecule. So the proposition,
+
+406
+00:26:11,360 --> 00:26:14,870
+that stuff we interacted with in measuring
+
+407
+00:26:15,140 --> 00:26:17,840
+temperature and pressure and intensity of the
+
+408
+00:26:17,840 --> 00:26:20,330
+large scale macroscopic or thermodynamic
+
+409
+00:26:20,330 --> 00:26:25,280
+properties of systems, the claim that all that
+
+410
+00:26:25,280 --> 00:26:27,680
+stuff was really made up of atoms was.
+
+411
+00:26:32,720 --> 00:26:35,310
+Generally, a fair amount of debate and both men in
+
+412
+00:26:35,310 --> 00:26:38,750
+particular had to spend sort of his entire life in
+
+413
+00:26:39,260 --> 00:26:43,250
+arguments about whether it was valid or useful to
+
+414
+00:26:43,850 --> 00:26:48,020
+even hypothesize that atoms existed in this. No.
+
+415
+00:26:50,300 --> 00:26:54,830
+We should ask, who in this room believes that
+
+416
+00:26:54,830 --> 00:26:57,500
+atoms are better for the air and the other
+
+417
+00:26:57,500 --> 00:26:59,330
+substances that were made out of.
+
+418
+00:27:01,860 --> 00:27:06,260
+One, I'll confess to that. And most hands do seem
+
+419
+00:27:06,260 --> 00:27:09,780
+to be up here. Willing to accept the atomic
+
+420
+00:27:09,930 --> 00:27:15,080
+hypothesis. But if I were to ask about whether,
+
+421
+00:27:15,640 --> 00:27:18,620
+you know, who in the room believes that same
+
+422
+00:27:18,680 --> 00:27:21,580
+fundamental strength is in the live space time
+
+423
+00:27:21,590 --> 00:27:23,920
+dimensions of what are responsible for those atoms
+
+424
+00:27:23,930 --> 00:27:28,300
+at the most fundamental level. With a show of
+
+425
+00:27:28,300 --> 00:27:33,050
+hands. There are fewer hands, including my own,
+
+426
+00:27:33,060 --> 00:27:37,050
+you sort of get a sense for the style of debates
+
+427
+00:27:37,050 --> 00:27:39,900
+that were going on around the development of
+
+428
+00:27:39,900 --> 00:27:42,210
+statistical physics and really.
+
+429
+00:27:44,710 --> 00:27:51,490
+Crucial advance that allowed Adams to be
+
+430
+00:27:52,360 --> 00:27:54,430
+conclusively established is something that really
+
+431
+00:27:54,430 --> 00:27:59,260
+existed in in physics and in everyday substances
+
+432
+00:27:59,260 --> 00:28:03,910
+was the application of sophistical physics to a
+
+433
+00:28:03,910 --> 00:28:07,990
+process known as Brownian motion, which is where
+
+434
+00:28:08,680 --> 00:28:15,230
+microscopic but still. Visible particles, so you
+
+435
+00:28:15,230 --> 00:28:18,860
+can the of pollen suspended in water, we observe
+
+436
+00:28:18,860 --> 00:28:23,750
+it to randomly move around in the early eighteen
+
+437
+00:28:23,750 --> 00:28:27,860
+hundreds and after scientists had done sufficient
+
+438
+00:28:27,860 --> 00:28:31,490
+experimentation to prove that these objects, these
+
+439
+00:28:31,490 --> 00:28:35,880
+particles and. In this water, we're not, in fact,
+
+440
+00:28:35,880 --> 00:28:39,960
+alive, and they were just randomly. The debate
+
+441
+00:28:39,960 --> 00:28:43,500
+became what was causing this range of motion, and
+
+442
+00:28:43,500 --> 00:28:46,200
+it was Albert Einstein, actually his Ph.D. thesis,
+
+443
+00:28:46,620 --> 00:28:50,160
+who showed that if you hypothesize the existence
+
+444
+00:28:50,160 --> 00:28:53,220
+of atoms and molecules and say that these
+
+445
+00:28:54,480 --> 00:28:59,220
+suspended particles are being moved around by
+
+446
+00:28:59,670 --> 00:29:02,790
+being knocked against by all the atoms and water
+
+447
+00:29:02,790 --> 00:29:05,370
+molecules in the water that they're floating in,
+
+448
+00:29:05,700 --> 00:29:09,900
+you can reproduce that observed random behavior of
+
+449
+00:29:09,900 --> 00:29:18,460
+those microscopic pollen grains. And the. I sense
+
+450
+00:29:18,470 --> 00:29:22,580
+irritation, part of his miracle here in 1985 was.
+
+451
+00:29:24,760 --> 00:29:28,360
+A famous application of statistical physics that
+
+452
+00:29:28,400 --> 00:29:32,290
+sort of finally cracked the debate about the
+
+453
+00:29:32,290 --> 00:29:36,730
+existence of atoms leaving all of us to find them
+
+454
+00:29:36,730 --> 00:29:38,950
+fairly uncontroversial. How these compare to
+
+455
+00:29:39,220 --> 00:29:44,710
+fundamental strains this in these times and some
+
+456
+00:29:44,710 --> 00:29:48,490
+of the questions that. Folks like Baltimore did
+
+457
+00:29:48,500 --> 00:29:51,190
+Einstein would encountered back at that time to
+
+458
+00:29:51,190 --> 00:29:55,890
+deal with high school physics or. Sort of
+
+459
+00:29:55,890 --> 00:29:58,350
+handwaving or physically motivated questions that
+
+460
+00:29:58,350 --> 00:30:02,940
+if we're supposing that all of the observable
+
+461
+00:30:02,940 --> 00:30:05,970
+behaviors of these systems are caused by atoms and
+
+462
+00:30:05,970 --> 00:30:09,780
+molecules bouncing into each other, why is it that
+
+463
+00:30:10,020 --> 00:30:14,040
+we don't see any of that sort of bouncing if we
+
+464
+00:30:14,040 --> 00:30:16,130
+have a gas in the container? You say that this
+
+465
+00:30:16,140 --> 00:30:21,520
+pressure is due to. Atoms bouncing off the walls
+
+466
+00:30:21,520 --> 00:30:24,190
+of the container, exerting force on the wall and
+
+467
+00:30:24,190 --> 00:30:27,250
+the wall in terms of the force of the atoms by
+
+468
+00:30:28,280 --> 00:30:33,520
+third law of motion. Why don't we see all sorts of
+
+469
+00:30:33,520 --> 00:30:36,040
+fluctuations every time a particle is hitting that
+
+470
+00:30:36,040 --> 00:30:40,780
+wall? Why does it seem very smooth, regular and
+
+471
+00:30:42,820 --> 00:30:48,020
+undisturbed in its behavior? So. There is an
+
+472
+00:30:48,020 --> 00:30:50,840
+answer to that question at the mathematical level,
+
+473
+00:30:50,840 --> 00:30:54,470
+rather than the handwaving physics level and the.
+
+474
+00:30:55,780 --> 00:30:59,650
+Fundamentals to that answer are coming from two
+
+475
+00:30:59,650 --> 00:31:01,600
+mathematical principles known as the law of large
+
+476
+00:31:01,600 --> 00:31:04,990
+numbers and the central limit theorem that are
+
+477
+00:31:05,470 --> 00:31:08,230
+sort of core topics of this first unit.
+
+478
+00:31:10,360 --> 00:31:14,580
+So. But the questions about that sort of big
+
+479
+00:31:14,580 --> 00:31:17,730
+picture motivation before I dive into the more.
+
+480
+00:31:19,750 --> 00:31:21,370
+Detailed mathematics.
+
+481
+00:31:26,480 --> 00:31:29,480
+So what we're going to do for the remainder of
+
+482
+00:31:29,480 --> 00:31:35,800
+today is really set up a. Abstracts, well,
+
+483
+00:31:35,860 --> 00:31:40,000
+foundation for the probabilistic discussions that
+
+484
+00:31:40,210 --> 00:31:43,690
+will be applied in physics, so it's going to have
+
+485
+00:31:43,690 --> 00:31:47,380
+a slightly different flavor compared to some of
+
+486
+00:31:47,380 --> 00:31:50,470
+the later calculations that will be doing in
+
+487
+00:31:50,470 --> 00:31:54,160
+particular in terms of. How abstract will trying
+
+488
+00:31:54,160 --> 00:31:56,590
+to keep things, at least at first, just by going
+
+489
+00:31:56,590 --> 00:32:01,630
+through a sequence of definitions of what we're
+
+490
+00:32:01,630 --> 00:32:04,120
+going to be talking about and why the first of
+
+491
+00:32:04,120 --> 00:32:08,410
+those being that we're going to consider random
+
+492
+00:32:08,410 --> 00:32:13,570
+experiments by which I mean some some experiments,
+
+493
+00:32:13,570 --> 00:32:16,600
+some observation or manipulation of the physical
+
+494
+00:32:16,600 --> 00:32:20,800
+world that has an element of randomness to it. So
+
+495
+00:32:20,800 --> 00:32:26,290
+flipping a coin is a simple example of that, where
+
+496
+00:32:27,340 --> 00:32:32,080
+at least in principle, if we do precisely how much
+
+497
+00:32:32,080 --> 00:32:35,710
+force I exerted on the coin as I flipped it and
+
+498
+00:32:35,710 --> 00:32:37,900
+how much resistance encountered to the air as it
+
+499
+00:32:38,290 --> 00:32:41,050
+rose and fell, we could predict exactly how it
+
+500
+00:32:41,050 --> 00:32:45,700
+would land, where it went. But again, there's too
+
+501
+00:32:45,700 --> 00:32:51,450
+much data to process in all of that to. Predicted
+
+502
+00:32:51,450 --> 00:32:54,750
+precisely in practice. So believe leave it as a
+
+503
+00:32:54,750 --> 00:32:57,180
+random process in which the coin can land randomly,
+
+504
+00:32:57,690 --> 00:33:00,930
+either heads with 50 percent probability or tails
+
+505
+00:33:00,930 --> 00:33:04,430
+with the other 50 percent. I'm actually getting
+
+506
+00:33:05,060 --> 00:33:06,320
+ahead of myself a bit.
+
+507
+00:33:09,590 --> 00:33:12,990
+There's more information in the world after I flip
+
+508
+00:33:13,010 --> 00:33:15,860
+a coin and just heads or tails and we'll see that
+
+509
+00:33:16,220 --> 00:33:18,620
+after we do that experiment. So you're flipping a
+
+510
+00:33:18,620 --> 00:33:20,030
+coin? There is.
+
+511
+00:33:22,340 --> 00:33:26,210
+If Islamic State's Omega for the whole, which
+
+512
+00:33:26,210 --> 00:33:31,190
+includes not only the orientation of that coin, it
+
+513
+00:33:31,190 --> 00:33:33,500
+says, by the way, but also the fact that it's
+
+514
+00:33:33,500 --> 00:33:36,260
+bounced off the desk and landed on the floor where
+
+515
+00:33:36,260 --> 00:33:39,190
+it's sitting, what time everything happened, what
+
+516
+00:33:39,200 --> 00:33:43,340
+the temperature is in the world around it. And
+
+517
+00:33:44,450 --> 00:33:47,510
+sort of any other aspect of the physical world
+
+518
+00:33:47,510 --> 00:33:51,410
+that could potentially be impinging on this
+
+519
+00:33:51,980 --> 00:33:54,590
+process, this random experiment that we are
+
+520
+00:33:54,590 --> 00:33:55,190
+considering.
+
+521
+00:33:58,900 --> 00:34:03,880
+And from all of those possible states, all we can
+
+522
+00:34:04,480 --> 00:34:07,060
+do the usual mathematical things and just collect
+
+523
+00:34:07,570 --> 00:34:11,590
+all the possibilities into a capital or make a set
+
+524
+00:34:12,100 --> 00:34:15,070
+of all those possible states, all the possible
+
+525
+00:34:15,370 --> 00:34:17,410
+ways that that coin could have landed in all the
+
+526
+00:34:17,410 --> 00:34:20,680
+possible locations, including possibilities that.
+
+527
+00:34:22,800 --> 00:34:24,720
+And I flipped it outside, a seagull could have
+
+528
+00:34:24,720 --> 00:34:30,660
+swooped in and out of the area, seagulls do. And
+
+529
+00:34:30,660 --> 00:34:34,260
+obviously, we are not interested in all aspects of
+
+530
+00:34:34,260 --> 00:34:38,100
+that fourth state of the universe. There's just
+
+531
+00:34:38,910 --> 00:34:43,110
+too much information there that is not going to be
+
+532
+00:34:43,560 --> 00:34:49,120
+relevant to. The physics of the observables that.
+
+533
+00:34:50,420 --> 00:34:54,670
+We actually want to bring the physical physics
+
+534
+00:34:55,280 --> 00:35:00,270
+methods to bear upon him. So what we. What to do?
+
+535
+00:35:00,990 --> 00:35:04,290
+So if that signal is required, we can just throw
+
+536
+00:35:04,290 --> 00:35:06,390
+that out as an experiment. The.
+
+537
+00:35:08,470 --> 00:35:11,890
+What we want to do is really pull out. The
+
+538
+00:35:11,890 --> 00:35:14,140
+information we actually care about, which in the
+
+539
+00:35:14,140 --> 00:35:16,180
+context of flipping a coin is I started off with
+
+540
+00:35:16,180 --> 00:35:20,590
+is whether it lands, heads or tails in each case
+
+541
+00:35:20,590 --> 00:35:22,380
+with 50 percent probability.
+
+542
+00:35:25,380 --> 00:35:28,860
+So this is getting rid of things like the
+
+543
+00:35:28,860 --> 00:35:31,820
+temperature in the location where it landed and
+
+544
+00:35:31,920 --> 00:35:34,770
+it's also getting rid of perhaps possibilities
+
+545
+00:35:34,770 --> 00:35:37,410
+that don't match cleanly onto the heads or tails.
+
+546
+00:35:38,880 --> 00:35:39,480
+Question.
+
+547
+00:35:43,630 --> 00:35:46,220
+We would typically focus on one flipping a coin.
+
+548
+00:35:46,240 --> 00:35:48,520
+So if the coin lands on its side, we can just
+
+549
+00:35:48,850 --> 00:35:51,940
+throw that away through this measurement, throw
+
+550
+00:35:51,940 --> 00:35:55,540
+away that iteration of the random experiment.
+
+551
+00:35:59,390 --> 00:36:02,450
+If we consider acting with this measurement, that
+
+552
+00:36:02,450 --> 00:36:02,810
+is.
+
+553
+00:36:04,970 --> 00:36:07,430
+Producing all of that full information to just the
+
+554
+00:36:07,970 --> 00:36:11,500
+small subset, we care about applying that
+
+555
+00:36:11,510 --> 00:36:16,040
+measurement to the full set of all states, America
+
+556
+00:36:17,150 --> 00:36:21,430
+leaves us with the set of all outcomes instead of
+
+557
+00:36:21,590 --> 00:36:24,470
+the outcome space that we actually care about.
+
+558
+00:36:29,160 --> 00:36:32,430
+Even though I tried to keep these definitions,
+
+559
+00:36:33,000 --> 00:36:38,810
+yeah. Maximally abstract at this point. I think
+
+560
+00:36:38,810 --> 00:36:41,540
+there are some simple examples, including flipping
+
+561
+00:36:41,540 --> 00:36:43,580
+a coin that we can go through just to make sure
+
+562
+00:36:44,150 --> 00:36:48,460
+everything is is clear. So.
+
+563
+00:36:50,510 --> 00:36:57,740
+This outcome is a can just be a finite set, like
+
+564
+00:36:57,740 --> 00:37:01,920
+flipping a coin and it ends heads or tails. Or it
+
+565
+00:37:01,920 --> 00:37:05,790
+can be accountably infinite or even continuous to
+
+566
+00:37:05,790 --> 00:37:08,400
+see examples of all of those later on. But a
+
+567
+00:37:08,400 --> 00:37:12,870
+simple example is. If we take the six sided die
+
+568
+00:37:13,080 --> 00:37:16,680
+and we roll it and then we measure the number that
+
+569
+00:37:16,680 --> 00:37:18,900
+comes out on top, so we throw away all the
+
+570
+00:37:18,900 --> 00:37:21,990
+information about where the dye ends up, how long
+
+571
+00:37:21,990 --> 00:37:22,860
+it took to get there.
+
+572
+00:37:25,620 --> 00:37:29,750
+We do that measurements we end up with. And
+
+573
+00:37:29,750 --> 00:37:33,230
+outcomes based that I imagine or I hope you should
+
+574
+00:37:33,230 --> 00:37:38,140
+be able to to tell me to write down. So go ahead
+
+575
+00:37:38,140 --> 00:37:39,580
+and shout it out.
+
+576
+00:38:00,910 --> 00:38:05,490
+That's the one. So it's a set of possible values
+
+577
+00:38:05,500 --> 00:38:09,250
+we can get from that measurement of what number is
+
+578
+00:38:09,250 --> 00:38:09,750
+on top.
+
+579
+00:38:13,020 --> 00:38:16,460
+Which could be one, two, three, four or five or
+
+580
+00:38:16,460 --> 00:38:22,230
+six. So that is a danger in any of the given
+
+581
+00:38:22,270 --> 00:38:25,870
+states we could have information about the
+
+582
+00:38:26,260 --> 00:38:29,540
+position of that. Whether it's orientation,
+
+583
+00:38:30,140 --> 00:38:30,830
+whether it's.
+
+584
+00:38:33,490 --> 00:38:39,930
+Oriented NASA at some angle to the temperature.
+
+585
+00:38:42,110 --> 00:38:46,040
+The color of the dye, the face of the moon.
+
+586
+00:38:49,770 --> 00:38:53,190
+All aspects of the universe that comes out after
+
+587
+00:38:53,190 --> 00:38:56,550
+we do that random experiment of rolling to die.
+
+588
+00:38:59,510 --> 00:39:02,630
+This next example is maybe a little less trivial
+
+589
+00:39:02,630 --> 00:39:06,080
+because we can see that it's possible to.
+
+590
+00:39:09,810 --> 00:39:15,140
+Defiant experiments that. Or a little more
+
+591
+00:39:15,590 --> 00:39:17,930
+complicated than simply flipping a coin or willing
+
+592
+00:39:17,930 --> 00:39:21,620
+to die. So in this case, you flip a coin four
+
+593
+00:39:21,620 --> 00:39:26,000
+times. We count that as a single experiment.
+
+594
+00:39:26,210 --> 00:39:27,230
+That's sort of for.
+
+595
+00:39:30,270 --> 00:39:35,040
+Four coin flips after each of which we measure
+
+596
+00:39:35,370 --> 00:39:38,790
+then whether that coin lands, heads up or tails up.
+
+597
+00:39:39,390 --> 00:39:44,550
+Then doing that measurement. From this single
+
+598
+00:39:44,550 --> 00:39:46,650
+experiment involving four coin flips is going to
+
+599
+00:39:46,650 --> 00:39:51,720
+give us another outcome space and maybe we can
+
+600
+00:39:52,080 --> 00:39:56,160
+just go through quickly the possible outcomes in
+
+601
+00:39:56,340 --> 00:40:00,780
+this outcome space. So any example, tell it to me
+
+602
+00:40:00,780 --> 00:40:05,380
+and I'll write it down on the dock in or four
+
+603
+00:40:05,880 --> 00:40:06,420
+heads.
+
+604
+00:40:09,590 --> 00:40:18,430
+It one on Portillo's is another, and there are.
+
+605
+00:40:19,270 --> 00:40:20,620
+Other possibilities.
+
+606
+00:40:22,680 --> 00:40:23,310
+Between.
+
+607
+00:40:28,850 --> 00:40:30,890
+Which. I would.
+
+608
+00:40:38,760 --> 00:40:42,050
+To have all of them, but let's put some ellipses
+
+609
+00:40:42,050 --> 00:40:48,240
+there to keep moving on. I guess you can tell the
+
+610
+00:40:48,240 --> 00:40:51,480
+size of the number of elements in a just by
+
+611
+00:40:51,480 --> 00:40:54,130
+inspection. Would that be at.
+
+612
+00:41:02,010 --> 00:41:05,770
+Yeah, to the fourth. There are two possibilities
+
+613
+00:41:05,770 --> 00:41:12,100
+for each of the four experiments. Which is 16. And
+
+614
+00:41:12,100 --> 00:41:16,970
+then. To connect these very trivial experiments
+
+615
+00:41:16,970 --> 00:41:20,120
+illustrating these abstract definitions, we can
+
+616
+00:41:20,660 --> 00:41:25,190
+start to think about how they apply to some of the.
+
+617
+00:41:26,830 --> 00:41:30,820
+Systems where statistical physics was developed
+
+618
+00:41:31,390 --> 00:41:34,210
+that tend to be powered, twenty three atoms in
+
+619
+00:41:34,210 --> 00:41:35,020
+some container.
+
+620
+00:41:41,060 --> 00:41:45,840
+The state of those atom's. Which can include a
+
+621
+00:41:45,840 --> 00:41:50,520
+whole lot of information, some of which is obvious,
+
+622
+00:41:50,520 --> 00:41:57,330
+like the ten to twenty three positions. Of all
+
+623
+00:41:57,330 --> 00:41:58,710
+those ads.
+
+624
+00:42:02,050 --> 00:42:04,570
+Would there normally draw three of them rather
+
+625
+00:42:04,570 --> 00:42:08,440
+than the ten to twenty three of them, and we could
+
+626
+00:42:09,100 --> 00:42:13,060
+also imagine that each of those ordinary items has
+
+627
+00:42:13,060 --> 00:42:14,530
+some velocity.
+
+628
+00:42:19,500 --> 00:42:21,000
+Characterizing the state.
+
+629
+00:42:28,360 --> 00:42:31,180
+Each of them could be a different isotope of argon.
+
+630
+00:42:35,380 --> 00:42:37,060
+Would be that has a slightly different maps, it
+
+631
+00:42:37,060 --> 00:42:39,640
+could be a different electronic stage.
+
+632
+00:42:43,200 --> 00:42:48,100
+Which would affect the. The orientation's that
+
+633
+00:42:48,140 --> 00:42:48,890
+spins.
+
+634
+00:42:58,520 --> 00:43:02,630
+And that's all information that would be in that
+
+635
+00:43:02,630 --> 00:43:08,180
+full state lawmaker describing this gas in this
+
+636
+00:43:08,180 --> 00:43:12,260
+container. And if any of my handwriting is
+
+637
+00:43:12,260 --> 00:43:13,970
+impossible to read up there and hopefully be
+
+638
+00:43:13,970 --> 00:43:17,180
+clearer when I scan these notes and and upload
+
+639
+00:43:17,180 --> 00:43:22,370
+them to canvas after the fact. But given all of
+
+640
+00:43:22,370 --> 00:43:28,010
+these pieces of data, what. What would you be
+
+641
+00:43:28,010 --> 00:43:30,620
+interested in measuring about some gas in some
+
+642
+00:43:30,620 --> 00:43:32,900
+container that would arise from.
+
+643
+00:43:35,250 --> 00:43:38,040
+From the behavior of these individual constituents.
+
+644
+00:43:54,670 --> 00:43:56,100
+Yeah, that's a good one.
+
+645
+00:43:59,530 --> 00:44:04,040
+Putting the thermal in the thermodynamic. Well,
+
+646
+00:44:04,810 --> 00:44:10,420
+it's that one, yeah, that what may well be. Fixed
+
+647
+00:44:10,440 --> 00:44:12,050
+by the container, if we assume it's a rigid
+
+648
+00:44:12,060 --> 00:44:15,170
+container, but it's also a large scale process.
+
+649
+00:44:16,180 --> 00:44:19,750
+And given the volume and the number of atoms.
+
+650
+00:44:21,770 --> 00:44:26,090
+That is related as well to the overall density of
+
+651
+00:44:26,090 --> 00:44:29,780
+atoms in that volume and that density, in fact,
+
+652
+00:44:29,780 --> 00:44:31,880
+could well have some.
+
+653
+00:44:34,370 --> 00:44:37,700
+Gradients, there might be regions in the volume
+
+654
+00:44:37,700 --> 00:44:42,140
+where atoms were more densely located than
+
+655
+00:44:42,140 --> 00:44:44,240
+elsewhere. And I think I heard someone say.
+
+656
+00:44:46,980 --> 00:44:50,640
+Pressure, which is also another of the classic
+
+657
+00:44:50,970 --> 00:44:56,280
+thermodynamic quantities that arises in some way
+
+658
+00:44:57,000 --> 00:45:00,550
+from the behavior, from the dynamics of these 10
+
+659
+00:45:00,550 --> 00:45:04,950
+of the 20, 30 atoms, and the way it arises is what
+
+660
+00:45:04,950 --> 00:45:11,160
+we will be. We tackle them with statistical
+
+661
+00:45:11,160 --> 00:45:12,840
+physics, so.
+
+662
+00:45:15,270 --> 00:45:18,930
+With those first set of definitions
+
+663
+00:45:21,120 --> 00:45:25,050
+taken care of, we can actually generalize the.
+
+664
+00:45:28,890 --> 00:45:34,920
+The concept of measurements to simply considering
+
+665
+00:45:34,920 --> 00:45:40,110
+those measurements to be a label that we can put
+
+666
+00:45:40,130 --> 00:45:43,320
+on each of the states, that big set of mega
+
+667
+00:45:43,500 --> 00:45:45,420
+characterizes the.
+
+668
+00:45:48,160 --> 00:45:50,650
+The full information of the world and of the
+
+669
+00:45:50,650 --> 00:45:56,430
+system that we have. So if we take. Each of the
+
+670
+00:45:56,430 --> 00:45:59,580
+possible states is impossible.
+
+671
+00:46:02,300 --> 00:46:05,240
+Descriptions of the system of the world, I imagine
+
+672
+00:46:05,240 --> 00:46:07,880
+giving it a unique label, that that uniqueness
+
+673
+00:46:07,880 --> 00:46:10,580
+means that we can refer to the state as a whole
+
+674
+00:46:10,790 --> 00:46:14,480
+interchangeably with that label and refer to it
+
+675
+00:46:14,870 --> 00:46:20,540
+just as that label function el. And set aside the
+
+676
+00:46:20,540 --> 00:46:23,900
+details of what exactly is contained in the state
+
+677
+00:46:23,900 --> 00:46:28,130
+as a whole now with measurements, we're formally
+
+678
+00:46:28,130 --> 00:46:30,080
+doing something different. We're actually throwing
+
+679
+00:46:30,080 --> 00:46:33,110
+out a lot of the information in the states that we
+
+680
+00:46:33,110 --> 00:46:35,870
+are not interested in, but precisely because we're
+
+681
+00:46:35,870 --> 00:46:40,070
+not interested in what we're throwing out, we can
+
+682
+00:46:40,550 --> 00:46:46,040
+use this measurement as a label to refer to each
+
+683
+00:46:46,040 --> 00:46:49,400
+stage just in terms of what we want to measure. So
+
+684
+00:46:49,580 --> 00:46:53,810
+going back to the simple example, if you flip a
+
+685
+00:46:53,810 --> 00:46:57,830
+coin, we can say it just it lands heads or tails.
+
+686
+00:46:58,490 --> 00:47:00,110
+And that's all the information that we need to
+
+687
+00:47:00,110 --> 00:47:03,380
+know, even though there's a lot more in the four
+
+688
+00:47:03,380 --> 00:47:07,200
+states of America that. We could in principle talk
+
+689
+00:47:07,200 --> 00:47:11,460
+about. And ignored that relevant information.
+
+690
+00:47:12,410 --> 00:47:16,280
+Basically leaves the outcome space any equivalent
+
+691
+00:47:16,280 --> 00:47:22,160
+to the full set of possible states of the world
+
+692
+00:47:22,250 --> 00:47:26,600
+that America and in fact, in some of the
+
+693
+00:47:26,600 --> 00:47:30,770
+references in those, for the reasons that they
+
+694
+00:47:30,770 --> 00:47:34,340
+never distinguish between the experimental
+
+695
+00:47:34,340 --> 00:47:36,950
+outcomes and the measurement outcomes in the first
+
+696
+00:47:36,950 --> 00:47:40,670
+place. But it is a good thing to keep in mind to
+
+697
+00:47:40,670 --> 00:47:48,310
+know that. Information is. Is being removed by the
+
+698
+00:47:48,310 --> 00:47:51,310
+process of measurement and that there is always
+
+699
+00:47:51,730 --> 00:47:53,980
+more about the world that could be incorporated
+
+700
+00:47:54,580 --> 00:47:57,250
+into the outcome of that round of experiments, and
+
+701
+00:47:57,250 --> 00:48:00,310
+we're making the choice of what exactly we're
+
+702
+00:48:00,310 --> 00:48:03,190
+going to look at when we bring that measurement to
+
+703
+00:48:03,190 --> 00:48:07,030
+bear and talk about outcomes rather than of system
+
+704
+00:48:07,040 --> 00:48:08,680
+states of the universe.
+
+705
+00:48:10,920 --> 00:48:13,140
+With an eye on the time, just a couple of minutes
+
+706
+00:48:13,140 --> 00:48:16,250
+are left, so I will wrap up by.
+
+707
+00:48:18,440 --> 00:48:20,470
+Emphasizing that we've sort of reached the end of
+
+708
+00:48:20,750 --> 00:48:23,570
+the formal abstract definitions here
+
+709
+00:48:25,880 --> 00:48:29,180
+that connect us now from random experiments to
+
+710
+00:48:29,420 --> 00:48:36,780
+probabilities. So. So the last step. From our
+
+711
+00:48:36,900 --> 00:48:41,580
+outcomes, space to probability spaces is to define
+
+712
+00:48:41,580 --> 00:48:48,780
+an event where that event is any subset of. The
+
+713
+00:48:49,020 --> 00:48:52,200
+outcome space A. So.
+
+714
+00:48:55,690 --> 00:49:00,340
+If we the coin flipping examples a bit too simple
+
+715
+00:49:00,340 --> 00:49:02,380
+for this, but if we think about that ruling as
+
+716
+00:49:02,380 --> 00:49:07,510
+excited Diagne, an event could be rolling a six or
+
+717
+00:49:07,660 --> 00:49:09,610
+that event could be rolling anything other than a
+
+718
+00:49:09,610 --> 00:49:12,850
+six. So it doesn't correspond directly to what we
+
+719
+00:49:12,850 --> 00:49:17,470
+would measure, but it does correspond to a subset
+
+720
+00:49:18,010 --> 00:49:20,710
+of those measurements. A third example, I guess,
+
+721
+00:49:20,710 --> 00:49:24,280
+could be rolling any even number from that guy
+
+722
+00:49:24,280 --> 00:49:27,100
+that brings in the measurements to four and six.
+
+723
+00:49:30,380 --> 00:49:36,350
+And from all of those events. We can define the
+
+724
+00:49:36,350 --> 00:49:39,680
+event space that we are interested in, we'll call
+
+725
+00:49:39,680 --> 00:49:44,450
+F, and it is the events in that event space that
+
+726
+00:49:44,450 --> 00:49:49,100
+we will assign probabilities of happening. So for
+
+727
+00:49:49,490 --> 00:49:53,450
+this, the three examples that are here and we know
+
+728
+00:49:53,450 --> 00:49:57,740
+there's a one in six chance of rolling or six if
+
+729
+00:49:57,740 --> 00:50:02,120
+we have a fair die, there's a five six chance of
+
+730
+00:50:02,120 --> 00:50:05,090
+rolling in other than a six and a 50 percent
+
+731
+00:50:05,090 --> 00:50:09,710
+chance of of rolling an even number. So all of
+
+732
+00:50:09,710 --> 00:50:16,680
+those. All probabilities. Our mapping from that
+
+733
+00:50:16,680 --> 00:50:22,290
+set of all possible events to not negative real
+
+734
+00:50:22,290 --> 00:50:24,870
+numbers between zero percent to one hundred
+
+735
+00:50:24,870 --> 00:50:30,060
+percent, and tomorrow morning we will go through
+
+736
+00:50:30,060 --> 00:50:32,820
+the properties of probability and start to get
+
+737
+00:50:32,820 --> 00:50:36,120
+into the wall. First numbers, that central limit
+
+738
+00:50:36,120 --> 00:50:41,340
+theorem applying it. So are there questions about
+
+739
+00:50:41,340 --> 00:50:42,920
+what we've seen so far today?
+
+740
+00:50:46,020 --> 00:50:51,160
+Do we need to measure it or not, look at it that
+
+741
+00:50:51,170 --> 00:50:52,450
+way? No.
+
+742
+00:50:54,550 --> 00:50:57,700
+Essentially, the statement of a major function
+
+743
+00:50:57,700 --> 00:51:01,210
+here just means that the event is being projected
+
+744
+00:51:01,210 --> 00:51:03,970
+to be presented percentage between zero percent to
+
+745
+00:51:03,970 --> 00:51:07,180
+one hundred percent. That's all that needs to come
+
+746
+00:51:07,180 --> 00:51:07,810
+out from that.
+
+747
+00:51:12,650 --> 00:51:16,460
+And if there are questions about the role that
+
+748
+00:51:16,460 --> 00:51:19,340
+we've seen so far today, it's the first day of
+
+749
+00:51:19,340 --> 00:51:22,040
+office hours is starting. As soon as I get back to
+
+750
+00:51:22,580 --> 00:51:25,700
+my office in the theoretical physics will come by
+
+751
+00:51:25,700 --> 00:51:29,150
+with questions about logistics, background or the
+
+752
+00:51:29,170 --> 00:51:34,250
+explosion itself, in addition to any of the
+
+753
+00:51:34,250 --> 00:51:37,970
+mathematical content. And with that, I'll
+
+754
+00:51:40,730 --> 00:51:44,300
+wrap it up for today and look forward to seeing
+
+755
+00:51:44,300 --> 00:51:45,920
+you tomorrow morning at.
