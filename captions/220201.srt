@@ -1,0 +1,2499 @@
+1
+00:00:00,330 --> 00:00:00,800
+Okay,
+
+2
+00:00:04,630 --> 00:00:08,140
+I'll keep doing both Zoom and Stream Capture
+
+3
+00:00:08,140 --> 00:00:13,660
+recordings to see which works best. Turns out the
+
+4
+00:00:14,860 --> 00:00:17,710
+ones yesterday didn't really work at all, but
+
+5
+00:00:17,830 --> 00:00:19,590
+fortunately that seems to be an issue with the
+
+6
+00:00:19,600 --> 00:00:24,070
+equipment in the other room 210 rather than. A
+
+7
+00:00:24,070 --> 00:00:26,440
+personal curse for me, this document actually
+
+8
+00:00:26,440 --> 00:00:28,060
+seems to be functioning the way it's supposed to
+
+9
+00:00:28,630 --> 00:00:33,370
+be recordings and in fact, the projection itself
+
+10
+00:00:33,370 --> 00:00:37,870
+should turn out better today than yesterday,
+
+11
+00:00:37,990 --> 00:00:41,290
+should be able to zoom in and out and even focus.
+
+12
+00:00:44,580 --> 00:00:51,360
+On what we are looking at in the magic number for
+
+13
+00:00:51,370 --> 00:00:56,200
+the. Flight attendants will check Second System
+
+14
+00:00:57,910 --> 00:00:58,420
+edition
+
+15
+00:01:00,870 --> 00:01:01,230
+this
+
+16
+00:01:05,470 --> 00:01:05,870
+year.
+
+17
+00:01:10,000 --> 00:01:11,200
+So knowing that
+
+18
+00:01:15,430 --> 00:01:20,720
+and having just met at the end of yesterday, you
+
+19
+00:01:20,740 --> 00:01:23,410
+get at the beginning of today, there's not need to
+
+20
+00:01:23,410 --> 00:01:26,710
+do too much recap. There's not enough time for
+
+21
+00:01:27,250 --> 00:01:34,310
+information have to fail. And there was one point
+
+22
+00:01:34,520 --> 00:01:39,330
+that there was one little tidbit that I actually
+
+23
+00:01:39,340 --> 00:01:42,880
+forgot to bring up and talk about at the beginning
+
+24
+00:01:42,880 --> 00:01:45,370
+of yesterday morning, what the motivation and the
+
+25
+00:01:45,370 --> 00:01:48,460
+big picture for statistical physics that actually
+
+26
+00:01:48,460 --> 00:01:51,130
+had to do with the Nobel Prizes that were awarded
+
+27
+00:01:51,550 --> 00:01:56,200
+just last autumn, which I don't know if any of you
+
+28
+00:01:57,010 --> 00:02:01,150
+kept track of that, but half the Nobel Prize went
+
+29
+00:02:01,150 --> 00:02:04,420
+to a couple folks, secure a bit of a class
+
+30
+00:02:04,420 --> 00:02:07,720
+Hofferman for work on climate modelling. And the
+
+31
+00:02:07,720 --> 00:02:10,300
+climate models are actually reliable, predictable,
+
+32
+00:02:10,690 --> 00:02:12,970
+which is one of the big applications of
+
+33
+00:02:12,970 --> 00:02:17,680
+statistical physics in modern day research with
+
+34
+00:02:17,680 --> 00:02:19,450
+some relevance to.
+
+35
+00:02:22,230 --> 00:02:25,440
+To society and to us and the other half of the
+
+36
+00:02:25,440 --> 00:02:29,040
+award actually went to a jury of your peers who.
+
+37
+00:02:30,350 --> 00:02:34,790
+Was awarded the Nobel Prize for conceptual
+
+38
+00:02:34,790 --> 00:02:37,970
+breakthroughs in the treatment of complex
+
+39
+00:02:37,970 --> 00:02:40,970
+statistical systems, in particular systems related
+
+40
+00:02:40,970 --> 00:02:43,580
+to the interactions that we'll be getting to
+
+41
+00:02:44,120 --> 00:02:47,630
+toward the latter end of the term. All of those
+
+42
+00:02:47,630 --> 00:02:51,260
+applications which are sufficiently cutting edge
+
+43
+00:02:51,260 --> 00:02:57,570
+to. The analysis by Nobel Prize are not going to
+
+44
+00:02:57,570 --> 00:03:02,820
+pop up in this class and that code two zero three
+
+45
+00:03:03,480 --> 00:03:06,570
+nine seven nine, which did not go.
+
+46
+00:03:09,390 --> 00:03:10,230
+The chat window.
+
+47
+00:03:12,950 --> 00:03:16,020
+I might be able to design some tutorial problem
+
+48
+00:03:16,170 --> 00:03:18,780
+once we get into those interactive systems that
+
+49
+00:03:18,780 --> 00:03:22,290
+will connect to some of the stuff, Super Easy was
+
+50
+00:03:22,290 --> 00:03:24,390
+working on things. These are called spin classes
+
+51
+00:03:24,690 --> 00:03:25,140
+that.
+
+52
+00:03:27,660 --> 00:03:32,100
+Rely on non negligible interactions, which is
+
+53
+00:03:32,100 --> 00:03:34,370
+exactly the opposite situation of the negligible
+
+54
+00:03:34,380 --> 00:03:37,020
+interactions. If you look at four for most of this
+
+55
+00:03:37,020 --> 00:03:45,270
+term, which is in in place of formal recap, just
+
+56
+00:03:45,810 --> 00:03:47,910
+that reminds us of the importance of statistical
+
+57
+00:03:47,910 --> 00:03:52,200
+physics and also its role in the emergence of
+
+58
+00:03:52,200 --> 00:03:57,240
+complex phenomena from fairly simple underlying
+
+59
+00:03:57,240 --> 00:03:59,820
+fundamental processes that we have to model
+
+60
+00:04:00,150 --> 00:04:03,450
+sarcastically with elements of probability. So
+
+61
+00:04:03,960 --> 00:04:07,890
+going from these individual atoms or other
+
+62
+00:04:08,100 --> 00:04:11,340
+molecules of the particles, objects in our system
+
+63
+00:04:12,120 --> 00:04:13,710
+that are bouncing off each other or even just
+
+64
+00:04:13,710 --> 00:04:16,490
+passing straight through each other. We come up
+
+65
+00:04:16,490 --> 00:04:21,810
+with the. Complex emergent behavior from a very
+
+66
+00:04:21,810 --> 00:04:26,790
+large number of those objects with 10 to the power,
+
+67
+00:04:26,790 --> 00:04:30,840
+20, 30 being the relevant number, Avogadro's
+
+68
+00:04:30,840 --> 00:04:35,220
+number appearing in sort of everyday scenarios,
+
+69
+00:04:35,550 --> 00:04:38,040
+everyday situations built on the underlying ADLs.
+
+70
+00:04:39,600 --> 00:04:42,810
+And we went through then a few formal definitions
+
+71
+00:04:42,810 --> 00:04:46,170
+to build up the probability of foundations. The
+
+72
+00:04:46,170 --> 00:04:50,130
+key one being what is the top of the screen here?
+
+73
+00:04:50,580 --> 00:04:54,570
+The introduction of measurements. That is a
+
+74
+00:04:54,570 --> 00:04:58,950
+mapping that to apply to the state of the universe
+
+75
+00:04:58,950 --> 00:05:03,150
+after some manipulation or some observation that
+
+76
+00:05:03,150 --> 00:05:07,560
+allows us to control the set of outcomes that we
+
+77
+00:05:07,560 --> 00:05:12,720
+are interested in. So when we roll the dice, the
+
+78
+00:05:12,720 --> 00:05:17,940
+measurements is what allows us to predict the
+
+79
+00:05:17,940 --> 00:05:20,820
+outcome of that. The stuff the goes onto the
+
+80
+00:05:20,820 --> 00:05:23,850
+numbers one through six, ignoring the situations
+
+81
+00:05:23,850 --> 00:05:27,300
+where the guy ends up on the stage in the corner
+
+82
+00:05:27,390 --> 00:05:31,910
+or a cat comes by the. And why can't we map out
+
+83
+00:05:31,920 --> 00:05:35,850
+the one to six? The measurement process takes into
+
+84
+00:05:35,850 --> 00:05:38,310
+account all of those possibilities and just gives
+
+85
+00:05:38,310 --> 00:05:42,840
+us a number that we can work with and treat as an
+
+86
+00:05:42,840 --> 00:05:46,530
+event, some subset of all of those possible
+
+87
+00:05:46,530 --> 00:05:49,860
+outcomes that the measurement defines. And we got
+
+88
+00:05:49,860 --> 00:05:56,280
+to at the end of yesterday, the the mapping. Of
+
+89
+00:05:56,710 --> 00:05:59,670
+events in this event space, the set of all
+
+90
+00:05:59,850 --> 00:06:03,330
+possible events from the subset of outcomes into
+
+91
+00:06:04,560 --> 00:06:07,740
+the real numbers between zero and one, including,
+
+92
+00:06:07,740 --> 00:06:10,920
+of course, the probabilities of those events occur
+
+93
+00:06:11,100 --> 00:06:14,980
+from zero percent up to one hundred percent. And
+
+94
+00:06:15,490 --> 00:06:18,400
+yes, the question came out, how much measure
+
+95
+00:06:18,400 --> 00:06:21,520
+theory is it relevant to this definition? And
+
+96
+00:06:21,550 --> 00:06:26,770
+really there are the two properties coming right
+
+97
+00:06:26,770 --> 00:06:30,460
+below that after what we stopped last time that do
+
+98
+00:06:31,030 --> 00:06:36,260
+play an important role in. Defining the
+
+99
+00:06:36,440 --> 00:06:40,670
+probability measure as a well defined probability
+
+100
+00:06:40,910 --> 00:06:42,620
+that we would talk about in everyday life, the
+
+101
+00:06:42,620 --> 00:06:46,070
+first of those being that if we want to consider
+
+102
+00:06:46,100 --> 00:06:51,050
+probability of well before moving out, I should
+
+103
+00:06:51,050 --> 00:06:53,720
+ask you three questions about anything that came
+
+104
+00:06:53,720 --> 00:06:57,130
+up last time, both just as well as the
+
+105
+00:06:57,860 --> 00:07:01,730
+mathematical content and always feel free to jump
+
+106
+00:07:01,730 --> 00:07:04,910
+in if any questions do come to mind. But
+
+107
+00:07:07,620 --> 00:07:14,030
+this is sort of. We are in some of the rooms to
+
+108
+00:07:14,420 --> 00:07:21,570
+switch to the schedule, so. But I was on. If it
+
+109
+00:07:21,570 --> 00:07:24,770
+wasn't here yesterday, were to a psychiatrist and
+
+110
+00:07:24,900 --> 00:07:27,180
+SWAT start
+
+111
+00:07:32,940 --> 00:07:37,060
+moving on with. These probabilities that we have a
+
+112
+00:07:37,060 --> 00:07:40,600
+probability of two events, this event occurring,
+
+113
+00:07:41,380 --> 00:07:46,000
+the probability of more than a six and two from
+
+114
+00:07:46,000 --> 00:07:49,480
+that roll of the dice. Then the probability of
+
+115
+00:07:49,480 --> 00:07:52,750
+those two events occurring is the sum of the
+
+116
+00:07:52,750 --> 00:07:56,060
+probability of each of those probabilities to
+
+117
+00:07:56,650 --> 00:08:01,870
+probability of six. So that hopefully is simple
+
+118
+00:08:01,870 --> 00:08:04,870
+and intuitive. And then if we consider the
+
+119
+00:08:04,870 --> 00:08:10,760
+probability of. All of the individual outcomes
+
+120
+00:08:11,150 --> 00:08:15,410
+being defined by our measurement that we impose.
+
+121
+00:08:17,520 --> 00:08:20,400
+The probability of that entire outcome space, when
+
+122
+00:08:20,400 --> 00:08:24,330
+the event space is equal to the outcome, space has
+
+123
+00:08:24,330 --> 00:08:28,560
+to equal one, which is to say that if we do an
+
+124
+00:08:28,560 --> 00:08:31,740
+experiment and measure something on it, we demand
+
+125
+00:08:31,740 --> 00:08:32,770
+that something happens.
+
+126
+00:08:34,940 --> 00:08:36,080
+And this is.
+
+127
+00:08:38,730 --> 00:08:41,370
+Again, including that measurement to project the
+
+128
+00:08:41,370 --> 00:08:45,940
+physical universe onto. Nice, well-defined
+
+129
+00:08:45,940 --> 00:08:51,180
+mathematical numbers, but if. Something happens
+
+130
+00:08:51,180 --> 00:08:56,010
+that doesn't appear in the outcome space, then we
+
+131
+00:08:56,010 --> 00:08:59,880
+should just as well say that nothing happened in
+
+132
+00:08:59,880 --> 00:09:03,780
+the first place. There was no outcome to to be
+
+133
+00:09:03,780 --> 00:09:07,210
+fortified with this probability. And then the
+
+134
+00:09:07,210 --> 00:09:14,230
+overall probability space is the combination of an
+
+135
+00:09:14,230 --> 00:09:16,810
+outcome space that incorporates both the
+
+136
+00:09:17,350 --> 00:09:22,200
+experiment itself and. The measurements that we do
+
+137
+00:09:22,200 --> 00:09:27,210
+upon it to extract these random variables, the. A
+
+138
+00:09:27,510 --> 00:09:29,670
+set of events, the event space that we are
+
+139
+00:09:29,670 --> 00:09:31,320
+interested in talking about and then the
+
+140
+00:09:31,320 --> 00:09:34,680
+probabilities that are assigned to each of the
+
+141
+00:09:34,680 --> 00:09:42,350
+events in that event space. So make this concrete
+
+142
+00:09:42,350 --> 00:09:45,860
+with a relatively simple but still somewhat
+
+143
+00:09:46,730 --> 00:09:52,670
+general or generic example, imagine that we have
+
+144
+00:09:52,670 --> 00:09:55,970
+an experiment that can produce only one out of 10
+
+145
+00:09:56,150 --> 00:09:57,860
+possible states.
+
+146
+00:10:01,610 --> 00:10:05,840
+So how states have maybe one and the relevant
+
+147
+00:10:05,840 --> 00:10:08,840
+states is this capital will make a set of all of
+
+148
+00:10:08,840 --> 00:10:13,310
+the states. Now, if only two of those states were
+
+149
+00:10:13,430 --> 00:10:17,540
+identical, then by definition they would produce
+
+150
+00:10:18,020 --> 00:10:20,750
+identical outcomes for all the measurements that
+
+151
+00:10:20,750 --> 00:10:21,740
+we would do. So
+
+152
+00:10:24,380 --> 00:10:30,080
+having Omega equals Omega J for J implies that the
+
+153
+00:10:30,110 --> 00:10:33,650
+measurement result is the same on both of those
+
+154
+00:10:34,010 --> 00:10:36,740
+states and the Gollan and make a J and the
+
+155
+00:10:36,740 --> 00:10:40,580
+contrapositive that logically follows from that.
+
+156
+00:10:40,970 --> 00:10:44,210
+If that statement is that if the two measurements
+
+157
+00:10:44,210 --> 00:10:47,300
+are distinct, the states themselves must be
+
+158
+00:10:47,300 --> 00:10:51,860
+distinct. But because the the measurement function
+
+159
+00:10:51,860 --> 00:10:58,380
+in general is not a. Unique isomorphic function
+
+160
+00:10:58,380 --> 00:11:02,100
+that maps a single state onto a single measurement,
+
+161
+00:11:03,210 --> 00:11:09,080
+the. The reverse direction of this relation does
+
+162
+00:11:09,080 --> 00:11:13,130
+not hold if we have two different states, we can
+
+163
+00:11:13,280 --> 00:11:16,640
+still have the same measurement on those two
+
+164
+00:11:16,640 --> 00:11:19,130
+different states. So the space of possible
+
+165
+00:11:19,130 --> 00:11:23,630
+outcomes, A, which is far off the bottom of the
+
+166
+00:11:23,630 --> 00:11:25,040
+screen there,
+
+167
+00:11:27,330 --> 00:11:31,310
+a, the outcome space we can label by the outcome
+
+168
+00:11:31,310 --> 00:11:36,620
+of the measurements on. Each of these large end
+
+169
+00:11:36,950 --> 00:11:40,070
+states of the universe, some of those measurement
+
+170
+00:11:40,070 --> 00:11:42,680
+outcomes will be the same for different states. So
+
+171
+00:11:42,680 --> 00:11:45,500
+the city will have some size that is smaller and
+
+172
+00:11:46,070 --> 00:11:50,900
+that can be no larger than the total number of
+
+173
+00:11:50,900 --> 00:11:53,600
+possible states that we are considering to be
+
+174
+00:11:54,200 --> 00:11:57,890
+finite at this stage. And in general is much, much
+
+175
+00:11:57,890 --> 00:12:01,480
+smaller. And getting back to that simple example
+
+176
+00:12:01,480 --> 00:12:05,700
+of rolling a die.
+
+177
+00:12:08,450 --> 00:12:11,420
+We know that the outcome space is just the six
+
+178
+00:12:11,420 --> 00:12:13,490
+numbers, one through six that can come out on top,
+
+179
+00:12:13,910 --> 00:12:17,030
+whereas the whole state of the universe is keeping
+
+180
+00:12:17,030 --> 00:12:20,840
+track of things like where that is ending up after
+
+181
+00:12:20,840 --> 00:12:21,500
+we roll it.
+
+182
+00:12:25,530 --> 00:12:30,270
+So the two indices on these lawmakers and these
+
+183
+00:12:30,520 --> 00:12:33,240
+exes, the outcomes of the measurements are not
+
+184
+00:12:33,240 --> 00:12:35,940
+necessarily mapping out to each other, but we can
+
+185
+00:12:35,940 --> 00:12:39,300
+set aside the states themselves and worry only
+
+186
+00:12:39,300 --> 00:12:43,950
+about the measurement outcomes going forward
+
+187
+00:12:46,170 --> 00:12:46,710
+where.
+
+188
+00:12:51,750 --> 00:12:56,040
+We can choose the event space to be a collection
+
+189
+00:12:56,250 --> 00:13:00,600
+of each of those individual outcomes, each
+
+190
+00:13:00,600 --> 00:13:04,680
+considered in isolation, and then all of those
+
+191
+00:13:04,890 --> 00:13:08,160
+isolated outcomes combined together into the set
+
+192
+00:13:08,160 --> 00:13:12,420
+of events, which is then just equal to the total
+
+193
+00:13:12,600 --> 00:13:17,100
+space of possible outcomes. And because we've
+
+194
+00:13:17,110 --> 00:13:21,450
+constructed this event space so that all of the
+
+195
+00:13:21,810 --> 00:13:25,830
+possible events are mutually exclusive of all the
+
+196
+00:13:25,830 --> 00:13:31,710
+others, then that each of them has a distinct
+
+197
+00:13:32,130 --> 00:13:37,830
+probability. So the probability of. And with this
+
+198
+00:13:37,860 --> 00:13:40,750
+event of Alpha will just hold that a little
+
+199
+00:13:40,780 --> 00:13:44,580
+reduced piece of alpha for all of the possible
+
+200
+00:13:46,140 --> 00:13:52,780
+outcomes of Alpha and then. The two requirements
+
+201
+00:13:52,780 --> 00:13:56,140
+to have a well-defined probability space are that
+
+202
+00:13:56,610 --> 00:14:01,780
+the probability of any two events or any two
+
+203
+00:14:01,780 --> 00:14:05,050
+outcomes occurring, alpha, beta, four different
+
+204
+00:14:05,050 --> 00:14:09,180
+alpha beta is just the sum. Of the individual
+
+205
+00:14:09,180 --> 00:14:12,450
+probabilities for each case and then the
+
+206
+00:14:12,450 --> 00:14:16,770
+probability of the full outcome set in this case,
+
+207
+00:14:16,770 --> 00:14:19,950
+the full event space is again the probability of
+
+208
+00:14:20,100 --> 00:14:24,440
+any of those outcomes occurring all of the sudden
+
+209
+00:14:24,460 --> 00:14:28,320
+from one to N, and that has to add up to one
+
+210
+00:14:28,320 --> 00:14:31,770
+hundred percent just as a statement that something
+
+211
+00:14:31,770 --> 00:14:37,500
+happened in the experiment that that we did. The
+
+212
+00:14:38,490 --> 00:14:44,430
+six sided die is the simple example that you can
+
+213
+00:14:44,430 --> 00:14:52,070
+use them to put a. A simple concrete understanding
+
+214
+00:14:52,070 --> 00:14:54,650
+on some of these abstract, generically checkable
+
+215
+00:14:55,430 --> 00:15:02,170
+mathematical definitions. So we want from the
+
+216
+00:15:02,170 --> 00:15:05,380
+assumption that this this guy is fair, there's an
+
+217
+00:15:05,380 --> 00:15:08,860
+equal probability of ending up with any of the
+
+218
+00:15:09,820 --> 00:15:12,370
+outcomes that we've defined for measuring the
+
+219
+00:15:12,370 --> 00:15:16,720
+number out on top. That is enough information to
+
+220
+00:15:16,720 --> 00:15:20,470
+actually compute the six probabilities for getting
+
+221
+00:15:20,470 --> 00:15:22,120
+those numbers out one through six.
+
+222
+00:15:29,780 --> 00:15:33,740
+And probably this is a question, what are these
+
+223
+00:15:33,740 --> 00:15:36,830
+probabilities, something that you could just tell
+
+224
+00:15:36,830 --> 00:15:39,330
+me immediately without having to think about it.
+
+225
+00:15:39,620 --> 00:15:41,420
+So go ahead and shout that.
+
+226
+00:15:45,300 --> 00:15:51,980
+And here that. Fair just means that each of those
+
+227
+00:15:51,980 --> 00:15:56,840
+probabilities from one to six is equal to the sum
+
+228
+00:15:57,230 --> 00:15:57,740
+of key.
+
+229
+00:16:06,900 --> 00:16:07,470
+And what is?
+
+230
+00:16:12,210 --> 00:16:18,570
+It is one over six and. That hopefully sounds
+
+231
+00:16:18,570 --> 00:16:20,880
+intuitively obvious, the probability for giving
+
+232
+00:16:20,880 --> 00:16:23,760
+each of the six sides it's following from
+
+233
+00:16:24,390 --> 00:16:28,650
+precisely this condition on probabilities in
+
+234
+00:16:28,650 --> 00:16:35,590
+general, the sum of Alpha. Going from one to six
+
+235
+00:16:36,040 --> 00:16:39,370
+of Palitha is just six feet, and that has to add
+
+236
+00:16:39,370 --> 00:16:44,850
+up to one hundred percent. So pee is then this,
+
+237
+00:16:44,860 --> 00:16:48,700
+that one over six from the assumption that this
+
+238
+00:16:48,700 --> 00:16:49,470
+guy is fair.
+
+239
+00:16:52,500 --> 00:16:57,740
+And we can also, again, we saw the example of the
+
+240
+00:16:57,750 --> 00:17:04,770
+coin four times as a single experiment with some
+
+241
+00:17:04,980 --> 00:17:08,210
+space where we wrote down with 60 elements getting
+
+242
+00:17:08,220 --> 00:17:11,340
+four heads, two heads followed by two tails, two
+
+243
+00:17:11,340 --> 00:17:13,950
+tails, followed by two heads all the way to two,
+
+244
+00:17:13,950 --> 00:17:18,370
+four tails. And we can hear
+
+245
+00:17:21,160 --> 00:17:23,800
+do that same sort of calculation to.
+
+246
+00:17:26,280 --> 00:17:32,280
+Figure out the probabilities for each of those
+
+247
+00:17:32,550 --> 00:17:35,520
+outcomes from assuming that the coin is fair.
+
+248
+00:17:48,690 --> 00:17:52,710
+Does anyone remember how many outcomes there were
+
+249
+00:17:52,860 --> 00:17:57,840
+in that setting, there were 16 and each of those
+
+250
+00:17:57,840 --> 00:18:02,130
+outcomes then as a one out of 16 chance of
+
+251
+00:18:02,130 --> 00:18:07,400
+occurring. And if we instead of taking the whole
+
+252
+00:18:07,470 --> 00:18:11,580
+event space to be the outcome space here, we're
+
+253
+00:18:11,580 --> 00:18:12,240
+showing we.
+
+254
+00:18:14,570 --> 00:18:18,790
+The power of these definitions to apply to
+
+255
+00:18:18,800 --> 00:18:22,160
+somewhat different of different circumstances we
+
+256
+00:18:22,160 --> 00:18:25,700
+can consider instead of the individual outcomes
+
+257
+00:18:25,700 --> 00:18:29,330
+for heads or tails to heads or tails, UTSA heads,
+
+258
+00:18:30,260 --> 00:18:33,950
+each of those has the probability one succeeds we
+
+259
+00:18:33,950 --> 00:18:38,190
+can. Considered different sets of events that
+
+260
+00:18:38,320 --> 00:18:41,630
+might be interested in in this case, looking to
+
+261
+00:18:41,630 --> 00:18:46,550
+see when we have equal or different numbers of
+
+262
+00:18:46,760 --> 00:18:50,600
+heads and tails coming out of those four tosses as
+
+263
+00:18:50,600 --> 00:18:51,770
+a single experiment.
+
+264
+00:18:54,280 --> 00:18:54,880
+So.
+
+265
+00:18:58,720 --> 00:19:04,760
+Was. I heard someone. Saying either the answer to
+
+266
+00:19:05,240 --> 00:19:08,780
+this question here or a question about it, what
+
+267
+00:19:08,780 --> 00:19:12,770
+are the probabilities that we're getting the two
+
+268
+00:19:12,770 --> 00:19:18,830
+events in this event space? So probability of
+
+269
+00:19:19,280 --> 00:19:22,790
+getting an equal number of heads entails the
+
+270
+00:19:22,790 --> 00:19:25,730
+probability of getting a different number.
+
+271
+00:19:30,900 --> 00:19:37,450
+That's. Three directly. Yeah, so there are six
+
+272
+00:19:37,780 --> 00:19:41,470
+ways of getting two heads and two tails out of
+
+273
+00:19:41,470 --> 00:19:46,480
+that 16 possibilities, and then it happens to be
+
+274
+00:19:46,900 --> 00:19:51,430
+that all of the other outcomes and the outcomes
+
+275
+00:19:51,430 --> 00:19:54,940
+based A have a different number of hesitations. So
+
+276
+00:19:54,940 --> 00:19:58,850
+we can take the shortcut of recognizing that the
+
+277
+00:19:58,900 --> 00:20:01,720
+probability of getting different numbers is 100
+
+278
+00:20:01,720 --> 00:20:06,610
+percent minus that three probability, which is
+
+279
+00:20:06,610 --> 00:20:12,630
+then five. It's just for. Reference right down, I
+
+280
+00:20:12,630 --> 00:20:15,410
+guess, on the side here, the.
+
+281
+00:20:17,500 --> 00:20:18,220
+Six.
+
+282
+00:20:23,040 --> 00:20:29,040
+Outcomes in the first event, in this two event
+
+283
+00:20:29,460 --> 00:20:31,500
+space where.
+
+284
+00:20:38,870 --> 00:20:43,010
+These are all the ways of arranging those two
+
+285
+00:20:43,010 --> 00:20:48,120
+heads and two tails in. Any order coming from
+
+286
+00:20:48,120 --> 00:20:50,400
+flipping a coin four times?
+
+287
+00:20:52,870 --> 00:20:56,620
+So those are the. And the simplest possible
+
+288
+00:20:56,860 --> 00:21:02,210
+illustrations of. The definitions that we are now
+
+289
+00:21:02,330 --> 00:21:07,490
+through. Are there immediate questions about any
+
+290
+00:21:07,490 --> 00:21:07,940
+of that
+
+291
+00:21:10,400 --> 00:21:13,860
+continue or will wrap up this first sort of
+
+292
+00:21:13,880 --> 00:21:18,710
+definition section with a slightly more elaborate
+
+293
+00:21:18,710 --> 00:21:23,240
+example that will come up a bit? We'll build upon
+
+294
+00:21:23,540 --> 00:21:26,360
+a bit later on in this unit, which is looking at
+
+295
+00:21:27,680 --> 00:21:30,500
+roulette and without advocating any gambling, we
+
+296
+00:21:30,500 --> 00:21:35,450
+can think about the possible outcomes of spinning
+
+297
+00:21:35,450 --> 00:21:38,730
+a roulette wheel, assuming it's fair where with
+
+298
+00:21:38,750 --> 00:21:43,190
+this wheel has is thirty seven pockets that each
+
+299
+00:21:43,190 --> 00:21:47,090
+column with a numerical label from zero up to
+
+300
+00:21:47,090 --> 00:21:53,480
+thirty six. Eighteen of those are colored red 18
+
+301
+00:21:53,480 --> 00:21:57,410
+or colored black. The numbering is not in a very
+
+302
+00:21:57,410 --> 00:22:00,410
+obvious pattern there, but even in our numbers
+
+303
+00:22:00,410 --> 00:22:04,430
+that are called red, black and then pocket zero is
+
+304
+00:22:04,700 --> 00:22:08,690
+singled out, at least in this particular standard
+
+305
+00:22:08,690 --> 00:22:14,270
+European set up as the single green pocket in the
+
+306
+00:22:14,270 --> 00:22:17,870
+roulette wheel. The idea is if we spin this wheel
+
+307
+00:22:18,620 --> 00:22:22,520
+and roll all around the outside of it, eventually
+
+308
+00:22:22,520 --> 00:22:24,500
+that slows down. It falls into one of these
+
+309
+00:22:24,500 --> 00:22:28,640
+pockets randomly. And we can think about both the
+
+310
+00:22:29,450 --> 00:22:32,570
+number that is leaving that pocket as well as the
+
+311
+00:22:32,570 --> 00:22:37,080
+color of the pocket, which is. The colors
+
+312
+00:22:37,080 --> 00:22:41,910
+automatically specified by the number.
+
+313
+00:22:45,120 --> 00:22:47,340
+Hopefully the.
+
+314
+00:22:51,800 --> 00:22:54,740
+The focus on that projector is good enough that
+
+315
+00:22:54,740 --> 00:22:58,160
+you can are able to read off numbers around the
+
+316
+00:22:58,160 --> 00:22:59,720
+outside of their.
+
+317
+00:23:03,050 --> 00:23:07,100
+Enables them briefly to get a closer look at it
+
+318
+00:23:07,550 --> 00:23:11,300
+with the actually functioning that in this room
+
+319
+00:23:11,870 --> 00:23:17,090
+rather than yesterday's equipment. So considering.
+
+320
+00:23:19,060 --> 00:23:21,480
+Back out to the.
+
+321
+00:23:25,250 --> 00:23:32,150
+We were there all sorts of event spaces that we
+
+322
+00:23:32,150 --> 00:23:37,220
+can consider based on the outcome space A which.
+
+323
+00:23:39,530 --> 00:23:41,810
+At this point, I guess you can tell me straight
+
+324
+00:23:41,810 --> 00:23:44,420
+off the top of your head what the outcome status
+
+325
+00:23:44,420 --> 00:23:44,900
+is.
+
+326
+00:23:48,210 --> 00:23:51,660
+Here is the exact plan. They're.
+
+327
+00:23:55,300 --> 00:23:57,600
+There is a number going along with or sorry,
+
+328
+00:23:57,640 --> 00:23:59,260
+there's a cover going along with each of those
+
+329
+00:23:59,260 --> 00:24:02,020
+numbers that you can take to be implicitly
+
+330
+00:24:02,020 --> 00:24:06,800
+specified. And then the corresponding.
+
+331
+00:24:08,190 --> 00:24:13,800
+Probabilities. Again, coming from something over
+
+332
+00:24:13,810 --> 00:24:15,760
+these thirty seven.
+
+333
+00:24:20,230 --> 00:24:26,080
+Possible outcomes with the event space set equal
+
+334
+00:24:26,440 --> 00:24:29,440
+to that outcome space that some of the
+
+335
+00:24:29,450 --> 00:24:33,300
+possibilities as one. And the assumption of a
+
+336
+00:24:33,720 --> 00:24:38,560
+roulette wheel. Use any for whatever thirty seven
+
+337
+00:24:38,980 --> 00:24:43,750
+probability to each of those outcomes, and then
+
+338
+00:24:43,750 --> 00:24:49,930
+again, we can do. The same sort of. Construction
+
+339
+00:24:50,500 --> 00:24:53,410
+of a different event, space that doesn't map
+
+340
+00:24:53,470 --> 00:24:57,160
+exactly onto the outcome, space can look at the
+
+341
+00:24:57,490 --> 00:25:02,330
+colors. Corresponding to those thirty seven
+
+342
+00:25:03,050 --> 00:25:06,200
+possible outcomes and break those up into an event
+
+343
+00:25:06,200 --> 00:25:09,530
+space with three different events where the ball
+
+344
+00:25:09,530 --> 00:25:13,730
+ends up in some pocket with a different color, red
+
+345
+00:25:13,730 --> 00:25:20,400
+or black or green. And you can tell me. The.
+
+346
+00:25:23,630 --> 00:25:28,590
+Probability of having that. And up into a red
+
+347
+00:25:28,590 --> 00:25:32,470
+pocket by that sort of distributive property,
+
+348
+00:25:32,610 --> 00:25:36,750
+probability is just going to be the sum of all the
+
+349
+00:25:36,750 --> 00:25:38,760
+different pockets around there that are colored
+
+350
+00:25:38,760 --> 00:25:46,210
+red, which is one three. So on and not all numbers.
+
+351
+00:25:46,230 --> 00:25:51,770
+And thirty four is the last one. And Tom.
+
+352
+00:25:55,410 --> 00:25:58,440
+Because I've already told you that there are 18 of
+
+353
+00:25:58,440 --> 00:26:04,720
+these, so you. Can tell without having to support
+
+354
+00:26:04,730 --> 00:26:09,890
+you that. The probability of. Ending up with the
+
+355
+00:26:09,890 --> 00:26:15,080
+ball in a red pocket. Is 18 of the thirty seven,
+
+356
+00:26:15,080 --> 00:26:19,480
+so slightly less than 50 percent. It's the same
+
+357
+00:26:19,480 --> 00:26:19,930
+for.
+
+358
+00:26:22,610 --> 00:26:27,090
+The probability of ending up. In the black market,
+
+359
+00:26:27,210 --> 00:26:32,640
+which is the sum of the probabilities for two and
+
+360
+00:26:32,640 --> 00:26:34,920
+for up to.
+
+361
+00:26:37,370 --> 00:26:45,110
+Thirty five. And finally. The probability for that
+
+362
+00:26:45,380 --> 00:26:50,360
+rocket is the remainder. These are a mutually
+
+363
+00:26:50,360 --> 00:26:53,780
+exclusive set of events that end up covering the
+
+364
+00:26:53,780 --> 00:26:56,330
+whole outcome space about the event space itself
+
+365
+00:26:56,330 --> 00:26:59,000
+being equal to that outcome space.
+
+366
+00:27:01,450 --> 00:27:04,870
+So we'll come back to do something more
+
+367
+00:27:04,870 --> 00:27:07,210
+interesting with that roulette wheel in a bit,
+
+368
+00:27:07,420 --> 00:27:12,550
+just to wrap up the definition section of the
+
+369
+00:27:12,550 --> 00:27:19,670
+course here mentioned that. This process of
+
+370
+00:27:20,090 --> 00:27:23,990
+assigning probabilities to events essentially is
+
+371
+00:27:23,990 --> 00:27:27,740
+modeling in general, and what we've done in the
+
+372
+00:27:27,740 --> 00:27:31,370
+three examples of coin tosses, dice rules and
+
+373
+00:27:31,370 --> 00:27:35,000
+roulette tables is by assuming all of those
+
+374
+00:27:35,000 --> 00:27:37,550
+processes are fair, reduce the symmetry between
+
+375
+00:27:38,000 --> 00:27:40,450
+the size of the dye, the size of the coin or the
+
+376
+00:27:40,460 --> 00:27:43,130
+pockets in this roulette wheel to immediately
+
+377
+00:27:43,430 --> 00:27:47,000
+determine what all the probabilities of the
+
+378
+00:27:47,000 --> 00:27:48,290
+possible events are.
+
+379
+00:27:50,490 --> 00:27:53,340
+More generally, if we don't have those cemeteries
+
+380
+00:27:53,340 --> 00:27:59,910
+to rely upon, we can just repeat events time after
+
+381
+00:27:59,910 --> 00:28:04,530
+time and empirically observe how often these
+
+382
+00:28:04,530 --> 00:28:10,080
+events occur. That's an empirical estimation of
+
+383
+00:28:10,350 --> 00:28:12,750
+probabilities which gives us.
+
+384
+00:28:14,870 --> 00:28:18,260
+Results within a certain confidence level by.
+
+385
+00:28:19,590 --> 00:28:23,160
+Collecting a sufficient amount of observational
+
+386
+00:28:23,160 --> 00:28:26,250
+data from repeating the experiment, which is
+
+387
+00:28:27,120 --> 00:28:30,090
+disconnecting to the next topic, involves large
+
+388
+00:28:30,090 --> 00:28:31,590
+numbers where
+
+389
+00:28:33,900 --> 00:28:37,590
+it's really tells us formally how we are able to
+
+390
+00:28:39,180 --> 00:28:42,450
+infer probabilities just from repeating
+
+391
+00:28:43,020 --> 00:28:45,600
+experiments and measurements a sufficient number
+
+392
+00:28:45,600 --> 00:28:49,530
+of times so that any questions before moving on to
+
+393
+00:28:50,040 --> 00:28:51,480
+that law of large numbers.
+
+394
+00:29:01,840 --> 00:29:08,270
+So charging forward to keep the same. Simplified,
+
+395
+00:29:08,270 --> 00:29:13,990
+but still sort of generic situation with a outcome
+
+396
+00:29:14,000 --> 00:29:17,860
+space that has a finite number of elements that
+
+397
+00:29:17,860 --> 00:29:21,910
+the label by the measurement outcomes except one
+
+398
+00:29:22,090 --> 00:29:26,070
+going up to this exact little end, or there are
+
+399
+00:29:26,440 --> 00:29:31,180
+then in probabilities piece of alpha, all of which
+
+400
+00:29:31,180 --> 00:29:36,340
+are between zero and one. And all of which add up
+
+401
+00:29:36,340 --> 00:29:38,980
+to one without necessarily all being equal.
+
+402
+00:29:41,210 --> 00:29:46,030
+And we can. Generalize this notation in a way that
+
+403
+00:29:46,540 --> 00:29:53,180
+also applies to. Accountably, infinite sets of
+
+404
+00:29:53,660 --> 00:29:58,100
+outcomes from experiments and measurements where
+
+405
+00:29:58,670 --> 00:30:00,890
+instead of something explicitly over output from
+
+406
+00:30:00,890 --> 00:30:05,630
+one to end, we say we sum over all of the outcomes
+
+407
+00:30:06,020 --> 00:30:09,620
+X and our outcomes. It's a sum of the probability
+
+408
+00:30:09,620 --> 00:30:13,040
+of that X occurring, and that has to add up to
+
+409
+00:30:13,040 --> 00:30:17,330
+that 100 percent sum outcome happened if anything
+
+410
+00:30:17,330 --> 00:30:18,040
+happened at all.
+
+411
+00:30:20,710 --> 00:30:26,800
+And from the sort of notation we can define the
+
+412
+00:30:28,840 --> 00:30:32,980
+mean and the variance which are properties of the
+
+413
+00:30:32,980 --> 00:30:35,230
+probability of space space itself. So the
+
+414
+00:30:35,620 --> 00:30:40,330
+probability is that map these events, selections
+
+415
+00:30:40,360 --> 00:30:41,830
+of measurements onto.
+
+416
+00:30:44,110 --> 00:30:47,140
+Percentages from zero percent to one hundred
+
+417
+00:30:47,140 --> 00:30:52,630
+percent, where the mean is given by the expected
+
+418
+00:30:52,630 --> 00:30:55,360
+value or what I'll probably call it by having the
+
+419
+00:30:55,360 --> 00:31:01,600
+expectation value of the possible outcomes in the
+
+420
+00:31:01,600 --> 00:31:05,410
+outcomes space, which sum over all those possible
+
+421
+00:31:05,410 --> 00:31:11,620
+outcomes, X in aid of X weighted by probability of
+
+422
+00:31:11,620 --> 00:31:18,350
+that outcome to occur. And the variance is a
+
+423
+00:31:18,680 --> 00:31:23,570
+similar expectation value shown by these angle
+
+424
+00:31:23,600 --> 00:31:27,410
+brackets here that simply mean do that same
+
+425
+00:31:27,440 --> 00:31:32,240
+weighted sum computing this quantity X minus the
+
+426
+00:31:32,510 --> 00:31:36,860
+mean mbewe for all of the outcomes in the space
+
+427
+00:31:37,220 --> 00:31:40,220
+weighted by the corresponding probabilities. So,
+
+428
+00:31:41,260 --> 00:31:45,620
+yes, here there is a general definition of
+
+429
+00:31:45,620 --> 00:31:49,370
+expectation value simply being the function of
+
+430
+00:31:49,610 --> 00:31:53,000
+those outcomes weighted by the corresponding
+
+431
+00:31:53,000 --> 00:31:53,870
+probabilities.
+
+432
+00:31:56,130 --> 00:32:00,240
+And that expectation value is a linear operation,
+
+433
+00:32:00,240 --> 00:32:03,630
+if you multiply it by a cost and see that cost can
+
+434
+00:32:03,630 --> 00:32:07,260
+be pulled out of the wreckage expectation value
+
+435
+00:32:07,260 --> 00:32:12,270
+operation. And if you look at linear combinations
+
+436
+00:32:13,140 --> 00:32:17,730
+of two possible functions of these outcomes, F and
+
+437
+00:32:17,730 --> 00:32:21,750
+G, the expectation value of that linear
+
+438
+00:32:21,750 --> 00:32:25,200
+combination is the combination of the expectation
+
+439
+00:32:25,200 --> 00:32:27,960
+values. So.
+
+440
+00:32:31,300 --> 00:32:36,090
+I'm. Making assumptions could be wrong that these
+
+441
+00:32:36,090 --> 00:32:40,290
+are things like meat and dairy are things that
+
+442
+00:32:40,380 --> 00:32:44,580
+have come up before in other molecules and we can
+
+443
+00:32:44,580 --> 00:32:50,600
+check from the definitions. Toward the top of the
+
+444
+00:32:50,600 --> 00:32:55,310
+page, that's the standard deviation, the square
+
+445
+00:32:55,310 --> 00:32:59,690
+root of the variance has a simple expression in
+
+446
+00:32:59,690 --> 00:33:05,540
+terms of the expectation value of X squared and
+
+447
+00:33:05,540 --> 00:33:10,400
+the square of the expectation value of X. So if we
+
+448
+00:33:11,600 --> 00:33:16,820
+start from definition of variance, both as the
+
+449
+00:33:17,480 --> 00:33:19,820
+expectation value of.
+
+450
+00:33:22,130 --> 00:33:25,490
+But I'll start calling fluctuations around me the
+
+451
+00:33:25,790 --> 00:33:28,940
+difference between each outcome and the mean
+
+452
+00:33:28,940 --> 00:33:31,880
+outcome, that quantity squared and then take the
+
+453
+00:33:31,880 --> 00:33:38,790
+expectation value of that. You can simply expand.
+
+454
+00:33:41,030 --> 00:33:44,840
+That square and then apply the fact that the
+
+455
+00:33:44,840 --> 00:33:49,100
+expectation value is within your operation to.
+
+456
+00:33:51,220 --> 00:33:55,550
+Start getting something that. Looks familiar where
+
+457
+00:33:55,690 --> 00:33:58,360
+I've used the fact that this meeting is a kelson
+
+458
+00:33:58,360 --> 00:34:02,440
+property of the probability space to pull it out
+
+459
+00:34:02,570 --> 00:34:05,590
+of all those expectation values. The expectation
+
+460
+00:34:05,590 --> 00:34:08,080
+value of the concept is just the concept itself.
+
+461
+00:34:09,730 --> 00:34:16,030
+And because we have that new itself is an
+
+462
+00:34:16,030 --> 00:34:22,000
+expectation value of the individual outcomes, we
+
+463
+00:34:22,000 --> 00:34:26,800
+can rewrite this as two times the expectation,
+
+464
+00:34:26,800 --> 00:34:32,560
+value, expectation, value, and where is the
+
+465
+00:34:32,560 --> 00:34:39,070
+expectation value squared and you end up with. The
+
+466
+00:34:39,580 --> 00:34:43,120
+expectation value of the square minus the square,
+
+467
+00:34:43,150 --> 00:34:46,810
+the expectation value, so sigma itself is the
+
+468
+00:34:47,230 --> 00:34:48,160
+square root.
+
+469
+00:34:50,950 --> 00:34:53,170
+That's the difference
+
+470
+00:34:55,780 --> 00:34:57,790
+that is still on the screen, which.
+
+471
+00:35:00,820 --> 00:35:04,000
+Again, I assume it's something that is familiar.
+
+472
+00:35:06,040 --> 00:35:10,260
+I see some civilians saying that is the case.
+
+473
+00:35:12,280 --> 00:35:19,570
+So what we are going to do based on. The set up of
+
+474
+00:35:19,930 --> 00:35:21,340
+this new way of writing
+
+475
+00:35:23,980 --> 00:35:28,270
+outcome, spaces and spaces, means and variances is.
+
+476
+00:35:29,330 --> 00:35:32,540
+Generalize that example that we had of flipping a
+
+477
+00:35:32,540 --> 00:35:37,310
+coin four times, you will define a single
+
+478
+00:35:37,310 --> 00:35:43,280
+experiment that consists of repeating some of our
+
+479
+00:35:43,280 --> 00:35:46,130
+experiments, some number of times. So are four
+
+480
+00:35:46,430 --> 00:35:50,510
+repetitions. And we make the demand that each
+
+481
+00:35:50,900 --> 00:35:54,260
+repetition of the original.
+
+482
+00:35:56,940 --> 00:36:00,630
+Fundamental experience is independent of the
+
+483
+00:36:00,630 --> 00:36:05,160
+others, and in each case, we perform the same
+
+484
+00:36:05,160 --> 00:36:10,070
+measurements to get the same. A set of problems
+
+485
+00:36:10,430 --> 00:36:15,830
+with the same probabilities in the space and time
+
+486
+00:36:15,920 --> 00:36:16,400
+that.
+
+487
+00:36:18,680 --> 00:36:24,500
+New outcome, space to be B, so B is the outcome
+
+488
+00:36:24,500 --> 00:36:27,830
+space, if we repeat the original experiment to
+
+489
+00:36:27,830 --> 00:36:35,710
+give some space A some number of times. So based
+
+490
+00:36:35,710 --> 00:36:41,440
+on that definition, if we still have that original
+
+491
+00:36:41,440 --> 00:36:48,250
+outcome, space of X one up to X lowercase and.
+
+492
+00:36:50,640 --> 00:36:54,480
+Some of the representative events that show up and
+
+493
+00:36:54,500 --> 00:37:03,070
+B, if we fix our schools. For the politicians. A
+
+494
+00:37:03,070 --> 00:37:08,100
+single outcome in this new event, space be. Is
+
+495
+00:37:08,460 --> 00:37:11,160
+this New Orleans Excuse me, is just going to be
+
+496
+00:37:11,580 --> 00:37:17,100
+poor outcomes from that original space. So just as
+
+497
+00:37:17,100 --> 00:37:20,520
+when we were flipping a coin four times, we could
+
+498
+00:37:20,520 --> 00:37:25,970
+have, say, heads, heads and heads all in a row.
+
+499
+00:37:28,540 --> 00:37:32,230
+Or since we're generalizing this, to have some
+
+500
+00:37:32,230 --> 00:37:36,400
+number and possible outcomes of the original
+
+501
+00:37:36,400 --> 00:37:40,710
+experiment gets repeated. We could start off with,
+
+502
+00:37:40,890 --> 00:37:44,970
+say, how Trump, for the first repetition won in
+
+503
+00:37:44,970 --> 00:37:49,230
+the second forty two in the third and then won
+
+504
+00:37:49,230 --> 00:37:50,730
+again in the fourth.
+
+505
+00:37:57,680 --> 00:38:02,450
+And all sorts of probabilities, or I should say
+
+506
+00:38:02,450 --> 00:38:04,670
+all sorts of possibilities, each with their own
+
+507
+00:38:04,670 --> 00:38:10,280
+probability. So I guess I can ask you at this
+
+508
+00:38:10,280 --> 00:38:15,570
+point. Knowing that the size of a number of
+
+509
+00:38:15,570 --> 00:38:21,210
+elements in that set is this lower case m how many?
+
+510
+00:38:22,860 --> 00:38:25,840
+Elements are we going to have in this new album
+
+511
+00:38:25,980 --> 00:38:26,690
+space be?
+
+512
+00:38:34,480 --> 00:38:39,890
+To Bill. That would be something like that if we
+
+513
+00:38:39,890 --> 00:38:42,260
+were flipping a coin and those two possibilities.
+
+514
+00:38:44,850 --> 00:38:47,280
+Now that we were able to get up to four point
+
+515
+00:38:47,280 --> 00:38:48,950
+forty two and an.
+
+516
+00:38:53,240 --> 00:38:57,410
+Yeah, so with R equals four, there are four
+
+517
+00:38:57,410 --> 00:39:00,160
+possible outcomes or being multiplied together,
+
+518
+00:39:00,530 --> 00:39:03,740
+and if we go back to that general and we have a
+
+519
+00:39:03,740 --> 00:39:07,670
+product of any possible outcomes for that first
+
+520
+00:39:07,670 --> 00:39:11,180
+experiments, that first repetition and possible
+
+521
+00:39:11,180 --> 00:39:14,630
+outcomes through the second repetition and
+
+522
+00:39:14,660 --> 00:39:17,720
+possible outcomes for all are of those repetitions
+
+523
+00:39:17,720 --> 00:39:21,560
+so and multiplicative factor. So our
+
+524
+00:39:22,160 --> 00:39:27,110
+multiplicative factors of M. So each repetition of
+
+525
+00:39:28,070 --> 00:39:32,930
+the experiments brings in multiplication by the
+
+526
+00:39:33,350 --> 00:39:37,250
+total number of possibilities. And the.
+
+527
+00:39:41,000 --> 00:39:46,650
+Even when the size of the. So fundamental, the
+
+528
+00:39:46,650 --> 00:39:51,960
+underlying original event space is finite once we
+
+529
+00:39:51,960 --> 00:39:55,430
+repeat the experiments of a large number of times
+
+530
+00:39:55,440 --> 00:39:59,970
+and large are, we see the size of the space of the
+
+531
+00:39:59,970 --> 00:40:02,430
+possible outcomes really rapidly growing,
+
+532
+00:40:02,730 --> 00:40:08,510
+exponentially growing in that. That number of
+
+533
+00:40:08,510 --> 00:40:10,130
+repetitions and.
+
+534
+00:40:14,110 --> 00:40:20,660
+Now. Try to keep some of that on the screen, we
+
+535
+00:40:20,660 --> 00:40:24,230
+can think about the probabilities of all of these
+
+536
+00:40:24,230 --> 00:40:29,270
+outcomes. Are all of these events in the larger,
+
+537
+00:40:29,570 --> 00:40:34,370
+repeated experiment outcome space be based on? The
+
+538
+00:40:34,420 --> 00:40:37,180
+probability is that you've assigned to the event
+
+539
+00:40:37,180 --> 00:40:40,600
+space for the original underlying experiment that
+
+540
+00:40:41,020 --> 00:40:43,800
+gets repeated. Where?
+
+541
+00:40:46,830 --> 00:40:51,510
+We can define the expectation value for each of
+
+542
+00:40:51,510 --> 00:40:55,260
+those repetitions, so that little parenthetical
+
+543
+00:40:55,260 --> 00:41:00,150
+label or has that mean new and variance sigma
+
+544
+00:41:00,150 --> 00:41:04,980
+squared? And again, just talking about four
+
+545
+00:41:05,190 --> 00:41:06,780
+repetitions for simplicity.
+
+546
+00:41:09,110 --> 00:41:15,080
+The probability of any of the individual outcomes
+
+547
+00:41:15,080 --> 00:41:19,610
+and be considered as an event by itself is going
+
+548
+00:41:19,610 --> 00:41:24,150
+to have. Each of these labels, so you could
+
+549
+00:41:24,350 --> 00:41:28,920
+combine the first repetition of the second
+
+550
+00:41:28,920 --> 00:41:33,330
+repetition and the third repetition in the fourth,
+
+551
+00:41:33,960 --> 00:41:37,500
+and that again multiplicative breaks up just as
+
+552
+00:41:37,500 --> 00:41:42,540
+the total number of outcomes multiplicative
+
+553
+00:41:42,630 --> 00:41:49,530
+depends on the outcomes in our space. A, as the
+
+554
+00:41:49,530 --> 00:41:55,140
+product of the independent probability of getting
+
+555
+00:41:55,500 --> 00:41:59,880
+that outcome by the first replication times, the
+
+556
+00:41:59,880 --> 00:42:03,030
+probability of getting the outcome accepted and
+
+557
+00:42:03,030 --> 00:42:07,250
+the second repetition. And similarly for x axis of
+
+558
+00:42:07,260 --> 00:42:11,310
+evil, in the third and fourth repetitions where
+
+559
+00:42:12,120 --> 00:42:14,910
+the individual probabilities are coming from an
+
+560
+00:42:14,940 --> 00:42:19,820
+outcomes based A. Which is now being related to
+
+561
+00:42:19,820 --> 00:42:25,430
+the much bigger conspiracy by. The assumption that
+
+562
+00:42:25,970 --> 00:42:29,510
+all of the repeated experiments are independent of
+
+563
+00:42:29,510 --> 00:42:30,380
+all the others.
+
+564
+00:42:32,940 --> 00:42:38,760
+And what we can now define probably another
+
+565
+00:42:39,600 --> 00:42:47,000
+familiar concept, is the arithmetic mean? As
+
+566
+00:42:47,000 --> 00:42:51,770
+opposed to the true meaning of the probability
+
+567
+00:42:51,770 --> 00:42:56,120
+space that requires exact knowledge of all of the
+
+568
+00:42:56,120 --> 00:42:59,510
+outcomes and all probabilities in that space, is
+
+569
+00:42:59,810 --> 00:43:03,290
+arithmetic mean is what came up at the end of the
+
+570
+00:43:03,290 --> 00:43:05,660
+previous section? Are we talking about figuring
+
+571
+00:43:05,660 --> 00:43:10,370
+out probabilities by repeating an experiment some
+
+572
+00:43:10,370 --> 00:43:15,080
+number of times this averaging over the possible
+
+573
+00:43:15,080 --> 00:43:16,660
+outcomes that are observed?
+
+574
+00:43:19,220 --> 00:43:22,700
+And that's the key point, is that this arithmetic
+
+575
+00:43:22,700 --> 00:43:28,430
+mean is a random variable. So it's a measurement
+
+576
+00:43:28,430 --> 00:43:32,300
+that we can perform in that appears in the open
+
+577
+00:43:32,340 --> 00:43:33,410
+space. B.
+
+578
+00:43:35,790 --> 00:43:40,020
+Where we simply add up the values of the
+
+579
+00:43:40,020 --> 00:43:42,420
+measurements for each individual, repetition
+
+580
+00:43:43,170 --> 00:43:45,960
+average over the number of repetitions and define
+
+581
+00:43:45,960 --> 00:43:52,490
+this arithmetic mean. X bar with a given number of
+
+582
+00:43:52,490 --> 00:43:58,190
+repetitions that is set in advance and so for.
+
+583
+00:43:59,540 --> 00:44:02,270
+Each element in that repeated experiment out of
+
+584
+00:44:02,280 --> 00:44:06,820
+space, we would get a slightly different estimates
+
+585
+00:44:07,310 --> 00:44:11,540
+or empirical observation for this arithmetic mean,
+
+586
+00:44:11,870 --> 00:44:16,100
+but we do expect that the arithmetic mean is
+
+587
+00:44:16,100 --> 00:44:21,110
+related to the true meaning of the distribution.
+
+588
+00:44:22,170 --> 00:44:26,700
+Particularly of the. Distribution, a single
+
+589
+00:44:26,700 --> 00:44:30,150
+experiment, distribution that we can have an
+
+590
+00:44:30,150 --> 00:44:34,500
+easier time getting a mathematical grip on. And
+
+591
+00:44:35,160 --> 00:44:38,520
+there is a relation that can be proved rigourously
+
+592
+00:44:38,520 --> 00:44:43,820
+as. That number of repetitions goes to infinity,
+
+593
+00:44:44,510 --> 00:44:49,330
+given the assumption that the variance. Of the.
+
+594
+00:44:52,480 --> 00:44:55,690
+Original experiments without consent is a is
+
+595
+00:44:55,720 --> 00:45:00,340
+finite in the footnote, there is just a note that
+
+596
+00:45:01,030 --> 00:45:03,790
+the second part of the computer project is going
+
+597
+00:45:03,790 --> 00:45:07,180
+to focus on what can happen if that assumption
+
+598
+00:45:07,180 --> 00:45:10,540
+breaks down to the variance is is infinite for a
+
+599
+00:45:10,540 --> 00:45:15,520
+distribution and looking at the time.
+
+600
+00:45:19,420 --> 00:45:25,180
+And debating whether there is enough time to go
+
+601
+00:45:25,180 --> 00:45:30,030
+through the little denervation, establishing this
+
+602
+00:45:30,040 --> 00:45:34,240
+equivalence, and I think that might actually be a
+
+603
+00:45:34,240 --> 00:45:37,660
+nice thing to start off with on Friday rather than
+
+604
+00:45:37,990 --> 00:45:41,230
+trying to squeeze it in in the last couple of
+
+605
+00:45:41,230 --> 00:45:46,810
+minutes. So just do one more poll for any any
+
+606
+00:45:46,810 --> 00:45:50,370
+questions that have come up in the course of today.
+
+607
+00:45:57,200 --> 00:46:01,360
+Any word on how many strain
+
+608
+00:46:07,080 --> 00:46:09,860
+that's notation I've seen in various places, but
+
+609
+00:46:10,950 --> 00:46:14,030
+that's sort of a shorthand to fill in the space
+
+610
+00:46:14,030 --> 00:46:17,390
+available. Not anything really crucial. So just
+
+611
+00:46:17,390 --> 00:46:23,710
+using the it's called the no sign to refer to here
+
+612
+00:46:23,720 --> 00:46:27,590
+the number of elements in A or B.
+
+613
+00:46:30,580 --> 00:46:34,420
+This is not universal, but also I'm not the only
+
+614
+00:46:34,420 --> 00:46:40,030
+one who has employed that, so to you ask about do.
+
+615
+00:46:44,810 --> 00:46:45,270
+And.
+
+616
+00:46:49,850 --> 00:46:54,980
+With that, I will. Shut down the recordings, you
+
+617
+00:46:55,000 --> 00:46:58,940
+say, thanks to those of you who have not been able
+
+618
+00:46:58,940 --> 00:47:01,610
+to make it, but have told me that you're unwell
+
+619
+00:47:01,610 --> 00:47:04,880
+and they're joining you because it's all about
+
+620
+00:47:04,880 --> 00:47:07,520
+class, that we can tell who's here, who isn't. And
+
+621
+00:47:07,520 --> 00:47:10,850
+I appreciate you kept in touch about how things
+
+622
+00:47:10,850 --> 00:47:12,470
+are going. So
+
+623
+00:47:14,690 --> 00:47:19,640
+hopefully as the spring progresses.
+
+624
+00:47:23,950 --> 00:47:24,380
+There
+
+625
+00:47:26,950 --> 00:47:31,990
+will be less. Illness going around.
