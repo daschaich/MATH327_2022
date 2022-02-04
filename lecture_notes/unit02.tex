@@ -1,13 +1,13 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 2}
-\renewcommand{\moddate}{Last modified 17 Jan.~2022}
+\renewcommand{\moddate}{Last modified 3 Feb.~2022}
 \setcounter{section}{2}
 \setcounter{subsection}{0}
 \phantomsection
 \addcontentsline{toc}{section}{Unit 2: Micro-canonical ensemble}
 \section*{Unit 2: Micro-canonical ensemble}
 \subsection{Statistical ensembles and thermodynamic equilibrium}
-We begin this unit by developing the concept of \textit{statistical ensembles} (introduced by \href{https://en.wikipedia.org/wiki/Josiah_Willard_Gibbs}{J.\ Willard Gibbs} in the early 1900s), building on the probability foundations we laid in the previous unit.
+We begin this unit by developing the concept of \textit{statistical ensembles}, introduced by \href{https://en.wikipedia.org/wiki/Josiah_Willard_Gibbs}{J.\ Willard Gibbs} in the early 1900s, building on the probability foundations we laid in the previous unit.
 As forecast, we will be interested in `experiments' that simply allow a collection of degrees of freedom to evolve in time, subject to certain constraints.
 At a given time $t_1$, the disposition of these degrees of freedom defines the state $\om_1$ of the system.
 To consider a couple of examples, what would be a representative state for a system of $8$ \textit{spins} (arrows that can point either `up' or `down') arranged in a line?\footnote{We will consider \href{https://en.wikipedia.org/wiki/Spin_model}{spin systems} extensively in this module.  In addition to obeying simple mathematics analogous to flipping coins, spins also serve as good models of physical systems such as magnetic molecules.}
@@ -24,8 +24,8 @@ These measurements define \textit{conserved quantities}, an important example of
 \end{equation*}
 The conservation of energy is presumably a familiar concept, and you may also know that it can be rigorously proven through \href{https://en.wikipedia.org/wiki/Emmy_Noether}{Emmy Noether}'s theorem.\footnote{This proof holds only in `flat' space-time as opposed to the curved space-time manifolds than arise in general relativity---which is far beyond the scope of this module.}
 Because statistical physics was first developed when conservation of energy was primarily an empirical observation rather than a proven result, it was given a more grandiose name: the \textbf{first law of thermodynamics}.
-Another way of stating the first law is that any change in the internal energy of one particular system \Om must be matched by an equal and opposite change in the energy of some other system(s) with which \Om is in contact.
-We will return to this formulation of the first law in future weeks.
+Another way of stating the first law is that any change in the internal energy of one particular system \Om must be matched by an equal and opposite change in the energy of some other system with which \Om is in contact.
+This will be important when we consider thermodynamic cycles later in the term.
 
 For now, let's return to the examples above, and suppose that the spin system is placed in an external magnetic field.
 If a spin is parallel to the field, it contributes energy $-H$ to the total energy $E$ of the system.
@@ -43,12 +43,12 @@ In this case each molecule contributes only its kinetic energy to $E$,
 \end{equation*}
 where $\vec v_n$ is the velocity of the $n$th molecule, $\vec p_n = m \vec v_n$ is its momentum, and all molecules have exactly the same mass $m$.
 
-As emphasized in last week's introduction, we treat the time evolution of the system as a stochastic process in which the system probabilistically adopts a sequence of states $\om_i \in \Om$:
+As forecast at the start of the module, we treat the time evolution of the system as a stochastic process in which the system probabilistically adopts a sequence of states $\om_i \in \Om$:
 \begin{equation*}
   \om_1 \lra \om_2 \lra \om_3 \lra \om_4 \lra \cdots
 \end{equation*}
 This attitude is adopted as a matter of practicality rather than one of principle.
-In principle, Newton's laws would allow us to exactly predict the time evolution of (say) $\sim$$10^{23}$ hydrogen molecules, but only by specifying $\sim$$10^{23}$ initial conditions and solving $\sim$$10^{23}$ differential equations.
+In principle, Newton's laws would allow us to exactly predict the time evolution of (say) $10^{23}$ hydrogen molecules, but only by specifying $10^{23}$ initial conditions and solving $10^{23}$ differential equations.
 Since we cannot hope to write down so much information or carry out so many computations, we instead apply probability theory in order to analyze these systems.
 
 \begin{shaded}
@@ -57,12 +57,12 @@ Since we cannot hope to write down so much information or carry out so many comp
 \end{shaded}
 
 Because these states $\om_i$ depend on the `microscopic' degrees of freedom that compose the overall system, we will refer to them as \textbf{micro-states} from now on.
-From last week's definition of probability, we have the requirement $\sum_i p_i = 1$, which simply means that the system must be in \textit{some} micro-state at any point in time.
+From the definition of probability in \secref{sec:prob}, we have the requirement $\sum_i p_i = 1$, which simply means that the system must be in \textit{some} micro-state at any point in time.
 The fact that time evolution cannot change any conserved quantities, as discussed above, means that such conserved quantities characterize statistical ensembles.
 We will define different types of statistical ensemble that depend on the specific set of conserved quantities.
 
 \begin{shaded}
-  This week we define a \textbf{micro-canonical ensemble} to be a statistical ensemble characterized by conserved internal energy $E$ and conserved number of degrees of freedom $N$ (which we will call \textbf{particle number} for short).
+  First we define a \textbf{micro-canonical ensemble} to be a statistical ensemble characterized by conserved internal energy $E$ and conserved number of degrees of freedom $N$---which we will call \textbf{particle number} for short.
 \end{shaded}
 
 According to the discussion above, this means that a system governed by the micro-canonical ensemble is \textit{isolated} in the sense that it cannot exchange energy or particles with any other system.
@@ -336,7 +336,7 @@ When $H = 0$, we also have $E = 0$ and $T$ is ill-defined.
 Restricting our attention to $H > 0$, with $n_+ < n_-$ producing a positive temperature, we also see that this temperature cannot vanish.
 It is minimized by the most-negative energy you found above, $T_{\text{min}} = H > 0$ for $E_{\text{min}} = -NH$.
 The non-zero minimum temperature is specific to spin systems, while some of the other oddities result from the micro-canonical approach more generally.
-This will motivate turning to the canonical ensemble next week, but first we can check that some aspects of the temperature defined in \eq{eq:temperature} do match our everyday expectations.
+This will motivate turning to the canonical ensemble in Unit~2, but first we can check that some aspects of the temperature defined in \eq{eq:temperature} do match our everyday expectations.
 These include the temperature being \textit{intensive} (independent of $N$) since $\vev{E} \propto N$ from \eq{eq:RWmean}, as well as its implications for heat exchange.
 % ------------------------------------------------------------------
 
@@ -388,7 +388,7 @@ From the second law of thermodynamics, we know that the total entropy of these s
 The fact that re-isolating the two subsystems doesn't change the entropy may be surprising---it's tempting to guess that this procedure might reduce the entropy, by reversing the argument used when the two subsystems were brought into thermal contact in \secref{sec:second_law}.
 The key is that we don't fix $E_A'$, which could have any value from zero to $E_A + E_B$ at the moment when the subsystems are re-isolated.
 Computing the final entropy $S(E_A') + S(E_B')$ therefore requires summing over all possible values of $E_A'$, producing exactly the sum in \eq{eq:micro_sum} for the overall system.
-We will see something similar when we consider `the Gibbs paradox' in a couple of weeks.
+We will see something similar when we consider the `Gibbs paradox' in Unit~4.
 
 \newpage % WARNING: FORMATTING BY HAND
 What do you find when you insert your linearized Taylor series into \eq{eq:entropy_ineq}?
