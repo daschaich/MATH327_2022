@@ -1,0 +1,2223 @@
+1
+00:00:02,590 --> 00:00:04,670
+In terms of recordings, it's interesting, what I've
+
+2
+00:00:04,670 --> 00:00:07,670
+seen is that Zoom recordings are better quality
+
+3
+00:00:07,670 --> 00:00:10,160
+than the university's Stream Capture system and they're
+
+4
+00:00:10,160 --> 00:00:13,340
+also about four times smaller files, which shows
+
+5
+00:00:13,340 --> 00:00:16,160
+what you can do with lots of programmers working
+
+6
+00:00:16,160 --> 00:00:22,910
+for you. To start with some of the boring stuff while
+
+7
+00:00:24,590 --> 00:00:25,220
+we wake up
+
+8
+00:00:27,530 --> 00:00:33,950
+the magic number for attendance checking
+
+9
+00:00:33,950 --> 00:00:36,920
+is one oh
+
+10
+00:00:40,290 --> 00:00:47,240
+three oh eight four and let me know if that's too small
+
+11
+00:00:47,240 --> 00:00:48,230
+to actually see.
+
+12
+00:00:50,660 --> 00:00:55,760
+And as we get going, are there any media questions
+
+13
+00:00:56,600 --> 00:00:58,990
+left in your mind from earlier in the week?
+
+14
+00:01:04,730 --> 00:01:10,470
+So quickly recap what came up at that time, so.
+
+15
+00:01:15,520 --> 00:01:18,520
+Maybe before recapping a couple of logistical
+
+16
+00:01:18,520 --> 00:01:23,140
+notes that the first part of the computer project
+
+17
+00:01:23,140 --> 00:01:28,840
+assignments, it is now up on canvas.
+
+18
+00:01:31,130 --> 00:01:34,430
+Available for you to work on. And this afternoon,
+
+19
+00:01:34,430 --> 00:01:37,220
+we'll look through some of
+
+20
+00:01:41,000 --> 00:01:43,520
+the Python programming background that will be
+
+21
+00:01:43,520 --> 00:01:46,940
+useful for that, those who may or may not have
+
+22
+00:01:47,390 --> 00:01:52,810
+done any programming before. And there was also on
+
+23
+00:01:52,820 --> 00:01:54,890
+that poll I had run during this week, just a
+
+24
+00:01:54,890 --> 00:01:59,120
+couple of requests for a to print paper copies of
+
+25
+00:01:59,120 --> 00:02:02,180
+the notes. For those of you who prefer paper, the
+
+26
+00:02:02,270 --> 00:02:06,500
+end might not have easy access to a printer. So
+
+27
+00:02:06,800 --> 00:02:12,010
+rather than trying to juggle that. Here live in
+
+28
+00:02:12,240 --> 00:02:17,920
+your. I just left them in the box. Outside my
+
+29
+00:02:17,920 --> 00:02:22,780
+office, which is one twenty three, the theoretical
+
+30
+00:02:22,780 --> 00:02:26,050
+physics wing, so those of you who requested those
+
+31
+00:02:26,050 --> 00:02:29,080
+printouts can just come by and pick them up
+
+32
+00:02:29,080 --> 00:02:33,150
+whenever it's convenient for you. They're just
+
+33
+00:02:33,160 --> 00:02:38,860
+sitting in the hall for you and getting into. The.
+
+34
+00:02:39,850 --> 00:02:42,100
+Actual physics and mathematics we looked at
+
+35
+00:02:42,100 --> 00:02:46,390
+earlier this week to be two main points, to recap
+
+36
+00:02:46,390 --> 00:02:52,330
+very quickly that the essence of statistical
+
+37
+00:02:52,330 --> 00:02:57,430
+physics is bringing probabilistic processes,
+
+38
+00:02:57,670 --> 00:02:58,780
+holistic methods.
+
+39
+00:03:02,520 --> 00:03:07,860
+To tackle the practical problem. Of handling
+
+40
+00:03:07,860 --> 00:03:11,700
+systems with many degrees of freedom, many the
+
+41
+00:03:11,700 --> 00:03:13,410
+objects in these systems.
+
+42
+00:03:17,140 --> 00:03:23,390
+Where many is something of order tend to be. Tower
+
+43
+00:03:23,400 --> 00:03:28,890
+twenty three or more. And then we went through a
+
+44
+00:03:29,460 --> 00:03:34,590
+sequence of formal definitions for these
+
+45
+00:03:35,040 --> 00:03:36,600
+probabilistic foundations.
+
+46
+00:03:40,990 --> 00:03:44,710
+We are going to be developing and applying, in
+
+47
+00:03:44,710 --> 00:03:51,670
+particular defining. Outcomes. Of experiments to
+
+48
+00:03:51,670 --> 00:03:59,030
+be. Roughly equivalent to the states, I should say,
+
+49
+00:03:59,030 --> 00:04:02,480
+the outcomes of measurements can be treated
+
+50
+00:04:02,480 --> 00:04:04,880
+equitably with the states that results from doing
+
+51
+00:04:04,880 --> 00:04:09,110
+experiments in precise ways that we define and
+
+52
+00:04:09,110 --> 00:04:14,270
+then subsets or sets of outcomes.
+
+53
+00:04:17,930 --> 00:04:23,150
+Give events to which we can assign probabilities.
+
+54
+00:04:28,400 --> 00:04:34,000
+And based on that, we got to the. Concept of the
+
+55
+00:04:34,000 --> 00:04:35,440
+law of large numbers
+
+56
+00:04:37,570 --> 00:04:41,160
+can have to be careful to keep the paper actually
+
+57
+00:04:41,170 --> 00:04:46,090
+on the screen up there where we have the idea of
+
+58
+00:04:48,070 --> 00:04:50,530
+defining an experiment and repeating it some
+
+59
+00:04:50,530 --> 00:04:53,860
+number of times from which we can monitor the
+
+60
+00:04:53,860 --> 00:04:57,070
+outcome is used to define things like the
+
+61
+00:04:57,310 --> 00:05:01,870
+arithmetic mean is the average value of the
+
+62
+00:05:01,870 --> 00:05:05,770
+outcome of interest as the experiment is repeated
+
+63
+00:05:05,770 --> 00:05:11,710
+other times, which has some connection to the true
+
+64
+00:05:11,710 --> 00:05:14,170
+meaning that is defined for probability
+
+65
+00:05:14,170 --> 00:05:19,150
+distribution itself. So another call for questions
+
+66
+00:05:19,150 --> 00:05:22,660
+about any of those topics before moving forward
+
+67
+00:05:22,660 --> 00:05:26,560
+with this idea to establish this connection
+
+68
+00:05:26,560 --> 00:05:29,860
+between arithmetic means and the true means of the
+
+69
+00:05:29,860 --> 00:05:30,640
+distribution.
+
+70
+00:05:35,420 --> 00:05:39,460
+Where? The key thing to consider is what's.
+
+71
+00:05:41,860 --> 00:05:44,140
+Pulled up in this box, which may turn out to be a
+
+72
+00:05:44,140 --> 00:05:49,150
+little small for me to do the deliberations. So
+
+73
+00:05:49,150 --> 00:05:54,220
+what we're looking at here is essentially how this
+
+74
+00:05:54,220 --> 00:05:58,310
+arithmetic mean fluctuates around the true meaning
+
+75
+00:05:58,330 --> 00:06:02,350
+you within the expectation value that is
+
+76
+00:06:02,350 --> 00:06:06,550
+considering this object as a random variable for
+
+77
+00:06:06,940 --> 00:06:12,220
+all of the outcomes in the outcome set in space.
+
+78
+00:06:13,120 --> 00:06:15,760
+Of the experiments and the measurement that we
+
+79
+00:06:15,910 --> 00:06:21,870
+have in mind to define the outcomes themselves.
+
+80
+00:06:23,030 --> 00:06:23,600
+And.
+
+81
+00:06:26,360 --> 00:06:34,680
+What we can do to. Tackle, this is a little trick
+
+82
+00:06:34,680 --> 00:06:36,660
+to bear, which is.
+
+83
+00:06:39,400 --> 00:06:43,570
+Slide margin over here just to.
+
+84
+00:06:47,510 --> 00:06:53,450
+Simplify things. We note that if we rate. The
+
+85
+00:06:53,960 --> 00:06:57,620
+summer over, these are repetitions of the
+
+86
+00:06:57,620 --> 00:07:02,240
+experiments of view that use a constant within the
+
+87
+00:07:02,240 --> 00:07:05,830
+expectation values. This is just our times new.
+
+88
+00:07:08,650 --> 00:07:14,100
+So if we bring out the overall one of our squared.
+
+89
+00:07:15,700 --> 00:07:20,300
+The cost factor being squared. Within that
+
+90
+00:07:20,300 --> 00:07:24,650
+expectation, value can be pulled outside. And then
+
+91
+00:07:25,310 --> 00:07:30,910
+you're left with that sum over all those hours. Of
+
+92
+00:07:31,180 --> 00:07:36,520
+that. Exaro minus mu, or if we pull out that one
+
+93
+00:07:36,520 --> 00:07:38,980
+over, we get our view that we can turn into
+
+94
+00:07:39,400 --> 00:07:41,920
+another factor of that. So we have parentheses
+
+95
+00:07:42,610 --> 00:07:49,540
+within parentheses. So we are now sending over the
+
+96
+00:07:50,440 --> 00:07:53,670
+fluctuations for each repetition around the mean.
+
+97
+00:07:54,800 --> 00:07:59,240
+And that some as a whole gets squared. And then we
+
+98
+00:07:59,240 --> 00:08:02,480
+take the expectation value of that whole kind of
+
+99
+00:08:02,540 --> 00:08:05,570
+complicated object that we can now expand and
+
+100
+00:08:05,570 --> 00:08:12,720
+simplify it. And by extension, I mean. That. I
+
+101
+00:08:12,720 --> 00:08:17,400
+would just right the square of the sun as the
+
+102
+00:08:17,730 --> 00:08:23,640
+product of two repetitions. Of the song with.
+
+103
+00:08:24,520 --> 00:08:29,890
+Difference, independents. Variables, counting the
+
+104
+00:08:30,760 --> 00:08:35,410
+outcomes of your going over. So that is just what
+
+105
+00:08:35,410 --> 00:08:38,890
+it means to square Aselton two factors of that
+
+106
+00:08:38,890 --> 00:08:43,750
+sound multiplied together and see why we have
+
+107
+00:08:44,230 --> 00:08:48,970
+introduced a few lines up the page, this little
+
+108
+00:08:48,970 --> 00:08:50,770
+relation, which
+
+109
+00:08:52,990 --> 00:08:53,590
+is.
+
+110
+00:08:56,300 --> 00:08:56,720
+A.
+
+111
+00:09:00,500 --> 00:09:02,690
+Something that we will take is given just saying
+
+112
+00:09:02,690 --> 00:09:05,720
+that if we multiply together two sets of
+
+113
+00:09:05,720 --> 00:09:10,130
+independent fluctuations around the mean value, we
+
+114
+00:09:10,140 --> 00:09:12,980
+can expect that when the indices on those
+
+115
+00:09:12,980 --> 00:09:15,920
+fluctuations are the same or we just have a single
+
+116
+00:09:15,920 --> 00:09:18,410
+set of fluctuations that squared those
+
+117
+00:09:18,410 --> 00:09:21,440
+fluctuations squared, give us the variance of the
+
+118
+00:09:21,440 --> 00:09:25,460
+distribution from the expectation value. But if
+
+119
+00:09:25,460 --> 00:09:29,380
+those two sets of fluctuations are different, then
+
+120
+00:09:29,390 --> 00:09:32,180
+upon something over all of the outcomes of the
+
+121
+00:09:32,180 --> 00:09:34,850
+definition of expectation value, we're going to
+
+122
+00:09:34,850 --> 00:09:38,900
+get lots of noise fluctuating around. These means
+
+123
+00:09:38,900 --> 00:09:42,950
+that on average, the expectation value is going to
+
+124
+00:09:42,950 --> 00:09:47,390
+cancel out an advantage so we could get zero. In
+
+125
+00:09:47,390 --> 00:09:52,280
+that case, when this I and J are different and
+
+126
+00:09:52,280 --> 00:09:56,360
+that can be wrapped up in this product, Delta and
+
+127
+00:09:56,510 --> 00:10:00,800
+Delta IJA, which is just one one equals zero. And
+
+128
+00:10:00,810 --> 00:10:02,960
+on different. It's something that I expect you've
+
+129
+00:10:03,410 --> 00:10:05,390
+seen before in other models
+
+130
+00:10:08,210 --> 00:10:14,410
+and I have. Written things here in.
+
+131
+00:10:16,590 --> 00:10:19,740
+Such a way that this can be immediately applied.
+
+132
+00:10:26,190 --> 00:10:28,560
+One more step in between, which is just noting
+
+133
+00:10:28,560 --> 00:10:34,200
+that the product of two songs is equal to the
+
+134
+00:10:34,200 --> 00:10:37,350
+combined sum of all of the Independent.
+
+135
+00:10:38,630 --> 00:10:42,980
+Combinations of the two seats up or something easy
+
+136
+00:10:42,980 --> 00:10:47,000
+to see in case of multiplying two by four together
+
+137
+00:10:47,000 --> 00:10:50,390
+and then generalize to arbitrary sums by adduction.
+
+138
+00:10:53,500 --> 00:11:00,050
+And that lets us right. This product has sold over
+
+139
+00:11:00,800 --> 00:11:03,720
+an hour, and that's. Of.
+
+140
+00:11:06,620 --> 00:11:08,270
+The corresponding factors.
+
+141
+00:11:11,480 --> 00:11:13,310
+So we then have the product of the two
+
+142
+00:11:13,310 --> 00:11:18,080
+fluctuations within the expectation value, which.
+
+143
+00:11:19,450 --> 00:11:20,200
+Gives us.
+
+144
+00:11:22,490 --> 00:11:27,280
+The expression written in terms of the variance
+
+145
+00:11:27,290 --> 00:11:28,310
+sigma squared and.
+
+146
+00:11:30,670 --> 00:11:32,900
+And. The.
+
+147
+00:11:35,380 --> 00:11:40,830
+Honaker, Delta, Delta R. S insists that Delta R. S
+
+148
+00:11:40,870 --> 00:11:43,720
+is zero whenever R is different from S and one
+
+149
+00:11:44,230 --> 00:11:45,730
+equals s.
+
+150
+00:11:47,960 --> 00:11:51,680
+We can rewrite that some of our this as just the
+
+151
+00:11:51,700 --> 00:11:58,810
+sum over. The set where our equals dolto are,
+
+152
+00:11:58,860 --> 00:12:04,860
+which is one if you some have won our times, is a
+
+153
+00:12:04,860 --> 00:12:08,910
+factor of our enumerator canceling out one of the
+
+154
+00:12:08,910 --> 00:12:14,120
+two factors of our and the denominator and that
+
+155
+00:12:14,130 --> 00:12:19,260
+stayed on the screen reasonably well. So what does
+
+156
+00:12:19,440 --> 00:12:25,350
+this mean? That the fluctuations of the arithmetic
+
+157
+00:12:25,350 --> 00:12:31,260
+mean around the Trumaine are the variance, which
+
+158
+00:12:31,260 --> 00:12:33,720
+is a constant property of the probability
+
+159
+00:12:33,720 --> 00:12:37,630
+distribution divided by the number of repetitions.
+
+160
+00:12:38,100 --> 00:12:42,800
+So as long as that variance is finite. In the
+
+161
+00:12:42,800 --> 00:12:47,540
+limit of an infinite number of repetitions, this.
+
+162
+00:12:50,510 --> 00:12:55,520
+Complicated expectation value is going to zero as
+
+163
+00:12:55,520 --> 00:12:57,920
+our. Goes to infinity.
+
+164
+00:13:00,300 --> 00:13:05,290
+And from this. Because we chose with some
+
+165
+00:13:05,650 --> 00:13:09,070
+forethought to square the fluctuations in the
+
+166
+00:13:09,070 --> 00:13:12,930
+expectation value that we consider, we know that
+
+167
+00:13:13,290 --> 00:13:15,760
+the definition of the expectation value is the sum
+
+168
+00:13:16,150 --> 00:13:21,010
+of all the terms being considered weighted by
+
+169
+00:13:21,280 --> 00:13:25,870
+their probabilities in the distribution. With the
+
+170
+00:13:25,960 --> 00:13:28,570
+square, all of those terms are now negative, so
+
+171
+00:13:28,570 --> 00:13:32,260
+there are no cancellations. So if that sum of non
+
+172
+00:13:32,260 --> 00:13:35,170
+negative terms equals zero, that can only happen
+
+173
+00:13:35,170 --> 00:13:39,700
+if each individual term in the sum is itself zero,
+
+174
+00:13:40,780 --> 00:13:46,270
+which is the statement of the law that as we take
+
+175
+00:13:46,780 --> 00:13:50,290
+the limit of all of them to infinity, everything
+
+176
+00:13:50,290 --> 00:13:54,160
+in those parentheses which fell off the screen.
+
+177
+00:13:55,770 --> 00:13:59,010
+That's the argument of those parentheses at zero,
+
+178
+00:13:59,580 --> 00:14:01,290
+which I can rearrange just to say that the
+
+179
+00:14:01,290 --> 00:14:05,550
+arithmetic mean is equal to the true meaning with
+
+180
+00:14:05,550 --> 00:14:08,490
+a sufficient number of repetitions. Again,
+
+181
+00:14:08,490 --> 00:14:12,270
+assuming that the variance is finite of the meat
+
+182
+00:14:12,270 --> 00:14:15,060
+itself exists to be defined.
+
+183
+00:14:17,420 --> 00:14:25,070
+And now. So part of the programming exercise is to
+
+184
+00:14:25,790 --> 00:14:29,510
+verify this numerically and also see the approach
+
+185
+00:14:29,900 --> 00:14:34,010
+of the arithmetic mean to the truth. And that is
+
+186
+00:14:35,540 --> 00:14:42,610
+hopefully. A clear arguments going through the.
+
+187
+00:14:46,380 --> 00:14:49,710
+Mathematical calculation about whether questions
+
+188
+00:14:49,710 --> 00:14:54,590
+about the individual steps or the meaning of what
+
+189
+00:14:54,600 --> 00:14:58,560
+we have produced here in this comment box.
+
+190
+00:15:06,520 --> 00:15:11,320
+And not seeing any said the law of large numbers
+
+191
+00:15:11,380 --> 00:15:14,730
+aside arithmetically, is approaching true based
+
+192
+00:15:14,830 --> 00:15:18,850
+upon repetition of experiments and just do a quick
+
+193
+00:15:20,530 --> 00:15:24,550
+generalisation of the probability spaces that
+
+194
+00:15:24,550 --> 00:15:26,860
+we've been considering. You said before. That's
+
+195
+00:15:28,150 --> 00:15:31,360
+what we're talking about. Generally, we talk about
+
+196
+00:15:31,360 --> 00:15:34,450
+discrete sets of outcomes for simplicity. We roll
+
+197
+00:15:34,450 --> 00:15:36,880
+the dice, see what number comes out on top. There
+
+198
+00:15:36,880 --> 00:15:40,090
+are six possibilities. The entire framework
+
+199
+00:15:40,090 --> 00:15:44,140
+generalizes to the case of uncharitably infinite
+
+200
+00:15:44,440 --> 00:15:48,370
+conspiracies, things like picking any number on
+
+201
+00:15:48,700 --> 00:15:55,440
+the line of real numbers. The one where. The
+
+202
+00:15:56,250 --> 00:15:59,940
+number of possible outcomes is continuous, and if
+
+203
+00:15:59,940 --> 00:16:04,650
+there are uncountable infinite number of possible
+
+204
+00:16:04,650 --> 00:16:08,550
+outcomes, and in order to relate those outcomes
+
+205
+00:16:08,550 --> 00:16:12,240
+and the corresponding sets of the matter events to
+
+206
+00:16:12,630 --> 00:16:17,070
+probabilities, we have to be a bit more clever
+
+207
+00:16:17,070 --> 00:16:19,830
+than just taking the individual outcomes,
+
+208
+00:16:19,830 --> 00:16:22,470
+enumerating them and assigning the probabilities
+
+209
+00:16:22,980 --> 00:16:25,410
+without accountability. We have to consider
+
+210
+00:16:25,410 --> 00:16:31,860
+instead the distribution of probabilities as a
+
+211
+00:16:31,860 --> 00:16:36,060
+function of the continuous variables that we have.
+
+212
+00:16:36,060 --> 00:16:39,690
+In this case, just considering a single real
+
+213
+00:16:39,690 --> 00:16:44,640
+variable for simplicity generalizes to any finite
+
+214
+00:16:44,640 --> 00:16:49,320
+number of variables. You get this multidimensional
+
+215
+00:16:49,320 --> 00:16:53,610
+integrals square. The way that we connect these
+
+216
+00:16:53,610 --> 00:16:57,900
+probability distributions to actual probabilities
+
+217
+00:16:58,560 --> 00:17:02,820
+is by associating the probability with some
+
+218
+00:17:02,820 --> 00:17:07,310
+non-zero interval around the region of interest.
+
+219
+00:17:09,910 --> 00:17:14,670
+In. In that variable cheer, X is a real number,
+
+220
+00:17:15,190 --> 00:17:19,990
+and that probability is computed as the integral
+
+221
+00:17:20,890 --> 00:17:27,720
+of the distribution over that interval. And so
+
+222
+00:17:27,930 --> 00:17:30,440
+there's this just completely analogous
+
+223
+00:17:30,810 --> 00:17:35,150
+generalisation of the expectation value back in
+
+224
+00:17:35,150 --> 00:17:40,810
+the case of. Finite items that we remember that
+
+225
+00:17:40,810 --> 00:17:46,370
+the expectation value was given by the sum of all
+
+226
+00:17:46,390 --> 00:17:54,970
+X in that space of F of X, that means if F times
+
+227
+00:17:54,970 --> 00:17:59,410
+the probability of X here is that that probability
+
+228
+00:17:59,650 --> 00:18:03,050
+we have. The integral over the probability
+
+229
+00:18:03,050 --> 00:18:08,450
+distribution where whenever I ovid's to the upper
+
+230
+00:18:08,450 --> 00:18:11,450
+and lower limits from the political on, just
+
+231
+00:18:11,450 --> 00:18:15,470
+assume it's over the full range of possible values
+
+232
+00:18:15,470 --> 00:18:21,220
+for. For that independent variable X in this case
+
+233
+00:18:21,220 --> 00:18:29,170
+here, the entire domain and as an example, the one
+
+234
+00:18:29,170 --> 00:18:32,170
+of the requirements on probabilities is that when
+
+235
+00:18:32,180 --> 00:18:37,570
+going over all X started to go off the screen of
+
+236
+00:18:37,570 --> 00:18:40,260
+it, they're going over all X, and that outcome
+
+237
+00:18:40,270 --> 00:18:44,650
+sets the probability itself has to add up to one
+
+238
+00:18:44,650 --> 00:18:47,440
+hundred percent, which now becomes an integral
+
+239
+00:18:47,440 --> 00:18:51,350
+equation. The integral of the probability
+
+240
+00:18:51,350 --> 00:18:57,290
+distribution over the full domain is one. So if we
+
+241
+00:18:58,790 --> 00:19:04,190
+specify specialized to particular functions, F of
+
+242
+00:19:04,190 --> 00:19:08,540
+X being powers of X, then it's straightforward to
+
+243
+00:19:08,540 --> 00:19:13,040
+get back the mean of the distribution, the
+
+244
+00:19:13,040 --> 00:19:16,520
+expectation value of X, just the integral of X
+
+245
+00:19:16,910 --> 00:19:21,860
+times X. And then the variance, as we do here, is
+
+246
+00:19:22,370 --> 00:19:26,960
+still the difference between the expectation value
+
+247
+00:19:27,350 --> 00:19:30,030
+of X squared minus the square of the mean
+
+248
+00:19:30,410 --> 00:19:34,070
+expectation value of X new square.
+
+249
+00:19:36,740 --> 00:19:40,340
+Within X Square is that same integral over the
+
+250
+00:19:40,340 --> 00:19:44,780
+probabilities weighted by X squared.
+
+251
+00:19:48,410 --> 00:19:52,160
+And that's the briefing aside on that
+
+252
+00:19:52,160 --> 00:19:56,920
+generalization, which becomes relevant when. And
+
+253
+00:19:56,940 --> 00:20:01,220
+start looking at the central limit theorem. So
+
+254
+00:20:01,220 --> 00:20:04,850
+assuming that everything about this is clear, feel
+
+255
+00:20:04,850 --> 00:20:07,490
+free to shout out if it is not,
+
+256
+00:20:09,810 --> 00:20:14,750
+you can apply it to that central limit theorem,
+
+257
+00:20:14,900 --> 00:20:20,000
+which is is so called because it is central to
+
+258
+00:20:20,120 --> 00:20:22,670
+probability, not because there are two things.
+
+259
+00:20:23,090 --> 00:20:24,860
+Anything to do with centers of distribution,
+
+260
+00:20:24,890 --> 00:20:26,990
+anything like that is to say limit theorem that is
+
+261
+00:20:27,320 --> 00:20:33,020
+of central importance and it shows up in many
+
+262
+00:20:33,020 --> 00:20:35,340
+different forms for many different situations.
+
+263
+00:20:35,780 --> 00:20:38,990
+What we'll do is just define a particular formula
+
+264
+00:20:38,990 --> 00:20:42,770
+central with your statement that is going to be of
+
+265
+00:20:42,770 --> 00:20:44,330
+interest to us, which.
+
+266
+00:20:47,420 --> 00:20:52,340
+Starts by considering this random variable X for
+
+267
+00:20:52,340 --> 00:20:54,920
+the sum of all of the.
+
+268
+00:21:00,810 --> 00:21:04,280
+In some number of independent random variables, so
+
+269
+00:21:04,290 --> 00:21:08,100
+this is. Inspired by what we were talking about,
+
+270
+00:21:08,140 --> 00:21:10,480
+the last large numbers, repeating some experiments,
+
+271
+00:21:10,480 --> 00:21:14,230
+some number of times, each of those repetitions
+
+272
+00:21:14,590 --> 00:21:20,650
+can define a outcome X, which is an independent
+
+273
+00:21:20,650 --> 00:21:24,220
+random variable with the same meaning and variance
+
+274
+00:21:24,810 --> 00:21:29,230
+that, again, we assume are finite. So a number of
+
+275
+00:21:29,920 --> 00:21:34,450
+identical random variables that we sum in order to
+
+276
+00:21:34,450 --> 00:21:40,360
+define this as a result. So the S itself is also a
+
+277
+00:21:40,360 --> 00:21:45,730
+random variable associated to the end repetitions
+
+278
+00:21:46,090 --> 00:21:51,090
+of the underlying process. The experiment just the
+
+279
+00:21:51,100 --> 00:21:55,850
+way. We talked about earlier and then we just
+
+280
+00:21:55,850 --> 00:22:01,100
+state that the. The probability distribution for
+
+281
+00:22:01,220 --> 00:22:06,020
+this test we can treat as a continuous parameter
+
+282
+00:22:06,020 --> 00:22:09,410
+and the limits of a large number of repetitions is
+
+283
+00:22:09,470 --> 00:22:12,140
+given by a Gaussian distribution,
+
+284
+00:22:14,210 --> 00:22:19,160
+which is to say it is exponentially weighted
+
+285
+00:22:19,160 --> 00:22:25,790
+around and times the meaning of each individual
+
+286
+00:22:25,940 --> 00:22:32,770
+random variable X. So I mean you. Normalized by
+
+287
+00:22:32,780 --> 00:22:38,900
+end times, various. Of that individual random
+
+288
+00:22:38,900 --> 00:22:42,930
+variable. With this overall factor out, front is
+
+289
+00:22:42,930 --> 00:22:47,580
+required to ensure the usual condition that's
+
+290
+00:22:49,530 --> 00:22:53,580
+integrating over over the sole domain of real
+
+291
+00:22:53,580 --> 00:22:57,240
+numbers for X adds up to one hundred percent.
+
+292
+00:22:59,600 --> 00:23:00,200
+So.
+
+293
+00:23:03,760 --> 00:23:07,560
+Again, there's no mathematical statements of one
+
+294
+00:23:07,600 --> 00:23:13,210
+equation. Are we still sitting here? Two, the
+
+295
+00:23:14,080 --> 00:23:16,690
+probability distribution. And then there's also
+
+296
+00:23:16,690 --> 00:23:19,000
+the question of what does that mathematical
+
+297
+00:23:19,000 --> 00:23:23,770
+equation mean and why does it matter? And.
+
+298
+00:23:26,450 --> 00:23:27,560
+Essentially, there are.
+
+299
+00:23:31,940 --> 00:23:36,770
+Two important implications coming out of this,
+
+300
+00:23:37,600 --> 00:23:39,350
+this mathematical statement, the first of which
+
+301
+00:23:39,350 --> 00:23:45,500
+being that when we consider this large number of
+
+302
+00:23:45,500 --> 00:23:49,820
+repetitions, which shortly we will identify with
+
+303
+00:23:49,820 --> 00:23:53,330
+that large number of particles that we have said
+
+304
+00:23:53,400 --> 00:23:56,960
+thermodynamic systems, the overall collective
+
+305
+00:23:56,960 --> 00:24:00,290
+behavior of all these particles is the smooth
+
+306
+00:24:00,290 --> 00:24:05,540
+function. That's just the normal distribution that
+
+307
+00:24:05,540 --> 00:24:10,250
+can be defined without reference to any individual
+
+308
+00:24:10,250 --> 00:24:13,370
+properties of those individual particles, apart
+
+309
+00:24:13,370 --> 00:24:17,690
+from the mean and variance expectation values
+
+310
+00:24:19,100 --> 00:24:21,560
+governing the probability distribution as a whole.
+
+311
+00:24:23,000 --> 00:24:27,070
+And maybe even more remarkable is that. That
+
+312
+00:24:27,160 --> 00:24:28,870
+collective behavior, in addition to being
+
+313
+00:24:28,870 --> 00:24:32,530
+independent of the details of what each individual
+
+314
+00:24:32,530 --> 00:24:36,280
+particle is doing at this point in time still only
+
+315
+00:24:36,280 --> 00:24:41,800
+depends on the details of those individual
+
+316
+00:24:41,800 --> 00:24:45,460
+particles in the form of the mean and standard
+
+317
+00:24:45,460 --> 00:24:49,360
+deviation for the individual random variable.
+
+318
+00:24:53,290 --> 00:24:58,960
+Without. And worried about. How they might be
+
+319
+00:24:59,080 --> 00:25:02,850
+interacting or interfering with each other.
+
+320
+00:25:05,490 --> 00:25:11,580
+And back earlier in the week, the. Talked about
+
+321
+00:25:11,580 --> 00:25:17,370
+Roulet as a somewhat less trivial example of a
+
+322
+00:25:17,400 --> 00:25:20,250
+probabilistic system compared to flipping a coin
+
+323
+00:25:20,250 --> 00:25:23,190
+to roll the dice. And we can use that same
+
+324
+00:25:23,610 --> 00:25:30,910
+Goulette example. To see in practice that. The
+
+325
+00:25:30,950 --> 00:25:33,950
+large and the large number of repetitions in which
+
+326
+00:25:33,950 --> 00:25:37,440
+the central limit theorem is fairly well defined
+
+327
+00:25:37,460 --> 00:25:40,850
+doesn't necessarily need to be so large in
+
+328
+00:25:40,850 --> 00:25:44,420
+practice. We you're talking about 10, 20, 30
+
+329
+00:25:45,110 --> 00:25:48,290
+molecules in the statistical systems, but the
+
+330
+00:25:48,290 --> 00:25:50,600
+central limit theorem itself can become
+
+331
+00:25:54,710 --> 00:25:59,660
+remarkably accurate even when that number is much
+
+332
+00:25:59,660 --> 00:26:06,040
+smaller. Order a few, order 10, some, just as a
+
+333
+00:26:06,700 --> 00:26:14,200
+quick reminder of that left, we all we have thirty
+
+334
+00:26:14,200 --> 00:26:19,750
+seven pockets, 18 red, 18 black or green, each of
+
+335
+00:26:19,750 --> 00:26:22,180
+which has the corresponding number that determines
+
+336
+00:26:22,540 --> 00:26:28,740
+what color is. And a game that we can play with
+
+337
+00:26:29,170 --> 00:26:34,840
+real is to place a bet on whether or not the the
+
+338
+00:26:35,170 --> 00:26:40,540
+ball that we will end up in a red color pocket or
+
+339
+00:26:40,570 --> 00:26:43,330
+black for pocket after we spin the wheel of the
+
+340
+00:26:43,330 --> 00:26:46,960
+ball around, actually settles into one of those
+
+341
+00:26:46,960 --> 00:26:53,080
+pockets. And if we guess the correct color, we
+
+342
+00:26:53,080 --> 00:26:55,600
+could get back twice the money that we put in.
+
+343
+00:26:55,600 --> 00:27:00,440
+Otherwise, the money goes to the house. And just
+
+344
+00:27:00,460 --> 00:27:04,270
+to please concrete numbers on this, we can say
+
+345
+00:27:04,270 --> 00:27:11,690
+that we five pounds each spin the real. And then
+
+346
+00:27:11,820 --> 00:27:17,190
+we would get back 10 whatever, take out a total of
+
+347
+00:27:17,190 --> 00:27:21,260
+10, whatever deal ends up on the we bet on,
+
+348
+00:27:21,280 --> 00:27:25,380
+otherwise the money is gone. And from that, we can
+
+349
+00:27:27,990 --> 00:27:34,010
+define the gain. As a function of the number of
+
+350
+00:27:34,670 --> 00:27:37,160
+spins of the roulette wheel, that number of times
+
+351
+00:27:37,160 --> 00:27:41,000
+that we do this bets and as a function of the
+
+352
+00:27:41,900 --> 00:27:45,710
+number of those times where we win. So the first
+
+353
+00:27:45,710 --> 00:27:48,500
+thing to write down, just a reminder, what is the
+
+354
+00:27:48,500 --> 00:27:53,960
+probability of winning or losing any single spin
+
+355
+00:27:55,550 --> 00:27:57,080
+and maybe just to.
+
+356
+00:27:59,590 --> 00:28:04,060
+Checking that from the same page, can I ask you to.
+
+357
+00:28:05,740 --> 00:28:09,570
+Tell me what. Those probabilities.
+
+358
+00:28:25,420 --> 00:28:25,680
+But.
+
+359
+00:28:45,330 --> 00:28:48,930
+Glossed over the detail here, in addition to the
+
+360
+00:28:48,930 --> 00:28:53,190
+amount that we built, we are bidding on black. So
+
+361
+00:28:53,940 --> 00:28:58,740
+winning corresponds to a ball ending up in a black
+
+362
+00:28:58,740 --> 00:29:00,740
+pocket after the real.
+
+363
+00:29:03,990 --> 00:29:07,320
+But which there is a well-defined probability.
+
+364
+00:29:08,370 --> 00:29:09,020
+What is it?
+
+365
+00:29:18,760 --> 00:29:19,840
+It is exactly that
+
+366
+00:29:22,030 --> 00:29:25,110
+and we know that the probability of losing is
+
+367
+00:29:25,120 --> 00:29:28,060
+every other outcomes, so not only about ending up
+
+368
+00:29:28,060 --> 00:29:30,850
+the great pockets, but also in that single green
+
+369
+00:29:30,910 --> 00:29:36,030
+pocket. So there are slightly. More likely to lose
+
+370
+00:29:36,030 --> 00:29:38,940
+than to win, which was the case in any.
+
+371
+00:29:41,430 --> 00:29:46,040
+Gambling set up, the house always wins in the end.
+
+372
+00:29:47,290 --> 00:29:52,240
+And for each of these possibilities, we can gain.
+
+373
+00:29:55,320 --> 00:29:58,530
+Some announced that its possibly negative if we
+
+374
+00:29:58,560 --> 00:30:04,470
+lose, the game is being defined to be the net flow
+
+375
+00:30:04,830 --> 00:30:05,700
+of cash.
+
+376
+00:30:08,030 --> 00:30:11,330
+And as we place these bets, so what is the game if
+
+377
+00:30:11,330 --> 00:30:12,500
+we win?
+
+378
+00:31:35,700 --> 00:31:36,230
+Lieutenant.
+
+379
+00:31:40,290 --> 00:31:45,780
+But he was 15, so it's the amount we receive minus
+
+380
+00:31:45,780 --> 00:31:51,150
+the amount we spend. So if we spend five, that's
+
+381
+00:31:51,360 --> 00:31:58,540
+that minus sign. And if we receive twice of five,
+
+382
+00:31:58,660 --> 00:32:05,200
+when we will, we get a 10 and I can see where 15
+
+383
+00:32:05,200 --> 00:32:07,300
+comes out of there by having those two numbers
+
+384
+00:32:09,070 --> 00:32:13,270
+here with the definition, is that minus sign that
+
+385
+00:32:13,540 --> 00:32:19,690
+takes it from ten minus five to plus five. But
+
+386
+00:32:20,800 --> 00:32:25,420
+there's a similar game. That can be defined. The
+
+387
+00:32:25,430 --> 00:32:28,510
+slightly, slightly more probable situation that we
+
+388
+00:32:28,510 --> 00:32:29,020
+lose.
+
+389
+00:32:32,220 --> 00:32:38,650
+What that game would be. You bet on black and the
+
+390
+00:32:38,670 --> 00:32:40,400
+ball ends up in retrograde.
+
+391
+00:32:44,300 --> 00:32:46,100
+Well, that's exactly.
+
+392
+00:32:49,510 --> 00:32:52,750
+We always get that fire back goes out of our
+
+393
+00:32:52,750 --> 00:32:55,030
+pockets, so it's a negative number and then we
+
+394
+00:32:55,030 --> 00:32:55,660
+gain nothing
+
+395
+00:32:57,730 --> 00:33:05,330
+from that. Walk right down the corridor, gain
+
+396
+00:33:05,570 --> 00:33:13,910
+after. Waiting times in hospitals so that in times.
+
+397
+00:33:16,790 --> 00:33:20,260
+To regain the function. Of.
+
+398
+00:33:23,050 --> 00:33:23,680
+W.
+
+399
+00:33:25,920 --> 00:33:28,670
+So. This is the.
+
+400
+00:33:32,870 --> 00:33:40,040
+Winnings from the wins, minus the number of bets
+
+401
+00:33:40,040 --> 00:33:44,150
+that have to go in for each of those and spins. So
+
+402
+00:33:44,190 --> 00:33:49,220
+is be one shot at what? That would be as a
+
+403
+00:33:50,420 --> 00:33:52,610
+equation, mathematical function.
+
+404
+00:34:17,890 --> 00:34:26,750
+To on Tuesday night. Oh, yeah, that is. Exactly
+
+405
+00:34:26,750 --> 00:34:30,050
+what it is, so we've put in that fire for this
+
+406
+00:34:30,050 --> 00:34:33,290
+global scale. That's the two times five is ten.
+
+407
+00:34:33,320 --> 00:34:36,740
+That's the factor of two. Exactly. So the winnings
+
+408
+00:34:36,740 --> 00:34:44,220
+are. Ten pounds for win, which is twice the. Five
+
+409
+00:34:44,220 --> 00:34:48,360
+pounds, and that goes in for each pet.
+
+410
+00:34:51,440 --> 00:34:58,190
+So that is. What we would get out if we were to.
+
+411
+00:34:59,660 --> 00:35:02,270
+When The York Times out of ten spins of this
+
+412
+00:35:02,270 --> 00:35:08,180
+roulette game and the next ingredient to bid is to
+
+413
+00:35:08,180 --> 00:35:11,420
+figure out the probabilities of winning those 30
+
+414
+00:35:11,420 --> 00:35:16,190
+times, for instance. So we have to keep track of
+
+415
+00:35:16,430 --> 00:35:19,910
+the number of different ways we could win the war
+
+416
+00:35:19,980 --> 00:35:23,210
+times and total spins. And because we don't care
+
+417
+00:35:23,420 --> 00:35:26,520
+about the order of those occurrences in which we
+
+418
+00:35:26,520 --> 00:35:29,240
+want, the total number of possibilities is.
+
+419
+00:35:30,340 --> 00:35:34,500
+Exactly, defined by the binomial coefficient. The
+
+420
+00:35:35,370 --> 00:35:39,150
+fraction the number of possible ways of choosing
+
+421
+00:35:39,780 --> 00:35:46,170
+W. events out of the total set of events, so.
+
+422
+00:35:53,040 --> 00:35:57,120
+We give them a wipe down. Yeah, if we set and it
+
+423
+00:35:57,120 --> 00:36:01,730
+was five, something small enough that we can. Go
+
+424
+00:36:01,730 --> 00:36:03,620
+through these calculations, my head without too
+
+425
+00:36:03,620 --> 00:36:10,310
+much. We have six probabilities overall for
+
+426
+00:36:10,940 --> 00:36:17,840
+winning either one of those spins, all five of
+
+427
+00:36:17,840 --> 00:36:20,980
+those spins and all four possibilities in between.
+
+428
+00:36:22,110 --> 00:36:24,510
+And you can.
+
+429
+00:36:27,820 --> 00:36:32,650
+Consider maybe a simple case is the overall
+
+430
+00:36:33,010 --> 00:36:38,590
+probability of losing all five states, so winning
+
+431
+00:36:38,710 --> 00:36:43,030
+zero, that subscript here is the number of wins.
+
+432
+00:36:44,250 --> 00:36:50,430
+And then if you tell me the probability of winning
+
+433
+00:36:50,430 --> 00:36:52,890
+zero spins out of.
+
+434
+00:36:55,070 --> 00:36:57,770
+The total fire that we're doing, so losing every
+
+435
+00:36:57,770 --> 00:36:59,390
+single one in a row.
+
+436
+00:37:15,220 --> 00:37:15,480
+But
+
+437
+00:37:17,770 --> 00:37:20,950
+it is exactly that. So.
+
+438
+00:37:25,550 --> 00:37:29,120
+The probability of losing a single spin you
+
+439
+00:37:29,180 --> 00:37:31,640
+computed up there, you just have to repeat that
+
+440
+00:37:31,730 --> 00:37:34,430
+five times in a row each time with that same
+
+441
+00:37:34,730 --> 00:37:40,110
+probability. And if you go to. Winning a single
+
+442
+00:37:40,110 --> 00:37:43,350
+one of those since then, what we do is we bring in.
+
+443
+00:37:44,410 --> 00:37:51,000
+The probability of winning. One time. And. Losing
+
+444
+00:37:51,600 --> 00:37:56,760
+the other four, but then because there are five
+
+445
+00:37:56,760 --> 00:38:03,030
+spins and we could win. Any one of them. There is
+
+446
+00:38:03,030 --> 00:38:07,230
+a factor of five that comes along to keep track of
+
+447
+00:38:07,440 --> 00:38:10,560
+each of those possibilities, we the first or the
+
+448
+00:38:10,560 --> 00:38:15,830
+third, the fifth and the others. And we can
+
+449
+00:38:17,030 --> 00:38:22,560
+recognize that five and generalize the whole
+
+450
+00:38:22,790 --> 00:38:24,440
+situation at this point to
+
+451
+00:38:26,480 --> 00:38:33,580
+the. For instance, with W. winds, there are inches
+
+452
+00:38:33,580 --> 00:38:40,110
+w possible combinations where. Probability of
+
+453
+00:38:40,830 --> 00:38:45,880
+winning is that 18 over thirty seven. W power.
+
+454
+00:38:48,910 --> 00:38:54,960
+And. The probability of losing its 19 over 37 in
+
+455
+00:38:54,960 --> 00:38:58,950
+all of the other spins and miles from that
+
+456
+00:38:59,100 --> 00:39:03,480
+equation. It's easy that you keep writing down the
+
+457
+00:39:03,480 --> 00:39:07,860
+general pattern. Probability of winning two is
+
+458
+00:39:08,070 --> 00:39:09,450
+five, Tchoupitoulas, 10.
+
+459
+00:39:11,470 --> 00:39:18,030
+18 or 37 square and then another 37 to the power
+
+460
+00:39:18,040 --> 00:39:20,830
+three. You can win.
+
+461
+00:39:23,550 --> 00:39:28,350
+Three, four or five. There are 10 ways of winning
+
+462
+00:39:28,350 --> 00:39:32,040
+three, five ways of winning for a single way of
+
+463
+00:39:32,040 --> 00:39:36,730
+winning five. The military is coming in.
+
+464
+00:39:38,870 --> 00:39:43,290
+Winning. Two, three, four, five.
+
+465
+00:39:46,720 --> 00:39:48,490
+Spins and losing.
+
+466
+00:39:51,690 --> 00:39:56,520
+All of the others in this case is 19 over thirty
+
+467
+00:39:56,520 --> 00:39:59,820
+seven to the power is zero this morning. So that's
+
+468
+00:39:59,820 --> 00:40:04,770
+the exact probabilities and the wind along with
+
+469
+00:40:04,770 --> 00:40:11,560
+the corresponding gains. Of winning these all the
+
+470
+00:40:11,560 --> 00:40:16,050
+possible outcomes of five spins of what we bet on
+
+471
+00:40:16,240 --> 00:40:21,460
+black with five contests that we win, that's the
+
+472
+00:40:21,790 --> 00:40:27,820
+entire setup. And now we can bring that central
+
+473
+00:40:27,820 --> 00:40:33,670
+limit theorem to bear and write down the
+
+474
+00:40:33,670 --> 00:40:43,650
+probability distribution for gaining some kind of
+
+475
+00:40:43,690 --> 00:40:52,330
+some game after those and spins. So just to repeat.
+
+476
+00:40:55,380 --> 00:40:59,520
+The definition of the word would be the same, the
+
+477
+00:40:59,580 --> 00:41:02,460
+probability of the central limit theorem, it gives
+
+478
+00:41:02,460 --> 00:41:07,080
+this probability distribution of one over a square
+
+479
+00:41:07,260 --> 00:41:13,910
+to PI and various times the exponential of
+
+480
+00:41:15,120 --> 00:41:19,230
+fluctuations of the game around in times that mean
+
+481
+00:41:19,590 --> 00:41:26,490
+square normalized by. What is and times the
+
+482
+00:41:26,490 --> 00:41:31,420
+variance and the exponential. So all we need to
+
+483
+00:41:31,630 --> 00:41:39,250
+figure out is the mean and variance for that
+
+484
+00:41:39,340 --> 00:41:43,470
+single round of this experiment we're repeating of
+
+485
+00:41:43,480 --> 00:41:46,240
+betting five pounds of black and skipping the
+
+486
+00:41:46,240 --> 00:41:46,930
+roulette wheel.
+
+487
+00:41:54,830 --> 00:41:57,780
+Mr.. Illustration.
+
+488
+00:42:02,220 --> 00:42:04,830
+You can write down that mean again, but
+
+489
+00:42:04,860 --> 00:42:08,770
+considering all of the possible outcomes of that
+
+490
+00:42:08,790 --> 00:42:12,810
+single spin of the roulette wheel and the
+
+491
+00:42:12,810 --> 00:42:14,310
+corresponding probabilities.
+
+492
+00:42:16,420 --> 00:42:19,750
+Remember that this was X squared her back a
+
+493
+00:42:20,110 --> 00:42:25,890
+discrete outcomes. So we are studying the outcomes
+
+494
+00:42:26,170 --> 00:42:30,730
+and probabilities, which are exactly what we have
+
+495
+00:42:31,270 --> 00:42:34,390
+computed previously. So we have what we need the
+
+496
+00:42:34,810 --> 00:42:37,000
+gain if we win these five,
+
+497
+00:42:39,040 --> 00:42:44,560
+the probability of winning a single spin is 18
+
+498
+00:42:44,560 --> 00:42:48,880
+over twenty seven to gain. If we lose, it's minus
+
+499
+00:42:48,880 --> 00:42:53,460
+five probability of doing so, 19 over thirty seven.
+
+500
+00:42:53,950 --> 00:42:59,290
+And that is better even I can do in my head. It is
+
+501
+00:42:59,500 --> 00:43:02,620
+a mean of minus five of the thirty seven, but I
+
+502
+00:43:02,620 --> 00:43:05,920
+can't do my hands put that into digits just to
+
+503
+00:43:06,940 --> 00:43:10,120
+keep and keep track of what the rough scale is
+
+504
+00:43:10,120 --> 00:43:15,490
+about. Zero point one three five. So as expected
+
+505
+00:43:16,000 --> 00:43:16,330
+the.
+
+506
+00:43:18,330 --> 00:43:22,410
+The main outcome of this game is for us to lose
+
+507
+00:43:22,410 --> 00:43:27,910
+money and then. We can do a similar calculation
+
+508
+00:43:28,450 --> 00:43:34,130
+for. The expectation value with X squared, that
+
+509
+00:43:35,420 --> 00:43:37,070
+feeds into the various.
+
+510
+00:43:41,430 --> 00:43:45,630
+Is anyone willing and able to shout out what this
+
+511
+00:43:45,630 --> 00:43:50,490
+might look like? Even if we repeat the individual
+
+512
+00:43:50,490 --> 00:43:51,310
+steps for the.
+
+513
+00:44:21,170 --> 00:44:25,280
+In the interest of propping up the few remaining
+
+514
+00:44:25,280 --> 00:44:28,790
+minutes, you say that it's the same process of
+
+515
+00:44:28,790 --> 00:44:32,750
+selling over all of the two outcomes in all of
+
+516
+00:44:32,780 --> 00:44:36,200
+that space and here instead of.
+
+517
+00:44:38,330 --> 00:44:42,230
+Reading those the corresponding probabilities by.
+
+518
+00:44:43,890 --> 00:44:49,020
+X. We just by X squared. So five squared is twenty
+
+519
+00:44:49,020 --> 00:44:54,400
+five and minus five squared is also twenty five in
+
+520
+00:44:54,480 --> 00:44:57,620
+particular, plus twenty five is the negative side
+
+521
+00:44:57,630 --> 00:45:04,440
+scan sonar, which we can see eighteen plus
+
+522
+00:45:04,440 --> 00:45:08,670
+nineteen is thirty seven and twenty five. Is that
+
+523
+00:45:08,670 --> 00:45:14,770
+so. So. If I have space left to write down the
+
+524
+00:45:14,770 --> 00:45:19,990
+variance, it is the expectation value of the
+
+525
+00:45:19,990 --> 00:45:23,890
+square. Twenty five minus the square of the
+
+526
+00:45:23,890 --> 00:45:29,750
+expectation value, which is. Five over thirty
+
+527
+00:45:29,750 --> 00:45:33,540
+seven squared, which is quite close to twenty five
+
+528
+00:45:33,560 --> 00:45:37,010
+barbarically, four points.
+
+529
+00:45:39,050 --> 00:45:44,860
+Ninety two, so if we put this into. Probability
+
+530
+00:45:44,860 --> 00:45:48,100
+distribution from the central theorem that comes
+
+531
+00:45:48,100 --> 00:45:52,210
+out to be this one over square root of two times
+
+532
+00:45:52,210 --> 00:45:58,360
+twenty four, forty eight to the one that is forty
+
+533
+00:45:58,360 --> 00:46:02,100
+nine ninety six point and.
+
+534
+00:46:04,690 --> 00:46:15,340
+In the. Exponential of gain minus has me so plus
+
+535
+00:46:15,460 --> 00:46:23,060
+zero point one three five. And squared. With
+
+536
+00:46:23,240 --> 00:46:29,710
+another factor of forty nine, ninety six and and.
+
+537
+00:46:31,800 --> 00:46:37,440
+Basically run out of time for today, and this is
+
+538
+00:46:37,440 --> 00:46:41,940
+something that may actually be useful to wrap up
+
+539
+00:46:42,150 --> 00:46:43,950
+in the Detroit of this afternoon, look at
+
+540
+00:46:43,950 --> 00:46:48,440
+programming is given this kind of.
+
+541
+00:46:52,050 --> 00:46:55,320
+Probability distribution with some fuzzy numbers
+
+542
+00:46:55,320 --> 00:46:58,740
+in there. We have to extract actual probabilities
+
+543
+00:46:58,740 --> 00:47:02,760
+from that. We do that by integrating over
+
+544
+00:47:03,480 --> 00:47:05,190
+appropriate regions. So
+
+545
+00:47:08,310 --> 00:47:11,430
+some small Beltagy around the game you're
+
+546
+00:47:11,430 --> 00:47:13,290
+interested in and.
+
+547
+00:47:15,380 --> 00:47:19,340
+And this numerical integration is exactly the kind
+
+548
+00:47:19,340 --> 00:47:24,950
+of thing that computers were built to do, so we
+
+549
+00:47:24,950 --> 00:47:28,820
+will revisit this along with other aspects of
+
+550
+00:47:28,820 --> 00:47:31,850
+computer programming in a few hours. And we could
+
+551
+00:47:31,850 --> 00:47:35,840
+be just wrap up now by seeing if there are any
+
+552
+00:47:36,410 --> 00:47:38,960
+quick questions about what we've gone through
+
+553
+00:47:39,410 --> 00:47:44,360
+today. The law of large numbers to probability
+
+554
+00:47:44,360 --> 00:47:46,310
+distributions of a central theorem.
+
+555
+00:47:53,010 --> 00:47:58,440
+Saying, I'll let you go and see them all again
+
+556
+00:47:59,070 --> 00:48:00,750
+later this afternoon.
