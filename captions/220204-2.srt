@@ -1,0 +1,2463 @@
+1
+00:00:01,400 --> 00:00:04,070
+I'll start recording and deal with the
+
+2
+00:00:06,710 --> 00:00:11,510
+magic number for attendance monitoring. It's a new
+
+3
+00:00:11,510 --> 00:00:14,620
+one for this afternoon compared to this morning:
+
+4
+00:00:18,710 --> 00:00:18,870
+
+
+5
+00:00:20,870 --> 00:00:21,850
+One two five
+
+6
+00:00:24,310 --> 00:00:24,640
+oh seven nine.
+
+7
+00:00:27,000 --> 00:00:28,890
+I got one report that the number this morning didn't
+
+8
+00:00:28,890 --> 00:00:34,560
+work for someone, I let the folks in
+
+9
+00:00:34,560 --> 00:00:37,980
+charge know that there was a glitch. I suspect
+
+10
+00:00:38,010 --> 00:00:39,840
+the only advice they might have would be to make
+
+11
+00:00:39,840 --> 00:00:43,820
+sure that the app is updated to the latest version,
+
+12
+00:00:43,830 --> 00:00:46,680
+that that's still problematic. And that's what it
+
+13
+00:00:46,680 --> 00:00:49,770
+is at the moment. This is just a pilot this year
+
+14
+00:00:49,770 --> 00:00:52,570
+to work out those sorts of problems going forward.
+
+15
+00:00:54,420 --> 00:00:59,360
+So just to talk about. Programming, the computer,
+
+16
+00:00:59,360 --> 00:01:02,930
+programming, the bits, I'm not going to make the
+
+17
+00:01:02,930 --> 00:01:06,500
+assumption that anyone taking this module has done
+
+18
+00:01:06,500 --> 00:01:09,670
+any computer programming in the past. So if you
+
+19
+00:01:09,680 --> 00:01:11,330
+have maybe a bit.
+
+20
+00:01:14,370 --> 00:01:17,770
+A basic reminder today. To.
+
+21
+00:01:19,810 --> 00:01:22,450
+And keep your face covering out of the mike.
+
+22
+00:01:24,840 --> 00:01:29,430
+This first part of the computer project is going
+
+23
+00:01:29,430 --> 00:01:34,760
+to. Apply computing to carry out some of the
+
+24
+00:01:35,000 --> 00:01:37,010
+repeated experiments we've been discussing in
+
+25
+00:01:37,010 --> 00:01:41,960
+lectures, so this case and generating random
+
+26
+00:01:41,960 --> 00:01:44,450
+numbers or putting that in the context of random
+
+27
+00:01:44,450 --> 00:01:46,910
+walks that we didn't quite get to this morning
+
+28
+00:01:46,910 --> 00:01:50,720
+will come up on Monday instead. And the idea is
+
+29
+00:01:51,350 --> 00:01:52,370
+that we want to.
+
+30
+00:01:55,440 --> 00:01:58,860
+Simulate or carried out with a computer. Random
+
+31
+00:01:59,280 --> 00:02:02,310
+experiments that. We can then analyze
+
+32
+00:02:02,310 --> 00:02:05,760
+statistically, and this gives us the ability to
+
+33
+00:02:06,150 --> 00:02:08,160
+fairly quickly and easily generate hundreds of
+
+34
+00:02:08,160 --> 00:02:11,760
+thousands or millions of experiments and see how
+
+35
+00:02:11,760 --> 00:02:14,220
+the statistical properties behave and how that can
+
+36
+00:02:14,220 --> 00:02:20,160
+be mapped onto physical systems of interest and.
+
+37
+00:02:23,630 --> 00:02:28,880
+The to sort of build up to that, there are three
+
+38
+00:02:28,880 --> 00:02:32,060
+parts to the exercise. The first to go through
+
+39
+00:02:32,690 --> 00:02:38,360
+some of the computing tools, use and apply it to
+
+40
+00:02:38,360 --> 00:02:41,450
+that random walk situation will be our next topic
+
+41
+00:02:41,780 --> 00:02:47,980
+in life on Monday in the first. Step two, that is
+
+42
+00:02:49,090 --> 00:02:53,530
+figuring out how to deal with random numbers in a
+
+43
+00:02:53,530 --> 00:02:57,600
+computer, given that computers are not random,
+
+44
+00:02:57,610 --> 00:03:02,230
+they do what you tell them to and any sequence of
+
+45
+00:03:02,380 --> 00:03:04,180
+numbers that they produce is going to be
+
+46
+00:03:04,600 --> 00:03:08,410
+completely deterministic and reproducible given
+
+47
+00:03:08,410 --> 00:03:14,990
+the same conditions. So. The best that of these
+
+48
+00:03:15,620 --> 00:03:17,990
+computers available is the classical physics as
+
+49
+00:03:17,990 --> 00:03:21,050
+opposed to quantum physics can do is what is
+
+50
+00:03:21,050 --> 00:03:22,760
+called pseudo random numbers.
+
+51
+00:03:25,450 --> 00:03:29,860
+Which is what is typically used and what it means
+
+52
+00:03:29,860 --> 00:03:34,300
+is that. It's a program or an algorithm that.
+
+53
+00:03:35,440 --> 00:03:38,170
+Needs the computer to generate a sequence of
+
+54
+00:03:38,170 --> 00:03:43,550
+numbers that are. That half the property so
+
+55
+00:03:43,790 --> 00:03:47,180
+loosely speaking, that if you know the first and
+
+56
+00:03:47,180 --> 00:03:50,990
+minus one numbers in the sequence, there is not
+
+57
+00:03:50,990 --> 00:03:53,330
+enough information in there to be able to predict
+
+58
+00:03:53,330 --> 00:03:57,530
+the next number and number with any high degree of
+
+59
+00:03:57,770 --> 00:03:59,720
+confidence or probability of success.
+
+60
+00:04:01,800 --> 00:04:04,860
+So that is to say that the sequence looks random,
+
+61
+00:04:04,860 --> 00:04:09,420
+even though it's physically can't be because it
+
+62
+00:04:09,470 --> 00:04:13,610
+will go beneath the surface of a computer program.
+
+63
+00:04:14,360 --> 00:04:18,630
+All of these numbers are being encoded into a
+
+64
+00:04:18,730 --> 00:04:24,400
+couple of bits of the binary representation of. Of
+
+65
+00:04:24,400 --> 00:04:30,550
+numbers or data at each bejamin, a collection of
+
+66
+00:04:30,940 --> 00:04:34,390
+information picks a value either zero or one of
+
+67
+00:04:34,390 --> 00:04:37,760
+two possibilities. Stringing together a lot of
+
+68
+00:04:37,760 --> 00:04:42,230
+bits you can describe to to the inpower pieces of
+
+69
+00:04:42,230 --> 00:04:47,810
+information, so. The traditional standard single
+
+70
+00:04:47,810 --> 00:04:52,940
+point decision for computers has thirty two bits
+
+71
+00:04:52,940 --> 00:04:57,030
+to say, an integer value that can represent all
+
+72
+00:04:57,090 --> 00:05:02,600
+the non-negative integers from zero up until a
+
+73
+00:05:03,500 --> 00:05:05,780
+number that is famous enough to have its own
+
+74
+00:05:05,930 --> 00:05:09,680
+Wikipedia page, its links from the PDF of this
+
+75
+00:05:09,680 --> 00:05:12,920
+demo. It's about four point two billion, I think
+
+76
+00:05:13,560 --> 00:05:18,140
+two to the tower. Thirty two minus one. So given
+
+77
+00:05:18,140 --> 00:05:21,650
+that this is the simple case, just considering
+
+78
+00:05:21,650 --> 00:05:24,800
+none of the stories that are going to be generated,
+
+79
+00:05:24,880 --> 00:05:29,960
+the sequence of integers after those four billion
+
+80
+00:05:29,960 --> 00:05:34,400
+in some numbers in that sequence, every number
+
+81
+00:05:34,610 --> 00:05:36,980
+that was accessible to that computer would have
+
+82
+00:05:36,980 --> 00:05:39,590
+been sampled and you would have to go back and
+
+83
+00:05:39,590 --> 00:05:42,110
+start sampling them again.
+
+84
+00:05:46,410 --> 00:05:49,410
+By being a bit clever about the switching up the
+
+85
+00:05:49,410 --> 00:05:51,960
+order in which things are simple, you can.
+
+86
+00:05:53,740 --> 00:05:58,900
+Extended, we are not extending number of numbers,
+
+87
+00:05:59,450 --> 00:06:01,300
+extend the length of the sequence that is
+
+88
+00:06:01,300 --> 00:06:03,760
+available before it starts to repeat itself.
+
+89
+00:06:03,790 --> 00:06:08,920
+Exactly. But you can't take the limit of an
+
+90
+00:06:08,920 --> 00:06:11,830
+infinite sequence. Eventually, that sort of
+
+91
+00:06:11,830 --> 00:06:15,430
+repetition will happen, at which point you will
+
+92
+00:06:15,430 --> 00:06:18,610
+know the next number of the sequence based on the
+
+93
+00:06:18,610 --> 00:06:24,720
+repetition that can be for. And the. The standard
+
+94
+00:06:24,720 --> 00:06:27,630
+algorithm that is used by default in Python, for
+
+95
+00:06:27,630 --> 00:06:30,360
+instance, is called the wrist twister, which
+
+96
+00:06:30,810 --> 00:06:34,710
+twists itself these two to the thirty two or even
+
+97
+00:06:34,710 --> 00:06:38,400
+two of the sixty four minus one possible numerical
+
+98
+00:06:38,400 --> 00:06:42,030
+values in order to come up with a sequence of
+
+99
+00:06:42,030 --> 00:06:46,530
+numbers that doesn't start repeating itself until
+
+100
+00:06:46,530 --> 00:06:50,220
+there are about ten to the power. Six thousand
+
+101
+00:06:50,550 --> 00:06:55,890
+numbers in that sequence, which is quite a few, if
+
+102
+00:06:55,890 --> 00:07:00,600
+you were able to generate with this algorithm, say,
+
+103
+00:07:01,290 --> 00:07:05,310
+a billion numbers every second gigahertz sampling
+
+104
+00:07:05,310 --> 00:07:08,970
+rate and it would take ten to the power of five
+
+105
+00:07:08,970 --> 00:07:13,560
+thousand nine hundred ninety one seconds to see
+
+106
+00:07:13,650 --> 00:07:15,900
+this repetition of a single sequence which is
+
+107
+00:07:16,320 --> 00:07:18,720
+vastly longer than the age of the universe. So the
+
+108
+00:07:18,720 --> 00:07:23,130
+practice this is a sequence of numbers that looks
+
+109
+00:07:23,130 --> 00:07:28,090
+random. And can be treated as essentially random
+
+110
+00:07:28,570 --> 00:07:31,240
+in this computer project board and the scientific
+
+111
+00:07:31,240 --> 00:07:32,770
+research more generally.
+
+112
+00:07:34,890 --> 00:07:35,340
+And.
+
+113
+00:07:37,540 --> 00:07:38,830
+Let's see what.
+
+114
+00:07:43,050 --> 00:07:47,250
+Yes, I go through. A couple more pieces of
+
+115
+00:07:47,250 --> 00:07:51,420
+information before hopping over to looking at some
+
+116
+00:07:51,420 --> 00:07:54,090
+actual accountability to talk about what is doing
+
+117
+00:07:54,460 --> 00:07:57,450
+and why, one of those being that.
+
+118
+00:08:00,430 --> 00:08:04,860
+Given this. Random pseudo random number generator,
+
+119
+00:08:05,040 --> 00:08:13,410
+p orangy. The typical. The. Function that is
+
+120
+00:08:13,410 --> 00:08:16,020
+provided by any given programming language,
+
+121
+00:08:16,040 --> 00:08:19,910
+whether that's Python or had received Fortran Java,
+
+122
+00:08:20,520 --> 00:08:24,660
+Russ, the Obama is going to provide random numbers
+
+123
+00:08:24,660 --> 00:08:27,750
+drawn from a simple distribution called the
+
+124
+00:08:27,750 --> 00:08:33,740
+uniform. Probability distribution, which. Has this
+
+125
+00:08:33,860 --> 00:08:36,560
+property defined here that.
+
+126
+00:08:38,770 --> 00:08:43,300
+The probability for a random number usually
+
+127
+00:08:43,300 --> 00:08:48,430
+generated between zero and one is constant between
+
+128
+00:08:48,460 --> 00:08:51,340
+zero and one. So there is equal probability of
+
+129
+00:08:51,340 --> 00:08:54,460
+getting any real number that can be resolved by
+
+130
+00:08:55,330 --> 00:08:59,140
+computer precision in that interval and the
+
+131
+00:08:59,140 --> 00:09:03,670
+probability is zero for all other real numbers. So
+
+132
+00:09:04,330 --> 00:09:10,730
+it's a kind of critical intervention to plot the X
+
+133
+00:09:13,660 --> 00:09:14,900
+uniform distribution.
+
+134
+00:09:18,820 --> 00:09:26,350
+So zero to one where specific magnitude of that
+
+135
+00:09:27,210 --> 00:09:31,840
+one is just set so that the integral over so
+
+136
+00:09:31,840 --> 00:09:34,930
+probability is one hundred percent that's required
+
+137
+00:09:34,930 --> 00:09:41,200
+for probability distribution. And so this is the
+
+138
+00:09:41,200 --> 00:09:43,750
+simplest thing to do, but it's also a bit more if
+
+139
+00:09:43,770 --> 00:09:47,370
+you're just grabbing. Ran evenly, distributed
+
+140
+00:09:47,370 --> 00:09:50,280
+random numbers from zero to one. And the question
+
+141
+00:09:50,280 --> 00:09:53,580
+is, what can you do with those particular if you
+
+142
+00:09:53,580 --> 00:09:58,050
+want to sample some less trivial or more
+
+143
+00:09:58,050 --> 00:10:02,280
+complicated probability distribution? So the
+
+144
+00:10:02,580 --> 00:10:06,910
+method. Get to explore this project in the Devil,
+
+145
+00:10:06,970 --> 00:10:10,340
+for that matter, is known as Inversed Transfer
+
+146
+00:10:10,340 --> 00:10:17,210
+Upsampling. And this is the. Picture that the
+
+147
+00:10:17,540 --> 00:10:20,930
+skull is what it is doing. That's come up with
+
+148
+00:10:21,380 --> 00:10:24,810
+some verbal transformation effort, that's
+
+149
+00:10:25,590 --> 00:10:32,090
+Rhapsody's real numbers, which presumably to some
+
+150
+00:10:32,090 --> 00:10:36,560
+other range with some of the more interesting,
+
+151
+00:10:36,560 --> 00:10:39,580
+essentially by default probability distribution.
+
+152
+00:10:42,030 --> 00:10:48,750
+And then. In order to. Preserve the property that
+
+153
+00:10:48,750 --> 00:10:51,900
+the probabilities continue to add up to 100
+
+154
+00:10:51,900 --> 00:10:57,980
+percent. There's a relation between the. Interval
+
+155
+00:10:57,980 --> 00:11:02,310
+of the Transformed. X's and the probability
+
+156
+00:11:02,310 --> 00:11:05,130
+distribution that they follow, which can be
+
+157
+00:11:05,130 --> 00:11:09,960
+manipulated to solve for their distribution in
+
+158
+00:11:09,960 --> 00:11:12,990
+terms of the inverse function of that
+
+159
+00:11:12,990 --> 00:11:18,030
+transformation from the uniform numbers between
+
+160
+00:11:18,030 --> 00:11:26,320
+zero one two year olds, X, which is. The origin of
+
+161
+00:11:26,320 --> 00:11:30,430
+that name in verse transform sampling distribution
+
+162
+00:11:30,940 --> 00:11:35,620
+defined by the inverse of the transformation that
+
+163
+00:11:35,620 --> 00:11:39,290
+takes the numbers from. The uniform distribution
+
+164
+00:11:39,290 --> 00:11:42,860
+provided by the computer to something more
+
+165
+00:11:42,860 --> 00:11:46,820
+interesting to work with. Oh.
+
+166
+00:11:52,970 --> 00:11:57,200
+That, I think is. Plenty for me to just sort of
+
+167
+00:11:57,200 --> 00:12:01,010
+throw out there and see if there are any immediate
+
+168
+00:12:01,010 --> 00:12:04,800
+questions about. I think the details or the
+
+169
+00:12:04,800 --> 00:12:07,460
+purpose of any of that and.
+
+170
+00:12:11,690 --> 00:12:12,230
+If not,
+
+171
+00:12:14,870 --> 00:12:20,160
+I'll see if I can hop over to. The.
+
+172
+00:12:22,340 --> 00:12:25,260
+Programming. Demo from.
+
+173
+00:12:27,260 --> 00:12:29,060
+It's linked to the Akinmusire.
+
+174
+00:12:32,970 --> 00:12:37,920
+Which provides a place to check out some of these.
+
+175
+00:12:39,070 --> 00:12:42,910
+Ideas and play with them yourself in practice. See
+
+176
+00:12:42,910 --> 00:12:46,750
+how they are they can be implemented in Python. So
+
+177
+00:12:48,010 --> 00:12:54,990
+this is a. What's called a python notebook, so a
+
+178
+00:12:54,990 --> 00:13:00,360
+way to collect some explanations and Python code
+
+179
+00:13:00,360 --> 00:13:04,020
+to be run and looked at together, since I'm not
+
+180
+00:13:04,470 --> 00:13:08,150
+signed into Google on this particular computer,
+
+181
+00:13:08,790 --> 00:13:14,670
+while I am able to edit all of the code in here. I
+
+182
+00:13:14,670 --> 00:13:20,100
+won't be able to save those edits. You can see
+
+183
+00:13:20,170 --> 00:13:23,520
+changes, which is should also be the case for any
+
+184
+00:13:23,520 --> 00:13:26,310
+of you, if you do have a Google account, you can
+
+185
+00:13:26,310 --> 00:13:28,980
+go into this and save your own copy of this
+
+186
+00:13:28,980 --> 00:13:31,740
+notebook, play around with it, see how it works.
+
+187
+00:13:31,750 --> 00:13:35,760
+See if you can make a break or make it run any
+
+188
+00:13:36,630 --> 00:13:39,060
+more efficiently than I have set up.
+
+189
+00:13:41,130 --> 00:13:41,700
+And.
+
+190
+00:13:45,300 --> 00:13:46,850
+Just to comment a bit on.
+
+191
+00:13:49,000 --> 00:13:52,810
+Why we're looking at iPhone in the first place,
+
+192
+00:13:52,810 --> 00:13:56,260
+out of the probably hundreds of programming
+
+193
+00:13:56,260 --> 00:13:59,280
+languages that are floating around in the ether,
+
+194
+00:13:59,290 --> 00:14:02,860
+it's one that is very widespread and
+
+195
+00:14:05,290 --> 00:14:09,700
+pretty functional and especially is easy to use if
+
+196
+00:14:09,700 --> 00:14:12,070
+you aren't already familiar with it. It's designed
+
+197
+00:14:12,070 --> 00:14:17,800
+to look kind of like everyday speech almost.
+
+198
+00:14:19,900 --> 00:14:23,410
+It's a way of translating what we want the
+
+199
+00:14:23,410 --> 00:14:26,110
+computer to do into a language and the computer
+
+200
+00:14:26,110 --> 00:14:28,960
+will understand. And there are because it is
+
+201
+00:14:28,960 --> 00:14:31,720
+widespread, there's lots of tutorials and
+
+202
+00:14:31,720 --> 00:14:37,000
+information out there. So a search can often
+
+203
+00:14:37,900 --> 00:14:41,320
+resolve any questions that that may come up. It's
+
+204
+00:14:41,320 --> 00:14:44,290
+also something that you can run various places
+
+205
+00:14:44,290 --> 00:14:49,150
+online, including the Google Collaboratory, as
+
+206
+00:14:49,210 --> 00:14:54,960
+they call it. If you. Don't want to have trouble
+
+207
+00:14:55,740 --> 00:15:00,600
+getting Python set up on a device you have access
+
+208
+00:15:00,600 --> 00:15:03,330
+to and you're free to.
+
+209
+00:15:06,460 --> 00:15:08,680
+If you don't just want to listen to me talk this
+
+210
+00:15:08,680 --> 00:15:12,010
+afternoon, you can pull up your laptop or film and
+
+211
+00:15:12,730 --> 00:15:16,330
+follow the links here and play with yourself as I
+
+212
+00:15:16,900 --> 00:15:23,180
+sort of summarize what's showing up here. And just
+
+213
+00:15:23,180 --> 00:15:26,750
+to get started, because this is being recorded for
+
+214
+00:15:27,140 --> 00:15:30,560
+anyone who may want some of this background for
+
+215
+00:15:30,560 --> 00:15:34,940
+the computer project offline. The starting point
+
+216
+00:15:34,940 --> 00:15:40,580
+with Python is. That language was sort of designed
+
+217
+00:15:40,580 --> 00:15:44,510
+by principle in order to be fairly small and
+
+218
+00:15:44,510 --> 00:15:47,060
+self-contained, but have lots of add on packages
+
+219
+00:15:47,060 --> 00:15:50,510
+that provide extra functionality for anything that
+
+220
+00:15:50,510 --> 00:15:55,330
+any users might need and to deal with. Sampling
+
+221
+00:15:55,330 --> 00:15:57,940
+lots of random numbers and repudiating them. There
+
+222
+00:15:57,940 --> 00:16:02,890
+are a few packages that are useful or crucial to
+
+223
+00:16:02,890 --> 00:16:08,410
+have so collections of special functions related
+
+224
+00:16:08,410 --> 00:16:11,320
+to mathematics, things like a square root function,
+
+225
+00:16:14,080 --> 00:16:17,500
+a separate collection of functions and utilities
+
+226
+00:16:17,500 --> 00:16:20,890
+related to random numbers in each of these.
+
+227
+00:16:21,950 --> 00:16:25,340
+Packages are modules is just loaded with this
+
+228
+00:16:25,790 --> 00:16:29,570
+special keyword importance at the start of the
+
+229
+00:16:29,570 --> 00:16:34,510
+Python code. And then there are two. Larger scale
+
+230
+00:16:34,510 --> 00:16:39,040
+packages that are developed by the community and
+
+231
+00:16:39,040 --> 00:16:43,150
+provide additional functionality for numerical
+
+232
+00:16:43,150 --> 00:16:47,800
+computing. A lot of things like matrices or higher
+
+233
+00:16:47,860 --> 00:16:52,000
+rank Tensas numerical integration, fitting
+
+234
+00:16:52,000 --> 00:16:58,900
+routines. And much, much more, as well as a.
+
+235
+00:17:02,200 --> 00:17:05,950
+A library for applauding, especially scientific
+
+236
+00:17:05,950 --> 00:17:08,020
+planning based on mathematical
+
+237
+00:17:10,090 --> 00:17:14,380
+or format, medical purposes, things like image
+
+238
+00:17:14,380 --> 00:17:17,110
+manipulation and we will use is just plodding
+
+239
+00:17:17,110 --> 00:17:20,360
+histograms, whines, fits and that sort of thing.
+
+240
+00:17:20,800 --> 00:17:26,620
+So importing all of those with a special keyboard
+
+241
+00:17:26,620 --> 00:17:33,190
+that lets us refer to them. OK, so you do have to
+
+242
+00:17:33,190 --> 00:17:33,760
+sign in.
+
+243
+00:17:36,070 --> 00:17:36,610
+Which.
+
+244
+00:17:39,190 --> 00:17:39,850
+We'll see.
+
+245
+00:17:44,720 --> 00:17:51,010
+If I remember at. My password for Dubow.
+
+246
+00:18:02,560 --> 00:18:05,280
+Any questions, will I deal with this delay?
+
+247
+00:18:15,190 --> 00:18:19,460
+I'm signed in, so let me connect to the cloud and
+
+248
+00:18:19,460 --> 00:18:24,050
+run this code on Google servers, you know, just
+
+249
+00:18:24,050 --> 00:18:27,470
+print it out here, the version of Python numerical
+
+250
+00:18:27,470 --> 00:18:33,110
+python at matplotlib currently being used by the
+
+251
+00:18:33,110 --> 00:18:35,890
+cloud server. This code is now running on.
+
+252
+00:18:38,270 --> 00:18:42,020
+And then immediately jump into the inverse
+
+253
+00:18:42,020 --> 00:18:44,060
+transform sampling that.
+
+254
+00:18:46,280 --> 00:18:50,920
+Shows up in the. Computer project assignments
+
+255
+00:18:51,190 --> 00:18:58,920
+where we want to. Start off by. Initializing the
+
+256
+00:18:58,920 --> 00:19:01,980
+pseudo random number generator with your
+
+257
+00:19:02,040 --> 00:19:06,930
+particular input, that's called a seed, we are
+
+258
+00:19:06,930 --> 00:19:11,190
+given this seed exactly the same sequence of
+
+259
+00:19:11,190 --> 00:19:14,010
+random numbers will be produced by the random
+
+260
+00:19:14,010 --> 00:19:19,080
+number generator after initialization. And those
+
+261
+00:19:19,080 --> 00:19:22,140
+sequences will be distinct from the sequences that
+
+262
+00:19:22,140 --> 00:19:24,840
+are produced with any other value of the seeds.
+
+263
+00:19:24,870 --> 00:19:29,600
+This allows both. The calculation to be exactly
+
+264
+00:19:29,600 --> 00:19:32,600
+reproduced either by me at different points of
+
+265
+00:19:32,600 --> 00:19:35,540
+time or by different people in different places at
+
+266
+00:19:35,540 --> 00:19:41,010
+different points in time. And then the.
+
+267
+00:19:43,530 --> 00:19:48,360
+The random routine that is part of the random
+
+268
+00:19:48,360 --> 00:19:52,470
+package imported in the previous block of code is
+
+269
+00:19:52,740 --> 00:19:57,930
+what it's going to. Provide one of those random
+
+270
+00:19:57,930 --> 00:20:01,240
+numbers uniformly distributed between zero and one.
+
+271
+00:20:02,170 --> 00:20:09,360
+So in this example, ought to sample the
+
+272
+00:20:11,100 --> 00:20:16,020
+probability distribution P of X equals X over to
+
+273
+00:20:16,560 --> 00:20:21,240
+ranging from X going from zero up to two so that
+
+274
+00:20:21,930 --> 00:20:24,960
+the probability of up to 100 percent. So we want
+
+275
+00:20:24,960 --> 00:20:26,610
+to take this
+
+276
+00:20:28,950 --> 00:20:36,950
+to something that looks more like that is some
+
+277
+00:20:37,530 --> 00:20:38,240
+small
+
+278
+00:20:40,740 --> 00:20:44,640
+sample, which numbers with greater probability and
+
+279
+00:20:44,640 --> 00:20:49,200
+smaller numbers and knowing that
+
+280
+00:20:51,540 --> 00:20:54,390
+this is the probability distribution we want to
+
+281
+00:20:54,390 --> 00:21:00,690
+end up with from. This relation at the on screen.
+
+282
+00:21:02,150 --> 00:21:09,170
+Makes it. Quick and easy to do what the. Required
+
+283
+00:21:09,340 --> 00:21:12,950
+derivation to figure out the transformation that
+
+284
+00:21:12,970 --> 00:21:17,080
+we need between those uniform random numbers and
+
+285
+00:21:18,190 --> 00:21:24,320
+facts, so we want to generate. When we generate
+
+286
+00:21:24,320 --> 00:21:29,060
+each uniform, random distribution and edit things,
+
+287
+00:21:30,650 --> 00:21:33,230
+we want to take it square root, multiply by two,
+
+288
+00:21:33,650 --> 00:21:37,560
+and then that will give us these random numbers X
+
+289
+00:21:38,090 --> 00:21:42,170
+following this different distribution that we want
+
+290
+00:21:42,170 --> 00:21:45,650
+to produce. And that's what's being done in this
+
+291
+00:21:45,650 --> 00:21:50,510
+line. You get that random, uniformly distributed,
+
+292
+00:21:50,510 --> 00:21:54,110
+random, you take it square roots multiply by two
+
+293
+00:21:54,740 --> 00:21:58,310
+in. What's going on in here is what's called a
+
+294
+00:21:58,310 --> 00:22:03,500
+forward, which is one of the fundamental aspects
+
+295
+00:22:03,500 --> 00:22:06,650
+of computer programming. Just tells it tells the
+
+296
+00:22:06,650 --> 00:22:12,110
+computer to. Repeat some set of instructions, some
+
+297
+00:22:12,110 --> 00:22:13,130
+number of times.
+
+298
+00:22:15,160 --> 00:22:18,970
+Python, these loops and other logic blocks are
+
+299
+00:22:18,970 --> 00:22:23,980
+indicated by the. Number of blank spaces at the
+
+300
+00:22:23,980 --> 00:22:26,650
+start of each line, which is a lot different from
+
+301
+00:22:26,650 --> 00:22:29,230
+some other programming languages that use curly
+
+302
+00:22:29,230 --> 00:22:32,560
+braces to separate them off. You may have seen in
+
+303
+00:22:32,560 --> 00:22:38,020
+the past. So it's these three lines that form the
+
+304
+00:22:38,020 --> 00:22:41,900
+instructions that are repeated by this form before
+
+305
+00:22:41,900 --> 00:22:47,680
+one is defining some horrible eye that varies
+
+306
+00:22:47,680 --> 00:22:52,300
+across the range from zero up to in samples, but
+
+307
+00:22:52,300 --> 00:22:55,960
+not including in samples, which is set to be one
+
+308
+00:22:55,960 --> 00:23:02,120
+hundred thousand. We define an empty array called
+
+309
+00:23:02,120 --> 00:23:07,250
+debt for data and initialize to running subs that
+
+310
+00:23:07,250 --> 00:23:13,650
+will just add up. All of the. Random numbers and
+
+311
+00:23:13,650 --> 00:23:17,460
+the squares of those random numbers that appear in
+
+312
+00:23:17,460 --> 00:23:21,900
+this forward. So with that set up, this is this
+
+313
+00:23:21,930 --> 00:23:26,160
+code is repeating one hundred thousand times the
+
+314
+00:23:26,160 --> 00:23:29,130
+process of generating this random number that
+
+315
+00:23:29,130 --> 00:23:33,000
+should obey desired distribution from the universe,
+
+316
+00:23:33,000 --> 00:23:37,600
+transform. And then added the number to the
+
+317
+00:23:37,600 --> 00:23:40,390
+running sub and heading the square of the number
+
+318
+00:23:40,480 --> 00:23:49,620
+two, running some. For the square where. There's a
+
+319
+00:23:49,620 --> 00:23:52,080
+little python trick at the end here that
+
+320
+00:23:54,840 --> 00:23:58,770
+I should explain, that arrays are like they say on
+
+321
+00:23:58,770 --> 00:24:02,430
+the 10, they are a list of numbers which can be
+
+322
+00:24:02,430 --> 00:24:07,080
+accessed with these square brackets by specifying
+
+323
+00:24:07,470 --> 00:24:09,690
+the location of the number that you're interested
+
+324
+00:24:09,690 --> 00:24:14,460
+in getting in a python, you can give minus one as
+
+325
+00:24:14,460 --> 00:24:17,580
+the very last elements of that array. The idea is
+
+326
+00:24:17,580 --> 00:24:20,850
+that zero is the first element. One is the second
+
+327
+00:24:20,850 --> 00:24:23,760
+two or three, four and so on. At the end wraps
+
+328
+00:24:23,760 --> 00:24:27,210
+back around to zero. So when you add in negative
+
+329
+00:24:27,210 --> 00:24:30,060
+numbers, you start going the other way around from
+
+330
+00:24:30,060 --> 00:24:35,280
+the back to the front. So that that is minus one
+
+331
+00:24:35,280 --> 00:24:39,060
+is just exactly the number that was appended to
+
+332
+00:24:39,060 --> 00:24:42,030
+the end of the array in that previous line.
+
+333
+00:24:44,700 --> 00:24:48,600
+So if I were to write down on the board in
+
+334
+00:24:48,780 --> 00:24:51,240
+mathematical notation what this corresponds to,
+
+335
+00:24:51,960 --> 00:24:55,470
+this veve, which is my shorthand for vacuum
+
+336
+00:24:55,470 --> 00:24:59,640
+expectation value is the particle physics version
+
+337
+00:24:59,640 --> 00:25:02,760
+of the expectation value. You want to see that
+
+338
+00:25:03,410 --> 00:25:09,480
+looks kind of like those some over all of the
+
+339
+00:25:09,480 --> 00:25:13,620
+repetitions of this experiment. Exactly. The X
+
+340
+00:25:15,600 --> 00:25:19,260
+that is being produced through that transform. And
+
+341
+00:25:19,260 --> 00:25:23,070
+then after the end of the for loop indicated by
+
+342
+00:25:23,670 --> 00:25:28,440
+the removal of that indentation, that sum is just
+
+343
+00:25:28,440 --> 00:25:32,180
+divided by the total number of.
+
+344
+00:25:37,390 --> 00:25:42,090
+So we hope that some of her are going up to and we
+
+345
+00:25:42,150 --> 00:25:43,380
+divide it by one over in.
+
+346
+00:25:45,590 --> 00:25:47,290
+And because we.
+
+347
+00:25:53,400 --> 00:25:56,400
+No, assuming for the moment that we have managed
+
+348
+00:25:56,400 --> 00:25:59,040
+to generate any success with the correct
+
+349
+00:25:59,040 --> 00:26:02,970
+probability distribution this year, it because
+
+350
+00:26:03,120 --> 00:26:04,770
+there is no
+
+351
+00:26:07,080 --> 00:26:09,650
+activation to the true meaning of the early
+
+352
+00:26:09,700 --> 00:26:15,680
+distribution. Similarly. So the squirrel running,
+
+353
+00:26:15,700 --> 00:26:20,660
+sometimes it's just the same arithmetic estimates
+
+354
+00:26:22,210 --> 00:26:27,880
+for that, so I swear. In each case.
+
+355
+00:26:30,440 --> 00:26:35,750
+And then you can see. How well, a hundred thousand
+
+356
+00:26:35,750 --> 00:26:40,460
+samples reproduces the known or the easy to
+
+357
+00:26:40,460 --> 00:26:45,020
+calculate, mean and standard deviation of this
+
+358
+00:26:45,020 --> 00:26:50,190
+non-trivial probability distribution scale is the
+
+359
+00:26:50,210 --> 00:26:53,930
+computation which we can do if there's demand to
+
+360
+00:26:55,130 --> 00:26:57,840
+check that the true meaning that
+
+361
+00:27:01,100 --> 00:27:07,610
+to a little above the point. In the distribution
+
+362
+00:27:07,610 --> 00:27:10,210
+because of the greater problem is that we didn't
+
+363
+00:27:10,280 --> 00:27:12,380
+see the larger exodus.
+
+364
+00:27:16,510 --> 00:27:19,690
+What is there to make it visible around the screen
+
+365
+00:27:20,290 --> 00:27:25,330
+and the standard deviation, the square root of the
+
+366
+00:27:25,330 --> 00:27:29,170
+expectation value of X squared minus the square of
+
+367
+00:27:29,170 --> 00:27:33,810
+the expectation value of X is reached over three.
+
+368
+00:27:33,820 --> 00:27:38,290
+So that point four seven. And with these hundred
+
+369
+00:27:38,290 --> 00:27:41,680
+thousand repetitions of that experiment with the.
+
+370
+00:27:44,030 --> 00:27:45,980
+The estimate of the median of standard deviation
+
+371
+00:27:45,980 --> 00:27:48,830
+from the lower class numbers is correct up to.
+
+372
+00:27:51,170 --> 00:27:55,700
+Five significant digits in the mean three or three
+
+373
+00:27:55,700 --> 00:27:59,370
+significant digits. In the standard deviation, so,
+
+374
+00:27:59,820 --> 00:28:01,080
+well, less than a percent
+
+375
+00:28:03,180 --> 00:28:05,940
+inaccuracy and better than percent level of
+
+376
+00:28:05,940 --> 00:28:08,790
+precision, and it took just a few seconds to run,
+
+377
+00:28:08,800 --> 00:28:13,200
+so we had another zero on computer. Repeat this
+
+378
+00:28:13,200 --> 00:28:18,140
+with the four million samples. It's wrong already
+
+379
+00:28:18,260 --> 00:28:23,450
+and gets even closer. That's what used to be point
+
+380
+00:28:23,450 --> 00:28:27,020
+for seven or nine, overshooting the standard
+
+381
+00:28:27,020 --> 00:28:30,440
+deviation is not one four seven one undershooting
+
+382
+00:28:30,440 --> 00:28:35,670
+hit by a smaller amount. And that's the sort of.
+
+383
+00:28:37,040 --> 00:28:42,200
+Exercise, it appears. In the computer project
+
+384
+00:28:42,200 --> 00:28:47,630
+itself. And I guess I've left it open as a
+
+385
+00:28:47,630 --> 00:28:49,640
+question in the demo so far,
+
+386
+00:28:51,920 --> 00:28:56,800
+even though we're getting the estimate for. The
+
+387
+00:28:56,800 --> 00:29:00,880
+median standard deviation, reasonably accurately,
+
+388
+00:29:02,020 --> 00:29:06,850
+to make sure that we really are generating these
+
+389
+00:29:06,850 --> 00:29:09,910
+numbers with the desired probability distribution,
+
+390
+00:29:10,600 --> 00:29:14,980
+which we can do similar to the way we talked about
+
+391
+00:29:14,980 --> 00:29:17,800
+with modelling on Tuesday, you're repeating an
+
+392
+00:29:17,800 --> 00:29:20,980
+experiment a large number of times. And by looking
+
+393
+00:29:20,980 --> 00:29:23,980
+at the outcomes of that experiment, we can infer
+
+394
+00:29:24,130 --> 00:29:29,200
+the probabilities of those outcomes or more
+
+395
+00:29:29,200 --> 00:29:32,830
+generally, the probability distribution. So this
+
+396
+00:29:32,830 --> 00:29:37,320
+was the reason why. We saved on one hundred
+
+397
+00:29:37,330 --> 00:29:42,130
+thousand to a billion. Samples in this array,
+
+398
+00:29:42,400 --> 00:29:46,360
+which we're not actually using beyond that, is the
+
+399
+00:29:46,360 --> 00:29:48,790
+running samples that would have sufficed to look
+
+400
+00:29:48,790 --> 00:29:52,030
+at the way the standard deviation. But having
+
+401
+00:29:52,180 --> 00:29:56,530
+every single one of those 10 to the five data
+
+402
+00:29:57,070 --> 00:30:01,900
+allows us to plot a histogram of those data and
+
+403
+00:30:01,900 --> 00:30:06,800
+see how they are all distributed. Which is where
+
+404
+00:30:07,070 --> 00:30:10,520
+that plot live, what we've called Kielty for short
+
+405
+00:30:11,210 --> 00:30:14,150
+comes into play to make things quick and
+
+406
+00:30:14,150 --> 00:30:19,120
+reasonably easy. All we need to do is call the
+
+407
+00:30:19,810 --> 00:30:22,120
+highest function, and it provides to produce a
+
+408
+00:30:22,120 --> 00:30:27,070
+histogram with the data we want histogram a number
+
+409
+00:30:27,070 --> 00:30:30,820
+of beams that we want the data divided into. And
+
+410
+00:30:30,820 --> 00:30:34,690
+this density tells us to normalize it so that the
+
+411
+00:30:34,690 --> 00:30:39,460
+area of the histogram is one, rather than being a
+
+412
+00:30:39,460 --> 00:30:42,130
+full count of the number of events in each of the
+
+413
+00:30:42,130 --> 00:30:45,380
+bands. So the blue
+
+414
+00:30:48,950 --> 00:30:51,890
+columns of this plot that are all next to each
+
+415
+00:30:51,890 --> 00:30:57,130
+other are. Those hundred thousand outcomes of the
+
+416
+00:30:57,130 --> 00:31:02,290
+repeated experiments in each each bin, the number
+
+417
+00:31:02,290 --> 00:31:05,680
+of outcomes is being plotted and then divided so
+
+418
+00:31:05,680 --> 00:31:10,690
+that the. Total area that is shaded blue is equal
+
+419
+00:31:10,690 --> 00:31:15,520
+to what if I were to change this to false and we
+
+420
+00:31:15,520 --> 00:31:15,880
+run.
+
+421
+00:31:19,140 --> 00:31:22,250
+You see that there are a few hundred up to a few
+
+422
+00:31:22,250 --> 00:31:25,340
+thousand outcomes in each of these bins and
+
+423
+00:31:25,340 --> 00:31:30,380
+Instagram is just showing how many outcomes are
+
+424
+00:31:30,380 --> 00:31:34,700
+falling in. Each range of the sex acts is going
+
+425
+00:31:34,700 --> 00:31:36,050
+from zero to two.
+
+426
+00:31:39,660 --> 00:31:41,280
+And on top of that histogram.
+
+427
+00:31:43,980 --> 00:31:48,240
+In the same set of accidents I've used matplotlib
+
+428
+00:31:48,240 --> 00:31:53,250
+to define a function in a kind of Python style,
+
+429
+00:31:54,660 --> 00:32:00,270
+and in particular that function is the. Have the
+
+430
+00:32:00,310 --> 00:32:02,070
+distribution down there after.
+
+431
+00:32:05,840 --> 00:32:08,540
+To where?
+
+432
+00:32:14,210 --> 00:32:19,580
+Is he going to he's in this library is to define a
+
+433
+00:32:19,730 --> 00:32:26,870
+set of X values that X is this is a an array
+
+434
+00:32:26,870 --> 00:32:30,380
+function from ignorable, that what it's doing is
+
+435
+00:32:31,340 --> 00:32:35,300
+creating an array that holds every value from zero
+
+436
+00:32:35,300 --> 00:32:38,690
+to two insteps steps and zero point zero one. So
+
+437
+00:32:38,690 --> 00:32:42,830
+there are two hundred elements in that array, zero
+
+438
+00:32:43,520 --> 00:32:46,670
+zero point one zero one or two, three and so on.
+
+439
+00:32:48,620 --> 00:32:54,180
+Which we could. Pretty to check out that it is
+
+440
+00:32:56,130 --> 00:32:57,530
+being produced correctly.
+
+441
+00:33:00,630 --> 00:33:04,710
+There it is. Two hundred elements from zero up to
+
+442
+00:33:04,710 --> 00:33:08,340
+two, but not including two and then.
+
+443
+00:33:10,370 --> 00:33:16,250
+This next line defining why to be half of X is
+
+444
+00:33:16,250 --> 00:33:20,810
+smart enough to figure out the size of that array
+
+445
+00:33:21,200 --> 00:33:26,450
+and make Y be an array of exactly the same size so
+
+446
+00:33:26,450 --> 00:33:30,680
+that it can then be plotted with a red line and
+
+447
+00:33:30,680 --> 00:33:34,760
+shows up like that in the plot that I've shown
+
+448
+00:33:35,180 --> 00:33:38,850
+here live in The Notebook. With that function that
+
+449
+00:33:38,850 --> 00:33:42,780
+could save to disk or to submit with homework,
+
+450
+00:33:42,930 --> 00:33:43,470
+despite
+
+451
+00:33:46,080 --> 00:33:49,950
+a different function provided by that volume. So
+
+452
+00:33:50,910 --> 00:33:54,750
+that is a simple example of inversed, transform
+
+453
+00:33:54,750 --> 00:34:01,450
+sampling. In Python. And think I've been talking
+
+454
+00:34:01,470 --> 00:34:04,230
+sort of continuously to the wall, this is
+
+455
+00:34:04,230 --> 00:34:07,800
+something online and available for you to play
+
+456
+00:34:07,800 --> 00:34:12,480
+with at the expense of having a Google account.
+
+457
+00:34:13,180 --> 00:34:16,140
+And it's also something that you don't want to
+
+458
+00:34:16,650 --> 00:34:17,620
+deal with Google.
+
+459
+00:34:20,250 --> 00:34:27,490
+It is possible to. Grab the source code for. This
+
+460
+00:34:27,490 --> 00:34:28,540
+demo from.
+
+461
+00:34:31,140 --> 00:34:34,620
+Something I thought I had linked at the top here,
+
+462
+00:34:35,280 --> 00:34:37,890
+the repository for.
+
+463
+00:34:41,200 --> 00:34:44,260
+This module, this is all the stuff that we were
+
+464
+00:34:44,260 --> 00:34:47,920
+just talking through, getting up to the Instagram
+
+465
+00:34:47,930 --> 00:34:52,120
+and inversed transparency and so on, you can make
+
+466
+00:34:52,120 --> 00:34:57,460
+sure you can run this yourself and modify it to do
+
+467
+00:34:57,460 --> 00:35:00,040
+whatever you might want. But are there questions
+
+468
+00:35:00,040 --> 00:35:05,280
+about the practicality or. Even the motivation for
+
+469
+00:35:05,910 --> 00:35:08,730
+any of the aspects of things we've gone through
+
+470
+00:35:08,730 --> 00:35:09,480
+this afternoon.
+
+471
+00:35:24,000 --> 00:35:27,840
+I'm looking at the time and thinking that this bit
+
+472
+00:35:27,840 --> 00:35:32,060
+about random walks we will see in the lectures
+
+473
+00:35:32,490 --> 00:35:38,880
+next week and it may be at this point more useful
+
+474
+00:35:38,880 --> 00:35:45,660
+to actually switch back to the stuff we were.
+
+475
+00:35:47,280 --> 00:35:48,660
+Going through this morning.
+
+476
+00:35:51,500 --> 00:35:54,380
+Here we are, we had these.
+
+477
+00:35:57,130 --> 00:36:02,530
+Small experiments of spinning wheel five times and
+
+478
+00:36:02,530 --> 00:36:07,400
+trying to figure out from a. Approximate
+
+479
+00:36:07,400 --> 00:36:12,140
+expression for what kind of return on the beds we
+
+480
+00:36:12,140 --> 00:36:19,650
+could expect from that game in. When I was writing
+
+481
+00:36:19,650 --> 00:36:24,390
+down all of the exact probabilities of winning
+
+482
+00:36:24,390 --> 00:36:27,810
+either none of those five statements or all five
+
+483
+00:36:27,810 --> 00:36:32,180
+of them, I did probably for the first time,
+
+484
+00:36:32,550 --> 00:36:37,780
+neglects to actually plug in. The numbers that are
+
+485
+00:36:37,780 --> 00:36:42,220
+appearing here may be useful for the annotations
+
+486
+00:36:42,220 --> 00:36:47,380
+that are put on canvas later today to record. I
+
+487
+00:36:47,380 --> 00:36:49,930
+have fear of what these numbers will be. Part of
+
+488
+00:36:49,930 --> 00:36:53,320
+that there's about a three or four percent chance
+
+489
+00:36:54,190 --> 00:36:59,050
+of not winning any one of the five spins that all
+
+490
+00:36:59,050 --> 00:37:02,620
+black spin of that roulette wheel. And that number
+
+491
+00:37:03,250 --> 00:37:12,190
+rises to about 17 percent to win a single one. And
+
+492
+00:37:12,200 --> 00:37:16,520
+then about 30 percent to two, so even though the
+
+493
+00:37:16,520 --> 00:37:21,100
+total probability factors are decreasing, the 19
+
+494
+00:37:21,440 --> 00:37:24,350
+of the thirty seven is decreasing two factors each
+
+495
+00:37:24,350 --> 00:37:30,710
+number 37, the number of possible ways that this
+
+496
+00:37:30,710 --> 00:37:33,890
+outcome could be achieved. It is growing fast
+
+497
+00:37:33,890 --> 00:37:39,260
+enough to. Well, more than compensate the decrease
+
+498
+00:37:39,260 --> 00:37:43,850
+in individual speed, probably in particular, that
+
+499
+00:37:45,380 --> 00:37:51,370
+10 is almost the enhancement from the point over
+
+500
+00:37:51,380 --> 00:37:55,400
+three six point three two oh, it's just about
+
+501
+00:37:55,400 --> 00:37:58,550
+reflected by that factor of 10. Then on the other
+
+502
+00:37:58,550 --> 00:38:02,810
+side, we go down 30 percent,
+
+503
+00:38:05,030 --> 00:38:13,730
+back to 14. Over to. Just three percent chance to
+
+504
+00:38:13,730 --> 00:38:21,850
+win every. Spin of the wheel and those six numbers
+
+505
+00:38:22,540 --> 00:38:26,920
+pop up on the next page in the lecture notes
+
+506
+00:38:27,970 --> 00:38:34,540
+plotted as these direct green circles on this plot
+
+507
+00:38:34,550 --> 00:38:38,950
+that is actually to be. Exact calculation that we
+
+508
+00:38:38,950 --> 00:38:43,150
+did this morning, going from below five percent to
+
+509
+00:38:43,150 --> 00:38:46,450
+a bit above 30 percent, as we noted, how little
+
+510
+00:38:46,450 --> 00:38:49,630
+skewed toward a negative gain so that.
+
+511
+00:38:55,830 --> 00:39:01,140
+The House, the long term abortion spins, will
+
+512
+00:39:01,160 --> 00:39:05,240
+always come out ahead of anyone who is playing
+
+513
+00:39:05,240 --> 00:39:08,000
+their games. Now, the
+
+514
+00:39:10,220 --> 00:39:14,210
+other six points on this point are coming from.
+
+515
+00:39:15,100 --> 00:39:19,360
+The computation that we just wrapped up with,
+
+516
+00:39:19,780 --> 00:39:24,410
+which is in fact a numerical computation to this
+
+517
+00:39:24,430 --> 00:39:27,410
+point, I. Produced using some
+
+518
+00:39:29,690 --> 00:39:35,140
+sort of. Ended up this morning just with a glance
+
+519
+00:39:35,140 --> 00:39:40,120
+at the extraction of unified probabilities from
+
+520
+00:39:40,600 --> 00:39:42,940
+the distribution that the central government gives
+
+521
+00:39:42,940 --> 00:39:48,900
+us. This is some. Government function around the
+
+522
+00:39:49,690 --> 00:39:55,620
+limit of five times the building or repeating that
+
+523
+00:39:56,310 --> 00:40:02,090
+relentless spinning experiment five times. And the.
+
+524
+00:40:07,170 --> 00:40:11,680
+One question that we. To the lead or I didn't
+
+525
+00:40:11,750 --> 00:40:14,130
+explicitly state this morning was what exactly
+
+526
+00:40:14,850 --> 00:40:24,300
+Beltagy is. Where they can be read off from the
+
+527
+00:40:24,300 --> 00:40:31,360
+work that we saw that the dean of. Winning a spin
+
+528
+00:40:31,360 --> 00:40:38,620
+in this game is a return of 10 pounds, so. But
+
+529
+00:40:38,660 --> 00:40:42,830
+this is the difference between the first one spins
+
+530
+00:40:42,830 --> 00:40:48,110
+versus spins is 10 pound gain for Delta Beltagy.
+
+531
+00:40:48,680 --> 00:40:53,400
+So the integral here is going from. The central
+
+532
+00:40:53,400 --> 00:40:59,380
+value. The amount that we gain if we win w spends.
+
+533
+00:41:00,570 --> 00:41:03,990
+The interview five times brought that to five
+
+534
+00:41:03,990 --> 00:41:08,550
+pounds above. Which might be easiest to.
+
+535
+00:41:12,960 --> 00:41:18,000
+By checking what this figure looks like, we
+
+536
+00:41:18,210 --> 00:41:20,040
+computed the.
+
+537
+00:41:23,680 --> 00:41:28,290
+Yeah, I computed here. No function for.
+
+538
+00:41:31,060 --> 00:41:34,140
+That total gain from winning W spins out of and
+
+539
+00:41:34,150 --> 00:41:36,130
+total, which is.
+
+540
+00:41:42,710 --> 00:41:48,010
+Do you need 10 from every spin that we win, the
+
+541
+00:41:48,030 --> 00:41:52,120
+losing five for every spin that it's played that
+
+542
+00:41:52,390 --> 00:41:56,680
+ends up with? Depending on whether we lose all
+
+543
+00:41:56,680 --> 00:41:59,860
+five spins, we get negative twenty five from that,
+
+544
+00:41:59,860 --> 00:42:06,070
+if we win all five plus twenty five. And these
+
+545
+00:42:06,070 --> 00:42:11,200
+boundaries, those she said WS plus or minus five
+
+546
+00:42:11,800 --> 00:42:16,210
+are exactly the vertical lines being shown on the
+
+547
+00:42:16,210 --> 00:42:20,800
+spot. Absolutely. Quickly enough evidence not
+
+548
+00:42:20,800 --> 00:42:25,390
+showing up. Of the not even the.
+
+549
+00:42:28,700 --> 00:42:30,320
+Dividing this range.
+
+550
+00:42:32,630 --> 00:42:38,960
+Around each of the outcomes in numerical python
+
+551
+00:42:39,650 --> 00:42:44,570
+doesn't provide. A routine to do with the
+
+552
+00:42:44,590 --> 00:42:47,270
+integration of the sort, you can even simplify
+
+553
+00:42:47,270 --> 00:42:51,800
+that by making the approximation that the Scotian
+
+554
+00:42:51,800 --> 00:42:54,860
+probability distribution is roughly constant
+
+555
+00:42:54,860 --> 00:42:59,520
+within this very small range. Relatively small
+
+556
+00:42:59,520 --> 00:43:03,450
+range, and then that is gorgeous because the
+
+557
+00:43:03,720 --> 00:43:07,560
+central value of the game are interested in
+
+558
+00:43:07,560 --> 00:43:13,890
+multiplied by 10 with the range rather than
+
+559
+00:43:14,880 --> 00:43:19,370
+writing down the 12 probabilities that come out.
+
+560
+00:43:20,480 --> 00:43:21,370
+You can actually.
+
+561
+00:43:26,730 --> 00:43:33,680
+Look through or at least pull up module's. Lecture
+
+562
+00:43:33,680 --> 00:43:38,450
+notes, click the link in here to what the python
+
+563
+00:43:38,450 --> 00:43:41,960
+code that I actually already had opened a
+
+564
+00:43:41,960 --> 00:43:42,690
+different tab.
+
+565
+00:43:46,240 --> 00:43:51,730
+This code here is doing exactly this computation.
+
+566
+00:43:53,310 --> 00:43:56,160
+And looking at the time, I don't think there's.
+
+567
+00:43:57,730 --> 00:44:01,990
+Much time available to go through it in any detail.
+
+568
+00:44:02,470 --> 00:44:06,790
+What it is, is translating the mathematical
+
+569
+00:44:06,790 --> 00:44:09,490
+manipulations we've done this morning into the
+
+570
+00:44:09,490 --> 00:44:13,090
+language of Python with some fairly extensive
+
+571
+00:44:13,210 --> 00:44:18,760
+commentary to explain. What is going on if I look
+
+572
+00:44:18,760 --> 00:44:24,110
+at this? While Python code and copy it all, say,
+
+573
+00:44:24,120 --> 00:44:24,720
+into
+
+574
+00:44:26,910 --> 00:44:27,930
+a new notebook.
+
+575
+00:44:33,940 --> 00:44:37,090
+And see what happens when I blindly run that
+
+576
+00:44:37,100 --> 00:44:39,010
+without even looking at things.
+
+577
+00:44:45,460 --> 00:44:48,700
+It is a missionising connected to with the cloud
+
+578
+00:44:49,690 --> 00:44:54,940
+and. It is complaining about to have the number of
+
+579
+00:44:54,940 --> 00:45:01,140
+spins here set up as an input argument. To run in
+
+580
+00:45:01,320 --> 00:45:04,860
+Linux terminals and set to use if I just set that
+
+581
+00:45:04,860 --> 00:45:09,960
+to five here will hopefully be happier. It takes
+
+582
+00:45:09,960 --> 00:45:11,250
+zero seconds to run.
+
+583
+00:45:13,620 --> 00:45:17,220
+It say exactly how much point zero point eight
+
+584
+00:45:17,220 --> 00:45:24,300
+nine eight seconds. And it reproduces not only the
+
+585
+00:45:25,020 --> 00:45:26,370
+six numbers that
+
+586
+00:45:28,560 --> 00:45:33,180
+I just wrote down here. Point oh three five seven
+
+587
+00:45:33,180 --> 00:45:38,010
+one six nine three two zero and so on. It also
+
+588
+00:45:38,940 --> 00:45:43,430
+keeps that constant approximation. Probability is
+
+589
+00:45:43,430 --> 00:45:48,320
+to gain or lose up to twenty five pounds. It does
+
+590
+00:45:48,320 --> 00:45:52,010
+the numerical integration with that routine. I may
+
+591
+00:45:52,010 --> 00:45:56,210
+be able to quickly find. If I search for.
+
+592
+00:46:02,660 --> 00:46:06,060
+The search for integration, this is.
+
+593
+00:46:08,480 --> 00:46:11,450
+A feature of the Google Fiber series that the
+
+594
+00:46:11,450 --> 00:46:15,110
+documentation pops up, I imported integrated from
+
+595
+00:46:15,110 --> 00:46:19,220
+a scientific platform package similar to numerical
+
+596
+00:46:19,220 --> 00:46:23,450
+Pythonic, only a bit fancier and more capable. So
+
+597
+00:46:23,480 --> 00:46:27,290
+this is sorry, that was it's back again some of
+
+598
+00:46:27,290 --> 00:46:31,340
+the documentation for that integration routine.
+
+599
+00:46:32,650 --> 00:46:35,650
+Doing a quadratic approximation to the.
+
+600
+00:46:36,880 --> 00:46:40,620
+Probability distribution and coming up with. The
+
+601
+00:46:41,010 --> 00:46:45,240
+numbers showed here and plotted on this plot. They
+
+602
+00:46:45,240 --> 00:46:48,510
+may look familiar and checking how.
+
+603
+00:46:52,950 --> 00:46:56,880
+How much error these approximations introduce,
+
+604
+00:46:57,180 --> 00:46:59,370
+checking that the six probabilities still add up
+
+605
+00:47:00,060 --> 00:47:03,330
+approximately to one with no better than percent
+
+606
+00:47:03,330 --> 00:47:04,830
+level precision,
+
+607
+00:47:06,960 --> 00:47:12,840
+and I can see that they are all reasonably on top
+
+608
+00:47:12,840 --> 00:47:17,970
+of each other when plotted visually. So. That I
+
+609
+00:47:17,970 --> 00:47:22,180
+think will suffice to. Wrap up that little example
+
+610
+00:47:22,180 --> 00:47:25,660
+in elections with the straight dogs, you effusions
+
+611
+00:47:25,660 --> 00:47:28,840
+of random thoughts, that one day I think I'll stop
+
+612
+00:47:28,840 --> 00:47:31,270
+talking there, just give one last call for
+
+613
+00:47:31,690 --> 00:47:34,720
+questions about programming or anything else
+
+614
+00:47:34,720 --> 00:47:36,400
+before we get to have a weekend.
+
+615
+00:47:52,840 --> 00:47:56,890
+But enjoy the weekend and see you again Monday
+
+616
+00:47:56,890 --> 00:47:57,430
+afternoon.
