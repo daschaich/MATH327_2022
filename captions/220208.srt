@@ -1,0 +1,2647 @@
+1
+00:00:03,600 --> 00:00:06,600
+OK, that recording should be under way. And
+
+2
+00:00:07,530 --> 00:00:13,200
+today's number is... not that one left from yesterday,
+
+3
+00:00:15,450 --> 00:00:16,020
+but eight four five, three one five.
+
+4
+00:00:20,150 --> 00:00:22,190
+All right,
+
+5
+00:00:27,440 --> 00:00:31,790
+let's pick up more or less where we
+
+6
+00:00:31,970 --> 00:00:35,300
+left off just at the end of yesterday. So welcome
+
+7
+00:00:35,300 --> 00:00:39,950
+back. Are there any questions about anything going
+
+8
+00:00:39,950 --> 00:00:42,550
+on so far in the course, what we saw yesterday or
+
+9
+00:00:42,620 --> 00:00:45,190
+the project or remainder of the material.
+
+10
+00:00:50,170 --> 00:00:53,890
+So office hours are Mondays and Fridays,
+
+11
+00:00:53,890 --> 00:00:57,170
+Mondays at five, right after the lecture we had
+
+12
+00:00:57,190 --> 00:01:00,580
+yesterday and Fridays at 10:00 right after that
+
+13
+00:01:00,580 --> 00:01:05,110
+Friday morning lecture, and I will head down to my
+
+14
+00:01:05,110 --> 00:01:07,480
+office, which is in the theoretical physics wing,
+
+15
+00:01:07,960 --> 00:01:11,320
+and also try to stay connected to the room, call
+
+16
+00:01:11,320 --> 00:01:15,550
+for anyone who isn't able to be here in person for.
+
+17
+00:01:16,720 --> 00:01:17,080
+But
+
+18
+00:01:19,220 --> 00:01:22,700
+I of that. Right where we left off yesterday,
+
+19
+00:01:22,700 --> 00:01:27,440
+we'll wrap up random walks today and see in more
+
+20
+00:01:27,440 --> 00:01:31,880
+detail how they generalize. So yesterday to get a
+
+21
+00:01:31,880 --> 00:01:34,400
+first look at this random process that can be used
+
+22
+00:01:34,400 --> 00:01:38,340
+to model all sorts of things, we've. Cut it down
+
+23
+00:01:38,340 --> 00:01:41,580
+to the simplest possible random water, there was
+
+24
+00:01:41,580 --> 00:01:45,750
+just a walker who can go in one direction or the
+
+25
+00:01:45,750 --> 00:01:48,960
+other along the line, so single dimensional,
+
+26
+00:01:48,960 --> 00:01:52,740
+random walk probability of going in one direction
+
+27
+00:01:52,980 --> 00:01:55,740
+at every step, probability to which is one minus,
+
+28
+00:01:55,770 --> 00:02:00,720
+be going in the opposite direction. And after some,
+
+29
+00:02:01,140 --> 00:02:05,610
+the calculations found simple expressions for what
+
+30
+00:02:05,610 --> 00:02:07,290
+we're interested in, the final position of the
+
+31
+00:02:07,290 --> 00:02:13,040
+walk and the scale of fluctuations around, or the
+
+32
+00:02:14,100 --> 00:02:17,940
+variance in that position that depend just on P. Q
+
+33
+00:02:17,940 --> 00:02:20,250
+and the total number of steps which we can
+
+34
+00:02:20,790 --> 00:02:24,930
+rearrange in terms of a drift velocity and the
+
+35
+00:02:24,970 --> 00:02:31,980
+diffusion constants that describe how the
+
+36
+00:02:31,980 --> 00:02:37,710
+probability distribution for this walk or for any
+
+37
+00:02:37,710 --> 00:02:43,710
+walk in general, both drifts as time goes on and
+
+38
+00:02:43,710 --> 00:02:47,340
+also the same time spreads out or diffuses. So
+
+39
+00:02:48,330 --> 00:02:51,120
+while there is a.
+
+40
+00:02:57,840 --> 00:03:02,370
+A well defined expectation value that can we can
+
+41
+00:03:02,370 --> 00:03:05,580
+look at, it's drifted out as long as the water
+
+42
+00:03:05,580 --> 00:03:07,440
+gets longer, longer, with more and more steps
+
+43
+00:03:07,440 --> 00:03:10,950
+being added up in the sky in the process. At the
+
+44
+00:03:10,950 --> 00:03:15,870
+same time, the probability of finding exactly that
+
+45
+00:03:15,870 --> 00:03:18,930
+expectation value is dropping. And the.
+
+46
+00:03:21,570 --> 00:03:24,510
+The scale of fluctuations around that expectation
+
+47
+00:03:24,510 --> 00:03:28,720
+value is growing with and should have put up here,
+
+48
+00:03:28,740 --> 00:03:31,200
+this is a reminder, the characteristic dependence
+
+49
+00:03:31,200 --> 00:03:34,590
+on that square root of described by what's called
+
+50
+00:03:34,590 --> 00:03:41,120
+a law of diffusion. So from these two quantities,
+
+51
+00:03:41,250 --> 00:03:46,200
+the diffusion, constant and velocity, it is an
+
+52
+00:03:46,200 --> 00:03:50,200
+interesting question to see. How the scale of
+
+53
+00:03:50,200 --> 00:03:53,770
+fluctuations are behaving compared to that
+
+54
+00:03:53,770 --> 00:03:57,730
+expectation value when given the option of
+
+55
+00:03:57,730 --> 00:04:00,580
+dependence. We've just reviewed and saw yesterday,
+
+56
+00:04:00,580 --> 00:04:05,380
+we can almost write that down off the top of our
+
+57
+00:04:05,380 --> 00:04:08,260
+head. But to put in the full calculation for this.
+
+58
+00:04:09,750 --> 00:04:15,570
+Random walk with a fixed step at each point in
+
+59
+00:04:15,570 --> 00:04:19,140
+time. You saw the those fluctuations in the
+
+60
+00:04:19,140 --> 00:04:23,780
+numerator. In this ratio, so relative uncertainty.
+
+61
+00:04:24,720 --> 00:04:27,240
+Looking at the scale of fluctuations divided by
+
+62
+00:04:27,250 --> 00:04:31,810
+renormalize, by the drifting expectation value in
+
+63
+00:04:31,810 --> 00:04:34,550
+the case where he is not equal to has that
+
+64
+00:04:34,560 --> 00:04:37,110
+expectation, Diamond is not motivated by zero,
+
+65
+00:04:38,010 --> 00:04:43,460
+expectation in itself was proportional to end and
+
+66
+00:04:43,540 --> 00:04:48,740
+the two P minus one. So if we plug those in. We
+
+67
+00:04:48,740 --> 00:04:51,270
+have. To.
+
+68
+00:04:56,940 --> 00:04:57,450
+Q.
+
+69
+00:05:01,600 --> 00:05:02,690
+Can pull out.
+
+70
+00:05:05,190 --> 00:05:08,920
+Won over in times. The remainder of stuff that
+
+71
+00:05:08,920 --> 00:05:11,670
+depends on the details of the walk, we would
+
+72
+00:05:11,670 --> 00:05:16,030
+define the probabilities of stepping in either of
+
+73
+00:05:16,030 --> 00:05:19,480
+the allowable directions and related the number of
+
+74
+00:05:19,480 --> 00:05:23,530
+steps to the total length of time that the walk
+
+75
+00:05:23,530 --> 00:05:28,950
+takes. And up with that. Velocity for each
+
+76
+00:05:28,980 --> 00:05:32,470
+timestep of the total time, 90 times that same.
+
+77
+00:05:34,460 --> 00:05:38,450
+Somewhat messy factor, which is disproportional to
+
+78
+00:05:38,450 --> 00:05:42,980
+one over square root tea. So this ratio of scale
+
+79
+00:05:42,980 --> 00:05:46,220
+of relative fluctuations ends up going to zero
+
+80
+00:05:46,400 --> 00:05:49,790
+with one over security as the water gets longer
+
+81
+00:05:49,790 --> 00:05:52,400
+and longer. Approach that large and limits. There
+
+82
+00:05:52,430 --> 00:05:55,310
+are many steps all being added together in the
+
+83
+00:05:55,310 --> 00:05:57,860
+same sort of way that we saw for the central limit
+
+84
+00:05:57,860 --> 00:06:01,130
+theorem, which is.
+
+85
+00:06:03,250 --> 00:06:06,460
+Not necessarily what we might have guessed just by
+
+86
+00:06:06,460 --> 00:06:10,600
+looking at in particular this plot on the left
+
+87
+00:06:10,630 --> 00:06:14,620
+with the Lodrick velocity. It does not look like
+
+88
+00:06:14,620 --> 00:06:19,450
+the fluctuations are vanishing relative to the
+
+89
+00:06:20,260 --> 00:06:22,870
+expectation values. The highest point in that
+
+90
+00:06:22,870 --> 00:06:28,510
+curve and the of the only reason that's looking at
+
+91
+00:06:28,510 --> 00:06:30,400
+this part rather than doing the actual
+
+92
+00:06:30,400 --> 00:06:33,250
+mathematical calculation, what a excuse us is just
+
+93
+00:06:33,250 --> 00:06:38,110
+a trick of the eye. And considering times that are
+
+94
+00:06:38,110 --> 00:06:42,250
+not sufficiently long to suppress the particular
+
+95
+00:06:42,250 --> 00:06:46,240
+combination of P's and Q's that are showing up in
+
+96
+00:06:46,240 --> 00:06:46,990
+this case.
+
+97
+00:06:51,280 --> 00:06:51,880
+So
+
+98
+00:06:53,950 --> 00:06:58,240
+the conclusion of this is that even though the
+
+99
+00:06:58,240 --> 00:07:00,730
+probability distribution is spreading out around
+
+100
+00:07:00,730 --> 00:07:04,420
+that expectation, at most times, that drift is
+
+101
+00:07:04,420 --> 00:07:10,420
+always going to win, which is. I mentioned the
+
+102
+00:07:10,460 --> 00:07:15,090
+start of this exercise we could have. Forecast by
+
+103
+00:07:15,480 --> 00:07:19,530
+remembering the law of diffusion that is on the
+
+104
+00:07:19,560 --> 00:07:21,930
+scale of fluctuations, grows proportional to the
+
+105
+00:07:21,930 --> 00:07:24,690
+square root of tea, while the expectation values
+
+106
+00:07:24,690 --> 00:07:29,520
+proportional. See, so the ratio is just that one
+
+107
+00:07:29,520 --> 00:07:32,280
+over square root of tea and dependent on the
+
+108
+00:07:32,280 --> 00:07:37,220
+details of the steps and probabilities that we
+
+109
+00:07:37,220 --> 00:07:41,010
+impose for the particular grand walk. And this is
+
+110
+00:07:42,150 --> 00:07:44,790
+useful to know because it is very general, which
+
+111
+00:07:44,790 --> 00:07:47,730
+we can see by applying the central limit theorem,
+
+112
+00:07:49,650 --> 00:07:54,780
+which we saw last week, was where we stated, I
+
+113
+00:07:54,780 --> 00:07:58,500
+should say, last week was a very general limit
+
+114
+00:07:58,500 --> 00:08:02,520
+theorem applicable to all random processes where
+
+115
+00:08:02,640 --> 00:08:07,500
+the mean and variance for each of the single
+
+116
+00:08:07,500 --> 00:08:09,960
+experiments that's being repeated many times,
+
+117
+00:08:10,590 --> 00:08:14,220
+those mean and variances are finite. We train the
+
+118
+00:08:14,220 --> 00:08:17,210
+variable. So.
+
+119
+00:08:24,190 --> 00:08:26,140
+The connection to the central limit theorem to
+
+120
+00:08:26,140 --> 00:08:30,560
+consider. Is the way I think I mentioned yesterday,
+
+121
+00:08:30,580 --> 00:08:35,950
+each step in that random walk becomes that random
+
+122
+00:08:35,950 --> 00:08:38,620
+variable. It's independent, it's identically
+
+123
+00:08:38,620 --> 00:08:43,750
+distributed, and once we add up all of the steps,
+
+124
+00:08:44,020 --> 00:08:49,060
+we're still fixing that length to be one. The sum
+
+125
+00:08:49,390 --> 00:08:52,480
+of all the steps and the random walk is exactly
+
+126
+00:08:52,480 --> 00:08:57,100
+the same quantity s for which we.
+
+127
+00:08:59,690 --> 00:09:00,560
+In terms of which.
+
+128
+00:09:03,850 --> 00:09:06,250
+We introduced the form of the central limit
+
+129
+00:09:06,250 --> 00:09:11,230
+theorem that is relevant to. She you to work, and
+
+130
+00:09:11,240 --> 00:09:13,990
+we saw there that the overall probability
+
+131
+00:09:13,990 --> 00:09:18,610
+distribution for the length of that random walk or
+
+132
+00:09:18,610 --> 00:09:23,500
+that some of the steps depends only on the
+
+133
+00:09:23,500 --> 00:09:27,100
+characteristics of that underlying single step
+
+134
+00:09:27,100 --> 00:09:30,660
+process. Those characteristics being the mean and
+
+135
+00:09:30,660 --> 00:09:36,990
+variance where you saved the letters new and sigma
+
+136
+00:09:37,440 --> 00:09:43,520
+for the single step. It is a single step we can
+
+137
+00:09:43,700 --> 00:09:47,480
+very easily compute what the mean and variances.
+
+138
+00:09:48,530 --> 00:09:53,330
+And you may have already done so in your head.
+
+139
+00:09:53,840 --> 00:09:55,880
+Does anyone have an idea for how to go about
+
+140
+00:09:55,880 --> 00:10:00,140
+computing? I mean, just of that process of taking
+
+141
+00:10:00,140 --> 00:10:03,620
+a step farther to the left minus one was probably
+
+142
+00:10:03,620 --> 00:10:07,100
+a cue or to the rights one plus one the
+
+143
+00:10:07,110 --> 00:10:07,960
+probability.
+
+144
+00:10:18,150 --> 00:10:23,260
+This is before. It's the usual definition sum over
+
+145
+00:10:23,280 --> 00:10:27,440
+all the possibilities and the outcome sets that
+
+146
+00:10:27,480 --> 00:10:31,030
+walk length of times the corresponding probability.
+
+147
+00:10:31,680 --> 00:10:35,340
+So the walk length with C plus one to go to the
+
+148
+00:10:35,340 --> 00:10:38,950
+right probability, T minus one to go to the left
+
+149
+00:10:38,950 --> 00:10:43,320
+with probability. Q And that is putting it to
+
+150
+00:10:44,190 --> 00:10:48,090
+being one minus P, you get to P minus one, which
+
+151
+00:10:48,090 --> 00:10:50,880
+just so happens to be the expectation value for
+
+152
+00:10:50,880 --> 00:10:54,210
+the total supply divided by the number of steps.
+
+153
+00:10:55,240 --> 00:10:57,960
+So the fundamental definition is behaving as you
+
+154
+00:10:57,960 --> 00:11:01,680
+would expect and similarly for the expectation
+
+155
+00:11:01,680 --> 00:11:05,760
+value of XY squared. The only difference here is
+
+156
+00:11:05,760 --> 00:11:10,620
+that minus one squared goes to four equals one. So
+
+157
+00:11:10,620 --> 00:11:14,610
+instead of minus two, we get plus Q. And those two
+
+158
+00:11:14,610 --> 00:11:18,240
+possibilities always add up to 100 percent
+
+159
+00:11:18,250 --> 00:11:20,880
+Firewalker stepping only to the left or to the
+
+160
+00:11:20,880 --> 00:11:24,060
+right. So then it's just the process of plugging
+
+161
+00:11:24,060 --> 00:11:28,680
+those in to the variance. The expectation value of
+
+162
+00:11:28,680 --> 00:11:32,550
+the square is one and then the square of the
+
+163
+00:11:32,550 --> 00:11:37,200
+expectation value is square that for P squared,
+
+164
+00:11:38,430 --> 00:11:39,990
+minus four. Plus one.
+
+165
+00:11:42,320 --> 00:11:47,660
+Which is just for three times when minus P
+
+166
+00:11:48,650 --> 00:11:50,150
+distributing that negative sign.
+
+167
+00:11:53,570 --> 00:11:58,280
+Which again, when I was P is for P, Q, which is.
+
+168
+00:11:59,840 --> 00:12:02,060
+Scale of fluctuations in the total SNEPP length,
+
+169
+00:12:02,720 --> 00:12:09,430
+also divided by N. So from the form of a central
+
+170
+00:12:09,670 --> 00:12:13,870
+bureau that was written down. A few pages earlier,
+
+171
+00:12:13,880 --> 00:12:18,850
+the notes and is essentially reproduced here. We
+
+172
+00:12:18,850 --> 00:12:25,120
+have to do is plug in this for Q, where Sigma
+
+173
+00:12:25,120 --> 00:12:28,420
+Squared appears in the probability distribution
+
+174
+00:12:28,420 --> 00:12:31,810
+for the summer, we call called X for the total
+
+175
+00:12:31,810 --> 00:12:38,410
+lauchlan. And similarly to minus one. That's where
+
+176
+00:12:40,420 --> 00:12:45,130
+the need for that single step process occurs, and
+
+177
+00:12:45,130 --> 00:12:49,450
+then it's easy enough to rewrite that in terms of
+
+178
+00:12:49,990 --> 00:12:50,380
+the.
+
+179
+00:12:52,490 --> 00:13:01,340
+The diffusion constant, the. B squared was four P
+
+180
+00:13:01,380 --> 00:13:05,340
+Q we computed earlier and that drift velocity.
+
+181
+00:13:07,300 --> 00:13:13,750
+Which was. Just. Make sure I don't drop any
+
+182
+00:13:14,590 --> 00:13:15,420
+factors.
+
+183
+00:13:18,840 --> 00:13:24,600
+I did drop by a factor of. The Delta teams that
+
+184
+00:13:24,600 --> 00:13:29,530
+are canceling out. With this and we're actually
+
+185
+00:13:29,530 --> 00:13:31,690
+delighted to be here, I'm tending to one that is.
+
+186
+00:13:34,310 --> 00:13:37,680
+This is in this particular form. So then the drift
+
+187
+00:13:37,680 --> 00:13:46,060
+velocity itself is exactly that. In T minus one.
+
+188
+00:13:49,090 --> 00:13:53,470
+So we have the probability distribution for the
+
+189
+00:13:53,470 --> 00:13:55,960
+final position of the war just as a normal
+
+190
+00:13:55,960 --> 00:14:01,510
+distribution, which is precisely what we're
+
+191
+00:14:01,510 --> 00:14:08,700
+looking at in the possibly we. Discussed yesterday.
+
+192
+00:14:10,590 --> 00:14:14,910
+And what this means is a general.
+
+193
+00:14:17,890 --> 00:14:23,920
+Outcome to take away is that whenever the. Central
+
+194
+00:14:24,520 --> 00:14:28,270
+is applicable, so whatever that means in terms of
+
+195
+00:14:28,270 --> 00:14:32,440
+the single step process are finite, we can
+
+196
+00:14:32,440 --> 00:14:39,650
+identify. Drift velocity as related to the meat of
+
+197
+00:14:39,650 --> 00:14:42,290
+that single step process and the diffusion
+
+198
+00:14:42,290 --> 00:14:46,740
+constant. He's connected to the variance of that
+
+199
+00:14:46,740 --> 00:14:50,370
+single step process, and upon adding up all of
+
+200
+00:14:50,370 --> 00:14:54,450
+these individual random processes, we end up with
+
+201
+00:14:54,900 --> 00:14:58,380
+a smooth, normal distribution for the position of
+
+202
+00:14:58,380 --> 00:15:02,460
+the water. At the end of its log is a function of
+
+203
+00:15:02,460 --> 00:15:07,740
+the time that the law takes. So that establishes
+
+204
+00:15:08,790 --> 00:15:13,920
+precisely how general matlab diffusion is. It will
+
+205
+00:15:14,280 --> 00:15:18,560
+apply. So the. Scale the fluctuations increasing
+
+206
+00:15:18,560 --> 00:15:20,840
+proportional to the square t the probability of
+
+207
+00:15:20,840 --> 00:15:24,650
+diffusing away from the expectation that it's
+
+208
+00:15:24,650 --> 00:15:27,680
+going to be the case whenever that central limit
+
+209
+00:15:27,680 --> 00:15:29,780
+theorem is applicable.
+
+210
+00:15:33,220 --> 00:15:38,990
+And if we. Look at the final form of the
+
+211
+00:15:38,990 --> 00:15:42,790
+probability distribution. Expressed here, you can
+
+212
+00:15:42,790 --> 00:15:46,510
+sort of read off the kind of behavior we were
+
+213
+00:15:46,510 --> 00:15:48,310
+seeing, the response that as.
+
+214
+00:15:51,420 --> 00:15:55,410
+We look further and further away from the peak of
+
+215
+00:15:55,410 --> 00:15:58,120
+this probability distribution, which is the place
+
+216
+00:15:58,120 --> 00:16:00,660
+where the negative factor in this exponential is
+
+217
+00:16:00,750 --> 00:16:03,300
+the smallest, right, where the numerator is equal
+
+218
+00:16:03,300 --> 00:16:07,990
+to zero as we get further away from that. In order
+
+219
+00:16:07,990 --> 00:16:13,640
+to. Achieve the same probability of oral arguments
+
+220
+00:16:13,640 --> 00:16:19,220
+to reach a given value, this. Denominator dividing
+
+221
+00:16:19,220 --> 00:16:24,650
+through factor X minus velocity quantity squared
+
+222
+00:16:25,040 --> 00:16:31,760
+also has to become larger. In other words, at. The
+
+223
+00:16:31,760 --> 00:16:35,570
+peak is becoming broader and then the overall
+
+224
+00:16:36,080 --> 00:16:39,080
+multiplicative factor is just there in order to
+
+225
+00:16:39,080 --> 00:16:42,770
+keep the overall probability integrated of all
+
+226
+00:16:42,770 --> 00:16:47,440
+possible values equal to one hundred percent. As
+
+227
+00:16:47,440 --> 00:16:48,820
+required by its definition.
+
+228
+00:16:50,980 --> 00:16:56,050
+Now, we'll just wrap up by saying that. It is
+
+229
+00:16:56,050 --> 00:16:59,020
+possible for the central in the film and the law
+
+230
+00:16:59,020 --> 00:17:03,080
+of diffusion to break down, and that will be part
+
+231
+00:17:03,080 --> 00:17:05,170
+two of the computer project where the first part
+
+232
+00:17:05,770 --> 00:17:07,870
+you're going to look at a slightly more
+
+233
+00:17:07,870 --> 00:17:10,570
+interesting random walk where the step lengths are
+
+234
+00:17:11,110 --> 00:17:15,700
+not fixed to across the valley, but are drawn
+
+235
+00:17:15,700 --> 00:17:19,960
+randomly from a probability distribution obtained
+
+236
+00:17:19,960 --> 00:17:24,480
+by the transform sampling. And then in the second
+
+237
+00:17:24,480 --> 00:17:27,690
+part of the project. So the first part, we draw
+
+238
+00:17:28,230 --> 00:17:31,380
+those variable step sizes from a well-behaved
+
+239
+00:17:31,380 --> 00:17:35,070
+probability distribution with a finite mean and
+
+240
+00:17:35,070 --> 00:17:40,080
+variance. The second part, we look at a more
+
+241
+00:17:40,080 --> 00:17:44,350
+complicated distribution where. The central limit
+
+242
+00:17:44,350 --> 00:17:48,040
+theorem and more diffusion will break down. So
+
+243
+00:17:48,040 --> 00:17:51,580
+that is it's getting everything in place for work
+
+244
+00:17:51,580 --> 00:17:54,190
+on that computer project. Now, there any.
+
+245
+00:17:55,280 --> 00:17:56,210
+Questions about.
+
+246
+00:17:58,780 --> 00:18:00,880
+Any of the stuff we've seen so far wrapping up
+
+247
+00:18:00,880 --> 00:18:02,830
+with these random box?
+
+248
+00:18:08,870 --> 00:18:10,520
+Because at this point, we're going to
+
+249
+00:18:12,530 --> 00:18:17,690
+move to the second unit and in particular dive
+
+250
+00:18:17,690 --> 00:18:25,250
+into the sort of core focus of this module as a
+
+251
+00:18:25,250 --> 00:18:27,850
+whole, which is the concept of statistical
+
+252
+00:18:27,850 --> 00:18:32,130
+ensembles, building of this community foundation
+
+253
+00:18:32,140 --> 00:18:37,640
+we've so far in terms of. Collections of large
+
+254
+00:18:37,640 --> 00:18:39,620
+numbers of repeated experiments
+
+255
+00:18:42,410 --> 00:18:45,770
+drawn from some distribution with an element of
+
+256
+00:18:45,770 --> 00:18:49,040
+randomness that collectively give rise to a
+
+257
+00:18:49,490 --> 00:18:53,480
+well-defined, smooth behavior governed by its
+
+258
+00:18:53,480 --> 00:18:56,480
+central limit, involve large numbers when there
+
+259
+00:18:56,480 --> 00:19:02,030
+are insufficient number of degrees of freedom. In
+
+260
+00:19:02,030 --> 00:19:06,800
+the system, so we're going to start off with
+
+261
+00:19:07,400 --> 00:19:10,370
+another round of definitions and showing where
+
+262
+00:19:10,610 --> 00:19:14,170
+this more physical concept of statistical
+
+263
+00:19:14,170 --> 00:19:17,010
+ensembles and thermodynamics in particular from
+
+264
+00:19:17,150 --> 00:19:23,270
+the real connects to the probability spaces and
+
+265
+00:19:23,270 --> 00:19:26,060
+random processes seem so far.
+
+266
+00:19:28,900 --> 00:19:34,420
+So. The basic perspective is. Connecting to the
+
+267
+00:19:34,420 --> 00:19:38,110
+definitions we started off with last week, the
+
+268
+00:19:38,110 --> 00:19:40,840
+experiments that we're going to consider in the
+
+269
+00:19:40,840 --> 00:19:43,630
+context of thermodynamics are simply taking some
+
+270
+00:19:43,630 --> 00:19:47,440
+collection of degrees of freedom of particles in
+
+271
+00:19:47,440 --> 00:19:50,980
+general for short and just look at the arrangement
+
+272
+00:19:50,980 --> 00:19:54,670
+of those particles as they evolved in time subject
+
+273
+00:19:55,060 --> 00:20:00,310
+to certain constraints. So we the state system or
+
+274
+00:20:00,310 --> 00:20:03,280
+equivalently the measurement that we are
+
+275
+00:20:03,310 --> 00:20:06,190
+interested in performing on that stage at a given
+
+276
+00:20:06,190 --> 00:20:11,260
+time. It's just defined by the arrangement of
+
+277
+00:20:11,290 --> 00:20:14,470
+these many underlying degrees of freedom. So a
+
+278
+00:20:14,470 --> 00:20:16,840
+concrete example.
+
+279
+00:20:19,340 --> 00:20:24,040
+Which is one we will. Look at a few times in a few
+
+280
+00:20:24,040 --> 00:20:29,310
+different perspectives. This system is. To suppose
+
+281
+00:20:29,310 --> 00:20:32,280
+there are degrees of freedom are what are called
+
+282
+00:20:32,280 --> 00:20:36,120
+spin's essentially arrows that can point either up
+
+283
+00:20:36,120 --> 00:20:40,950
+or down. So this likely the simple right of what
+
+284
+00:20:40,950 --> 00:20:42,570
+you were just looking at. There were only two
+
+285
+00:20:42,570 --> 00:20:44,910
+possibilities. This has some of the same
+
+286
+00:20:44,910 --> 00:20:49,020
+mathematical features. As simple coin for the
+
+287
+00:20:49,020 --> 00:20:53,100
+experiment, the final breakdown they represented
+
+288
+00:20:53,100 --> 00:20:58,410
+the state for as it spins here. To just have some
+
+289
+00:20:58,410 --> 00:21:01,050
+pointing out, some pointing down, if I were to
+
+290
+00:21:01,050 --> 00:21:04,320
+label those heads or tails, it would be the same
+
+291
+00:21:04,320 --> 00:21:07,290
+sort of state that we would get from flipping a
+
+292
+00:21:07,290 --> 00:21:11,820
+coin here or call it the configuration of these
+
+293
+00:21:11,820 --> 00:21:16,150
+spins and the. Total number of possible
+
+294
+00:21:16,150 --> 00:21:20,110
+configurations is just the total number of ways
+
+295
+00:21:20,110 --> 00:21:22,690
+this and spins.
+
+296
+00:21:25,340 --> 00:21:29,480
+Can each independently be pointing either up or
+
+297
+00:21:29,480 --> 00:21:32,840
+down? So two possibilities for each and spins,
+
+298
+00:21:33,290 --> 00:21:37,450
+which in this case of equals eight us that
+
+299
+00:21:37,520 --> 00:21:41,810
+backwards because it is two possibilities for.
+
+300
+00:21:43,180 --> 00:21:44,530
+Each of the US spends.
+
+301
+00:21:47,920 --> 00:21:51,070
+Starting to get that backwards in the case of any
+
+302
+00:21:51,070 --> 00:21:54,950
+of those eight. Two of the eight is two hundred
+
+303
+00:21:54,950 --> 00:21:56,740
+and fifty six possibilities.
+
+304
+00:22:06,440 --> 00:22:11,310
+If we then. Let the system evolve in time and look
+
+305
+00:22:11,310 --> 00:22:14,430
+at it again at some different time, too, as
+
+306
+00:22:14,430 --> 00:22:19,740
+opposed to T one, we will get a new state or two
+
+307
+00:22:20,340 --> 00:22:24,750
+that is in general different from a legal one, but.
+
+308
+00:22:26,370 --> 00:22:29,850
+From either empirical observation of physical
+
+309
+00:22:29,850 --> 00:22:35,820
+systems or Gerda's theorem, we know that there are
+
+310
+00:22:36,510 --> 00:22:39,930
+certain measurements on the state that would
+
+311
+00:22:39,930 --> 00:22:43,950
+always produce the same outcome, even as the state
+
+312
+00:22:43,950 --> 00:22:47,640
+changes over time. And that was an outcome that is
+
+313
+00:22:47,640 --> 00:22:50,610
+always the same for different states, is what we
+
+314
+00:22:50,610 --> 00:22:54,780
+know as the conserved quantity. The obvious
+
+315
+00:22:54,780 --> 00:22:57,330
+example we're hopefully familiar will be
+
+316
+00:22:57,750 --> 00:23:02,550
+conservation of energy inside a closed or isolated
+
+317
+00:23:02,550 --> 00:23:07,230
+system that is not in contact with any other
+
+318
+00:23:07,230 --> 00:23:11,280
+system. It can be considered just if they hold the.
+
+319
+00:23:14,810 --> 00:23:18,050
+When it is considered as a whole, it's total
+
+320
+00:23:18,050 --> 00:23:21,290
+energy has to be conserved, so the same as a
+
+321
+00:23:21,290 --> 00:23:25,140
+measurement on. And the possible states that can
+
+322
+00:23:25,140 --> 00:23:28,590
+be produced by the time evolution of our
+
+323
+00:23:28,590 --> 00:23:30,030
+collection of degrees of freedom.
+
+324
+00:23:34,850 --> 00:23:38,720
+Probably familiar, and you may know that it can be
+
+325
+00:23:38,930 --> 00:23:42,610
+rigorously proven through his first theorem.
+
+326
+00:23:43,600 --> 00:23:46,750
+Something that you won't go through here, you
+
+327
+00:23:46,750 --> 00:23:49,000
+might see in a field through the group theory
+
+328
+00:23:50,230 --> 00:23:57,260
+module. But because. Statistical physics was first
+
+329
+00:23:57,260 --> 00:24:02,120
+developed before his theory, this conservation of
+
+330
+00:24:02,120 --> 00:24:05,690
+energy was merely an empirical observation that
+
+331
+00:24:05,690 --> 00:24:11,850
+was. Taken to be a fundamental law of the universe
+
+332
+00:24:12,210 --> 00:24:18,720
+known as the first law of thermodynamics. So this
+
+333
+00:24:18,720 --> 00:24:21,240
+first law sounds impressive. It really is just
+
+334
+00:24:21,240 --> 00:24:23,520
+energy conservation or equivalently, the statement
+
+335
+00:24:23,520 --> 00:24:27,870
+that if an energy of some system, which we can
+
+336
+00:24:27,870 --> 00:24:31,740
+call a capital, will make changes, then this
+
+337
+00:24:31,740 --> 00:24:35,280
+change in energy must be compensated or accounted
+
+338
+00:24:35,280 --> 00:24:38,310
+for by an equal and opposite change in the energy
+
+339
+00:24:38,310 --> 00:24:42,510
+of some other system with which America is in
+
+340
+00:24:42,510 --> 00:24:47,550
+contact, which we will see in the context of where
+
+341
+00:24:47,550 --> 00:24:50,820
+we will apply that to handle heat engines,
+
+342
+00:24:50,820 --> 00:24:54,270
+refrigerators and other similar cycles in the
+
+343
+00:24:54,270 --> 00:24:57,780
+framework of the economical ensemble. But before
+
+344
+00:24:57,780 --> 00:25:00,630
+we get to canonical ensemble, we have to define
+
+345
+00:25:01,560 --> 00:25:10,340
+what an ensemble is in and of itself. And that. In
+
+346
+00:25:10,340 --> 00:25:14,120
+order to do so, we can start thinking about
+
+347
+00:25:14,450 --> 00:25:18,590
+conservation of energy a bit more concretely and
+
+348
+00:25:18,770 --> 00:25:22,580
+getting back to that speed system that follows the
+
+349
+00:25:22,580 --> 00:25:25,760
+same mathematics and sticking points, we can bring
+
+350
+00:25:25,760 --> 00:25:31,850
+in energy by supposing that these things are each
+
+351
+00:25:31,860 --> 00:25:35,030
+representing the magnetic dipole moments of some
+
+352
+00:25:35,030 --> 00:25:39,020
+molecule that can interact with a constant
+
+353
+00:25:39,560 --> 00:25:42,790
+external magnetic field, the strength we will call
+
+354
+00:25:42,800 --> 00:25:45,230
+H where the strength of the magnetic field.
+
+355
+00:25:48,520 --> 00:25:51,700
+Really just has to do with the energy that it
+
+356
+00:25:51,700 --> 00:25:54,850
+contributes to interacting with any one of these
+
+357
+00:25:54,850 --> 00:25:58,750
+spins. So we have a.
+
+358
+00:26:01,770 --> 00:26:05,790
+Magnetic field oriented upward with that strength
+
+359
+00:26:05,790 --> 00:26:09,930
+age, and I'm assume that this is this field is
+
+360
+00:26:09,930 --> 00:26:15,270
+pervading this whole box that I'm drawing, and if
+
+361
+00:26:15,270 --> 00:26:17,820
+I have this upward pointing spin that is parallel
+
+362
+00:26:18,210 --> 00:26:19,140
+to that field.
+
+363
+00:26:21,480 --> 00:26:24,630
+We're going to say that this contributes energy
+
+364
+00:26:24,630 --> 00:26:26,130
+age to the.
+
+365
+00:26:30,810 --> 00:26:34,590
+This is negative if you want. So there is a
+
+366
+00:26:35,310 --> 00:26:36,450
+negative energy.
+
+367
+00:26:39,260 --> 00:26:44,090
+Coming in from having a spin, a line with the
+
+368
+00:26:44,210 --> 00:26:49,190
+magnetic field, if there is similarly the spin and
+
+369
+00:26:49,200 --> 00:26:51,200
+she aligned, pointing opposite to that magnetic
+
+370
+00:26:51,200 --> 00:26:55,340
+field, the energy that it contributes as well is.
+
+371
+00:26:56,310 --> 00:26:56,970
+Depositary.
+
+372
+00:27:05,590 --> 00:27:10,780
+We have then some number of spins pointing upward
+
+373
+00:27:11,350 --> 00:27:16,780
+and the remainder point downward, total energy of
+
+374
+00:27:16,780 --> 00:27:23,320
+that system. Is negative eight times the number
+
+375
+00:27:23,320 --> 00:27:29,030
+pointing upward. What's the positive age from the
+
+376
+00:27:29,030 --> 00:27:34,580
+remainder? And spins minus those and plus upward
+
+377
+00:27:34,580 --> 00:27:37,820
+pointing spins, which we can rearrange into.
+
+378
+00:27:40,690 --> 00:27:41,440
+That same.
+
+379
+00:27:50,020 --> 00:27:54,520
+But a minus eight, minus three to plus minus and.
+
+380
+00:27:58,220 --> 00:28:01,970
+Somewhat similar to the length of the random walk
+
+381
+00:28:01,970 --> 00:28:04,010
+that we were looking at previously, just because
+
+382
+00:28:04,010 --> 00:28:08,720
+we've defined simple systems that have the same
+
+383
+00:28:08,720 --> 00:28:13,340
+mathematical features as these new coin flip. So.
+
+384
+00:28:14,750 --> 00:28:20,320
+If I looked up the. State that I came up with on
+
+385
+00:28:20,380 --> 00:28:24,910
+the previous page, and just as a reminder, six
+
+386
+00:28:24,910 --> 00:28:27,640
+upward point expense and two pointing down.
+
+387
+00:28:32,170 --> 00:28:33,370
+The energy of that.
+
+388
+00:28:36,030 --> 00:28:39,320
+Representing the state would be this minus age
+
+389
+00:28:39,330 --> 00:28:43,110
+factor with two times six is 12, minus the total
+
+390
+00:28:43,110 --> 00:28:47,250
+number of students is eight. So that is minus four,
+
+391
+00:28:47,520 --> 00:28:48,750
+which is less than zero.
+
+392
+00:28:50,950 --> 00:28:53,800
+And that the negative sign of the total energy is
+
+393
+00:28:53,800 --> 00:28:56,620
+just a reflection of the majority of those
+
+394
+00:28:56,620 --> 00:29:00,040
+standards being pointed upward, aligned with this
+
+395
+00:29:00,040 --> 00:29:02,200
+metallic field that's bringing in that negative
+
+396
+00:29:02,200 --> 00:29:02,680
+energy.
+
+397
+00:29:04,690 --> 00:29:05,290
+So.
+
+398
+00:29:08,850 --> 00:29:13,960
+The interesting. Or an important consequence of
+
+399
+00:29:14,080 --> 00:29:18,310
+defining this energy is that since it is conserved,
+
+400
+00:29:18,520 --> 00:29:21,280
+there's now only a fraction of those two to the
+
+401
+00:29:21,280 --> 00:29:24,400
+eighth or two hundred fifty six states that are
+
+402
+00:29:24,550 --> 00:29:25,300
+accessible.
+
+403
+00:29:28,530 --> 00:29:29,160
+So.
+
+404
+00:29:39,990 --> 00:29:43,340
+If we look at the total number of states with
+
+405
+00:29:43,890 --> 00:29:46,490
+serious energy, not zero, but.
+
+406
+00:29:49,250 --> 00:29:50,470
+Minus four H.
+
+407
+00:29:54,700 --> 00:29:57,640
+How many of those two hundred fifty six states
+
+408
+00:29:58,750 --> 00:30:02,860
+would have this energy that we are going to see or
+
+409
+00:30:02,860 --> 00:30:07,660
+demand is conserved from connection to legacy or
+
+410
+00:30:08,530 --> 00:30:11,290
+everyday experience, empirical observation?
+
+411
+00:30:17,240 --> 00:30:20,210
+Can anyone tell the other what computation I would
+
+412
+00:30:20,210 --> 00:30:24,770
+need to do or just the answer to the total number
+
+413
+00:30:24,770 --> 00:30:27,830
+of those two hundred and fifty six states with
+
+414
+00:30:27,830 --> 00:30:28,520
+this energy?
+
+415
+00:30:44,620 --> 00:30:50,140
+So that is binomial coefficients. Eight to six,
+
+416
+00:30:50,860 --> 00:30:53,320
+which is a factorial over six factorial.
+
+417
+00:30:56,970 --> 00:31:00,000
+Times two. So the six Vectorial cancels out
+
+418
+00:31:00,630 --> 00:31:03,000
+everything below seven. So it's eight times seven.
+
+419
+00:31:03,000 --> 00:31:06,000
+Over to four times seven is twenty eight. So the
+
+420
+00:31:06,000 --> 00:31:11,230
+fraction. Of allowable states with a conserve
+
+421
+00:31:11,230 --> 00:31:16,700
+energy. Is that twenty eight over two, fifty six,
+
+422
+00:31:17,420 --> 00:31:22,670
+two, five, four and seven sixty four. So it's only
+
+423
+00:31:22,670 --> 00:31:25,430
+about 10 percent of the states that would be
+
+424
+00:31:25,880 --> 00:31:29,830
+accessible. To assess that once we impose
+
+425
+00:31:30,370 --> 00:31:34,860
+conservation of energy. And once we recognize that
+
+426
+00:31:34,860 --> 00:31:36,870
+energy is conserved.
+
+427
+00:31:41,650 --> 00:31:47,570
+We can also. Looking beyond the simple collection
+
+428
+00:31:47,570 --> 00:31:51,470
+of two state spins can talk about the energy use
+
+429
+00:31:51,840 --> 00:31:56,930
+for molecules in the container, which. It's
+
+430
+00:31:56,930 --> 00:31:59,810
+another standard example from dynamics that would
+
+431
+00:31:59,810 --> 00:32:02,660
+come back to you from several perspectives
+
+432
+00:32:02,660 --> 00:32:07,040
+repeatedly in this module where you can write a
+
+433
+00:32:07,040 --> 00:32:11,930
+simple expression. For the energy of these these
+
+434
+00:32:11,930 --> 00:32:15,550
+molecules by. Assuming that they are small enough,
+
+435
+00:32:15,550 --> 00:32:19,240
+we can approximate them as a point particle where
+
+436
+00:32:19,240 --> 00:32:24,060
+we ignore any size that they have or any structure,
+
+437
+00:32:24,070 --> 00:32:27,630
+the spin or angular momentum that they may have.
+
+438
+00:32:28,390 --> 00:32:31,600
+So that reduces the energy to just a computation
+
+439
+00:32:31,600 --> 00:32:37,690
+of kinetic energy. The velocity squared for each
+
+440
+00:32:37,690 --> 00:32:40,870
+of these molecules times, the mass that we assume
+
+441
+00:32:40,870 --> 00:32:45,490
+is the same for each molecule and we can rearrange
+
+442
+00:32:45,490 --> 00:32:51,320
+in terms of momentum. He's the mass times velocity
+
+443
+00:32:52,040 --> 00:32:56,990
+and the energy that is the sum of all of his party
+
+444
+00:32:56,990 --> 00:33:01,430
+calls for the momentum squared, which is a free
+
+445
+00:33:01,430 --> 00:33:05,720
+vector in a container in three dimensions divided
+
+446
+00:33:05,720 --> 00:33:09,140
+by this overall factor of one over two times the
+
+447
+00:33:09,140 --> 00:33:14,400
+mass. So whether we're thinking of spins in the
+
+448
+00:33:14,720 --> 00:33:18,140
+field or a bunch of molecules bouncing around a
+
+449
+00:33:18,140 --> 00:33:22,900
+container, we have the perspective that the time
+
+450
+00:33:22,910 --> 00:33:27,500
+evolution of any of these systems is is the Kaspi
+
+451
+00:33:27,500 --> 00:33:32,200
+process. And was the system probabilistically
+
+452
+00:33:32,200 --> 00:33:37,410
+adopts the sequence of states? Drawn from the
+
+453
+00:33:37,410 --> 00:33:40,770
+total outcome space of all of the configurations
+
+454
+00:33:41,400 --> 00:33:45,820
+of spenger molecules or in general particles. That
+
+455
+00:33:46,000 --> 00:33:50,500
+out of which it is composed, so rather than trying
+
+456
+00:33:50,500 --> 00:33:56,980
+to apply Newton's laws to follow the motion of all
+
+457
+00:33:56,980 --> 00:34:00,550
+of these ten of the twenty three molecules, which
+
+458
+00:34:00,550 --> 00:34:03,640
+would require writing down the power, twenty three
+
+459
+00:34:04,060 --> 00:34:06,430
+initial conditions and solving ten hour twenty
+
+460
+00:34:06,430 --> 00:34:09,940
+three differential equations, which is not
+
+461
+00:34:09,940 --> 00:34:16,270
+practical with any technology. We just. Say that
+
+462
+00:34:16,600 --> 00:34:20,470
+with each tick of some clock, the system with 10
+
+463
+00:34:20,470 --> 00:34:24,310
+to 20 free particles is adopting one state after
+
+464
+00:34:24,310 --> 00:34:27,250
+another after another, which is.
+
+465
+00:34:30,290 --> 00:34:33,920
+Exactly the set up that we went through and the
+
+466
+00:34:33,920 --> 00:34:37,550
+Probability Foundation's over the previous week.
+
+467
+00:34:38,760 --> 00:34:42,300
+And then you sort of form a connection between
+
+468
+00:34:42,990 --> 00:34:47,190
+this statistical view of physical systems and
+
+469
+00:34:47,190 --> 00:34:51,360
+those early foundations is this definition of
+
+470
+00:34:51,780 --> 00:34:56,610
+statistical ensemble that was introduced by a
+
+471
+00:34:57,510 --> 00:35:01,080
+physicist named Gibs in the early nineteen
+
+472
+00:35:01,080 --> 00:35:04,740
+hundreds. So that one hundred twenty years ago now
+
+473
+00:35:05,220 --> 00:35:09,760
+where the statistical ensemble is that same set of
+
+474
+00:35:09,760 --> 00:35:12,540
+all states that we defined in terms of
+
+475
+00:35:12,540 --> 00:35:13,350
+probabilities.
+
+476
+00:35:15,670 --> 00:35:18,040
+That's so the several states that the system could
+
+477
+00:35:18,040 --> 00:35:22,600
+possibly adopt through its time evolution and each
+
+478
+00:35:22,600 --> 00:35:26,710
+of these states has a corresponding probability of
+
+479
+00:35:26,710 --> 00:35:29,640
+being adopted by the system, are only going to
+
+480
+00:35:29,650 --> 00:35:33,070
+consider non-zero probabilities. So we say if the
+
+481
+00:35:33,070 --> 00:35:35,890
+state has no probability of being adopted, it's
+
+482
+00:35:35,890 --> 00:35:39,310
+not a possible state at all in the first place.
+
+483
+00:35:39,880 --> 00:35:44,370
+And we can recognize this connection of states
+
+484
+00:35:44,410 --> 00:35:49,000
+with probabilities as the probability space that
+
+485
+00:35:49,000 --> 00:35:51,670
+we were working with in that first year that.
+
+486
+00:35:53,680 --> 00:35:58,810
+And just as another piece of terminology, because
+
+487
+00:35:59,410 --> 00:36:04,990
+each of these states that. Our system of interest
+
+488
+00:36:04,990 --> 00:36:09,760
+can possibly take you specified by its microscopic
+
+489
+00:36:09,880 --> 00:36:12,280
+degrees of freedom, the particles that are
+
+490
+00:36:12,280 --> 00:36:14,230
+bouncing around and producing the large scale
+
+491
+00:36:14,230 --> 00:36:18,640
+behavior going to call them microstates, which
+
+492
+00:36:18,640 --> 00:36:22,360
+will eventually be contrasted with macro stage
+
+493
+00:36:22,360 --> 00:36:25,690
+with the states or quantum states, because there
+
+494
+00:36:25,690 --> 00:36:28,540
+are lots of different types of states with
+
+495
+00:36:28,540 --> 00:36:32,500
+connections between them that will come along in
+
+496
+00:36:32,500 --> 00:36:33,460
+the next few weeks.
+
+497
+00:36:35,480 --> 00:36:41,980
+So. The. Requirement for probability space that
+
+498
+00:36:41,980 --> 00:36:46,740
+the. Some over all the possibilities of all of the
+
+499
+00:36:46,740 --> 00:36:51,930
+states add up to one is now just the statement
+
+500
+00:36:51,930 --> 00:36:56,880
+that the system must be in some microstates at any
+
+501
+00:36:56,880 --> 00:37:00,090
+point in time, and the probabilistic sampling of
+
+502
+00:37:00,090 --> 00:37:06,010
+those microstates. It is going to define the
+
+503
+00:37:06,400 --> 00:37:09,970
+market, determine the behavior of the system that
+
+504
+00:37:10,780 --> 00:37:15,850
+emerges and is observed over those long timescales
+
+505
+00:37:15,850 --> 00:37:18,970
+with many steps and many states being sample.
+
+506
+00:37:21,470 --> 00:37:25,730
+Now, bringing in the fact that there are these
+
+507
+00:37:25,730 --> 00:37:31,200
+conserved quantities like the energy. You saw that
+
+508
+00:37:31,620 --> 00:37:35,460
+imposing that conservation restricts the number of
+
+509
+00:37:35,460 --> 00:37:39,060
+states that have a non-zero probability of being
+
+510
+00:37:39,060 --> 00:37:43,680
+adopted, which means that the statistical ensemble
+
+511
+00:37:43,800 --> 00:37:46,080
+defined as the sets of states with the
+
+512
+00:37:46,080 --> 00:37:49,760
+corresponding probabilities. Depends, which is
+
+513
+00:37:49,760 --> 00:37:53,900
+characterized by the particular quantities that
+
+514
+00:37:53,900 --> 00:37:58,180
+are conserved and the first example that we will
+
+515
+00:37:58,190 --> 00:38:02,030
+look at through this whole unit is what it's
+
+516
+00:38:02,030 --> 00:38:05,590
+called for obscure historical reasons, the micro
+
+517
+00:38:05,600 --> 00:38:09,470
+canonical ensemble. So it's a fancy name for a
+
+518
+00:38:09,470 --> 00:38:12,200
+simple idea. All it is, is that statistical
+
+519
+00:38:12,200 --> 00:38:16,040
+ensemble, a set of states that a system can adopt
+
+520
+00:38:17,090 --> 00:38:20,600
+where the energy is conserved and the number of
+
+521
+00:38:20,600 --> 00:38:24,720
+degrees of freedom. Is conserved, which because
+
+522
+00:38:24,720 --> 00:38:26,700
+degrees of freedom has a lot of syllables, what is
+
+523
+00:38:26,700 --> 00:38:29,280
+call that particle? So it might be economical
+
+524
+00:38:29,280 --> 00:38:34,200
+ensemble is the first example of a statistical
+
+525
+00:38:34,200 --> 00:38:37,080
+ensemble that will see really conserved quantities.
+
+526
+00:38:37,080 --> 00:38:41,640
+Characterizing it are the internal energy and the
+
+527
+00:38:41,640 --> 00:38:42,540
+particle. No.
+
+528
+00:38:45,480 --> 00:38:53,370
+And. The. The fact that. The energy in particular
+
+529
+00:38:53,370 --> 00:38:59,370
+is conservative, means that any system delivered
+
+530
+00:38:59,370 --> 00:39:02,370
+by the microbiological ensemble has to be isolated
+
+531
+00:39:02,370 --> 00:39:05,610
+in the sense that it's not in contact with any
+
+532
+00:39:05,610 --> 00:39:07,740
+other system with which you could exchange energy
+
+533
+00:39:07,740 --> 00:39:11,790
+or particles. So the thought of handwaving view of
+
+534
+00:39:11,790 --> 00:39:15,180
+a micro canonical system that we could have is a
+
+535
+00:39:15,180 --> 00:39:20,250
+bunch of particles in a box that is floating in a
+
+536
+00:39:20,250 --> 00:39:23,760
+perfect void in space and unable to exchange any
+
+537
+00:39:23,760 --> 00:39:27,630
+energy or particles or information with anything
+
+538
+00:39:27,630 --> 00:39:30,750
+else than we and the rest of the universe. So
+
+539
+00:39:30,750 --> 00:39:34,950
+impermeable walls around this collection of
+
+540
+00:39:34,950 --> 00:39:37,620
+particles through which none of the particles
+
+541
+00:39:37,620 --> 00:39:41,100
+themselves or the energy or radiation can travel.
+
+542
+00:39:53,060 --> 00:39:59,570
+If we think of this picture of particles in a
+
+543
+00:39:59,570 --> 00:40:04,490
+sealed container, we can make the approximation
+
+544
+00:40:04,490 --> 00:40:08,060
+that if this room were to be sealed off from the
+
+545
+00:40:08,060 --> 00:40:11,480
+outside world, so no one was coming in and out. No,
+
+546
+00:40:11,720 --> 00:40:15,460
+no noise, no able to leak in or out. That should
+
+547
+00:40:15,460 --> 00:40:20,770
+be. Described by a microeconomic ensemble, and we
+
+548
+00:40:20,780 --> 00:40:25,560
+do have some intuition about roughly how that
+
+549
+00:40:25,560 --> 00:40:28,920
+system should behave, and in particular our
+
+550
+00:40:28,920 --> 00:40:34,680
+intuition is that the. Behaviour of the states
+
+551
+00:40:34,680 --> 00:40:38,010
+that the system adopts over time tends to be
+
+552
+00:40:38,160 --> 00:40:42,420
+smooth and fairly uniform. So the usual suspects.
+
+553
+00:40:44,170 --> 00:40:47,410
+The particles of this box to be roughly evenly
+
+554
+00:40:47,410 --> 00:40:53,330
+spread as I. Sketched out just by unthinking
+
+555
+00:40:53,330 --> 00:40:56,690
+assumption here, rather than being all
+
+556
+00:40:56,870 --> 00:40:59,580
+concentrated in one corner of the room, and
+
+557
+00:40:59,600 --> 00:41:03,680
+similarly, if we did find, say, this room in a
+
+558
+00:41:03,680 --> 00:41:06,470
+state where all the air was concentrated in the
+
+559
+00:41:06,560 --> 00:41:09,320
+lower back right corner, you would expect that
+
+560
+00:41:09,320 --> 00:41:13,460
+states not to be typical, but all the area to
+
+561
+00:41:13,670 --> 00:41:16,880
+expand into the rest of the room, filling that
+
+562
+00:41:16,880 --> 00:41:19,970
+vacuum and producing something like what we feel.
+
+563
+00:41:21,110 --> 00:41:24,540
+Were the molecules forming the air? Have no
+
+564
+00:41:24,540 --> 00:41:27,360
+visible railings, no gusts of wind going through,
+
+565
+00:41:27,750 --> 00:41:29,000
+no big shifts in time.
+
+566
+00:41:31,680 --> 00:41:37,610
+So that intuition is. What we can have in mind
+
+567
+00:41:37,610 --> 00:41:41,060
+with this concept of thermodynamic equilibrium
+
+568
+00:41:41,930 --> 00:41:47,150
+where. It's really an axiom or hypothesis known as
+
+569
+00:41:47,150 --> 00:41:50,750
+the regarding hypothesis, that these physical
+
+570
+00:41:50,750 --> 00:41:55,180
+systems generically evolve towards the dynamic
+
+571
+00:41:55,190 --> 00:41:57,380
+equilibrium, the sort of stable state that
+
+572
+00:41:57,380 --> 00:42:00,890
+persists over time on human timescales.
+
+573
+00:42:02,950 --> 00:42:03,880
+Which we can.
+
+574
+00:42:07,400 --> 00:42:10,650
+Translater, move from the handwaving intuition.
+
+575
+00:42:10,670 --> 00:42:13,940
+I've been walking through towards a statement
+
+576
+00:42:13,940 --> 00:42:17,300
+about mathematics and probabilities by
+
+577
+00:42:17,750 --> 00:42:20,360
+mathematically defining what thermodynamic
+
+578
+00:42:20,360 --> 00:42:23,930
+equilibrium means, at least to the microeconomic
+
+579
+00:42:23,930 --> 00:42:27,920
+ensemble through these probabilities that we have.
+
+580
+00:42:29,580 --> 00:42:33,540
+Introduced for each states that are thermodynamic
+
+581
+00:42:33,540 --> 00:42:38,110
+system could possibly adopt. So with the
+
+582
+00:42:38,250 --> 00:42:40,140
+definitions that we have for micro economical
+
+583
+00:42:40,140 --> 00:42:42,720
+system, we'll make up the total number of
+
+584
+00:42:42,720 --> 00:42:47,310
+microstates in America called Capital M.
+
+585
+00:42:49,600 --> 00:42:54,190
+So the system is in thermodynamic equilibrium. If
+
+586
+00:42:54,490 --> 00:42:58,480
+and only if all of those probabilities are equal.
+
+587
+00:42:58,510 --> 00:43:03,100
+So that means any individual state has an equal
+
+588
+00:43:03,100 --> 00:43:06,730
+probability of being realised by the system
+
+589
+00:43:07,270 --> 00:43:10,560
+through its time evolution. And in particular,
+
+590
+00:43:10,560 --> 00:43:13,770
+because these movies have to add up to one and we
+
+591
+00:43:13,770 --> 00:43:16,560
+know there are some of them that are all equal, we
+
+592
+00:43:16,560 --> 00:43:18,810
+can immediately write down what the probabilities
+
+593
+00:43:18,810 --> 00:43:23,160
+are. They just one over so that the sum adds up to
+
+594
+00:43:23,160 --> 00:43:30,930
+one hundred percent. So. This. Conex, I guess it's
+
+595
+00:43:31,290 --> 00:43:33,180
+it may not be obvious how this mathematical
+
+596
+00:43:33,180 --> 00:43:38,580
+definition connects to the intuition I was going
+
+597
+00:43:38,580 --> 00:43:43,240
+through earlier in terms of what we expect for the
+
+598
+00:43:43,290 --> 00:43:46,440
+position of all the air molecules in this room.
+
+599
+00:43:48,130 --> 00:43:51,730
+And much of the remainder of this unit and indeed
+
+600
+00:43:51,730 --> 00:43:55,540
+the ability to connect the mathematics to everyday
+
+601
+00:43:55,540 --> 00:43:59,050
+experience, what does this mean? But before diving
+
+602
+00:43:59,050 --> 00:44:03,820
+into that, one thing to keep in mind. Is that
+
+603
+00:44:04,900 --> 00:44:09,370
+equilibrium, the steady state is again an example
+
+604
+00:44:09,370 --> 00:44:12,640
+of state being used in two different ways. The
+
+605
+00:44:12,640 --> 00:44:17,020
+overall large scale states of our system is steady
+
+606
+00:44:17,410 --> 00:44:20,410
+in the sense that it is in the delivery of it is
+
+607
+00:44:20,410 --> 00:44:26,630
+not showing any large scale changes, but. The
+
+608
+00:44:26,630 --> 00:44:29,240
+microstates being sampled by the system are
+
+609
+00:44:29,240 --> 00:44:32,450
+constantly changing from one moment of time to the
+
+610
+00:44:32,450 --> 00:44:32,950
+next.
+
+611
+00:44:34,950 --> 00:44:37,980
+So rather than being in a single micro state, be
+
+612
+00:44:38,430 --> 00:44:41,610
+this equilibrium system, which is the terminology
+
+613
+00:44:41,610 --> 00:44:44,860
+I should use instead of the states, it probably
+
+614
+00:44:44,880 --> 00:44:47,730
+simply adopts all of the possible micro states
+
+615
+00:44:48,330 --> 00:44:51,510
+with equal probability through its time evolution.
+
+616
+00:44:52,870 --> 00:44:59,100
+So. That initial section was largely a matter of
+
+617
+00:44:59,100 --> 00:45:03,030
+introducing definitions for statistical ensemble,
+
+618
+00:45:03,030 --> 00:45:07,320
+like a canonical ensemble and equilibrium. Are
+
+619
+00:45:07,320 --> 00:45:10,680
+there any questions about that before we wrap it
+
+620
+00:45:10,680 --> 00:45:12,400
+up for today?
+
+621
+00:45:26,810 --> 00:45:29,620
+Just in the last few minutes, I'll take a little
+
+622
+00:45:29,630 --> 00:45:35,120
+take a brief look at the next topic that will be
+
+623
+00:45:35,120 --> 00:45:39,210
+our focus on Friday, which brings in one of the
+
+624
+00:45:39,320 --> 00:45:43,190
+famous derived qualities that I'm sure you've
+
+625
+00:45:43,190 --> 00:45:46,760
+heard of is not necessarily mathematically defined
+
+626
+00:45:46,760 --> 00:45:51,080
+in this way before, which is entropy. And the
+
+627
+00:45:51,080 --> 00:45:53,240
+second of all, the dynamics that do that, the
+
+628
+00:45:53,570 --> 00:45:56,660
+entropy of a closed system is always increasing
+
+629
+00:45:56,660 --> 00:46:00,500
+and as time goes on. So we will drive that
+
+630
+00:46:01,670 --> 00:46:04,030
+probably on Friday and if not shortly thereafter.
+
+631
+00:46:04,520 --> 00:46:08,260
+But. What we will do
+
+632
+00:46:10,590 --> 00:46:13,270
+this is a preview, is a definition of entropy
+
+633
+00:46:13,720 --> 00:46:20,630
+based on the probabilities. That show up in our
+
+634
+00:46:20,840 --> 00:46:24,770
+microeconomic ensemble or indeed any sophistical
+
+635
+00:46:24,770 --> 00:46:29,380
+ensemble. And you will want to use. It's quite a
+
+636
+00:46:29,380 --> 00:46:32,770
+bit of entropy to characterize some of the
+
+637
+00:46:33,070 --> 00:46:37,300
+equilibrium in a way that more closely connects
+
+638
+00:46:37,990 --> 00:46:41,890
+via the mathematics that we are working with these
+
+639
+00:46:42,280 --> 00:46:47,050
+probabilistic sample states compared to that every
+
+640
+00:46:47,050 --> 00:46:51,750
+day intuition. And just as well.
+
+641
+00:46:54,110 --> 00:46:56,650
+The initial connection is our expectation that
+
+642
+00:46:56,780 --> 00:47:02,070
+quantity is. Derived from the behavior of the
+
+643
+00:47:02,250 --> 00:47:05,820
+microstates of our system are going to be stable
+
+644
+00:47:05,820 --> 00:47:09,600
+over time, even as various different microstates
+
+645
+00:47:09,600 --> 00:47:11,610
+are probabilistically adopted.
+
+646
+00:47:13,890 --> 00:47:14,460
+And.
+
+647
+00:47:16,640 --> 00:47:19,520
+The argument here is that we know in the macro
+
+648
+00:47:19,520 --> 00:47:21,830
+economic cycle these two quantities that are
+
+649
+00:47:21,830 --> 00:47:24,410
+absolutely stable over time, those are the
+
+650
+00:47:24,410 --> 00:47:27,110
+conservative qualities that characterize any
+
+651
+00:47:27,110 --> 00:47:29,540
+system governed by the right, kind of like on
+
+652
+00:47:29,540 --> 00:47:33,050
+ensemble, namely the energy and particle number,
+
+653
+00:47:34,130 --> 00:47:37,310
+which we should then expect to be able to express
+
+654
+00:47:37,310 --> 00:47:40,340
+entropy as a function of those two conserved
+
+655
+00:47:40,350 --> 00:47:49,630
+qualities. So that is. Yes, the. Forecast for what
+
+656
+00:47:49,630 --> 00:47:55,390
+we will. Do what we would go through next time. So
+
+657
+00:47:55,990 --> 00:47:59,530
+with that, I'll give one last call for questions
+
+658
+00:47:59,530 --> 00:48:04,330
+about probability or statistical ensembles. And if
+
+659
+00:48:04,330 --> 00:48:07,270
+there aren't any ill start wrapping up the
+
+660
+00:48:07,780 --> 00:48:10,630
+recruiting, shutting things down and see you again
+
+661
+00:48:11,320 --> 00:48:12,520
+this time in a few days.
+
+662
+00:48:29,580 --> 00:48:29,660
+It.
