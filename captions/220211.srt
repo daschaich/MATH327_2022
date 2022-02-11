@@ -1,0 +1,2603 @@
+1
+00:00:02,870 --> 00:00:05,900
+So we've got the recording underway, and it's just about time
+
+2
+00:00:05,900 --> 00:00:08,660
+to start.  Are there any immediate questions from
+
+3
+00:00:08,660 --> 00:00:11,870
+earlier in the week before we get going?
+
+4
+00:00:13,970 --> 00:00:16,220
+While you're thinking about that, this is today's
+
+5
+00:00:19,790 --> 00:00:24,720
+magic number for the attendance system:  nine eight eight
+
+6
+00:00:27,940 --> 00:00:28,340
+one one zero.
+
+7
+00:00:42,640 --> 00:00:45,430
+There was some interesting discussion on the Canvas site
+
+8
+00:00:45,430 --> 00:00:49,210
+about whether the law of diffusion we saw a few days
+
+9
+00:00:49,210 --> 00:00:53,680
+ago, at the start of this week, has built into it an
+
+10
+00:00:54,220 --> 00:00:56,110
+assumption of large N, like the central limit
+
+11
+00:00:56,110 --> 00:00:58,630
+theorem. I think that it does, but I didn't prove
+
+12
+00:00:58,630 --> 00:01:03,000
+anything. If there are no questions about that or
+
+13
+00:01:03,180 --> 00:01:06,720
+other things, we can catch up a bit with what we
+
+14
+00:01:06,720 --> 00:01:09,060
+did on Tuesday and where we are now.
+
+15
+00:01:12,160 --> 00:01:12,660
+the micro-canonical ensemble
+
+16
+00:01:16,480 --> 00:01:19,530
+we saw earlier this week after wrapping up
+
+17
+00:01:19,530 --> 00:01:23,500
+the random box, which will see again in different
+
+18
+00:01:23,500 --> 00:01:27,940
+guises with the introduction of statistical
+
+19
+00:01:27,940 --> 00:01:28,780
+ensembles.
+
+20
+00:01:31,460 --> 00:01:37,680
+As is the particular example. Of the capability of
+
+21
+00:01:37,680 --> 00:01:39,180
+spaces we defined.
+
+22
+00:01:41,420 --> 00:01:47,140
+The. First unit for the force where. Is the key
+
+23
+00:01:47,190 --> 00:01:51,120
+idea behind this identification is that.
+
+24
+00:01:53,190 --> 00:01:55,430
+The time of ownership.
+
+25
+00:01:58,600 --> 00:02:04,500
+Of the degrees of freedom particles in this
+
+26
+00:02:04,520 --> 00:02:09,440
+ensemble. Our as leader, probabilistically, simply.
+
+27
+00:02:11,610 --> 00:02:11,960
+It's.
+
+28
+00:02:15,670 --> 00:02:17,800
+All of the possible spade's.
+
+29
+00:02:19,860 --> 00:02:27,420
+In the outcome space for this probably only space
+
+30
+00:02:29,160 --> 00:02:29,700
+and.
+
+31
+00:02:31,740 --> 00:02:35,300
+Even as. The ensemble, the system is probably
+
+32
+00:02:35,660 --> 00:02:38,440
+probabilistically sampling all of these states,
+
+33
+00:02:38,450 --> 00:02:41,190
+there is stable, large scale or long term
+
+34
+00:02:41,240 --> 00:02:43,430
+equilibrium behavior.
+
+35
+00:02:47,050 --> 00:02:47,560
+Which.
+
+36
+00:02:50,180 --> 00:02:52,240
+In that equilibrium state, which is what we're
+
+37
+00:02:52,370 --> 00:02:55,340
+considering in this model, is sophistical
+
+38
+00:02:55,340 --> 00:03:00,410
+ensembles are characterized by conservative
+
+39
+00:03:00,410 --> 00:03:01,130
+qualities.
+
+40
+00:03:03,920 --> 00:03:10,130
+The example we are looking at first is known as
+
+41
+00:03:10,130 --> 00:03:14,270
+the micro canonical ensemble, where these concerns
+
+42
+00:03:14,270 --> 00:03:15,110
+quantity is.
+
+43
+00:03:17,660 --> 00:03:26,670
+Our. The energy. And the heard No. We're
+
+44
+00:03:26,910 --> 00:03:31,620
+conservation of energy, given the name, the first
+
+45
+00:03:31,620 --> 00:03:37,470
+law of thermodynamics in an isolated system. So
+
+46
+00:03:37,470 --> 00:03:43,110
+this is a picture that got blown up to its full
+
+47
+00:03:43,230 --> 00:03:46,350
+page by the printer to serve as a sort of mnemonic
+
+48
+00:03:46,350 --> 00:03:49,620
+for this microeconomic ensemble
+
+49
+00:03:52,260 --> 00:03:56,130
+characterised by we have some particles of degrees
+
+50
+00:03:56,130 --> 00:04:01,440
+of freedom in the system. Your picture is a beaker
+
+51
+00:04:01,530 --> 00:04:04,410
+with a cap of the show that all the particles are
+
+52
+00:04:04,410 --> 00:04:08,190
+trapped inside, can't escape, can't change the
+
+53
+00:04:08,190 --> 00:04:10,830
+number of particles, and there's also some
+
+54
+00:04:11,670 --> 00:04:14,880
+insulation shaded it around. The outside
+
+55
+00:04:16,890 --> 00:04:21,300
+of this drawing illustrates the conservation of
+
+56
+00:04:21,300 --> 00:04:25,710
+energy, a possibility for the system to exchange
+
+57
+00:04:25,710 --> 00:04:28,290
+the energy with its surroundings, with the other
+
+58
+00:04:28,290 --> 00:04:33,060
+system. So we're going to pick up from there if
+
+59
+00:04:33,080 --> 00:04:36,200
+there are no questions about what we saw before.
+
+60
+00:04:45,190 --> 00:04:49,150
+Some of the qualities that we can now derive from.
+
+61
+00:04:51,290 --> 00:04:54,050
+Statistical samples of the microeconomics ensemble
+
+62
+00:04:54,050 --> 00:04:54,830
+in particular
+
+63
+00:04:56,990 --> 00:05:01,910
+zoom back in focus. Starting with the Entropia,
+
+64
+00:05:01,940 --> 00:05:06,850
+which is. One of those ideas was.
+
+65
+00:05:11,900 --> 00:05:14,690
+They may have popped up a lot in popular culture,
+
+66
+00:05:14,690 --> 00:05:17,820
+everyday life, and is sort of the synonym for
+
+67
+00:05:18,020 --> 00:05:21,410
+chaos or disorder. Here we get entropy as a
+
+68
+00:05:21,410 --> 00:05:24,980
+mathematical property of statistical examples
+
+69
+00:05:25,670 --> 00:05:29,960
+where this initial definition that we wrapped up
+
+70
+00:05:29,960 --> 00:05:34,820
+with on Tuesday is. A generic definition of
+
+71
+00:05:34,850 --> 00:05:38,360
+entropy for any physical ensemble, not necessarily
+
+72
+00:05:38,930 --> 00:05:40,460
+the micro canonical example.
+
+73
+00:05:43,090 --> 00:05:47,410
+In terms of the probabilities piece of pie that
+
+74
+00:05:47,590 --> 00:05:51,910
+each of the possible micro stages of the system
+
+75
+00:05:52,150 --> 00:05:55,480
+has to occur as that system probabilistically,
+
+76
+00:05:55,480 --> 00:05:59,110
+examples microstates involving over time.
+
+77
+00:06:01,130 --> 00:06:04,430
+Again, as always, in this course, in thermodynamic
+
+78
+00:06:05,030 --> 00:06:05,900
+equilibrium.
+
+79
+00:06:10,390 --> 00:06:10,990
+Now.
+
+80
+00:06:15,140 --> 00:06:21,210
+Well. The reason note here that. Because we're
+
+81
+00:06:21,210 --> 00:06:23,550
+imposing from an equilibrium, we can expect the
+
+82
+00:06:23,550 --> 00:06:26,940
+entropy to be a simple function of the
+
+83
+00:06:26,940 --> 00:06:29,640
+conservative qualities so specialized to the micro
+
+84
+00:06:29,640 --> 00:06:33,420
+canonical example is entropy, although it's
+
+85
+00:06:33,420 --> 00:06:36,900
+expressed in sort of a not intuitive way in terms
+
+86
+00:06:36,900 --> 00:06:41,100
+of because the probabilities should in some way be
+
+87
+00:06:41,100 --> 00:06:44,520
+related to that sort conserve energy and particle
+
+88
+00:06:44,520 --> 00:06:50,520
+number, which we can start to derive by plugging
+
+89
+00:06:50,520 --> 00:06:55,740
+in the expression for this piece of by. In the
+
+90
+00:06:57,090 --> 00:06:59,910
+Michael Canonical ensemble, in some of the key
+
+91
+00:06:59,910 --> 00:07:03,000
+political, does anyone remember what that
+
+92
+00:07:03,000 --> 00:07:04,020
+expression was?
+
+93
+00:07:20,460 --> 00:07:21,240
+One over, and
+
+94
+00:07:23,520 --> 00:07:27,090
+that's what it is. There was a hyperlink to the
+
+95
+00:07:27,090 --> 00:07:30,870
+equation that appears and is the number of
+
+96
+00:07:30,870 --> 00:07:33,540
+microstates in the system, every single one of
+
+97
+00:07:33,540 --> 00:07:36,450
+them is equally probable in the micro particle
+
+98
+00:07:36,570 --> 00:07:40,260
+sample. And hence those equal probabilities are
+
+99
+00:07:40,350 --> 00:07:43,110
+just one. And so that any of them add up to one
+
+100
+00:07:43,110 --> 00:07:48,900
+hundred percent. So that's the entropy is the
+
+101
+00:07:48,910 --> 00:07:52,620
+negative of that. So overall, microstates of this
+
+102
+00:07:52,620 --> 00:07:56,570
+constant probability, whatever, and. I'm so
+
+103
+00:07:56,570 --> 00:08:02,050
+supportive of whatever happened, so OK. None of
+
+104
+00:08:02,050 --> 00:08:07,960
+that depends on the micro state we're in. This is
+
+105
+00:08:07,960 --> 00:08:10,000
+just a cost factor that can be pulled outside of
+
+106
+00:08:10,000 --> 00:08:13,570
+that situation. So the sum of I was just counting
+
+107
+00:08:14,320 --> 00:08:18,860
+one from one to add to that is a factor of 10 that
+
+108
+00:08:18,880 --> 00:08:22,450
+cancels out with the whatever over. And we're left
+
+109
+00:08:22,450 --> 00:08:26,340
+with a negative log. Whenever any of the
+
+110
+00:08:26,340 --> 00:08:29,070
+properties of the walk, we know that that is the
+
+111
+00:08:29,070 --> 00:08:34,990
+logarithm of the number of microstates. And if you
+
+112
+00:08:35,170 --> 00:08:38,470
+were ever to visit Vienna and start wandering
+
+113
+00:08:38,470 --> 00:08:42,430
+around graveyards there, you would see this
+
+114
+00:08:42,430 --> 00:08:46,110
+equation with slightly different terminology on
+
+115
+00:08:46,270 --> 00:08:49,510
+Boltzmann's gravestone. This is Boltzmann's
+
+116
+00:08:49,510 --> 00:08:52,880
+equation. The entropy is the logarithm, the number
+
+117
+00:08:52,880 --> 00:08:59,130
+of microstates that was one of his best punchy
+
+118
+00:08:59,530 --> 00:09:02,620
+contributions to the physical physics and also put
+
+119
+00:09:02,620 --> 00:09:08,780
+it on his gravestone when he died and. So as the
+
+120
+00:09:08,780 --> 00:09:11,280
+number of accessible microstates goes, this
+
+121
+00:09:11,930 --> 00:09:18,710
+entropia grows and eventually diverges. And this
+
+122
+00:09:18,800 --> 00:09:23,780
+is. Maybe a more intuitive way to connect the
+
+123
+00:09:23,780 --> 00:09:25,910
+mathematical definition of entropy that we have to
+
+124
+00:09:25,970 --> 00:09:30,050
+sort of every day terminology of entropy as a
+
+125
+00:09:30,050 --> 00:09:34,670
+measure of disorder, the more microstates there
+
+126
+00:09:34,670 --> 00:09:38,270
+are with a fixed energy particle numbers and the
+
+127
+00:09:38,270 --> 00:09:41,060
+more possibilities there are of arranging the
+
+128
+00:09:41,060 --> 00:09:46,880
+degrees of freedom, the larger the entropy, which
+
+129
+00:09:47,900 --> 00:09:51,500
+we can see corresponds what we will see. Some of
+
+130
+00:09:51,500 --> 00:09:55,130
+these examples coming up, how that corresponds to
+
+131
+00:09:55,520 --> 00:09:57,980
+less ordered, less special and more generic
+
+132
+00:09:58,730 --> 00:10:02,510
+microstates for our system. Now, of course, we
+
+133
+00:10:02,510 --> 00:10:04,640
+said at the top of the page, you would expect
+
+134
+00:10:04,640 --> 00:10:07,740
+entropy to depend on the conserve energy particle.
+
+135
+00:10:07,760 --> 00:10:11,750
+No, it's not obvious how those appear in the
+
+136
+00:10:12,090 --> 00:10:17,720
+microstates. It turns out to be they do all of the
+
+137
+00:10:18,320 --> 00:10:19,820
+conservative quantities and the number of
+
+138
+00:10:19,820 --> 00:10:22,880
+microstates are interrelated. So we have to
+
+139
+00:10:23,300 --> 00:10:29,570
+specify the system and its details in order to
+
+140
+00:10:29,930 --> 00:10:32,390
+come up with what precisely those interrelations
+
+141
+00:10:32,390 --> 00:10:41,560
+are. So. One quick example is. If we have a spin
+
+142
+00:10:41,590 --> 00:10:45,330
+system introduced earlier this week. Each of which
+
+143
+00:10:45,330 --> 00:10:47,670
+can point either up or down, and it is in a
+
+144
+00:10:48,030 --> 00:10:51,630
+magnetic field to define its energy, all of that
+
+145
+00:10:51,630 --> 00:10:57,220
+magnetic field is turned off. We want to find the
+
+146
+00:10:57,790 --> 00:11:04,000
+entropy that's avoiding them. So here we just need
+
+147
+00:11:04,000 --> 00:11:07,870
+to count the total number of microstates, for
+
+148
+00:11:07,870 --> 00:11:09,460
+instance, which.
+
+149
+00:11:11,480 --> 00:11:14,260
+Something we did on Tuesday is remember that
+
+150
+00:11:14,260 --> 00:11:16,730
+results. Right down here.
+
+151
+00:11:26,940 --> 00:11:31,350
+So, yeah, two to the power in.
+
+152
+00:11:33,360 --> 00:11:36,630
+The total number of microstates for and spins the
+
+153
+00:11:36,630 --> 00:11:41,400
+conflict to the values and as a blog we have been
+
+154
+00:11:42,000 --> 00:11:47,160
+involved to for the Intrepid, still a mystery you
+
+155
+00:11:47,160 --> 00:11:52,010
+that grows linearly with the number of spins that
+
+156
+00:11:52,110 --> 00:11:57,300
+field is off. We can also so when there is no
+
+157
+00:11:57,300 --> 00:12:01,620
+magnetic field, all of those could be and spin
+
+158
+00:12:01,620 --> 00:12:05,220
+states have that same energy equals zero. We can
+
+159
+00:12:05,220 --> 00:12:09,930
+also ask if we have a non through a magnetic field,
+
+160
+00:12:09,930 --> 00:12:14,220
+but still require the same fixed energy in the
+
+161
+00:12:14,220 --> 00:12:15,590
+micro canonical ensemble.
+
+162
+00:12:20,010 --> 00:12:25,170
+What is the entropy in that case? So it's the same
+
+163
+00:12:25,770 --> 00:12:30,600
+procedure figuring out. How many microstates there
+
+164
+00:12:30,600 --> 00:12:30,960
+are?
+
+165
+00:12:33,360 --> 00:12:33,950
+You know, the.
+
+166
+00:12:38,280 --> 00:12:39,580
+This is also something that.
+
+167
+00:12:41,920 --> 00:12:45,610
+You may have seen it a saw the same calculation in
+
+168
+00:12:45,610 --> 00:12:50,700
+a different context. So maybe I will just. Mind
+
+169
+00:12:50,700 --> 00:12:55,020
+you, that the silk, the way to get energy is zero
+
+170
+00:12:55,020 --> 00:12:58,200
+when the magnetic field is non-zero is to have an
+
+171
+00:12:58,200 --> 00:13:00,990
+equal number of students line with the magnetic
+
+172
+00:13:00,990 --> 00:13:05,360
+field compared to those aligned against it. So
+
+173
+00:13:05,780 --> 00:13:09,890
+half of the spins have to be and plus, along with
+
+174
+00:13:09,890 --> 00:13:12,350
+many other people, contributing a negative energy
+
+175
+00:13:12,350 --> 00:13:17,090
+to the total. And therefore, if we have capital
+
+176
+00:13:17,090 --> 00:13:20,960
+and spins and we want to choose the case and plus
+
+177
+00:13:20,960 --> 00:13:25,270
+of them to be oriented up there are. The binomial
+
+178
+00:13:25,270 --> 00:13:30,210
+coefficient in use and plus ways of doing that in
+
+179
+00:13:30,340 --> 00:13:32,620
+those different ways of arranging the spins to
+
+180
+00:13:32,620 --> 00:13:35,500
+have zero errors used, the microstates that this
+
+181
+00:13:35,500 --> 00:13:42,130
+microeconomic system would have, which if we know.
+
+182
+00:13:42,490 --> 00:13:47,340
+Since we know that. Total number of spins is now
+
+183
+00:13:47,340 --> 00:13:52,720
+twice and plus we can. Rearrange this binomial
+
+184
+00:13:52,720 --> 00:14:00,600
+factor as to add plus factorial over. And plus
+
+185
+00:14:00,610 --> 00:14:04,710
+Vectorial, and then the Vectorial, the two and
+
+186
+00:14:04,930 --> 00:14:09,010
+plus minus and plus, which is just ten plus for a
+
+187
+00:14:09,010 --> 00:14:13,160
+second factor. Plus, Vectorial, the denominator.
+
+188
+00:14:14,570 --> 00:14:17,210
+Which the Lord breaks up into.
+
+189
+00:14:22,260 --> 00:14:27,840
+One of the numerator minus, take that count to
+
+190
+00:14:28,680 --> 00:14:29,790
+twice the Lord.
+
+191
+00:14:32,280 --> 00:14:36,760
+Of the Vectorial in the denominator. So it's
+
+192
+00:14:38,200 --> 00:14:42,190
+obvious to see. From this expression, if this
+
+193
+00:14:42,200 --> 00:14:49,950
+entropy is more or less than. The case where there
+
+194
+00:14:49,980 --> 00:14:53,010
+was no magnetic field at all to the end, states
+
+195
+00:14:53,010 --> 00:14:55,490
+were contributing, what were they to the entropy,
+
+196
+00:14:56,100 --> 00:15:01,350
+if we consider this the simple case of an equals
+
+197
+00:15:01,350 --> 00:15:03,300
+eight? Then.
+
+198
+00:15:05,670 --> 00:15:08,980
+We have. Two of the power eight.
+
+199
+00:15:11,730 --> 00:15:18,240
+This is two hundred fifty six, so it is zero and
+
+200
+00:15:18,240 --> 00:15:22,410
+all possible microstates are at play, the entropy
+
+201
+00:15:24,150 --> 00:15:28,140
+is that more to our eight to fifty six.
+
+202
+00:15:30,480 --> 00:15:31,800
+H.S, non-zero.
+
+203
+00:15:34,290 --> 00:15:36,800
+It's easier to look at this fraction with the
+
+204
+00:15:36,810 --> 00:15:43,440
+entropy is. The board of two influxes cattle,
+
+205
+00:15:43,640 --> 00:15:49,470
+which is bait and expand that vectorial and cancel
+
+206
+00:15:49,470 --> 00:15:53,400
+out the full effect within hours of Vectorial the
+
+207
+00:15:53,400 --> 00:15:57,260
+denominator, I'm left with just the other power
+
+208
+00:15:57,300 --> 00:16:01,030
+for Vectorial, the denominator four times to the
+
+209
+00:16:01,050 --> 00:16:05,730
+state and six of the three is to seven times, five
+
+210
+00:16:05,730 --> 00:16:10,340
+is thirty five and two times thirty five is of 70.
+
+211
+00:16:11,070 --> 00:16:14,040
+So the total number of microstates has gone down
+
+212
+00:16:14,220 --> 00:16:19,800
+by. Probably a factor of for. And the entropy has
+
+213
+00:16:19,920 --> 00:16:21,840
+changed here by.
+
+214
+00:16:24,110 --> 00:16:26,960
+Of course, on the border, which you will see a bit
+
+215
+00:16:26,960 --> 00:16:28,430
+later on, is.
+
+216
+00:16:31,320 --> 00:16:33,480
+I has some interesting behavior because it limits.
+
+217
+00:16:35,890 --> 00:16:40,080
+That was on the screen while I was writing it. So
+
+218
+00:16:40,080 --> 00:16:43,980
+we will. Revisit some calculations, and that's
+
+219
+00:16:43,990 --> 00:16:48,070
+where possibly a tutorial, possibly next week. For
+
+220
+00:16:48,070 --> 00:16:51,550
+now, just based on this definition that we have,
+
+221
+00:16:52,480 --> 00:16:54,700
+we can build up some more.
+
+222
+00:16:57,270 --> 00:17:02,030
+Details or characteristics of the. And one of the
+
+223
+00:17:02,960 --> 00:17:09,130
+main features of the Entropia of a period way to
+
+224
+00:17:09,140 --> 00:17:16,160
+categorize observables is how the entropy behaves
+
+225
+00:17:16,160 --> 00:17:21,880
+as the system becomes larger or equivalently, we
+
+226
+00:17:21,890 --> 00:17:26,300
+take two copies of the same system and imagine
+
+227
+00:17:26,300 --> 00:17:30,640
+considering them as a combined system with some
+
+228
+00:17:30,690 --> 00:17:35,530
+subsystems. So we saw the general growing that
+
+229
+00:17:35,870 --> 00:17:38,390
+with the number of microstates logarithmically.
+
+230
+00:17:40,510 --> 00:17:41,170
+And.
+
+231
+00:17:44,850 --> 00:17:49,760
+Mr. Consider. This in a more general context than
+
+232
+00:17:50,030 --> 00:17:54,190
+a specific number of things. We can picture these
+
+233
+00:17:54,190 --> 00:17:59,380
+two school systems, each put in its own box to
+
+234
+00:17:59,860 --> 00:18:02,440
+emphasize that it is a micro canonical system not
+
+235
+00:18:02,440 --> 00:18:06,910
+allowed to exchange other particles or energy with
+
+236
+00:18:07,270 --> 00:18:08,820
+anything else in the universe.
+
+237
+00:18:10,870 --> 00:18:14,320
+So that the energy and the number of these two
+
+238
+00:18:14,530 --> 00:18:19,090
+systems is characterizing them and also.
+
+239
+00:18:21,560 --> 00:18:25,910
+Assume that there is a. How's the magnetic field
+
+240
+00:18:26,660 --> 00:18:31,790
+to get to produce this energy that is the same for
+
+241
+00:18:32,270 --> 00:18:35,280
+both of these isolated systems when it comes to.
+
+242
+00:18:38,100 --> 00:18:41,250
+And then the energy has the same form and then
+
+243
+00:18:41,250 --> 00:18:46,110
+just the number of spins in each system align with
+
+244
+00:18:46,110 --> 00:18:48,890
+or against that magnetic field.
+
+245
+00:18:51,520 --> 00:18:56,150
+And. Just for the sake of using different
+
+246
+00:18:56,150 --> 00:18:58,640
+variables for these two different systems, we'll
+
+247
+00:18:58,640 --> 00:19:01,460
+say that the probability probabilities in System
+
+248
+00:19:02,330 --> 00:19:02,790
+one.
+
+249
+00:19:06,720 --> 00:19:10,670
+I have that same piece of mind for each of their
+
+250
+00:19:11,420 --> 00:19:15,840
+lawmakers that I microstates. And there are in one.
+
+251
+00:19:16,850 --> 00:19:18,710
+Of those microstates, and we'll call the
+
+252
+00:19:18,710 --> 00:19:25,010
+probability system to Kucik, ranging from from one
+
+253
+00:19:25,010 --> 00:19:27,290
+over the total number of microstates in that
+
+254
+00:19:27,290 --> 00:19:33,200
+system. And if we look at these two systems as a
+
+255
+00:19:34,010 --> 00:19:37,580
+single entity with two subsystems that are still
+
+256
+00:19:37,940 --> 00:19:41,420
+isolated from each other and still in the same
+
+257
+00:19:41,420 --> 00:19:44,450
+magnetic field with the same energy in order to
+
+258
+00:19:44,720 --> 00:19:50,500
+determine the energy of this. Combined system.
+
+259
+00:19:53,260 --> 00:19:57,600
+Make the subsequent one plus two. Always do is
+
+260
+00:19:57,600 --> 00:20:01,010
+figure out the number of microstates. And someone
+
+261
+00:20:01,020 --> 00:20:06,130
+else to in terms. Of the number of individual
+
+262
+00:20:06,160 --> 00:20:09,790
+microstates and one and then to 12.
+
+263
+00:20:12,340 --> 00:20:16,660
+This is. Reasonably straightforward, because
+
+264
+00:20:16,660 --> 00:20:23,020
+whatever the system one is in some microstates by
+
+265
+00:20:24,370 --> 00:20:27,070
+the system, two is completely independent of it
+
+266
+00:20:27,460 --> 00:20:29,410
+and can sum over all.
+
+267
+00:20:32,120 --> 00:20:35,210
+And two of its microstates and then the overall
+
+268
+00:20:35,210 --> 00:20:37,160
+sum over all.
+
+269
+00:20:39,380 --> 00:20:45,830
+I microstates and one brings in the power factor
+
+270
+00:20:45,830 --> 00:20:50,800
+of them two for each and one each want to be a one
+
+271
+00:20:50,810 --> 00:20:54,760
+microstates, which says the words that the total
+
+272
+00:20:54,830 --> 00:20:57,860
+number of microstates is the product of the
+
+273
+00:20:57,860 --> 00:21:01,740
+microstates in both systems. So it was that quick
+
+274
+00:21:01,790 --> 00:21:03,290
+argument is clear.
+
+275
+00:21:08,570 --> 00:21:10,670
+I don't see any objections to it.
+
+276
+00:21:13,500 --> 00:21:14,240
+And.
+
+277
+00:21:27,150 --> 00:21:27,900
+We also.
+
+278
+00:21:32,020 --> 00:21:36,430
+Are not supposing here that the analysis I'm doing
+
+279
+00:21:36,430 --> 00:21:40,420
+here is actually not assuming that statistical
+
+280
+00:21:40,600 --> 00:21:43,930
+equilibrium, it can be applied more generally than
+
+281
+00:21:43,930 --> 00:21:47,020
+that if we go back to that initial definition of
+
+282
+00:21:47,020 --> 00:21:50,110
+energy, sorry, the initial definition of entropy
+
+283
+00:21:50,560 --> 00:21:52,240
+in terms of probabilities.
+
+284
+00:21:57,760 --> 00:22:00,160
+The entropy was the sum.
+
+285
+00:22:02,360 --> 00:22:05,960
+Over all the probabilities of this combined system.
+
+286
+00:22:07,500 --> 00:22:12,670
+The U.K. and Borg.
+
+287
+00:22:15,950 --> 00:22:19,410
+So we need to figure out as a prelude to this
+
+288
+00:22:19,410 --> 00:22:23,760
+calculation what exactly the combined entropies.
+
+289
+00:22:25,310 --> 00:22:29,880
+The combined probabilities are, since we're
+
+290
+00:22:29,880 --> 00:22:31,670
+keeping these two subsystems completely
+
+291
+00:22:31,680 --> 00:22:36,520
+independence, the probability of that system, one
+
+292
+00:22:36,540 --> 00:22:43,420
+has stayed on, I guess. Subsystem, too, has states
+
+293
+00:22:43,860 --> 00:22:47,190
+how big is the pay is just the product of the
+
+294
+00:22:47,190 --> 00:22:48,630
+individual probabilities.
+
+295
+00:22:50,970 --> 00:22:54,370
+Which we can check quickly, is well defined
+
+296
+00:22:54,370 --> 00:22:57,220
+because, again, at that independence between these
+
+297
+00:22:57,220 --> 00:23:03,930
+two subsystems. If we saw over. The product of
+
+298
+00:23:03,960 --> 00:23:06,570
+those states at one time, there were two in this
+
+299
+00:23:06,570 --> 00:23:10,770
+combined system. That's just the product over each
+
+300
+00:23:10,770 --> 00:23:14,970
+system independently and sends the probabilities
+
+301
+00:23:14,970 --> 00:23:17,010
+of System one don't depend on the states and
+
+302
+00:23:17,010 --> 00:23:22,200
+system to break up the system into separate sums
+
+303
+00:23:22,200 --> 00:23:25,590
+for each subsystem. Overall state of the
+
+304
+00:23:25,590 --> 00:23:29,940
+probabilities, which we know by the definition of
+
+305
+00:23:29,940 --> 00:23:35,580
+probability, is just. One in each case. Which is
+
+306
+00:23:35,580 --> 00:23:36,180
+to say.
+
+307
+00:23:40,120 --> 00:23:40,600
+Matt.
+
+308
+00:23:46,120 --> 00:23:50,710
+Well defined by the probability piece of junk that
+
+309
+00:23:50,710 --> 00:23:55,330
+adds up to one overall of the data and one, two,
+
+310
+00:23:56,020 --> 00:24:00,700
+microstates of this microeconomic system, and we
+
+311
+00:24:00,700 --> 00:24:06,050
+can do that same procedure. Breaking up this song.
+
+312
+00:24:08,090 --> 00:24:12,920
+Over, I think, those two subsystems into.
+
+313
+00:24:14,920 --> 00:24:19,960
+Two independent studies and at the same time did
+
+314
+00:24:20,050 --> 00:24:24,870
+break up this. Logarithm of the products we know
+
+315
+00:24:24,870 --> 00:24:31,650
+is the sum of logarithms, so we can have.
+
+316
+00:24:34,870 --> 00:24:39,690
+The. First term, it is P times, Q Times, the one
+
+317
+00:24:39,690 --> 00:24:42,120
+with rearrange that.
+
+318
+00:24:46,820 --> 00:24:52,130
+Like still calling the. Probabilities survive from
+
+319
+00:24:52,140 --> 00:24:54,270
+such as the one outside of the some of the
+
+320
+00:24:54,450 --> 00:24:58,300
+microstates and subsystem to. And similarly.
+
+321
+00:25:00,490 --> 00:25:03,250
+The case when we have the second term.
+
+322
+00:25:16,160 --> 00:25:21,280
+So hopefully that was not too quick just now,
+
+323
+00:25:21,300 --> 00:25:25,240
+broken up these sums into separate sums or for
+
+324
+00:25:25,250 --> 00:25:28,940
+each independent subsystem in the same way as
+
+325
+00:25:28,940 --> 00:25:33,770
+before, and this allows us to spot the same simple
+
+326
+00:25:33,770 --> 00:25:36,680
+probabilities that add up to one of those two
+
+327
+00:25:36,680 --> 00:25:41,510
+cases. Whereas we saw that the. Somewhere over
+
+328
+00:25:41,510 --> 00:25:46,640
+microstates of Pewaukee inequitably culotte to.
+
+329
+00:25:48,810 --> 00:25:53,630
+Was just the. Individual entropy from system one.
+
+330
+00:25:54,690 --> 00:25:58,200
+That first term, plus the individual, that system
+
+331
+00:25:58,200 --> 00:26:04,020
+to. So we've derived from the basic definition,
+
+332
+00:26:04,680 --> 00:26:09,150
+the result of the entropies, when we add up to
+
+333
+00:26:09,510 --> 00:26:13,650
+independent subsystems, just add together to form
+
+334
+00:26:13,650 --> 00:26:17,810
+the entropy of that combined subsystem of the
+
+335
+00:26:17,820 --> 00:26:20,700
+combined overall system when the two such systems
+
+336
+00:26:20,700 --> 00:26:26,550
+are independent. This is the definition of an
+
+337
+00:26:26,550 --> 00:26:29,640
+extensive quantity. The energy and the number of
+
+338
+00:26:29,640 --> 00:26:33,570
+particles are the easier examples to use to work
+
+339
+00:26:33,570 --> 00:26:37,500
+with. If we take two systems with two particle
+
+340
+00:26:37,500 --> 00:26:41,070
+numbers and one then to add together, a particle
+
+341
+00:26:41,760 --> 00:26:46,260
+is just the sun. The entropy behaves the same way,
+
+342
+00:26:48,690 --> 00:26:54,130
+which was not guaranteed optimal result from. This
+
+343
+00:26:54,140 --> 00:26:57,650
+calculation, based on the definition and could be
+
+344
+00:26:57,650 --> 00:27:00,050
+contrasted to what are called intensive quantitate
+
+345
+00:27:00,100 --> 00:27:00,320
+is
+
+346
+00:27:02,690 --> 00:27:06,770
+an example of which is the temperature of two
+
+347
+00:27:06,770 --> 00:27:09,370
+systems, two systems with the same temperature,
+
+348
+00:27:09,680 --> 00:27:11,950
+and look at them as a combined system of two
+
+349
+00:27:11,960 --> 00:27:15,110
+subsystems. I don't expect the temperature to
+
+350
+00:27:15,110 --> 00:27:18,230
+double. I expect to see the same independent of
+
+351
+00:27:18,230 --> 00:27:23,150
+the size of the overall system. And then, of
+
+352
+00:27:23,150 --> 00:27:25,430
+course, there are quantities that are neither
+
+353
+00:27:25,850 --> 00:27:28,710
+extensive nor intensive. For example, the total
+
+354
+00:27:28,710 --> 00:27:31,910
+number of microstates which turned out to be the
+
+355
+00:27:31,910 --> 00:27:35,740
+product of the microstates, the two independent
+
+356
+00:27:35,750 --> 00:27:39,730
+systems is not constant, nor does it grow
+
+357
+00:27:40,010 --> 00:27:42,320
+addictively the way that the entropy does.
+
+358
+00:27:44,320 --> 00:27:47,770
+And of course, everything becomes simpler if we
+
+359
+00:27:47,770 --> 00:27:52,680
+were to assume for a dynamic equilibrium. We would
+
+360
+00:27:52,690 --> 00:27:57,940
+have the Entropia system just given by the one of
+
+361
+00:27:57,940 --> 00:28:03,580
+its microstates, and in that case, the
+
+362
+00:28:04,390 --> 00:28:07,920
+probabilities for the combined system as before,
+
+363
+00:28:09,130 --> 00:28:12,190
+add up to whatever the total number of microstates
+
+364
+00:28:12,190 --> 00:28:15,430
+each that there's some over and what time them to
+
+365
+00:28:16,130 --> 00:28:19,150
+give 100 percent. And then the calculation would
+
+366
+00:28:19,150 --> 00:28:23,140
+it be called. Even easier, the combined entropy
+
+367
+00:28:23,140 --> 00:28:26,140
+and just by the properties of the water, the World
+
+368
+00:28:26,140 --> 00:28:29,830
+Cup into the some of the original to entropies.
+
+369
+00:28:35,400 --> 00:28:40,260
+So that extensive property is one feature of
+
+370
+00:28:40,260 --> 00:28:42,360
+entropy, but maybe not the most interesting one,
+
+371
+00:28:43,470 --> 00:28:46,170
+or at least not interesting enough to describe it
+
+372
+00:28:46,170 --> 00:28:49,620
+as a law of nature. What happens?
+
+373
+00:28:53,490 --> 00:28:56,490
+Or what we can generalize that same set of two is
+
+374
+00:28:56,490 --> 00:29:00,540
+now in addition to taking those two subsystems and
+
+375
+00:29:01,170 --> 00:29:04,680
+bringing them together in a combined system, we
+
+376
+00:29:05,320 --> 00:29:09,050
+will allow them to exchange energy particle number
+
+377
+00:29:09,510 --> 00:29:12,330
+with each other. So we'll call that through
+
+378
+00:29:12,450 --> 00:29:19,920
+contact. Where we have those same to. Subsystems
+
+379
+00:29:20,160 --> 00:29:24,420
+in the magnetic field that are now brought into
+
+380
+00:29:24,420 --> 00:29:27,570
+thermal contact that have the possibility of
+
+381
+00:29:28,080 --> 00:29:31,430
+exchanging energy. With each other now, the
+
+382
+00:29:32,150 --> 00:29:37,040
+overall system, the total energy one plus the two
+
+383
+00:29:38,480 --> 00:29:42,510
+and one plus into. Is still being treated,
+
+384
+00:29:42,510 --> 00:29:45,870
+microeconomic energy is concerned for that total
+
+385
+00:29:46,020 --> 00:29:52,020
+one plus two and similarly for political No. But
+
+386
+00:29:52,020 --> 00:29:56,250
+the individual interviews, you want to get
+
+387
+00:29:56,250 --> 00:29:59,550
+themselves change basically by swapping energy
+
+388
+00:29:59,730 --> 00:30:01,980
+between themselves, so a bit of energy can be
+
+389
+00:30:02,790 --> 00:30:07,520
+given up by subsystem one. Shifted over to some
+
+390
+00:30:07,520 --> 00:30:11,450
+system, too, so those individual energies are no
+
+391
+00:30:11,450 --> 00:30:15,230
+longer conserved and the individual subsystems are
+
+392
+00:30:15,230 --> 00:30:19,230
+no longer psychoanalytical for that reason. But
+
+393
+00:30:19,370 --> 00:30:23,920
+economical ensemble requires that cost of energy
+
+394
+00:30:23,920 --> 00:30:30,290
+and. So if we call this overall system. It's the
+
+395
+00:30:30,290 --> 00:30:35,330
+capital Omega, with no further subscripts, we can
+
+396
+00:30:35,330 --> 00:30:39,320
+tell immediately that it is not the same as.
+
+397
+00:30:40,560 --> 00:30:44,820
+That's system one plus two. We were talking about
+
+398
+00:30:44,880 --> 00:30:47,660
+it in the context of extensibility subsystems work
+
+399
+00:30:47,670 --> 00:30:50,850
+at independent each individually microeconomic
+
+400
+00:30:50,850 --> 00:30:56,010
+level and the entropy just on attributes of those
+
+401
+00:30:56,040 --> 00:30:57,860
+independent subsystems, typically at.
+
+402
+00:30:59,970 --> 00:31:05,970
+In order to. Appreciate that this. New combined
+
+403
+00:31:06,010 --> 00:31:10,520
+system of mega is not the same as the collection
+
+404
+00:31:10,520 --> 00:31:13,550
+of those two independent subsystems. We just need
+
+405
+00:31:13,550 --> 00:31:19,350
+to count the total number of microstates. And see
+
+406
+00:31:19,350 --> 00:31:21,930
+that it is not the same as simply being a product
+
+407
+00:31:22,620 --> 00:31:28,030
+of. The one time that two of those two original
+
+408
+00:31:28,030 --> 00:31:28,750
+systems.
+
+409
+00:31:31,930 --> 00:31:38,260
+And in this calculation, we do have a important
+
+410
+00:31:38,260 --> 00:31:44,430
+remaining tool, which I actually paid. The set up,
+
+411
+00:31:44,430 --> 00:31:47,790
+which is that conservation of the poor energy, so
+
+412
+00:31:47,790 --> 00:31:51,540
+we know that any microstates of this combined
+
+413
+00:31:51,540 --> 00:31:56,710
+system will make. Has to have a total energy.
+
+414
+00:31:58,210 --> 00:32:02,050
+We're capital so that in one of these two
+
+415
+00:32:02,050 --> 00:32:03,910
+subsystems that are now account contact
+
+416
+00:32:03,910 --> 00:32:07,930
+contributes some lower case energy, each one to
+
+417
+00:32:07,930 --> 00:32:11,130
+that total. The other subsystem has to contribute
+
+418
+00:32:11,560 --> 00:32:15,180
+the remainder capital, the minus lowercase E one.
+
+419
+00:32:17,220 --> 00:32:21,330
+Now, if we fix those two values in every case, in
+
+420
+00:32:21,330 --> 00:32:26,100
+one, then the remainder will be minus one. We then
+
+421
+00:32:26,100 --> 00:32:28,950
+have the combination of two independent
+
+422
+00:32:28,950 --> 00:32:32,490
+microeconomic ensembles that we computed to have
+
+423
+00:32:32,490 --> 00:32:36,480
+the total number of states simply a product of the
+
+424
+00:32:36,510 --> 00:32:38,610
+corresponding microstates with those values and
+
+425
+00:32:38,610 --> 00:32:45,070
+energy in each of the independent subsystems. So
+
+426
+00:32:45,070 --> 00:32:50,230
+this is. That said, repeating the same calculation
+
+427
+00:32:50,530 --> 00:32:52,780
+we did earlier with the independent subsystems,
+
+428
+00:32:53,290 --> 00:33:01,160
+but now. The key is that there are at least one in
+
+429
+00:33:01,510 --> 00:33:05,270
+many more ways of distributing this total energy
+
+430
+00:33:05,750 --> 00:33:08,360
+among these two systems. We know that it's
+
+431
+00:33:08,360 --> 00:33:11,330
+possible to have the case we considered before
+
+432
+00:33:12,020 --> 00:33:17,150
+that case even equal to the capital E. one. We
+
+433
+00:33:17,150 --> 00:33:20,540
+started off with that is when it started off with
+
+434
+00:33:20,690 --> 00:33:25,560
+know that subsystem can take that energy capital
+
+435
+00:33:25,580 --> 00:33:31,100
+if you want, it already did. So from that
+
+436
+00:33:31,100 --> 00:33:35,600
+particular case, we already have all of the
+
+437
+00:33:35,600 --> 00:33:40,410
+microstates. And if someone wants to. That we
+
+438
+00:33:40,410 --> 00:33:43,650
+considered earlier on, we had the system of two
+
+439
+00:33:43,650 --> 00:33:47,350
+independent subsystems considered in combination.
+
+440
+00:33:47,850 --> 00:33:54,240
+But in addition. We have to keep track of these
+
+441
+00:33:54,260 --> 00:33:58,100
+situations in which system?
+
+442
+00:34:00,160 --> 00:34:05,050
+Omega one has energy other than one. So the total
+
+443
+00:34:05,050 --> 00:34:07,900
+number of microstates for that system Omega.
+
+444
+00:34:08,770 --> 00:34:12,460
+Starts off with the product and one time step two
+
+445
+00:34:12,970 --> 00:34:19,350
+and we had for. From those decisions to subsystems,
+
+446
+00:34:19,350 --> 00:34:22,110
+we started off with having their initial values of
+
+447
+00:34:22,110 --> 00:34:25,140
+energy and then in addition to that, there's a sum
+
+448
+00:34:25,680 --> 00:34:30,150
+over all the other possible values of energy that
+
+449
+00:34:30,150 --> 00:34:33,570
+we were all the possible ways that the systems
+
+450
+00:34:33,570 --> 00:34:36,540
+could break up the conservative energy amongst
+
+451
+00:34:36,540 --> 00:34:40,320
+themselves. And this stuff is just counting a
+
+452
+00:34:40,320 --> 00:34:42,720
+number of states that are all one negative numbers.
+
+453
+00:34:43,570 --> 00:34:48,000
+So we know that the sun is also not negative. So
+
+454
+00:34:48,000 --> 00:34:51,300
+the total number of member states is at least as
+
+455
+00:34:51,300 --> 00:34:57,000
+large as the. And one times and two that led to
+
+456
+00:34:57,000 --> 00:35:03,080
+the extensive interview on. And this economy holds
+
+457
+00:35:03,080 --> 00:35:07,730
+only when there is no other possibility than
+
+458
+00:35:07,850 --> 00:35:10,520
+having the
+
+459
+00:35:13,580 --> 00:35:17,240
+energy and system will be its initial value, which
+
+460
+00:35:17,240 --> 00:35:20,000
+is to say that the two subsystems individually
+
+461
+00:35:20,030 --> 00:35:23,450
+made MicroCon behave in the same way as it could
+
+462
+00:35:23,450 --> 00:35:28,210
+have exchanged energy in the first place. So in
+
+463
+00:35:28,280 --> 00:35:32,350
+full generality, without even specifying the
+
+464
+00:35:32,420 --> 00:35:36,380
+details of these systems, you can say that the
+
+465
+00:35:36,380 --> 00:35:40,110
+energy. Of these two systems, nothing but the
+
+466
+00:35:40,110 --> 00:35:42,780
+entropy of the two systems that have got into
+
+467
+00:35:42,780 --> 00:35:46,710
+trouble, contact is at least as large and
+
+468
+00:35:46,710 --> 00:35:50,460
+generally larger than those two subsystems when
+
+469
+00:35:50,460 --> 00:35:53,280
+they were independent and isolated from each other,
+
+470
+00:35:53,880 --> 00:35:58,440
+which you might recognize as the second law of
+
+471
+00:35:58,440 --> 00:36:03,220
+thermodynamics. The statement being that when
+
+472
+00:36:03,470 --> 00:36:06,190
+initially isolated subsystems are brought into
+
+473
+00:36:06,190 --> 00:36:10,510
+thermal contact, the entropy can never decrease
+
+474
+00:36:10,990 --> 00:36:16,330
+and generally almost always increases, except in
+
+475
+00:36:16,330 --> 00:36:20,500
+some extremely special cases when that thermal
+
+476
+00:36:20,500 --> 00:36:23,260
+contact actually has no effect. Even though the
+
+477
+00:36:23,260 --> 00:36:25,870
+systems are able to exchange energy,
+
+478
+00:36:28,060 --> 00:36:30,190
+their details prevent them from doing so in order
+
+479
+00:36:30,190 --> 00:36:33,820
+to satisfy the first law of thermodynamics.
+
+480
+00:36:36,420 --> 00:36:40,560
+So the second law of thermodynamics, which is.
+
+481
+00:36:44,430 --> 00:36:47,880
+Again, another question related to entropy that I
+
+482
+00:36:47,880 --> 00:36:51,350
+imagine you've seen in less mathematical contexts,
+
+483
+00:36:52,410 --> 00:36:56,410
+it is it's possible to do more general derivations
+
+484
+00:36:56,410 --> 00:36:59,220
+than taking to systems, bringing them together in
+
+485
+00:36:59,220 --> 00:37:00,990
+terms of content and allowing them to exchange
+
+486
+00:37:00,990 --> 00:37:04,800
+energy if we picture that process going on in time.
+
+487
+00:37:05,340 --> 00:37:08,510
+This has the implication that the entropy never
+
+488
+00:37:08,550 --> 00:37:14,130
+decreases the increases as time passes under any
+
+489
+00:37:14,130 --> 00:37:15,150
+circumstances.
+
+490
+00:37:17,260 --> 00:37:23,910
+Which we can actually make use of. To the. Find
+
+491
+00:37:23,910 --> 00:37:28,530
+more generally what we mean by dynamic equilibrium
+
+492
+00:37:29,010 --> 00:37:32,890
+as compared to a statement about probabilities and
+
+493
+00:37:32,930 --> 00:37:38,500
+the souls equation. Here it is. That the
+
+494
+00:37:38,980 --> 00:37:41,260
+probability of each micro state of the macro
+
+495
+00:37:41,260 --> 00:37:45,340
+economic one is equal to the inverse of the total
+
+496
+00:37:45,340 --> 00:37:52,540
+number of microstates. But because entropy. Is a
+
+497
+00:37:52,630 --> 00:37:56,040
+non decreasing quantity under any circumstances.
+
+498
+00:37:57,840 --> 00:38:01,620
+If we consider its time evolution that.
+
+499
+00:38:03,880 --> 00:38:07,480
+That not decreasing property is going to call for
+
+500
+00:38:07,660 --> 00:38:12,610
+any statistical microeconomic or not including the
+
+501
+00:38:12,610 --> 00:38:16,820
+one that. Including ones that we will get to in
+
+502
+00:38:16,820 --> 00:38:19,250
+coming weeks. So the entropy.
+
+503
+00:38:21,980 --> 00:38:27,120
+Is. Always decreasing, is that a function of
+
+504
+00:38:27,120 --> 00:38:28,790
+whatever qualities are considered for this
+
+505
+00:38:28,800 --> 00:38:30,780
+ensemble and.
+
+506
+00:38:33,770 --> 00:38:37,190
+We want people to be able to be the state where
+
+507
+00:38:37,310 --> 00:38:40,700
+these qualities have some stable value. They have
+
+508
+00:38:41,110 --> 00:38:44,630
+to depend on the on the conservative qualities. So
+
+509
+00:38:44,630 --> 00:38:49,280
+we define thermodynamic equilibrium to be the
+
+510
+00:38:49,820 --> 00:38:54,860
+situation in which the entropy of the ensemble is
+
+511
+00:38:54,860 --> 00:39:00,200
+maximized. So we have some we can have some
+
+512
+00:39:00,350 --> 00:39:06,660
+generic picture or intuition of. Doing something
+
+513
+00:39:07,050 --> 00:39:10,890
+to systems that bring together a lot of energy, as
+
+514
+00:39:10,890 --> 00:39:14,390
+we just consider this, can leave them out of
+
+515
+00:39:14,410 --> 00:39:17,970
+trouble and hard to analyze with the.
+
+516
+00:39:20,030 --> 00:39:23,000
+Tools and techniques for developing this course,
+
+517
+00:39:23,510 --> 00:39:27,590
+but as time passes, we expect them to approach and
+
+518
+00:39:27,590 --> 00:39:30,630
+recover their equilibrium in this new situation.
+
+519
+00:39:31,190 --> 00:39:33,980
+Two systems that are now allowed to exchange
+
+520
+00:39:33,980 --> 00:39:38,240
+energy. And as the system goes through that
+
+521
+00:39:39,080 --> 00:39:44,020
+equilibration process, the entropy is. Never
+
+522
+00:39:44,020 --> 00:39:47,140
+decreasing, it is either constant or increasing.
+
+523
+00:39:48,190 --> 00:39:51,880
+And once some of the people that it's reached, the
+
+524
+00:39:51,880 --> 00:39:56,380
+entropy that saturated whatever down it is allowed
+
+525
+00:39:56,380 --> 00:40:00,100
+to to reach with a finite number of microstates,
+
+526
+00:40:00,100 --> 00:40:04,900
+which physical systems you always have. So then
+
+527
+00:40:04,900 --> 00:40:09,880
+the saturation of that maximum entropy corresponds
+
+528
+00:40:09,880 --> 00:40:12,850
+to the phenomenon of an equilibrium without having
+
+529
+00:40:12,850 --> 00:40:16,990
+to specify precisely what quantities are conserved,
+
+530
+00:40:16,990 --> 00:40:20,490
+precisely what sophistical ensemble are
+
+531
+00:40:20,500 --> 00:40:25,870
+considering. So that was sort of a long process of
+
+532
+00:40:25,870 --> 00:40:28,570
+argumentation based on physical intuition rather
+
+533
+00:40:28,570 --> 00:40:33,460
+than mathematics. Are there any objections to that?
+
+534
+00:40:42,750 --> 00:40:47,430
+Not hearing any what we can do just to wrap up
+
+535
+00:40:47,430 --> 00:40:51,700
+this section and possibly report. Today will see
+
+536
+00:40:51,720 --> 00:40:56,410
+is show that this new and more general definition
+
+537
+00:40:56,710 --> 00:41:03,450
+of equilibrium reproduces. And the. Condition we
+
+538
+00:41:03,450 --> 00:41:06,000
+had earlier in that equation, my team with a
+
+539
+00:41:06,000 --> 00:41:08,640
+microcephalic ensemble where all of the
+
+540
+00:41:08,640 --> 00:41:11,860
+probabilities for all the microstates are equal to
+
+541
+00:41:11,950 --> 00:41:17,520
+that equilibrium. So the way we do this is
+
+542
+00:41:18,300 --> 00:41:21,240
+consider that entropy and its generic form, then
+
+543
+00:41:21,240 --> 00:41:27,490
+some over microstates of plock. And then subject
+
+544
+00:41:27,490 --> 00:41:32,600
+to this maximization process, to the three
+
+545
+00:41:32,690 --> 00:41:35,450
+constraints implicit in the Bible canonical
+
+546
+00:41:35,450 --> 00:41:37,550
+example, first, that the probabilities are
+
+547
+00:41:38,150 --> 00:41:41,990
+probabilities and add up to one with some degree
+
+548
+00:41:41,990 --> 00:41:45,650
+of microstates, and also that we conserve energy
+
+549
+00:41:45,650 --> 00:41:48,740
+and conserve part of the number. And it turns out
+
+550
+00:41:48,740 --> 00:41:54,210
+that it's only the final constraint over. The
+
+551
+00:41:54,210 --> 00:41:56,490
+probability of something up to 100 percent that
+
+552
+00:41:56,490 --> 00:41:58,680
+needs to be taken into account in this
+
+553
+00:41:58,680 --> 00:42:03,370
+maximisation through. A method of war crimes
+
+554
+00:42:03,380 --> 00:42:07,510
+multipliers, which. Pretty sure you should have
+
+555
+00:42:07,510 --> 00:42:10,660
+seen in previous novels, or perhaps not recently,
+
+556
+00:42:10,660 --> 00:42:14,440
+perhaps some time ago, so might be worth reviewing
+
+557
+00:42:15,160 --> 00:42:21,160
+at least briefly. But the idea is that. In order
+
+558
+00:42:21,160 --> 00:42:26,680
+to maximize the entropy is subject to some
+
+559
+00:42:26,680 --> 00:42:30,010
+constraints in this case, the sum of some of the
+
+560
+00:42:30,010 --> 00:42:33,430
+probabilities equals to one. We define a modified
+
+561
+00:42:33,430 --> 00:42:38,650
+function in this bar that depends on everything.
+
+562
+00:42:38,650 --> 00:42:41,740
+That depends on as well as this additional
+
+563
+00:42:41,740 --> 00:42:46,180
+parameter lambda code. That multiplier and what
+
+564
+00:42:46,180 --> 00:42:50,410
+this multiplier is multiplying is the quantity
+
+565
+00:42:51,430 --> 00:42:57,340
+that implements this constraint when the sum over
+
+566
+00:42:57,340 --> 00:43:01,090
+P equals to one, its quantity in parentheses
+
+567
+00:43:01,090 --> 00:43:06,220
+vanishes. So that whenever we have found. And
+
+568
+00:43:07,370 --> 00:43:11,430
+whenever we oppose. This condition on the
+
+569
+00:43:11,430 --> 00:43:17,100
+probabilities we automatically get back, recover
+
+570
+00:43:17,110 --> 00:43:21,610
+equality between this modified spark and the
+
+571
+00:43:21,610 --> 00:43:24,870
+emotional bond that we are interested in and in
+
+572
+00:43:24,870 --> 00:43:25,530
+particular.
+
+573
+00:43:28,500 --> 00:43:33,090
+If we consider the derivative of this modified
+
+574
+00:43:33,090 --> 00:43:36,690
+entropy with respect to the large multiplier, once
+
+575
+00:43:36,690 --> 00:43:39,360
+we impose the constraints that also banishes.
+
+576
+00:43:40,370 --> 00:43:45,290
+Which means that in the extreme of the modified
+
+577
+00:43:45,290 --> 00:43:48,740
+entropy, it's going to remain an extreme one of
+
+578
+00:43:48,740 --> 00:43:53,880
+the. Actual entropy that we are interested in the
+
+579
+00:43:53,880 --> 00:43:58,470
+case when land is equal to zero. So.
+
+580
+00:44:01,010 --> 00:44:04,530
+With that set up, the.
+
+581
+00:44:08,960 --> 00:44:11,780
+The maximization process simply consists of
+
+582
+00:44:12,470 --> 00:44:17,180
+looking at the derivative of that is modifying the
+
+583
+00:44:17,180 --> 00:44:24,380
+image on the screen some way with respect to the
+
+584
+00:44:24,710 --> 00:44:29,560
+probability that we want to. Two constraints. We
+
+585
+00:44:29,560 --> 00:44:33,390
+want to find the value for the probability of a
+
+586
+00:44:33,390 --> 00:44:39,000
+generic MicroTech that maximizes the entropy with
+
+587
+00:44:39,000 --> 00:44:41,550
+this multiplier, imposing the condition that the
+
+588
+00:44:41,550 --> 00:44:47,400
+probability. Is well defined as up to one hundred
+
+589
+00:44:47,400 --> 00:44:53,790
+percent of the microstates. So if I copy this down
+
+590
+00:44:53,790 --> 00:44:57,700
+at the moment, then I can get rid of that sheet.
+
+591
+00:44:57,750 --> 00:44:58,490
+We have a similar.
+
+592
+00:45:01,730 --> 00:45:07,440
+Piece of I have one piece of it. Plus, Linda, I
+
+593
+00:45:07,460 --> 00:45:11,510
+just remember I used to buy that old stone like
+
+594
+00:45:11,580 --> 00:45:12,170
+this one,
+
+595
+00:45:16,580 --> 00:45:17,510
+and now we can.
+
+596
+00:45:21,680 --> 00:45:22,820
+Just to pose the
+
+597
+00:45:25,670 --> 00:45:30,770
+identity written up here, where a derivative of
+
+598
+00:45:31,970 --> 00:45:35,560
+probably a piece of eye with respect to. The
+
+599
+00:45:35,560 --> 00:45:38,020
+probability piece of cake is going to vanish
+
+600
+00:45:38,060 --> 00:45:41,170
+overnight, it's not equal and it will be one
+
+601
+00:45:41,740 --> 00:45:45,530
+whatever equals K, that's the Honaker Delta
+
+602
+00:45:45,580 --> 00:45:49,390
+function that we encountered briefly last week.
+
+603
+00:45:50,320 --> 00:45:54,160
+And we can pull it through in this. Some of the
+
+604
+00:45:54,160 --> 00:45:57,040
+derivative will pick out the Kathee term in that
+
+605
+00:45:57,040 --> 00:45:57,910
+sum over I.
+
+606
+00:46:00,060 --> 00:46:05,370
+And give that Delta function so. Acting first on
+
+607
+00:46:06,360 --> 00:46:08,880
+the piece of up front, because the building like
+
+608
+00:46:09,720 --> 00:46:12,490
+so negative Morgan piece of.
+
+609
+00:46:14,520 --> 00:46:18,090
+Similarly, acting on the board with derivative
+
+610
+00:46:18,570 --> 00:46:22,560
+keeps that piece of iron and brings over a. One
+
+611
+00:46:22,570 --> 00:46:24,500
+over piece of the building,
+
+612
+00:46:26,560 --> 00:46:31,980
+that is. Pick over pick, which is one, which is
+
+613
+00:46:32,040 --> 00:46:37,990
+one. And then. The final term is even simpler,
+
+614
+00:46:38,510 --> 00:46:42,590
+which is pick out the delta, I came from the
+
+615
+00:46:42,590 --> 00:46:46,490
+derivative of peace, the value of peace, OK? Which
+
+616
+00:46:46,490 --> 00:46:50,240
+is going to be one for the one term that some of
+
+617
+00:46:50,810 --> 00:46:54,170
+that is equal to the probability, T.J., we are
+
+618
+00:46:54,170 --> 00:46:59,130
+interested in. So overall, we have. Negative all
+
+619
+00:46:59,130 --> 00:47:03,390
+play minus one slam dunk, that being so equal to
+
+620
+00:47:03,390 --> 00:47:07,410
+zero to get the extreme. Of this modified and
+
+621
+00:47:08,610 --> 00:47:13,110
+which is to say that this piece of. Is the
+
+622
+00:47:13,110 --> 00:47:20,400
+exponential of India minus one, which with this
+
+623
+00:47:20,400 --> 00:47:24,600
+constant parameter lambda is just a constant and
+
+624
+00:47:24,600 --> 00:47:28,450
+that imposing. The constraint that we have, the
+
+625
+00:47:28,450 --> 00:47:32,560
+some over all of these equals, one immediately
+
+626
+00:47:32,560 --> 00:47:37,900
+tells us that this is one over the total number of
+
+627
+00:47:37,900 --> 00:47:43,120
+microstates. So we have. We we have derived what
+
+628
+00:47:43,130 --> 00:47:47,510
+initially we had to state as a definition of
+
+629
+00:47:47,510 --> 00:47:49,970
+thermodynamic equilibrium to maximize the entropy.
+
+630
+00:47:50,570 --> 00:47:53,600
+We find that all of the probabilities for the
+
+631
+00:47:53,600 --> 00:47:57,770
+microstates and the macroeconomic ensemble. Are
+
+632
+00:47:58,380 --> 00:48:02,400
+our people so equal probability for every micro
+
+633
+00:48:02,410 --> 00:48:09,390
+state in this microcosm ensemble? So given the
+
+634
+00:48:09,390 --> 00:48:13,290
+time, that's where we will wrap up, so I thought
+
+635
+00:48:13,290 --> 00:48:15,840
+we might get the temperature today, but we will do
+
+636
+00:48:15,840 --> 00:48:17,070
+that on Monday instead
+
+637
+00:48:19,110 --> 00:48:24,590
+of the fact that temperature is not. Inherent in
+
+638
+00:48:24,590 --> 00:48:27,620
+the micro example, but it provides on the same
+
+639
+00:48:27,620 --> 00:48:33,740
+footing as with some high tech companies in an
+
+640
+00:48:34,040 --> 00:48:38,180
+unusual counterintuitive futures. This afternoon
+
+641
+00:48:38,180 --> 00:48:43,970
+we have a tutorial. So my plan is to go through
+
+642
+00:48:43,970 --> 00:48:46,100
+the remainder of that computer and then I'll
+
+643
+00:48:46,100 --> 00:48:47,720
+answer any questions that have come up about the
+
+644
+00:48:47,720 --> 00:48:51,510
+computer project that's due next Thursday. And if
+
+645
+00:48:51,530 --> 00:48:54,620
+that doesn't tell the time, I have more computing
+
+646
+00:48:54,620 --> 00:48:55,760
+stuff that we can look at
+
+647
+00:48:58,440 --> 00:49:00,770
+all of those. So see you then.
+
+648
+00:49:08,060 --> 00:49:14,270
+You focus on what is really focused on this be. So
+
+649
+00:49:14,290 --> 00:49:18,590
+my office would to walk back there right now if
+
+650
+00:49:18,740 --> 00:49:21,260
+you can come along with
+
+651
+00:49:23,270 --> 00:49:24,290
+a book or just for.
