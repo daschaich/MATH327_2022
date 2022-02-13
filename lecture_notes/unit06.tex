@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 6}
-\renewcommand{\moddate}{Last modified 17 Jan.~2022}
+\renewcommand{\moddate}{Last modified 12 Feb.~2022}
 \setcounter{section}{6}
 \setcounter{subsection}{0}
 \phantomsection
@@ -117,8 +117,8 @@ You should find a probability of the form
   \label{eq:grand_Lagrange}
   p_k = \frac{1}{Z_g} e^{-\be E_k + \ga N_k},
 \end{equation}
-defining $Z_g = \exp\left[1 - \frac{\al}{R}\right]$ to work in terms of the free parameters $\left\{Z_g, \be, \ga\right\}$.
-As usual, we fix these three free parameters by demanding that the three constraints above are satisfied.
+defining $Z_g = \exp\left[1 - \frac{\al}{R}\right]$ to work in terms of the parameters $\left\{Z_g, \be, \ga\right\}$.
+As usual, we fix these three parameters by demanding that the three constraints above are satisfied.
 Using the first constraint, what is $Z_g$ in terms of \be and $\ga$?
 \begin{mdframed}
   $\displaystyle 1 = \sum_{i = 1}^M p_i = $ \\[50 pt]
@@ -130,7 +130,7 @@ Guided by our work in \secref{sec:canon_part}, we can expect to need the partial
   \frac{1}{Z_g} \pderiv{}{\ga} Z_g(\be, \ga) & = \frac{1}{Z_g} \pderiv{}{\ga} \sum_{i = 1}^M e^{-\be E_i + \ga N_i} = \frac{1}{Z_g} \sum_{i = 1}^M N_i \; e^{-\be E_i + \ga N_i} = \frac{\Ntot}{R} \label{eq:grand_ga_deriv},
 \end{align}
 where we have used $\Etot = R \sum_i p_i E_i$ and $\Ntot = R \sum_i p_i N_i$ from \eq{eq:grand_constraint}.
-These partial derivatives appear when we express the entropy in terms of $\Etot$, \Ntot and the free parameters
+These partial derivatives appear when we express the entropy in terms of $\Etot$, \Ntot and the parameters
 \begin{equation*}
   \left\{Z_g(\be, \ga), \quad \be(\Etot, \Ntot), \quad \ga(\Etot, \Ntot)\right\},
 \end{equation*}
