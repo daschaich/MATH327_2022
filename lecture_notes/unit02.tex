@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 2}
-\renewcommand{\moddate}{Last modified 7 Feb.~2022}
+\renewcommand{\moddate}{Last modified 14 Feb.~2022}
 \setcounter{section}{2}
 \setcounter{subsection}{0}
 \phantomsection
@@ -296,7 +296,7 @@ What are $E_0$ and $E_1$ in terms of $\left\{N, H\right\}$, and how many distinc
 Your results should generalize to
 \begin{equation}
   \label{eq:spin_states}
-  M(E_{n_+}) = \binom{N}{n_+} = \frac{N!}{n_+! \; (N - n_+)!}.
+  M(E_{n_-}) = \binom{N}{n_-} = \frac{N!}{n_-! \; (N - n_-)!}.
 \end{equation}
 
 To take the derivative in \eq{eq:temperature}, we need to express $n_+$ in terms of $\left\{E, N\right\}$.
@@ -309,7 +309,7 @@ For $N \gg 1$, we can accomplish both these goals by treating the spin system as
   \item With $p = q = \frac{1}{2}$, every one of the $2^N$ possible configurations of $N$ spins is equally probable.
         Therefore the probability $P_{n_+}$ that our overall `walk' ends up producing a configuration with $n_+ = \frac{1}{2}\left(x + N\right)$ is simply the fraction of those $2^N$ states with this $n_+$, in which we can recognize \eq{eq:spin_states}:
         \begin{equation*}
-          P_{n_+} = \frac{1}{2^N} \binom{N}{n_+} = \frac{M(E_{n_+})}{2^N} \qquad \implies \qquad M(E_{n_+}) = 2^N P_{n_+}.
+          P_{n_+} = \frac{1}{2^N} \binom{N}{n_+} = \frac{M(E_{n_-})}{2^N} \qquad \implies \qquad M(E_{n_-}) = 2^N P_{n_+}.
         \end{equation*}
   \item To estimate $P_{n_+}$ for $N \gg 1$, we apply the central limit theorem just as in \secref{sec:RW_CLT}.
         In particular, we can re-use our computation that $\mu = 2p - 1 = 0$ and $\si^2 = 4pq = 1$, to find
