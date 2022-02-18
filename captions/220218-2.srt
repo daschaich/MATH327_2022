@@ -1,0 +1,1947 @@
+1
+00:00:02,680 --> 00:00:08,120
+I just heard the bells ringing over the wind, so
+
+2
+00:00:08,120 --> 00:00:10,580
+let's get started even though I'm still tracking down
+
+3
+00:00:13,870 --> 00:00:18,070
+all the bits and pieces I'm bringing in.  I guess the
+
+4
+00:00:20,130 --> 00:00:23,790
+place to pick up is where we wrapped up in
+
+5
+00:00:24,690 --> 00:00:30,420
+last week's tutorial, we had a discussion of well.
+
+6
+00:00:33,950 --> 00:00:37,370
+Maybe before diving into that, I can ask if there
+
+7
+00:00:37,370 --> 00:00:40,250
+are any questions about anything at all from, you
+
+8
+00:00:41,360 --> 00:00:44,060
+know, is this just a few hours ago, the this is
+
+9
+00:00:44,060 --> 00:00:47,450
+another chance in the tutorial context.
+
+10
+00:00:51,270 --> 00:00:57,630
+Without any more. Shouting to raise an issue, you
+
+11
+00:00:57,640 --> 00:01:03,420
+can't or I can ask how you got on with its
+
+12
+00:01:03,960 --> 00:01:09,420
+exercise of placing bounds of the entropy for two
+
+13
+00:01:10,350 --> 00:01:14,670
+spin systems that are in contact and are analyzed
+
+14
+00:01:15,420 --> 00:01:18,330
+as a whole, and they are canonical examples of the
+
+15
+00:01:18,330 --> 00:01:21,320
+total energy of those two systems is fixed and
+
+16
+00:01:21,330 --> 00:01:25,110
+allowed to share energy back and forth. And there
+
+17
+00:01:25,140 --> 00:01:30,780
+are some bounds on the entropy that we can derive
+
+18
+00:01:30,780 --> 00:01:37,810
+from that. Did that all go smoothly for you, for
+
+19
+00:01:37,810 --> 00:01:40,030
+that 10 speed system?
+
+20
+00:01:42,580 --> 00:01:42,950
+I am.
+
+21
+00:01:46,790 --> 00:01:48,680
+It's really nice enough that I forgot to put up
+
+22
+00:01:48,680 --> 00:01:51,290
+the security number for that.
+
+23
+00:01:56,530 --> 00:01:57,130
+That help.
+
+24
+00:02:00,140 --> 00:02:00,800
+Divans.
+
+25
+00:02:04,200 --> 00:02:12,870
+OK, so there is one. Three of.
+
+26
+00:02:15,240 --> 00:02:16,750
+So it's not out of the way.
+
+27
+00:02:22,530 --> 00:02:26,570
+With 10 spins, you can just go through and
+
+28
+00:02:26,570 --> 00:02:30,230
+enumerate all of these entropies and see what the
+
+29
+00:02:30,680 --> 00:02:35,000
+spread is, what sorts of numbers were. You coming
+
+30
+00:02:35,000 --> 00:02:37,880
+up with four new
+
+31
+00:02:42,890 --> 00:02:43,480
+systems?
+
+32
+00:02:54,380 --> 00:02:57,260
+What were you able to come up with numbers for
+
+33
+00:02:57,260 --> 00:02:57,980
+these men's?
+
+34
+00:03:22,960 --> 00:03:27,640
+All might be able to take a step back from just
+
+35
+00:03:27,820 --> 00:03:31,540
+jumping straight to the answers to these
+
+36
+00:03:31,540 --> 00:03:35,470
+inequalities and go through the pieces that are
+
+37
+00:03:35,470 --> 00:03:41,390
+showing up in them, this smacks and terms is if
+
+38
+00:03:41,410 --> 00:03:43,120
+you're going to have any.
+
+39
+00:03:45,320 --> 00:03:48,590
+Numbers for the the maximum.
+
+40
+00:03:50,740 --> 00:03:53,580
+Factor in the terms and one times have to for
+
+41
+00:03:53,600 --> 00:03:56,830
+particular division of the total energy between
+
+42
+00:03:56,830 --> 00:04:01,270
+the two or four, how many terms there are in total?
+
+43
+00:04:22,300 --> 00:04:26,290
+Fortunately, 10 spins is few enough that we can go
+
+44
+00:04:26,290 --> 00:04:29,440
+through the full calculation, if that's proved
+
+45
+00:04:29,950 --> 00:04:38,220
+sticky for you. So we have. Ten. Units of energy
+
+46
+00:04:39,030 --> 00:04:42,180
+and reset the magnetic field strength equal to one
+
+47
+00:04:42,750 --> 00:04:43,140
+and.
+
+48
+00:04:47,140 --> 00:04:51,000
+Could equivalently just work in units of strength,
+
+49
+00:04:51,430 --> 00:04:57,160
+so one possible way of distributing 10 units of
+
+50
+00:04:57,160 --> 00:05:05,020
+energy systems is to have all this in one of the
+
+51
+00:05:05,020 --> 00:05:08,380
+systems. None of it's in another.
+
+52
+00:05:10,440 --> 00:05:10,980
+And.
+
+53
+00:05:13,170 --> 00:05:17,670
+I kind of leave enough space, but here. There's a
+
+54
+00:05:17,820 --> 00:05:20,750
+Senate centuries between these two systems. So we
+
+55
+00:05:20,880 --> 00:05:24,940
+have all kinds of energy and neither one of the
+
+56
+00:05:24,940 --> 00:05:25,390
+two.
+
+57
+00:05:28,080 --> 00:05:31,080
+And what are the some of the other possibilities?
+
+58
+00:05:31,110 --> 00:05:35,250
+So this one corresponds to everything that's been
+
+59
+00:05:35,250 --> 00:05:41,900
+put in System 101, but even since then it's been
+
+60
+00:05:41,910 --> 00:05:43,030
+done system to
+
+61
+00:05:45,900 --> 00:05:48,690
+slot your.
+
+62
+00:05:51,780 --> 00:05:54,270
+What are some of the possibilities that can go
+
+63
+00:05:54,270 --> 00:05:56,040
+between these two limits?
+
+64
+00:06:05,860 --> 00:06:09,700
+So as we look, what's been reaction to this?
+
+65
+00:06:15,970 --> 00:06:22,810
+Still, you want some changes, we've see six terms
+
+66
+00:06:23,110 --> 00:06:26,020
+that answers that question and also a symmetry
+
+67
+00:06:26,020 --> 00:06:31,260
+between the six trials where the upper three or
+
+68
+00:06:31,270 --> 00:06:35,220
+just the. Interchange and reverse of the.
+
+69
+00:06:37,560 --> 00:06:43,440
+And then she needs energies, you want to relate
+
+70
+00:06:43,440 --> 00:06:47,050
+that to a number of ways, the number of microbes
+
+71
+00:06:47,070 --> 00:06:52,530
+that each of these systems that we have to get all
+
+72
+00:06:52,530 --> 00:06:57,070
+of. Forget the energy is distributed in this way,
+
+73
+00:06:57,200 --> 00:07:01,220
+so I will do the easy one that goes along with the
+
+74
+00:07:01,220 --> 00:07:03,800
+chocolate. There's only one way to have all the
+
+75
+00:07:03,890 --> 00:07:07,490
+things pointing out so that all publicity is one
+
+76
+00:07:07,890 --> 00:07:10,310
+is going to the.
+
+77
+00:07:14,950 --> 00:07:23,590
+A little bit more room between those two. Of. They
+
+78
+00:07:23,640 --> 00:07:27,850
+are the easiest way to go is to go down this
+
+79
+00:07:27,850 --> 00:07:31,240
+column, what is the what are the number of
+
+80
+00:07:31,240 --> 00:07:35,000
+microstates that we correspond to having those
+
+81
+00:07:35,140 --> 00:07:38,470
+minus eight units of energy in system one that.
+
+82
+00:08:03,000 --> 00:08:08,650
+As it happens, maybe I can step back and. To the
+
+83
+00:08:08,670 --> 00:08:14,430
+specter of war is just the binomial coefficient of
+
+84
+00:08:14,970 --> 00:08:18,220
+four of the ten storms
+
+85
+00:08:20,740 --> 00:08:21,410
+lined
+
+86
+00:08:23,780 --> 00:08:25,730
+up, the both of those cases.
+
+87
+00:08:30,510 --> 00:08:35,140
+The question then is. How does that generalize to
+
+88
+00:08:35,740 --> 00:08:39,540
+the intermediate or less trivial speed
+
+89
+00:08:39,580 --> 00:08:40,510
+configurations?
+
+90
+00:08:46,960 --> 00:08:50,120
+I can't quite hear the.
+
+91
+00:08:52,250 --> 00:08:56,910
+So for the. Evidence of energy, do we have?
+
+92
+00:09:04,500 --> 00:09:09,430
+The integration, of course, almost always been one
+
+93
+00:09:09,440 --> 00:09:17,940
+the opposite oriented, so she was turned down, she
+
+94
+00:09:17,980 --> 00:09:24,040
+was known for 10 ways of organizing. That would
+
+95
+00:09:24,580 --> 00:09:27,910
+seem to be any one of the ten. Each of those ten
+
+96
+00:09:27,910 --> 00:09:29,320
+is a different microstates.
+
+97
+00:09:31,670 --> 00:09:35,660
+So ships there as well.
+
+98
+00:09:38,370 --> 00:09:41,910
+And then the process continues as we keep slipping
+
+99
+00:09:41,910 --> 00:09:44,940
+additional standards, we have to choose on the
+
+100
+00:09:46,050 --> 00:09:48,660
+page, we tend to be quite a few.
+
+101
+00:09:50,910 --> 00:09:53,720
+What is the binomial factor?
+
+102
+00:10:00,070 --> 00:10:02,520
+Forty five. Yeah,
+
+103
+00:10:05,500 --> 00:10:08,130
+one in five said over to.
+
+104
+00:10:11,130 --> 00:10:19,340
+So that means there. No sweat lodge still
+
+105
+00:10:23,480 --> 00:10:25,930
+continues. And you
+
+106
+00:10:27,950 --> 00:10:28,910
+can use.
+
+107
+00:10:31,400 --> 00:10:36,570
+Seven, six, five, which. If my memory serves more
+
+108
+00:10:37,880 --> 00:10:43,310
+than twenty two to two to.
+
+109
+00:10:47,780 --> 00:10:56,370
+She had to double check that. And there were just.
+
+110
+00:11:00,460 --> 00:11:05,910
+One time and two to figure out the. Total number
+
+111
+00:11:05,950 --> 00:11:11,520
+of signs of term in the Senate. We started off
+
+112
+00:11:11,520 --> 00:11:15,690
+with so we are getting at one time and two, which
+
+113
+00:11:15,690 --> 00:11:17,760
+would be six to three inches of energy
+
+114
+00:11:20,550 --> 00:11:22,200
+is is one.
+
+115
+00:11:25,560 --> 00:11:33,150
+And then 10, 10 times to 10. Used to be used to
+
+116
+00:11:33,300 --> 00:11:38,930
+just extract know in and then forty five times one
+
+117
+00:11:38,930 --> 00:11:42,200
+hundred twenty one. Oh look, I had
+
+118
+00:11:45,020 --> 00:11:54,140
+54 of those two states with the most equal
+
+119
+00:11:54,140 --> 00:11:57,410
+distribution of states between the two. So next
+
+120
+00:11:58,510 --> 00:12:02,420
+year is be four hundred.
+
+121
+00:12:04,710 --> 00:12:08,300
+And the total. If you were to
+
+122
+00:12:11,030 --> 00:12:14,930
+sum up all of these terms. That might be dangerous,
+
+123
+00:12:14,940 --> 00:12:21,340
+but behind the screen here, you say. Paul is
+
+124
+00:12:25,330 --> 00:12:26,440
+five hundred.
+
+125
+00:12:28,730 --> 00:12:29,390
+So.
+
+126
+00:12:31,400 --> 00:12:39,320
+The. Battles that we begin this hour that we have
+
+127
+00:12:39,360 --> 00:12:44,960
+the logarithm of. This maximum value in the
+
+128
+00:12:44,960 --> 00:12:48,330
+natural place. Which I have.
+
+129
+00:12:50,460 --> 00:12:51,120
+Written down
+
+130
+00:12:54,420 --> 00:13:00,340
+five nine is going to be hopefully smaller, not
+
+131
+00:13:00,360 --> 00:13:04,590
+too much smaller than the true entropy of the
+
+132
+00:13:04,590 --> 00:13:08,100
+stone wall, distributions of energy logarithm
+
+133
+00:13:08,100 --> 00:13:11,550
+turns out to be nine, six, five.
+
+134
+00:13:15,990 --> 00:13:19,140
+And then this in turn is going to be smaller than
+
+135
+00:13:19,920 --> 00:13:22,650
+the logarithm of six times fifty four hundred,
+
+136
+00:13:23,130 --> 00:13:26,280
+which is just logarithmic six. Plus the water will
+
+137
+00:13:26,330 --> 00:13:30,780
+be fifty for the water. The six is that one point
+
+138
+00:13:30,780 --> 00:13:37,310
+eight. So. Eight plus three point five hundred and
+
+139
+00:13:37,320 --> 00:13:44,550
+twenty three, nine out of percent in the bounds
+
+140
+00:13:44,550 --> 00:13:49,530
+that we compute just in half a chalkboard for this
+
+141
+00:13:49,530 --> 00:13:51,810
+case of an equals 10.
+
+142
+00:13:54,630 --> 00:13:58,860
+And in particular, I asked once I finished typing
+
+143
+00:13:58,860 --> 00:14:03,600
+up this tutorial exercise, asked what fraction of
+
+144
+00:14:03,600 --> 00:14:07,950
+the true entropy would be accounted for by just
+
+145
+00:14:07,950 --> 00:14:13,680
+looking at either one of these two divisions of
+
+146
+00:14:13,680 --> 00:14:17,890
+energy with the largest factor in the moment to
+
+147
+00:14:18,480 --> 00:14:23,610
+five ratio that highlighted the 10 percent spread
+
+148
+00:14:23,730 --> 00:14:26,790
+on both sides of these bounds. I can say that
+
+149
+00:14:27,000 --> 00:14:32,760
+eight point six or nine point seven is about one
+
+150
+00:14:32,760 --> 00:14:37,440
+percent of the entropy of the system is accounted
+
+151
+00:14:37,440 --> 00:14:44,160
+for just by either one of these two ways of
+
+152
+00:14:44,160 --> 00:14:49,240
+distributing the energy reasonably equally. Which
+
+153
+00:14:49,240 --> 00:14:49,660
+is.
+
+154
+00:14:52,320 --> 00:14:56,790
+A significant fraction, and we can expect to that
+
+155
+00:14:57,630 --> 00:15:04,320
+as an increases to the truly larger values of this
+
+156
+00:15:05,070 --> 00:15:09,540
+saturation of the energy by the most likely set up,
+
+157
+00:15:09,840 --> 00:15:14,190
+most likely configuration is going to become even
+
+158
+00:15:14,190 --> 00:15:15,060
+more precise.
+
+159
+00:15:21,900 --> 00:15:27,840
+Of course, going on from end equals 10 to 20, 30,
+
+160
+00:15:27,840 --> 00:15:32,670
+40 or so on might be a bit tedious to do in a
+
+161
+00:15:32,670 --> 00:15:37,070
+table like this. But it is it's just a bunch of
+
+162
+00:15:37,730 --> 00:15:42,590
+computing or computations following a very
+
+163
+00:15:42,590 --> 00:15:47,270
+well-defined set of instructions, which is why
+
+164
+00:15:47,270 --> 00:15:51,050
+another tab in the window that I have here is a
+
+165
+00:15:51,050 --> 00:15:55,190
+Python notebook where I just wrote down the
+
+166
+00:15:55,190 --> 00:16:01,190
+automated calculation of all of this. And I was
+
+167
+00:16:01,190 --> 00:16:04,230
+thinking I could even. This is a short enough
+
+168
+00:16:04,270 --> 00:16:08,690
+program, much of it being. Displaying results in a
+
+169
+00:16:08,690 --> 00:16:11,690
+pretty way, I could have written this live in the
+
+170
+00:16:11,690 --> 00:16:16,100
+tutorial, but I figured that would be especially
+
+171
+00:16:16,100 --> 00:16:20,750
+soporific on a Friday afternoon with the exciting
+
+172
+00:16:21,020 --> 00:16:25,750
+outside. So let's just. Walk through the crowd
+
+173
+00:16:25,760 --> 00:16:28,730
+quickly, it won't take long. Setting that whole
+
+174
+00:16:28,730 --> 00:16:31,580
+number of spins up at the top, which on my
+
+175
+00:16:31,580 --> 00:16:35,890
+computer, I just read it as an input argument. We
+
+176
+00:16:35,890 --> 00:16:40,390
+can do a quick, warm up exercise of checking the.
+
+177
+00:16:42,010 --> 00:16:44,770
+Multiplicities, the number of multi states in a
+
+178
+00:16:44,770 --> 00:16:50,890
+single system of 10 spins that. Correspond to each
+
+179
+00:16:50,890 --> 00:16:53,620
+of the possible energies that the macro economic
+
+180
+00:16:53,710 --> 00:16:58,000
+system can have, plus 10 all pointed against the
+
+181
+00:16:58,000 --> 00:17:01,240
+magnetic field, I pointed down to minus 10. They
+
+182
+00:17:01,240 --> 00:17:05,650
+are all aligned. You see that these multiplicities
+
+183
+00:17:05,650 --> 00:17:09,580
+are the familiar ones here, ranging from one to
+
+184
+00:17:09,580 --> 00:17:12,760
+two hundred and fifty two. And the corresponding
+
+185
+00:17:12,760 --> 00:17:16,450
+entropy is just the logarithm of that. Might as
+
+186
+00:17:16,450 --> 00:17:21,550
+well turn that off. Just a quick sound check that
+
+187
+00:17:22,360 --> 00:17:25,490
+things like the binomial coefficients provided by
+
+188
+00:17:25,490 --> 00:17:29,310
+a scientific python are behaving as they should,
+
+189
+00:17:29,530 --> 00:17:32,890
+and similarly that that the log here is in the
+
+190
+00:17:32,890 --> 00:17:37,030
+natural base. What we have is two systems in terms
+
+191
+00:17:37,030 --> 00:17:41,720
+of contact with a fixed total energy. Which can
+
+192
+00:17:41,720 --> 00:17:46,640
+also be converted into an input argument, and we
+
+193
+00:17:46,640 --> 00:17:51,560
+want to accumulate all of the terms in this cell
+
+194
+00:17:52,670 --> 00:17:58,670
+over at one time, said to right here the log of
+
+195
+00:17:58,670 --> 00:18:01,940
+which defines the total energy, the total entropy
+
+196
+00:18:01,940 --> 00:18:05,630
+of the system. So if we cycle over all of the
+
+197
+00:18:05,630 --> 00:18:11,120
+possible numbers and upward pointing spins in the
+
+198
+00:18:11,150 --> 00:18:15,470
+first system, we can get the energy out of there
+
+199
+00:18:15,470 --> 00:18:19,490
+just two times and plus minus the total energy of
+
+200
+00:18:19,490 --> 00:18:23,050
+10. That means that in order to have the fixed
+
+201
+00:18:23,350 --> 00:18:27,010
+total energy of minus 10, the energy from the
+
+202
+00:18:27,010 --> 00:18:30,370
+second system has to be the remainder. And we can
+
+203
+00:18:30,370 --> 00:18:32,740
+figure out how many upward expense that
+
+204
+00:18:32,740 --> 00:18:35,760
+corresponds to just by converting this formula.
+
+205
+00:18:39,930 --> 00:18:40,800
+Taking the.
+
+206
+00:18:43,630 --> 00:18:44,830
+The negative side there
+
+207
+00:18:46,940 --> 00:18:53,090
+and minus the energy divided by two. It may turn
+
+208
+00:18:53,090 --> 00:18:57,050
+out to be that more than. The total number of
+
+209
+00:18:57,050 --> 00:18:59,750
+available spins would be present in order to
+
+210
+00:19:00,080 --> 00:19:04,310
+satisfy the total energy supply, since we never
+
+211
+00:19:04,310 --> 00:19:08,090
+have the plus 10 spin system here appearing in
+
+212
+00:19:08,250 --> 00:19:12,260
+these terms. And in that case, we can just
+
+213
+00:19:12,260 --> 00:19:16,430
+continue to the next option until we're done. We
+
+214
+00:19:16,430 --> 00:19:20,390
+have to do is compute the binomial coefficient of
+
+215
+00:19:20,990 --> 00:19:25,920
+picking. I spin up spins out of the total. Picking
+
+216
+00:19:25,930 --> 00:19:28,920
+up to speed up spins out of control, the
+
+217
+00:19:29,840 --> 00:19:32,910
+multiplicities for the separate systems, multiply
+
+218
+00:19:32,910 --> 00:19:35,970
+them together, add them to the list, and then
+
+219
+00:19:35,970 --> 00:19:41,190
+we're done sprinting things out. So putting out
+
+220
+00:19:41,190 --> 00:19:44,940
+that whole list, we see no more or less than I
+
+221
+00:19:44,940 --> 00:19:51,580
+have a more. We can extract the maximum elements
+
+222
+00:19:51,580 --> 00:19:56,230
+in the array as this max variable we defined last
+
+223
+00:19:56,230 --> 00:20:00,490
+week, the sum of all the elements in the array is
+
+224
+00:20:00,490 --> 00:20:03,700
+that total element for the combined system. And
+
+225
+00:20:03,700 --> 00:20:06,280
+the length of the array is the number of terms
+
+226
+00:20:06,280 --> 00:20:10,540
+that we have. And then adding up and taking borgs
+
+227
+00:20:10,660 --> 00:20:14,930
+gives us an entropy bound with. Eighty nine
+
+228
+00:20:14,930 --> 00:20:15,560
+percent
+
+229
+00:20:17,570 --> 00:20:21,770
+saturation of the entropy from any one of the most
+
+230
+00:20:21,770 --> 00:20:28,190
+likely states. So with that set up, have to change
+
+231
+00:20:28,190 --> 00:20:29,240
+and to.
+
+232
+00:20:31,470 --> 00:20:34,860
+See the results for larger systems going to the
+
+233
+00:20:34,860 --> 00:20:39,090
+larger limit, see larger numbers are appearing at
+
+234
+00:20:39,090 --> 00:20:43,230
+the entropy bound now is getting more like the.
+
+235
+00:20:46,450 --> 00:20:50,380
+Few percent level, the 10 percent level and 94
+
+236
+00:20:51,100 --> 00:20:55,390
+percent of the entropy is accounted for in the
+
+237
+00:20:55,390 --> 00:20:56,230
+most likely.
+
+238
+00:20:58,260 --> 00:21:01,770
+Distribution of energies, which corresponds to the
+
+239
+00:21:01,770 --> 00:21:05,490
+same minus four, minus six appearing in either
+
+240
+00:21:05,490 --> 00:21:05,970
+system.
+
+241
+00:21:08,490 --> 00:21:13,890
+And I think the largest I could repeat this for
+
+242
+00:21:14,970 --> 00:21:18,660
+before I went into the limits of double precision
+
+243
+00:21:18,660 --> 00:21:22,110
+floating point arithmetic and and computers is
+
+244
+00:21:22,110 --> 00:21:26,070
+five hundred twelve spins in each system. See if
+
+245
+00:21:26,070 --> 00:21:29,370
+that worked, if truncated some of the outputs,
+
+246
+00:21:29,370 --> 00:21:34,530
+conveniently, you see that the.
+
+247
+00:21:36,900 --> 00:21:39,250
+Little spin configurations we would have to
+
+248
+00:21:39,250 --> 00:21:42,420
+consider are about ten to the power, three hundred
+
+249
+00:21:42,440 --> 00:21:46,630
+six with five hundred eight terms. So as we
+
+250
+00:21:46,630 --> 00:21:48,880
+forecast last week, the number of terms is
+
+251
+00:21:50,260 --> 00:21:52,960
+increasing linearly with the number of degrees of
+
+252
+00:21:52,960 --> 00:21:56,560
+freedom and the entropy bound is better than one
+
+253
+00:21:56,560 --> 00:22:01,510
+percent in particular, that same setup with.
+
+254
+00:22:02,770 --> 00:22:05,350
+Evenly distributed energies were evenly
+
+255
+00:22:05,350 --> 00:22:09,010
+distributed, upper point expense accounts now for
+
+256
+00:22:09,700 --> 00:22:12,850
+more than ninety nine and a half percent of the
+
+257
+00:22:12,850 --> 00:22:14,980
+total energy, the total entropy.
+
+258
+00:22:18,310 --> 00:22:25,540
+If I switch to the dot cam and. To get it in focus.
+
+259
+00:22:29,120 --> 00:22:34,270
+You see the summary for these numbers.
+
+260
+00:22:39,570 --> 00:22:40,990
+Looking at how.
+
+261
+00:22:43,210 --> 00:22:43,560
+All
+
+262
+00:22:47,600 --> 00:22:51,520
+right, let's see how the.
+
+263
+00:22:54,200 --> 00:22:59,050
+The of that single likely distribution accounts
+
+264
+00:22:59,050 --> 00:23:02,230
+for a greater, greater fraction of the total
+
+265
+00:23:02,230 --> 00:23:07,300
+entropy as an increase is coming from the prisons
+
+266
+00:23:07,870 --> 00:23:12,460
+here up to the ninety nine point six percent that
+
+267
+00:23:12,460 --> 00:23:16,720
+we just read in the second four five hundred
+
+268
+00:23:16,720 --> 00:23:22,830
+twelve spins, saw that the number is five hundred
+
+269
+00:23:22,900 --> 00:23:27,670
+of these rounded out our 307, which is where we
+
+270
+00:23:27,670 --> 00:23:31,120
+run into double digit level. And maybe the
+
+271
+00:23:31,660 --> 00:23:33,610
+interesting thing about this is the.
+
+272
+00:23:35,980 --> 00:23:40,090
+The way that it's always the even distribution of
+
+273
+00:23:40,090 --> 00:23:46,290
+schemes and energy that dominates the entropy or
+
+274
+00:23:46,300 --> 00:23:51,820
+presumably dominate the number of microstates, so.
+
+275
+00:23:53,230 --> 00:23:54,040
+This is.
+
+276
+00:23:56,560 --> 00:24:04,150
+Essentially at. They are trying to use a. Somewhat
+
+277
+00:24:04,170 --> 00:24:08,810
+poetic term. We've seen that.
+
+278
+00:24:11,830 --> 00:24:15,580
+More may be disordered states, the ones with less
+
+279
+00:24:15,580 --> 00:24:18,010
+special configurations where there is a.
+
+280
+00:24:21,060 --> 00:24:24,870
+What is possible ways of organizing the degrees of
+
+281
+00:24:24,870 --> 00:24:27,240
+freedom subject to the constraints in the
+
+282
+00:24:27,260 --> 00:24:32,340
+sophistical ensemble or dominating the total
+
+283
+00:24:32,340 --> 00:24:35,850
+entropy of the system? So if we were to prepare
+
+284
+00:24:35,850 --> 00:24:38,550
+these two speed systems in maybe one of the
+
+285
+00:24:38,550 --> 00:24:41,220
+special states with all of the energy was in one
+
+286
+00:24:41,220 --> 00:24:44,070
+and none of it was in the other, after we put them
+
+287
+00:24:44,070 --> 00:24:47,370
+into the contact about the combined system to
+
+288
+00:24:47,430 --> 00:24:52,890
+reach equilibrium, we would expect to see the
+
+289
+00:24:53,400 --> 00:24:58,200
+system mostly in this more evenly distributed.
+
+290
+00:25:00,790 --> 00:25:04,210
+Divisions of energy between them and that is just
+
+291
+00:25:04,210 --> 00:25:10,510
+a consequence of the number of is the entropy that
+
+292
+00:25:10,540 --> 00:25:14,110
+corresponds to that situation. So this is the same
+
+293
+00:25:14,110 --> 00:25:17,520
+as if we were to consider what would happen if all
+
+294
+00:25:17,530 --> 00:25:21,880
+the air in this room happened to be hanging out in
+
+295
+00:25:22,240 --> 00:25:24,400
+one of the corners. At some point, we would expect
+
+296
+00:25:24,400 --> 00:25:27,430
+it to expand out into the vacuum and become more
+
+297
+00:25:27,430 --> 00:25:30,750
+or less evenly distributed. And you would not
+
+298
+00:25:30,750 --> 00:25:35,130
+expect the opposite process to occur over here
+
+299
+00:25:35,130 --> 00:25:37,800
+that's currently in the room to spontaneously
+
+300
+00:25:38,550 --> 00:25:41,640
+coalesce in one of the corners, which is
+
+301
+00:25:41,640 --> 00:25:44,250
+convenient because it helps us breathe
+
+302
+00:25:44,250 --> 00:25:49,350
+consistently. But that sort of distinction between
+
+303
+00:25:50,160 --> 00:25:53,310
+how the entropy is, the various configurations
+
+304
+00:25:53,670 --> 00:25:58,480
+differ. And how we can distinguish this and how in
+
+305
+00:25:58,480 --> 00:26:02,620
+the way that systems evolve from situations with
+
+306
+00:26:03,100 --> 00:26:06,820
+low entropy to situations with high entropy and
+
+307
+00:26:06,820 --> 00:26:10,030
+not the other way around is the way in which
+
+308
+00:26:12,070 --> 00:26:14,890
+the forward motion of time emerges from the
+
+309
+00:26:14,890 --> 00:26:16,630
+underlying macroscopic dynamics.
+
+310
+00:26:18,920 --> 00:26:22,330
+So are there questions about this example? I will
+
+311
+00:26:22,700 --> 00:26:26,870
+will be able to upload these comments on the
+
+312
+00:26:26,870 --> 00:26:29,160
+campus later today.
+
+313
+00:26:38,050 --> 00:26:41,580
+Because if not only about halfway through the
+
+314
+00:26:41,590 --> 00:26:47,530
+tutorial for today and can change gears to look at
+
+315
+00:26:47,530 --> 00:26:50,590
+something that came up earlier this week,
+
+316
+00:26:53,110 --> 00:26:56,560
+which is one of the things that's creating some
+
+317
+00:26:56,560 --> 00:27:02,840
+entropy among organizations that have your. Which
+
+318
+00:27:02,840 --> 00:27:05,240
+was the.
+
+319
+00:27:13,440 --> 00:27:18,220
+Sterling's approximation to. The factorial
+
+320
+00:27:18,220 --> 00:27:21,880
+function was logarithmic, asked a Tuesday, I think,
+
+321
+00:27:21,890 --> 00:27:24,220
+whether that was in.
+
+322
+00:27:26,390 --> 00:27:29,030
+Familiar approximations that indicate much
+
+323
+00:27:29,030 --> 00:27:32,630
+response so we can dig into it in a bit more
+
+324
+00:27:32,630 --> 00:27:38,330
+detail, in particular to write it in one of three
+
+325
+00:27:38,810 --> 00:27:42,920
+progressively more rigorous and more refined, more
+
+326
+00:27:42,920 --> 00:27:48,710
+accurate ways. So to the leading orders that we
+
+327
+00:27:49,280 --> 00:27:54,600
+kept in class, Sterling's formula. Expands the
+
+328
+00:27:54,600 --> 00:28:00,340
+what rhythm of conflict will emerge in as and more
+
+329
+00:28:00,340 --> 00:28:03,630
+than what is then up to terms that are more likely
+
+330
+00:28:04,720 --> 00:28:08,920
+and that we will. Almost always neglect when we
+
+331
+00:28:08,920 --> 00:28:13,920
+use sterling silver lining in this market. But
+
+332
+00:28:13,920 --> 00:28:17,220
+it's worth seeing how the full expression is
+
+333
+00:28:17,700 --> 00:28:21,670
+derived and getting some appreciation for. How it
+
+334
+00:28:21,670 --> 00:28:28,800
+works and it is for glory. So if we exponentially
+
+335
+00:28:28,870 --> 00:28:31,690
+both sides of this approximation, we extract in
+
+336
+00:28:31,690 --> 00:28:36,480
+fact will itself. Probably of exponentially lower
+
+337
+00:28:36,530 --> 00:28:40,580
+than functions, just identified that logarithm
+
+338
+00:28:41,720 --> 00:28:47,300
+into the power N minus the exponential, plus the
+
+339
+00:28:47,300 --> 00:28:52,490
+acceleration of minus N reorganizes its B ratio
+
+340
+00:28:52,490 --> 00:28:58,190
+and other natural basti to the power n. And this
+
+341
+00:28:58,190 --> 00:29:02,630
+is the crude approximation that's several people
+
+342
+00:29:02,870 --> 00:29:05,750
+found in roughly the same time a few hundred years
+
+343
+00:29:05,750 --> 00:29:11,400
+ago. It can be made more precise with that look
+
+344
+00:29:11,420 --> 00:29:14,930
+and factor of being identified. As a
+
+345
+00:29:14,960 --> 00:29:18,080
+multiplicative square root to play and the
+
+346
+00:29:18,110 --> 00:29:23,030
+expression for in with itself, with an infinite
+
+347
+00:29:23,030 --> 00:29:30,530
+series of power, suppressed corrections. So terms
+
+348
+00:29:30,530 --> 00:29:31,370
+that come in with.
+
+349
+00:29:33,570 --> 00:29:37,350
+Computable concerns, ABC and so on is suppressed
+
+350
+00:29:37,350 --> 00:29:42,690
+by whatever and whenever squared and so on and.
+
+351
+00:29:46,020 --> 00:29:50,920
+Keep the equation one up on the screen there. One
+
+352
+00:29:51,220 --> 00:29:55,000
+interesting aspect of this overall approximation
+
+353
+00:29:55,000 --> 00:29:59,890
+is the fact that this series does not converge for.
+
+354
+00:30:01,310 --> 00:30:06,570
+Olga. It is now zero and the radius of convergence
+
+355
+00:30:06,580 --> 00:30:15,090
+is essentially some. Over AK. One over. Next to
+
+356
+00:30:15,090 --> 00:30:18,510
+the case, which I imagine you've seen in the past
+
+357
+00:30:18,510 --> 00:30:22,620
+and know to be diversions, really the series
+
+358
+00:30:22,620 --> 00:30:24,780
+should not be considered diversions or rather
+
+359
+00:30:25,260 --> 00:30:29,070
+esoteric, even though the radius of convergence
+
+360
+00:30:29,610 --> 00:30:35,700
+vanishes. If the series is truncated. At an
+
+361
+00:30:35,700 --> 00:30:41,100
+appropriate power after the term and is expected
+
+362
+00:30:41,100 --> 00:30:46,530
+to provide a maximum precise approximation to this
+
+363
+00:30:46,710 --> 00:30:47,400
+vectorial.
+
+364
+00:30:50,420 --> 00:30:54,530
+The next time we'll look at some of the examples
+
+365
+00:30:54,530 --> 00:30:58,250
+we've watched over in the lecture, but.
+
+366
+00:31:00,760 --> 00:31:05,650
+There are a few ways to actually derive Stirling's
+
+367
+00:31:05,730 --> 00:31:06,070
+for.
+
+368
+00:31:10,000 --> 00:31:14,410
+So. What is the easiest that gives the weakest
+
+369
+00:31:14,840 --> 00:31:17,530
+constraint doesn't actually drive reform itself,
+
+370
+00:31:17,530 --> 00:31:21,580
+again, focuses on balance somewhat similar to the
+
+371
+00:31:21,580 --> 00:31:27,720
+ones being extracted for the last week. And.
+
+372
+00:31:29,950 --> 00:31:31,930
+And try to see how much of this.
+
+373
+00:31:34,460 --> 00:31:37,800
+A piece of notes I can fit onto the screen here.
+
+374
+00:31:42,870 --> 00:31:48,720
+There are three derivations in here of increasing
+
+375
+00:31:49,500 --> 00:31:54,410
+complexity. The first being just to. Drive to
+
+376
+00:31:54,410 --> 00:31:58,430
+balance on the water and vectorial for sure that
+
+377
+00:31:59,000 --> 00:32:03,110
+this is less than mile and which should be
+
+378
+00:32:03,110 --> 00:32:07,780
+reasonably straight forward and then. The other
+
+379
+00:32:07,820 --> 00:32:12,040
+tests show that in Victoria, those also greater
+
+380
+00:32:12,070 --> 00:32:17,500
+than and Morgan Minocin for much greater than
+
+381
+00:32:17,500 --> 00:32:24,420
+Warton, so. Once you were able to. Establishes the
+
+382
+00:32:24,420 --> 00:32:29,100
+equation to than just divided through by that and
+
+383
+00:32:29,250 --> 00:32:37,750
+again. Will. Give the result that. We will give
+
+384
+00:32:37,750 --> 00:32:44,400
+the medium term instruments for Chauvins. As Ed
+
+385
+00:32:44,410 --> 00:32:48,440
+goes to zero is and goes to infinity is one of the
+
+386
+00:32:48,440 --> 00:32:52,640
+more than correction points to zero this morning
+
+387
+00:32:52,640 --> 00:32:55,690
+in factorial asymptotically and Baillargeon Limits
+
+388
+00:32:56,170 --> 00:32:59,420
+is the same order of magnitude as an apple that
+
+389
+00:32:59,470 --> 00:33:00,820
+extracts that medium term.
+
+390
+00:33:02,910 --> 00:33:08,980
+So poised for. Maybe five minutes to let you drive
+
+391
+00:33:09,430 --> 00:33:14,800
+those inequalities, and if you. Is too much time
+
+392
+00:33:15,100 --> 00:33:19,780
+you? Wrap up with them quickly. You have already
+
+393
+00:33:20,570 --> 00:33:23,780
+the next step is going to be manipulations of the
+
+394
+00:33:23,780 --> 00:33:28,250
+gamma function that can be related to any
+
+395
+00:33:28,250 --> 00:33:31,160
+factorial. So leave that up on the screen for a
+
+396
+00:33:31,160 --> 00:33:34,280
+few minutes, pause the recording while you work,
+
+397
+00:33:34,880 --> 00:33:40,460
+and then come back to look at the second round of.
+
+398
+00:33:41,380 --> 00:33:44,010
+Derivations for Serling's formula.
+
+399
+00:33:48,670 --> 00:33:53,170
+I guess before I posed any questions about this
+
+400
+00:33:53,170 --> 00:33:53,860
+post here.
+
+401
+00:33:58,610 --> 00:34:04,470
+It's the shaking heads, so. Paul. Recording is
+
+402
+00:34:04,740 --> 00:34:06,870
+resumed and check in to see if
+
+403
+00:34:08,880 --> 00:34:11,400
+there are too many qualities here to start off
+
+404
+00:34:11,400 --> 00:34:11,700
+with.
+
+405
+00:34:14,220 --> 00:34:20,180
+He has. Wants to share how those can be derived.
+
+406
+00:34:31,900 --> 00:34:33,850
+Maybe I should ask, first of all, who believes
+
+407
+00:34:33,850 --> 00:34:34,990
+those McMullan's?
+
+408
+00:34:37,750 --> 00:34:43,470
+Scream and. Do they seem. Reasonable.
+
+409
+00:34:55,900 --> 00:34:56,490
+So it's.
+
+410
+00:35:00,640 --> 00:35:03,420
+I saw now and so does anyone able to.
+
+411
+00:35:05,910 --> 00:35:11,340
+Thrive is this battle between, say, the. The upper
+
+412
+00:35:11,340 --> 00:35:15,930
+limits on the logarithm in factorial, so if we
+
+413
+00:35:16,890 --> 00:35:26,040
+want to show that one is one more game, this is
+
+414
+00:35:26,040 --> 00:35:33,090
+equivalent to the size and. Saying that, in fact,
+
+415
+00:35:33,370 --> 00:35:37,650
+itself is less than exponential. But then when it
+
+416
+00:35:38,930 --> 00:35:43,150
+comes to power and rearranging, that's exponential
+
+417
+00:35:43,150 --> 00:35:43,720
+like Mr..
+
+418
+00:35:46,250 --> 00:35:51,500
+Is that is our folks happy with? That how do we
+
+419
+00:35:54,170 --> 00:35:57,100
+see whether or not that is the case?
+
+420
+00:36:00,400 --> 00:36:04,420
+You can't do induction, though, that maybe even to
+
+421
+00:36:04,420 --> 00:36:09,970
+fall for my inclinations, I just see that.
+
+422
+00:36:17,490 --> 00:36:24,570
+Specify in greater than one year of damage to one.
+
+423
+00:36:25,940 --> 00:36:27,920
+Whereas it's the
+
+424
+00:36:30,950 --> 00:36:36,350
+same number of troops all the way down to. We have
+
+425
+00:36:37,640 --> 00:36:41,270
+created more so and in any case, and is greater
+
+426
+00:36:41,270 --> 00:36:45,710
+than and minus one, it's products of a strictly
+
+427
+00:36:45,710 --> 00:36:46,850
+positive integers.
+
+428
+00:36:50,080 --> 00:36:56,850
+Implies that until the end is larger, that you
+
+429
+00:36:57,310 --> 00:37:04,030
+were reversing things and what is less than.
+
+430
+00:37:07,870 --> 00:37:08,410
+So that's
+
+431
+00:37:10,600 --> 00:37:13,340
+one down.
+
+432
+00:37:16,390 --> 00:37:20,700
+And that was the easy one, as you can see there,
+
+433
+00:37:20,710 --> 00:37:24,700
+any ideas for what to do about that? Second,
+
+434
+00:37:24,970 --> 00:37:28,880
+inequality, trying to show? That.
+
+435
+00:37:36,830 --> 00:37:37,490
+With less
+
+436
+00:37:39,760 --> 00:37:40,020
+than.
+
+437
+00:38:00,220 --> 00:38:02,320
+So what it's like here
+
+438
+00:38:04,930 --> 00:38:08,360
+is some water
+
+439
+00:38:13,300 --> 00:38:14,200
+and I've read.
+
+440
+00:38:16,420 --> 00:38:18,490
+That is true, false.
+
+441
+00:38:21,300 --> 00:38:22,030
+Of the.
+
+442
+00:38:31,090 --> 00:38:31,550
+Let's
+
+443
+00:38:36,700 --> 00:38:38,390
+go back to.
+
+444
+00:38:41,760 --> 00:38:42,170
+So.
+
+445
+00:38:49,670 --> 00:38:50,420
+And that's.
+
+446
+00:38:53,620 --> 00:38:56,250
+You want to travel to the border and write it down?
+
+447
+00:38:59,910 --> 00:39:04,340
+I can't pause the report again, that would.
+
+448
+00:39:07,530 --> 00:39:11,930
+The more comfortable. The recording back on just
+
+449
+00:39:12,450 --> 00:39:15,850
+before accountability, I think that argument does
+
+450
+00:39:17,080 --> 00:39:19,910
+does hold. I haven't gone through all the steps.
+
+451
+00:39:21,990 --> 00:39:27,050
+The trick that I like and which uses me is to give
+
+452
+00:39:27,060 --> 00:39:32,590
+the Palestinians more exponential tools, certainly
+
+453
+00:39:32,640 --> 00:39:38,060
+the Taliban, which is one plus one over and over,
+
+454
+00:39:38,120 --> 00:39:42,330
+two and square and so on, towards the settlement
+
+455
+00:39:43,980 --> 00:39:47,490
+from zero to infinity of.
+
+456
+00:39:50,920 --> 00:39:55,360
+Organic tools into this.
+
+457
+00:40:01,290 --> 00:40:05,970
+And I consider from that song The Sweet.
+
+458
+00:40:11,340 --> 00:40:16,410
+I know that not the F term. Within the cells,
+
+459
+00:40:16,530 --> 00:40:20,700
+there are additional type terms, some as a whole,
+
+460
+00:40:22,360 --> 00:40:29,910
+through isolation equal from Japan over inject a
+
+461
+00:40:29,950 --> 00:40:35,250
+little, rearrange the factorial to the left of the
+
+462
+00:40:35,250 --> 00:40:36,050
+inequality.
+
+463
+00:40:40,300 --> 00:40:43,260
+And in the end, to the rights
+
+464
+00:40:45,300 --> 00:40:52,860
+of the expression was opened up there as well. So
+
+465
+00:40:52,860 --> 00:40:58,470
+that is a good way of pointing out arguments that
+
+466
+00:40:58,470 --> 00:41:05,480
+I find amusing. So. Running out of time for today,
+
+467
+00:41:06,060 --> 00:41:08,640
+wrap up there and leave the second option, the
+
+468
+00:41:08,640 --> 00:41:13,510
+third derivations for you to think about just on
+
+469
+00:41:14,400 --> 00:41:18,780
+the second one, looks at the example function and.
+
+470
+00:41:21,410 --> 00:41:25,010
+Uses this to restore what's called weather
+
+471
+00:41:25,010 --> 00:41:29,180
+integral, relating confectionary to a simple
+
+472
+00:41:29,180 --> 00:41:30,230
+isidoro with the
+
+473
+00:41:32,510 --> 00:41:37,490
+complexity and an exponential minus X integrated
+
+474
+00:41:37,490 --> 00:41:45,700
+over the X and then if you. Look at this function.
+
+475
+00:41:47,380 --> 00:41:52,300
+Next to the N minus, and it's plotted here.
+
+476
+00:41:54,590 --> 00:41:57,770
+In the solid line, we can approximated by a
+
+477
+00:41:57,880 --> 00:42:02,140
+Galician tradition integral. And from that,
+
+478
+00:42:02,150 --> 00:42:07,600
+Russian people extract the. A square root and
+
+479
+00:42:07,600 --> 00:42:10,450
+factor that needs to be logarithmic chart
+
+480
+00:42:10,600 --> 00:42:15,310
+instruments formula. I'll leave that for you to
+
+481
+00:42:15,820 --> 00:42:18,640
+play with over the weekend. We'll pick up on
+
+482
+00:42:18,640 --> 00:42:22,630
+Monday with more about the physics of information
+
+483
+00:42:22,990 --> 00:42:28,930
+and develop into your ideal. Any questions to to
+
+484
+00:42:28,960 --> 00:42:29,760
+wrap up the week?
+
+485
+00:42:35,490 --> 00:42:38,880
+Take care of the wind. It doesn't get too
+
+486
+00:42:38,880 --> 00:42:42,720
+unpleasant out there. We'll see you next week.
+
+487
+00:42:53,280 --> 00:42:53,630
+Oh.
