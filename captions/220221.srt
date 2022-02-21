@@ -1,0 +1,2639 @@
+1
+00:00:02,740 --> 00:00:07,230
+Well, there are the bells marking the hour, so we'll
+
+2
+00:00:07,990 --> 00:00:14,260
+start getting underway, first with that usual six-digit number for you to plug in:
+
+3
+00:00:19,750 --> 00:00:26,710
+three nine one, six two eight.  I'll leave that up there.
+
+4
+00:00:28,750 --> 00:00:33,220
+Welcome back to week four and
+
+5
+00:00:33,280 --> 00:00:35,890
+hopefully a bit better weather over the coming few
+
+6
+00:00:35,890 --> 00:00:38,110
+days than over the last few.
+
+7
+00:00:41,030 --> 00:00:47,600
+In terms of logistics, we have
+
+8
+00:00:50,050 --> 00:00:50,770
+on the twenty-
+
+9
+00:00:53,170 --> 00:00:53,690
+first
+
+10
+00:00:57,270 --> 00:00:58,290
+of February
+
+11
+00:01:00,980 --> 00:01:04,160
+I can mention that as it is weuk four, that week-three
+
+12
+00:01:04,160 --> 00:01:08,720
+mini-questionnaire has run its course. So
+
+13
+00:01:08,720 --> 00:01:12,710
+thanks for all of you who sent in feedback and
+
+14
+00:01:12,710 --> 00:01:14,460
+information about how things are going on there.
+
+15
+00:01:14,480 --> 00:01:18,170
+The consensus seems to be that there are no major
+
+16
+00:01:18,170 --> 00:01:21,140
+issues with this module, at least so far. The
+
+17
+00:01:21,140 --> 00:01:23,570
+average feeling was the pace was just a little
+
+18
+00:01:24,080 --> 00:01:28,070
+faster than slow. Difficulty was a little more
+
+19
+00:01:28,070 --> 00:01:31,550
+difficult than easy, which is about the level I
+
+20
+00:01:31,550 --> 00:01:35,210
+think is appropriate for a math three hundred
+
+21
+00:01:35,600 --> 00:01:39,170
+level module. To be more interesting was the
+
+22
+00:01:39,680 --> 00:01:43,970
+homework assignment that I was using to try to get
+
+23
+00:01:43,970 --> 00:01:47,360
+the focus on this projector there. So that is now.
+
+24
+00:01:48,570 --> 00:01:52,510
+Available on canvas, due a week from Thursday, the
+
+25
+00:01:52,540 --> 00:01:58,890
+end of March 3rd May. Spend some time looking at
+
+26
+00:01:58,890 --> 00:02:02,650
+that in the editorial this Friday. What else we
+
+27
+00:02:02,650 --> 00:02:08,010
+have to. Entertain ourselves with may also look at
+
+28
+00:02:08,010 --> 00:02:11,080
+the. First part of the computer project, if the
+
+29
+00:02:11,080 --> 00:02:12,940
+issues showed up there as I go through that
+
+30
+00:02:12,940 --> 00:02:16,090
+marking, which may or may not be completed at that
+
+31
+00:02:16,090 --> 00:02:20,600
+point. And I should say there was some interesting
+
+32
+00:02:20,600 --> 00:02:23,600
+discussion over the weekend revisiting some of the
+
+33
+00:02:24,740 --> 00:02:26,900
+topics we were talking about over the past couple
+
+34
+00:02:26,900 --> 00:02:30,860
+of weeks in terms of how there is moves, large
+
+35
+00:02:30,860 --> 00:02:35,030
+scale macroscopic behavior emerges from the equal
+
+36
+00:02:35,060 --> 00:02:38,720
+probability of all the various micro states in the
+
+37
+00:02:38,990 --> 00:02:43,670
+canonical ensemble. Are there any questions from
+
+38
+00:02:43,700 --> 00:02:46,490
+anyone here about that or any other topics we've
+
+39
+00:02:46,490 --> 00:02:48,040
+seen so far?
+
+40
+00:02:53,050 --> 00:02:57,760
+Just as a reminder, a quick recap of where we are
+
+41
+00:02:57,760 --> 00:03:03,520
+right now, and we will be going to the focus on
+
+42
+00:03:03,640 --> 00:03:08,620
+the canonical ensemble last week.
+
+43
+00:03:10,690 --> 00:03:16,280
+This is. The approach, this statistical ensemble
+
+44
+00:03:16,280 --> 00:03:20,300
+that we get, if we are able to fix the temperature
+
+45
+00:03:21,080 --> 00:03:23,810
+and the number of degrees of freedom in our system,
+
+46
+00:03:24,270 --> 00:03:28,310
+and we went through somewhat detailed mathematical
+
+47
+00:03:28,310 --> 00:03:32,120
+justification for how the temperature can be fixed
+
+48
+00:03:32,750 --> 00:03:36,440
+even while being the first law of thermodynamics
+
+49
+00:03:36,440 --> 00:03:40,490
+concerning the total energy of the universe. By
+
+50
+00:03:40,880 --> 00:03:43,520
+coupling the system to enlarge, the reservoir
+
+51
+00:03:44,570 --> 00:03:49,070
+imposes that fixed temperature. And one of the key
+
+52
+00:03:49,280 --> 00:03:53,450
+outcomes of that mathematical derivation was the
+
+53
+00:03:53,450 --> 00:03:57,800
+definition of the precision function for the
+
+54
+00:03:57,800 --> 00:04:02,360
+canonical ensemble condition called Z, which sums
+
+55
+00:04:02,360 --> 00:04:06,980
+over all of the microstates of the system. And
+
+56
+00:04:07,180 --> 00:04:10,840
+this so-called Boltzmann's factor, the exponential
+
+57
+00:04:11,320 --> 00:04:15,760
+of negative data times the energy of that micro
+
+58
+00:04:15,760 --> 00:04:20,030
+state where beta is. Something we identify with
+
+59
+00:04:20,030 --> 00:04:22,010
+the inverse temperature, all of this in
+
+60
+00:04:22,010 --> 00:04:26,630
+thermodynamic equilibrium obtained by maximizing
+
+61
+00:04:26,630 --> 00:04:30,140
+the entropy, we zoom out and hope that things
+
+62
+00:04:30,140 --> 00:04:34,780
+remain. Visible, this thinking.
+
+63
+00:04:38,540 --> 00:04:41,150
+From this Patricia function, there is so called
+
+64
+00:04:41,150 --> 00:04:46,010
+free energy specifically attributed to Helmholtz,
+
+65
+00:04:47,270 --> 00:04:49,580
+which pulls out of the.
+
+66
+00:04:52,280 --> 00:04:58,430
+Logo of Z times, the negative temperature, which
+
+67
+00:04:58,760 --> 00:05:03,290
+provides them some compact expressions for drive
+
+68
+00:05:03,290 --> 00:05:06,350
+quality, is an economical approach, including the
+
+69
+00:05:07,400 --> 00:05:10,250
+average internal energy, which is no longer fixed
+
+70
+00:05:10,250 --> 00:05:14,210
+thanks to thermal contact with the large thermal
+
+71
+00:05:14,210 --> 00:05:18,020
+reservoir. This is a derivative with respect to
+
+72
+00:05:18,020 --> 00:05:24,150
+beat a bit at times F and eventually. Which is the
+
+73
+00:05:24,360 --> 00:05:26,360
+negative derivative derivative with respect to
+
+74
+00:05:26,380 --> 00:05:31,260
+temperature of that free energy and by itself and
+
+75
+00:05:31,410 --> 00:05:36,240
+what we are doing today is looking at these
+
+76
+00:05:36,240 --> 00:05:41,040
+particular observable derived quantities in two
+
+77
+00:05:41,040 --> 00:05:44,790
+similar situations that will differ only by the
+
+78
+00:05:44,790 --> 00:05:51,620
+amount of information that is. Present is is
+
+79
+00:05:51,620 --> 00:05:54,050
+knowable in principle in the systems we are
+
+80
+00:05:54,050 --> 00:05:54,680
+looking at.
+
+81
+00:05:57,940 --> 00:06:01,090
+This is where we left off last time we started
+
+82
+00:06:01,090 --> 00:06:06,400
+looking at the behavior of spins and I saw our
+
+83
+00:06:06,400 --> 00:06:10,150
+usual two state degrees of freedom spin's pointing
+
+84
+00:06:10,150 --> 00:06:13,450
+out we're down the mathematics of the coins and
+
+85
+00:06:13,450 --> 00:06:18,640
+energy given by coupling to an external magnetic
+
+86
+00:06:18,640 --> 00:06:19,850
+field of strength. Pinche.
+
+87
+00:06:23,990 --> 00:06:24,810
+Wonder if
+
+88
+00:06:27,640 --> 00:06:27,950
+was
+
+89
+00:06:29,990 --> 00:06:30,830
+once a
+
+90
+00:06:33,780 --> 00:06:34,000
+little
+
+91
+00:06:36,860 --> 00:06:37,230
+more.
+
+92
+00:06:46,860 --> 00:06:51,000
+Maybe just a little speak up if anything is clear,
+
+93
+00:06:51,000 --> 00:06:55,230
+to see if you need to clarify whatever is up there
+
+94
+00:06:56,040 --> 00:06:59,720
+are looking first. And so it's been six and
+
+95
+00:06:59,720 --> 00:07:02,160
+astounded that we can distinguish from one another
+
+96
+00:07:02,580 --> 00:07:05,640
+by looking at their position in the summer. They
+
+97
+00:07:05,640 --> 00:07:09,480
+basically have an address that experimenter can
+
+98
+00:07:10,320 --> 00:07:14,160
+focus on in order to tell which STEM is pointing
+
+99
+00:07:14,160 --> 00:07:19,280
+up, which is pointing down the precision function.
+
+100
+00:07:19,290 --> 00:07:21,420
+Our starting point with the approach is that the
+
+101
+00:07:21,420 --> 00:07:26,300
+sum over all possible orientations of all and of
+
+102
+00:07:26,310 --> 00:07:32,280
+the system. Which ends up boiling down to a fairly
+
+103
+00:07:32,280 --> 00:07:35,370
+compact expression, two times the hyperbolic
+
+104
+00:07:35,370 --> 00:07:39,210
+cosine of the dimensionless, a bit at times the
+
+105
+00:07:39,910 --> 00:07:42,270
+magnetic field strength divided by the temperature,
+
+106
+00:07:43,530 --> 00:07:47,350
+all of that with the overall factor of. Negative
+
+107
+00:07:47,350 --> 00:07:52,360
+temperature or negative on the health reality,
+
+108
+00:07:52,360 --> 00:07:58,020
+then? Brings in the logarithm of that molecules of
+
+109
+00:07:58,460 --> 00:08:00,970
+the power and with that overall factor of
+
+110
+00:08:01,420 --> 00:08:07,730
+temperature that I was jumping ahead to. So we
+
+111
+00:08:07,730 --> 00:08:10,280
+pick up from here, we are basically left in the
+
+112
+00:08:10,280 --> 00:08:17,140
+position of. Carrying out. A. Few quick
+
+113
+00:08:17,140 --> 00:08:21,630
+computations to extract the observers that we want,
+
+114
+00:08:22,270 --> 00:08:24,900
+starting with. The energy.
+
+115
+00:08:30,230 --> 00:08:36,140
+Let's see. How this derivative. She was up on the
+
+116
+00:08:36,140 --> 00:08:39,390
+projector. This is hopeless, I may have switched
+
+117
+00:08:39,410 --> 00:08:43,070
+you up on the board at the expense of the
+
+118
+00:08:43,070 --> 00:08:46,250
+recording, possibly having a harder time capturing
+
+119
+00:08:46,250 --> 00:08:47,880
+things on.
+
+120
+00:08:50,070 --> 00:08:52,710
+You're taking, as I mentioned, to recap the
+
+121
+00:08:52,710 --> 00:08:55,650
+derivative with respect to the temperature of the
+
+122
+00:08:55,650 --> 00:08:58,500
+times. So the overall factor would be the
+
+123
+00:08:58,500 --> 00:09:01,740
+consistent whatever data and we are left with that
+
+124
+00:09:01,740 --> 00:09:08,070
+constant negative end up front and then data. But
+
+125
+00:09:08,100 --> 00:09:14,220
+the more the rhythm of the hyperbolic cosine of
+
+126
+00:09:14,400 --> 00:09:19,710
+the H, they're just churning through the chain
+
+127
+00:09:19,710 --> 00:09:24,470
+rule. The arguments in the water rhythm comes down
+
+128
+00:09:24,480 --> 00:09:31,330
+to the denominator. Synecdoche. Get agent and
+
+129
+00:09:31,970 --> 00:09:35,540
+chamber will takes the derivative. Of the argument,
+
+130
+00:09:35,570 --> 00:09:39,460
+the water in which is twice the hyperbolic sign of
+
+131
+00:09:39,580 --> 00:09:42,610
+an age. And finally, the derivative of the
+
+132
+00:09:42,610 --> 00:09:45,580
+argument of that sign with respect to data is just
+
+133
+00:09:45,580 --> 00:09:47,050
+an additional factor of age.
+
+134
+00:09:49,110 --> 00:09:55,790
+Was canceled and we are left with minus in times
+
+135
+00:09:55,810 --> 00:09:59,180
+age with the, of course, being that hyperbolic.
+
+136
+00:10:00,230 --> 00:10:03,410
+Tangent. Of Bayridge.
+
+137
+00:10:07,190 --> 00:10:08,300
+So it looks like the.
+
+138
+00:10:10,380 --> 00:10:13,920
+Exonerating art is more valuable than the text,
+
+139
+00:10:14,400 --> 00:10:19,920
+since you can check that text in the PDF a printed
+
+140
+00:10:19,920 --> 00:10:23,190
+copies. You have what really should be good to
+
+141
+00:10:23,190 --> 00:10:27,930
+proceed. So we have the energy for these
+
+142
+00:10:27,930 --> 00:10:29,880
+distinguishable stains or the average internal
+
+143
+00:10:29,880 --> 00:10:34,260
+energy being negative and types of fuel, strange
+
+144
+00:10:34,800 --> 00:10:38,360
+types of hyperbolic tangents of middle age. And
+
+145
+00:10:38,370 --> 00:10:42,390
+from this we can pretty much immediately write
+
+146
+00:10:42,390 --> 00:10:47,340
+down the entropy that is always related to the
+
+147
+00:10:47,430 --> 00:10:51,810
+average internal energy. Minus the Helmholtz free
+
+148
+00:10:51,810 --> 00:10:55,260
+energy, but multiply it by an overall factor of
+
+149
+00:10:55,290 --> 00:10:57,930
+inverse temperature. So there are just two terms
+
+150
+00:10:57,930 --> 00:10:59,760
+here, baiba times.
+
+151
+00:11:02,440 --> 00:11:05,800
+Minus 10, the range that we have from the energy
+
+152
+00:11:06,610 --> 00:11:11,050
+and then the better times this negative and want
+
+153
+00:11:11,620 --> 00:11:18,280
+to caution each of the three energy. So you have
+
+154
+00:11:18,280 --> 00:11:19,360
+these two challenges.
+
+155
+00:11:21,710 --> 00:11:24,070
+Hyperbolic charges, plus the water with the
+
+156
+00:11:24,230 --> 00:11:31,560
+otherwise hyperbolic. Cosine. Which is a bit
+
+157
+00:11:32,430 --> 00:11:37,290
+awkward. You look like an idiot. This is how those
+
+158
+00:11:37,290 --> 00:11:42,120
+functions look if we normalize by those three
+
+159
+00:11:42,120 --> 00:11:45,990
+factors. So both internal energy and entropy are
+
+160
+00:11:46,110 --> 00:11:48,300
+extensive quantities so we can divide through by
+
+161
+00:11:49,050 --> 00:11:53,280
+the number of degrees of freedom in the system and
+
+162
+00:11:53,890 --> 00:11:57,930
+and also normalize the energy by that external
+
+163
+00:11:57,930 --> 00:12:02,190
+magnetic field strength. So that is the limit of.
+
+164
+00:12:03,180 --> 00:12:08,640
+Zero temperature, it reduces two to one, I should
+
+165
+00:12:08,640 --> 00:12:13,590
+say, divided by just plain numbers to appear on
+
+166
+00:12:13,590 --> 00:12:16,740
+these vertical axis and similarly this horizontal
+
+167
+00:12:16,740 --> 00:12:20,450
+axis is that. Ratio of temperature and magnetic
+
+168
+00:12:20,510 --> 00:12:25,220
+field strength to your average is one over the age.
+
+169
+00:12:26,750 --> 00:12:31,960
+So as the temperature goes to zero, we have data
+
+170
+00:12:31,970 --> 00:12:35,690
+heading to infinity and as the temperature itself
+
+171
+00:12:35,690 --> 00:12:42,510
+and the inverse goes to zero, the. Way to proceed
+
+172
+00:12:42,510 --> 00:12:46,440
+and start making sense of these complicated
+
+173
+00:12:46,440 --> 00:12:51,000
+equations for energy and entropy in terms of
+
+174
+00:12:51,450 --> 00:12:55,800
+tensions and clashes and so on, is to extract the
+
+175
+00:12:57,270 --> 00:13:00,150
+asymptotic behavior and the approach to
+
+176
+00:13:02,160 --> 00:13:06,000
+the temperature. And as I started to say, as we
+
+177
+00:13:06,000 --> 00:13:12,890
+take that temperature to zero and lot debate that
+
+178
+00:13:12,900 --> 00:13:17,490
+goes off to infinity, that both the Cinching Kosh
+
+179
+00:13:17,850 --> 00:13:21,450
+approach to the X, the ratio of them is detached,
+
+180
+00:13:21,450 --> 00:13:24,450
+which approaches one. There's a nice and that
+
+181
+00:13:24,450 --> 00:13:28,440
+leaves us with negative one with the energy in
+
+182
+00:13:28,440 --> 00:13:33,960
+that low temperature limit where bid age becomes
+
+183
+00:13:33,960 --> 00:13:39,210
+very large. And this, of course, corresponds to
+
+184
+00:13:39,420 --> 00:13:43,070
+exactly that same energy that. We computed with
+
+185
+00:13:43,070 --> 00:13:46,520
+Biggie about systems previously, all of the skins
+
+186
+00:13:46,520 --> 00:13:49,850
+here are aligned with the magnetic field or
+
+187
+00:13:49,850 --> 00:13:55,160
+contributing a negative unit of light of speech to
+
+188
+00:13:55,160 --> 00:13:58,700
+the energy. So this Grasset Energy is the stage
+
+189
+00:13:58,700 --> 00:13:59,730
+that we divide out to the.
+
+190
+00:14:02,080 --> 00:14:06,130
+And we also saw that real estate energy at the
+
+191
+00:14:06,130 --> 00:14:11,170
+ground state is a single microstates. So it is
+
+192
+00:14:11,830 --> 00:14:16,090
+reasonable to see that the entropy at the top of
+
+193
+00:14:16,090 --> 00:14:20,260
+this page here is heading to zero, which
+
+194
+00:14:20,260 --> 00:14:23,440
+corresponds to the the logarithm of what we can
+
+195
+00:14:23,830 --> 00:14:27,640
+see this from that complicated expression in terms
+
+196
+00:14:27,640 --> 00:14:31,600
+of consciousness, Wongs of Koshetz, that's what we
+
+197
+00:14:31,600 --> 00:14:35,310
+saw the potential as to one, the water rhythm of
+
+198
+00:14:35,320 --> 00:14:39,090
+twice hyperbolic cosine approaches, just the water
+
+199
+00:14:39,090 --> 00:14:44,410
+rhythm of that E to the H, which is Bureij and the
+
+200
+00:14:44,410 --> 00:14:46,960
+relative negative side, three, two times cancel.
+
+201
+00:14:48,110 --> 00:14:51,050
+Confirming our intuition that if a single
+
+202
+00:14:51,170 --> 00:14:54,380
+microstates in the ground state, we had an
+
+203
+00:14:54,380 --> 00:14:55,670
+Entropia on zero.
+
+204
+00:14:57,930 --> 00:15:02,400
+So that at least narrows down the asymptotic low
+
+205
+00:15:02,460 --> 00:15:06,940
+temperature limit, what is called. Absolutely zero,
+
+206
+00:15:07,130 --> 00:15:11,810
+where generally the statistical systems freeze in
+
+207
+00:15:11,810 --> 00:15:15,950
+a single micro states with management effort. And
+
+208
+00:15:15,950 --> 00:15:19,850
+again, this is a key feature of the economic cycle
+
+209
+00:15:19,850 --> 00:15:22,340
+where we can adjust this temperature and get the
+
+210
+00:15:22,340 --> 00:15:28,760
+energy as a driver observable rather than focusing
+
+211
+00:15:28,760 --> 00:15:31,530
+on the energy and extracting the temperature the
+
+212
+00:15:31,530 --> 00:15:35,840
+way we did the microeconomics case. We can build
+
+213
+00:15:35,840 --> 00:15:39,960
+on. It's just this somewhat trivial limit of
+
+214
+00:15:39,960 --> 00:15:42,360
+absolute zero with a single microstates and
+
+215
+00:15:42,360 --> 00:15:45,600
+entropy, by considering how the system approaches
+
+216
+00:15:46,350 --> 00:15:49,830
+that that limits for a little bit non-zero
+
+217
+00:15:49,830 --> 00:15:54,240
+temperatures there. And the canonical approach are
+
+218
+00:15:54,240 --> 00:15:55,200
+bowsman factor.
+
+219
+00:15:57,700 --> 00:16:03,880
+Either the mindless energy over you is now no
+
+220
+00:16:03,880 --> 00:16:10,170
+longer just zero for any. System by the state,
+
+221
+00:16:10,170 --> 00:16:13,590
+except for the lowest energy ground state, we have
+
+222
+00:16:13,590 --> 00:16:17,460
+this non-zero probability of finding the system.
+
+223
+00:16:18,510 --> 00:16:23,330
+In some of those higher energy microstates, the
+
+224
+00:16:24,330 --> 00:16:29,880
+first of which we looked at again back in Unit two.
+
+225
+00:16:30,210 --> 00:16:33,630
+So about this time last we saw that just putting a
+
+226
+00:16:33,630 --> 00:16:37,290
+single spin in this extraordinary field led to the
+
+227
+00:16:37,650 --> 00:16:43,000
+next available energy. Of minus eight times and
+
+228
+00:16:43,000 --> 00:16:48,670
+minus two. Where this is going to be called in
+
+229
+00:16:48,670 --> 00:16:50,800
+terminology, I may use to think of the first
+
+230
+00:16:50,800 --> 00:16:54,940
+excited state where the states are being talked
+
+231
+00:16:54,940 --> 00:16:59,590
+about here are different from the microstates. So
+
+232
+00:16:59,590 --> 00:17:04,410
+any particular. Energy state, energy level. Try to
+
+233
+00:17:04,410 --> 00:17:08,670
+call it in correspondence, you will be realized by
+
+234
+00:17:09,420 --> 00:17:12,900
+many different micro states in these statistical
+
+235
+00:17:12,900 --> 00:17:16,800
+systems. And in the case of certain systems, at
+
+236
+00:17:16,800 --> 00:17:22,950
+least all of these energy levels are going to be
+
+237
+00:17:23,730 --> 00:17:27,360
+I'm going to differ from each other by the same
+
+238
+00:17:27,570 --> 00:17:30,600
+procedure, we just put one more spin to align
+
+239
+00:17:30,600 --> 00:17:34,080
+against the magnetic field, increasing the overall
+
+240
+00:17:34,080 --> 00:17:38,490
+energy by two units out of the total. And so the
+
+241
+00:17:38,490 --> 00:17:42,840
+energy gap between every pair of subsequence
+
+242
+00:17:43,320 --> 00:17:47,210
+energy levels is this constant factor of two times
+
+243
+00:17:47,450 --> 00:17:53,060
+that it feels right. We also did see back in. In
+
+244
+00:17:53,060 --> 00:17:55,620
+Unit two. So.
+
+245
+00:17:57,730 --> 00:18:00,840
+With that said, that reminder of how all of our
+
+246
+00:18:00,840 --> 00:18:01,680
+microstates.
+
+247
+00:18:03,770 --> 00:18:07,700
+Or falling into energy levels with a constant
+
+248
+00:18:07,700 --> 00:18:10,550
+spacing between them. We can.
+
+249
+00:18:13,190 --> 00:18:16,670
+Consider this limit of low, but nonzero
+
+250
+00:18:16,670 --> 00:18:18,800
+temperature is a bit age is not infinite, but it
+
+251
+00:18:18,800 --> 00:18:22,770
+is much larger than one, which means that this
+
+252
+00:18:22,800 --> 00:18:25,250
+exponential, either the minus beta age that's
+
+253
+00:18:25,250 --> 00:18:29,540
+appearing in these Courchesne attaches is a very
+
+254
+00:18:29,540 --> 00:18:34,930
+small number that we can use. A consistent
+
+255
+00:18:34,930 --> 00:18:42,050
+expansion, so. Just to see how that works. We'll
+
+256
+00:18:43,220 --> 00:18:47,990
+break down again the result that we have, that
+
+257
+00:18:47,990 --> 00:18:51,530
+energy we divide up and we're just left with the
+
+258
+00:18:52,280 --> 00:18:58,630
+negative hyperbolic tangent. A better age. Which
+
+259
+00:18:58,630 --> 00:19:03,730
+is the negative ratio of simulcasts, the one minus.
+
+260
+00:19:05,030 --> 00:19:08,980
+This exponential factor E to the minus, to the age
+
+261
+00:19:09,410 --> 00:19:12,830
+of the one plus exponential growth needed to be at
+
+262
+00:19:12,830 --> 00:19:13,250
+age.
+
+263
+00:19:15,770 --> 00:19:20,660
+Which if we expand in the geometric series, one
+
+264
+00:19:20,660 --> 00:19:25,610
+over one plus X is approximately equal to one plus
+
+265
+00:19:25,610 --> 00:19:30,440
+X plus X squares of the numerator comes along for
+
+266
+00:19:30,440 --> 00:19:30,920
+the ride.
+
+267
+00:19:33,030 --> 00:19:36,780
+And that denominator expands to approximately one
+
+268
+00:19:36,780 --> 00:19:43,380
+minus E minus tumed H plus quarter of this small
+
+269
+00:19:43,380 --> 00:19:46,740
+number squared, which would be of the minus four
+
+270
+00:19:46,950 --> 00:19:50,130
+of H, which will neglect for now. So is that
+
+271
+00:19:51,630 --> 00:19:55,620
+approach, that calculation fairly familiar, the
+
+272
+00:19:55,620 --> 00:20:00,300
+expansion of one of the one four six as this power
+
+273
+00:20:00,370 --> 00:20:01,350
+series of X?
+
+274
+00:20:07,990 --> 00:20:12,160
+There are. No objections that I see, and at this
+
+275
+00:20:12,160 --> 00:20:14,560
+point, all that remains is.
+
+276
+00:20:16,770 --> 00:20:19,980
+Expanding this productive terms, so we have an
+
+277
+00:20:19,980 --> 00:20:24,510
+overall minus one out front and then two factors
+
+278
+00:20:24,990 --> 00:20:28,290
+of minus E to the minus to the age coming from the
+
+279
+00:20:28,290 --> 00:20:32,010
+cross turns the negative up front. That's a plus
+
+280
+00:20:32,730 --> 00:20:39,530
+to. Even to. In an age, I'll just leave it there,
+
+281
+00:20:40,610 --> 00:20:44,300
+neglect the higher order, temperature dependent
+
+282
+00:20:44,300 --> 00:20:50,760
+terms I can identify. This twice the age as the
+
+283
+00:20:50,760 --> 00:20:56,130
+energy gap, so we recover that asymptotic absolute
+
+284
+00:20:56,130 --> 00:21:00,000
+zero limit of the energy in these units
+
+285
+00:21:00,960 --> 00:21:05,920
+approaching negative one, and then we see that for
+
+286
+00:21:06,210 --> 00:21:09,450
+small but not zero temperatures. It.
+
+287
+00:21:13,230 --> 00:21:15,810
+Increases, there's a positive contribution that is
+
+288
+00:21:15,810 --> 00:21:19,800
+exponentially suppressed by the energy gap
+
+289
+00:21:19,980 --> 00:21:24,570
+compared to this low temperature. And this results
+
+290
+00:21:24,570 --> 00:21:29,570
+here matches up and should. Still a contract of.
+
+291
+00:21:31,170 --> 00:21:33,990
+The level at which we start collecting turns.
+
+292
+00:21:37,500 --> 00:21:42,450
+So we reproduce a result, we were targeting that.
+
+293
+00:21:43,720 --> 00:21:47,360
+He's excited to see the effects, so the influence
+
+294
+00:21:47,360 --> 00:21:51,470
+on the energy of our system from microstates other
+
+295
+00:21:51,470 --> 00:21:54,440
+than the grounds to include higher energy use are
+
+296
+00:21:54,980 --> 00:21:58,730
+exponentially suppressed in the face of the energy
+
+297
+00:21:58,730 --> 00:22:03,730
+gap between these energy levels and that. Turns
+
+298
+00:22:03,730 --> 00:22:06,430
+out to be a generic feature of economical systems
+
+299
+00:22:06,430 --> 00:22:08,650
+with a non-zero energy gap.
+
+300
+00:22:10,650 --> 00:22:14,640
+And at least the qualitative quantitative
+
+301
+00:22:14,640 --> 00:22:18,000
+calculation that you have extracted, all of it,
+
+302
+00:22:18,000 --> 00:22:20,190
+admitting that having gone through that we can
+
+303
+00:22:20,670 --> 00:22:23,940
+recognize this exponential dependence as.
+
+304
+00:22:25,200 --> 00:22:29,340
+Consistent with or being motivated by the
+
+305
+00:22:29,580 --> 00:22:33,270
+exponential Boltzmann factor that is appearing in
+
+306
+00:22:33,910 --> 00:22:38,620
+the probabilities. So it's probably going to be
+
+307
+00:22:38,620 --> 00:22:45,340
+proportional to the minus stuff I look at ratios
+
+308
+00:22:45,340 --> 00:22:49,560
+and probabilities. It is that's a difference
+
+309
+00:22:49,560 --> 00:22:52,560
+between the energies that comes out from the
+
+310
+00:22:52,560 --> 00:22:53,880
+properties of the exponential.
+
+311
+00:22:56,120 --> 00:23:00,570
+We can show you the. Same sort of calculation
+
+312
+00:23:00,810 --> 00:23:03,690
+expansion for. The entropy.
+
+313
+00:23:07,350 --> 00:23:11,430
+And this here, if we divide by then, is that a
+
+314
+00:23:11,460 --> 00:23:17,820
+factor of better over at times the internal energy
+
+315
+00:23:18,000 --> 00:23:23,270
+we just computed, minus the number three energy?
+
+316
+00:23:23,550 --> 00:23:28,230
+So putting in the expansion that we have been over
+
+317
+00:23:28,290 --> 00:23:36,310
+and for the energy was minus one, plus two each,
+
+318
+00:23:36,340 --> 00:23:42,530
+the minus beta energy gap, plus border either
+
+319
+00:23:42,840 --> 00:23:45,630
+minus two. Beta energy, gamma.
+
+320
+00:23:48,310 --> 00:23:52,630
+And the parenthesis did not go there have to.
+
+321
+00:23:57,740 --> 00:24:03,110
+Subtract the three hours, which was minus one,
+
+322
+00:24:03,110 --> 00:24:08,950
+plus one over Beita for sorry, it over Beda times,
+
+323
+00:24:08,950 --> 00:24:13,550
+that logarithm of my standing on the screen twice.
+
+324
+00:24:14,690 --> 00:24:20,720
+Hyperbolic, cosine h there is the other end of
+
+325
+00:24:20,720 --> 00:24:24,650
+that parenthesis, so you've already done the
+
+326
+00:24:24,650 --> 00:24:28,130
+expansion for one of these factors, the expansion
+
+327
+00:24:28,130 --> 00:24:31,640
+for the free energy. This is the one.
+
+328
+00:24:33,950 --> 00:24:42,140
+Twice the hyperbolic cosine of age, if we. Cloud
+
+329
+00:24:42,350 --> 00:24:46,250
+the E to the plus the age factor from the
+
+330
+00:24:46,250 --> 00:24:50,220
+definition of hyperbolic cosine. You're left with
+
+331
+00:24:50,220 --> 00:24:57,240
+one plus E to the minus to be the H. And then
+
+332
+00:24:57,780 --> 00:25:00,510
+distributing the law, the of a product is the sum
+
+333
+00:25:00,540 --> 00:25:02,790
+of the logs in the blink of an exponential is just
+
+334
+00:25:02,790 --> 00:25:08,490
+its arguments. So this equals B, the H plus the
+
+335
+00:25:08,610 --> 00:25:14,070
+logarithm of one, plus our small number, which we
+
+336
+00:25:14,070 --> 00:25:18,660
+can expand already as that small number is a minus
+
+337
+00:25:18,660 --> 00:25:22,950
+Tubin H plus order, that small number squared
+
+338
+00:25:23,100 --> 00:25:28,170
+minus four to eight, which is also where our
+
+339
+00:25:28,170 --> 00:25:29,370
+expansion to the energy.
+
+340
+00:25:32,510 --> 00:25:36,860
+When we start churning out terms, so putting all
+
+341
+00:25:36,860 --> 00:25:40,810
+of these. Together and the expression of love we
+
+342
+00:25:40,810 --> 00:25:48,790
+have. At the end over in. Is. I would have.
+
+343
+00:25:58,560 --> 00:26:00,620
+You have the missing factor.
+
+344
+00:26:03,590 --> 00:26:07,700
+Each because without have the expression up here
+
+345
+00:26:08,180 --> 00:26:12,230
+is the energy divided by at a time stage here, we
+
+346
+00:26:12,230 --> 00:26:21,180
+just want. Energy over and cancel those games in
+
+347
+00:26:21,650 --> 00:26:27,370
+overall factor of age there and there. So now I'm
+
+348
+00:26:28,280 --> 00:26:30,620
+happier with the units on this expression.
+
+349
+00:26:33,850 --> 00:26:36,260
+Kim. S..
+
+350
+00:26:45,920 --> 00:26:50,840
+That was minus one here is kids better divided by
+
+351
+00:26:51,140 --> 00:26:54,650
+its bitter. And then I have.
+
+352
+00:27:00,210 --> 00:27:02,480
+Two terms here.
+
+353
+00:27:04,590 --> 00:27:08,400
+A minus or sorry, a.
+
+354
+00:27:10,780 --> 00:27:13,150
+Close to each, Peter.
+
+355
+00:27:17,020 --> 00:27:21,760
+Times E to the minus, to Delta E from the
+
+356
+00:27:21,760 --> 00:27:25,450
+expansion of the energy and then just to the
+
+357
+00:27:26,950 --> 00:27:29,470
+radiation that you can convince them to be only.
+
+358
+00:27:30,200 --> 00:27:35,960
+The single E to the minus two bit H e from the
+
+359
+00:27:35,960 --> 00:27:39,990
+free energy and then all of the other terms and
+
+360
+00:27:40,520 --> 00:27:43,250
+order to the minus to.
+
+361
+00:27:45,390 --> 00:27:50,210
+Beta of the energy here, is that what you want to
+
+362
+00:27:50,220 --> 00:27:55,740
+define is to each. Is the energy out there to be
+
+363
+00:27:55,740 --> 00:27:57,710
+useful of the
+
+364
+00:27:59,830 --> 00:28:03,770
+things we said to their terms that we have to get
+
+365
+00:28:03,770 --> 00:28:07,850
+them all exponentially suppressed the energy gap
+
+366
+00:28:08,240 --> 00:28:11,570
+compared to an absolute zero limit on the
+
+367
+00:28:11,590 --> 00:28:15,200
+vanishing entropy, the one of these exponentially
+
+368
+00:28:15,200 --> 00:28:20,090
+suppressed terms has a slight counteracting effect
+
+369
+00:28:20,090 --> 00:28:26,890
+from the non zero. They will delta itself, which
+
+370
+00:28:27,670 --> 00:28:30,490
+is not going to change the quality of the behavior
+
+371
+00:28:31,090 --> 00:28:35,160
+of the functions. You can see going back to. These
+
+372
+00:28:35,160 --> 00:28:38,610
+plots showing them that low energy, there's both
+
+373
+00:28:38,640 --> 00:28:42,410
+this exponentially fast approach to the symbolic
+
+374
+00:28:42,420 --> 00:28:48,300
+limits, despite the different prefectures in both
+
+375
+00:28:48,300 --> 00:28:54,780
+cases. So that is. What we can learn about the low
+
+376
+00:28:54,780 --> 00:29:01,420
+temperature of bit of this system of distinguished
+
+377
+00:29:01,440 --> 00:29:04,910
+hospitals, the. Are there questions out there
+
+378
+00:29:04,910 --> 00:29:08,480
+about the calculations that should get a bit messy
+
+379
+00:29:08,480 --> 00:29:10,340
+going through the mind or about the.
+
+380
+00:29:14,140 --> 00:29:18,940
+The quality of. Information to take away that an
+
+381
+00:29:19,350 --> 00:29:23,100
+exponentially fast conversions to the limit of
+
+382
+00:29:23,100 --> 00:29:28,790
+absolute zero in terms of the energy gap between
+
+383
+00:29:28,980 --> 00:29:31,140
+subsequent energy levels, the system.
+
+384
+00:29:42,000 --> 00:29:46,510
+Moving on to forget the other one that we have in
+
+385
+00:29:46,530 --> 00:29:49,950
+here, where the temperature goes to infinity,
+
+386
+00:29:50,910 --> 00:29:53,880
+which corresponds to the ground zero. This one
+
+387
+00:29:53,880 --> 00:29:56,550
+will turn out to be a bit more straightforward and
+
+388
+00:29:56,550 --> 00:30:00,750
+less messy. This is high temperatures, but not
+
+389
+00:30:01,590 --> 00:30:08,010
+infinitely high temperatures where now these low
+
+390
+00:30:08,020 --> 00:30:11,360
+parameter that we can work with is exactly the
+
+391
+00:30:11,400 --> 00:30:14,010
+speed of age itself. As the temperature becomes,
+
+392
+00:30:14,010 --> 00:30:17,160
+margins of risk become small. And for the internal
+
+393
+00:30:17,160 --> 00:30:20,940
+energy we have to do is the usual Taylor series
+
+394
+00:30:20,940 --> 00:30:25,700
+expansion provided its. I've been a bit of the
+
+395
+00:30:26,420 --> 00:30:30,680
+leading term state agent and plus one third the
+
+396
+00:30:31,100 --> 00:30:34,320
+human factor, and we can expect things to come the
+
+397
+00:30:34,460 --> 00:30:39,680
+full power of the age. And as the temperature goes
+
+398
+00:30:39,680 --> 00:30:44,270
+to infinity, this term goes like minus H over T
+
+399
+00:30:44,720 --> 00:30:50,690
+varnishing. Like one over tea, which is in fact
+
+400
+00:30:50,690 --> 00:30:54,890
+what we saw in the Michael Campbell case when we
+
+401
+00:30:55,190 --> 00:30:58,400
+fixed the temperature predicted and we fixed the
+
+402
+00:30:58,400 --> 00:31:01,550
+energy predicted, the temperature coming from the
+
+403
+00:31:02,120 --> 00:31:08,440
+independence of the entropy of the energy. We saw
+
+404
+00:31:08,440 --> 00:31:14,380
+that. The temperature very like minus teenage
+
+405
+00:31:14,400 --> 00:31:20,310
+poverty, and as the energy went to zero, the
+
+406
+00:31:20,310 --> 00:31:23,310
+temperature diverged and the same thing is going
+
+407
+00:31:23,310 --> 00:31:25,830
+on here. The energy is vanishing as the
+
+408
+00:31:25,830 --> 00:31:28,890
+temperature, but it's the same relationships with
+
+409
+00:31:28,890 --> 00:31:33,450
+the role of dependent and independent variables
+
+410
+00:31:34,470 --> 00:31:34,950
+clipped
+
+411
+00:31:37,110 --> 00:31:42,720
+into the entropy. You can start off with that same.
+
+412
+00:31:46,220 --> 00:31:51,740
+Calculation, I'll go ahead and distribute the as
+
+413
+00:31:51,770 --> 00:31:56,600
+it is to the energy and the free energy in this
+
+414
+00:31:56,600 --> 00:31:59,450
+expression so that it's easier to keep track of
+
+415
+00:31:59,450 --> 00:32:07,960
+them. Just as before you plug in. The. Expansion
+
+416
+00:32:07,960 --> 00:32:11,710
+for the High-temperature energy here, there is
+
+417
+00:32:11,830 --> 00:32:17,000
+another factor of. Each to account for the overall
+
+418
+00:32:17,000 --> 00:32:23,930
+factor of data. So the first term we have minus
+
+419
+00:32:23,930 --> 00:32:31,760
+data squared and then the next term disappeared a
+
+420
+00:32:31,760 --> 00:32:38,900
+few times at age times, data over. And and is
+
+421
+00:32:38,910 --> 00:32:42,510
+accounted for. I'll just call it something of
+
+422
+00:32:42,510 --> 00:32:50,630
+order given to the 4th began just days before the
+
+423
+00:32:50,680 --> 00:32:56,660
+the over the free energy. Is just the horn of
+
+424
+00:32:56,720 --> 00:33:03,950
+twice the hyperbolic cosine. We're doing a
+
+425
+00:33:03,950 --> 00:33:08,120
+different expansion of the arguments of this law
+
+426
+00:33:10,250 --> 00:33:13,670
+and the limits where Bureij becomes very small,
+
+427
+00:33:13,670 --> 00:33:17,900
+all of the very large hyperbolic cosine has its
+
+428
+00:33:17,900 --> 00:33:18,530
+usual.
+
+429
+00:33:20,900 --> 00:33:23,660
+Power, serious expansion. You can pull off this
+
+430
+00:33:24,080 --> 00:33:30,030
+particular factor of the one, two plus. One of the
+
+431
+00:33:30,840 --> 00:33:36,930
+court itself, which we know is one plus 1/2 times
+
+432
+00:33:36,930 --> 00:33:41,730
+its arguments squared, plus order of the argument
+
+433
+00:33:41,940 --> 00:33:43,980
+to the fourth power.
+
+434
+00:33:46,270 --> 00:33:52,720
+Which we can then expand the log log of one plus a
+
+435
+00:33:52,720 --> 00:33:58,540
+small number is at the beginning of that small
+
+436
+00:33:58,540 --> 00:34:04,360
+number itself getting up to be age to the fourth.
+
+437
+00:34:05,470 --> 00:34:10,440
+So putting these terms together, the interview
+
+438
+00:34:10,690 --> 00:34:17,690
+ends up with a. One or two, and then plus one half
+
+439
+00:34:17,690 --> 00:34:21,980
+billion squared, minus eight squared, leaves us
+
+440
+00:34:21,980 --> 00:34:28,010
+with a negative one half. It declared in the
+
+441
+00:34:28,040 --> 00:34:33,410
+corrections. An ordinary village to the fourth
+
+442
+00:34:33,770 --> 00:34:34,340
+power.
+
+443
+00:34:36,580 --> 00:34:42,800
+Which is what is written below and. You see, that
+
+444
+00:34:42,800 --> 00:34:48,730
+has happened here goes to infinity and zero. This
+
+445
+00:34:48,740 --> 00:34:54,440
+approach is this constant value of two, which is
+
+446
+00:34:55,070 --> 00:34:58,440
+where it is heading to. Up on the screen, you're.
+
+447
+00:35:01,300 --> 00:35:06,380
+Check the numerical value matches up. With the
+
+448
+00:35:07,550 --> 00:35:13,520
+election there. Which is, in fact, exactly what we
+
+449
+00:35:13,520 --> 00:35:17,960
+can recognize for. The microeconomic ensemble of
+
+450
+00:35:17,960 --> 00:35:21,650
+all to the end of the microstates in the system
+
+451
+00:35:22,370 --> 00:35:25,460
+had the same energy and the entropy would just be
+
+452
+00:35:26,210 --> 00:35:30,050
+the of the debt and more to what we have here in
+
+453
+00:35:30,100 --> 00:35:36,380
+the a temperature regime. So we actually see the
+
+454
+00:35:36,560 --> 00:35:40,370
+canonical and canonical ensembles coming together
+
+455
+00:35:40,370 --> 00:35:44,600
+in this way, which we can interpret positively as.
+
+456
+00:35:47,450 --> 00:35:50,560
+The energy's coming from these experience,
+
+457
+00:35:50,570 --> 00:35:52,850
+interacting with that external metallic feel,
+
+458
+00:35:53,340 --> 00:35:57,440
+albeit negligible compared to the temperature. So
+
+459
+00:35:57,860 --> 00:36:01,790
+effectively, the system behaves as though every
+
+460
+00:36:01,790 --> 00:36:06,140
+microstates had the same energy independent of how
+
+461
+00:36:06,140 --> 00:36:08,630
+it spins for aligned compared to that external
+
+462
+00:36:08,930 --> 00:36:09,860
+fuel. The
+
+463
+00:36:12,110 --> 00:36:15,100
+technology neglected compared to the water
+
+464
+00:36:15,110 --> 00:36:16,490
+temperature that.
+
+465
+00:36:19,080 --> 00:36:23,990
+So that is. How all of these drives qualities
+
+466
+00:36:23,990 --> 00:36:27,590
+behave already for reasons of
+
+467
+00:36:30,440 --> 00:36:32,930
+temperature for the case, the distinction is
+
+468
+00:36:32,930 --> 00:36:36,380
+better solved. Well, if we have enough time, we
+
+469
+00:36:36,380 --> 00:36:38,990
+want to do that same sort of thing for
+
+470
+00:36:39,380 --> 00:36:44,510
+indistinguishable spins in the middle, which will
+
+471
+00:36:44,510 --> 00:36:48,340
+be distinguishable by virtue of being in a gas of
+
+472
+00:36:48,350 --> 00:36:53,270
+spin. So the idea here comes a pause. As for any
+
+473
+00:36:53,660 --> 00:36:56,430
+final questions about the distinguishable case.
+
+474
+00:37:01,790 --> 00:37:05,600
+And move on to the contrast, so we are considering
+
+475
+00:37:06,260 --> 00:37:09,740
+nearly the same setup we have and spins into a
+
+476
+00:37:09,740 --> 00:37:12,500
+dynamic equilibrium, get an external magnetic
+
+477
+00:37:12,500 --> 00:37:15,320
+field of strength, each that determines the energy
+
+478
+00:37:15,590 --> 00:37:20,920
+of any configuration of these spins. Only now
+
+479
+00:37:20,920 --> 00:37:24,960
+rather than. Identifying these things with sea
+
+480
+00:37:24,980 --> 00:37:28,090
+molecules in a solid position is fixed and can be
+
+481
+00:37:28,090 --> 00:37:31,480
+identified and distinguished from each other. We
+
+482
+00:37:31,480 --> 00:37:34,750
+said that the spoons are free to move as though
+
+483
+00:37:34,750 --> 00:37:38,200
+they were particles in a one dimensional gas.
+
+484
+00:37:40,230 --> 00:37:44,520
+And we will assume that need movement that they're
+
+485
+00:37:44,520 --> 00:37:48,570
+doing is slow so that the energy continues to be
+
+486
+00:37:49,380 --> 00:37:51,960
+defined by their interactions with this magnetic
+
+487
+00:37:51,960 --> 00:37:54,420
+field and in the kinetic energy that they have is
+
+488
+00:37:54,810 --> 00:37:58,310
+negligible. So when we look at them, you will just
+
+489
+00:38:00,960 --> 00:38:04,410
+see the same sort of.
+
+490
+00:38:08,320 --> 00:38:11,920
+Google stands in that extra room in Edgefield.
+
+491
+00:38:14,410 --> 00:38:16,870
+The difference being compared to the
+
+492
+00:38:17,080 --> 00:38:21,700
+distinguishable case, we can't reliably say that.
+
+493
+00:38:22,810 --> 00:38:25,900
+If we look at the second and third steps here and
+
+494
+00:38:25,910 --> 00:38:29,970
+we look back whether the second and third spins
+
+495
+00:38:30,020 --> 00:38:32,060
+are still in the same positions that they were
+
+496
+00:38:32,060 --> 00:38:34,850
+before, we can keep track of where these things
+
+497
+00:38:34,850 --> 00:38:38,310
+are. They can move freely past each other. And.
+
+498
+00:38:40,070 --> 00:38:43,790
+There's no way to assign a label to them or know
+
+499
+00:38:43,800 --> 00:38:48,230
+that by looking at a particular position in this
+
+500
+00:38:48,230 --> 00:38:50,960
+line, we will pick out a particular step.
+
+501
+00:38:54,350 --> 00:38:58,960
+So what we have to do in this case, as always, is
+
+502
+00:38:58,980 --> 00:39:04,700
+start by computing the petition function, which is
+
+503
+00:39:05,150 --> 00:39:07,460
+a set of goals and factors over all the
+
+504
+00:39:07,460 --> 00:39:12,920
+microstates of the system. And the question now is,
+
+505
+00:39:12,920 --> 00:39:17,780
+what are the microstates of the system? What we
+
+506
+00:39:17,780 --> 00:39:23,240
+can no longer distinguish between. Cases where a
+
+507
+00:39:23,240 --> 00:39:26,450
+certain spin is pointing a certain way versus
+
+508
+00:39:26,450 --> 00:39:29,060
+another has been pointed the same way since May
+
+509
+00:39:29,060 --> 00:39:32,150
+well have been indistinguishable and the
+
+510
+00:39:32,150 --> 00:39:34,910
+microstates side cannot pretend that we have
+
+511
+00:39:35,480 --> 00:39:39,630
+information. About which is pointing which way.
+
+512
+00:39:41,680 --> 00:39:43,870
+In other words, because the spins on this motion,
+
+513
+00:39:43,870 --> 00:39:49,320
+all the federations. Also are indistinguishable,
+
+514
+00:39:49,320 --> 00:39:53,220
+at least in the case. That they have the same
+
+515
+00:39:53,220 --> 00:39:58,380
+energy or the same number of downward would spins.
+
+516
+00:39:59,730 --> 00:40:03,010
+So we saw this the beginning of this year, but you
+
+517
+00:40:03,010 --> 00:40:07,510
+get the replica. To configurations of spins, one
+
+518
+00:40:07,510 --> 00:40:13,060
+up and one down. And the order in which one is up,
+
+519
+00:40:13,060 --> 00:40:16,240
+one is down can no longer be distinguished. So
+
+520
+00:40:16,240 --> 00:40:20,380
+both of those configurations are a single
+
+521
+00:40:20,380 --> 00:40:21,190
+microstates.
+
+522
+00:40:24,770 --> 00:40:29,840
+The. Solution to how to cut electricity or
+
+523
+00:40:29,840 --> 00:40:32,210
+something. I actually said already in that little
+
+524
+00:40:32,210 --> 00:40:36,290
+spiel, just what we can distinguish is the total
+
+525
+00:40:36,290 --> 00:40:40,070
+number of operating expenses corresponding to the
+
+526
+00:40:40,070 --> 00:40:45,170
+total energy, which is now the only way we are
+
+527
+00:40:45,170 --> 00:40:50,060
+able to identify which micro state is which. Each
+
+528
+00:40:50,060 --> 00:40:53,660
+micro state has a one to one correspondence with
+
+529
+00:40:53,660 --> 00:40:56,450
+the energy that comes from how many schemes are
+
+530
+00:40:56,450 --> 00:40:58,850
+pointing out versus how many are down.
+
+531
+00:41:01,460 --> 00:41:02,000
+So.
+
+532
+00:41:05,000 --> 00:41:07,970
+We can organize all of these microstates in order
+
+533
+00:41:07,970 --> 00:41:12,260
+to take the sun in the petition function just by.
+
+534
+00:41:15,530 --> 00:41:19,760
+Enumerating the materials that are available, do a
+
+535
+00:41:19,760 --> 00:41:23,030
+quick example with just four foreskins should be
+
+536
+00:41:23,650 --> 00:41:26,810
+true enough to fit in this gap. And in the time
+
+537
+00:41:27,890 --> 00:41:28,940
+that remains
+
+538
+00:41:31,670 --> 00:41:36,570
+where. The microstates that we have to respond to
+
+539
+00:41:36,570 --> 00:41:41,060
+the five values that the energy of these this
+
+540
+00:41:41,100 --> 00:41:43,020
+Forssmann system can take to the ground, state
+
+541
+00:41:43,050 --> 00:41:48,180
+energy is minus four times age and there is a
+
+542
+00:41:48,780 --> 00:41:52,890
+constant energy gap between all of the higher
+
+543
+00:41:52,890 --> 00:41:58,470
+energy levels that electricity with that
+
+544
+00:41:58,500 --> 00:42:02,160
+corresponds to energy minus to two energy, zero
+
+545
+00:42:02,670 --> 00:42:06,120
+energy plus to age with a higher energy state that
+
+546
+00:42:06,120 --> 00:42:08,790
+has plus four age and.
+
+547
+00:42:11,210 --> 00:42:15,830
+Out of the possible spin configurations, in this
+
+548
+00:42:15,830 --> 00:42:18,570
+case, keeping the magnetic field, pointing out
+
+549
+00:42:18,950 --> 00:42:21,590
+that the ground state is all for spins aligned
+
+550
+00:42:21,590 --> 00:42:25,220
+with its highest energy state. Somebody has, of
+
+551
+00:42:25,220 --> 00:42:29,540
+course, been RNC aligned. And with each higher
+
+552
+00:42:29,540 --> 00:42:33,050
+energy level, one of those spins is flipped and we
+
+553
+00:42:33,050 --> 00:42:38,750
+cannot. Distinguish between. We cannot determine
+
+554
+00:42:38,900 --> 00:42:40,670
+which stand is flat because they are
+
+555
+00:42:40,670 --> 00:42:44,030
+indistinguishable, so all the permutations of that
+
+556
+00:42:44,630 --> 00:42:46,760
+collapse to a single microstates.
+
+557
+00:42:51,290 --> 00:42:54,140
+And similarly. As we have.
+
+558
+00:42:57,230 --> 00:42:59,980
+Two or three spins pointing down.
+
+559
+00:43:02,310 --> 00:43:06,300
+So some of these microstates you can simulate some
+
+560
+00:43:06,300 --> 00:43:11,340
+of these energy values, the state energy plus the
+
+561
+00:43:11,340 --> 00:43:15,700
+energy gap time, some integer, which, you know,
+
+562
+00:43:15,840 --> 00:43:22,020
+ranges from zero. We have the real state up to an
+
+563
+00:43:22,170 --> 00:43:27,150
+inclusive for that highest energy state. So this
+
+564
+00:43:27,150 --> 00:43:30,900
+gives us and plus one that total microstates for
+
+565
+00:43:30,900 --> 00:43:35,280
+any particles imaginable where you can have the
+
+566
+00:43:36,060 --> 00:43:38,190
+partition function for these indistinguishable
+
+567
+00:43:38,190 --> 00:43:43,770
+particles. Is the sun over those endless one
+
+568
+00:43:43,770 --> 00:43:49,380
+bowsman factors, even the better times and minus
+
+569
+00:43:49,380 --> 00:43:54,750
+Tulk? Which if we pull out that constables would
+
+570
+00:43:54,750 --> 00:44:01,020
+refactor it to the end of each. We can. Recognize
+
+571
+00:44:01,020 --> 00:44:06,420
+that this is the seed of the virus to their age is
+
+572
+00:44:06,720 --> 00:44:09,090
+the fixed quantity to the virus, to their age
+
+573
+00:44:09,090 --> 00:44:13,860
+raised to the cave power to destroy the sun, which
+
+574
+00:44:13,860 --> 00:44:19,520
+turns out to be. A ratio of this exponential one
+
+575
+00:44:19,520 --> 00:44:25,480
+minus. Even minus two times, that was one bit over
+
+576
+00:44:25,480 --> 00:44:29,470
+one minus due to the minus two. So this is another
+
+577
+00:44:29,560 --> 00:44:32,920
+manifestation of that symmetric series that popped
+
+578
+00:44:32,920 --> 00:44:37,670
+up in the case of distinguishable stands, one over
+
+579
+00:44:37,720 --> 00:44:41,230
+one minus X, at least one X is less than one is
+
+580
+00:44:41,230 --> 00:44:47,500
+for this exponential. That is equal to the sum of
+
+581
+00:44:47,500 --> 00:44:51,970
+powers to the K from K to infinity. And the fact
+
+582
+00:44:51,970 --> 00:44:55,510
+that this song has to be cut off to our total
+
+583
+00:44:55,510 --> 00:44:59,020
+number of particles just means that we saw or
+
+584
+00:44:59,300 --> 00:45:04,510
+subtract the similar song from Kate, ranging from
+
+585
+00:45:04,510 --> 00:45:09,430
+Air Force One up to infinity if we extract an axe
+
+586
+00:45:09,430 --> 00:45:12,810
+to the end of this one. From that second summer,
+
+587
+00:45:13,220 --> 00:45:15,510
+get another geometric series just with that
+
+588
+00:45:16,260 --> 00:45:21,130
+overall factor of the year plus one leading to an
+
+589
+00:45:21,160 --> 00:45:22,210
+equation for.
+
+590
+00:45:28,970 --> 00:45:29,480
+So.
+
+591
+00:45:32,430 --> 00:45:36,210
+I think I will try to speed through the rest of
+
+592
+00:45:36,210 --> 00:45:39,690
+this unit in the few remaining minutes, there's a
+
+593
+00:45:39,690 --> 00:45:43,260
+quick exercise to take the logarithm of this
+
+594
+00:45:43,680 --> 00:45:47,010
+equation. Forty four, which will bring in three
+
+595
+00:45:47,010 --> 00:45:49,200
+terms corresponding to the three factors being
+
+596
+00:45:49,200 --> 00:45:53,310
+multiplied, multiplied by each other. And on that
+
+597
+00:45:53,310 --> 00:45:56,670
+homework assignment that's now available. You can.
+
+598
+00:45:58,180 --> 00:46:01,210
+Take this towards free energy through the
+
+599
+00:46:01,210 --> 00:46:05,590
+calculation to determine that internal energy and
+
+600
+00:46:05,590 --> 00:46:10,420
+entropy and the high temperature limits so we can
+
+601
+00:46:10,420 --> 00:46:16,450
+look at to wrap things up today, here is how the
+
+602
+00:46:16,660 --> 00:46:18,880
+results that you're going after compare with the
+
+603
+00:46:19,330 --> 00:46:22,360
+case of distinguishable particles that we spent a
+
+604
+00:46:22,360 --> 00:46:25,300
+fair amount of time computing in some detail. So
+
+605
+00:46:25,300 --> 00:46:29,440
+for the energy normalized by the end times, it
+
+606
+00:46:29,860 --> 00:46:36,490
+gets the same. Temperature over H. The story lines.
+
+607
+00:46:37,960 --> 00:46:40,360
+Are the same distinguishable results that we
+
+608
+00:46:40,930 --> 00:46:43,960
+disputed in some detail already in the solid blue
+
+609
+00:46:43,960 --> 00:46:47,980
+line is now the indistinguishable result coming
+
+610
+00:46:47,980 --> 00:46:51,320
+from this new setup where the spinners are. I
+
+611
+00:46:51,800 --> 00:46:56,340
+guess I can move freely through each other, what
+
+612
+00:46:56,380 --> 00:46:59,740
+we can see is that although the. Zero temperature
+
+613
+00:46:59,740 --> 00:47:04,580
+limit of absolute zero is the same. As soon as the
+
+614
+00:47:04,580 --> 00:47:09,440
+temperature is not zero a. Clearly observable
+
+615
+00:47:09,440 --> 00:47:11,900
+difference in this observable quantity of.
+
+616
+00:47:14,350 --> 00:47:18,930
+And. Even though there is still exponential
+
+617
+00:47:18,930 --> 00:47:21,240
+approach to that after the zero minutes.
+
+618
+00:47:26,280 --> 00:47:29,340
+There is a measurable or an observable difference
+
+619
+00:47:29,610 --> 00:47:33,330
+in the energy of these systems, depending solely
+
+620
+00:47:33,330 --> 00:47:36,000
+on their information content, whether the spirits
+
+621
+00:47:36,420 --> 00:47:40,450
+are distinguishable. And maybe the most striking
+
+622
+00:47:40,450 --> 00:47:44,650
+difference is. What happens with the entropy
+
+623
+00:47:45,100 --> 00:47:49,990
+normalize by in high temperatures, where if we
+
+624
+00:47:49,990 --> 00:47:53,980
+recall that for the distinguishable case, this was
+
+625
+00:47:53,980 --> 00:47:59,560
+approaching? The logarithm of two. And what is
+
+626
+00:47:59,560 --> 00:48:06,390
+happening? In the. In this case, there's actually
+
+627
+00:48:06,390 --> 00:48:07,680
+an approach to.
+
+628
+00:48:10,200 --> 00:48:20,280
+The. Voyeurism of an endless one over in. By and
+
+629
+00:48:20,880 --> 00:48:25,860
+so even in the. Have some high your limit with the
+
+630
+00:48:25,980 --> 00:48:27,350
+energy's all come together.
+
+631
+00:48:29,900 --> 00:48:33,380
+For the same reason that the temperature dominates
+
+632
+00:48:33,380 --> 00:48:35,660
+and the system is essentially microeconomic, all
+
+633
+00:48:36,530 --> 00:48:40,790
+items are. There is a exponentially smaller number
+
+634
+00:48:40,790 --> 00:48:44,690
+of microstates leading to the suppress entropy for
+
+635
+00:48:44,690 --> 00:48:46,070
+the in this case.
+
+636
+00:48:49,050 --> 00:48:53,550
+In. The conclusion takeaway here is you have
+
+637
+00:48:53,550 --> 00:48:59,310
+rushed through a bit of the second calculation is
+
+638
+00:48:59,310 --> 00:49:04,590
+just that. For two physical systems, identical in
+
+639
+00:49:04,590 --> 00:49:07,800
+all aspects except their information, contact with
+
+640
+00:49:07,800 --> 00:49:10,350
+their hands are distinguishable or not in
+
+641
+00:49:10,350 --> 00:49:16,210
+principle. Was it measurable, physical difference
+
+642
+00:49:16,600 --> 00:49:20,410
+in the internal energy? Or in other words,
+
+643
+00:49:21,190 --> 00:49:26,530
+information is physical. Which is the takeaway
+
+644
+00:49:26,530 --> 00:49:30,070
+message provided by physicist Wolf Landauer just a
+
+645
+00:49:30,070 --> 00:49:33,350
+few decades ago, so this investigation is about
+
+646
+00:49:33,370 --> 00:49:39,770
+information in physics is recent. And even ongoing
+
+647
+00:49:40,010 --> 00:49:45,840
+research. That shows up even in the simple case of
+
+648
+00:49:46,530 --> 00:49:51,090
+the spin systems that we're using as our most
+
+649
+00:49:51,090 --> 00:49:52,320
+basic example. So.
+
+650
+00:49:54,360 --> 00:49:57,270
+I will stop there for today. Next time is of the
+
+651
+00:49:57,270 --> 00:50:01,870
+essence of generalizing from. This week's belongs
+
+652
+00:50:01,870 --> 00:50:06,250
+to continuously moving particles in some container
+
+653
+00:50:06,850 --> 00:50:10,000
+that will be maybe a bit more obviously physical,
+
+654
+00:50:10,000 --> 00:50:10,920
+a bit more familiar.
+
+655
+00:50:13,520 --> 00:50:15,920
+Are there any questions about the canonical
+
+656
+00:50:15,920 --> 00:50:19,070
+ensemble background or the physics of information
+
+657
+00:50:19,070 --> 00:50:20,900
+that you looked at today?
+
+658
+00:50:29,620 --> 00:50:33,490
+The site was shut down recording. See you tomorrow
+
+659
+00:50:33,490 --> 00:50:39,340
+morning, also heading to my office hours right now.
+
+660
+00:50:40,900 --> 00:50:42,100
+Questions come to mind.
