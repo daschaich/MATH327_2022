@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 4}
-\renewcommand{\moddate}{Last modified 20 Jan.~2022}
+\renewcommand{\moddate}{Last modified 22 Feb.~2022}
 \setcounter{section}{4}
 \setcounter{subsection}{0}
 \phantomsection
@@ -95,7 +95,7 @@ We can now account for all $N$ particles in the ideal gas, which are completely 
 Assuming we can distinguish these particles from each other, then each of them simply contributes an independent factor of $Z_1$ to the overall partition function
 \begin{equation}
   \label{eq:ideal_dist_int}
-  Z_D = \left(\frac{L}{2\pi\hbar}\right)^{3N} \int d^{3N}p \exp\left[-\sum_{n = 1}^{\infty} \frac{p_n^2}{2mT}\right],
+  Z_D = \left(\frac{L}{2\pi\hbar}\right)^{3N} \int d^{3N}p \, \exp\left[-\sum_{n = 1}^N \frac{p_n^2}{2mT}\right],
 \end{equation}
 where the subscript reminds us of the particles' distinguishability.
 We will consider the indistinguishable case below.
