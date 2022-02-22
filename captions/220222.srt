@@ -1,0 +1,2567 @@
+1
+00:00:03,810 --> 00:00:08,580
+Well, about time we get going once more.  I suppose
+
+2
+00:00:09,480 --> 00:00:12,370
+we won't have to deal with the issue of too much sun
+
+3
+00:00:12,480 --> 00:00:16,230
+causing a glare on the screen today. Though,
+
+4
+00:00:19,120 --> 00:00:22,760
+overall, I would have preferred that to walking in
+
+5
+00:00:22,760 --> 00:00:26,980
+from Wavertree in this weather.  Let's see...
+
+6
+00:00:28,540 --> 00:00:31,390
+Several things are going wrong at a technical
+
+7
+00:00:31,390 --> 00:00:34,000
+level at the moment. So the last person in this
+
+8
+00:00:34,000 --> 00:00:36,910
+room yesterday didn't plug in that little microphone.
+
+9
+00:00:36,920 --> 00:00:40,870
+So I hope that those who are connected remotely
+
+10
+00:00:40,870 --> 00:00:44,620
+can hear me through the built-in one sticking out
+
+11
+00:00:44,620 --> 00:00:50,890
+of the table.  The printing system also went down
+
+12
+00:00:51,010 --> 00:00:55,750
+yesterday. So we'll have to use my digital paper
+
+13
+00:00:55,750 --> 00:01:00,340
+here to keep track of what's going on, and look at
+
+14
+00:01:00,440 --> 00:01:05,140
+what that six-digit code for you is today.
+
+15
+00:01:10,700 --> 00:01:19,210
+So the magic number is six two five five one four
+
+16
+00:01:21,050 --> 00:01:26,200
+What I've put up on the screen is the tail end of what
+
+17
+00:01:26,200 --> 00:01:29,340
+we were talking about yesterday, wrapping up. Unit
+
+18
+00:01:29,340 --> 00:01:34,470
+three on the canonical ensemble, which I did rush
+
+19
+00:01:34,470 --> 00:01:39,080
+through a bit at the end just to get to that, to
+
+20
+00:01:39,090 --> 00:01:41,670
+bring in stopping points of wrapping up that whole
+
+21
+00:01:41,670 --> 00:01:44,580
+unit. And the particular one thing I forgot to
+
+22
+00:01:44,580 --> 00:01:49,290
+mention at the time was that in order to. Have a
+
+23
+00:01:49,350 --> 00:01:53,250
+non-zero value for the symbolic high temperature
+
+24
+00:01:53,250 --> 00:01:57,300
+limits of the indistinguishable entropy, which is
+
+25
+00:01:57,480 --> 00:02:00,150
+the slogan plus one, when everything normalize by
+
+26
+00:02:00,200 --> 00:02:04,650
+and for the purposes of this plot, that number of
+
+27
+00:02:04,650 --> 00:02:07,380
+spins is being set to fall. And you can check that
+
+28
+00:02:07,890 --> 00:02:11,520
+compared to the log to one quarter log, five is
+
+29
+00:02:11,520 --> 00:02:15,630
+about two thirds as large, matching the numerical
+
+30
+00:02:15,630 --> 00:02:20,190
+value shown here. That doesn't affect the. I mean,
+
+31
+00:02:20,770 --> 00:02:24,240
+qualitative message to take away that just by
+
+32
+00:02:24,810 --> 00:02:27,330
+changing our assumptions about whether the
+
+33
+00:02:27,690 --> 00:02:30,290
+particles in a system are distinguishable or not,
+
+34
+00:02:30,300 --> 00:02:34,170
+which is to say by adjusting our assumptions about
+
+35
+00:02:34,170 --> 00:02:38,250
+how much information is available about those
+
+36
+00:02:38,250 --> 00:02:41,460
+particles in principle, independent of whatever
+
+37
+00:02:41,460 --> 00:02:44,730
+technology we might have to distinguish between
+
+38
+00:02:44,730 --> 00:02:48,540
+them, if in principle, in any way they can be
+
+39
+00:02:48,540 --> 00:02:51,060
+distinguished. There's there are clear effects
+
+40
+00:02:51,060 --> 00:02:54,510
+both on the entropy as well as the internal energy
+
+41
+00:02:54,840 --> 00:02:58,770
+of that system. And that will cause we will
+
+42
+00:02:58,770 --> 00:03:02,970
+continue seeing similar things as we move on into.
+
+43
+00:03:04,110 --> 00:03:06,960
+Some of the more traditional playgrounds for the
+
+44
+00:03:06,990 --> 00:03:11,100
+physical POSIX, but before doing that, I'll ask if
+
+45
+00:03:11,100 --> 00:03:14,160
+any questions have come to mind. Now that you've
+
+46
+00:03:14,160 --> 00:03:18,930
+had a few hours to think about what we looked at
+
+47
+00:03:18,930 --> 00:03:21,570
+yesterday, especially that bit at the end. That
+
+48
+00:03:21,570 --> 00:03:23,070
+was a little rushed.
+
+49
+00:03:35,570 --> 00:03:39,440
+And up here in the room, Moore was connected
+
+50
+00:03:39,440 --> 00:03:41,360
+remotely. We will.
+
+51
+00:03:43,740 --> 00:03:47,780
+Move on to a second application of the canonical
+
+52
+00:03:47,790 --> 00:03:50,400
+ensemble. So, again, fixing the temperature
+
+53
+00:03:50,400 --> 00:03:52,560
+through a thermal ensemble, fixing the number of
+
+54
+00:03:52,560 --> 00:03:56,340
+particles and considering an.
+
+55
+00:03:59,300 --> 00:04:04,380
+Bit more length and more detail the. Topic of
+
+56
+00:04:04,710 --> 00:04:09,270
+ideal gases and what ideal means is one of the
+
+57
+00:04:09,510 --> 00:04:15,050
+objectives to start off with specifying the
+
+58
+00:04:15,060 --> 00:04:18,780
+systems to. To consider in this unit, so it's a
+
+59
+00:04:18,780 --> 00:04:22,680
+bit more a bit less trivial application compared
+
+60
+00:04:22,680 --> 00:04:26,640
+to just the speed systems to keep things.
+
+61
+00:04:28,220 --> 00:04:32,270
+Reasonably simple to start off with. We will
+
+62
+00:04:32,690 --> 00:04:36,890
+specialize this focus to ideal gases that are both
+
+63
+00:04:36,890 --> 00:04:41,450
+classical and non relativistic and I'm not sure,
+
+64
+00:04:41,450 --> 00:04:45,730
+given the. Different sets of modules that you may
+
+65
+00:04:45,730 --> 00:04:48,700
+have taken before now, how familiar all of this
+
+66
+00:04:48,700 --> 00:04:52,750
+terminology may be. So just to review it and feel
+
+67
+00:04:52,750 --> 00:04:55,060
+free to ask for
+
+68
+00:04:57,100 --> 00:05:00,280
+further elaboration if if you wanted the classical
+
+69
+00:05:00,280 --> 00:05:03,880
+systems just means that we are ignoring any
+
+70
+00:05:03,880 --> 00:05:06,850
+effects of quantum mechanics or classical is not
+
+71
+00:05:06,850 --> 00:05:11,380
+quantum. And that's easy to say. It has some
+
+72
+00:05:11,710 --> 00:05:16,390
+subtle consequences, one of which being that you
+
+73
+00:05:16,390 --> 00:05:19,390
+can imagine. We can specify both the position and
+
+74
+00:05:19,390 --> 00:05:23,560
+momentum of every particle in the gas with
+
+75
+00:05:23,680 --> 00:05:26,080
+arbitrary precision, which is not the case.
+
+76
+00:05:26,080 --> 00:05:30,910
+Quantum mechanically and I guess implicit in my
+
+77
+00:05:30,910 --> 00:05:33,940
+use of three vectors for position and momentum is
+
+78
+00:05:33,940 --> 00:05:36,130
+the idea that we'll be looking at these gases in
+
+79
+00:05:36,550 --> 00:05:42,060
+some three dimensional space. And not relativistic
+
+80
+00:05:42,060 --> 00:05:45,330
+particles, similarly, that we ignore effects due
+
+81
+00:05:45,330 --> 00:05:48,060
+to relativity, both special and general.
+
+82
+00:05:50,110 --> 00:05:52,780
+In this context of Agassiz, this means that the
+
+83
+00:05:53,710 --> 00:05:56,800
+particles in this gas are moving relatively slowly
+
+84
+00:05:57,280 --> 00:06:00,190
+where the relatively is taking a comparison to the
+
+85
+00:06:00,190 --> 00:06:02,770
+speed of light. Three hundred million meters per
+
+86
+00:06:02,770 --> 00:06:08,620
+second, which means that the energies of each of
+
+87
+00:06:08,620 --> 00:06:12,640
+these particles is just going to be given by the
+
+88
+00:06:13,450 --> 00:06:15,880
+expression that came out of Newton's laws of
+
+89
+00:06:15,880 --> 00:06:18,650
+motion all the way back in the sixteen hundreds.
+
+90
+00:06:18,910 --> 00:06:23,720
+But the energy is. What happened V squared B is
+
+91
+00:06:23,720 --> 00:06:29,780
+the velocity of the movie is the momentum. So we
+
+92
+00:06:29,780 --> 00:06:33,290
+end up with energy use for each particle that have
+
+93
+00:06:33,320 --> 00:06:36,410
+the momentum squared of that particle, the product
+
+94
+00:06:36,410 --> 00:06:40,520
+of those three vectors divided by twice the mass
+
+95
+00:06:40,520 --> 00:06:45,030
+of the particle, which we. We can assume is now
+
+96
+00:06:45,120 --> 00:06:49,560
+zero and it turns out that having a relatively
+
+97
+00:06:49,560 --> 00:06:53,040
+heavy mass is equivalent to particles moving with
+
+98
+00:06:53,250 --> 00:06:56,220
+speed, small compared to the speed of light might
+
+99
+00:06:56,220 --> 00:07:00,920
+be massless particles. And finally, ideally, Gas's,
+
+100
+00:07:00,920 --> 00:07:05,360
+which is the the big one that comes in, that the
+
+101
+00:07:06,350 --> 00:07:10,190
+title of the unit just says that these particles
+
+102
+00:07:10,190 --> 00:07:14,240
+in this gas are not interacting with each other.
+
+103
+00:07:14,750 --> 00:07:18,110
+In other words, the total energy of a system of
+
+104
+00:07:18,620 --> 00:07:23,420
+any gas particles and molecules we think of.
+
+105
+00:07:23,430 --> 00:07:27,710
+Absolutely. The air in a room is just the sum over
+
+106
+00:07:27,710 --> 00:07:30,710
+the energies of those individual particles with
+
+107
+00:07:30,710 --> 00:07:33,770
+their individual momentum. So how does a factor of
+
+108
+00:07:33,770 --> 00:07:36,890
+one over two and all the particles have the same
+
+109
+00:07:36,890 --> 00:07:40,510
+mass? And then to sum over all of the moment to
+
+110
+00:07:40,510 --> 00:07:45,430
+squared, so that is the statement of the system
+
+111
+00:07:45,430 --> 00:07:48,190
+will be considering. Are there any objections to
+
+112
+00:07:48,940 --> 00:07:51,880
+the classical and non relativistic terminology?
+
+113
+00:07:55,800 --> 00:07:59,070
+Having well, there is one more piece of
+
+114
+00:07:59,070 --> 00:08:02,530
+information to specify about the system. In
+
+115
+00:08:02,530 --> 00:08:04,660
+addition to the gasping and thermodynamic
+
+116
+00:08:04,660 --> 00:08:07,540
+equilibrium, what we will be assuming from now on.
+
+117
+00:08:09,780 --> 00:08:13,750
+And he fixed temperature. We will be assuming that
+
+118
+00:08:13,750 --> 00:08:19,900
+the gas is in some volume, a box that again for
+
+119
+00:08:19,900 --> 00:08:22,420
+simplicity, will it take to be a cube and the
+
+120
+00:08:22,430 --> 00:08:25,780
+three dimensional space, the total volume that is
+
+121
+00:08:26,470 --> 00:08:30,760
+L cubed, where L is the length of that box on each
+
+122
+00:08:30,760 --> 00:08:35,680
+side. So given the specification of the system and
+
+123
+00:08:35,680 --> 00:08:38,830
+in particular of the energy of that system, the
+
+124
+00:08:39,010 --> 00:08:42,160
+starting point for an analysis of the kinetic
+
+125
+00:08:42,170 --> 00:08:47,260
+ensemble is to determine the canonical protection
+
+126
+00:08:47,260 --> 00:08:50,950
+function, some overall microstates of the
+
+127
+00:08:50,950 --> 00:08:52,930
+exponential function, the Boltzmann factor. That
+
+128
+00:08:52,930 --> 00:08:55,840
+depends on the total energy of that microstates,
+
+129
+00:08:55,870 --> 00:08:59,320
+something overall and particles normalized by the
+
+130
+00:08:59,350 --> 00:09:04,120
+temperature. And this. Computing the summer
+
+131
+00:09:04,730 --> 00:09:09,870
+requires. Figuring out what the microstates are to
+
+132
+00:09:09,990 --> 00:09:17,260
+some over and if we. Did the intuitive thing and
+
+133
+00:09:17,260 --> 00:09:21,600
+just said that. These momentum three vectors for
+
+134
+00:09:21,720 --> 00:09:24,600
+each particle, we assume can be.
+
+135
+00:09:26,730 --> 00:09:29,610
+Determined with arbitrary precision so they can be.
+
+136
+00:09:31,360 --> 00:09:34,840
+Viewed as a triple loop continuously, very real
+
+137
+00:09:34,840 --> 00:09:39,310
+numbers, that is problematic in this context,
+
+138
+00:09:40,300 --> 00:09:42,880
+because real numbers, as we know, are an
+
+139
+00:09:42,910 --> 00:09:47,320
+uncomfortably infinite set. And if we have a set
+
+140
+00:09:47,320 --> 00:09:50,020
+of microstates, then essentially, by definition,
+
+141
+00:09:50,260 --> 00:09:55,960
+it is impossible to count. Those microstates
+
+142
+00:09:56,140 --> 00:10:00,490
+through this discreet, some over them estimation
+
+143
+00:10:00,490 --> 00:10:04,780
+would be ill-Defined if we were to assume that all
+
+144
+00:10:04,780 --> 00:10:11,200
+the men were continuously variable. So to avoid
+
+145
+00:10:11,950 --> 00:10:16,770
+that issue and recover a well-defined. Economic
+
+146
+00:10:16,830 --> 00:10:19,360
+competition function for statistical analysis, we
+
+147
+00:10:19,360 --> 00:10:22,240
+need to it's called regulate the system or
+
+148
+00:10:22,690 --> 00:10:24,880
+sometimes called regularizing the system for those
+
+149
+00:10:24,880 --> 00:10:31,810
+who prefer extra syllables. What we can say is
+
+150
+00:10:31,810 --> 00:10:34,990
+that rather than having those moments of being
+
+151
+00:10:35,500 --> 00:10:37,900
+continuously variable, we can posit that the
+
+152
+00:10:37,900 --> 00:10:43,420
+momentum can only adopt some set of discrete,
+
+153
+00:10:44,110 --> 00:10:49,120
+quantized values that we further assume depend on
+
+154
+00:10:49,540 --> 00:10:53,980
+the volume of the box that they are contained in.
+
+155
+00:10:57,070 --> 00:10:57,580
+Now.
+
+156
+00:11:01,700 --> 00:11:03,870
+Is to be specific, before going on to commentary.
+
+157
+00:11:04,300 --> 00:11:06,950
+What this does is takes that momentum three vector
+
+158
+00:11:06,980 --> 00:11:16,190
+and recasts it as. A. Triplet of integers, X, Y, Z,
+
+159
+00:11:16,310 --> 00:11:20,090
+with some dimension for every factor that carries
+
+160
+00:11:20,330 --> 00:11:23,300
+the dimensions of the matter, that attaches them
+
+161
+00:11:23,300 --> 00:11:25,400
+to these integers.
+
+162
+00:11:28,120 --> 00:11:34,620
+The. A key feature of this factor is this constant,
+
+163
+00:11:35,760 --> 00:11:39,600
+which is an age with a slash through it known as H
+
+164
+00:11:39,630 --> 00:11:45,420
+Bar or the reduced Planck constant. Which converts
+
+165
+00:11:45,420 --> 00:11:48,930
+those units from that inverse length normalize by
+
+166
+00:11:48,930 --> 00:11:53,680
+PI to units of momentum. And.
+
+167
+00:11:55,950 --> 00:11:58,790
+If you have seen quantum mechanics before him,
+
+168
+00:11:59,280 --> 00:12:02,100
+they will recognize this as cauterizes quantum
+
+169
+00:12:02,100 --> 00:12:05,160
+mechanically. It is the particle in the box
+
+170
+00:12:05,520 --> 00:12:08,550
+problem that is the starting point for a lot of
+
+171
+00:12:08,550 --> 00:12:13,850
+quantum mechanics modules. But for the purposes of
+
+172
+00:12:13,850 --> 00:12:16,160
+this module, we don't have to assume quantum
+
+173
+00:12:16,160 --> 00:12:18,050
+mechanics or any knowledge about it, we can take
+
+174
+00:12:18,050 --> 00:12:22,080
+this as an island, which. In fact, it's similar to
+
+175
+00:12:22,080 --> 00:12:24,690
+the spirit in which Max Planck introduced his
+
+176
+00:12:24,690 --> 00:12:30,210
+constant and a similar sort of hypothesis more
+
+177
+00:12:30,210 --> 00:12:32,430
+than a decade before quantum mechanics was was
+
+178
+00:12:32,430 --> 00:12:35,960
+really formalized. He saw that. Regularization of
+
+179
+00:12:35,960 --> 00:12:37,970
+the sort had to be required to avoid.
+
+180
+00:12:40,630 --> 00:12:44,170
+Nonsensical predictions from considering certain
+
+181
+00:12:44,170 --> 00:12:49,030
+physical systems and just to make sure that the
+
+182
+00:12:49,030 --> 00:12:52,870
+meaning of this equation forty seven is clear can
+
+183
+00:12:53,770 --> 00:13:01,290
+write down the energies that result so. For a
+
+184
+00:13:01,320 --> 00:13:07,340
+given. Integer vector k corresponding energy is OK
+
+185
+00:13:08,410 --> 00:13:13,000
+is just that momentum over to M, which brings in a
+
+186
+00:13:13,000 --> 00:13:17,410
+factor that each of our squared pi squared over to
+
+187
+00:13:17,410 --> 00:13:20,480
+and elsewhere and that factor then we enter
+
+188
+00:13:20,500 --> 00:13:27,430
+product of. X to Y. And casette
+
+189
+00:13:29,440 --> 00:13:34,450
+and. If I just write that Cowslip Prefecture, each
+
+190
+00:13:34,450 --> 00:13:38,440
+Achbar Square pipe over to that now as some script
+
+191
+00:13:38,440 --> 00:13:38,860
+E!
+
+192
+00:13:42,170 --> 00:13:45,490
+You can. Check that this makes sense by.
+
+193
+00:13:47,300 --> 00:13:51,530
+Considering what possible set of energies are
+
+194
+00:13:51,530 --> 00:13:55,310
+possible with this onsets, so all energy is have
+
+195
+00:13:55,310 --> 00:14:00,020
+this overall pretty factor of the these cases are
+
+196
+00:14:00,860 --> 00:14:04,580
+not negative integers, and if all three of them
+
+197
+00:14:04,850 --> 00:14:09,020
+are zero, but the energy is zero, and if one, two
+
+198
+00:14:09,500 --> 00:14:14,510
+or three of those cases are one, then the energies
+
+199
+00:14:14,510 --> 00:14:19,790
+of SCRIMPY times one, two or three. So what comes
+
+200
+00:14:20,570 --> 00:14:21,970
+next in the list of energies?
+
+201
+00:14:44,220 --> 00:14:47,070
+Shout it out when you. I have an idea.
+
+202
+00:15:46,930 --> 00:15:50,770
+I can't quite hear what's coming next was.
+
+203
+00:15:58,490 --> 00:16:03,110
+Indeed, you can have four when any one of those
+
+204
+00:16:03,950 --> 00:16:06,590
+key squared or any one of the cases, two squares
+
+205
+00:16:06,590 --> 00:16:09,350
+before and the other two are zero sum, so there's
+
+206
+00:16:09,410 --> 00:16:14,240
+a five and a six when we have two. And one of the
+
+207
+00:16:14,240 --> 00:16:17,090
+others will go to the others. The one what comes
+
+208
+00:16:17,090 --> 00:16:17,810
+after six.
+
+209
+00:16:20,180 --> 00:16:24,650
+Exactly. There's no way to get seven, we have to
+
+210
+00:16:24,650 --> 00:16:30,110
+have two of those caves being to get four plus
+
+211
+00:16:30,110 --> 00:16:32,900
+four with zero or plus one.
+
+212
+00:16:34,930 --> 00:16:37,180
+And once, of course, we get to nine, then one of
+
+213
+00:16:37,180 --> 00:16:42,610
+those kids can be free, the others can be zero or
+
+214
+00:16:42,610 --> 00:16:49,630
+one or one plus one. We can have a four plus four
+
+215
+00:16:49,630 --> 00:16:58,210
+plus four kids, 12 and a nine plus four kids, 13,
+
+216
+00:16:58,360 --> 00:17:02,850
+nine four one four 14. And.
+
+217
+00:17:06,240 --> 00:17:13,570
+Nine. It's the. After that, from nine for one, we
+
+218
+00:17:13,840 --> 00:17:18,010
+have to jump up to nine for four or 17.
+
+219
+00:17:21,250 --> 00:17:28,650
+Right. And so on. So there are gaps coming from
+
+220
+00:17:29,370 --> 00:17:33,220
+this. Disorganization where?
+
+221
+00:17:36,270 --> 00:17:41,180
+These three individuals cannot add up to. Certain
+
+222
+00:17:41,690 --> 00:17:46,040
+integers. That's exactly what it was. It's just
+
+223
+00:17:46,040 --> 00:17:55,640
+the devil in those etcs. So. These numbers don't
+
+224
+00:17:55,640 --> 00:17:57,860
+include seven.
+
+225
+00:17:59,910 --> 00:18:00,450
+And then.
+
+226
+00:18:03,420 --> 00:18:05,670
+15, 16.
+
+227
+00:18:12,460 --> 00:18:15,880
+So this is giving back, giving us back a bit
+
+228
+00:18:16,780 --> 00:18:21,130
+closer to those systems that we had in the
+
+229
+00:18:21,130 --> 00:18:23,950
+previous application where the energies were
+
+230
+00:18:24,100 --> 00:18:26,560
+falling into discrete energy levels.
+
+231
+00:18:29,390 --> 00:18:33,410
+Though we have just seen that the energy gaps
+
+232
+00:18:33,740 --> 00:18:38,470
+between the levels and the system are not constant,
+
+233
+00:18:38,480 --> 00:18:42,590
+and especially as those integer cases go to larger
+
+234
+00:18:42,590 --> 00:18:48,390
+numbers. The big gaps between accessible energy
+
+235
+00:18:48,390 --> 00:18:50,900
+levels will start to to grow.
+
+236
+00:18:52,910 --> 00:18:56,330
+We'll skip some of these into spaces in this.
+
+237
+00:18:58,850 --> 00:19:04,920
+Basic unit. Each R-squared. Types would never
+
+238
+00:19:04,940 --> 00:19:06,620
+cheat and elsewhere.
+
+239
+00:19:11,200 --> 00:19:14,470
+Another difference with that system is that these
+
+240
+00:19:14,470 --> 00:19:18,940
+entities can grow without bound, even for a finite
+
+241
+00:19:18,940 --> 00:19:22,180
+number of particles, and so there's still an
+
+242
+00:19:22,180 --> 00:19:24,820
+infinite number of possible moments and possible
+
+243
+00:19:24,820 --> 00:19:28,720
+energy levels. And even for a single particle in
+
+244
+00:19:28,720 --> 00:19:31,090
+this box, that would be an infinite number of
+
+245
+00:19:31,090 --> 00:19:34,210
+energy levels. But these are now countable,
+
+246
+00:19:34,210 --> 00:19:38,200
+related to subsets of the positive, not negative
+
+247
+00:19:38,200 --> 00:19:42,930
+integers. Which means that our some accounts,
+
+248
+00:19:42,930 --> 00:19:46,860
+these microstates is a meaningful medical function,
+
+249
+00:19:46,860 --> 00:19:50,250
+giving us a well-defined canonical protection
+
+250
+00:19:50,280 --> 00:19:55,620
+function, and even though it was a bit counter to
+
+251
+00:19:55,620 --> 00:19:59,040
+the spirit of the statistical physics of large
+
+252
+00:19:59,040 --> 00:20:01,050
+collections of particles, we can start by
+
+253
+00:20:01,530 --> 00:20:03,990
+considering what the protection function would be
+
+254
+00:20:03,990 --> 00:20:09,660
+for just a single particle in this gas, in this
+
+255
+00:20:09,660 --> 00:20:14,780
+stupid box. Where the microstates are, then we sum
+
+256
+00:20:15,470 --> 00:20:19,670
+over these possible non-negative values of the
+
+257
+00:20:19,670 --> 00:20:24,290
+integers, k is causality running from zero up to
+
+258
+00:20:24,290 --> 00:20:28,600
+infinity, plugging in. The energy written down
+
+259
+00:20:28,610 --> 00:20:34,340
+above and dividing it by the temperature to get a
+
+260
+00:20:34,610 --> 00:20:36,860
+dimensionless quantity that could go in the
+
+261
+00:20:36,860 --> 00:20:41,480
+exponential, so distributing the exponential of a
+
+262
+00:20:41,480 --> 00:20:45,680
+sum into a product of exponential. We can
+
+263
+00:20:46,490 --> 00:20:48,590
+rearrange these infinite songs. We always want to
+
+264
+00:20:48,590 --> 00:20:53,030
+be careful when doing so, because sometimes bad
+
+265
+00:20:53,030 --> 00:20:57,320
+things can happen in this case, the independence
+
+266
+00:20:57,320 --> 00:21:00,650
+of the moment in each of these three spatial
+
+267
+00:21:00,650 --> 00:21:05,790
+dimensions. Allows us to distribute the sums over
+
+268
+00:21:06,400 --> 00:21:12,810
+Kidwai kids at. Without. Running into any problems
+
+269
+00:21:13,290 --> 00:21:16,080
+and we can recognize that each of these three sons
+
+270
+00:21:16,080 --> 00:21:19,110
+that are being multiplied together are completely
+
+271
+00:21:19,110 --> 00:21:24,150
+identical. So we have a single sum over some. OK,
+
+272
+00:21:24,900 --> 00:21:28,620
+from zero to infinity, and that overall sum ends
+
+273
+00:21:28,620 --> 00:21:31,140
+up being cubed for this single particle.
+
+274
+00:21:37,290 --> 00:21:41,940
+Next, that's what we do with this song, is
+
+275
+00:21:41,940 --> 00:21:45,480
+actually simplify it by the sense now that our
+
+276
+00:21:45,480 --> 00:21:49,170
+system has been regulated or regularized, we can
+
+277
+00:21:49,650 --> 00:21:54,290
+go back to working with continuously varying real
+
+278
+00:21:54,420 --> 00:22:00,220
+degrees of freedom that are. You need to work with
+
+279
+00:22:00,220 --> 00:22:04,120
+now that elements of invented calculus and we
+
+280
+00:22:04,120 --> 00:22:08,660
+could motivate this by. Considering this factor,
+
+281
+00:22:09,050 --> 00:22:12,830
+each party squared PI squared over to him
+
+282
+00:22:13,150 --> 00:22:16,550
+elsewhere, times the temperature that appears in
+
+283
+00:22:16,550 --> 00:22:21,110
+these energies. So if we.
+
+284
+00:22:28,160 --> 00:22:32,510
+Bringing in some knowledge about the domains where
+
+285
+00:22:32,870 --> 00:22:36,020
+relativistic physics and quantum physics come into
+
+286
+00:22:36,020 --> 00:22:43,710
+play. We can. Recognize or take his input that
+
+287
+00:22:43,710 --> 00:22:49,500
+place, Constance, this bar is far smaller than all
+
+288
+00:22:49,500 --> 00:22:51,730
+the other numbers that appear in this expression
+
+289
+00:22:51,730 --> 00:22:55,050
+in particular, I mentioned earlier that if that if
+
+290
+00:22:55,050 --> 00:22:58,360
+the mass of the particles gets too small. Then
+
+291
+00:22:58,380 --> 00:23:02,520
+relativistic effects become important. So this is
+
+292
+00:23:02,970 --> 00:23:05,220
+our assumption of non relativistic particles means
+
+293
+00:23:05,220 --> 00:23:05,460
+that.
+
+294
+00:23:07,950 --> 00:23:12,560
+This is a fairly large number, if the temperature
+
+295
+00:23:12,590 --> 00:23:15,260
+is too low, we will eventually have to worry about
+
+296
+00:23:15,680 --> 00:23:19,050
+quantum effects or assumption that. There's
+
+297
+00:23:19,150 --> 00:23:21,840
+passage classical ensures that the temperature is
+
+298
+00:23:21,840 --> 00:23:25,710
+relatively large compared to calcium. And finally,
+
+299
+00:23:26,580 --> 00:23:31,380
+if the volume of this box. Is too small. And we.
+
+300
+00:23:32,650 --> 00:23:37,600
+Also run into quantum effects or just not have
+
+301
+00:23:37,960 --> 00:23:40,330
+enough particles to justify its statistical
+
+302
+00:23:40,330 --> 00:23:46,310
+analysis in the first place and. Recognizing that
+
+303
+00:23:46,640 --> 00:23:48,320
+this function are sending over.
+
+304
+00:23:50,590 --> 00:23:54,670
+Is then going to be extremely small numbers for.
+
+305
+00:23:56,250 --> 00:24:00,360
+Any of these non-negative integers, hey, at least
+
+306
+00:24:00,360 --> 00:24:04,050
+when those are small enough to leave this
+
+307
+00:24:04,050 --> 00:24:07,440
+exponential factor non-negotiable. We can't
+
+308
+00:24:07,450 --> 00:24:11,430
+replace these discrete integers with a smoothly
+
+309
+00:24:11,430 --> 00:24:16,770
+varying. Continuous real number and go from the
+
+310
+00:24:16,870 --> 00:24:20,300
+discrete, some coming from some of the microstates
+
+311
+00:24:20,810 --> 00:24:25,940
+to end integration over that smoothly varying.
+
+312
+00:24:28,270 --> 00:24:31,810
+Real parameter will look cat to distinguish it
+
+313
+00:24:31,810 --> 00:24:36,280
+from the integer K, so each of the three songs
+
+314
+00:24:36,280 --> 00:24:38,710
+appearing in that single particle partition
+
+315
+00:24:38,710 --> 00:24:44,110
+function become an integral minging to this K
+
+316
+00:24:44,110 --> 00:24:47,170
+ranging from zero to infinity of that same
+
+317
+00:24:47,170 --> 00:24:50,950
+exponential factor. And in this case, that squared
+
+318
+00:24:51,100 --> 00:24:55,120
+which. You can change the. No amount of
+
+319
+00:24:55,120 --> 00:24:57,100
+integration to make things look a little more
+
+320
+00:24:57,100 --> 00:24:59,290
+gorshin just by bringing in the factor of two.
+
+321
+00:24:59,860 --> 00:25:03,010
+Thanks to all the functional attendance in here,
+
+322
+00:25:03,400 --> 00:25:08,100
+just being on the powers of have squared. Coming
+
+323
+00:25:08,100 --> 00:25:09,060
+from that exponential.
+
+324
+00:25:11,260 --> 00:25:14,500
+And given that we're working with real variables
+
+325
+00:25:14,500 --> 00:25:17,230
+again, now that we've regularized the system and
+
+326
+00:25:17,230 --> 00:25:22,270
+have things we'll be able to find, we can convert
+
+327
+00:25:22,270 --> 00:25:27,780
+back from this. Dimensionless real parameter came
+
+328
+00:25:27,870 --> 00:25:31,740
+add to the momentum that are related to it by the
+
+329
+00:25:32,160 --> 00:25:39,540
+same factor four times over. So in the end. Each
+
+330
+00:25:39,540 --> 00:25:44,790
+of these sums into your case, it's converted into.
+
+331
+00:25:45,800 --> 00:25:51,190
+And integral to the full range of momentum. And we
+
+332
+00:25:51,190 --> 00:25:56,050
+end up putting this or taking the cube of this
+
+333
+00:25:57,220 --> 00:26:00,670
+integral to account for the momentum in all three
+
+334
+00:26:01,090 --> 00:26:05,590
+directions. There are three factors of. Now over
+
+335
+00:26:05,730 --> 00:26:09,930
+to a high bar looking up front that the integral
+
+336
+00:26:09,930 --> 00:26:15,560
+over the full three dimensional space of momentum,
+
+337
+00:26:15,900 --> 00:26:18,600
+so the three integral over the volume of this
+
+338
+00:26:18,600 --> 00:26:24,280
+exponential function, converting back to the. In
+
+339
+00:26:24,360 --> 00:26:29,630
+her product of these three vector momentum. And a
+
+340
+00:26:29,630 --> 00:26:34,070
+similar process of multiplying together many
+
+341
+00:26:34,070 --> 00:26:36,740
+different integrals takes us from the single
+
+342
+00:26:36,740 --> 00:26:41,110
+particle competition function to the. Protection
+
+343
+00:26:41,230 --> 00:26:46,890
+function for people and particle's. As just like
+
+344
+00:26:46,890 --> 00:26:49,980
+those different components of the momentum, all of
+
+345
+00:26:49,980 --> 00:26:53,160
+these particles are independent and not
+
+346
+00:26:53,160 --> 00:26:56,460
+interacting with each other thanks to considering
+
+347
+00:26:56,460 --> 00:27:00,690
+ideal gases. And if we assume that we can
+
+348
+00:27:00,690 --> 00:27:04,020
+distinguish the particles from each other, every
+
+349
+00:27:04,020 --> 00:27:07,850
+single one of them is going to bring in. The
+
+350
+00:27:07,980 --> 00:27:13,110
+factor of. Eligible by age two times is three
+
+351
+00:27:13,110 --> 00:27:16,880
+integral. So we have in total and a little bit
+
+352
+00:27:17,440 --> 00:27:21,570
+more to the power of three nd and then an integral
+
+353
+00:27:21,570 --> 00:27:27,100
+over three end components of momentum. The
+
+354
+00:27:27,170 --> 00:27:30,910
+exponential growth from a sum over all of those
+
+355
+00:27:31,480 --> 00:27:35,650
+particles labeled by the lower case and here.
+
+356
+00:27:44,180 --> 00:27:48,500
+And I think I copied and pasted going in there
+
+357
+00:27:48,500 --> 00:27:48,860
+that.
+
+358
+00:27:51,710 --> 00:27:57,000
+Is that some shidduch? Being there, if we have.
+
+359
+00:27:58,990 --> 00:28:02,350
+Where it should go up to the overall end
+
+360
+00:28:03,100 --> 00:28:07,570
+accounting for all of the particles in that gas, I
+
+361
+00:28:07,570 --> 00:28:11,950
+will fix that notation in the version of lecture
+
+362
+00:28:11,950 --> 00:28:15,310
+notes online later on today.
+
+363
+00:28:19,930 --> 00:28:24,010
+That was just meant to count all of the end
+
+364
+00:28:24,010 --> 00:28:26,220
+moments coming from the particles that we can pass
+
+365
+00:28:26,500 --> 00:28:29,530
+to the upper limits on that situation should not
+
+366
+00:28:29,530 --> 00:28:34,480
+have gone to infinity. What we can do is. Actually
+
+367
+00:28:34,660 --> 00:28:38,970
+carry out. Any single one of these integrations
+
+368
+00:28:38,970 --> 00:28:41,190
+before multiplying them all together, that's just
+
+369
+00:28:41,940 --> 00:28:46,590
+an ordinary kid grow over. In particular, inner
+
+370
+00:28:46,740 --> 00:28:49,140
+product of the momentum for the corresponding
+
+371
+00:28:49,980 --> 00:28:54,530
+particle and the corresponding component. And this
+
+372
+00:28:56,360 --> 00:28:59,250
+is, as I mentioned, when we reintroduced it, just
+
+373
+00:28:59,250 --> 00:29:05,660
+to get an integral that brings in a factor of Rupi
+
+374
+00:29:06,260 --> 00:29:09,650
+times, the coefficient multiplying P squared,
+
+375
+00:29:10,010 --> 00:29:15,820
+which is one over. The inverse of twenty over a
+
+376
+00:29:15,840 --> 00:29:21,100
+factor of two, three times that three factor L
+
+377
+00:29:21,320 --> 00:29:24,560
+over to my age and bringing things all together.
+
+378
+00:29:25,760 --> 00:29:31,260
+We can simplify the notation by. Replacing.
+
+379
+00:29:33,740 --> 00:29:38,720
+This complicated square root of a ratio of the
+
+380
+00:29:38,720 --> 00:29:40,910
+mass of the particle times, the temperature
+
+381
+00:29:41,450 --> 00:29:45,830
+divided by two PI squared, calling that one over
+
+382
+00:29:45,830 --> 00:29:50,270
+some lambda t h. That depends on the temperature.
+
+383
+00:29:51,530 --> 00:29:52,250
+So this is.
+
+384
+00:29:55,180 --> 00:29:59,080
+A step taken for notational convenience where?
+
+385
+00:30:00,290 --> 00:30:06,610
+We've introduced what is called this to. Is. The
+
+386
+00:30:07,240 --> 00:30:09,160
+thermal deploy wavelength.
+
+387
+00:30:11,380 --> 00:30:14,860
+As best I can pronounce that French name rudeboy
+
+388
+00:30:16,030 --> 00:30:23,200
+where. This wavelength that. I guess we don't have
+
+389
+00:30:23,200 --> 00:30:25,660
+to worry too much about the interpretation of this
+
+390
+00:30:25,660 --> 00:30:26,290
+factor, as
+
+391
+00:30:28,420 --> 00:30:29,470
+it turns out, if you.
+
+392
+00:30:32,170 --> 00:30:36,610
+Go through the exercise of inserting units for
+
+393
+00:30:37,450 --> 00:30:41,290
+recounting for what all the units are on each bar,
+
+394
+00:30:41,860 --> 00:30:43,930
+the mass of the temperature. This comes as the
+
+395
+00:30:43,930 --> 00:30:49,320
+square root comes out to have units of length. And
+
+396
+00:30:49,320 --> 00:30:52,980
+is reflecting essentially the.
+
+397
+00:30:56,290 --> 00:30:59,770
+Wavelike behavior of these particles in the box
+
+398
+00:30:59,800 --> 00:31:02,170
+coming from quantum mechanics, essentially
+
+399
+00:31:02,170 --> 00:31:05,980
+measuring how much space each particle is is
+
+400
+00:31:05,980 --> 00:31:09,940
+taking up, given the temperature and given to the
+
+401
+00:31:09,940 --> 00:31:15,340
+mass of that particle. All we can have to worry
+
+402
+00:31:15,340 --> 00:31:17,740
+about the quantum mechanics here, we can just
+
+403
+00:31:18,190 --> 00:31:21,670
+treat this as an additional inconvenience, ending
+
+404
+00:31:21,670 --> 00:31:27,020
+up with this overall. Protection function for an
+
+405
+00:31:27,170 --> 00:31:29,570
+essential particles that.
+
+406
+00:31:32,000 --> 00:31:35,720
+Comes in as just the ratio of the total length of
+
+407
+00:31:35,750 --> 00:31:40,660
+the box containing those particles divided by. The.
+
+408
+00:31:41,850 --> 00:31:45,450
+Thermal wavelengths, another quantity with units
+
+409
+00:31:45,450 --> 00:31:47,820
+of length to make this event dimensionless no
+
+410
+00:31:48,390 --> 00:31:51,570
+reason, the power of three and four of three
+
+411
+00:31:51,570 --> 00:31:54,960
+special directions X, Y, Z and all and particles
+
+412
+00:31:55,140 --> 00:32:00,630
+in the system if we redistribute that. In Cuba, we
+
+413
+00:32:00,630 --> 00:32:04,320
+can recall that the volume of our covid box is
+
+414
+00:32:04,650 --> 00:32:08,000
+allocute and can rewrite this as the ratio of that
+
+415
+00:32:08,040 --> 00:32:12,890
+volume to the different wavelength lambda cubed.
+
+416
+00:32:13,600 --> 00:32:16,980
+All of that raised to the power and for the
+
+417
+00:32:17,110 --> 00:32:19,200
+particles in the system.
+
+418
+00:32:22,320 --> 00:32:27,740
+So that is. The partition function, the ending of
+
+419
+00:32:27,740 --> 00:32:30,680
+the derivation of the starting point for any
+
+420
+00:32:31,480 --> 00:32:34,430
+statistical physics analysis of ideal gases and
+
+421
+00:32:34,430 --> 00:32:38,660
+the canonical ensemble. So apart from the typo I
+
+422
+00:32:38,660 --> 00:32:42,290
+had in, there were the individual steps of the
+
+423
+00:32:42,410 --> 00:32:45,920
+argumentation in what we were doing to derive this
+
+424
+00:32:47,510 --> 00:32:48,470
+unobjectionable.
+
+425
+00:33:01,680 --> 00:33:05,790
+And not hearing any objections, I will give you. A
+
+426
+00:33:05,910 --> 00:33:08,610
+few more observations before we go on to actually
+
+427
+00:33:08,610 --> 00:33:13,500
+drive things about this ideal gas is one thing to
+
+428
+00:33:13,500 --> 00:33:18,180
+note is that in addition to the temperature that
+
+429
+00:33:18,180 --> 00:33:21,810
+gets wrapped up into the DeBois wavelength, Lambda
+
+430
+00:33:21,810 --> 00:33:26,550
+T h and the number of particles in which we should
+
+431
+00:33:26,550 --> 00:33:31,350
+expect to characterize any statistical system
+
+432
+00:33:31,350 --> 00:33:34,080
+analyzing the chemical ensemble, there's also
+
+433
+00:33:34,080 --> 00:33:41,400
+dependence on the volume of the gas, which is
+
+434
+00:33:41,400 --> 00:33:43,800
+going to persist in some of the quantities that we
+
+435
+00:33:43,800 --> 00:33:48,600
+derive. A lot more to say about that later on this
+
+436
+00:33:48,600 --> 00:33:48,980
+week.
+
+437
+00:33:51,180 --> 00:33:55,580
+And one of the comment to put in here is, again,
+
+438
+00:33:55,590 --> 00:33:59,490
+without some reference to the work we were doing
+
+439
+00:33:59,490 --> 00:34:04,020
+yesterday, seeing how. Physical predictions
+
+440
+00:34:04,020 --> 00:34:08,340
+differed, if we could if we assumed that we could
+
+441
+00:34:08,340 --> 00:34:10,290
+distinguish between different particles in the
+
+442
+00:34:10,290 --> 00:34:12,660
+system or if all those particles were
+
+443
+00:34:12,660 --> 00:34:16,760
+indistinguishable. We should see what would happen
+
+444
+00:34:16,760 --> 00:34:20,180
+to the protection function if we were to have
+
+445
+00:34:20,810 --> 00:34:24,620
+indistinguishable particles convention, just as an
+
+446
+00:34:24,620 --> 00:34:25,340
+aside, that.
+
+447
+00:34:27,580 --> 00:34:30,160
+Quantum mechanics will also require
+
+448
+00:34:30,160 --> 00:34:33,220
+indistinguishable particles to the assumption that
+
+449
+00:34:33,220 --> 00:34:38,140
+we can say, look at the particles of the gas and
+
+450
+00:34:38,590 --> 00:34:43,740
+put labels on them. It may be. Too small to see
+
+451
+00:34:43,740 --> 00:34:47,280
+here. Why don't you zoom in on the assumption that
+
+452
+00:34:47,280 --> 00:34:51,230
+we can. Label the particles in the system, say, a.
+
+453
+00:34:52,420 --> 00:34:56,000
+And be it distinguish between different labelling
+
+454
+00:34:56,230 --> 00:35:00,460
+of sets of particles with identical memento. That
+
+455
+00:35:00,460 --> 00:35:04,690
+is something that is only possible in classical
+
+456
+00:35:04,690 --> 00:35:07,900
+systems. And there's another consequence that
+
+457
+00:35:07,900 --> 00:35:12,630
+arises from. Our assumption or simplification of
+
+458
+00:35:12,630 --> 00:35:17,460
+dealing just with classical, non quantum. Ideal
+
+459
+00:35:17,550 --> 00:35:19,130
+gas is for the time being.
+
+460
+00:35:21,890 --> 00:35:29,390
+And. Given that. Setting where classical physics
+
+461
+00:35:29,390 --> 00:35:30,350
+allows us to.
+
+462
+00:35:33,160 --> 00:35:35,910
+Impose labels or apply labels to different
+
+463
+00:35:35,910 --> 00:35:39,150
+particles doesn't require that it is possible to
+
+464
+00:35:39,990 --> 00:35:42,380
+apply these sorts of labels. There's no practical
+
+465
+00:35:42,390 --> 00:35:45,230
+way to do that for TV.
+
+466
+00:35:50,070 --> 00:35:53,040
+The nitrogen and the water molecules that are
+
+467
+00:35:53,490 --> 00:35:57,450
+opposing the atmosphere in this room, there's no
+
+468
+00:35:57,450 --> 00:36:01,530
+way to label a particular molecule, molecule A,
+
+469
+00:36:01,830 --> 00:36:05,550
+molecule molecule B and tell them apart. And the
+
+470
+00:36:05,550 --> 00:36:08,880
+absence of those labels, then the two states that
+
+471
+00:36:08,880 --> 00:36:12,990
+we have here with a given volume temperature for
+
+472
+00:36:12,990 --> 00:36:17,640
+the system are in fact the same microstates rather
+
+473
+00:36:17,640 --> 00:36:20,070
+than two distinct ones in the case with those
+
+474
+00:36:20,070 --> 00:36:22,290
+particles are indistinguishable.
+
+475
+00:36:24,380 --> 00:36:27,710
+So zooming back out, we can think about what
+
+476
+00:36:28,070 --> 00:36:31,700
+consequences this has for those storms over
+
+477
+00:36:31,700 --> 00:36:36,800
+microstates that give us our competition function.
+
+478
+00:36:42,030 --> 00:36:45,810
+Where we've seen that if we have two particles
+
+479
+00:36:45,810 --> 00:36:49,050
+here, there is a factor of two difference in the
+
+480
+00:36:49,050 --> 00:36:53,980
+number of ways of assigning momenta to the
+
+481
+00:36:54,000 --> 00:36:57,030
+particles that are being labeled when they can be
+
+482
+00:36:57,030 --> 00:36:57,510
+labeled.
+
+483
+00:36:59,910 --> 00:37:05,790
+And if we generalize this to. Three particles and.
+
+484
+00:37:08,380 --> 00:37:12,370
+Look at the various ways those three particles
+
+485
+00:37:12,370 --> 00:37:15,800
+with pretty momenta could be labeled and the
+
+486
+00:37:15,820 --> 00:37:19,630
+distinguishable case. Where we assume labeling is
+
+487
+00:37:19,630 --> 00:37:25,680
+possible, you pretty easily see that. There are a
+
+488
+00:37:25,680 --> 00:37:29,630
+few more possibilities if we label. Particle A
+
+489
+00:37:29,630 --> 00:37:33,880
+corresponding to come into one that more to get
+
+490
+00:37:33,890 --> 00:37:34,880
+the back of the screen.
+
+491
+00:37:37,060 --> 00:37:40,660
+And we can label the particle with momentum to
+
+492
+00:37:41,110 --> 00:37:44,660
+call that B and the final label C because the
+
+493
+00:37:44,680 --> 00:37:49,290
+particle with momentum P three and similarly. Swap
+
+494
+00:37:49,290 --> 00:37:52,550
+those labels and see just the same way we swap
+
+495
+00:37:52,570 --> 00:37:58,740
+labels and be. In this illustration. Or go through
+
+496
+00:37:59,160 --> 00:38:04,250
+the possibility of first labeling. That's particle
+
+497
+00:38:04,250 --> 00:38:09,320
+with momentum, P one s, B, the other two as A and
+
+498
+00:38:09,330 --> 00:38:09,800
+C.
+
+499
+00:38:13,840 --> 00:38:16,990
+Or similarly with the third and final possibility,
+
+500
+00:38:17,000 --> 00:38:20,680
+so the overall number of possibilities of six, we
+
+501
+00:38:20,680 --> 00:38:22,900
+can see pretty easily just three factorial.
+
+502
+00:38:23,470 --> 00:38:27,070
+There's. In general, within particle's, there are
+
+503
+00:38:27,670 --> 00:38:29,890
+and ways of choosing the label for the first one
+
+504
+00:38:30,370 --> 00:38:32,440
+in minus one, ways of choosing a label for the
+
+505
+00:38:32,440 --> 00:38:35,680
+second one and so on, until that last article is
+
+506
+00:38:36,310 --> 00:38:38,020
+its label is uniquely determined.
+
+507
+00:38:40,660 --> 00:38:47,440
+And what this means is says is that if we assume
+
+508
+00:38:47,440 --> 00:38:51,610
+particles are distinguishable, then we will count
+
+509
+00:38:52,510 --> 00:38:57,130
+a factor of 10 factorial times more microstates
+
+510
+00:38:57,310 --> 00:39:00,670
+compared to the situation if those particles were
+
+511
+00:39:00,820 --> 00:39:03,820
+indistinguishable and all of these labeling was.
+
+512
+00:39:05,040 --> 00:39:09,570
+Just collapse down to a single microstates rather
+
+513
+00:39:09,570 --> 00:39:11,520
+than in factorial.
+
+514
+00:39:17,820 --> 00:39:23,830
+So. If we. Repeat the derivation of the partition
+
+515
+00:39:23,830 --> 00:39:24,370
+function.
+
+516
+00:39:26,790 --> 00:39:30,630
+We can recognize without reviewing any more
+
+517
+00:39:31,110 --> 00:39:33,150
+detailed calculations that
+
+518
+00:39:35,190 --> 00:39:39,620
+the overall factor of squared for every micro
+
+519
+00:39:39,630 --> 00:39:42,480
+statistic and a single case is just one to come
+
+520
+00:39:42,480 --> 00:39:46,680
+along for the ride of going to discrete integer
+
+521
+00:39:46,800 --> 00:39:49,920
+momentum and then coming back to approximate those
+
+522
+00:39:49,920 --> 00:39:54,330
+by continuous integrations. So we will end up with
+
+523
+00:39:54,450 --> 00:39:58,740
+that same expression, the volume over the cube of
+
+524
+00:39:58,740 --> 00:40:02,710
+the word wavelength, always the power in with that
+
+525
+00:40:02,730 --> 00:40:06,900
+fixed factor of whatever and factorial to correct
+
+526
+00:40:06,900 --> 00:40:11,850
+for the overcounting that we did in.
+
+527
+00:40:13,960 --> 00:40:14,710
+The earlier.
+
+528
+00:40:16,800 --> 00:40:19,050
+Work based on the assumption that particles were
+
+529
+00:40:19,170 --> 00:40:19,980
+distinguishable.
+
+530
+00:40:22,330 --> 00:40:22,840
+So.
+
+531
+00:40:28,580 --> 00:40:33,440
+What we can write down as a conclusion to this
+
+532
+00:40:33,440 --> 00:40:34,280
+calculation.
+
+533
+00:40:38,070 --> 00:40:41,700
+Before diving into getting some predictions out of
+
+534
+00:40:41,700 --> 00:40:44,370
+these parties and functions, is just the
+
+535
+00:40:44,580 --> 00:40:48,950
+recognition that the. Patricia, function for
+
+536
+00:40:48,990 --> 00:40:52,500
+indistinguishable particles is. The single
+
+537
+00:40:52,500 --> 00:40:56,190
+particle partition function refused to empower.
+
+538
+00:40:57,670 --> 00:41:02,830
+Which is this factory and factory, two times the
+
+539
+00:41:02,830 --> 00:41:05,760
+production function for indistinguishable articles
+
+540
+00:41:06,260 --> 00:41:11,290
+is that I compared to the whole related to single
+
+541
+00:41:11,770 --> 00:41:14,920
+particle production function and one to the power.
+
+542
+00:41:19,560 --> 00:41:24,470
+And now, based on the. Machinery that we've built
+
+543
+00:41:24,470 --> 00:41:28,760
+up over the past week or so, we can take these
+
+544
+00:41:28,760 --> 00:41:35,430
+precision functions and use them to. To make
+
+545
+00:41:35,430 --> 00:41:38,220
+predictions, compute properties of the large scale
+
+546
+00:41:38,220 --> 00:41:41,220
+behavior of these gases and targeting just as we
+
+547
+00:41:41,220 --> 00:41:45,060
+did, and for those spin systems yesterday, looking
+
+548
+00:41:45,060 --> 00:41:49,050
+first at the internal energy and the entropy of
+
+549
+00:41:49,050 --> 00:41:55,200
+that gas and the functions of the temperature and
+
+550
+00:41:55,350 --> 00:41:58,710
+of particle number, as well as the volume within
+
+551
+00:41:58,710 --> 00:42:01,830
+which the gases contained.
+
+552
+00:42:05,310 --> 00:42:10,230
+So. We went through the work previously of
+
+553
+00:42:10,230 --> 00:42:13,440
+relating these observables to the partition
+
+554
+00:42:13,450 --> 00:42:18,120
+function through that HUMBOLDT'S free energy, the
+
+555
+00:42:18,150 --> 00:42:20,940
+negative temperature times, the logarithm of the
+
+556
+00:42:20,940 --> 00:42:23,940
+production function. And if we look at this
+
+557
+00:42:23,940 --> 00:42:26,490
+equation, gifty one on the top of the page here,
+
+558
+00:42:27,060 --> 00:42:31,460
+you can see that this logarithm is going to. Break
+
+559
+00:42:31,580 --> 00:42:36,320
+up into two pieces of logarithm of the product
+
+560
+00:42:36,320 --> 00:42:39,760
+being distributed as the sum of her logarithms,
+
+561
+00:42:39,760 --> 00:42:42,910
+this power of three and over two comes down out
+
+562
+00:42:42,920 --> 00:42:46,070
+front to join the temperature. We have the log of
+
+563
+00:42:46,070 --> 00:42:49,430
+everything in the parentheses, EMC squared,
+
+564
+00:42:50,510 --> 00:42:55,670
+squared, and then whatever factor that Vectorial
+
+565
+00:42:56,240 --> 00:42:58,850
+brings a relative negative sign in to cancel out
+
+566
+00:42:59,150 --> 00:43:01,370
+the overall negative sign. And we just have the
+
+567
+00:43:01,370 --> 00:43:05,630
+temperature times, the logarithm of an vectorial
+
+568
+00:43:05,660 --> 00:43:06,200
+factor,
+
+569
+00:43:08,510 --> 00:43:11,840
+putting this in the expression for the average
+
+570
+00:43:11,840 --> 00:43:16,370
+interval energy as the temperature derivative of
+
+571
+00:43:16,370 --> 00:43:18,470
+the free energy divided by the temperature, which
+
+572
+00:43:18,470 --> 00:43:22,640
+is just that logarithm, the only place where the
+
+573
+00:43:22,640 --> 00:43:29,970
+temperature is appearing. In. The logarithm of
+
+574
+00:43:30,090 --> 00:43:35,300
+this partition function. It's going to be. Right
+
+575
+00:43:35,300 --> 00:43:39,470
+in that three halves in Lord T squared, we can
+
+576
+00:43:39,470 --> 00:43:42,470
+break up the remainder of this logarithm to
+
+577
+00:43:42,980 --> 00:43:46,310
+isolate all of the T independent pieces at
+
+578
+00:43:46,350 --> 00:43:48,610
+logarithm within Petronius, also to independents.
+
+579
+00:43:49,400 --> 00:43:53,390
+And the derivative of the logarithm is one over
+
+580
+00:43:54,170 --> 00:43:58,710
+temperature. So we end up with that whatever
+
+581
+00:43:58,710 --> 00:44:02,210
+temperature canceling off the second tower of
+
+582
+00:44:02,220 --> 00:44:06,440
+temperature coming up front. So in the end, three
+
+583
+00:44:06,460 --> 00:44:11,250
+has a. is the internal energy which we can
+
+584
+00:44:11,250 --> 00:44:14,640
+interpret as every single one of those and
+
+585
+00:44:14,670 --> 00:44:19,950
+particles in the gas introducing on average. A an
+
+586
+00:44:19,950 --> 00:44:24,660
+energy and internal energy of three 1/2 times the
+
+587
+00:44:24,660 --> 00:44:28,400
+temperature, which is. Fairly remarkable compared
+
+588
+00:44:28,400 --> 00:44:31,850
+to the complicated function based on the
+
+589
+00:44:31,850 --> 00:44:35,480
+microscopic momentum of each of those particles
+
+590
+00:44:35,480 --> 00:44:39,320
+that we started off with just a few minutes ago,
+
+591
+00:44:39,560 --> 00:44:40,670
+the start of today.
+
+592
+00:44:47,510 --> 00:44:50,840
+To get the entropy and turn have the relation
+
+593
+00:44:50,840 --> 00:44:55,130
+between. The Entropia and the difference between
+
+594
+00:44:55,150 --> 00:44:59,020
+internal energy and free energy normalized by the
+
+595
+00:44:59,020 --> 00:45:01,870
+temperature, so plugging in this three hands and
+
+596
+00:45:01,870 --> 00:45:05,290
+feet and dividing that by the temperature, we
+
+597
+00:45:05,290 --> 00:45:09,270
+start off with an overall factor of three and then
+
+598
+00:45:09,280 --> 00:45:11,880
+divide up the temperature out of this expression
+
+599
+00:45:11,890 --> 00:45:16,550
+up here. Leaves us with these two terms that
+
+600
+00:45:16,550 --> 00:45:17,630
+involve logarithms.
+
+601
+00:45:21,330 --> 00:45:25,890
+Putting the thermal the wavelength back into this
+
+602
+00:45:25,890 --> 00:45:30,480
+complicated ratio gets us back to that same ratio
+
+603
+00:45:30,480 --> 00:45:36,710
+of the. Volume over. The Broadway by Cube that we
+
+604
+00:45:36,710 --> 00:45:39,890
+had up in the equation 50 wanted to start off with.
+
+605
+00:45:41,730 --> 00:45:45,840
+Where the blame is coming in, thanks to taking
+
+606
+00:45:45,840 --> 00:45:49,410
+note that we have pre factor up into the.
+
+607
+00:45:52,580 --> 00:45:56,460
+Into the argument of the war. And with the log of
+
+608
+00:45:56,460 --> 00:46:00,420
+L squared to the prehaps, power is cubed is the
+
+609
+00:46:00,420 --> 00:46:04,290
+volume and similarly for the wavelength, and we've
+
+610
+00:46:04,290 --> 00:46:08,040
+now seen that scene, what to do, and we have
+
+611
+00:46:08,040 --> 00:46:12,900
+logarithms of the factorial of large numbers just
+
+612
+00:46:12,930 --> 00:46:16,930
+plugging in. Sterling's formula at the.
+
+613
+00:46:20,190 --> 00:46:24,930
+Leading a couple of terms employed in business and
+
+614
+00:46:24,930 --> 00:46:28,470
+neglecting any terms that are logarithmic and the
+
+615
+00:46:28,470 --> 00:46:34,440
+more smaller that pops up here and we can combine
+
+616
+00:46:35,340 --> 00:46:38,800
+these two logarithms that come with that three
+
+617
+00:46:38,880 --> 00:46:43,410
+factor and into a single one in terms of all of
+
+618
+00:46:43,800 --> 00:46:47,920
+that volume over end times. But thermal wave
+
+619
+00:46:47,970 --> 00:46:53,160
+length and then the factors of three thousand plus
+
+620
+00:46:53,160 --> 00:46:56,970
+and add up to five has an overall.
+
+621
+00:47:00,090 --> 00:47:00,630
+And.
+
+622
+00:47:02,750 --> 00:47:06,580
+The next step will be to repeat this process where
+
+623
+00:47:06,830 --> 00:47:10,670
+the case of the particles, it may well be useful
+
+624
+00:47:10,670 --> 00:47:16,280
+to return to that on Friday, looking at the time
+
+625
+00:47:16,280 --> 00:47:18,800
+at the moment. Can.
+
+626
+00:47:21,810 --> 00:47:25,080
+For the next few days, checking that all of these
+
+627
+00:47:25,080 --> 00:47:27,440
+steps are clear and can be reproduced in the scan,
+
+628
+00:47:29,220 --> 00:47:33,140
+the comments will wrap up with to finish off today,
+
+629
+00:47:33,150 --> 00:47:38,370
+is that. In this ratio of volume over 10 times
+
+630
+00:47:38,370 --> 00:47:40,550
+that from the different wavelength can actually
+
+631
+00:47:40,550 --> 00:47:44,780
+interpret the denominator there as the volume
+
+632
+00:47:44,780 --> 00:47:48,500
+being occupied by all of the particles in the gas.
+
+633
+00:47:49,100 --> 00:47:52,970
+And we will see later on when we relax our
+
+634
+00:47:53,420 --> 00:47:55,670
+requirement that the gas be classical and allow
+
+635
+00:47:55,670 --> 00:47:58,400
+for all the mechanical effects to play a role,
+
+636
+00:47:59,090 --> 00:48:03,590
+that those effects will start to become important
+
+637
+00:48:03,590 --> 00:48:07,040
+when this volume occupied by the gas starts to
+
+638
+00:48:07,040 --> 00:48:10,610
+become comparable to the overall volume of the
+
+639
+00:48:10,610 --> 00:48:14,210
+container. So I'll stop. There you go for the rest
+
+640
+00:48:14,210 --> 00:48:18,440
+of your day. Hopefully will dry out now. Any final
+
+641
+00:48:18,440 --> 00:48:21,370
+questions before I shut things down this morning?
+
+642
+00:48:27,460 --> 00:48:31,530
+Take care. See you again on Friday.
