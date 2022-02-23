@@ -1,61 +1,67 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 5}
-\renewcommand{\moddate}{Last modified 20 Feb.~2022}
+\renewcommand{\moddate}{Last modified 23 Feb.~2022}
 \setcounter{section}{5}
 \setcounter{subsection}{0}
 \phantomsection
 \addcontentsline{toc}{section}{Unit 5: Thermodynamic cycles}
 \section*{Unit 5: Thermodynamic cycles}
-\subsection{Work, pressure and force}
-Last week we defined the pressure in the canonical ensemble as the thermodynamic response of the internal energy to an isentropic change in the volume (\eq{eq:pressure}).
+\subsection{\label{sec:work}Work, pressure and force}
+In the previous section we defined the pressure of a canonical ideal gas as the thermodynamic response of the internal energy to an isentropic change in the volume (\eq{eq:pressure}).
 At the same time, we motivated this definition by thinking about `squeezing' the system---exerting a force on it---which suggests a connection between pressure and force.
 Here we make this connection explicit by considering how the energy of an object changes when a force acts on it.
 
-\begin{shaded}
-  Consider an object at position $\vec r = (x, y, z)$, and suppose it is displaced by a vector $d\vec r$ due to a force $\vec F(\vec r)$.
-  The \textbf{work} done by this force is defined to be the resulting change in the energy of the object.
-  Infinitesimally, $W = dE = \vec F\cdot d\vec r$, which generalizes to the line integral $W = \De E = \int \vec F(r)\cdot d\vec r$.
-\end{shaded}
+Let's begin by considering a single object at position $\vec r = (x, y, z)$, and suppose it is displaced by a vector $d\vec r$ due to a force $\vec F(\vec r)$.
+The \emph{work} done by this force is defined to be the resulting change in the energy of the object.
+Infinitesimally, $W = dE = \vec F\cdot d\vec r$, which generalizes to the line integral $W = \De E = \int \vec F(r)\cdot d\vec r$.
 
 A famous example is an object falling due to the force of the Earth's gravity.
 That force is $\vec F = (0, 0, -mg)$, where $m$ is the mass of the object, $g \approx 9.8~\mathrm{m}/\mathrm{s}^2$ (metres per second per second) is the strength of gravity near the surface of the Earth, and the negative sign indicates that the gravitational force is directed downward.
-The object starts from rest, with initial (kinetic) energy $E_0 = 0$, and falls downward (parallel to $\vec F$) from a height $h$.
+Suppose the object starts from rest, with initial kinetic energy $E_0 = 0$, and falls downward, parallel to $\vec F$, from a height $h$.
 Its final energy $E_f$ upon hitting the ground comes from the work done by the Earth's gravity:
 \begin{align*}
   W & = \int \vec F(r)\cdot d\vec r = -mg \int_h^0 dz = mgh > 0 \\
-  E_f & = E_0 + \De E = 0 + W = mgh = \frac{p_z^2}{2m} \qquad \lra \qquad p_z = m\sqrt{2gh},
+  E_f & = E_0 + \De E = 0 + W = mgh = \frac{p_z^2}{2m} \qquad \lra \qquad p_z = -m\sqrt{2gh},
 \end{align*}
-where $\vec p = (p_x, p_y, p_z)$ is the momentum we considered last week (\eq{eq:momentum}).
+where $\vec p = (p_x, p_y, p_z)$ is the momentum introduced in \eq{eq:momentum}.
 
-To connect the concept of work to the pressure of a statistical system described by the canonical ensemble, let's consider the setup shown below (copied from Schroeder's \textit{Introduction to Thermal Physics}).
-Here we have an gas in a container of volume $V$, with one wall of that container being a piston that we can displace by applying a force $F$.
-Let's demand that this process is adiabatic---it does not change the entropy of the gas.
-The displacement $\De x$ shown in the figure reduces the volume of the gas, by $\De V = -A\De x < 0$ where $A$ is the area of the piston.
-Since the force $F$ is parallel to the piston's displacement $\De x$, it does positive work $W = F\De x > 0$.
-Therefore the energy of the gas increases, at the same time as its volume decreases adiabatically, so from \eq{eq:pressure} we have
-\begin{equation}
-  P = -\left. \pderiv{}{V} \vev{E}\right|_S = -\frac{W}{\De V} = \frac{F\De x}{A\De x} = \frac{F}{A}
-\end{equation}
-This identifies the pressure of a gas in a container as the force per unit area that the gas exerts on the container wall, reassuringly consistent with our everyday experiences.
+\begin{shaded}
+  Generalizing to $N \gg 1$ objects in a statistical system governed by the canonical ensemble, we define the \textbf{work} done by a force to be the resulting change in the system's average internal energy \textit{due to that force}, $W = \De\!\vev{E}_{\text{force}}$.
+  In practice, the volume is the control parameter that such a force will change.
+\end{shaded}
 
+This change in $\vev{E}$ due to a change in volume suggests that the work is related to the pressure defined by \eq{eq:pressure}.
+We can formalize this relation by considering the setup shown below (from Schroeder's \textit{Introduction to Thermal Physics}). \\[-24 pt]
 \begin{center}
-  \includegraphics[width=0.7\textwidth]{figs/unit05_piston.pdf}
+  \includegraphics[width=0.575\textwidth]{figs/unit05_piston.pdf} % WARNING: ADJUSTED SIZE BY HAND TO FIT ON PAGE
 \end{center}
 
-Rearranging the expressions above, we can obtain an expression for the work \textit{put into} the gas by its surroundings (that is, by the external force applied to move the piston).
-Still assuming an adiabatic (constant-entropy) process, this input work must match the increase in the gas's average internal energy,
+Here we have an ideal gas in a container of volume $V$, with one wall of that container being a piston that we can move by applying a force $F$.
+Let's demand that this process is isentropic---it does not change the entropy of the gas.
+The displacement $\De x$ shown in the figure reduces the volume of the gas, by $\De V = -A\De x < 0$ where $A$ is the surface area of the piston.
+Since the force $F$ is parallel to the piston's displacement $\De x$, it does positive work $W = F\De x > 0$.
+Therefore the internal energy of the gas increases by $\De\!\vev{E} = W$, at the same time as its volume decreases isentropically, so from \eq{eq:pressure} we have
+\begin{equation}
+  P = -\left. \pderiv{}{V} \vev{E}\right|_S = -\frac{W}{\De V} = \frac{F\De x}{A\De x} = \frac{F}{A}.
+\end{equation}
+This identifies the pressure of an ideal gas in a container as the force per unit area that the gas exerts on the container wall, reassuringly consistent with our everyday experiences.
+
+Rearranging the expressions above, we can obtain an expression for the work \textit{put into} the gas by its surroundings --- that is, by the external force applied to move the piston and change the volume.
+Still assuming an isentropic process, this input work must match the increase in the gas's average internal energy,
 \begin{align*}
   W & = \De\!\vev{E} = -P \De V & & \mbox{for constant entropy.}
 \end{align*}
-If the entropy is allowed to change, this relation between pressure and work will still hold---as we will see in the next section, we will simply no longer be able to identify the work as the total change in the average internal energy:
+If the entropy is allowed to change, this relation between work and pressure will still hold.
+However, as we will see in the next section, the non-constant entropy will introduce an additional change in the average internal energy unrelated to a force, leading to $W \neq \De\!\vev{E}$ and leaving only the relation
 \begin{align}
   \label{eq:work_constP}
   W & = -P \De V & & \mbox{more generally.}
 \end{align}
 Later we will be interested in using the gas as a thermodynamic engine that \textit{does work on} its surroundings.
-This removes energy from the gas, corresponding to a negative $W < 0$, and we will need to be careful to keep track of the negative signs and their meaning.
+This removes energy from the gas, corresponding to a negative $W < 0$, and we will need to be careful to keep track of the negative signs and their physical meaning.
 
-Of course, as we change the volume of the gas, the pressure itself will change as described by the gas's equation of state---such as the ideal gas law, \eq{eq:ideal_gas_law}.
+Of course, as we change the volume of the gas, the pressure itself may change as described by the gas's equation of state---such as the ideal gas law, \eq{eq:ideal_gas_law}.
+Recall that we are fixing the particle number $N$ in order to work with the canonical ensemble.
 With the equation of state providing an expression $P(V)$ for the pressure as a function of the volume, \eq{eq:work_constP} generalizes to
 \begin{equation}
   \label{eq:work}
@@ -67,8 +73,7 @@ With the equation of state providing an expression $P(V)$ for the pressure as a 
 
 % ------------------------------------------------------------------
 \subsection{Heat and entropy}
-Now let's switch things up by changing the temperature $T$ of an ideal gas while keeping its volume constant.
-(As always for the canonical ensemble, the number of particles $N$ is also constant.)
+Now let's switch things up by changing the temperature $T$ of an ideal gas while keeping its volume $V$ and particle number $N$ constant.
 Since the volume is constant, \eq{eq:work} indicates that no work is done, $W = 0$.
 Even so, from \eq{eq:ideal_energy} we have $\vev{E} = \frac{3}{2} NT$ and can see that the average internal energy still changes,
 \begin{equation}
@@ -81,9 +86,9 @@ Indeed, for both cases of distinguishable and indistinguishable particles, the t
 \begin{equation*}
   S = N\log\left(\lath^{-3}\right) + T\mbox{-independent} = N\log\left(T^{3 / 2}\right) + T\mbox{-independent}.
 \end{equation*}
-What is the change in the entropy that results from changing the temperature by $dT$?
+What is the change in entropy that results from changing the temperature by $dT$?
 \begin{mdframed}
-  $\displaystyle dS = $ \\[60 pt]
+  $\displaystyle dS = $ \\[50 pt]
 \end{mdframed}
 Looking back to \eq{eq:dE_dT}, you should find $d\!\vev{E} = T dS$, which leads us to another important definition.
 
@@ -91,81 +96,93 @@ Looking back to \eq{eq:dE_dT}, you should find $d\!\vev{E} = T dS$, which leads 
   The \textbf{heat} added to or removed from a statistical system is defined to be
   \begin{equation}
     \label{eq:heat_def}
-    Q = T dS,
+    Q = T \, dS,
   \end{equation}
   and corresponds to the change in the average internal energy of the system when the volume and particle number are kept constant.
 \end{shaded}
 
-\TODO{For reversible thermodynamic cycles...}
-\begin{shaded}
-  We define an \textbf{adiabatic} process to be a change in the control parameters of a system that does not change the system's entropy.
-\end{shaded}
-\TODO{...}
-
-Just as for the work $W$ considered in previous section, the heat $Q$ is positive when energy is added to the system to increase $\vev{E}$, and negative when energy is removed.
-We are used to seeing the entropy as a derived function of the temperature, $S(T)$.
-We can generally invert this relation to integrate over the infinitesimal\footnote{Sometimes infinitesimal heat and work are written $dQ$ and $dW$, but this invites misinterpretation as a `change' in heat or work, while the heat and work themselves are already changes in the internal energy.} definition in \eq{eq:heat_def},
+As for the work $W$ considered in the previous section, we can generalize this infinitesimal definition to
 \begin{equation}
   \label{eq:heat}
-  Q = \int_{S_0}^{S_f} T(S) \; dS,
+  Q = \int_{S_0}^{S_f} T(S) \, dS,
 \end{equation}
 with $Q = \De\!\vev{E}$ when the volume is constant.
+Here we assume it will be possible to invert the usual canonical relation that expresses the entropy as a function of the temperature, $S(T)$.
+(Some textbooks refer to infinitesimal heat and work as ``$dQ$'' and ``$dW$'', but this is easy to misread as a `change' in heat or work, while the heat and work are themselves changes in the internal energy.)
 
-This relation between heat exchange and changes in the entropy provides useful insight into what it means, physically, for a process to be adiabatic.
-In order to keep the entropy constant, an adiabatic process has to occur with no heat moving into or out of the system.
-In other words, \textbf{adiabatic processes are fast} enough that the system does not have time to exchange heat with its surroundings 
+Also like the work, the heat $Q$ is positive when energy is added to the system to increase $\vev{E}$, and negative when energy is removed.
+Recalling that the canonical ensemble involves placing the system in thermal contact with a large external thermal reservoir, we can recognize that this energy is not being created or destroyed, but is instead flowing back and forth between the system and the reservoir.
+When considering heat, we will also demand that no \emph{entropy} is created or destroyed --- a positive $dS$ will indicate entropy flowing into the system from the reservoir, while a negative change reflects entropy moving from the system to the reservoir.
+Because the total entropy of the system plus its reservoir is constant, these processes are reversible, making it possible for the system to return to its starting macro-state.\footnote{In the case of irreversible processes, there must be sources of entropy creation.  Adding these to the heat, \eq{eq:heat_def} generalizes to the ``\href{https://en.wikipedia.org/wiki/Clausius_theorem}{Clausius inequality}'' $Q < T \, dS$.}
+
+We have already considered isentropic processes with $dS = 0$, for example in the definition of pressure in \eq{eq:pressure}.
+With our assumption of reversibility, the definition of heat provides a new perspective on such processes:
+
+\begin{shaded}
+  We define an \textbf{adiabatic} process to be a change in the control parameters of a system that occurs without transferring heat, $Q = 0$.
+  When this process is reversible, \eq{eq:heat_def} guarantees that it also does not change the system's entropy.
+\end{shaded}
+
+Since the canonical ensemble requires thermal contact between the system and its surroundings, the practical way to avoid heat exchange is to change the control parameters quickly.
+That is, \textbf{adiabatic processes are fast} enough that the system does not have time to exchange heat (and hence entropy) with its surroundings.
 The opposite extreme would be a process slow enough that any and all possible heat exchange can be completed while it is underway.
 Based on our work in \secref{sec:heat_ex}, we can see that such heat exchange will keep the system's temperature equal to the temperature of its surroundings.
 Taking that surrounding temperature to be constant, we reach the conclusion that \textbf{constant-temperature (or isothermal) processes are slow}.
-Most real processes exist in between these two extremes, usually closer to the adiabatic limit.
+Real processes generally exist in between these two extremes, usually closer to the adiabatic limit.
 % ------------------------------------------------------------------
 
 
 
 % ------------------------------------------------------------------
 \subsection{Thermodynamic cycles}
-Now we can generalize our work in the previous two sections to consider simultaneous changes in the temperature $T$ and the volume $V$ of the gas (still with fixed particle number $N$).
+Now we can generalize our considerations in the previous two sections to address simultaneous changes in the temperature $T$ and the volume $V$ of an ideal gas, still with fixed particle number $N$.
 We are used to working with the internal energy $\vev{E}\!(T, V)$ and entropy $S(T, V)$ as functions of the temperature and volume.
-Inverting these relations allows us to instead express the temperature $T(S, V)$ and therefore the internal energy as functions of the entropy and volume,
+Inverting the latter relation allows us to instead express the temperature $T(S, V)$ as a function of the entropy and volume, which carries through to the internal energy $\vev{E} = \frac{3}{2}NT$,
 \begin{equation*}
-  \vev{E}\!(T, V) \to \vev{E}\!(S, V).
+  \vev{E}\!(T, V) \ \to \ \vev{E}\!(S, V).
 \end{equation*}
 Expanding the internal energy to first order in a multi-variable Taylor expansion, we have
 \begin{equation*}
   \vev{E}\!(S, V) \approx \vev{E}\!(S_0, V_0) + (S - S_0) \left.\pderiv{\vev{E}}{S}\right|_V + (V - V_0) \left.\pderiv{\vev{E}}{V}\right|_S.
 \end{equation*}
-This approximation becomes exact in the limit of infinitesimal changes, $(S - S_0) \to dS$, $(V - V_0) \to dV$ and $\vev{E}\!(S, V) - \vev{E}\!(S_0, V_0) \to d\!\vev{E}$.
+This approximation becomes exact in the limit of infinitesimal changes
+\begin{align*}
+  \vev{E}\!(S, V) - \vev{E}\!(S_0, V_0) & \to d\!\vev{E} \qquad &
+  S - S_0 & \to dS \qquad &
+  V - V_0 & \to dV. &
+\end{align*}
+%, $(S - S_0) \to dS$, $(V - V_0) \to dV$ and $\vev{E}\!(S, V) - \vev{E}\!(S_0, V_0) \to d\!\vev{E}$.
 At the same time, we can recognize the temperature from \eq{eq:temperature} and the (negative) pressure from \eq{eq:pressure}, to obtain
 \begin{equation}
   \label{eq:first_law}
-  d\!\vev{E} = T dS - P dV = Q + W.
+  d\!\vev{E} = T \, dS - P \, dV = Q + W.
 \end{equation}
-This is the general form of the \textbf{first law of thermodynamics}: Any change in the internal energy of a statistical system must be matched by (either or both) heat exchange with its surroundings or work done by or on those surroundings.
+This is a generalized form of the \textbf{first law of thermodynamics}: Any change in the internal energy of a statistical system must be matched by (either or both) heat exchange with its surroundings or work done by or on those surroundings.
 
 \begin{shaded}
   We now have all the concepts and \textbf{key equations} needed to consider a variety of ways to manipulate an ideal gas in a container: \\[-24 pt]
   \begin{itemize}
-    \item \eq{eq:ideal_energy} for the internal energy $\vev{E} = \frac{3}{2} NT$
-    \item \eq{eq:ideal_entropy} for the condition of constant entropy, $V T^{3/2} = \mbox{constant}$
-    \item \eq{eq:ideal_gas_law} for the equation of state (ideal gas law): $PV = NT$
-    \item \eq{eq:first_law} for the first law of thermodynamics, $d\!\vev{E} = T dS - P dV = Q + W$
+    \item \eq{eq:ideal_energy} for the internal energy: \hfill $\vev{E} = \frac{3}{2} NT$
+    \item \eq{eq:ideal_entropy} for the condition of constant entropy: \hfill $V T^{3/2} = \mbox{constant}$
+    \item \eq{eq:ideal_gas_law} for the equation of state (ideal gas law): \hfill $PV = NT$
+    \item \eq{eq:first_law} for the first law of thermodynamics: \hfill $d\!\vev{E} = T \, dS - P \, dV = Q + W$
   \end{itemize}
 \end{shaded}
 
-As examples of manipulations we could carry out just by changing the system's control parameters, the piston shown in the figure above allows us to compress or expand the gas.
-This change in volume can be either fast enough to keep the entropy constant (adiabatic) or slow enough to keep the temperature constant (isothermal).
-Alternately, we can clamp the piston in place to keep the volume constant, and add heat to the gas to increase its temperature---which will also increase its pressure according to the ideal gas law.
+As examples of manipulations we can carry out by changing the system's control parameters, the piston we considered in \secref{sec:work} allows us to compress or expand the gas.
+This change in volume could be fast to keep the entropy constant (adiabatic), or slow to keep the temperature constant (isothermal).
+Alternately, we can clamp the piston in place to keep the volume constant, and add heat to the gas to increase its temperature --- according to the ideal gas law, this will also increase the pressure of the gas.
 Or we can add heat while keeping the pressure constant by applying a constant force to the piston.
-The ideal gas law then implies the volume will increase, pushing out the piston and potentially doing work on the external world.
+The ideal gas law then implies the volume will increase, pushing out the piston --- which could be used as a way for the system to do work on its surroundings.
 
-It's possible to carry out a sequence of such manipulations that cause the system to end up in the same thermodynamic (macro-)state in which it started, with the same pressure, volume, temperature and internal energy.
-That sequence can then be repeated over and over again, always ending up back at its starting point.
+It's possible to carry out a sequence of such manipulations that cause the system to end up in the same thermodynamic (macro-)state in which it started, with the same pressure, volume, temperature and internal energy. % TODO: Could comment that this is related to our assumption of reversibility...
+This sequence can then be repeated over and over again, always returning to the same starting point.
 Such a repeatable process is known as a \textbf{thermodynamic cycle}.
 As we will see in the next section, such cycles can make use of heat to have the system do work on its surroundings (providing an \textit{engine}), or make use of work to remove heat from the system (providing a \textit{refrigerator}), among other applications.
 
-Thanks to the key equations above, we can see that the full ideal gas macro-state can be specified solely in terms of the pressure $P$ and the volume $V$.
-With fixed $N$, the ideal gas law fixes the temperature $T = \frac{PV}{N}$, which then provides the internal energy $\vev{E} \propto NT$.
-It is therefore convenient to represent the system's macro-state in the form of a \textbf{pressure--volume} (or $\mathbf{PV}$) \textbf{diagram}---a plot with the volume on the horizontal axis and the pressure on the vertical axis.
+Thanks to the key equations above, we can specify the full macro-state for an ideal gas solely in terms of the pressure $P$ and the volume $V$.
+With fixed $N$, the ideal gas law fixes the temperature $T = \frac{PV}{N}$, which then determines the internal energy $\vev{E} \propto NT$.
+This makes it convenient to represent the system's macro-state as a point in a \textbf{pressure--volume} (or $\mathbf{PV}$) \textbf{diagram} --- a graph with the volume on the horizontal axis and the pressure on the vertical axis.
 The manipulations discussed above correspond to lines in $PV$~diagrams.
 In the case of a thermodynamic cycle, the lines must meet up to form a closed path for the system to go around as the cycle is repeated.
 
@@ -173,11 +190,10 @@ As a first example, the figure below shows the $PV$~diagram for a (slow) isother
 \begin{center}
   \includegraphics[width=0.6\textwidth]{figs/unit05_isotherm.pdf}
 \end{center}
-\newpage % WARNING: FORMATTING BY HAND
-\noindent The line in a $PV$~diagram for an isothermal process is known as an \textit{isotherm}.
+The line in a $PV$~diagram for an isothermal process is known as an \textit{isotherm}.
 As the volume expands from $V_0$ to $V_f$, the temperature (and therefore $PV$) is constant.
 What is the change in pressure $\De P = P_f - P_0$ in terms of $P_0$, $V_0$ and $V_f$?
-Can isotherms ever cross?
+What would it mean if two isotherms were to cross in a $PV$~diagram?
 \begin{mdframed}
   \ \\[100 pt]
 \end{mdframed}
@@ -187,7 +203,7 @@ Similarly, we can consider the $PV$~diagram below for a (fast) adiabatic compres
   \includegraphics[width=0.6\textwidth]{figs/unit05_adiabat.pdf}
 \end{center}
 In this case both the pressure and temperature change, while the entropy (and therefore $VT^{3 / 2}$) is constant.
-What are $\De P$ and the change in the temperature $\De T = T_f - T_0$ in terms of $P_0$, $V_0$, $V_f$ and the fixed number of particles $N$?
+What are $\De P$ and the change in the temperature $\De T = T_f - T_0$ in terms of $P_0$, $V_0$, $V_f$ and the fixed number of particles $N$? % TODO: Could ask again about crossing, or just state that this guarantees the intersecting adiabats are one and the same...
 \begin{mdframed}
   \ \\[120 pt]
 \end{mdframed}
@@ -197,8 +213,8 @@ What are $\De P$ and the change in the temperature $\De T = T_f - T_0$ in terms 
 
 % ------------------------------------------------------------------
 \subsection{The Carnot cycle}
-A famous thermodynamic cycle was proposed by \href{https://en.wikipedia.org/wiki/Nicolas_Léonard_Sadi_Carnot}{Sadi Carnot} in 1824, and laid the groundwork for subsequent development of engines and refrigerators later in the nineteenth century.
-The key idea is to propose that the ideal gas's container can exchange energy with either of two different thermal reservoirs: a `hot' reservoir with temperature $T_H$ and a `cold' reservoir with temperature $T_L$.
+A famous thermodynamic cycle was proposed by \href{https://en.wikipedia.org/wiki/Nicolas_Leonard_Sadi_Carnot}{Sadi Carnot} in 1824, and laid the groundwork for subsequent development of engines and refrigerators later in the nineteenth century.
+The key idea is to propose that the ideal gas in its container can exchange energy with either of \emph{two} different thermal reservoirs: a `hot' reservoir with temperature $T_H$ and a `cold' reservoir with temperature $T_L$.
 The Carnot cycle consists of four stages, which are first shown below in the form of a $PV$~diagram, then illustrated in a sketch (adapted from Schroeder's \textit{Introduction to Thermal Physics}) that provides a more concrete picture of the physical processes, and finally summarized in words.
 
 \begin{center}
@@ -206,7 +222,6 @@ The Carnot cycle consists of four stages, which are first shown below in the for
   \includegraphics[width=\textwidth]{figs/unit05_carnot.pdf}
 \end{center}
 
-\newpage % WARNING: FORMATTING BY HAND
 The illustration above supposes that the hot reservoir is located to the right of the system, while the cold reservoir is located to its left.
 In words, the four stages are the following: \\[-24 pt]
 \begin{itemize}
@@ -216,34 +231,37 @@ In words, the four stages are the following: \\[-24 pt]
   \item From point $D$ to point $A$ the system undergoes fast adiabatic compression, with no heat exchange, until its temperature rises from $T_L$ back up to $T_H$.
 \end{itemize}
 
-We need to make sure that these four processes really do produce a closed, self-consistent cycle that our system could repeatedly follow.
+We need to make sure that these four processes really do produce a self-consistent closed cycle that our system could repeatedly follow.
 In a real experiment, we would have full control over the four variables $\left\{P_A, V_A, V_B, V_C\right\}$ coloured red in the $PV$~diagram above.
-Specifically, we can prepare our $N$-particle system in initial macro-state $A$ with our choice of pressure $P_A$ and volume $V_A$, which together fix the temperature $T_H = \frac{P_A V_A}{N}$ through the ideal gas law.
-We can then choose how much isothermal expansion occurs to reach volume $V_B$, and finally choose how much adiabatic expansion occurs to reach volume $V_C$.
-The question then becomes: Is it possible to return to our starting macro-state $A$ by choosing the appropriate volume $V_D$ at which to switch from isothermal compression to adiabatic compression?
+Specifically, we can prepare our $N$-particle system in initial macro-state $A$ with our choice of pressure $P_A$ and volume $V_A$, which through the ideal gas law specify the temperature $T_H = \frac{P_A V_A}{N}$ of the hot reservoir.
+We can then freely choose the volume $V_B > V_A$ at which to switch from isothermal expansion to adiabatic expansion, and similarly choose the volume $V_C > V_B$ at which we stop expanding and start compressing.
+(The choice of $V_C$ is equivalent to choosing the temperature $T_L$ of the cold reservoir.) % Both choices are within our power...
 
-To answer this question, we should try to express all the remaining variables $\left\{P_B, P_C, T_L, P_D, V_D\right\}$ in terms of the four (red) inputs described above, along with the fixed number of particles $N$.
+At this point, however, we are no longer free to choose an arbitrary volume $V_D < V_C$ at which to switch from isothermal compression to adiabatic compression --- this switch needs to happen at precisely the correct point in order for the final stage to bring the system back to its initial macro-state $A$.
+While we can expect that this will be possible for the Carnot cycle, a priori there is no guarantee that a given sequence of processes will close to form a self-consistent thermodynamic cycle.
+
+In order to confirm the self-consistency of the Carnot cycle, we need to express the unknown quantities $\left\{P_B, P_C, T_L, P_D, V_D\right\}$ in terms of the four (red) inputs described above, along with the fixed number of particles $N$.
 At point $B$, we know the system's temperature remains $T_H = P_A V_A / N$.
 What is the pressure $P_B$ in terms of $\left\{P_A, V_A, V_B, V_C, N\right\}$?
 \begin{mdframed}
   \ \\[50 pt]
 \end{mdframed}
 
-\newpage % WARNING: FORMATTING BY HAND
 At point $C$, we know the system's entropy is the same as at point $B$.
 What are the temperature $T_L$ and pressure $P_C$ in terms of $\left\{P_A, V_A, V_B, V_C, N\right\}$?
 \begin{mdframed}
   \ \\[100 pt]
 \end{mdframed}
 
-At point $D$, we know the system's temperature remains $T_L$, and demand that its entropy is the same as at point $A$.
-What are the pressure $P_D$ and volume $V_D$ in terms of $\left\{P_A, V_A, V_B, V_C, N\right\}$?
+At point $D$, we know the system's temperature remains $T_L$.
+We have to demand that its entropy is the same as at point $A$, in order for the final adiabatic stage to connect points $D$ and $A$.
+What are the resulting pressure $P_D$ and volume $V_D$ in terms of $\left\{P_A, V_A, V_B, V_C, N\right\}$?
 \begin{mdframed}
   \ \\[100 pt]
 \end{mdframed}
 
 You should find that all of $\left\{P_B, P_C, T_L, P_D, V_D\right\}$ can be consistently specified by the (red) inputs under our control, which establishes that the Carnot cycle is a valid thermodynamic cycle.
-Now we can consider the more interesting question of how much work (if any) this cycle can do on its surroundings, compared to the amount of heat it would need to operate.
+This is not a surprising result, but does give us the ingredients to address the question of how much net work (if any) this cycle can do on its surroundings, compared to the amount of heat it would transfer from the hot reservoir to the cold reservoir.
 It will simplify this calculation to use the following positive quantities, with subscripts (rather than negative signs) indicating whether energy is flowing into or out of the gas: \\[-24 pt]
 \begin{itemize}
   \item When work is done on the system by its surroundings, $W_{\text{in}} = W > 0$ from \eq{eq:work}
@@ -269,22 +287,23 @@ Because the system returns to its initial macro-state after each repetition of t
   \De\!\vev{E} = 0 & = Q_{\text{in}} - Q_{\text{out}} + W_{\text{in}} - W_{\text{out}} \cr
                    & \Lra W_{\text{out}} - W_{\text{in}} = Q_{\text{in}} - Q_{\text{out}} \leq Q_{\text{in}}, \label{eq:cycle_heat_work}
 \end{align}
-or $\eta \leq 1$, with equality occurring when no waste heat is expelled throughout the entire cycle, $Q_{\text{out}} = 0$.
+or $\eta \leq 1$, with equality occurring when no `waste' heat is expelled by the system throughout the entire cycle, $Q_{\text{out}} = 0$.
 All together, $0 < \eta \leq 1$ lets us interpret the efficiency as the fraction of the input heat that the engine is able to use to do work on its surroundings.
 
 Let's illustrate these ideas by computing the efficiency of the Carnot cycle.
-We can divide this task into smaller pieces by considering the contributions to $W_{\text{done}}$ and $Q_{\text{in}}$ from each of the cycle's four stages.
+We can divide this calculation into smaller pieces by considering the contributions to $W_{\text{done}}$ and $Q_{\text{in}}$ from each of the cycle's four stages.
+
+\newpage % WARNING: FORMATTING BY HAND
 First, in the isothermal expansion from point $A$ to point $B$, the ideal gas law provides $P(V)$ to insert into \eq{eq:work}:
 \begin{mdframed}
   $\displaystyle W_{AB} = -\int_{V_A}^{V_B} P(V) \; dV = $ \\[50 pt]
 \end{mdframed}
 You should find $W_{AB} < 0$, meaning the system does work on its surroundings during this stage.
-At the same time, the constant temperature means $\De\!\vev{E} \propto \De T = 0$ from \eq{eq:ideal_energy}, so that $Q_{AB} = -W_{AB} > 0$ and heat flows into the system.
+At the same time, the constant temperature means $\De\!\vev{E} \propto \De T = 0$ from \eq{eq:ideal_energy}, so that $Q_{AB} = -W_{AB} > 0$, in agreement with our earlier observation of heat flowing into the system during this stage.
 
-\newpage % WARNING: FORMATTING BY HAND
-Next, in the adiabatic expansion from point $B$ to point $C$, we know $Q_{BC} = 0$ and therefore
+Next, in the adiabatic expansion from point $B$ to point $C$, we know $Q_{BC} = 0$, which lets us use the first law of thermodynamics to compute the work:
 \begin{mdframed}
-  $\displaystyle W_{BC} = \De\!\vev{E} = \frac{3}{2}N\De T = $ \\[50 pt]
+  $\displaystyle W_{BC} = $ \\[50 pt]
 \end{mdframed}
 You should find that the system continues doing work on its surroundings during this stage, $W_{BC} < 0$.
 
@@ -306,24 +325,24 @@ Putting everything together,
 \end{align}
 We can check that our result $\eta = 1 - \frac{T_L}{T_H}$ for the efficiency of the Carnot cycle makes sense.
 Since $T_L < T_H$, we have $\eta > 0$.
-If the temperatures of the hot and cold reservoirs approached each other, $\frac{T_L}{T_H} \to 1$, then there would no longer be any heat exchange, and the engine would cease to function, with its efficiency $\eta \to 0$.
+If the temperatures of the hot and cold reservoirs approach each other, $\frac{T_L}{T_H} \to 1$, then the cycle would collapse to a single isotherm with $W_{\text{out}} = W_{\text{in}}$ and vanishing efficiency $\eta \to 0$.
 In the opposite limit of a large difference in the temperatures $T_L \ll T_H$, the efficiency would improve, with $\eta \to 1$ as $\frac{T_L}{T_H} \to 0$.
 
-It turns out to be generic for heat engines to operate more efficiently as the temperature difference between their hot and cold reservoirs increases, and they always cease working as $\frac{T_L}{T_H} \to 1$.
+It turns out to be generic for heat engines to operate more efficiently as the temperature difference between their hot and cold reservoirs increases, and they always cease performing net work as $\frac{T_L}{T_H} \to 1$.
 The Carnot cycle is special because its efficiency $\eta = 1 - \frac{T_L}{T_H}$ is the theoretical maximum allowed by the second law of thermodynamics.
 We can show this by using \eq{eq:cycle_heat_work} to rewrite
 \begin{equation*}
   \eta = \frac{Q_{\text{in}} - Q_{\text{out}}}{Q_{\text{in}}} = 1 - \frac{Q_{\text{out}}}{Q_{\text{in}}} = 1 - \frac{T_L \De S_{\text{out}}}{T_H \De S_{\text{in}}},
 \end{equation*}
-where the last equality uses \eq{eq:heat} and the generic fact that the input heat $Q_{\text{in}} = T_H \De S_{\text{in}}$ enters the engine from the hot reservoir while the waste heat $Q_{\text{out}} = T_L \De S_{\text{out}}$ is expelled to the cold reservoir.
+where the last equality uses \eq{eq:heat} and the fact that the input heat $Q_{\text{in}} = T_H \De S_{\text{in}}$ enters the engine from the hot reservoir with temperature $T_H$, while the waste heat $Q_{\text{out}} = T_L \De S_{\text{out}}$ is expelled to the cold reservoir with temperature $T_L$.
 After each repetition of the cycle, the gas returns to its original macro-state, with its original entropy, after absorbing entropy $\De S_{\text{in}}$ from its surroundings and expelling $\De S_{\text{out}}$ back out again.
 The second law therefore demands $\De S_{\text{out}} \geq \De S_{\text{in}}$, so that
 \begin{equation*}
   \eta = 1 - \frac{T_L}{T_H} \frac{\De S_{\text{out}}}{\De S_{\text{in}}} \leq 1 - \frac{T_L}{T_H}
 \end{equation*}
-in principle, for any thermodynamic engine.
+in principle, for any thermodynamic engine. % TODO: Equality implied for any completely reversible process --- otherwise would need additional entropy to close cycle, for instance by burning fuel
 
-Finally, if we were to operate the Carnot cycle in reverse, with isothermal expansion at temperature $T_L$ and compression at $T_H$, we would do work on the system in order to bring heat in from the cold reservoir and expel it to the hot reservoir.
+Finally, if we were to operate the Carnot cycle in reverse, with isothermal expansion at temperature $T_L$ and compression at $T_H$, we would do work on the system in order to bring heat in from the cold reservoir (i.e., $Q_{\text{in}} \sim T_L$) and expel it to the hot reservoir ($Q_{\text{out}} \sim T_H$).
 In other words, we would have a refrigerator rather than an engine.
 The `efficiency' of a refrigerator is called its \textit{coefficient of performance}, and defined as
 \begin{equation*}
