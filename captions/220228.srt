@@ -1,0 +1,2659 @@
+1
+00:00:16,560 --> 00:00:23,490
+OK, the bells are ringing, so let's start to get things set up
+
+2
+00:00:23,490 --> 00:00:27,360
+and in focus.
+
+3
+00:00:30,980 --> 00:00:32,150
+The attendance system number four today is
+
+4
+00:00:34,750 --> 00:00:37,570
+seven two, seven six, three
+
+5
+00:00:40,730 --> 00:00:41,440
+one.
+
+6
+00:00:45,580 --> 00:00:49,000
+Welcome to the end of February.  The days are
+
+7
+00:00:49,000 --> 00:00:51,580
+getting longer, though it's not obvious when the
+
+8
+00:00:51,580 --> 00:00:57,350
+weather's like this.  At least the projector should
+
+9
+00:00:57,350 --> 00:01:01,700
+be more visible in these conditions with less glare. Are
+
+10
+00:01:01,700 --> 00:01:04,910
+there any immediate questions from last week before we
+
+11
+00:01:06,220 --> 00:01:09,550
+pick up where we left off and continue on this
+
+12
+00:01:09,550 --> 00:01:09,880
+week.
+
+13
+00:01:14,820 --> 00:01:18,780
+Let's go through a quick recap to.
+
+14
+00:01:21,280 --> 00:01:24,170
+Remember where we were and where we're headed.
+
+15
+00:01:26,900 --> 00:01:27,560
+For.
+
+16
+00:01:30,760 --> 00:01:31,450
+February.
+
+17
+00:01:34,870 --> 00:01:36,460
+So we have been looking at.
+
+18
+00:01:38,570 --> 00:01:43,400
+Ideal gas is through the economical ensemble.
+
+19
+00:01:47,840 --> 00:01:52,760
+Which is the experimental setup, the situation
+
+20
+00:01:52,760 --> 00:01:57,700
+where we fixed the temperature in the protocol
+
+21
+00:01:57,720 --> 00:02:04,260
+number of the particles in this gas. And the.
+
+22
+00:02:05,280 --> 00:02:10,290
+Energy levels are a starting point for statistical
+
+23
+00:02:10,290 --> 00:02:12,750
+analysis of many political systems.
+
+24
+00:02:16,100 --> 00:02:23,010
+Turned out to. We define that. In terms of the
+
+25
+00:02:24,060 --> 00:02:29,840
+voyeurweb. In which this ideal guest is. Can find
+
+26
+00:02:29,840 --> 00:02:34,140
+his style. We are taking to the. A Cuban box
+
+27
+00:02:34,570 --> 00:02:39,600
+belonging to the three sides, both sides in three
+
+28
+00:02:39,600 --> 00:02:45,810
+dimensions. And. From those energy levels, the.
+
+29
+00:02:48,900 --> 00:02:51,390
+Compute the canonical partition function.
+
+30
+00:02:55,140 --> 00:03:00,480
+And see how they differ or distinguishable.
+
+31
+00:03:02,810 --> 00:03:04,970
+Versus indistinguishable particles.
+
+32
+00:03:08,040 --> 00:03:12,180
+Short order, and so the canonical protection
+
+33
+00:03:12,180 --> 00:03:16,380
+function for indistinguishable particles is just
+
+34
+00:03:16,380 --> 00:03:22,810
+in powers of a single particle. Protection
+
+35
+00:03:22,810 --> 00:03:26,230
+function, and this differs by effective, in fact,
+
+36
+00:03:26,230 --> 00:03:28,840
+will compare to the case where the particles are
+
+37
+00:03:28,840 --> 00:03:34,660
+indistinguishable. And this leads on to. The same
+
+38
+00:03:34,660 --> 00:03:38,890
+results. For the average internal energy that can
+
+39
+00:03:38,890 --> 00:03:43,690
+be distinguishable, indistinguishable pieces, both
+
+40
+00:03:43,690 --> 00:03:46,780
+of which are three halves times the number of
+
+41
+00:03:46,780 --> 00:03:50,450
+particles times the temperature. But different
+
+42
+00:03:50,450 --> 00:03:51,290
+entropies.
+
+43
+00:03:53,970 --> 00:03:56,820
+Reflecting the different number of microstates
+
+44
+00:03:56,820 --> 00:03:59,550
+that we can have a smaller number in the
+
+45
+00:03:59,550 --> 00:04:04,220
+dismissable case. The three havstein plus 10 times
+
+46
+00:04:05,010 --> 00:04:09,350
+war could be over. The cube of the thermal
+
+47
+00:04:10,350 --> 00:04:13,190
+wavelength, it depends on the mass of the
+
+48
+00:04:13,190 --> 00:04:17,780
+particles, their temperature and plank's comes to
+
+49
+00:04:17,780 --> 00:04:22,640
+take part in the indistinguishable case decreases
+
+50
+00:04:23,720 --> 00:04:24,620
+to five heads,
+
+51
+00:04:26,840 --> 00:04:33,170
+plus a similar ratio now and again, factor being
+
+52
+00:04:33,170 --> 00:04:39,520
+subtracted and disinterment. Led to the so-called
+
+53
+00:04:39,520 --> 00:04:40,630
+Gibs paradox.
+
+54
+00:04:45,970 --> 00:04:50,680
+Tried to go through slowly and carefully on Friday,
+
+55
+00:04:51,250 --> 00:04:52,030
+looking at.
+
+56
+00:04:54,080 --> 00:04:59,780
+The. Different behavior that results when. Yes,
+
+57
+00:04:59,780 --> 00:05:02,540
+it's either distinguishable or INDISTINCTIVE, the
+
+58
+00:05:02,540 --> 00:05:07,430
+particles are mixed or allowed to be exchanged
+
+59
+00:05:07,430 --> 00:05:11,990
+between two phones through the sequence of steps
+
+60
+00:05:11,990 --> 00:05:18,280
+show. In these three squares, finding in the case
+
+61
+00:05:18,280 --> 00:05:20,710
+of insatiable radicals.
+
+62
+00:05:23,300 --> 00:05:28,380
+That the. Mixing was reversible, and the
+
+63
+00:05:28,380 --> 00:05:32,970
+activities of all three of those stages were.
+
+64
+00:05:34,230 --> 00:05:35,280
+Exactly the same.
+
+65
+00:05:37,970 --> 00:05:42,000
+And this. It was, at least historically, the
+
+66
+00:05:42,390 --> 00:05:46,650
+origin of paradox, and folks believed that the
+
+67
+00:05:46,680 --> 00:05:50,130
+sort of mixing of particles was always going to be
+
+68
+00:05:50,670 --> 00:05:54,720
+reversible. And we went through the mathematics
+
+69
+00:05:54,720 --> 00:05:57,240
+where the distinguishable case.
+
+70
+00:05:59,680 --> 00:06:04,860
+We found that. The process was irreversible.
+
+71
+00:06:07,080 --> 00:06:11,730
+There was a definite increase in the entropy going
+
+72
+00:06:11,730 --> 00:06:17,670
+from the initial separated subsystems to the
+
+73
+00:06:17,670 --> 00:06:22,340
+combined system where they were allowed to mix and
+
+74
+00:06:23,150 --> 00:06:27,170
+and quality of handwaving arguments that. The
+
+75
+00:06:27,170 --> 00:06:29,750
+final individual interviews would be the same,
+
+76
+00:06:29,750 --> 00:06:34,880
+would then require a decrease in injury from that
+
+77
+00:06:34,880 --> 00:06:40,010
+combined system to the final set up, which would
+
+78
+00:06:40,010 --> 00:06:43,010
+contradict the second ballot for the Debix by
+
+79
+00:06:43,010 --> 00:06:47,180
+being more careful about precisely how these
+
+80
+00:06:47,180 --> 00:06:49,970
+attributes are calculated. We were able to confirm
+
+81
+00:06:49,970 --> 00:06:53,060
+that there is, in fact, no paradox here, and the
+
+82
+00:06:53,060 --> 00:07:00,500
+entropy continues to remain the same as the wall
+
+83
+00:07:01,460 --> 00:07:04,580
+between these two subsystems is reinserted in that
+
+84
+00:07:04,580 --> 00:07:10,280
+final step. And that is where we ended up on
+
+85
+00:07:10,280 --> 00:07:15,590
+Friday. As you go through carefully, this three
+
+86
+00:07:15,590 --> 00:07:18,230
+step procedure in these two different cases of
+
+87
+00:07:18,230 --> 00:07:20,630
+distinguishable versus indistinguishable particles,
+
+88
+00:07:21,110 --> 00:07:25,520
+illustrating the different behavior that results
+
+89
+00:07:25,520 --> 00:07:29,630
+just based on the information content about the
+
+90
+00:07:29,630 --> 00:07:35,000
+systems that we can access in principle. So we are
+
+91
+00:07:35,000 --> 00:07:40,020
+going now to turn to a slightly different topic.
+
+92
+00:07:40,040 --> 00:07:43,580
+So this is the last call for questions about what
+
+93
+00:07:44,090 --> 00:07:46,250
+came up last week, and especially in the context
+
+94
+00:07:46,250 --> 00:07:49,400
+of this thought experiment of mixing particles
+
+95
+00:07:49,400 --> 00:07:51,090
+between systems that we separated.
+
+96
+00:08:01,210 --> 00:08:06,550
+Not hearing any. We have this next topic, so we'll
+
+97
+00:08:06,550 --> 00:08:11,760
+be able to zoom in on. Now to make it more legible.
+
+98
+00:08:13,720 --> 00:08:20,110
+Gets back to the starting point for this ideal gas,
+
+99
+00:08:20,110 --> 00:08:24,130
+it's and the fact that when we were first.
+
+100
+00:08:25,390 --> 00:08:27,430
+Constructing the precision functions and figuring
+
+101
+00:08:27,430 --> 00:08:29,920
+out how to sum over all of the possible
+
+102
+00:08:29,920 --> 00:08:34,120
+microstates of these systems, we saw that in
+
+103
+00:08:34,120 --> 00:08:36,850
+addition to the fixed temperature and particle
+
+104
+00:08:36,850 --> 00:08:40,030
+number that always characterise systems in the
+
+105
+00:08:40,030 --> 00:08:43,620
+canonical ensemble, there was dependence on the
+
+106
+00:08:43,870 --> 00:08:48,830
+volume within which this gas was contained. And
+
+107
+00:08:48,830 --> 00:08:56,540
+this introduces in addition to the. At the usual
+
+108
+00:08:57,920 --> 00:09:00,800
+temperature of the number that were used to the
+
+109
+00:09:00,800 --> 00:09:02,750
+volume as an additional control forever or
+
+110
+00:09:02,760 --> 00:09:05,840
+something that we can imagine experimentally
+
+111
+00:09:06,140 --> 00:09:09,530
+manipulating, changing in some way, which will
+
+112
+00:09:09,530 --> 00:09:14,780
+cause some response of the. Behavior of the system
+
+113
+00:09:15,080 --> 00:09:18,170
+coming through its partition function and
+
+114
+00:09:18,170 --> 00:09:20,120
+generally through the
+
+115
+00:09:22,550 --> 00:09:25,430
+particular energies of the individual, microstates
+
+116
+00:09:25,430 --> 00:09:28,520
+that enter into that petition function from which
+
+117
+00:09:28,520 --> 00:09:35,120
+we were able to derive. All of the. Observable is
+
+118
+00:09:35,120 --> 00:09:39,200
+of interest in the canonical ensemble, so we
+
+119
+00:09:39,200 --> 00:09:40,990
+didn't see this sort of thing earlier, even
+
+120
+00:09:41,160 --> 00:09:44,690
+microeconomic ensemble is the magnetic field
+
+121
+00:09:44,690 --> 00:09:49,100
+strength age for cinema systems. That was a
+
+122
+00:09:49,520 --> 00:09:53,300
+parameter that we could imagine in experimental
+
+123
+00:09:53,660 --> 00:09:58,070
+set up, take our system, expose it to a larger,
+
+124
+00:09:58,400 --> 00:10:01,620
+stronger magnetic field. We don't want it to feel
+
+125
+00:10:02,200 --> 00:10:06,700
+get a different behavior as a consequence. But if
+
+126
+00:10:06,700 --> 00:10:09,310
+we focus now on the ideal gases.
+
+127
+00:10:12,650 --> 00:10:16,700
+Even though this dependence on the volume dropped
+
+128
+00:10:16,700 --> 00:10:19,370
+out of the internal energy.
+
+129
+00:10:23,070 --> 00:10:26,070
+Average internal energy being just three halves
+
+130
+00:10:26,070 --> 00:10:28,560
+empty for both distinguishable and
+
+131
+00:10:28,560 --> 00:10:32,670
+indistinguishable particles. Dependence remains in
+
+132
+00:10:33,330 --> 00:10:37,610
+both cases for the entropies. For both types of
+
+133
+00:10:37,610 --> 00:10:43,860
+particles, and in particular, it is. Entering as a
+
+134
+00:10:43,950 --> 00:10:48,030
+ratio, the volume divided by the cube of this
+
+135
+00:10:48,360 --> 00:10:53,620
+Somodevilla wavelength. Which brings together a
+
+136
+00:10:54,220 --> 00:10:58,350
+particular combination of programmers, thermal
+
+137
+00:10:58,360 --> 00:11:02,170
+deviling wavelength, we can remember what right
+
+138
+00:11:02,170 --> 00:11:05,230
+down the whole expression of this recall is
+
+139
+00:11:05,230 --> 00:11:08,080
+proportional to one over the square root of
+
+140
+00:11:08,080 --> 00:11:12,340
+temperature. So that ratio of the over land cube
+
+141
+00:11:13,060 --> 00:11:18,180
+is then proportional to the times. The three has
+
+142
+00:11:18,190 --> 00:11:23,160
+power of temperature. And if.
+
+143
+00:11:25,280 --> 00:11:29,510
+The volume and temperature are changed in such a
+
+144
+00:11:29,510 --> 00:11:34,550
+way that this. Constant product, the volume times
+
+145
+00:11:34,940 --> 00:11:37,040
+temperature of the three have power is constant
+
+146
+00:11:37,610 --> 00:11:41,780
+then with the particle number also fixed. We see
+
+147
+00:11:41,780 --> 00:11:46,040
+that the overall entropy of these systems is
+
+148
+00:11:46,040 --> 00:11:49,280
+constant even as we change the volume and the
+
+149
+00:11:49,280 --> 00:11:49,900
+temperature.
+
+150
+00:11:52,780 --> 00:11:57,880
+This is going to be significant when we analyze
+
+151
+00:11:58,120 --> 00:12:02,270
+the damage cycles coming up possibly later today
+
+152
+00:12:02,270 --> 00:12:06,510
+or tomorrow. The latest. Processes in which we
+
+153
+00:12:06,660 --> 00:12:10,130
+change the control parameters of our system but
+
+154
+00:12:10,170 --> 00:12:14,130
+leave the entropy constant in some way, are known
+
+155
+00:12:14,130 --> 00:12:19,170
+as entropic, which is just a construction based on
+
+156
+00:12:19,170 --> 00:12:22,410
+the Greek word isostatic means equal. So these are
+
+157
+00:12:22,410 --> 00:12:25,800
+processes that leave the entropy equal from the
+
+158
+00:12:25,800 --> 00:12:32,240
+beginning and the end. When? We imagine making
+
+159
+00:12:32,240 --> 00:12:36,060
+changes to control parameters like the volume and
+
+160
+00:12:36,060 --> 00:12:39,830
+the temperature. We've already seen these sorts of
+
+161
+00:12:40,520 --> 00:12:42,740
+changes, the control parameters, for instance, the
+
+162
+00:12:43,070 --> 00:12:48,520
+canonical ensemble. We had the temperature being
+
+163
+00:12:48,520 --> 00:12:53,980
+defined as the change of entropy with the change
+
+164
+00:12:53,980 --> 00:12:58,930
+in the conserve energy in the canonical context
+
+165
+00:12:58,930 --> 00:13:03,040
+was considered. So the response of the entropy to
+
+166
+00:13:03,040 --> 00:13:08,830
+a change in the conserved energy and already in
+
+167
+00:13:08,830 --> 00:13:13,120
+the canonical ensemble, the heat capacity which is
+
+168
+00:13:13,450 --> 00:13:16,870
+showing up in your home due Thursday, is another
+
+169
+00:13:16,870 --> 00:13:22,510
+example of this sort of change, in that case, the
+
+170
+00:13:23,080 --> 00:13:28,030
+change in that energy with respect to temperature.
+
+171
+00:13:30,620 --> 00:13:36,980
+With the volume fixed. Here. Motivated to some
+
+172
+00:13:36,980 --> 00:13:39,890
+extent by that heat capacity, just slid off the
+
+173
+00:13:39,890 --> 00:13:43,310
+screen there, we can think about flipping the
+
+174
+00:13:43,310 --> 00:13:48,380
+roles of Temperature Boy and.
+
+175
+00:13:50,660 --> 00:13:56,170
+And. Defined in that way, the pressure for an
+
+176
+00:13:56,170 --> 00:13:57,370
+ideal gas, which.
+
+177
+00:14:01,070 --> 00:14:04,250
+We'll get into a bit more thoroughly later on, is
+
+178
+00:14:04,250 --> 00:14:07,910
+connected to some changes. Imagine taking some
+
+179
+00:14:07,910 --> 00:14:13,040
+ideal gas in a container and talk to you about
+
+180
+00:14:13,160 --> 00:14:15,920
+thinking of that ideal gas inside a building. We
+
+181
+00:14:15,920 --> 00:14:19,040
+try to change the volume of that building by
+
+182
+00:14:19,280 --> 00:14:22,790
+squeezing it into some smaller space, the small
+
+183
+00:14:22,790 --> 00:14:26,780
+box. We feel a force opposing our attempts to
+
+184
+00:14:27,320 --> 00:14:31,970
+change that volume. The force is arising from the
+
+185
+00:14:31,970 --> 00:14:37,090
+pressure of the gas as we try to change its mind.
+
+186
+00:14:37,550 --> 00:14:41,730
+And specifically, we define the pressure to be the
+
+187
+00:14:41,810 --> 00:14:44,860
+change in the internal energy, the drive quantity
+
+188
+00:14:44,870 --> 00:14:49,340
+of one somewhat due to infinitesimal change the
+
+189
+00:14:49,340 --> 00:14:56,700
+volume with the entropy caps fixed. So the fancy
+
+190
+00:14:56,700 --> 00:14:59,490
+terminology that we introduced this pressure is
+
+191
+00:14:59,490 --> 00:15:03,330
+the isotropic response of the internal energy to
+
+192
+00:15:03,330 --> 00:15:05,700
+the volume of the ideal gas.
+
+193
+00:15:08,820 --> 00:15:11,740
+And the. One.
+
+194
+00:15:13,830 --> 00:15:17,730
+Possible cause for concern about this sort of
+
+195
+00:15:17,730 --> 00:15:22,880
+definition or discussion in general is whether you
+
+196
+00:15:22,890 --> 00:15:27,190
+may depart from. The defining conditions of the
+
+197
+00:15:27,190 --> 00:15:32,750
+economic cycle, if we are to talk about changes in
+
+198
+00:15:33,670 --> 00:15:36,940
+volume or, for instance, changes in temperature
+
+199
+00:15:37,210 --> 00:15:45,080
+and the heat capacity. And similar to the similar
+
+200
+00:15:45,080 --> 00:15:48,140
+concerns could have come up when we introduced the
+
+201
+00:15:48,140 --> 00:15:52,400
+temperatures drive quality, a case where we can
+
+202
+00:15:53,030 --> 00:15:56,510
+get around this by supposing that when we have
+
+203
+00:15:56,720 --> 00:16:04,980
+some process that changes the. Um. Characteristics
+
+204
+00:16:04,980 --> 00:16:08,660
+of the system we are considering in particular is
+
+205
+00:16:08,970 --> 00:16:13,890
+temperature of volume, internal energy. We can
+
+206
+00:16:14,970 --> 00:16:18,390
+analyze such a process still within the canonical
+
+207
+00:16:18,390 --> 00:16:24,890
+ensemble. I am treating it so, viewing it as a
+
+208
+00:16:25,430 --> 00:16:29,270
+change from one canonical system with a fixed
+
+209
+00:16:29,270 --> 00:16:32,570
+temperature and particle, no. To some other
+
+210
+00:16:32,570 --> 00:16:35,840
+economical system. Again, all of these enfolded
+
+211
+00:16:36,110 --> 00:16:41,650
+equilibrium. With differenced. Temperatures
+
+212
+00:16:41,650 --> 00:16:45,550
+defining difference in global systems and then
+
+213
+00:16:45,700 --> 00:16:48,850
+considering the process through which we
+
+214
+00:16:48,850 --> 00:16:51,640
+transition from one of these large scale systems
+
+215
+00:16:52,090 --> 00:16:53,110
+to another.
+
+216
+00:16:55,280 --> 00:17:00,170
+So as a. The first example of this is the ideal
+
+217
+00:17:00,170 --> 00:17:08,310
+gas we have. Since just last week, this condition
+
+218
+00:17:08,550 --> 00:17:12,840
+for the continental ideal gas, regardless of
+
+219
+00:17:12,840 --> 00:17:14,610
+whether the particles in this gas are
+
+220
+00:17:14,610 --> 00:17:21,050
+distinguishable or indistinguishable. That is this
+
+221
+00:17:21,050 --> 00:17:24,930
+combination, the volume times, the three heads
+
+222
+00:17:24,980 --> 00:17:28,850
+power of the temperature is some possible call for
+
+223
+00:17:28,850 --> 00:17:31,250
+convenience, C, that the power we have so that I
+
+224
+00:17:31,250 --> 00:17:35,690
+can rearrange this equation and we get the
+
+225
+00:17:36,890 --> 00:17:42,710
+temperature being related to this constant C times
+
+226
+00:17:42,710 --> 00:17:47,450
+the volume to the minus two thirds power, dividing
+
+227
+00:17:47,450 --> 00:17:50,780
+three by the volume two thirds power of each side.
+
+228
+00:17:52,290 --> 00:17:56,480
+And when. The temperature and volume of this
+
+229
+00:17:56,480 --> 00:18:01,650
+relation. The entropy is constant. We have.
+
+230
+00:18:02,480 --> 00:18:03,470
+Isotropic.
+
+231
+00:18:05,780 --> 00:18:06,590
+Process.
+
+232
+00:18:09,070 --> 00:18:12,550
+And going back again to what we drive last week,
+
+233
+00:18:12,940 --> 00:18:13,900
+you can insert
+
+234
+00:18:15,970 --> 00:18:20,050
+this relation, this condition for the entropy of
+
+235
+00:18:20,050 --> 00:18:24,160
+the process to be constants into the internal
+
+236
+00:18:24,160 --> 00:18:28,090
+energy as a function of the particle number and
+
+237
+00:18:28,090 --> 00:18:28,810
+the temperature.
+
+238
+00:18:30,870 --> 00:18:35,340
+That now becomes, in the case of entropy, a
+
+239
+00:18:35,340 --> 00:18:39,640
+function of particle number and the volume being
+
+240
+00:18:39,870 --> 00:18:44,040
+raised to the power of minus two thirds, then
+
+241
+00:18:44,040 --> 00:18:48,210
+plugging this expression into our new definition
+
+242
+00:18:48,210 --> 00:18:54,590
+of the pressure, along with the pressure for life,
+
+243
+00:18:54,600 --> 00:18:59,890
+you'll get us all to a head in with the substances
+
+244
+00:19:00,390 --> 00:19:01,950
+that the unenlightening.
+
+245
+00:19:05,020 --> 00:19:09,970
+Algebraic manipulations. The point is that by
+
+246
+00:19:09,970 --> 00:19:15,160
+expressing the energy in terms of the conditions
+
+247
+00:19:15,200 --> 00:19:18,910
+for entropy be are satisfying the cause of entropy
+
+248
+00:19:18,910 --> 00:19:22,720
+condition that defines the volume. And given the
+
+249
+00:19:23,440 --> 00:19:28,330
+result, that is minus three C of the two and is a
+
+250
+00:19:28,330 --> 00:19:31,270
+constant factor that comes up front and then the
+
+251
+00:19:31,450 --> 00:19:34,270
+derivative of the power minus two thirds with
+
+252
+00:19:34,270 --> 00:19:40,640
+respect to the Z factor of minus two thirds or
+
+253
+00:19:40,660 --> 00:19:45,340
+whatever, the same B to the minus two thirds,
+
+254
+00:19:45,340 --> 00:19:51,290
+which cancels out some factors and. Rearrange
+
+255
+00:19:51,290 --> 00:19:57,020
+things to have the remaining arbitrary constancy
+
+256
+00:19:58,190 --> 00:20:04,010
+in that with this. Remaining power leads by two
+
+257
+00:20:04,010 --> 00:20:07,600
+thirds in addition to the one of people out front.
+
+258
+00:20:08,720 --> 00:20:09,260
+This.
+
+259
+00:20:11,510 --> 00:20:16,330
+See times minus two thirds. Bill is still the
+
+260
+00:20:16,330 --> 00:20:21,040
+temperature and overall, we then find that the
+
+261
+00:20:21,040 --> 00:20:24,420
+pressure for an ideal gas is the number of
+
+262
+00:20:24,430 --> 00:20:27,430
+chemicals times the temperature divided by the
+
+263
+00:20:27,430 --> 00:20:32,710
+volume of gas, which, if we multiply through by
+
+264
+00:20:32,710 --> 00:20:37,120
+the volume, gives us a famous expression of is the
+
+265
+00:20:37,120 --> 00:20:43,260
+ideal gas law. It says that for ideal gas, the
+
+266
+00:20:43,860 --> 00:20:47,820
+product of the pressure and the volume is equal to
+
+267
+00:20:47,820 --> 00:20:51,450
+the product of the number of times the temperature.
+
+268
+00:20:52,670 --> 00:20:59,570
+And. This ideal gas law, if you check out some of
+
+269
+00:20:59,570 --> 00:21:03,580
+the textbooks that were referenced just at the
+
+270
+00:21:03,620 --> 00:21:05,330
+very beginning of the course, you will sometimes
+
+271
+00:21:05,330 --> 00:21:10,610
+see this introduced as the definition of the ideal
+
+272
+00:21:10,610 --> 00:21:14,450
+gas. An ideal gas is any substance that obeys
+
+273
+00:21:15,410 --> 00:21:18,200
+small. We've taken the opposite approach started
+
+274
+00:21:18,200 --> 00:21:21,580
+from microstates, the macroeconomic side, like
+
+275
+00:21:21,620 --> 00:21:25,220
+microscopic dynamics of these systems and built up
+
+276
+00:21:25,220 --> 00:21:28,340
+to the equation state rather than going from the
+
+277
+00:21:28,340 --> 00:21:34,090
+top down. I realize I just referred to this as an
+
+278
+00:21:34,090 --> 00:21:36,940
+equation of the states without defining what
+
+279
+00:21:36,940 --> 00:21:38,380
+exactly that is.
+
+280
+00:21:40,530 --> 00:21:46,950
+So the ideal gas law is a relation between the
+
+281
+00:21:47,580 --> 00:21:50,820
+large scale properties of the system, the
+
+282
+00:21:50,820 --> 00:21:55,380
+macroscopic qualities of it, in this case, the
+
+283
+00:21:55,680 --> 00:21:59,820
+pressure, volume and temperature that the internal
+
+284
+00:21:59,820 --> 00:22:03,510
+energy we've also seen is directly related to the
+
+285
+00:22:03,510 --> 00:22:05,340
+temperature as another
+
+286
+00:22:07,580 --> 00:22:10,560
+large scale property of the system. So the states
+
+287
+00:22:10,700 --> 00:22:15,300
+that this is an equation of is really a way of
+
+288
+00:22:15,300 --> 00:22:18,540
+saying that it is a relation between these
+
+289
+00:22:18,540 --> 00:22:22,780
+macroscopic properties of the system. Which is
+
+290
+00:22:23,440 --> 00:22:25,450
+part of the reason I've been referring to
+
+291
+00:22:25,450 --> 00:22:29,770
+microstates throughout the module so far that the
+
+292
+00:22:29,770 --> 00:22:32,260
+state's been discussed here, are not the
+
+293
+00:22:32,260 --> 00:22:34,900
+individual microstates corresponding to the
+
+294
+00:22:35,380 --> 00:22:39,340
+disposition of all in degrees of freedom in the
+
+295
+00:22:39,340 --> 00:22:42,410
+canonical example? Rather, the.
+
+296
+00:22:44,750 --> 00:22:48,230
+Collection of large scale properties like pressure
+
+297
+00:22:48,230 --> 00:22:51,120
+building and temperature that define what's called
+
+298
+00:22:51,120 --> 00:22:54,650
+the thermodynamic stage or the macro stage of the
+
+299
+00:22:54,650 --> 00:22:55,150
+system.
+
+300
+00:22:57,670 --> 00:22:58,240
+So.
+
+301
+00:23:02,000 --> 00:23:07,160
+Rather than depending on the detailed information
+
+302
+00:23:07,340 --> 00:23:10,070
+about all of these all and degrees of freedom,
+
+303
+00:23:10,790 --> 00:23:13,970
+this macro state is characterized just by the
+
+304
+00:23:14,450 --> 00:23:17,930
+large scale behaviour of, in this case, the ideal
+
+305
+00:23:17,930 --> 00:23:21,260
+gas. And as such, historically at least.
+
+306
+00:23:23,420 --> 00:23:29,030
+The initial scientific explorations of gases,
+
+307
+00:23:29,030 --> 00:23:32,030
+fluids and systems in general were focused on
+
+308
+00:23:32,660 --> 00:23:34,820
+these Makarova states that could be observed and
+
+309
+00:23:34,820 --> 00:23:37,820
+manipulated with the kind of technology that
+
+310
+00:23:38,390 --> 00:23:43,910
+existed hundreds of years ago. So historically,
+
+311
+00:23:43,910 --> 00:23:48,260
+those sorts of experimentations of systems of
+
+312
+00:23:48,260 --> 00:23:52,080
+gases, fluids with well-defined volumes,
+
+313
+00:23:52,100 --> 00:23:56,000
+temperatures and pressures were studied well
+
+314
+00:23:56,000 --> 00:23:59,960
+before the mathematical development of statistical
+
+315
+00:23:59,960 --> 00:24:00,530
+physics,
+
+316
+00:24:02,840 --> 00:24:06,200
+the famous example being all the way back before
+
+317
+00:24:06,710 --> 00:24:11,060
+in the sixteen hundreds. The physicist Robert
+
+318
+00:24:11,060 --> 00:24:15,890
+Boyle experimented with changing the temperature
+
+319
+00:24:15,890 --> 00:24:19,240
+of a gas station to the pressure on the gas to its
+
+320
+00:24:19,310 --> 00:24:24,920
+temperature fixed and measuring the volume that
+
+321
+00:24:24,920 --> 00:24:28,610
+resulted from that. An experiment that could be
+
+322
+00:24:28,610 --> 00:24:33,530
+done in the sixteen hundreds in finding a relation
+
+323
+00:24:34,070 --> 00:24:37,520
+between the pressure he was using as a control
+
+324
+00:24:37,520 --> 00:24:42,590
+parameter in those experiments and the volume he
+
+325
+00:24:42,590 --> 00:24:44,840
+was measuring and finding that those two
+
+326
+00:24:44,840 --> 00:24:47,630
+quantities were inversely related to each other,
+
+327
+00:24:47,630 --> 00:24:50,690
+or in other words, that their product was
+
+328
+00:24:50,690 --> 00:24:55,550
+constants so long as the temperature of the gas
+
+329
+00:24:55,550 --> 00:24:58,310
+under consideration was also constant, which
+
+330
+00:24:58,970 --> 00:25:02,990
+started from the ideal gas law. We can see is. A
+
+331
+00:25:03,170 --> 00:25:06,650
+direct consequence, though, as this came first,
+
+332
+00:25:06,650 --> 00:25:09,650
+historically, it became known as Boyle's law, at
+
+333
+00:25:09,650 --> 00:25:14,200
+least in England and France, and share his name
+
+334
+00:25:14,210 --> 00:25:18,570
+with a French physicist. I did similar things
+
+335
+00:25:18,570 --> 00:25:21,910
+about 20 years later. And.
+
+336
+00:25:25,420 --> 00:25:29,420
+Building on the sort of. Observation,
+
+337
+00:25:29,500 --> 00:25:32,760
+observational discovery that the pressure and
+
+338
+00:25:32,760 --> 00:25:35,880
+volume related in this way, more than one hundred
+
+339
+00:25:35,880 --> 00:25:40,020
+years later, various other relations between the
+
+340
+00:25:40,020 --> 00:25:45,470
+properties of. Thermodynamic states of gases were.
+
+341
+00:25:46,380 --> 00:25:49,170
+Discovered in the late seventeen hundreds of early,
+
+342
+00:25:49,170 --> 00:25:54,690
+eighteen hundreds. For instance, all of which not
+
+343
+00:25:54,690 --> 00:26:00,720
+named after subsets of the scientists who were
+
+344
+00:26:00,720 --> 00:26:03,390
+exploring these ideas at the time. So, for
+
+345
+00:26:03,390 --> 00:26:07,230
+instance, holding the pressure constant and
+
+346
+00:26:08,280 --> 00:26:13,890
+varying the temperature of the gas, and scientists
+
+347
+00:26:13,890 --> 00:26:17,620
+were able to measure again that the. The volume
+
+348
+00:26:17,770 --> 00:26:20,680
+varied in this case proportional to the
+
+349
+00:26:20,680 --> 00:26:23,800
+temperature. In other words, the ratio of the
+
+350
+00:26:24,070 --> 00:26:28,030
+resulting volume with the varying temperature was
+
+351
+00:26:28,030 --> 00:26:33,450
+itself a constant. Which is another aspect of the
+
+352
+00:26:33,450 --> 00:26:36,930
+ideal gas law and turning this on its side and
+
+353
+00:26:36,930 --> 00:26:40,950
+fixing the volume, looking at the pressure and the
+
+354
+00:26:40,950 --> 00:26:45,960
+temperature, gave a completely analogous direct
+
+355
+00:26:45,960 --> 00:26:48,900
+relationship between pressure that was measured
+
+356
+00:26:48,900 --> 00:26:51,690
+and the temperature that was put in to the ratio
+
+357
+00:26:52,290 --> 00:26:54,510
+itself was a different color since the volume
+
+358
+00:26:54,710 --> 00:27:02,330
+fixed. And this last one here. Oh, God, no. We've
+
+359
+00:27:02,330 --> 00:27:07,620
+already seen looked at. How the number of
+
+360
+00:27:07,620 --> 00:27:11,220
+particles in a gas could change at constant
+
+361
+00:27:11,220 --> 00:27:15,510
+pressure and constant temperature, depending on
+
+362
+00:27:15,780 --> 00:27:21,270
+the volume and obviously related to coming up with
+
+363
+00:27:21,900 --> 00:27:26,910
+the. Number two hundred twenty three of particles
+
+364
+00:27:26,910 --> 00:27:31,960
+in everyday substances. And based on all of these
+
+365
+00:27:31,960 --> 00:27:34,720
+violations that were being discovered over this
+
+366
+00:27:34,720 --> 00:27:36,550
+time period without necessarily knowing
+
+367
+00:27:36,910 --> 00:27:39,520
+mathematically where they came from at the
+
+368
+00:27:39,520 --> 00:27:44,580
+underlying level. It was possible to combine all
+
+369
+00:27:44,580 --> 00:27:48,000
+of them into the ideal gas law, which was done in
+
+370
+00:27:48,000 --> 00:27:51,210
+the 18 years, that was the empirical statement of
+
+371
+00:27:51,210 --> 00:27:55,560
+the ideal gas law as instead of relations, that
+
+372
+00:27:56,370 --> 00:27:59,880
+gases were observed to behave without necessarily
+
+373
+00:27:59,940 --> 00:28:04,740
+knowing why. In a few decades after that, in the
+
+374
+00:28:05,190 --> 00:28:06,990
+middle of the eighteen hundreds, there were
+
+375
+00:28:07,590 --> 00:28:13,110
+independents derivations showing how physical
+
+376
+00:28:13,110 --> 00:28:14,970
+physics could.
+
+377
+00:28:17,340 --> 00:28:20,340
+Produce all of these different religions and in
+
+378
+00:28:20,760 --> 00:28:23,400
+particular produce the ideal gas itself along the
+
+379
+00:28:23,400 --> 00:28:28,300
+lines that we've seen in the past. In the past
+
+380
+00:28:28,300 --> 00:28:31,670
+week. So there are two
+
+381
+00:28:33,710 --> 00:28:38,090
+lessons, two to say about this sort of historical
+
+382
+00:28:38,090 --> 00:28:38,780
+development.
+
+383
+00:28:41,600 --> 00:28:45,080
+First, being that there was a.
+
+384
+00:28:47,670 --> 00:28:49,860
+Tight connection between a lot of these
+
+385
+00:28:49,860 --> 00:28:53,670
+experimentations in the sort of idealized behavior
+
+386
+00:28:53,670 --> 00:28:57,480
+of gases as an abstract question and the kinds of
+
+387
+00:28:57,480 --> 00:29:00,150
+industrial engineering and.
+
+388
+00:29:04,520 --> 00:29:05,100
+It's called.
+
+389
+00:29:08,990 --> 00:29:11,570
+Industrial developments, including designing
+
+390
+00:29:11,570 --> 00:29:14,630
+engines and machines like that, was happening at
+
+391
+00:29:14,630 --> 00:29:18,200
+the same time with a more practical focus, trying
+
+392
+00:29:18,200 --> 00:29:26,090
+to build new machines to. On. To do work in
+
+393
+00:29:26,090 --> 00:29:28,670
+different ways is part of the industrial
+
+394
+00:29:28,670 --> 00:29:33,530
+revolution, so a dialogue between sort of pure
+
+395
+00:29:33,530 --> 00:29:37,070
+mathematical understanding of the physics
+
+396
+00:29:37,070 --> 00:29:41,970
+underlying. The systems that play really
+
+397
+00:29:42,540 --> 00:29:45,510
+contributed to and benefited from all of the
+
+398
+00:29:45,900 --> 00:29:50,190
+experimentation and exploration being done in the
+
+399
+00:29:50,430 --> 00:29:56,390
+engineering side of. Industrial development in the
+
+400
+00:29:56,390 --> 00:30:01,790
+Industrial Revolution. The other. Aspect of this
+
+401
+00:30:01,790 --> 00:30:05,360
+to emphasize is that the 18 50 is the derivation
+
+402
+00:30:05,360 --> 00:30:09,290
+of the Gastar from ideas of statistical physics
+
+403
+00:30:09,290 --> 00:30:15,590
+was really the start. Get kicked off a long
+
+404
+00:30:15,590 --> 00:30:18,350
+running debate about the extent to which the
+
+405
+00:30:18,350 --> 00:30:21,820
+statistical physics, the idea that. We can
+
+406
+00:30:21,820 --> 00:30:25,150
+understand the behavior of substances because they
+
+407
+00:30:25,150 --> 00:30:27,580
+are built up of a large number of atoms and
+
+408
+00:30:27,580 --> 00:30:32,490
+molecules that debates covid starts through this,
+
+409
+00:30:32,710 --> 00:30:35,030
+this result in particular the results of research
+
+410
+00:30:35,050 --> 00:30:37,840
+showing that making that assumption or
+
+411
+00:30:37,840 --> 00:30:41,460
+hypothesized. That atoms and molecules were at the
+
+412
+00:30:41,460 --> 00:30:48,540
+basis of gases and and other substances could
+
+413
+00:30:48,540 --> 00:30:53,300
+reproduce the ideal gas law, but it didn't resolve
+
+414
+00:30:53,600 --> 00:30:56,580
+the debate about whether those atoms and molecules
+
+415
+00:30:56,580 --> 00:31:00,280
+really existed, which kept running throughout all
+
+416
+00:31:00,310 --> 00:31:04,170
+of Boltzmann's career and up to and beyond. The
+
+417
+00:31:05,160 --> 00:31:09,210
+demonstration started with how Brownian motion can
+
+418
+00:31:09,210 --> 00:31:15,350
+result from statistical physics. On the situation,
+
+419
+00:31:15,350 --> 00:31:18,170
+following the development of the ideal gas on the
+
+420
+00:31:18,680 --> 00:31:21,800
+leader, eighteen hundreds was a bit analogous to
+
+421
+00:31:22,340 --> 00:31:25,720
+the situation string theory that I mentioned in
+
+422
+00:31:26,090 --> 00:31:29,930
+our first class meeting, where we know in
+
+423
+00:31:29,930 --> 00:31:32,060
+principle, at least these days, that string theory
+
+424
+00:31:32,060 --> 00:31:36,440
+can describe the new laws of physics, both general
+
+425
+00:31:36,440 --> 00:31:40,310
+relativity and quantum mechanics. But it's unknown
+
+426
+00:31:40,310 --> 00:31:42,260
+whether it's the only way to do so and how
+
+427
+00:31:42,260 --> 00:31:47,400
+seriously we should take the idea. That everything
+
+428
+00:31:47,400 --> 00:31:49,800
+we see is really made out of these fundamental
+
+429
+00:31:49,800 --> 00:31:53,490
+strands at a extremely microscopic level. There
+
+430
+00:31:53,490 --> 00:31:57,080
+may be other explanations that have been being
+
+431
+00:31:57,120 --> 00:32:00,570
+considered, and that would seem and that's
+
+432
+00:32:00,570 --> 00:32:04,050
+analogous to the arguments going on one hundred
+
+433
+00:32:04,050 --> 00:32:06,990
+and fifty years ago about the existence of atoms
+
+434
+00:32:06,990 --> 00:32:09,960
+and molecules and whether they are truly
+
+435
+00:32:09,960 --> 00:32:13,950
+responsible for the large scale macroscopic
+
+436
+00:32:14,520 --> 00:32:21,780
+behavior. Of gases and other other substances. So
+
+437
+00:32:21,780 --> 00:32:25,650
+that is that's a bit of a extended commentary from
+
+438
+00:32:25,690 --> 00:32:30,840
+me and also the end of the unit for introducing
+
+439
+00:32:31,560 --> 00:32:36,030
+ideal gases and before diving into the next unit,
+
+440
+00:32:36,030 --> 00:32:41,280
+which. He's going to use these IP addresses to. To
+
+441
+00:32:41,280 --> 00:32:45,270
+do work engines or cool substances in
+
+442
+00:32:45,270 --> 00:32:48,180
+refrigerators, apologists for a minute and ask if
+
+443
+00:32:48,180 --> 00:32:52,710
+there are any questions about any of the ideal gas.
+
+444
+00:32:56,790 --> 00:33:00,480
+Fundamentals that we've gone through over the past
+
+445
+00:33:00,480 --> 00:33:05,010
+week from the volume dependent energy levels to
+
+446
+00:33:05,580 --> 00:33:07,690
+this definition of the pressure and the ideal gas
+
+447
+00:33:07,710 --> 00:33:08,030
+more.
+
+448
+00:33:27,220 --> 00:33:31,000
+So it sounds like we are content to move on the
+
+449
+00:33:31,000 --> 00:33:34,760
+phone and in cycles, which will start by. Putting
+
+450
+00:33:34,760 --> 00:33:38,720
+the pressure was just introduced on a more
+
+451
+00:33:38,720 --> 00:33:42,910
+familiar framework, since I'm assuming. You see,
+
+452
+00:33:42,910 --> 00:33:45,820
+the previous modules were familiar in everyday
+
+453
+00:33:45,820 --> 00:33:48,720
+life, the intuitive connection between the
+
+454
+00:33:49,090 --> 00:33:54,910
+pressure and force and the connection between
+
+455
+00:33:55,420 --> 00:34:00,940
+pressure and work coming through force and some of
+
+456
+00:34:00,940 --> 00:34:05,430
+the classical Newton's laws of motion from those
+
+457
+00:34:05,560 --> 00:34:09,130
+from the 16 hundreds where these concepts were
+
+458
+00:34:09,130 --> 00:34:16,320
+being developed. So the. The definition of
+
+459
+00:34:16,320 --> 00:34:20,130
+pressure, which is just an earlier today as
+
+460
+00:34:20,160 --> 00:34:25,260
+isotropic response in the internal energy to a
+
+461
+00:34:25,260 --> 00:34:29,640
+change in the volume is not obviously related to
+
+462
+00:34:30,120 --> 00:34:34,590
+to doing work. I did. Talk about squeezing a
+
+463
+00:34:34,950 --> 00:34:36,790
+balloon into a box is an idea.
+
+464
+00:34:39,620 --> 00:34:42,000
+Connecting the pressure to a change in volume,
+
+465
+00:34:42,020 --> 00:34:45,410
+sort of a force on the volume of the system to
+
+466
+00:34:45,740 --> 00:34:47,240
+change it thereby.
+
+467
+00:34:49,590 --> 00:34:55,850
+Extracts pressure. And what we can do to make this
+
+468
+00:34:55,850 --> 00:35:01,160
+connection a bit more explicit is by stepping back
+
+469
+00:35:01,160 --> 00:35:04,670
+to just considering rather than a full statistical
+
+470
+00:35:04,670 --> 00:35:09,150
+ensemble, just a single object at some position in
+
+471
+00:35:09,170 --> 00:35:13,220
+three dimensional space, some latitude, longitude
+
+472
+00:35:13,490 --> 00:35:18,950
+and altitude that some force acts upon at that
+
+473
+00:35:18,950 --> 00:35:24,680
+same position. And the the work done by this force.
+
+474
+00:35:25,890 --> 00:35:31,740
+Is a definition you may well have seen before, it
+
+475
+00:35:31,740 --> 00:35:37,920
+is how much? The energy changes due to that force.
+
+476
+00:35:41,170 --> 00:35:46,650
+Directed along the displacement of the object, you
+
+477
+00:35:46,840 --> 00:35:53,300
+mentioned some. Trajectory of an object moving
+
+478
+00:35:53,300 --> 00:35:58,690
+through. Three dimensional space and we exerts a
+
+479
+00:35:58,690 --> 00:36:04,180
+force on it. At some point in that trajectory and
+
+480
+00:36:04,210 --> 00:36:09,980
+the a product of that force in the position. Is
+
+481
+00:36:09,980 --> 00:36:14,350
+going to produce a change in the energy. Of the
+
+482
+00:36:14,350 --> 00:36:17,500
+object that is defined as the work, that's the
+
+483
+00:36:17,510 --> 00:36:20,050
+infinitesimal definition of the word which
+
+484
+00:36:20,150 --> 00:36:24,610
+generalizes to a light integral to the trajectory
+
+485
+00:36:24,610 --> 00:36:28,980
+of the object. Of the other product of the force
+
+486
+00:36:28,980 --> 00:36:32,190
+and cell times, the resulting displacement.
+
+487
+00:36:34,200 --> 00:36:38,370
+So just to give you an example, to check that this
+
+488
+00:36:38,370 --> 00:36:43,020
+all works out, we can start with this object at
+
+489
+00:36:43,070 --> 00:36:47,280
+some height above the ground, let it be stationary
+
+490
+00:36:47,280 --> 00:36:51,480
+to start with, and then drop it and let it fall
+
+491
+00:36:51,480 --> 00:36:55,490
+under the force of the Earth's gravity. Which is
+
+492
+00:36:55,490 --> 00:37:01,820
+just directed downward, the Z direction, so zero
+
+493
+00:37:02,240 --> 00:37:05,930
+in the X and Y components and the negative,
+
+494
+00:37:05,940 --> 00:37:10,130
+sometimes G in Z components, the negative side
+
+495
+00:37:10,340 --> 00:37:13,310
+indicating downward force as opposed to upward the
+
+496
+00:37:13,310 --> 00:37:17,180
+masking, the mass of the object and the mass of
+
+497
+00:37:17,180 --> 00:37:21,520
+the object. And this. Given the strength of
+
+498
+00:37:21,520 --> 00:37:23,860
+gravity near the surface of the earth, nine point
+
+499
+00:37:23,860 --> 00:37:25,960
+eight meters per second squared.
+
+500
+00:37:30,760 --> 00:37:33,420
+With the initial kinetic energy of this object
+
+501
+00:37:33,430 --> 00:37:37,860
+being zero starting from rest. As the object falls
+
+502
+00:37:37,860 --> 00:37:43,140
+downward parallel to the south, the work that is
+
+503
+00:37:43,140 --> 00:37:47,070
+done on it is going to. Increase in temperature of
+
+504
+00:37:47,080 --> 00:37:47,410
+some.
+
+505
+00:37:49,830 --> 00:37:52,780
+Kinetic energy that upon hitting the ground,
+
+506
+00:37:53,070 --> 00:37:57,910
+starting from a height H. Is going to come from
+
+507
+00:37:58,120 --> 00:38:03,310
+this line integral, introduced to both the force
+
+508
+00:38:03,310 --> 00:38:06,370
+and the displacements in this case in parallel, so
+
+509
+00:38:06,380 --> 00:38:10,080
+the entire product becomes a simple product. You
+
+510
+00:38:10,090 --> 00:38:15,740
+have minus M.G. as the. That component of the
+
+511
+00:38:15,740 --> 00:38:18,470
+force and then you have to integrate over the
+
+512
+00:38:19,520 --> 00:38:22,540
+vertical distance that the object falls is
+
+513
+00:38:22,740 --> 00:38:26,500
+integrating from its initial height H down to zero,
+
+514
+00:38:26,720 --> 00:38:31,040
+the ground zero, which is minus H. Your product,
+
+515
+00:38:31,040 --> 00:38:34,700
+then, is the best times, three gravity times the
+
+516
+00:38:34,700 --> 00:38:40,520
+initial height. And if we. Plug that into the
+
+517
+00:38:40,520 --> 00:38:44,030
+expression for the work as a change in the energy
+
+518
+00:38:44,150 --> 00:38:47,390
+from its initial value of zero. We find that the
+
+519
+00:38:47,960 --> 00:38:52,370
+final energy of the object is just energy age,
+
+520
+00:38:52,730 --> 00:38:57,890
+which we can relate to the momentum of the object.
+
+521
+00:38:59,480 --> 00:39:02,410
+Again, the only non-zero component is that
+
+522
+00:39:02,420 --> 00:39:06,850
+subcomponent. And rearranging find that the
+
+523
+00:39:06,850 --> 00:39:09,940
+momentum is direct, a downward portion of the mass
+
+524
+00:39:09,940 --> 00:39:13,450
+times, the square root of two times the initial
+
+525
+00:39:13,450 --> 00:39:16,750
+height. So the classic result of classical
+
+526
+00:39:16,750 --> 00:39:22,900
+mechanics that connects to the idea of work as a
+
+527
+00:39:22,900 --> 00:39:29,010
+force in the project to change its energy. Now, we
+
+528
+00:39:29,160 --> 00:39:32,010
+want to generalize this to statistical physics, we
+
+529
+00:39:32,010 --> 00:39:35,970
+have some number, a large number of objects in a
+
+530
+00:39:35,970 --> 00:39:39,900
+statistical ensemble of specialized. We'll be
+
+531
+00:39:39,900 --> 00:39:41,970
+talking about the economic ensemble still and
+
+532
+00:39:41,970 --> 00:39:45,660
+specifically ideal gases and particles in the
+
+533
+00:39:45,660 --> 00:39:46,740
+canonical ensemble.
+
+534
+00:39:48,970 --> 00:39:54,350
+So we define the work done by a force. To me, the
+
+535
+00:39:54,350 --> 00:39:57,950
+change in the internal energy of the system that
+
+536
+00:39:58,040 --> 00:40:02,480
+drives quality, that is specifically due to that
+
+537
+00:40:02,480 --> 00:40:07,430
+force and the way we will tell in general whether
+
+538
+00:40:07,460 --> 00:40:10,940
+a change in energy is due to a force or not is
+
+539
+00:40:10,940 --> 00:40:14,090
+precisely through that connection to the volume.
+
+540
+00:40:15,000 --> 00:40:18,840
+It's going to be the volume of the gas that is the
+
+541
+00:40:18,840 --> 00:40:22,230
+control parameter being changed by the application
+
+542
+00:40:22,230 --> 00:40:27,200
+of the force and doing a similar. Simple
+
+543
+00:40:27,200 --> 00:40:29,810
+calculation to the case of that single falling
+
+544
+00:40:29,810 --> 00:40:33,260
+object we can consider.
+
+545
+00:40:37,390 --> 00:40:40,660
+This settlement covid from one of the references
+
+546
+00:40:40,660 --> 00:40:46,060
+in the lecture notes where we have. A of gas and
+
+547
+00:40:46,060 --> 00:40:49,480
+some fixed temperature with some fixed number of
+
+548
+00:40:49,480 --> 00:40:53,220
+particles in the system with some initial volume.
+
+549
+00:40:54,310 --> 00:40:59,370
+And we imagine that one side. Out of the box to
+
+550
+00:40:59,370 --> 00:41:04,230
+find it, this boy is a movable piston that has a
+
+551
+00:41:04,230 --> 00:41:10,020
+surface area any and by acting on this piston with
+
+552
+00:41:10,020 --> 00:41:13,560
+some force, we're able to push it into the box,
+
+553
+00:41:13,920 --> 00:41:19,080
+decreasing the volume by that surface area, times
+
+554
+00:41:19,740 --> 00:41:22,230
+the displacement of the Pistons and try to exit
+
+555
+00:41:22,230 --> 00:41:26,060
+the change in volume. Is the surface area of the
+
+556
+00:41:26,300 --> 00:41:29,810
+boom times, the amount it moves, the negative sign,
+
+557
+00:41:30,230 --> 00:41:36,980
+reflecting that the volume is decreasing? Well, I
+
+558
+00:41:36,980 --> 00:41:43,250
+think I just said out loud all of the words here,
+
+559
+00:41:43,250 --> 00:41:47,810
+except for the condition that change in volume, we
+
+560
+00:41:47,810 --> 00:41:51,260
+can demand that this process does not change the
+
+561
+00:41:51,260 --> 00:41:52,400
+entropy of the gas.
+
+562
+00:41:54,730 --> 00:41:58,710
+And that allows us to connect this process, this
+
+563
+00:41:58,720 --> 00:42:03,340
+force in the work done by it, to the pressure that
+
+564
+00:42:03,340 --> 00:42:06,430
+we defined earlier today, the end of unit for.
+
+565
+00:42:07,800 --> 00:42:12,180
+Where there will be some change in the energy due
+
+566
+00:42:12,180 --> 00:42:16,260
+to the decrease in the valadier with a fixed
+
+567
+00:42:16,800 --> 00:42:21,800
+entropy and that change. In the energy is due to
+
+568
+00:42:21,800 --> 00:42:23,900
+the force that we have applied to change that
+
+569
+00:42:23,900 --> 00:42:30,620
+volume and is therefore the work. That's. You're
+
+570
+00:42:30,730 --> 00:42:33,280
+defined to be the change, the energy due to an
+
+571
+00:42:33,280 --> 00:42:34,180
+external force.
+
+572
+00:42:37,090 --> 00:42:41,020
+Set that aside for now, looking at the.
+
+573
+00:42:43,060 --> 00:42:47,050
+Product of the sports times, the displacement of
+
+574
+00:42:47,050 --> 00:42:51,410
+the piston that it causes. We can relate the. Work
+
+575
+00:42:51,760 --> 00:42:56,440
+the force, which depends on the displacements,
+
+576
+00:42:56,470 --> 00:43:01,480
+then also appears in the change in the volume. So
+
+577
+00:43:02,200 --> 00:43:06,100
+replacing this. Differential expression with the
+
+578
+00:43:06,100 --> 00:43:08,770
+overall change in energy and the overall change in
+
+579
+00:43:08,770 --> 00:43:12,730
+volume, both of those dependent. On the
+
+580
+00:43:12,730 --> 00:43:16,060
+displacement of the piston, and we end up with the
+
+581
+00:43:16,060 --> 00:43:18,850
+pressure being identified with the force per unit
+
+582
+00:43:18,850 --> 00:43:23,800
+area that is exerted on the system to change the
+
+583
+00:43:24,400 --> 00:43:28,770
+volume of our gas, which is essentially
+
+584
+00:43:28,870 --> 00:43:35,020
+reproducing. The. Classical definition of pressure
+
+585
+00:43:35,530 --> 00:43:40,150
+as a force divided over some univariate. And if we
+
+586
+00:43:40,150 --> 00:43:44,160
+rearrange this equation. Fifty seven. We can
+
+587
+00:43:45,090 --> 00:43:49,110
+express the work in terms of the pressure and
+
+588
+00:43:49,110 --> 00:43:53,040
+change the volume, so taking this intermediate.
+
+589
+00:43:55,100 --> 00:43:59,860
+Expression. That depends on those general
+
+590
+00:43:59,870 --> 00:44:02,110
+qualities multiplied through by the change in
+
+591
+00:44:02,120 --> 00:44:06,380
+volume. You see that if we demand constant entropy,
+
+592
+00:44:07,670 --> 00:44:11,840
+we have the work as the change in internal energy
+
+593
+00:44:11,990 --> 00:44:15,740
+equal to the negative of the pressure times and
+
+594
+00:44:15,740 --> 00:44:19,760
+change the bottom. That negative side, we can
+
+595
+00:44:19,760 --> 00:44:22,940
+check all this sticky back to the example we just
+
+596
+00:44:22,940 --> 00:44:26,450
+did, changing the hour, decreasing the border
+
+597
+00:44:26,450 --> 00:44:30,600
+specifically. So a negative change avoiding. It's
+
+598
+00:44:30,610 --> 00:44:34,330
+something that we have a sense it's going to
+
+599
+00:44:34,570 --> 00:44:39,100
+require pushing on a in meeting resistance and
+
+600
+00:44:39,100 --> 00:44:43,900
+putting energy to work into the ideal gas that we
+
+601
+00:44:43,900 --> 00:44:50,060
+are considering. In the south. So that is the way
+
+602
+00:44:50,060 --> 00:44:52,490
+to remember the presence of this negative sign.
+
+603
+00:44:55,300 --> 00:45:00,780
+And this relation, in fact, holds even when the
+
+604
+00:45:01,140 --> 00:45:05,310
+entropy is allowed to change, so this expression
+
+605
+00:45:05,310 --> 00:45:09,870
+generalizes, the work is always going to be. Equal
+
+606
+00:45:09,890 --> 00:45:12,680
+to the negative pressure times, changing the world
+
+607
+00:45:12,730 --> 00:45:19,720
+in general, but in the case of. A process that is
+
+608
+00:45:19,720 --> 00:45:23,950
+not isotropic would the entropy is allowed to
+
+609
+00:45:23,950 --> 00:45:28,390
+change, it will no longer be guaranteed that this
+
+610
+00:45:28,390 --> 00:45:32,560
+change of is the only way that the energy can
+
+611
+00:45:32,560 --> 00:45:36,710
+change, that there will be other contributions to.
+
+612
+00:45:38,630 --> 00:45:43,490
+The internal energy of the gas that are not coming
+
+613
+00:45:43,490 --> 00:45:47,030
+from the force that is being imposed change the
+
+614
+00:45:47,030 --> 00:45:51,770
+volume and therefore not part of the work as we to
+
+615
+00:45:52,100 --> 00:45:52,370
+it.
+
+616
+00:45:57,640 --> 00:46:01,890
+And thinking at the time will make a couple last
+
+617
+00:46:01,900 --> 00:46:05,140
+comments for today, first that in.
+
+618
+00:46:07,380 --> 00:46:10,220
+The next few sections, so starting tomorrow, we're
+
+619
+00:46:10,220 --> 00:46:15,170
+going to be interested in using the gas to do work
+
+620
+00:46:16,010 --> 00:46:20,210
+on its surroundings so there's extra burdens. So
+
+621
+00:46:20,210 --> 00:46:23,000
+rather than thinking about us pushing on the
+
+622
+00:46:23,000 --> 00:46:25,560
+piston to do work on a gas and increase its
+
+623
+00:46:25,670 --> 00:46:28,790
+internal energy, we're going to want to talk about
+
+624
+00:46:28,790 --> 00:46:34,130
+using the energy that is in that gas to somehow be
+
+625
+00:46:34,130 --> 00:46:38,470
+harnessed and do work. Surroundings are driving a
+
+626
+00:46:39,040 --> 00:46:42,940
+truck that can turn into a new video or perhaps
+
+627
+00:46:43,390 --> 00:46:48,940
+coupling that to an axle that will allow a car to
+
+628
+00:46:49,540 --> 00:46:52,830
+to drive, move forward or backward. And in the
+
+629
+00:46:52,830 --> 00:46:55,410
+case where we have the gas that's doing and its
+
+630
+00:46:55,410 --> 00:47:00,360
+surroundings, the change in internal energy is
+
+631
+00:47:00,360 --> 00:47:03,300
+going to be negative, that work is going to be
+
+632
+00:47:03,300 --> 00:47:06,990
+negative. We would want to see positive change in
+
+633
+00:47:06,990 --> 00:47:09,450
+the volume, but we're going to have to give pretty
+
+634
+00:47:09,450 --> 00:47:12,060
+careful track of the negative signs which
+
+635
+00:47:12,060 --> 00:47:16,580
+distinguish between whether. This gas in our
+
+636
+00:47:16,580 --> 00:47:18,850
+system is too important and its surroundings where
+
+637
+00:47:18,850 --> 00:47:21,440
+the work is being done to that gas.
+
+638
+00:47:23,690 --> 00:47:28,310
+Finally, if we recall the ideal gas law in the.
+
+639
+00:47:29,820 --> 00:47:36,180
+With the pressure. May well depend on the volume
+
+640
+00:47:36,180 --> 00:47:39,690
+and temperature, so that is an expression for
+
+641
+00:47:39,690 --> 00:47:42,750
+pressure we provide for an ideal guest here today.
+
+642
+00:47:43,740 --> 00:47:47,040
+As we make this change in volume, we can expect
+
+643
+00:47:47,280 --> 00:47:53,780
+the pressure to change as well. So. More generally,
+
+644
+00:47:54,620 --> 00:47:59,570
+if we always fix the particle no and consider a
+
+645
+00:48:00,050 --> 00:48:04,870
+change. In the volume to extract the work, we will
+
+646
+00:48:04,870 --> 00:48:08,380
+have to not just multiply the constant pressure
+
+647
+00:48:08,380 --> 00:48:10,660
+times somehow to change the body, but actually
+
+648
+00:48:10,660 --> 00:48:15,520
+integrate over the infinitesimal changes of volume
+
+649
+00:48:16,120 --> 00:48:20,080
+that each lead to a corresponding response in the
+
+650
+00:48:20,080 --> 00:48:24,460
+pressure, integrating from some initial warming to
+
+651
+00:48:24,790 --> 00:48:29,380
+a final volume that integral of pressure times,
+
+652
+00:48:29,740 --> 00:48:33,070
+the volume differential is going to give the
+
+653
+00:48:33,070 --> 00:48:37,480
+overall work of that process. So that is a good
+
+654
+00:48:37,480 --> 00:48:42,040
+place to start for now to cope with heat as
+
+655
+00:48:42,040 --> 00:48:45,340
+another way of changing energy tomorrow morning.
+
+656
+00:48:45,980 --> 00:48:50,550
+Are there any final questions before? Wrap up for
+
+657
+00:48:50,620 --> 00:48:51,080
+today.
+
+658
+00:48:58,640 --> 00:49:01,790
+If not, I will start shooting things down here.
+
+659
+00:49:02,740 --> 00:49:06,290
+Move over to my office hours in case any questions
+
+660
+00:49:06,290 --> 00:49:09,740
+about the homework due Thursday. And if I don't
+
+661
+00:49:09,740 --> 00:49:12,710
+see you there, I'll see you back in the other room
+
+662
+00:49:13,430 --> 00:49:14,110
+tomorrow morning.
+
+663
+00:49:18,370 --> 00:49:19,010
+What
+
+664
+00:49:21,080 --> 00:49:21,580
+role?
+
+665
+00:49:36,280 --> 00:49:36,660
+So.
