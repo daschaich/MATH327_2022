@@ -45,7 +45,7 @@
 \newcommand{\eps}{\ensuremath{\epsilon} }
 \newcommand{\Ga}{\ensuremath{\Gamma} }
 \newcommand{\eq}[1]{Eq.~\ref{#1}}
-\newcommand{\TODO}[1]{\textcolor{red}{\textbf{#1}}}
+%\newcommand{\TODO}[1]{\textcolor{red}{\textbf{#1}}}
 % ------------------------------------------------------------------
 
 
@@ -53,7 +53,7 @@
 % ------------------------------------------------------------------
 \begin{document}
 \newcommand{\thisweek}{MATH327 Tutorial (Stirling)}
-\newcommand{\moddate}{Last modified 19 Feb.~2022}
+\newcommand{\moddate}{Last modified 25 Feb.~2022}
 \begin{center}
   {\Large \textbf{MATH327: Statistical Physics, Spring 2022}} \\[12 pt]
   {\Large \textbf{Tutorial problem \ --- \ Stirling's formula}} \\[24 pt]
@@ -71,7 +71,7 @@ which implies
 This can be made more precise:
 \begin{equation}
   \label{eq:full}
-  N! \approx \sqrt{2\pi N} \left(\frac{N}{e}\right)^N \left(1 + \frac{A}{N} + \frac{B}{N^2} + \frac{C}{N^3} + \cdots\right)
+  N! = \sqrt{2\pi N} \left(\frac{N}{e}\right)^N \left(1 + \frac{A}{N} + \frac{B}{N^2} + \frac{C}{N^3} + \cdots\right)
 \end{equation}
 with calculable coefficients $A$, $B$, $C$, etc.\footnote{\href{https://en.wikipedia.org/wiki/James_Stirling_(mathematician)}{James Stirling} computed the $\sqrt{2\pi}$ while \href{https://en.wikipedia.org/wiki/Abraham_de_Moivre}{Abraham de Moivre} derived the expansion in powers of $1 / N$.  An interesting aspect of this expansion is that it is \textbf{asymptotic} --- it has a vanishing radius of convergence but can provide precise approximations if truncated at an appropriate power.}
 By performing a sequence of analyses of increasing complexity, we can build up these results.
@@ -106,16 +106,16 @@ and then setting $a = 1$.
 
 \newpage
 The next step in this second analysis is to approximate the gamma function as a gaussian integral.
-Show that the integrand $x^N e^{-x} = \exp\left[N\log x - x\right]$ is maximized at $x = n$.
+Show that the integrand $x^N e^{-x} = \exp\left[N\log x - x\right]$ is maximized at $x = N$.
 
 Finally, change variables to $y \equiv x - N$ and expand the $\log x$ up to and including terms quadratic in $y \ll N$.
 You should be left with a factor that can be approximated by a gaussian integral (note the lower bound of integration):
 \begin{equation*}
   \int_{-N}^{\infty} e^{-y^2 / (2N)} \, dy \approx \int_{-\infty}^{\infty} e^{-y^2 / (2N)} = \sqrt{2\pi N}.
 \end{equation*}
-The error introduced by extending the integration from $(-N, \infty)$ to  $(-\infty, \infty)$ is exponentially small and doesn't even affect the series of corrections suppressed by powers of $\frac{1}{N}$ in \eq{eq:full}.
+The error introduced by extending the integration from $(-N, \infty)$ to  $(-\infty, \infty)$ is exponentially small and could be captured by computing the series of corrections suppressed by powers of $\frac{1}{N}$ in \eq{eq:full}.
 
-Optionally, as a third analysis, you can compute some of the leading power-suppressed corrections in \eq{eq:full}.
+This leads us to the third and final analysis, which is to compute some of the leading power-suppressed corrections in \eq{eq:full}.
 Again, there are many ways to achieve this, including higher-order expansions of the $\log x$ considered above.
 One pleasant approach is to compare $N!$ and $(N + 1)!$, now that we have derived the series prefactor $\sqrt{2\pi N} \left(\frac{N}{e}\right)^N$.
 
