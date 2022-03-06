@@ -1,0 +1,1751 @@
+1
+00:00:03,090 --> 00:00:08,920
+Well, the bills have rung and we're all back again for the
+
+2
+00:00:08,920 --> 00:00:11,650
+last bit of Statistical Physics for this week.
+
+3
+00:00:12,910 --> 00:00:14,590
+With the
+
+4
+00:00:19,940 --> 00:00:24,700
+new six-digit code two seven two seven five seven
+
+5
+00:00:29,540 --> 00:00:30,170
+And, yeah
+
+6
+00:00:35,000 --> 00:00:40,250
+the tutorial gives us a chance to talk about some stuff
+
+7
+00:00:40,250 --> 00:00:45,110
+beyond the main core of the lecture notes, some
+
+8
+00:00:45,110 --> 00:00:48,230
+stuff that may not appear on the exams.  It occurred to
+
+9
+00:00:48,230 --> 00:00:53,570
+me that those of you---either here at the moment or
+
+10
+00:00:53,870 --> 00:00:56,060
+catching up with this recording after the fact---I'm
+
+11
+00:00:56,480 --> 00:00:57,620
+not sure how
+
+12
+00:00:59,680 --> 00:01:03,460
+thoroughly you've gone through all of the stuff
+
+13
+00:01:03,460 --> 00:01:07,720
+that was posted to the "Modules" page on
+
+14
+00:01:07,720 --> 00:01:14,010
+Canvas for this module.  There is this article
+
+15
+00:01:14,010 --> 00:01:18,180
+from just a few months ago, November 2021,
+
+16
+00:01:18,180 --> 00:01:22,460
+talking about the title of "The Demons
+
+17
+00:01:22,460 --> 00:01:25,130
+Haunting Thermodynamics", which looks better when it's
+
+18
+00:01:25,130 --> 00:01:29,720
+spread across two pages side by side. But the work
+
+19
+00:01:29,720 --> 00:01:35,510
+we've been doing with the mixing entropy. The
+
+20
+00:01:35,510 --> 00:01:38,930
+Gibbs paradox in the general thought experiment of
+
+21
+00:01:38,930 --> 00:01:41,690
+bringing two systems together, letting them
+
+22
+00:01:41,690 --> 00:01:44,480
+exchange particles and seeing whether the
+
+23
+00:01:44,480 --> 00:01:46,970
+resulting change in entropy is consistent with the
+
+24
+00:01:46,970 --> 00:01:51,590
+second law of thermodynamics is the spots in this
+
+25
+00:01:51,590 --> 00:01:56,100
+module where. This particular article becomes
+
+26
+00:01:56,100 --> 00:02:00,300
+relevant and interesting in particular, if I can
+
+27
+00:02:01,200 --> 00:02:02,430
+zoom in on.
+
+28
+00:02:04,980 --> 00:02:07,920
+One of these figures here, I guess that is the.
+
+29
+00:02:09,500 --> 00:02:12,110
+Highest level of zoom, the cameras will let me do.
+
+30
+00:02:12,230 --> 00:02:14,420
+It's embedded screen share.
+
+31
+00:02:17,130 --> 00:02:19,830
+Which I guess will suffice. This is an
+
+32
+00:02:19,830 --> 00:02:24,840
+illustration of a concept sort of similar to the
+
+33
+00:02:24,840 --> 00:02:29,280
+games paradox and statistical physics, say similar
+
+34
+00:02:29,280 --> 00:02:32,400
+sort of thought experiments known as Maxwell's
+
+35
+00:02:32,400 --> 00:02:38,610
+demon. The idea being that if we have these two
+
+36
+00:02:39,360 --> 00:02:43,560
+ideal gases, so each of these screening, the
+
+37
+00:02:44,310 --> 00:02:47,610
+particle has the momentum bouncing around each of
+
+38
+00:02:48,240 --> 00:02:53,760
+two containers separated by a wall. The question
+
+39
+00:02:53,760 --> 00:02:55,920
+of the thought experiment is what if there were
+
+40
+00:02:55,950 --> 00:03:01,410
+some way for someone to choose which of these
+
+41
+00:03:01,410 --> 00:03:05,610
+particles moves from one of these points to the
+
+42
+00:03:05,610 --> 00:03:08,730
+other, depending on their properties? And the
+
+43
+00:03:08,730 --> 00:03:13,080
+specific properties that Maxwell considered was
+
+44
+00:03:13,080 --> 00:03:19,360
+saying there was even some device that. Could tell
+
+45
+00:03:19,900 --> 00:03:24,160
+the energy of any particle that approached it and
+
+46
+00:03:24,160 --> 00:03:27,640
+depending on whether that energy were relatively
+
+47
+00:03:27,640 --> 00:03:31,540
+high compared to those particular articles in this
+
+48
+00:03:31,540 --> 00:03:35,110
+case, because of that particle, absolutely nothing
+
+49
+00:03:35,160 --> 00:03:38,530
+to keep it unless there was already there. On the
+
+50
+00:03:38,530 --> 00:03:40,870
+other hand, if the particle energy were relatively
+
+51
+00:03:40,870 --> 00:03:44,970
+low, it could be the returns. This container on
+
+52
+00:03:44,970 --> 00:03:51,400
+the. It's a very big. So if that sort of process.
+
+53
+00:03:53,330 --> 00:03:58,190
+Could be implemented not necessarily by a demonic
+
+54
+00:03:58,190 --> 00:04:01,730
+creature or by some clever device or the rotating
+
+55
+00:04:01,730 --> 00:04:06,350
+door ratchet system that was sensitive to particle
+
+56
+00:04:06,350 --> 00:04:09,530
+energy using the particles to pass or be blocked
+
+57
+00:04:09,530 --> 00:04:11,960
+depending on those energies. Then what would
+
+58
+00:04:11,960 --> 00:04:16,400
+happen over time that we started off with? U.S.
+
+59
+00:04:16,440 --> 00:04:20,390
+civilians have the same temperature. As the higher
+
+60
+00:04:20,390 --> 00:04:24,710
+energy particles were allowed to congregate or
+
+61
+00:04:24,800 --> 00:04:29,570
+accumulate in the left volume, the average
+
+62
+00:04:29,570 --> 00:04:32,540
+internal energy that supported would increase as
+
+63
+00:04:32,690 --> 00:04:36,530
+its temperature super hot new gas that the
+
+64
+00:04:36,530 --> 00:04:40,310
+internal energy is directly proportional to the
+
+65
+00:04:40,310 --> 00:04:41,450
+temperature of the gas.
+
+66
+00:04:46,870 --> 00:04:50,450
+And at the same time, the opposite can happen and
+
+67
+00:04:50,470 --> 00:04:53,910
+the other supporting entities that are opposing
+
+68
+00:04:53,950 --> 00:04:56,110
+would all come lower than the average for those
+
+69
+00:04:56,110 --> 00:04:58,780
+two systems leading to a lower. Temperatures have
+
+70
+00:04:58,780 --> 00:05:01,630
+started from two systems with the same temperature.
+
+71
+00:05:02,050 --> 00:05:08,290
+This demon would cause a net flow of energy from
+
+72
+00:05:08,290 --> 00:05:11,410
+one of those systems to the other reason, the
+
+73
+00:05:11,410 --> 00:05:13,510
+temperature of one, lowering the temperature of
+
+74
+00:05:13,510 --> 00:05:16,090
+another, sort of the opposite of what we expect
+
+75
+00:05:16,090 --> 00:05:18,690
+from the second law of thermodynamics. So
+
+76
+00:05:18,700 --> 00:05:25,860
+violation of that second law. And now this, of
+
+77
+00:05:25,860 --> 00:05:28,680
+course, started off as a thought experiment in the
+
+78
+00:05:28,680 --> 00:05:31,860
+eighteen hundreds, which is why it features this
+
+79
+00:05:32,910 --> 00:05:37,860
+demonic entity controlling the. Passage of these
+
+80
+00:05:37,860 --> 00:05:40,200
+particles depending on their energy. But there are
+
+81
+00:05:40,770 --> 00:05:46,280
+ongoing experiments that do this sort of thing.
+
+82
+00:05:47,040 --> 00:05:51,560
+This is an illustration of. From about 10 years
+
+83
+00:05:51,560 --> 00:05:56,230
+ago, which rather than having. A bunch of
+
+84
+00:05:56,530 --> 00:06:00,910
+particles of gas between them, it had particles in
+
+85
+00:06:01,060 --> 00:06:04,240
+what was called an optical lattice, so shiny laser
+
+86
+00:06:04,240 --> 00:06:06,910
+beams across each other to create the potential
+
+87
+00:06:06,910 --> 00:06:11,710
+that particles could interact with. And those
+
+88
+00:06:11,710 --> 00:06:15,010
+particles were the optical lattice out in such a
+
+89
+00:06:15,010 --> 00:06:18,910
+way. They were a sequence of energy models for
+
+90
+00:06:18,910 --> 00:06:23,200
+these particles. This energy is represented by the
+
+91
+00:06:23,200 --> 00:06:28,990
+steps of the surface and the particles. Have
+
+92
+00:06:29,470 --> 00:06:31,360
+probabilities used to fluctuate, goes down the
+
+93
+00:06:31,360 --> 00:06:34,780
+staircase as well as at some points and by
+
+94
+00:06:35,170 --> 00:06:41,380
+imposing a. Opposing the voltage, what is shown
+
+95
+00:06:41,380 --> 00:06:45,870
+here as the square being put in place by that
+
+96
+00:06:45,880 --> 00:06:48,610
+natural steam in the provincial department all the
+
+97
+00:06:48,610 --> 00:06:50,890
+way down the staircase, whenever it happens to
+
+98
+00:06:50,890 --> 00:06:54,760
+fluctuate up the staircase, they quickly shifted
+
+99
+00:06:55,030 --> 00:06:58,840
+this block to the next higher set. So what happens
+
+100
+00:06:58,840 --> 00:07:01,450
+over time with this system is that the particle
+
+101
+00:07:01,450 --> 00:07:04,180
+cannot move down the staircase. It's blocked
+
+102
+00:07:04,600 --> 00:07:10,640
+whenever it fluctuates up. The demon blocks of the
+
+103
+00:07:10,680 --> 00:07:13,350
+new law, also the particle continues to accumulate
+
+104
+00:07:13,770 --> 00:07:17,610
+a higher and higher energy costs, higher positions
+
+105
+00:07:17,880 --> 00:07:23,730
+on this dramatic staircase. This is an
+
+106
+00:07:23,730 --> 00:07:27,300
+experimental realization that even as these
+
+107
+00:07:27,300 --> 00:07:31,140
+particles are being forced to have higher energies
+
+108
+00:07:31,740 --> 00:07:37,050
+in this system, that corresponds to a reduction in
+
+109
+00:07:37,050 --> 00:07:40,890
+the entropy of the system and raises the
+
+110
+00:07:40,890 --> 00:07:43,770
+possibility of violating the second law of
+
+111
+00:07:43,770 --> 00:07:45,960
+thermodynamics, the.
+
+112
+00:07:48,450 --> 00:07:52,090
+The solution that. You have a question, though,
+
+113
+00:07:54,330 --> 00:07:57,950
+the question is whether or not the second plane
+
+114
+00:07:58,050 --> 00:08:01,500
+actually is violated in his experience, the answer
+
+115
+00:08:01,500 --> 00:08:05,780
+to exactly that is not because that information.
+
+116
+00:08:08,220 --> 00:08:11,850
+Essentially, what is going on is that the action
+
+117
+00:08:11,850 --> 00:08:14,670
+of this quote unquote demon, the cross, the
+
+118
+00:08:14,670 --> 00:08:18,240
+procedure by which these blocks are put into place,
+
+119
+00:08:19,650 --> 00:08:23,970
+also is requires energy to operate and requires
+
+120
+00:08:23,970 --> 00:08:27,660
+information processor to monitor the energy of the
+
+121
+00:08:27,660 --> 00:08:31,530
+particles and adjust the water with energy changes.
+
+122
+00:08:32,130 --> 00:08:34,960
+If you add together, the entropy is not only of
+
+123
+00:08:35,010 --> 00:08:39,630
+the system, but also of this device, the steam
+
+124
+00:08:39,960 --> 00:08:43,830
+that is reducing the entropy of the system, the
+
+125
+00:08:43,830 --> 00:08:46,770
+overall contribution, the entropy coming from the
+
+126
+00:08:46,770 --> 00:08:48,930
+system. On the one hand, the device on the other
+
+127
+00:08:49,530 --> 00:08:52,920
+ends up in such a way that it can increase it as
+
+128
+00:08:52,920 --> 00:08:55,220
+time goes on. So I want to.
+
+129
+00:08:57,840 --> 00:09:00,490
+We'll go through any more details about that next.
+
+130
+00:09:00,660 --> 00:09:03,660
+Stephen is one of the funding thought experiments
+
+131
+00:09:03,660 --> 00:09:07,410
+to talk about in statistical physics related to
+
+132
+00:09:08,010 --> 00:09:12,270
+the sort of particle mixing processes that we have
+
+133
+00:09:12,270 --> 00:09:12,600
+been
+
+134
+00:09:15,750 --> 00:09:21,720
+discussing this weekend and last week. In this
+
+135
+00:09:21,750 --> 00:09:26,100
+article, as I said, is on the campus site for the
+
+136
+00:09:26,100 --> 00:09:32,160
+module, if you feel inclined to check out some of
+
+137
+00:09:32,160 --> 00:09:35,070
+the additional details that it contains, which
+
+138
+00:09:35,580 --> 00:09:39,830
+also bring up the. There is there are other demons
+
+139
+00:09:39,830 --> 00:09:44,520
+that have been proposed in thermodynamics history,
+
+140
+00:09:44,540 --> 00:09:48,500
+including the Pluses Demon, a theoretical entity
+
+141
+00:09:48,500 --> 00:09:50,630
+that knows the positions and momentum of all
+
+142
+00:09:50,630 --> 00:09:54,800
+particles in the universe and can thus predict how
+
+143
+00:09:54,800 --> 00:09:59,120
+the universe as a whole will evolve since the
+
+144
+00:10:00,140 --> 00:10:04,210
+point of a tutorial is not to. Listen to me talk
+
+145
+00:10:04,210 --> 00:10:07,660
+or rather have a chance to ask any questions that
+
+146
+00:10:08,110 --> 00:10:12,250
+you have. Feel free to shout them out, or if you
+
+147
+00:10:12,250 --> 00:10:15,280
+don't have questions, have something to work on
+
+148
+00:10:15,460 --> 00:10:23,740
+yourself. I have here. An exercise related to the
+
+149
+00:10:24,400 --> 00:10:28,990
+mixing entropy that can spend some time working on
+
+150
+00:10:28,990 --> 00:10:34,300
+to make sure that what we went through, the
+
+151
+00:10:34,300 --> 00:10:38,920
+example we went through in class is all clear and
+
+152
+00:10:38,920 --> 00:10:45,750
+in particular. I switch over to the project
+
+153
+00:10:45,870 --> 00:10:51,690
+briefly, um. When we did the political lexicon.
+
+154
+00:10:52,540 --> 00:10:57,400
+Thought experiment a few days ago. So this is a
+
+155
+00:10:57,400 --> 00:11:01,540
+reminder of how the stages are set up with two
+
+156
+00:11:01,930 --> 00:11:04,810
+nautical systems that are initially separated, the
+
+157
+00:11:04,810 --> 00:11:06,700
+walls separating them and removed, they're allowed
+
+158
+00:11:06,700 --> 00:11:08,920
+to exchange particles and then that wall is
+
+159
+00:11:09,340 --> 00:11:15,130
+reinserted, sort of wrote down the formal
+
+160
+00:11:15,130 --> 00:11:23,460
+expression materials during the focus, see? Can be
+
+161
+00:11:23,490 --> 00:11:24,210
+improved.
+
+162
+00:11:28,820 --> 00:11:31,210
+I guess the expression here is not of so much
+
+163
+00:11:31,210 --> 00:11:34,120
+importance. The point is that although we wrote it
+
+164
+00:11:34,120 --> 00:11:37,870
+down, we didn't make an attempt to evaluate it, to
+
+165
+00:11:37,870 --> 00:11:43,570
+confirm that reinserting this wall, separating the
+
+166
+00:11:43,570 --> 00:11:48,310
+systems at the final stage does indeed lead to
+
+167
+00:11:48,310 --> 00:11:50,650
+behavior consistent with the second part from the
+
+168
+00:11:50,830 --> 00:11:55,040
+entropy is not decreasing as we separate new
+
+169
+00:11:55,060 --> 00:12:02,390
+systems. So and of course, that was. Only
+
+170
+00:12:02,390 --> 00:12:05,000
+problematic for the case of distinguishable
+
+171
+00:12:05,000 --> 00:12:08,120
+particles who were fully indistinguishable
+
+172
+00:12:08,120 --> 00:12:12,680
+articles in the interview was just constant
+
+173
+00:12:12,800 --> 00:12:15,900
+throughout this process of removing the wall,
+
+174
+00:12:15,920 --> 00:12:19,780
+reinserting. But the distinguishable case, there
+
+175
+00:12:19,780 --> 00:12:24,610
+was culture of mixing in and the question that was
+
+176
+00:12:24,610 --> 00:12:28,910
+left hanging, that's. It's what happens to the
+
+177
+00:12:28,910 --> 00:12:34,010
+entropy as. The wall is reinserted, have a more
+
+178
+00:12:34,010 --> 00:12:37,280
+complicated expression to compute, so that is
+
+179
+00:12:37,820 --> 00:12:42,830
+through the. The two tasks for this particular
+
+180
+00:12:42,830 --> 00:12:46,420
+tutorial probably have a chance to work on that
+
+181
+00:12:46,910 --> 00:12:55,270
+today is. Trying to simplify the setup of. These
+
+182
+00:12:55,310 --> 00:12:57,710
+distinguishable versus indistinguishable particles
+
+183
+00:12:58,160 --> 00:13:04,950
+by supposing that. We have. As in the initial case,
+
+184
+00:13:04,950 --> 00:13:09,300
+two systems with each with particle's and within
+
+185
+00:13:09,300 --> 00:13:13,260
+each of these two systems, the particles amongst
+
+186
+00:13:13,260 --> 00:13:18,210
+themselves are indistinguishable. But at the same
+
+187
+00:13:18,210 --> 00:13:21,390
+time, the particles in one system can be
+
+188
+00:13:21,390 --> 00:13:24,030
+distinguished from the particles in another system
+
+189
+00:13:24,030 --> 00:13:27,810
+by some property. Here we are using the color to
+
+190
+00:13:27,810 --> 00:13:32,880
+do that. We. Color the particles initially left,
+
+191
+00:13:32,880 --> 00:13:35,790
+when you read those initially in the right volume
+
+192
+00:13:35,790 --> 00:13:39,630
+or blue, and after we go through that process of
+
+193
+00:13:39,990 --> 00:13:42,720
+removing the wall, allowing particle mixing
+
+194
+00:13:42,870 --> 00:13:45,900
+particle exchange and then reinserting the wall,
+
+195
+00:13:47,010 --> 00:13:50,670
+the red particles and particles, we can expect to
+
+196
+00:13:50,670 --> 00:13:54,900
+be scrambled between the two we separated boxes.
+
+197
+00:13:56,040 --> 00:14:00,090
+So in the initial state, we computed the entropy
+
+198
+00:14:00,090 --> 00:14:05,820
+in class five plus 10 times, the log of this ratio
+
+199
+00:14:05,820 --> 00:14:09,600
+of the volume to end times the cube of the thermal
+
+200
+00:14:09,600 --> 00:14:15,870
+deployed wavelength. And the first question for
+
+201
+00:14:15,870 --> 00:14:20,570
+this case, that is somewhat. Intermediate between.
+
+202
+00:14:21,630 --> 00:14:25,060
+Or. Distinguishable and indistinguishable
+
+203
+00:14:25,060 --> 00:14:29,710
+particles is to compute the mixing energy from the
+
+204
+00:14:30,070 --> 00:14:32,230
+combined system, the intermediate stage is not
+
+205
+00:14:32,230 --> 00:14:35,920
+shown in this drawing when all two of these
+
+206
+00:14:35,920 --> 00:14:40,870
+particles have access to the full volume of the
+
+207
+00:14:41,020 --> 00:14:47,120
+extent to be. So the starting point for that
+
+208
+00:14:47,510 --> 00:14:51,110
+computation is the protection function for that
+
+209
+00:14:51,110 --> 00:14:57,350
+combined system where we have to add particles in
+
+210
+00:14:58,220 --> 00:15:01,310
+this to volume. And.
+
+211
+00:15:05,400 --> 00:15:09,210
+And of those particles are indistinguishable
+
+212
+00:15:09,210 --> 00:15:12,690
+amongst themselves. So the overall partition
+
+213
+00:15:12,690 --> 00:15:17,470
+function. Starts off with the product of to end
+
+214
+00:15:17,520 --> 00:15:20,900
+single particle production functions. For those
+
+215
+00:15:20,900 --> 00:15:24,140
+two in particles and then has to compensate for
+
+216
+00:15:24,470 --> 00:15:29,150
+overcounting, just as we saw in the. Tastefully
+
+217
+00:15:29,150 --> 00:15:33,050
+indistinguishable particles. The only wrinkle here
+
+218
+00:15:33,050 --> 00:15:37,310
+is that we are only overcounting by this factor of
+
+219
+00:15:37,790 --> 00:15:41,300
+whatever and vectorial for the red particles times
+
+220
+00:15:41,810 --> 00:15:44,720
+one over and vectorial for the blue particles. So
+
+221
+00:15:44,810 --> 00:15:47,000
+whatever and vectorial squared, which is much
+
+222
+00:15:47,000 --> 00:15:51,380
+smaller than the one over tumin, actual, real that
+
+223
+00:15:51,380 --> 00:15:56,330
+we had four fully distinguishable particles. And
+
+224
+00:15:56,330 --> 00:16:02,270
+then once we have determined the mixing entropy
+
+225
+00:16:02,450 --> 00:16:05,870
+that arises when the wall is removed and the
+
+226
+00:16:06,110 --> 00:16:11,360
+system. The second task is to compute the final
+
+227
+00:16:11,360 --> 00:16:14,780
+entropy. So once the wall is reinserted and we
+
+228
+00:16:14,780 --> 00:16:19,700
+have mixtures of red of the particles on each side
+
+229
+00:16:20,060 --> 00:16:23,660
+or each of the two, we separate the systems. The
+
+230
+00:16:23,660 --> 00:16:27,920
+question is, what is the final entropy that we do
+
+231
+00:16:27,920 --> 00:16:30,950
+not attempt to compute in class? And in particular,
+
+232
+00:16:31,400 --> 00:16:35,330
+the question of whether the final entropy obeys
+
+233
+00:16:35,510 --> 00:16:37,460
+the second law of thermodynamics and ends up
+
+234
+00:16:37,640 --> 00:16:43,120
+larger than. The entropy of the combined system.
+
+235
+00:16:44,670 --> 00:16:49,260
+So I'll give you a few minutes to get started on
+
+236
+00:16:49,260 --> 00:16:52,830
+that. I'll check in again and maybe five minutes
+
+237
+00:16:52,830 --> 00:16:55,750
+to see how you got involved with. Computing, just
+
+238
+00:16:55,750 --> 00:16:57,400
+the mixing entropy in the.
+
+239
+00:16:59,830 --> 00:17:02,110
+Somewhat more straightforward parts compared to
+
+240
+00:17:02,110 --> 00:17:06,280
+the final entropy, then, depending on how things
+
+241
+00:17:06,790 --> 00:17:11,620
+are going, we will. See where they go from there.
+
+242
+00:17:44,240 --> 00:17:49,160
+That was the time to do a quick check in how
+
+243
+00:17:49,610 --> 00:17:54,050
+you're getting on, whether you have a result for
+
+244
+00:17:54,050 --> 00:17:59,270
+this first task or it's more time to keep working
+
+245
+00:17:59,270 --> 00:17:59,810
+on that.
+
+246
+00:18:07,250 --> 00:18:07,730
+It's.
+
+247
+00:18:16,120 --> 00:18:20,380
+Syncope is the difference between the entropy of
+
+248
+00:18:20,380 --> 00:18:22,240
+the combined system minus that of the initial
+
+249
+00:18:22,240 --> 00:18:28,320
+system. This. Anyone done with that calculation
+
+250
+00:18:28,320 --> 00:18:33,930
+wants to. Shout out to the result they got or. So
+
+251
+00:18:33,980 --> 00:18:36,530
+they want to say they want more time to keep
+
+252
+00:18:36,530 --> 00:18:38,600
+working on that part of things.
+
+253
+00:19:10,110 --> 00:19:14,010
+Is that. Sounds like we're still working, said
+
+254
+00:19:14,030 --> 00:19:16,460
+another five minutes time check, checking again.
+
+255
+00:19:17,540 --> 00:19:23,090
+And after that point, to pause the recording a bit
+
+256
+00:19:23,090 --> 00:19:25,160
+more promptly at this time.
+
+257
+00:19:30,380 --> 00:19:33,290
+Since we're back now to address a question and
+
+258
+00:19:33,290 --> 00:19:40,760
+I'll switch over to the projector from your Web
+
+259
+00:19:40,760 --> 00:19:41,360
+browser.
+
+260
+00:19:46,460 --> 00:19:47,300
+And to
+
+261
+00:19:50,810 --> 00:19:56,000
+add a little bit of confusion to. This picture
+
+262
+00:19:56,000 --> 00:19:59,930
+that we have here still zoomed in a bit more and
+
+263
+00:19:59,940 --> 00:20:00,920
+then each of these.
+
+264
+00:20:04,290 --> 00:20:08,490
+Two compartments that are separated by a wall. We
+
+265
+00:20:08,490 --> 00:20:13,920
+have the same temperature, volume and number of
+
+266
+00:20:13,920 --> 00:20:14,730
+particles.
+
+267
+00:20:17,300 --> 00:20:21,290
+On each side, the total value, what's the system
+
+268
+00:20:21,290 --> 00:20:29,520
+is combined. So in the divine system. We have that
+
+269
+00:20:29,520 --> 00:20:34,770
+going to be with two particles and then once the
+
+270
+00:20:34,770 --> 00:20:38,970
+system is or the systems are separated, that will
+
+271
+00:20:39,000 --> 00:20:45,360
+be inserted. Then there is just particles in each
+
+272
+00:20:45,360 --> 00:20:53,350
+box to avoid being so. I don't know why the. Focus
+
+273
+00:20:53,350 --> 00:20:56,110
+on the overhead projector is so bad, but hopefully
+
+274
+00:20:56,620 --> 00:21:02,590
+that clarifies a bit what? Shown here, this is not
+
+275
+00:21:02,590 --> 00:21:08,270
+letting me zoom in anymore. So it sounds like some
+
+276
+00:21:08,270 --> 00:21:13,510
+of you have moved on from the. Mixing entropy
+
+277
+00:21:13,720 --> 00:21:19,420
+computation to computing the final entropy. So.
+
+278
+00:21:20,910 --> 00:21:23,310
+You get another minute or two. I'll check in again
+
+279
+00:21:23,310 --> 00:21:26,490
+about the result for the first half. See if that's
+
+280
+00:21:26,940 --> 00:21:29,940
+worth going over on the recording.
+
+281
+00:21:35,610 --> 00:21:36,300
+And.
+
+282
+00:21:49,320 --> 00:21:53,810
+You all the recording is underway, I'll mention a
+
+283
+00:21:54,770 --> 00:21:59,210
+identity that may prove useful in that second part,
+
+284
+00:21:59,360 --> 00:22:06,620
+which is a relation between. The. Three binomial
+
+285
+00:22:06,620 --> 00:22:09,200
+coefficients, particularly relating binomial
+
+286
+00:22:09,200 --> 00:22:13,880
+coefficient of two, and she was then would be some
+
+287
+00:22:13,880 --> 00:22:18,020
+of the squares, the binomial coefficients for and
+
+288
+00:22:18,020 --> 00:22:24,890
+she was K for all K from zero to end. And then in
+
+289
+00:22:24,890 --> 00:22:27,780
+Europe, this tends to be known as the abandonment
+
+290
+00:22:27,950 --> 00:22:28,700
+identity.
+
+291
+00:22:32,980 --> 00:22:40,150
+Or Bannerman's Identity, which was published in 17
+
+292
+00:22:40,750 --> 00:22:45,100
+70s, about four hundred fifty years after it had
+
+293
+00:22:45,100 --> 00:22:49,410
+been derived by its Chinese mathematician, Zhou
+
+294
+00:22:49,450 --> 00:22:53,380
+Shuja, which whose name I obviously cannot
+
+295
+00:22:53,380 --> 00:22:56,380
+pronounce, I apologize for the butchering of
+
+296
+00:22:57,590 --> 00:23:00,910
+however it is meant to be pronounced properly.
+
+297
+00:23:02,410 --> 00:23:07,870
+This fellow came up with this identity that will
+
+298
+00:23:07,870 --> 00:23:10,780
+be useful in the second part.
+
+299
+00:23:13,250 --> 00:23:19,070
+No one system is no longer filling the screen, you
+
+300
+00:23:19,100 --> 00:23:21,260
+came up with that more than seven hundred years
+
+301
+00:23:21,260 --> 00:23:21,710
+ago.
+
+302
+00:23:27,120 --> 00:23:32,420
+Download the file. It would be a bit more. Well
+
+303
+00:23:32,520 --> 00:23:33,150
+behaved.
+
+304
+00:23:41,280 --> 00:23:45,210
+Yes, that is certainly more flexible.
+
+305
+00:24:07,170 --> 00:24:10,430
+Plus, the recording, again, for. Another few
+
+306
+00:24:10,430 --> 00:24:10,910
+minutes.
+
+307
+00:24:12,910 --> 00:24:15,580
+And if you do finish up with the mixing entropy in
+
+308
+00:24:15,580 --> 00:24:21,990
+that time, go on to that second task. Keep
+
+309
+00:24:21,990 --> 00:24:25,790
+yourself busy and just let me know how you're
+
+310
+00:24:26,010 --> 00:24:26,730
+progressing.
+
+311
+00:24:32,930 --> 00:24:39,040
+That is the final stretch for this afternoon and
+
+312
+00:24:40,570 --> 00:24:45,150
+maybe to. Get things wrapped up. I'll see you
+
+313
+00:24:45,150 --> 00:24:50,380
+again if anyone wants to shout out. A. The result
+
+314
+00:24:50,380 --> 00:24:54,100
+for the mixing entropy on removing the ball,
+
+315
+00:24:54,100 --> 00:24:56,020
+dividing the two systems.
+
+316
+00:25:03,550 --> 00:25:03,900
+Know.
+
+317
+00:25:08,510 --> 00:25:11,120
+So that's a complicated and more complicated
+
+318
+00:25:11,120 --> 00:25:13,730
+expression than I have I found
+
+319
+00:25:15,800 --> 00:25:23,620
+to and more to as this resource for the entropy
+
+320
+00:25:23,630 --> 00:25:26,300
+when we combine the system compared to the entropy
+
+321
+00:25:26,930 --> 00:25:29,990
+from the initial state when the system is
+
+322
+00:25:30,320 --> 00:25:35,850
+separated. It sounds like that was not what you
+
+323
+00:25:35,850 --> 00:25:39,900
+were finding. Let me go through one or two ways to
+
+324
+00:25:39,900 --> 00:25:45,130
+calculate this mixing entropy reasonably quickly.
+
+325
+00:25:45,930 --> 00:25:51,430
+It is possible to start from the proficient
+
+326
+00:25:51,430 --> 00:25:54,840
+function for that combined system, 50 logarithm to
+
+327
+00:25:54,850 --> 00:25:59,130
+find out the energy, the derivative of the energy
+
+328
+00:25:59,190 --> 00:26:04,300
+supply, the residual energy or the entropy. But
+
+329
+00:26:04,390 --> 00:26:07,920
+there's actually a trick that we can do by
+
+330
+00:26:07,920 --> 00:26:13,020
+inspecting this partition function carefully here.
+
+331
+00:26:13,470 --> 00:26:20,730
+The trick is to rewrite the zc as.
+
+332
+00:26:23,090 --> 00:26:24,770
+A product of two factors
+
+333
+00:26:26,980 --> 00:26:32,870
+will have to work on the one hand
+
+334
+00:26:36,800 --> 00:26:41,180
+and left over the other. There were, in fact, all
+
+335
+00:26:43,580 --> 00:26:45,500
+the other factors
+
+336
+00:26:47,750 --> 00:26:48,550
+related to.
+
+337
+00:26:51,170 --> 00:26:56,270
+And what we can do based on this way is recognize
+
+338
+00:26:56,270 --> 00:27:01,170
+that each of these identical terms is the.
+
+339
+00:27:03,440 --> 00:27:07,850
+Can I go with a function for an indistinguishable
+
+340
+00:27:07,850 --> 00:27:09,620
+particles in
+
+341
+00:27:11,740 --> 00:27:16,840
+two great. There are two factors, not a political
+
+342
+00:27:17,200 --> 00:27:20,890
+indistinguishable protection function, which is an
+
+343
+00:27:20,890 --> 00:27:26,020
+interesting result, already said that the once the
+
+344
+00:27:26,020 --> 00:27:29,050
+barrier is removed and the particles are allowed
+
+345
+00:27:29,050 --> 00:27:33,210
+to mix in this volume, they behave incredibly
+
+346
+00:27:33,310 --> 00:27:35,860
+independently of the other. And what we end up
+
+347
+00:27:35,860 --> 00:27:40,630
+with is, in essence, two copies of an
+
+348
+00:27:40,630 --> 00:27:43,580
+indistinguishable particles, one copy for the
+
+349
+00:27:43,870 --> 00:27:48,760
+particles, one be for the particles. The
+
+350
+00:27:49,720 --> 00:27:55,270
+corresponding entropy then is twice the entropy
+
+351
+00:27:55,270 --> 00:28:00,890
+for the particles in way to be a very powerful
+
+352
+00:28:00,910 --> 00:28:01,450
+class.
+
+353
+00:28:03,880 --> 00:28:08,860
+Size five has crossed
+
+354
+00:28:12,250 --> 00:28:17,680
+over in the first place. And here's.
+
+355
+00:28:21,140 --> 00:28:27,470
+All the is in place, if I shift the screen here a
+
+356
+00:28:27,470 --> 00:28:32,090
+bit to compare that combined entropy with the
+
+357
+00:28:32,690 --> 00:28:35,420
+starting entropy, what
+
+358
+00:28:37,790 --> 00:28:38,240
+was?
+
+359
+00:28:41,330 --> 00:28:48,500
+The Times, the signature factor of five, and it's
+
+360
+00:28:48,640 --> 00:28:48,980
+allowed.
+
+361
+00:28:51,220 --> 00:28:56,740
+Everything in the two in the Atlantic will cancel
+
+362
+00:28:56,740 --> 00:29:04,420
+out what is left is two and two that I claim was
+
+363
+00:29:04,420 --> 00:29:07,180
+my answer. So.
+
+364
+00:29:11,530 --> 00:29:16,360
+One possibly surprising thing about this result is
+
+365
+00:29:16,360 --> 00:29:20,170
+that it is exactly the same as the Fab Four,
+
+366
+00:29:20,440 --> 00:29:23,620
+completely distinguishable particles as opposed to
+
+367
+00:29:24,160 --> 00:29:28,750
+this case, or we have two sets of particles that
+
+368
+00:29:28,750 --> 00:29:32,120
+are in the same cells that are distinguishable
+
+369
+00:29:32,140 --> 00:29:36,760
+from the other sets. Compared to the fully
+
+370
+00:29:36,760 --> 00:29:39,040
+distinguishable case, both
+
+371
+00:29:41,470 --> 00:29:44,890
+biometrically are smaller, there are fewer
+
+372
+00:29:44,890 --> 00:29:49,360
+microstates exactly makes utility. But the
+
+373
+00:29:49,360 --> 00:29:52,870
+difference between them removing this wall and
+
+374
+00:29:52,900 --> 00:29:56,810
+allowing the predators makes. Ends up being
+
+375
+00:29:56,810 --> 00:30:00,880
+exactly the same, which is something that a nice
+
+376
+00:30:00,920 --> 00:30:04,850
+aspect of this documentation that I enjoy. There
+
+377
+00:30:04,880 --> 00:30:10,820
+is also a second way of doing this computation
+
+378
+00:30:10,820 --> 00:30:16,000
+that wouldn't rely on through our notes or
+
+379
+00:30:16,770 --> 00:30:20,630
+expression would be indistinguishable entropy or a
+
+380
+00:30:20,630 --> 00:30:25,820
+number of particles of the bullet. And this other
+
+381
+00:30:25,820 --> 00:30:29,180
+trick is a bit more generally applicable.
+
+382
+00:30:31,290 --> 00:30:37,080
+The approach is to recall that the Entropia,
+
+383
+00:30:39,300 --> 00:30:45,310
+in terms of the HUMBOLDT'S energy, is the negative
+
+384
+00:30:45,450 --> 00:30:48,570
+derivative with respect to temperature of that
+
+385
+00:30:48,570 --> 00:30:53,490
+free energy and Freelander yourself, like negative
+
+386
+00:30:53,490 --> 00:30:58,000
+temperature, climbs more of the partition function.
+
+387
+00:30:59,070 --> 00:31:00,420
+So putting things together
+
+388
+00:31:03,030 --> 00:31:05,780
+with all means
+
+389
+00:31:08,970 --> 00:31:11,160
+and if we look only at.
+
+390
+00:31:13,350 --> 00:31:17,110
+Differences between countries, which is what this
+
+391
+00:31:17,130 --> 00:31:22,170
+makes America, is that the purpose of liberty is a
+
+392
+00:31:22,170 --> 00:31:30,310
+linear alteration and it's an Zitter difference
+
+393
+00:31:30,420 --> 00:31:31,020
+between.
+
+394
+00:31:33,360 --> 00:31:35,150
+Two energy is.
+
+395
+00:31:39,070 --> 00:31:41,930
+This, the partition function system, partition
+
+396
+00:31:41,930 --> 00:31:48,980
+function, which if I combine those logs and divide
+
+397
+00:31:48,980 --> 00:31:52,180
+up this product, I use your product rule
+
+398
+00:31:52,760 --> 00:31:56,420
+derivative of T with respect to T is just more of
+
+399
+00:31:57,290 --> 00:32:07,890
+the lower the ratio of functions. Lots and lots of
+
+400
+00:32:09,870 --> 00:32:11,700
+balls of ratio's.
+
+401
+00:32:14,340 --> 00:32:18,240
+That's visible around the screen, part of the
+
+402
+00:32:18,240 --> 00:32:23,820
+simplification from this approach is that this
+
+403
+00:32:24,330 --> 00:32:28,560
+board of protection functions tends to be and is
+
+404
+00:32:28,560 --> 00:32:33,510
+in this case easily seen to be independent of the
+
+405
+00:32:33,510 --> 00:32:36,720
+temperature so that this whole second term
+
+406
+00:32:36,720 --> 00:32:40,320
+vanishes from the outset. And we just have to
+
+407
+00:32:40,620 --> 00:32:45,270
+compute the logarithm of canonical partition
+
+408
+00:32:45,270 --> 00:32:54,210
+functions. So we are. Given. The. Partition
+
+409
+00:32:54,210 --> 00:32:59,290
+function for the combined system. And if we can
+
+410
+00:32:59,290 --> 00:33:04,120
+know, we can figure out that provision for the
+
+411
+00:33:05,170 --> 00:33:06,100
+initial system,
+
+412
+00:33:08,140 --> 00:33:10,290
+if I showed this
+
+413
+00:33:12,430 --> 00:33:18,310
+this expression, I get rid of a fairly complicated
+
+414
+00:33:18,310 --> 00:33:21,510
+looking ratio. The combined system we have.
+
+415
+00:33:24,450 --> 00:33:24,990
+Square.
+
+416
+00:33:27,030 --> 00:33:36,330
+Times is changing over used to intelligence, and
+
+417
+00:33:36,330 --> 00:33:40,560
+that is the greater discretion whether to combine
+
+418
+00:33:40,590 --> 00:33:48,450
+systems going to have dual. Information for an
+
+419
+00:33:48,780 --> 00:33:51,970
+independent particles in.
+
+420
+00:33:56,270 --> 00:34:02,450
+In a volume V so we can have in the system and you
+
+421
+00:34:02,450 --> 00:34:06,010
+will have one factor of that from the system. Well,
+
+422
+00:34:06,020 --> 00:34:11,100
+that's one factor of the system, the loose. And
+
+423
+00:34:12,110 --> 00:34:15,480
+it's easy to look at the terms of the numerator
+
+424
+00:34:15,500 --> 00:34:19,950
+over here. It's like in factorial, the video will
+
+425
+00:34:20,020 --> 00:34:24,500
+accuse the factor of two of the square come in and
+
+426
+00:34:24,500 --> 00:34:32,240
+all that is left is smaller than on to three and
+
+427
+00:34:32,660 --> 00:34:33,140
+which is going
+
+428
+00:34:35,690 --> 00:34:41,480
+through the same result. The other needs
+
+429
+00:34:44,030 --> 00:34:49,460
+see how we're doing for time, which is already. So.
+
+430
+00:34:50,570 --> 00:34:54,410
+With this is hopefully inspiration or illustration,
+
+431
+00:34:54,950 --> 00:34:59,280
+just you can keep plugging away at the task then
+
+432
+00:34:59,330 --> 00:35:03,320
+of computing the final entropy, the especially
+
+433
+00:35:03,320 --> 00:35:06,470
+interesting bits of this exercise, and we will
+
+434
+00:35:06,770 --> 00:35:10,580
+check in about that this time next week or so
+
+435
+00:35:10,580 --> 00:35:14,120
+before then. I'll see you on Monday for the wrap
+
+436
+00:35:14,120 --> 00:35:17,810
+up of the current cycle and starting the grand
+
+437
+00:35:17,810 --> 00:35:21,530
+canonical ensemble. Hope you have a nice weekend
+
+438
+00:35:21,780 --> 00:35:21,940
+in.
