@@ -1,13 +1,13 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 7}
-\renewcommand{\moddate}{Last modified 6 Mar.~2022}
+\renewcommand{\moddate}{Last modified 10 Mar.~2022}
 \setcounter{section}{7}
 \setcounter{subsection}{0}
 \phantomsection
 \addcontentsline{toc}{section}{Unit 7: Quantum statistics}
 \section*{Unit 7: Quantum statistics}
 \subsection{\label{sec:quantum}Quantized energy levels and their micro-states}
-This week we begin applying the grand-canonical ensemble to investigate quantum statistical systems.
+Now that we have defined the grand-canonical ensemble, we will apply it to investigate quantum statistical systems.
 The first step is to introduce quantum statistics itself, building on the initial glimpse that we got in \secref{sec:regulate}.
 It is worth reiterating that no prior knowledge of quantum physics is assumed, nor will this module attempt to teach quantum mechanics.
 We will simply consider quantum behaviour as an ansatz (that turns out to be realized in nature), and analyze the resulting systems by making use of the statistical physics tools we have developed.
@@ -19,15 +19,16 @@ First, because the partition function is defined as a sum over micro-states $\om
 \end{equation*}
 we had to conjecture that the gas particles' momenta $\vec{p}_i$ are \textit{quantized} and can take only particular discrete values, rather than varying continuously.
 These quantized momenta produce a countable number of discrete \textit{energy levels}, leading to a countable number of micro-states and hence a well-defined partition function that takes the form of a sum over all possible discrete momenta for each particle.
-Second, we then assumed that the energy levels are spaced very close to each other, allowing us to approximate that sum as a multi-dimensional gaussian integral.
+Second, we then argued that when $L\sqrt{mT} \gg \hbar$, any energy levels with non-negligible Boltzmann factors are spaced very close to each other.
+Therefore the function being summed varies very smoothly, allowing us to approximate that sum as a multi-dimensional gaussian integral.
 That is, we went right back to working with continuously varying momenta, despite the formal need to regulate the system by quantization.
 
-For the next few weeks, we will work in the quantum regime where all energy levels of a system remain discrete.
+For this unit and the following unit, we will work in the quantum regime where $L\sqrt{mT} \sim \hbar$ and all energy levels of a system remain discrete.
 In addition, a more subtle change of approach is required by the fundamental indistinguishability of particles governed by quantum mechanics.
 This quantum indistinguishability is a fact about nature that we will take as given.
 
 To appreciate the consequences of quantum indistinguishability, let's first apply our usual (classical) approach to compute the grand-canonical partition function for a system with discrete energy levels.
-Despite the quantized energy levels, this calculation will still produce a non-quantum result known as \textbf{Maxwell--Boltzmann} (MB) statistics (named after \href{https://en.wikipedia.org/wiki/James_Clerk_Maxwell}{James Clerk Maxwell} and Ludwig Boltzmann).
+Despite the quantized energy levels, this calculation will still produce a non-quantum result known as \textbf{Maxwell--Boltzmann} (MB) statistics, named after \href{https://en.wikipedia.org/wiki/James_Clerk_Maxwell}{James Clerk Maxwell} and Ludwig Boltzmann.
 We will be able to see when this result is a good approximation and when it breaks down.
 
 To define some notation, let's label the discrete energy levels $\cE_{\ell}$ for $\ell = 0$, $1$, $\cdots$, $L$, where $L$ can be taken to infinity while retaining a countable number of micro-states and hence well-defined partition functions.
@@ -76,6 +77,7 @@ leading to the Maxwell--Boltzmann grand-canonical partition function
 \end{equation}
 
 Unfortunately, as mentioned in a footnote accompanying \eq{eq:ideal_indis}, this derivation relies on the assumption that every particle occupies a different energy level.
+%TODO: Phrased there as distinguishing particles by their momenta...
 While this would be effectively guaranteed when the particles' energies vary continuously, and can be an excellent approximation when there are many more energy levels than there are particles to occupy them, the assumption breaks down if there is a non-negligible chance of two particles occupying the same energy level.
 
 We can illustrate this with a simple exercise of considering a system with $N = 2$ particles that can occupy any of five energy levels.
@@ -195,7 +197,7 @@ In the last step we recognized the geometric series
 \end{equation*}
 which only converges for $x = e^{-\be (E - \mu)} < 1$.
 For natural systems with $\be = 1 / T > 0$, this condition requires $E - \mu > 0$ or equivalently $\mu < E$.
-Since we can also take $E_{\ell} \geq 0$ without loss of generality, this constraint is consistent with the negative chemical potential $\mu < 0$ that we discussed last week.
+Since we can also take $E_{\ell} \geq 0$ without loss of generality, this constraint is consistent with the negative chemical potential $\mu < 0$ that we discussed in Unit~6.
 
 At this point, it is straightforward to generalize to multiple energy levels $\cE_{\ell}$ with $\ell = 0$, $1$, $\cdots$, $L$.
 Because we consider only ideal systems with non-interacting particles, the micro-state $\om_i$ defined by the set of occupation numbers $\left\{n_{\ell}\right\}$ has total energy and particle number
@@ -227,7 +229,7 @@ Looking back to \eq{eq:partfunc_BE}, we can also observe factorization in the cl
   \ZMB(\be, \mu) = \exp\left[\sum_{\ell = 0}^L e^{-\be\left(E_{\ell} - \mu\right)}\right] = \prod_{\ell = 0}^L \exp\left[e^{-\be\left(E_{\ell} - \mu\right)}\right].
 \end{equation}
 In all of these cases, factorization is possible because the particles are non-interacting.
-In a few weeks we will consider non-ideal systems in which the particles can interact with each other, where the absence of factorization will make analyses much more difficult.
+Starting in Unit~9 we will consider non-ideal systems in which the particles can interact with each other, where the absence of factorization will make analyses much more difficult.
 % ------------------------------------------------------------------
 
 
@@ -251,8 +253,8 @@ Generalizing to multiple energy levels $\cE_{\ell}$ with $\ell = 0$, $1$, $\cdot
 This grand-canonical partition function defines the quantum Fermi--Dirac statistics of fermions.
 In this case it is possible for the chemical potential $\mu$ to be either positive or negative.
 
-Over the next two weeks we will take \ZBE and \ZFD as starting points to analyze quantum gases of bosons and fermions, respectively.
-Before beginning those more detailed analyses, let's quickly compare the three types of statistics that we have derived this week, while they are all close to hand.
+In Unit~8 we will take \ZBE and \ZFD as starting points to analyze quantum gases of bosons and fermions, respectively.
+Before beginning those more detailed analyses, let's quickly compare the three types of statistics that we have derived in this unit, while they are all close to hand.
 % ------------------------------------------------------------------
 
 
@@ -260,7 +262,7 @@ Before beginning those more detailed analyses, let's quickly compare the three t
 % ------------------------------------------------------------------
 \subsection{\label{sec:quantum_classical}The classical limit}
 In \secref{sec:quantum} we claimed that the classical Maxwell--Boltzmann statistics leading to \eq{eq:partfunc_MB} can be an excellent approximation to quantum statistics (both bosonic and fermionic), if the probability of multiple particles occupying the same energy level is negligible.
-We will wrap up this week by demonstrating this fact and clarifying the conditions that correspond to this `classical limit' of quantum statistics.
+We will wrap up this unit by demonstrating this fact and clarifying the conditions that correspond to this `classical limit' of quantum statistics.
 
 It is useful to start by considering the contrapositive of the statement in the previous paragraph:
 If Maxwell--Boltzmann statistics predicts a non-negligible probability for multiple particles to occupy the same energy level, then it will disagree with the true quantum statistics.
@@ -289,7 +291,7 @@ Recalling $\log\left[\prod_i x_i\right] = \sum_i \log x_i$, the corresponding gr
   \Phi_{\text{FD}} & = -T \sum_{\ell = 0}^L \log\left[1 + e^{-\be (E_{\ell} - \mu)}\right].
 \end{align*}
 We are now ready to compute the average particle numbers.
-Using the result we derived last week,
+Using the result we derived in \secref{sec:grand_pot},
 \begin{equation*}
   \vev{N} = -\pderiv{\Phi}{\mu},
 \end{equation*}
@@ -345,5 +347,5 @@ This corresponds to the right portion of the plot below,\footnote{The plot comes
 
 In the low-temperature regime $\frac{E_{\ell} - \mu}{T} \ll 1$ corresponding to the left portion of the plot, we see dramatically different behaviour for the three cases.
 The classical Maxwell--Boltzmann prediction for the average occupation number grows exponentially, while the quantum Bose--Einstein prediction diverges as $E_{\ell} \to \mu$ and the Fermi--Dirac prediction slowly approaches its maximum possible value $\nFD \to 1$.
-Over the next two weeks we will study in more detail the quantum gases of bosons and fermions that produce these results.
+In the next unit we will study in more detail the quantum gases of bosons and fermions that produce these results.
 % ------------------------------------------------------------------
