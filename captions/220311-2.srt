@@ -1,0 +1,2447 @@
+1
+00:00:02,820 --> 00:00:08,070
+All right, welcome back to Friday afternoon, the end of the week,
+
+2
+00:00:09,680 --> 00:00:13,640
+at least for statistical physics, and the start of
+
+3
+00:00:13,640 --> 00:00:16,970
+the end can be the six-digit number for this afternoon:
+
+4
+00:00:22,310 --> 00:00:27,910
+four seven seven seven five eight.
+
+5
+00:00:32,680 --> 00:00:33,300
+And it seems to be
+
+6
+00:00:37,680 --> 00:00:40,950
+warm of these days that leaving that window open
+
+7
+00:00:40,950 --> 00:00:47,190
+isn't going to make things too cold in here. We'll see how we
+
+8
+00:00:47,190 --> 00:00:51,600
+get on at this point. There are about three
+
+9
+00:00:52,410 --> 00:00:56,670
+things in the bag for this afternoon. And the idea
+
+10
+00:00:56,670 --> 00:01:00,540
+is I'll just go straight through them in this
+
+11
+00:01:00,540 --> 00:01:06,070
+order. Starting with a quick look at the computer
+
+12
+00:01:06,070 --> 00:01:11,050
+project, solutions for feedback on that first part
+
+13
+00:01:11,140 --> 00:01:14,370
+and a quick look forward to the second part of the
+
+14
+00:01:14,370 --> 00:01:20,270
+week's. That the. Not a trivial exercise that we
+
+15
+00:01:21,050 --> 00:01:24,680
+got started last week with the mixing of two
+
+16
+00:01:24,680 --> 00:01:28,040
+different types of otherwise indistinguishable
+
+17
+00:01:28,040 --> 00:01:31,230
+particles and the resulting mixing entropy when
+
+18
+00:01:31,460 --> 00:01:34,970
+the systems are combined and separated, and then
+
+19
+00:01:34,970 --> 00:01:40,880
+that everyone outside knows the new and exciting
+
+20
+00:01:41,240 --> 00:01:43,880
+tutorial exercise on different sorts of
+
+21
+00:01:44,270 --> 00:01:48,050
+thermodynamics cycles, a bit more practically
+
+22
+00:01:48,320 --> 00:01:51,110
+useful than the current cycle.
+
+23
+00:01:53,110 --> 00:01:56,560
+And of course, this is far as an opportunity for
+
+24
+00:01:57,070 --> 00:02:01,680
+you to bring up any questions, have the topics but
+
+25
+00:02:01,690 --> 00:02:06,480
+the others want to know more about, I have this
+
+26
+00:02:06,490 --> 00:02:11,250
+bottom on the screen, very focused and.
+
+27
+00:02:14,320 --> 00:02:17,650
+Not hearing any urgent questions coming up,
+
+28
+00:02:19,750 --> 00:02:22,600
+make a few quick comments about the solutions to
+
+29
+00:02:22,600 --> 00:02:26,440
+this first part of the computer project, probably
+
+30
+00:02:26,680 --> 00:02:30,030
+just looking at the plots that we have dispersed,
+
+31
+00:02:30,040 --> 00:02:36,320
+exercises calling the. Particular type of function,
+
+32
+00:02:37,620 --> 00:02:42,270
+random, random, to generate the security number
+
+33
+00:02:42,870 --> 00:02:46,470
+many times and then manipulating those results to
+
+34
+00:02:47,640 --> 00:02:50,910
+check the average standard deviation of a fairly
+
+35
+00:02:51,240 --> 00:02:55,170
+trivial uniform distribution. Maybe the
+
+36
+00:02:55,170 --> 00:02:58,410
+interesting thing about this is that when we look
+
+37
+00:02:58,410 --> 00:03:05,240
+at how the fluctuations of our estimates for. The
+
+38
+00:03:06,200 --> 00:03:09,860
+meaning of that uniform distribution from the law
+
+39
+00:03:09,860 --> 00:03:14,240
+of large numbers. The fluctuations around the true
+
+40
+00:03:14,570 --> 00:03:15,500
+Analytica mean.
+
+41
+00:03:18,330 --> 00:03:20,910
+Can be computed by repeating that estimation many
+
+42
+00:03:20,910 --> 00:03:27,760
+times and then checking that. The difference
+
+43
+00:03:28,780 --> 00:03:32,020
+between this estimate from the law of large
+
+44
+00:03:32,020 --> 00:03:35,320
+numbers and the true meaning, it's closer to.
+
+45
+00:03:38,240 --> 00:03:41,090
+Proportionately to this one, overall, the number
+
+46
+00:03:41,090 --> 00:03:42,580
+of repetitions somebody.
+
+47
+00:03:45,160 --> 00:03:48,880
+Numerically verifying something that you saw in
+
+48
+00:03:48,880 --> 00:03:54,780
+class, namely that. The. Number of repetitions
+
+49
+00:03:54,900 --> 00:03:59,490
+times, the deviation between the arithmetic mean
+
+50
+00:03:59,910 --> 00:04:03,600
+and the true meaning is a constant. And in
+
+51
+00:04:03,600 --> 00:04:07,050
+particular, this counts. It turns out to be, as we
+
+52
+00:04:07,200 --> 00:04:10,710
+derived in class, just the variance of the
+
+53
+00:04:10,710 --> 00:04:13,830
+distribution in this case, what, twelve point
+
+54
+00:04:14,130 --> 00:04:18,930
+three that's plotted on. But as the solid orange
+
+55
+00:04:18,930 --> 00:04:23,040
+line compared to the numerical estimates and the
+
+56
+00:04:23,040 --> 00:04:25,590
+number of repetitions being used in this analysis
+
+57
+00:04:25,590 --> 00:04:30,020
+increased by a factor of ten thousand the.
+
+58
+00:04:32,580 --> 00:04:36,300
+That should be a consequence, as are increases
+
+59
+00:04:36,300 --> 00:04:39,630
+from ten to one hundred thousand is just bouncing
+
+60
+00:04:39,630 --> 00:04:43,230
+around within 10 to 20 percent of the expected
+
+61
+00:04:43,230 --> 00:04:49,830
+value. Exercise to sort of looking at a
+
+62
+00:04:50,640 --> 00:04:55,890
+non-trivial distribution related. To that uniform
+
+63
+00:04:55,890 --> 00:05:00,970
+distribution by the arc, Simon. Inversed transform,
+
+64
+00:05:00,970 --> 00:05:06,740
+sampling this exercise was. The easiest one for
+
+65
+00:05:06,740 --> 00:05:10,640
+most folks, it's another computation of the exact
+
+66
+00:05:10,640 --> 00:05:14,570
+mean and standard deviation of this non-trivial
+
+67
+00:05:15,020 --> 00:05:20,320
+distribution, and some of you could check that. So
+
+68
+00:05:20,350 --> 00:05:23,200
+the probability distribution you can derive.
+
+69
+00:05:26,980 --> 00:05:29,640
+Random variables distributed, according to their
+
+70
+00:05:29,680 --> 00:05:39,810
+cosign, that the limits. On the range of. X is
+
+71
+00:05:39,830 --> 00:05:43,430
+looking at this kind of stuff, what I needed to
+
+72
+00:05:44,090 --> 00:05:47,100
+have the integral over probability distribution
+
+73
+00:05:47,100 --> 00:05:53,600
+itself add up two to one snippet of X, the X
+
+74
+00:05:53,600 --> 00:05:58,550
+equals one, given the limits of minus six to six.
+
+75
+00:05:58,550 --> 00:06:03,040
+And this is an automatic consequence of. Setting
+
+76
+00:06:03,040 --> 00:06:05,080
+up this distribution through that inversed
+
+77
+00:06:05,080 --> 00:06:09,580
+transform sampling already released to the uniform
+
+78
+00:06:09,580 --> 00:06:14,440
+distribution where the probability. More
+
+79
+00:06:14,470 --> 00:06:16,200
+critically, it adds up to a larger percentage of
+
+80
+00:06:16,210 --> 00:06:20,230
+these inevitable transformations, preserve that
+
+81
+00:06:20,920 --> 00:06:27,240
+total probability. So that's. The basic properties
+
+82
+00:06:27,240 --> 00:06:30,530
+of. The probability are satisfied by any
+
+83
+00:06:30,530 --> 00:06:35,630
+distribution obtained through the sample. And as I
+
+84
+00:06:35,630 --> 00:06:39,030
+said, this was the. Exercise is the easiest for
+
+85
+00:06:39,030 --> 00:06:43,530
+most folks who got a nice agreement between the
+
+86
+00:06:43,530 --> 00:06:47,520
+cosine of X that solitaries line and the
+
+87
+00:06:47,520 --> 00:06:52,860
+normalized Vistaprint. Running from minus six to
+
+88
+00:06:53,310 --> 00:06:58,970
+six. With a million samples that can be computer
+
+89
+00:06:59,420 --> 00:07:03,830
+generated in about five seconds, this facility is
+
+90
+00:07:04,220 --> 00:07:08,540
+exercise three, which was the more challenging one.
+
+91
+00:07:12,440 --> 00:07:18,050
+And maybe the main challenge we're talking about
+
+92
+00:07:18,350 --> 00:07:22,310
+here in person is just the amount of computing
+
+93
+00:07:22,310 --> 00:07:27,530
+time that it is going to be done over there that
+
+94
+00:07:27,710 --> 00:07:33,350
+some folks reported needing to invest in order to
+
+95
+00:07:33,890 --> 00:07:38,540
+come up with this part of the. Diffusion length,
+
+96
+00:07:38,780 --> 00:07:42,020
+as estimated from the ballpark numbers, the
+
+97
+00:07:42,020 --> 00:07:45,380
+arithmetic mean of the diffusion line for ten
+
+98
+00:07:45,380 --> 00:07:50,000
+thousand samples for every and the number of steps
+
+99
+00:07:50,000 --> 00:07:54,420
+in the walk ranging from a single step walk. All
+
+100
+00:07:54,420 --> 00:07:59,310
+the way up to walks of five hundred steps. And the
+
+101
+00:08:01,080 --> 00:08:08,160
+trick that helps this competition run a bit faster
+
+102
+00:08:08,370 --> 00:08:13,020
+in about 20 seconds on my laptop, 40 seconds on
+
+103
+00:08:13,020 --> 00:08:18,440
+the clock. Is hinted at in the demo, which is to
+
+104
+00:08:18,440 --> 00:08:22,460
+note that if we go through the trouble of
+
+105
+00:08:22,760 --> 00:08:25,940
+computing this final points, ten thousand
+
+106
+00:08:26,540 --> 00:08:29,510
+different marks, each of five hundred steps in the
+
+107
+00:08:29,510 --> 00:08:33,200
+first four hundred ninety nine steps of that five
+
+108
+00:08:33,200 --> 00:08:36,350
+hundred step will give us ten thousand four
+
+109
+00:08:36,350 --> 00:08:39,710
+hundred ninety nine steps already lied about. And
+
+110
+00:08:39,820 --> 00:08:42,710
+the first steps are all the hundreds of works that
+
+111
+00:08:42,710 --> 00:08:46,570
+we need and all the way across here. Now,
+
+112
+00:08:46,570 --> 00:08:53,430
+obviously, this has the. Effect that. The five
+
+113
+00:08:53,430 --> 00:08:55,800
+hundred step walks only differ from the four
+
+114
+00:08:55,830 --> 00:08:58,120
+hundred by the Knights that walks by that last
+
+115
+00:08:58,230 --> 00:09:01,950
+single step, which is part of the reason why the
+
+116
+00:09:01,950 --> 00:09:07,190
+data in blue are. So smooth in this result and
+
+117
+00:09:07,190 --> 00:09:13,040
+ignore those correlations was the time to be in
+
+118
+00:09:13,040 --> 00:09:17,060
+the exercise that allowed it to run in the 20
+
+119
+00:09:17,060 --> 00:09:23,270
+seconds as opposed to 20 minutes. How do you have
+
+120
+00:09:23,270 --> 00:09:23,720
+to.
+
+121
+00:09:25,940 --> 00:09:27,920
+Fit this comparison on the screen.
+
+122
+00:09:30,800 --> 00:09:35,290
+So the. Far to the left here is the same one we
+
+123
+00:09:35,290 --> 00:09:38,350
+were just looking at figures out its focus again,
+
+124
+00:09:39,040 --> 00:09:43,930
+where we ignored the correlations between all of
+
+125
+00:09:43,930 --> 00:09:47,320
+these lots of different number of steps and just
+
+126
+00:09:47,320 --> 00:09:51,070
+use the five hundred step walk as the source of
+
+127
+00:09:51,070 --> 00:09:56,010
+all the shorter walks. If we repeat that, the cost
+
+128
+00:09:56,010 --> 00:10:00,720
+of one hundred times more computing than what we
+
+129
+00:10:00,720 --> 00:10:04,500
+can see by having them side by side like this is a
+
+130
+00:10:04,500 --> 00:10:09,810
+greater amount of. Sarcastic scatter around the
+
+131
+00:10:09,830 --> 00:10:14,760
+fit. So getting this to the square root of N.
+
+132
+00:10:19,540 --> 00:10:19,820
+That.
+
+133
+00:10:22,900 --> 00:10:26,820
+Hide the fact that the data points in blue are
+
+134
+00:10:26,880 --> 00:10:27,880
+bouncing around.
+
+135
+00:10:30,840 --> 00:10:35,460
+To a greater magnitude above and below that, if I
+
+136
+00:10:35,460 --> 00:10:41,380
+wanted to write about. Zoom in on. The
+
+137
+00:10:41,390 --> 00:10:46,130
+uncharitably bought the plot showing uncorrelated
+
+138
+00:10:46,280 --> 00:10:52,520
+results. Mr.. Make that a bit clearer to see the
+
+139
+00:10:52,520 --> 00:10:56,000
+effect of those correlations and smoothing out
+
+140
+00:10:56,330 --> 00:10:59,900
+that behavior. So if we were being.
+
+141
+00:11:01,910 --> 00:11:05,930
+Very careful about estimating uncertainties in
+
+142
+00:11:06,290 --> 00:11:08,570
+things like the coefficients of these and
+
+143
+00:11:08,870 --> 00:11:11,270
+predictions for physics, we might want to worry
+
+144
+00:11:11,270 --> 00:11:14,900
+about those correlations. That's. Something that.
+
+145
+00:11:16,540 --> 00:11:19,840
+We don't need to tell a lot of effort into you for
+
+146
+00:11:19,840 --> 00:11:23,980
+the purposes of this exercise, just confirming the
+
+147
+00:11:24,640 --> 00:11:28,120
+expected security independence is sufficient for
+
+148
+00:11:28,420 --> 00:11:29,320
+our purposes.
+
+149
+00:11:32,180 --> 00:11:32,720
+And.
+
+150
+00:11:36,780 --> 00:11:41,330
+One other comment is that. If you want to look at
+
+151
+00:11:41,510 --> 00:11:44,880
+this difference between correlated, uncorrelated
+
+152
+00:11:44,900 --> 00:11:47,690
+results in more detail, a nice way to do that,
+
+153
+00:11:47,690 --> 00:11:52,110
+which I have set up today, is to. Look at what he
+
+154
+00:11:52,110 --> 00:11:55,230
+call the residuals of profits. So take the
+
+155
+00:11:55,230 --> 00:11:58,330
+difference between each data point and the Fifth
+
+156
+00:11:58,350 --> 00:12:01,380
+and the corresponding value, and I plot those
+
+157
+00:12:01,380 --> 00:12:05,630
+versus then you'll see results that sarcastically
+
+158
+00:12:05,640 --> 00:12:10,350
+fluctuate. Ground Zero saw some data points are
+
+159
+00:12:10,830 --> 00:12:12,720
+higher than the feds, some are lower than the
+
+160
+00:12:12,720 --> 00:12:17,270
+average. And the scale of those fluctuations is
+
+161
+00:12:17,270 --> 00:12:21,730
+going to. Decrease as the number of repetitions
+
+162
+00:12:21,730 --> 00:12:25,650
+are increases and it's going to be larger than the
+
+163
+00:12:25,730 --> 00:12:28,840
+Oncolytics compared with these smooth correlated
+
+164
+00:12:28,840 --> 00:12:32,530
+results where the fluctuations that we get for
+
+165
+00:12:33,040 --> 00:12:36,820
+five hundred steps in the war are going to depend
+
+166
+00:12:37,660 --> 00:12:40,540
+almost entirely on those that come out for
+
+167
+00:12:43,170 --> 00:12:46,000
+that stuff box. So those are all the.
+
+168
+00:12:48,160 --> 00:12:50,950
+I had to say about that first part of the computer
+
+169
+00:12:50,950 --> 00:12:57,290
+exercise there, any questions? About that. Before
+
+170
+00:12:57,660 --> 00:13:01,950
+just a quick walk through the next piece of that.
+
+171
+00:13:09,950 --> 00:13:10,130
+The.
+
+172
+00:13:13,250 --> 00:13:17,480
+Yeah, so in the PDF that I have on the screen here,
+
+173
+00:13:17,480 --> 00:13:18,280
+I copy the
+
+174
+00:13:21,260 --> 00:13:25,310
+companies that were used. This is an example I
+
+175
+00:13:25,310 --> 00:13:29,120
+found that I used to produce the American response
+
+176
+00:13:29,690 --> 00:13:34,700
+and the plots that I was showing. And this is also
+
+177
+00:13:35,300 --> 00:13:39,020
+on the Candace page, linked from the same
+
+178
+00:13:39,350 --> 00:13:43,520
+discussion where the solutions themselves are long
+
+179
+00:13:43,570 --> 00:13:50,600
+from. So it may well be worth spending 30 seconds.
+
+180
+00:13:52,180 --> 00:13:54,130
+Whether you can find all of that.
+
+181
+00:14:01,450 --> 00:14:02,040
+Sloane.
+
+182
+00:14:20,530 --> 00:14:23,640
+Two factor authentication is part of the reason
+
+183
+00:14:23,760 --> 00:14:28,770
+they have so upset the student, beaten up the
+
+184
+00:14:29,610 --> 00:14:30,690
+immersive reader.
+
+185
+00:14:39,850 --> 00:14:43,450
+So this should be what you see on canvas.
+
+186
+00:14:47,890 --> 00:14:52,390
+From the stream, there is an update on the
+
+187
+00:14:52,390 --> 00:14:55,480
+computer project on the bottom of here, we have
+
+188
+00:14:55,480 --> 00:15:01,090
+the link to the PDF and at least my model python
+
+189
+00:15:01,090 --> 00:15:04,840
+code. That is not the only or necessarily the best
+
+190
+00:15:04,840 --> 00:15:08,840
+way to do things, but gives an example of how all
+
+191
+00:15:08,840 --> 00:15:14,110
+of these numerical results and figures were
+
+192
+00:15:14,110 --> 00:15:18,950
+produced in the stated amount of time
+
+193
+00:15:21,250 --> 00:15:27,360
+printout just to keep an eye on both sides, asking
+
+194
+00:15:27,550 --> 00:15:31,510
+you to work on all of these missiles.
+
+195
+00:15:34,060 --> 00:15:42,690
+So that is. Where you can find all of that and.
+
+196
+00:15:44,950 --> 00:15:48,180
+Further questions about. That part one.
+
+197
+00:15:55,400 --> 00:15:59,490
+Also, just a few comments and a quick walk through
+
+198
+00:15:59,510 --> 00:16:03,980
+now, part to highlight a few things, not go into
+
+199
+00:16:04,550 --> 00:16:07,910
+an exhaustive discussion of everything that's
+
+200
+00:16:07,910 --> 00:16:08,470
+going on.
+
+201
+00:16:11,080 --> 00:16:14,920
+So this is a continuation of the project that is
+
+202
+00:16:14,920 --> 00:16:21,680
+going to. Build on what you've done. One to. Bring
+
+203
+00:16:21,680 --> 00:16:24,290
+things to bear on a slightly more complicated
+
+204
+00:16:24,410 --> 00:16:27,890
+situation, so we're still looking at random walks
+
+205
+00:16:28,520 --> 00:16:32,720
+with step sizes that are randomly chosen from a
+
+206
+00:16:32,720 --> 00:16:37,840
+particular distribution and. In this case.
+
+207
+00:16:41,070 --> 00:16:45,900
+Rather than starting from the transform, taking us
+
+208
+00:16:45,900 --> 00:16:50,640
+from the uniform distribution to the distribution
+
+209
+00:16:50,640 --> 00:16:54,270
+of interest from which we'll build up the works of
+
+210
+00:16:54,270 --> 00:17:00,060
+what analyzed and to start off with defining. That
+
+211
+00:17:00,060 --> 00:17:02,810
+distribution, which is known as a commercial
+
+212
+00:17:02,910 --> 00:17:06,450
+distribution or personal wealth distribution or
+
+213
+00:17:06,450 --> 00:17:09,570
+Brainfeeder distribution, depending on what
+
+214
+00:17:09,570 --> 00:17:12,620
+textbook you're reading, what Wikipedia article
+
+215
+00:17:12,630 --> 00:17:13,350
+you're looking at.
+
+216
+00:17:16,090 --> 00:17:19,930
+But this is is an overall normalization factor,
+
+217
+00:17:19,960 --> 00:17:24,190
+one over five times subcouncil parameter B.
+
+218
+00:17:28,120 --> 00:17:35,680
+Times the. Fraction one divided by one plus. The
+
+219
+00:17:35,800 --> 00:17:41,870
+ex Overbey squared, and this rages over all real
+
+220
+00:17:41,920 --> 00:17:44,470
+ex positive and negative, it's an even functional
+
+221
+00:17:44,470 --> 00:17:49,750
+around. Exit zero is it depends on the square root
+
+222
+00:17:50,470 --> 00:17:52,450
+of the square root of X.
+
+223
+00:17:54,950 --> 00:17:55,510
+And.
+
+224
+00:17:58,510 --> 00:18:03,340
+The maybe the best way to. Did some intuition for.
+
+225
+00:18:04,690 --> 00:18:07,890
+This distribution is just to look at it plotted
+
+226
+00:18:08,000 --> 00:18:12,250
+for a few different values of the parameter of the
+
+227
+00:18:12,730 --> 00:18:17,290
+compared to the normal Gaussian distribution with
+
+228
+00:18:18,190 --> 00:18:22,750
+a with a sigma of of one so that Gaussian
+
+229
+00:18:22,750 --> 00:18:28,240
+distribution is the solid black curve in this plot.
+
+230
+00:18:29,400 --> 00:18:34,110
+And then the other three curve's. The red dashkova
+
+231
+00:18:34,120 --> 00:18:40,660
+hyping the solid green curve with the peak fairly
+
+232
+00:18:40,660 --> 00:18:43,390
+close to navigation distribution and then the
+
+233
+00:18:44,290 --> 00:18:45,490
+lower and broader.
+
+234
+00:18:47,900 --> 00:18:52,940
+Got a blue curve are three different realizations
+
+235
+00:18:53,090 --> 00:18:57,040
+that Kosmaj distribution with different values,
+
+236
+00:18:57,060 --> 00:19:02,640
+black has to be either a half, one or two. All of
+
+237
+00:19:02,640 --> 00:19:03,450
+these cases,
+
+238
+00:19:05,640 --> 00:19:08,730
+the most noteworthy thing about these
+
+239
+00:19:08,730 --> 00:19:13,410
+distributions is that for a sufficiently large X
+
+240
+00:19:13,410 --> 00:19:18,270
+in magnitude, so plus or minus X often for the
+
+241
+00:19:19,230 --> 00:19:21,540
+edges of this plot, we see that even in the case
+
+242
+00:19:21,540 --> 00:19:26,370
+of a small B, where the peak and the probability
+
+243
+00:19:26,370 --> 00:19:29,670
+distribution around X equals zero can greatly
+
+244
+00:19:29,670 --> 00:19:33,510
+exceed the peak of the Gaussian distribution.
+
+245
+00:19:35,680 --> 00:19:36,520
+Eventually.
+
+246
+00:19:38,730 --> 00:19:41,130
+Even after all of these distributions following
+
+247
+00:19:41,130 --> 00:19:45,090
+the election were sufficiently large X. The
+
+248
+00:19:45,090 --> 00:19:48,930
+Gaussian distribution is the lowest of all, and
+
+249
+00:19:48,930 --> 00:19:53,550
+any cautions against distribution is going to have
+
+250
+00:19:53,550 --> 00:19:57,530
+probabilities at large acts that are larger than
+
+251
+00:19:57,560 --> 00:20:04,160
+that of the distribution. Which is. Easy to
+
+252
+00:20:04,160 --> 00:20:08,880
+appreciate simply because the distribution. Eataly,
+
+253
+00:20:10,420 --> 00:20:13,780
+minus X squared is decreasing exponentially in X
+
+254
+00:20:13,780 --> 00:20:18,510
+squared. There is the distribution of the driving
+
+255
+00:20:18,520 --> 00:20:24,810
+down by this factor of one over X squared. So an
+
+256
+00:20:24,850 --> 00:20:27,200
+exponential suppression is always going to beat
+
+257
+00:20:28,390 --> 00:20:32,380
+any polynomial suppression for a sufficiently
+
+258
+00:20:32,380 --> 00:20:39,660
+large values of X. And what this is known as or
+
+259
+00:20:39,800 --> 00:20:46,670
+referred to are tales in the distribution. It's a
+
+260
+00:20:46,670 --> 00:20:50,710
+statement that the probabilities for. Large
+
+261
+00:20:50,710 --> 00:20:52,900
+volumes of excellent details of the distribution
+
+262
+00:20:52,900 --> 00:20:55,150
+far away from connecting with zero.
+
+263
+00:20:57,550 --> 00:21:00,850
+The probability of those and the disintegration is
+
+264
+00:21:01,240 --> 00:21:05,830
+greater than or fatter than that of the normal
+
+265
+00:21:06,190 --> 00:21:06,900
+distribution.
+
+266
+00:21:09,550 --> 00:21:16,640
+And in the course of the. First exercise in this
+
+267
+00:21:16,640 --> 00:21:18,710
+part of the assignment, which is the fourth
+
+268
+00:21:18,710 --> 00:21:23,140
+exercise overall. We'll see some of the features
+
+269
+00:21:23,140 --> 00:21:27,190
+of that coherence distribution, which motivates
+
+270
+00:21:27,190 --> 00:21:32,210
+the. Introduction of generalized diffusion length
+
+271
+00:21:32,210 --> 00:21:38,240
+and the following final exercise. Maybe I should
+
+272
+00:21:38,240 --> 00:21:42,860
+start on its previous page three by picking up on
+
+273
+00:21:42,860 --> 00:21:46,040
+the discussion of these battles in the course of
+
+274
+00:21:46,040 --> 00:21:50,750
+the rest distribution, which. Mean mathematically
+
+275
+00:21:51,080 --> 00:21:54,620
+that there is a lower probability for rare events
+
+276
+00:21:54,630 --> 00:21:58,380
+far away from peak to occur. Compare it again to
+
+277
+00:21:58,400 --> 00:22:03,720
+the normal distribution. So an illustration of
+
+278
+00:22:04,020 --> 00:22:07,110
+what this means in practice is what I initially
+
+279
+00:22:07,110 --> 00:22:11,100
+put up here at the top of this page comparing two
+
+280
+00:22:11,100 --> 00:22:15,330
+different random walks in two dimensions. So here,
+
+281
+00:22:15,330 --> 00:22:19,110
+in addition to randomly choosing the step size,
+
+282
+00:22:19,530 --> 00:22:23,250
+you also randomly choose a direction, the plane
+
+283
+00:22:23,460 --> 00:22:27,480
+for the water to step. And that's not just to get
+
+284
+00:22:27,480 --> 00:22:30,840
+something visual to to look at
+
+285
+00:22:32,910 --> 00:22:39,280
+the. Figure on the left here, the step sizes are
+
+286
+00:22:39,280 --> 00:22:43,930
+being chosen from a national distribution.
+
+287
+00:22:46,490 --> 00:22:49,820
+And if we trace all out the path of this random
+
+288
+00:22:49,820 --> 00:22:53,300
+water to take its steps, we see that as randomly
+
+289
+00:22:53,300 --> 00:22:56,930
+choosing different directions in step lengths to
+
+290
+00:22:57,200 --> 00:23:00,740
+proceed in this two dimensional plane and filling
+
+291
+00:23:00,740 --> 00:23:08,180
+in. Some portion of that played around with the.
+
+292
+00:23:09,400 --> 00:23:14,570
+Border. Ten to 20 units from that starting point
+
+293
+00:23:15,080 --> 00:23:17,390
+at the origin, zero zero.
+
+294
+00:23:21,060 --> 00:23:21,630
+And.
+
+295
+00:23:23,790 --> 00:23:26,700
+I'm sure you've already seen the contrast to.
+
+296
+00:23:29,340 --> 00:23:33,810
+The other men to walk on the plots where the
+
+297
+00:23:34,050 --> 00:23:39,750
+planes are drawn. But the to Lorenz distribution,
+
+298
+00:23:39,750 --> 00:23:44,690
+rather than the actual distribution and the. Fat
+
+299
+00:23:44,760 --> 00:23:49,960
+tails in that distribution are caused by
+
+300
+00:23:49,980 --> 00:23:53,820
+occasional steps that have much larger sizes than
+
+301
+00:23:53,820 --> 00:23:59,430
+anything seen in the case, so that the scale of
+
+302
+00:23:59,430 --> 00:24:04,470
+the accidents has seen by a factor of 10. Even
+
+303
+00:24:04,470 --> 00:24:08,880
+with that. That Zuma out some of the individual
+
+304
+00:24:08,880 --> 00:24:14,520
+steps are far larger than anything that is
+
+305
+00:24:14,520 --> 00:24:16,650
+produced by a U.S. distribution with any
+
+306
+00:24:16,650 --> 00:24:17,370
+probability.
+
+307
+00:24:20,270 --> 00:24:24,980
+In this situation, it turns out to be necessary
+
+308
+00:24:24,980 --> 00:24:29,370
+for reasons the seeding exercise force, you define
+
+309
+00:24:29,430 --> 00:24:32,480
+a generalized diffusion length rather than looking
+
+310
+00:24:32,480 --> 00:24:35,420
+at that L2 in the first part of the computer
+
+311
+00:24:35,420 --> 00:24:39,110
+project, the distribution is also theta.
+
+312
+00:24:41,230 --> 00:24:43,960
+You mentioned that in the case where the mean is
+
+313
+00:24:43,960 --> 00:24:48,400
+zero, which is the case for all of these
+
+314
+00:24:48,400 --> 00:24:51,910
+distributions that are even around X equals zero,
+
+315
+00:24:53,960 --> 00:25:00,190
+if we set Theta to two, we would recover just the
+
+316
+00:25:00,700 --> 00:25:03,800
+usual diffusion length standard deviation as
+
+317
+00:25:03,820 --> 00:25:06,850
+opposed to here L2. That was part of the first
+
+318
+00:25:06,850 --> 00:25:10,450
+part of the computer project and the ordinary log
+
+319
+00:25:10,450 --> 00:25:14,770
+diffusion that this elsom that is proportional to
+
+320
+00:25:14,920 --> 00:25:18,880
+the square root and for walks and steps for the
+
+321
+00:25:19,490 --> 00:25:27,490
+distribution. The only valid values of theta are
+
+322
+00:25:28,120 --> 00:25:31,690
+data from zero to one. So it has to be a positive
+
+323
+00:25:32,470 --> 00:25:37,960
+quantity and the portion of its distribution, this
+
+324
+00:25:37,990 --> 00:25:40,990
+generalized, if you like, that still define if
+
+325
+00:25:40,990 --> 00:25:46,800
+Theta is ever. One of the larger. And the question
+
+326
+00:25:46,800 --> 00:25:50,510
+then is, how do you pay for this distribution of
+
+327
+00:25:50,610 --> 00:25:53,610
+these journalists, if you like, severity with the
+
+328
+00:25:53,610 --> 00:25:56,640
+number of steps to walk, so give him some.
+
+329
+00:25:57,570 --> 00:25:58,980
+Exponents Alpha.
+
+330
+00:26:01,360 --> 00:26:03,700
+Which in the case of ordinary diffusion,
+
+331
+00:26:05,230 --> 00:26:10,380
+corresponds to. The square root circle is a half.
+
+332
+00:26:13,430 --> 00:26:15,050
+Whatever the law of diffusion.
+
+333
+00:26:17,450 --> 00:26:22,930
+Satisfied? And final exercise for you to do is
+
+334
+00:26:22,930 --> 00:26:26,950
+figure out Alpha for the distribution, see whether
+
+335
+00:26:26,950 --> 00:26:31,680
+it is a half. Larger than a half produces, but
+
+336
+00:26:31,680 --> 00:26:36,360
+it's a super supervision that's similar to the
+
+337
+00:26:36,360 --> 00:26:40,500
+system up here, but we can also have halfa still
+
+338
+00:26:40,500 --> 00:26:43,950
+positive. That's more than half the produce and
+
+339
+00:26:43,960 --> 00:26:49,400
+subterfuge of random walks. That's. Move away from
+
+340
+00:26:49,400 --> 00:26:51,770
+their starting point much more slowly than
+
+341
+00:26:52,530 --> 00:26:59,130
+diffusion. Would forget. So they've gone on, I
+
+342
+00:26:59,130 --> 00:27:03,620
+have got to wonder about all of that, the media
+
+343
+00:27:03,690 --> 00:27:08,580
+questions before you get to work on this next
+
+344
+00:27:08,580 --> 00:27:10,380
+assignment, the knowledgeable.
+
+345
+00:27:21,940 --> 00:27:25,660
+There are a couple of weeks left to play with that
+
+346
+00:27:27,850 --> 00:27:33,080
+you can now. Return to your problems more
+
+347
+00:27:34,700 --> 00:27:39,620
+explicitly and starting with the one we got part
+
+348
+00:27:39,620 --> 00:27:42,380
+of the way through last time around, looking at
+
+349
+00:27:43,820 --> 00:27:47,720
+the mixing entropy for the simplification. We
+
+350
+00:27:48,080 --> 00:27:51,350
+assume that all of the particles of these gases
+
+351
+00:27:51,350 --> 00:27:55,100
+are indistinguishable apart from your color, red
+
+352
+00:27:55,100 --> 00:27:59,240
+or blue. And you want to see how the entropy of
+
+353
+00:27:59,240 --> 00:28:02,840
+these systems various through the three stage
+
+354
+00:28:02,840 --> 00:28:05,570
+process of starting off with the initial
+
+355
+00:28:05,570 --> 00:28:10,720
+separation due to. Different containers with all
+
+356
+00:28:10,720 --> 00:28:13,330
+the red particles are going to take it all the
+
+357
+00:28:13,360 --> 00:28:21,940
+particles. So that was interesting challenge the
+
+358
+00:28:23,390 --> 00:28:27,850
+lectures, elections and two
+
+359
+00:28:31,240 --> 00:28:36,590
+more is there. And on that one, there is just two
+
+360
+00:28:36,660 --> 00:28:36,970
+as.
+
+361
+00:28:43,760 --> 00:28:46,490
+This volume divided by.
+
+362
+00:28:57,210 --> 00:29:00,360
+And then upon removing the wall separating these
+
+363
+00:29:00,360 --> 00:29:03,120
+two systems of law, but it was a part of this mix.
+
+364
+00:29:03,150 --> 00:29:07,890
+Last time you computed the entropy, that combined
+
+365
+00:29:07,890 --> 00:29:12,690
+system was not shown in these figures and saw that
+
+366
+00:29:12,690 --> 00:29:17,760
+it is equal to an initial review by the courts to
+
+367
+00:29:17,760 --> 00:29:22,380
+avoid the ratio. Plus, your positive mixing
+
+368
+00:29:22,380 --> 00:29:33,250
+entropy that we to do to add more to the. And it
+
+369
+00:29:33,270 --> 00:29:39,120
+depends on the volume. And then we ran out of time.
+
+370
+00:29:40,910 --> 00:29:43,220
+And left it as something for you to think about
+
+371
+00:29:43,220 --> 00:29:46,550
+what happens when the ball is reinserted, that
+
+372
+00:29:46,550 --> 00:29:53,000
+combined system is re separated into two systems,
+
+373
+00:29:53,000 --> 00:29:56,870
+which you can assume have the same number of
+
+374
+00:29:56,870 --> 00:30:01,100
+particles, but in general will have red and blue
+
+375
+00:30:01,100 --> 00:30:04,640
+particles now scramble together on different sides
+
+376
+00:30:04,640 --> 00:30:05,780
+of this wall.
+
+377
+00:30:08,650 --> 00:30:12,910
+So if you have any luck finding an expression for
+
+378
+00:30:13,660 --> 00:30:16,810
+how the interviewee behaves in that.
+
+379
+00:30:19,990 --> 00:30:24,580
+Final stage where the ball has been inserted and
+
+380
+00:30:24,760 --> 00:30:27,340
+the right of the particles are all scrambled.
+
+381
+00:30:38,990 --> 00:30:39,740
+Sounds like the.
+
+382
+00:30:43,670 --> 00:30:49,580
+Almost intractable. Which motivates going through
+
+383
+00:30:49,580 --> 00:30:51,430
+it here and now in person.
+
+384
+00:30:56,570 --> 00:30:57,110
+Let's see
+
+385
+00:31:00,130 --> 00:31:03,770
+how much time to spend on this. The first step
+
+386
+00:31:03,770 --> 00:31:09,770
+that is even being mentioned in this problem is
+
+387
+00:31:09,770 --> 00:31:12,050
+that we just need to compute this partition
+
+388
+00:31:12,050 --> 00:31:15,830
+function of that final system once this law has
+
+389
+00:31:15,830 --> 00:31:21,720
+been reinserted. So. To go through that very
+
+390
+00:31:21,730 --> 00:31:24,130
+quickly, this is always a.
+
+391
+00:31:27,950 --> 00:31:32,930
+It's based on the civil protection functions. So
+
+392
+00:31:33,050 --> 00:31:33,710
+that's where that
+
+393
+00:31:36,590 --> 00:31:37,820
+ratio of.
+
+394
+00:31:41,140 --> 00:31:45,130
+Particles come from a wall to the single particle
+
+395
+00:31:45,610 --> 00:31:48,550
+protection function for everything else you wrote
+
+396
+00:31:48,550 --> 00:31:53,890
+down in class was just the sheer the volume of the
+
+397
+00:31:53,890 --> 00:31:54,700
+particles in
+
+398
+00:31:57,300 --> 00:32:01,850
+several different wavelengths and then for an
+
+399
+00:32:02,500 --> 00:32:06,790
+indistinguishable from the. So that this is the
+
+400
+00:32:06,820 --> 00:32:07,190
+one.
+
+401
+00:32:09,880 --> 00:32:14,130
+Partition is just the single market opportunity.
+
+402
+00:32:14,880 --> 00:32:20,990
+However, it is divided in different ways of living.
+
+403
+00:32:21,070 --> 00:32:26,940
+It's probably the single. Indistinguishably posted
+
+404
+00:32:27,460 --> 00:32:31,190
+in the. System of particles.
+
+405
+00:32:35,640 --> 00:32:40,100
+The case will probably be solved, at least one to
+
+406
+00:32:40,100 --> 00:32:45,120
+the end is just as important for the same the
+
+407
+00:32:45,170 --> 00:32:49,370
+girls. So the question now is, if we have these
+
+408
+00:32:49,370 --> 00:32:53,990
+two separate containers with a mixture of red and
+
+409
+00:32:53,990 --> 00:32:54,860
+blue particles.
+
+410
+00:32:56,940 --> 00:33:00,130
+What is the overall function for ximo
+
+411
+00:33:03,770 --> 00:33:08,780
+for difference in this initial gases? We have the
+
+412
+00:33:08,780 --> 00:33:11,870
+red particles in the container particles in what
+
+413
+00:33:11,900 --> 00:33:14,990
+container particles were a container of particles
+
+414
+00:33:14,990 --> 00:33:19,430
+of the right container. So if we suppose that
+
+415
+00:33:20,150 --> 00:33:24,950
+there are new particles in the left container,
+
+416
+00:33:25,670 --> 00:33:32,480
+then for factors to multiply together. So for
+
+417
+00:33:32,480 --> 00:33:39,440
+those particles, that horrible times, that's a
+
+418
+00:33:39,440 --> 00:33:41,900
+particle vacation function. So.
+
+419
+00:33:46,460 --> 00:33:54,590
+We want you to know that our assumption is that
+
+420
+00:33:54,620 --> 00:33:58,130
+there are in total particles in each container.
+
+421
+00:34:00,920 --> 00:34:07,160
+One is very important with this container. So
+
+422
+00:34:12,050 --> 00:34:20,540
+one to see this all, it's more defined by the
+
+423
+00:34:20,540 --> 00:34:24,830
+remaining red particles in the right container. We
+
+424
+00:34:24,830 --> 00:34:28,730
+know there are a lot of those
+
+425
+00:34:31,490 --> 00:34:35,810
+in the particles, a total of four of them left in
+
+426
+00:34:36,000 --> 00:34:36,100
+the.
+
+427
+00:34:43,160 --> 00:34:46,600
+And there are things like this new container
+
+428
+00:34:50,120 --> 00:34:50,410
+is
+
+429
+00:34:52,610 --> 00:34:53,210
+in that.
+
+430
+00:35:00,650 --> 00:35:04,730
+So those are the four factors going into the
+
+431
+00:35:04,910 --> 00:35:08,760
+petition function for any particular number of red
+
+432
+00:35:08,840 --> 00:35:11,900
+particles in the container, which determines all
+
+433
+00:35:11,900 --> 00:35:15,230
+of the other particles are distributed among those
+
+434
+00:35:15,230 --> 00:35:18,440
+containers. This can be simplified.
+
+435
+00:35:21,330 --> 00:35:29,110
+Fairly directly, just by. Seeing that. He has. How
+
+436
+00:35:29,110 --> 00:35:35,140
+is it you can correct me on those terms so we the
+
+437
+00:35:36,700 --> 00:35:42,670
+two factors at the end two, but one of the factors
+
+438
+00:35:42,670 --> 00:35:46,230
+that were involved in so many
+
+439
+00:35:56,170 --> 00:35:56,860
+times,
+
+440
+00:36:00,120 --> 00:36:00,470
+both
+
+441
+00:36:02,620 --> 00:36:06,010
+what we want to end.
+
+442
+00:36:11,140 --> 00:36:11,640
+Calling
+
+443
+00:36:14,640 --> 00:36:15,170
+for
+
+444
+00:36:17,470 --> 00:36:18,030
+political.
+
+445
+00:36:23,650 --> 00:36:23,890
+Well,
+
+446
+00:36:26,030 --> 00:36:29,660
+see that the denominator here, that's just what we
+
+447
+00:36:29,660 --> 00:36:34,160
+have to do, right? This is one over
+
+448
+00:36:36,770 --> 00:36:41,220
+square Times Square by
+
+449
+00:36:45,740 --> 00:36:46,090
+you.
+
+450
+00:36:52,560 --> 00:36:55,410
+So that is protection for one particular
+
+451
+00:36:55,410 --> 00:37:01,250
+distribution and. We have to some this over all
+
+452
+00:37:01,250 --> 00:37:08,750
+possible numbers of red particles that came up in
+
+453
+00:37:08,900 --> 00:37:12,470
+the left container. There can be no particles
+
+454
+00:37:12,470 --> 00:37:16,460
+there, one or two or all of the particles. And
+
+455
+00:37:17,670 --> 00:37:24,950
+when something goes all the way up to the end of
+
+456
+00:37:26,660 --> 00:37:29,920
+that, you just disappear.
+
+457
+00:37:31,920 --> 00:37:34,900
+Which that is of
+
+458
+00:37:37,070 --> 00:37:37,400
+where.
+
+459
+00:37:40,860 --> 00:37:43,110
+It was worth
+
+460
+00:37:45,630 --> 00:37:47,810
+it to me.
+
+461
+00:37:51,990 --> 00:37:52,260
+Half
+
+462
+00:37:56,490 --> 00:37:56,920
+of the
+
+463
+00:37:59,220 --> 00:38:05,400
+square, which was given to that this fall, some.
+
+464
+00:38:09,120 --> 00:38:13,930
+As a result, more than seven years ago, so this
+
+465
+00:38:14,410 --> 00:38:20,350
+one is down to the final four when she was on.
+
+466
+00:38:22,930 --> 00:38:23,500
+So.
+
+467
+00:38:28,620 --> 00:38:34,890
+If you want to be in the final stage, play a
+
+468
+00:38:34,890 --> 00:38:36,990
+little trick to simplify calculations, it's the
+
+469
+00:38:36,990 --> 00:38:41,820
+same trick as we talked about last week. The
+
+470
+00:38:42,270 --> 00:38:48,070
+difference between the comparison to the interview
+
+471
+00:38:48,080 --> 00:38:49,080
+of the divine system,
+
+472
+00:38:52,350 --> 00:39:01,780
+one that came out, which is. The mother of the
+
+473
+00:39:01,800 --> 00:39:05,530
+ratio of. That story
+
+474
+00:39:08,620 --> 00:39:13,560
+just repeated the bipartisan policy, which was
+
+475
+00:39:13,840 --> 00:39:22,280
+last week. What we have right now, from the work
+
+476
+00:39:23,180 --> 00:39:25,910
+to the bottom, there is little.
+
+477
+00:39:29,860 --> 00:39:36,160
+As to the other side, this is one of the fairly
+
+478
+00:39:36,160 --> 00:39:36,880
+complicated.
+
+479
+00:39:42,180 --> 00:39:42,900
+Expression.
+
+480
+00:39:45,050 --> 00:39:48,950
+What we have is the final state
+
+481
+00:39:52,700 --> 00:39:53,150
+where.
+
+482
+00:39:58,940 --> 00:40:04,940
+And then there were politicians and over again,
+
+483
+00:40:05,790 --> 00:40:08,550
+this is all divided by. The
+
+484
+00:40:10,850 --> 00:40:17,160
+most popular politician there. Well, I don't want
+
+485
+00:40:17,270 --> 00:40:18,490
+to question.
+
+486
+00:40:26,840 --> 00:40:32,140
+Factor. So everything is canceling out except for
+
+487
+00:40:35,240 --> 00:40:35,660
+more
+
+488
+00:40:37,940 --> 00:40:39,780
+than a minus
+
+489
+00:40:42,290 --> 00:40:43,910
+or two.
+
+490
+00:40:48,330 --> 00:40:49,130
+Now we can.
+
+491
+00:40:55,210 --> 00:41:00,540
+So for your services, what was the bottom
+
+492
+00:41:04,860 --> 00:41:07,230
+line, is this
+
+493
+00:41:09,690 --> 00:41:12,160
+for real small?
+
+494
+00:41:17,450 --> 00:41:26,700
+Well, without the war support, it's useless to
+
+495
+00:41:28,910 --> 00:41:32,090
+try to minus two
+
+496
+00:41:35,990 --> 00:41:36,360
+plus.
+
+497
+00:41:38,550 --> 00:41:43,390
+To there, cancellations, anything except
+
+498
+00:41:45,700 --> 00:41:51,610
+school that cancels out that factor to zero.
+
+499
+00:41:55,820 --> 00:41:56,390
+So.
+
+500
+00:42:01,730 --> 00:42:07,610
+Once we reinsert the ball in the system and we
+
+501
+00:42:07,610 --> 00:42:13,410
+separate the combined system into two. Subsystems
+
+502
+00:42:13,410 --> 00:42:16,270
+with the same number of particles and scramble
+
+503
+00:42:16,290 --> 00:42:19,800
+colors, the entropy of the universe does not go
+
+504
+00:42:19,800 --> 00:42:22,800
+back to the smaller value that we started off with.
+
+505
+00:42:23,490 --> 00:42:26,610
+It also doesn't increase. It just stays the same
+
+506
+00:42:26,610 --> 00:42:31,710
+as it was in that combined system, which is in
+
+507
+00:42:31,710 --> 00:42:36,180
+agreement with the second law of thermodynamics as
+
+508
+00:42:36,180 --> 00:42:37,080
+time goes on
+
+509
+00:42:40,110 --> 00:42:44,340
+and is created as equal to the interview, which we
+
+510
+00:42:44,340 --> 00:42:47,580
+thought was certainly greater than the start of
+
+511
+00:42:47,590 --> 00:42:51,330
+entropy. So this procedure have been able to
+
+512
+00:42:51,330 --> 00:42:56,010
+confirm explicitly does not violate the second law
+
+513
+00:42:56,490 --> 00:42:57,690
+of thermodynamics.
+
+514
+00:43:03,170 --> 00:43:09,270
+So that is. All to say, you have to say about last
+
+515
+00:43:09,270 --> 00:43:12,120
+week's mixing entropy problem, unless there are
+
+516
+00:43:12,720 --> 00:43:18,000
+questions about it. A fun exercise you might do
+
+517
+00:43:18,540 --> 00:43:22,920
+going forward is with the next corrections and
+
+518
+00:43:23,370 --> 00:43:26,850
+formula and see if you can explain what happens.
+
+519
+00:43:28,280 --> 00:43:32,890
+Order, order, mortgage terms are preserved.
+
+520
+00:43:36,300 --> 00:43:40,320
+And it looks like there is just time remaining to
+
+521
+00:43:41,010 --> 00:43:45,450
+mention the. Final topic that I thought would be
+
+522
+00:43:46,080 --> 00:43:50,700
+the bulk of activity today, which is looking at
+
+523
+00:43:51,600 --> 00:43:53,310
+different thermodynamic cycles.
+
+524
+00:43:56,260 --> 00:44:00,340
+Beyond the cycle that we finish talking about
+
+525
+00:44:01,720 --> 00:44:08,650
+Monday. This is an example known as the auto cycle,
+
+526
+00:44:09,400 --> 00:44:16,150
+named after a German physicist, Nicholas Otto, who
+
+527
+00:44:16,150 --> 00:44:18,820
+spent about 14 years in the eighteen sixties and
+
+528
+00:44:19,090 --> 00:44:22,060
+seventies trying to figure out how to actually
+
+529
+00:44:22,720 --> 00:44:27,430
+build the machine that would realize this pressure
+
+530
+00:44:27,430 --> 00:44:30,280
+volume diagram. So let's walk through the four
+
+531
+00:44:30,280 --> 00:44:35,990
+stages of the cycle. And figure out. What it is
+
+532
+00:44:35,990 --> 00:44:40,290
+doing and maybe the best way to. Motivates the
+
+533
+00:44:40,290 --> 00:44:44,610
+four stages here is to reveal from the start that
+
+534
+00:44:44,610 --> 00:44:49,350
+this is an idealized description of how a petrol
+
+535
+00:44:49,350 --> 00:44:55,300
+engine works. So starting from this point, one man
+
+536
+00:44:55,300 --> 00:45:01,090
+and a boy you visible the gas in this cycle is
+
+537
+00:45:01,090 --> 00:45:04,810
+typically some mixture of air and vaporized petrol
+
+538
+00:45:05,320 --> 00:45:07,780
+that is compressed idiomatically.
+
+539
+00:45:12,230 --> 00:45:16,610
+To a smaller volume, you point to that compression
+
+540
+00:45:17,090 --> 00:45:21,080
+raises the temperature of this petrol air mixture.
+
+541
+00:45:22,450 --> 00:45:24,280
+At which point that high pressure, high
+
+542
+00:45:24,280 --> 00:45:29,860
+temperature, the spark is introduced to that gas,
+
+543
+00:45:29,860 --> 00:45:33,460
+which lights it on fire, it ignites the gas and
+
+544
+00:45:33,850 --> 00:45:37,720
+essentially uses that. The burning of this gas is
+
+545
+00:45:37,720 --> 00:45:42,820
+a replacement for an external hot reservoir of the
+
+546
+00:45:42,820 --> 00:45:46,030
+sort that Cardno had in mind. So rather than
+
+547
+00:45:46,840 --> 00:45:49,420
+waiting to exchange energy with an external
+
+548
+00:45:49,430 --> 00:45:53,940
+High-temperature reservoir, William. Ignite the
+
+549
+00:45:53,940 --> 00:45:58,020
+fuel, burn it, extract heat from it to drive up
+
+550
+00:45:58,020 --> 00:46:02,820
+the temperature and pressure at a fixed value for
+
+551
+00:46:02,850 --> 00:46:07,230
+the volume, and then once the pressure is up here
+
+552
+00:46:07,230 --> 00:46:09,930
+at its maximum point thirty, we use that pressure
+
+553
+00:46:10,350 --> 00:46:17,320
+to extract work from the engine. So. We allow the
+
+554
+00:46:17,710 --> 00:46:22,480
+system to expand again and also idiomatically with
+
+555
+00:46:22,630 --> 00:46:29,290
+the expansion at constant entropy that can do work,
+
+556
+00:46:29,290 --> 00:46:33,480
+extract power from the the burning of the fuel,
+
+557
+00:46:34,030 --> 00:46:36,940
+and then that takes us to this final stage where
+
+558
+00:46:36,940 --> 00:46:39,790
+we're back at the boy we started off with. But we
+
+559
+00:46:39,790 --> 00:46:41,950
+still have a significantly higher temperature
+
+560
+00:46:43,090 --> 00:46:45,370
+after having gone through the process of dumping
+
+561
+00:46:45,370 --> 00:46:49,300
+in a bunch of heat into this gas by letting it out,
+
+562
+00:46:49,300 --> 00:46:55,370
+fire burning it off. And this exhausts stage is a
+
+563
+00:46:55,370 --> 00:46:59,630
+similarly clever way of rapidly reducing the
+
+564
+00:46:59,630 --> 00:47:04,860
+temperature and the pressure at a fixed volume. So
+
+565
+00:47:04,880 --> 00:47:08,960
+what happens here is that rather than demanding
+
+566
+00:47:08,960 --> 00:47:13,360
+that the same end particles in the gas remain in
+
+567
+00:47:13,370 --> 00:47:16,750
+the gas throughout this whole cycle, those hot and
+
+568
+00:47:16,790 --> 00:47:20,420
+particles of the fuel are expelled to the
+
+569
+00:47:20,420 --> 00:47:24,290
+atmosphere as exhaust. And at the same time
+
+570
+00:47:24,290 --> 00:47:28,070
+they're replaced by an equal amount of tresh
+
+571
+00:47:28,250 --> 00:47:33,050
+cooler fuel air mixture so that the process back
+
+572
+00:47:33,050 --> 00:47:36,410
+to the starting points and repeats over and over
+
+573
+00:47:36,410 --> 00:47:40,370
+again, often several thousand revolutions per
+
+574
+00:47:40,370 --> 00:47:44,270
+minute, and the sorts of petrol engines that we
+
+575
+00:47:44,270 --> 00:47:47,240
+have on the streets nowadays, we thought it would
+
+576
+00:47:47,240 --> 00:47:50,330
+be in to be able to make anything quite so
+
+577
+00:47:50,330 --> 00:47:54,890
+advanced is what's driving our cars on. His
+
+578
+00:47:55,220 --> 00:47:58,340
+realization of this cycle had about two or four
+
+579
+00:47:58,340 --> 00:48:02,570
+percent efficiency and was about 10 feet tall. It
+
+580
+00:48:02,570 --> 00:48:05,840
+was a fellow named Dimler who figured out how to
+
+581
+00:48:06,470 --> 00:48:10,590
+actually. Shrink things down to the point where
+
+582
+00:48:10,680 --> 00:48:13,380
+the engines were movable, didn't have to be set up
+
+583
+00:48:13,380 --> 00:48:17,600
+in a specialized lavatory, which is why Dimler
+
+584
+00:48:18,030 --> 00:48:21,610
+does not want to be. Most established car
+
+585
+00:48:21,610 --> 00:48:28,350
+companies in that in the world. And given the time
+
+586
+00:48:28,750 --> 00:48:31,550
+it was just through the states, the tutorial
+
+587
+00:48:31,550 --> 00:48:36,470
+problems surrounding this obviously go and revisit
+
+588
+00:48:36,470 --> 00:48:39,590
+it next time around, zoom in a bit.
+
+589
+00:48:43,500 --> 00:48:46,080
+So we went through this cycle and did one last
+
+590
+00:48:46,080 --> 00:48:50,400
+thing to define is the compression ratio, which is
+
+591
+00:48:50,400 --> 00:48:54,720
+just the ratio of the larger volume to the smaller.
+
+592
+00:48:55,710 --> 00:48:58,560
+So something that is greater than one which is
+
+593
+00:48:58,560 --> 00:49:02,010
+relevant because the efficiency of the cycle
+
+594
+00:49:02,790 --> 00:49:06,610
+depends only on that compression ratio. The ratio
+
+595
+00:49:06,610 --> 00:49:10,110
+of the volumes at which the compression starts and
+
+596
+00:49:10,110 --> 00:49:14,460
+where it ends. So the task which you can think
+
+597
+00:49:14,460 --> 00:49:18,570
+about all over the coming week is to compute the
+
+598
+00:49:18,570 --> 00:49:23,130
+efficiency of a petrol engine compared to the
+
+599
+00:49:23,130 --> 00:49:28,230
+current cycle and figure out which one is most
+
+600
+00:49:28,230 --> 00:49:31,680
+efficient and how that efficiency can be maximized.
+
+601
+00:49:31,740 --> 00:49:36,750
+So you will discuss that next week. And hopefully
+
+602
+00:49:36,750 --> 00:49:39,300
+in the meantime, you can have some fun thinking
+
+603
+00:49:39,300 --> 00:49:44,730
+about how that calculation might go on. Any final
+
+604
+00:49:44,730 --> 00:49:47,780
+questions for today? Feel free to shout about now.
+
+605
+00:49:47,790 --> 00:49:52,380
+Otherwise, see you back here Monday afternoon for
+
+606
+00:49:52,400 --> 00:49:56,610
+quantum statistics. Completely different.
+
+607
+00:50:14,540 --> 00:50:14,880
+At
+
+608
+00:50:19,610 --> 00:50:19,840
+this
+
+609
+00:50:23,010 --> 00:50:23,280
+point,
+
+610
+00:50:25,470 --> 00:50:25,870
+oil
+
+611
+00:50:28,530 --> 00:50:28,730
+is.
+
+612
+00:50:49,170 --> 00:50:50,190
+Stop that recording.
