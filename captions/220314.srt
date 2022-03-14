@@ -1,0 +1,2747 @@
+1
+00:00:02,150 --> 00:00:06,700
+All right, the bells have finished and I've got the
+
+2
+00:00:06,710 --> 00:00:11,900
+recording going so we may as well get under way, at
+
+3
+00:00:11,900 --> 00:00:18,600
+least to put up the six digit number for this afternoon, which is
+
+4
+00:00:22,630 --> 00:00:23,830
+five, six, one, nine, four, four.
+
+5
+00:00:34,910 --> 00:00:40,280
+So, welcome back, now to the second half of the term, starting both a new
+
+6
+00:00:40,310 --> 00:00:45,980
+week, approaching spring, and a new unit, which is
+
+7
+00:00:45,980 --> 00:00:48,260
+probably a good point to
+
+8
+00:00:50,550 --> 00:00:55,320
+pause a bit and check in with the plan for at
+
+9
+00:00:55,320 --> 00:00:57,960
+least the next few weeks leading up to the term break forf this
+
+10
+00:00:57,960 --> 00:01:05,810
+module. So, we are here on the fourteenth of March, and the
+
+11
+00:01:07,410 --> 00:01:08,310
+overall plan---
+
+12
+00:01:10,350 --> 00:01:15,560
+we are where we're headed at the moment---is to
+
+13
+00:01:16,250 --> 00:01:23,790
+take the grand-canonical ensemble, the third and final
+
+14
+00:01:23,790 --> 00:01:27,730
+statistical ensemble that we. Went through the
+
+15
+00:01:28,150 --> 00:01:32,380
+definition and foundation of last week and combine
+
+16
+00:01:32,380 --> 00:01:35,080
+that with quantum statistics.
+
+17
+00:01:42,320 --> 00:01:47,470
+To investigate the behavior of quantum ideal gases
+
+18
+00:01:50,760 --> 00:01:52,210
+that the particles.
+
+19
+00:01:55,670 --> 00:01:59,030
+Onto my guess is what's on the screen ideal,
+
+20
+00:01:59,160 --> 00:02:02,090
+meaning that the particles opposing this gas are
+
+21
+00:02:02,090 --> 00:02:04,370
+not interacting with each other just the way we
+
+22
+00:02:04,370 --> 00:02:07,610
+solve for classical ideal gases in the framework
+
+23
+00:02:07,610 --> 00:02:10,400
+of the canonical ensemble. A few weeks back, a
+
+24
+00:02:10,400 --> 00:02:14,150
+year before. So over the past week, we dealt with
+
+25
+00:02:14,480 --> 00:02:17,080
+the introduction of the grand canonical example.
+
+26
+00:02:18,320 --> 00:02:23,300
+So this is the system where the probability space
+
+27
+00:02:23,330 --> 00:02:25,910
+was microstates, as defined by the possible
+
+28
+00:02:25,910 --> 00:02:31,070
+configurations of the particles in the system as
+
+29
+00:02:31,070 --> 00:02:34,790
+it evolves through time. And now, in contrast to
+
+30
+00:02:35,000 --> 00:02:38,990
+the micro, canonical and grand canonical examples
+
+31
+00:02:38,990 --> 00:02:44,640
+that we developed, first, the energy. The number
+
+32
+00:02:45,120 --> 00:02:50,790
+are both allowed to fluctuate and they fluctuate
+
+33
+00:02:50,790 --> 00:02:54,030
+by being exchanged with a large external particle
+
+34
+00:02:54,030 --> 00:03:01,050
+reservoir that fixes to complementary qualities in
+
+35
+00:03:01,050 --> 00:03:04,450
+this approach the temperature.
+
+36
+00:03:06,540 --> 00:03:07,750
+The chemical potential.
+
+37
+00:03:10,800 --> 00:03:14,330
+I kept fixed by that large external reservoir
+
+38
+00:03:16,710 --> 00:03:19,860
+and then we went through the same sort of.
+
+39
+00:03:20,750 --> 00:03:24,350
+Construction for the grand ensemble, as we did
+
+40
+00:03:24,620 --> 00:03:28,010
+earlier from the canonical ensemble, looking at
+
+41
+00:03:28,430 --> 00:03:28,910
+the.
+
+42
+00:03:31,900 --> 00:03:33,160
+Protection function.
+
+43
+00:03:38,810 --> 00:03:44,310
+That is the. Fundamental. Object in this approach
+
+44
+00:03:44,310 --> 00:03:47,640
+from which everything else can be derived. The
+
+45
+00:03:48,810 --> 00:03:54,270
+resulting potential for land of free energy that
+
+46
+00:03:54,270 --> 00:03:57,840
+capital find in this negative negativity holds the
+
+47
+00:03:57,840 --> 00:04:00,680
+log of energy. And then from that particular
+
+48
+00:04:00,690 --> 00:04:05,400
+derivatives of this potential, we get our usual.
+
+49
+00:04:06,940 --> 00:04:10,700
+Observables. The internal energy.
+
+50
+00:04:13,120 --> 00:04:15,910
+The entropy now, the particle, no.
+
+51
+00:04:18,720 --> 00:04:21,150
+As quantities that.
+
+52
+00:04:23,250 --> 00:04:27,660
+We can derive on the basis of the partition
+
+53
+00:04:27,660 --> 00:04:32,860
+function. And relations between all of them
+
+54
+00:04:32,860 --> 00:04:35,940
+through that general estimate indicate that. And
+
+55
+00:04:35,940 --> 00:04:40,320
+the second step in the overarching plan for the
+
+56
+00:04:40,320 --> 00:04:45,870
+next few weeks is to add to this grand council the.
+
+57
+00:04:47,550 --> 00:04:50,790
+Statistics of quantum physics, without actually
+
+58
+00:04:51,120 --> 00:04:54,720
+having to bring in or assume knowledge of any
+
+59
+00:04:54,720 --> 00:04:58,110
+quantum physics, would just take it as nonsense.
+
+60
+00:04:58,140 --> 00:05:01,810
+How? Approach the definition of these systems,
+
+61
+00:05:01,810 --> 00:05:04,750
+which will turn out to be the way that we operate
+
+62
+00:05:04,750 --> 00:05:08,650
+in practice, but before you dive into that, having
+
+63
+00:05:09,040 --> 00:05:14,060
+an overview of. The large scale plan and some of
+
+64
+00:05:14,060 --> 00:05:16,580
+the details that we dealt with last week, are
+
+65
+00:05:16,580 --> 00:05:20,870
+there any questions about where we are or what the
+
+66
+00:05:20,930 --> 00:05:22,940
+next steps are going to be?
+
+67
+00:05:30,390 --> 00:05:34,190
+They're eager to see something new in terms of
+
+68
+00:05:34,520 --> 00:05:39,440
+quantum statistics, which is again being
+
+69
+00:05:39,440 --> 00:05:42,990
+introduced. In this unit, so this is another
+
+70
+00:05:44,010 --> 00:05:46,980
+definition of foundation heavy unit that will find
+
+71
+00:05:46,980 --> 00:05:50,610
+its application to systems by the gases in the
+
+72
+00:05:50,610 --> 00:05:53,590
+coming unit in combination with the canonical
+
+73
+00:05:53,610 --> 00:05:56,660
+ensemble. And.
+
+74
+00:06:00,650 --> 00:06:03,140
+I should start off by saying probably that the.
+
+75
+00:06:04,110 --> 00:06:07,890
+The concepts and definitions in here are going to
+
+76
+00:06:07,890 --> 00:06:10,620
+be a bit more subtle than what we went through
+
+77
+00:06:10,620 --> 00:06:13,080
+pretty quickly last week with the economic
+
+78
+00:06:13,140 --> 00:06:16,620
+ensemble, we've seen most of the basic ideas
+
+79
+00:06:16,620 --> 00:06:19,860
+before. Building at the canonical example use the
+
+80
+00:06:19,860 --> 00:06:22,980
+same sort of a trick to analyze the particle
+
+81
+00:06:22,980 --> 00:06:25,560
+reservoirs within the thermal reservoir, the
+
+82
+00:06:25,980 --> 00:06:28,830
+sample, and look pretty quickly through the
+
+83
+00:06:29,190 --> 00:06:32,100
+corresponding free energy and the generalization
+
+84
+00:06:32,220 --> 00:06:37,230
+first thought to try to keep from blasting through
+
+85
+00:06:37,410 --> 00:06:42,060
+all the material in this unit or at least this
+
+86
+00:06:42,060 --> 00:06:46,130
+first section quite so quickly so that. All of the
+
+87
+00:06:46,490 --> 00:06:50,810
+essential subtleties and the reasons we have to be
+
+88
+00:06:50,810 --> 00:06:53,330
+careful about our definitions of quantum and
+
+89
+00:06:53,330 --> 00:06:56,960
+classical statistics are hopefully clear and easy
+
+90
+00:06:56,960 --> 00:06:57,800
+to understand.
+
+91
+00:07:00,020 --> 00:07:03,460
+And the starting point, having said that, we'll
+
+92
+00:07:03,480 --> 00:07:07,640
+just be. And considering quantum behavior as
+
+93
+00:07:07,640 --> 00:07:11,150
+nonsense, it turns out to be realized. We got a
+
+94
+00:07:11,150 --> 00:07:14,090
+glimpse of at least a piece of this kind of
+
+95
+00:07:14,090 --> 00:07:17,090
+behavior all the way back when we started thinking
+
+96
+00:07:17,090 --> 00:07:21,260
+about ideal gases that was in it for the framework
+
+97
+00:07:21,260 --> 00:07:26,060
+of the canonical ensemble. Where we did a bit of
+
+98
+00:07:26,860 --> 00:07:31,850
+slightly circular argumentation. Noting that the
+
+99
+00:07:31,850 --> 00:07:34,550
+canonical provision function, so the sum of all
+
+100
+00:07:34,850 --> 00:07:38,720
+microstates, I love the the factors that depend on
+
+101
+00:07:39,470 --> 00:07:42,860
+the energy use of that microstates defined by the
+
+102
+00:07:43,340 --> 00:07:46,430
+set of moments for all the particles normalized by
+
+103
+00:07:46,430 --> 00:07:52,280
+the temperature in order to leave the sum as a
+
+104
+00:07:52,280 --> 00:07:56,030
+well-defined sum. We need to be able to label or
+
+105
+00:07:56,030 --> 00:07:59,540
+count these microstates, the sum over them. So we
+
+106
+00:07:59,540 --> 00:08:04,430
+said this nonsense that these moments are for the
+
+107
+00:08:04,430 --> 00:08:08,120
+ideal gas must be quantized in a way that depends
+
+108
+00:08:08,120 --> 00:08:13,310
+on the volume which they said, which produces a
+
+109
+00:08:15,470 --> 00:08:18,950
+discrete value implementor that have accountable
+
+110
+00:08:18,950 --> 00:08:23,480
+number of energy levels that ultimately give us a
+
+111
+00:08:23,480 --> 00:08:27,740
+comfortable number of microstates for the sum
+
+112
+00:08:27,740 --> 00:08:29,170
+defining the partition function.
+
+113
+00:08:31,270 --> 00:08:38,430
+But given that some of these. Matter for each of
+
+114
+00:08:38,430 --> 00:08:40,910
+the particles in the systems that define the
+
+115
+00:08:41,270 --> 00:08:45,420
+competition function. We argue that at least in
+
+116
+00:08:45,420 --> 00:08:50,040
+the regime where this relation holds, which is
+
+117
+00:08:50,040 --> 00:08:57,640
+that the plank's constant bar introduced as. A
+
+118
+00:08:57,640 --> 00:09:01,930
+constant relating the volume of the system to the
+
+119
+00:09:01,930 --> 00:09:07,020
+possible dementor of each particle. If that is
+
+120
+00:09:07,020 --> 00:09:11,850
+much smaller than this product of the linear size
+
+121
+00:09:11,850 --> 00:09:14,860
+of the system, so is one side of the ball, you
+
+122
+00:09:14,880 --> 00:09:18,510
+know, just the gas is contained and is the mass of
+
+123
+00:09:18,510 --> 00:09:21,870
+the particles that we are considering. And he is
+
+124
+00:09:21,870 --> 00:09:28,680
+the temperature. Then. Given the energy use that
+
+125
+00:09:28,680 --> 00:09:29,610
+depended on.
+
+126
+00:09:33,000 --> 00:09:36,570
+And the big energies we had for each particle were
+
+127
+00:09:36,570 --> 00:09:38,460
+proportional to.
+
+128
+00:09:40,780 --> 00:09:43,210
+This product.
+
+129
+00:09:46,500 --> 00:09:47,730
+Each bar squared.
+
+130
+00:09:51,270 --> 00:10:01,030
+Over at. And elsewhere. And whatever. The factor,
+
+131
+00:10:01,060 --> 00:10:03,790
+the numerator here is very small compared to the
+
+132
+00:10:03,790 --> 00:10:06,430
+rest of it, any of the energy level is small
+
+133
+00:10:06,430 --> 00:10:10,990
+enough to have of some factors our space very
+
+134
+00:10:10,990 --> 00:10:13,750
+close to each other, which is to say that the
+
+135
+00:10:13,750 --> 00:10:17,830
+function being summed over is very smooth and can
+
+136
+00:10:17,830 --> 00:10:22,600
+be very well approximated by the multidimensional
+
+137
+00:10:22,600 --> 00:10:25,120
+integral rather than a sum integrated over
+
+138
+00:10:25,480 --> 00:10:28,450
+continuous parameters rather than the discrete
+
+139
+00:10:28,450 --> 00:10:30,820
+moments that we have introduced to be the
+
+140
+00:10:30,820 --> 00:10:35,480
+production function. So. Despite formally
+
+141
+00:10:35,480 --> 00:10:39,440
+introducing the need to regulate the system by
+
+142
+00:10:39,560 --> 00:10:43,100
+quantize, it's not until after a few mathematical
+
+143
+00:10:43,100 --> 00:10:49,670
+manipulations we went straight back to. Dealing
+
+144
+00:10:49,670 --> 00:10:53,530
+with continuously varying momenta. As an
+
+145
+00:10:53,530 --> 00:10:59,010
+approximation to that underlying discreetness. And
+
+146
+00:10:59,010 --> 00:11:01,950
+then we want to define important statistics, there
+
+147
+00:11:01,950 --> 00:11:06,360
+will be two things we have to change in this story
+
+148
+00:11:06,690 --> 00:11:08,400
+compared to what we've gone through earlier. The
+
+149
+00:11:08,400 --> 00:11:12,300
+first is fairly obvious, given the discussion up
+
+150
+00:11:12,300 --> 00:11:16,050
+to now. So we will retain the discreet energy
+
+151
+00:11:16,050 --> 00:11:20,300
+levels rather than approximated by a continuous
+
+152
+00:11:20,310 --> 00:11:26,340
+Ligairi function and. Any calculations that we do
+
+153
+00:11:26,340 --> 00:11:28,530
+with these discrete energy levels still in place
+
+154
+00:11:29,250 --> 00:11:35,310
+will remain valid, not only when? The system size,
+
+155
+00:11:35,310 --> 00:11:37,920
+temperature and gas are collectively large
+
+156
+00:11:38,370 --> 00:11:41,010
+compared to place, but also in the quantum regime
+
+157
+00:11:41,700 --> 00:11:44,010
+where these two factors are comparable.
+
+158
+00:11:46,450 --> 00:11:53,080
+The second change is the more subtle. Which is
+
+159
+00:11:53,800 --> 00:11:59,500
+related to the fact that in quantum mechanics, we
+
+160
+00:11:59,500 --> 00:12:01,870
+are dealing with indistinguishable particles,
+
+161
+00:12:01,910 --> 00:12:06,040
+indistinguishable particles. This is something
+
+162
+00:12:06,040 --> 00:12:08,410
+that you can get out of the car mechanics module
+
+163
+00:12:08,830 --> 00:12:12,880
+that is just going to have to be taken as given in
+
+164
+00:12:12,880 --> 00:12:15,700
+this module. So we will say that we are interested
+
+165
+00:12:15,700 --> 00:12:19,060
+only in identifying particles that are
+
+166
+00:12:19,180 --> 00:12:22,750
+fundamentally indistinguishable. And to say that
+
+167
+00:12:22,750 --> 00:12:28,360
+this is a feature of quantum mechanics. And the.
+
+168
+00:12:30,320 --> 00:12:35,300
+Issue that arises in this case is how to handle
+
+169
+00:12:36,080 --> 00:12:40,280
+microstates in which there is more than one of
+
+170
+00:12:40,280 --> 00:12:44,510
+these indistinguishable particles in a single
+
+171
+00:12:44,510 --> 00:12:49,760
+energy level of the sort that be considered in the
+
+172
+00:12:49,860 --> 00:12:53,150
+unit for every. Recall when?
+
+173
+00:12:56,410 --> 00:12:59,500
+Back around back in this Section four point one
+
+174
+00:12:59,890 --> 00:13:02,020
+where we went through this argument, there was a
+
+175
+00:13:02,410 --> 00:13:06,730
+footnote noting exactly where this assumption had
+
+176
+00:13:06,730 --> 00:13:11,320
+come into play that we assumed every particle in
+
+177
+00:13:11,500 --> 00:13:16,330
+the system had a different momentum, or to say
+
+178
+00:13:16,330 --> 00:13:18,820
+that the way it was in a different energy level
+
+179
+00:13:18,820 --> 00:13:21,930
+with a different value of the energy, and you'll
+
+180
+00:13:21,940 --> 00:13:25,900
+go through these two steps in more detail, one
+
+181
+00:13:25,900 --> 00:13:30,790
+after the next, and then we'll see how. The.
+
+182
+00:13:33,110 --> 00:13:35,180
+See what problem is introduced when that
+
+183
+00:13:35,180 --> 00:13:38,780
+assumption breaks down and we will also see where
+
+184
+00:13:38,780 --> 00:13:41,330
+that assumption breaks down, which will correspond
+
+185
+00:13:41,330 --> 00:13:47,350
+to the quantum regime. There are usual classical,
+
+186
+00:13:47,350 --> 00:13:50,110
+non-partisan approach is going to run into trouble.
+
+187
+00:13:51,290 --> 00:13:56,140
+So that's the. Plan for how this the remainder of
+
+188
+00:13:56,140 --> 00:13:59,620
+today is to go through both of these changes,
+
+189
+00:13:59,620 --> 00:14:04,210
+Internet first be fairly simple, one of retaining
+
+190
+00:14:04,230 --> 00:14:07,000
+a discrete energy levels rather than sending over
+
+191
+00:14:07,450 --> 00:14:11,970
+continuous variables. And the second. Thinking
+
+192
+00:14:11,970 --> 00:14:15,180
+more carefully about what happens when multiple
+
+193
+00:14:15,180 --> 00:14:18,480
+indistinguishable particles occupy the same energy
+
+194
+00:14:18,480 --> 00:14:24,090
+level. So first, we ignore that second issue and.
+
+195
+00:14:25,960 --> 00:14:28,570
+We will just compute the economical prediction
+
+196
+00:14:28,570 --> 00:14:34,240
+function for a system with some unspecified but
+
+197
+00:14:34,240 --> 00:14:38,950
+discrete energy levels. And even though these
+
+198
+00:14:38,950 --> 00:14:43,190
+energy levels are discrete, they're quantize. By
+
+199
+00:14:43,190 --> 00:14:45,230
+virtue of ignoring that second issue, we will
+
+200
+00:14:45,230 --> 00:14:51,250
+still end up with a classical or quantum. System,
+
+201
+00:14:51,810 --> 00:14:55,710
+not classic, the classical set of statistics known
+
+202
+00:14:55,710 --> 00:14:59,010
+as Maxwell Boltzmann statistics, we've already
+
+203
+00:14:59,010 --> 00:15:02,080
+heard Boltzmann's name many times it was marginal
+
+204
+00:15:02,080 --> 00:15:04,830
+or connected to theoretical developments in
+
+205
+00:15:04,920 --> 00:15:07,660
+statistical physics. Nineteen hundreds. James
+
+206
+00:15:07,660 --> 00:15:10,950
+thought Maxwell was a Scottish physicist working
+
+207
+00:15:10,950 --> 00:15:13,170
+around that same time. He's best known for
+
+208
+00:15:13,530 --> 00:15:17,400
+Maxwell's equations of electromagnetism, but also
+
+209
+00:15:18,030 --> 00:15:21,000
+worked out statistical physics as has as his most
+
+210
+00:15:21,540 --> 00:15:25,200
+famous physicists asked. Two hundred fifty years.
+
+211
+00:15:27,040 --> 00:15:27,610
+So.
+
+212
+00:15:29,650 --> 00:15:33,190
+With a brief pause to see to make sure that the
+
+213
+00:15:33,190 --> 00:15:34,120
+plan is clear.
+
+214
+00:15:36,750 --> 00:15:41,310
+There are no questions about the broad overview of
+
+215
+00:15:41,670 --> 00:15:46,150
+the two steps. We'll be going through. Let's start
+
+216
+00:15:46,150 --> 00:15:51,370
+with that first step and derive great economic
+
+217
+00:15:51,370 --> 00:15:55,210
+competition function for a system with discrete
+
+218
+00:15:55,210 --> 00:16:00,370
+energy levels, so. To put some vacation in place,
+
+219
+00:16:00,970 --> 00:16:04,780
+you will see that these discrete energy levels are.
+
+220
+00:16:06,100 --> 00:16:11,410
+Label by the variable L lowercase no running from
+
+221
+00:16:11,410 --> 00:16:17,650
+zero up to some large capital L. which we can take
+
+222
+00:16:17,650 --> 00:16:20,650
+to infinity while still leaving the number of
+
+223
+00:16:20,650 --> 00:16:23,470
+energy levels and hence the number of microstates
+
+224
+00:16:24,670 --> 00:16:29,900
+countable. And during the partition function, well
+
+225
+00:16:29,910 --> 00:16:33,970
+defined and some over this comfortable microstates,
+
+226
+00:16:34,960 --> 00:16:39,100
+the energy level itself. We will refer to you with
+
+227
+00:16:39,100 --> 00:16:44,160
+this calligraphic for a truly e labeled by and.
+
+228
+00:16:47,890 --> 00:16:51,490
+One minor subtlety in this approach is that the
+
+229
+00:16:51,490 --> 00:16:55,540
+energy level is characterized both by the actual
+
+230
+00:16:55,540 --> 00:16:59,970
+value of the energy for a single particle, and so
+
+231
+00:16:59,980 --> 00:17:05,170
+each energy level refers to the possible
+
+232
+00:17:05,170 --> 00:17:10,390
+microstates of a single particle. And in addition
+
+233
+00:17:10,390 --> 00:17:15,590
+to the actual value of the energy with capital E
+
+234
+00:17:15,790 --> 00:17:18,670
+agreement funds, they will bael, it is also
+
+235
+00:17:18,670 --> 00:17:20,760
+possible for there to be additional information
+
+236
+00:17:20,780 --> 00:17:25,900
+distinguishing energy levels so that multiple
+
+237
+00:17:25,900 --> 00:17:30,020
+distinct energy levels E, Sabeen and Ezabad,
+
+238
+00:17:30,460 --> 00:17:34,270
+within the different from anything can be
+
+239
+00:17:34,270 --> 00:17:37,270
+different, indistinguishable even when they have
+
+240
+00:17:37,270 --> 00:17:42,810
+the same energy. So the upper case energy is our
+
+241
+00:17:42,820 --> 00:17:46,060
+equal. I apologize already for the proliferation
+
+242
+00:17:46,180 --> 00:17:48,190
+of different sorts of issues that will have to be
+
+243
+00:17:48,490 --> 00:17:52,010
+kept track of in this universe as we build things
+
+244
+00:17:52,030 --> 00:17:52,240
+up.
+
+245
+00:17:54,310 --> 00:17:59,980
+And the. Technical term of four different energy
+
+246
+00:17:59,980 --> 00:18:04,090
+levels with the same value of the energy for the
+
+247
+00:18:04,150 --> 00:18:06,730
+particle is that these energy levels are
+
+248
+00:18:07,030 --> 00:18:12,220
+degenerate and we will choose to label all of the
+
+249
+00:18:12,220 --> 00:18:18,220
+energy levels so that whatever this. Index that
+
+250
+00:18:19,090 --> 00:18:23,200
+increases the energy itself is now decreasing, so
+
+251
+00:18:23,200 --> 00:18:27,910
+it either stays the same or increases, and without
+
+252
+00:18:27,910 --> 00:18:31,060
+loss of generality, we can shift all of the energy
+
+253
+00:18:31,060 --> 00:18:35,080
+levels by any additive constants so that the
+
+254
+00:18:35,080 --> 00:18:38,800
+smallest energy is Sub-Zero responding to the
+
+255
+00:18:38,800 --> 00:18:41,860
+crown stage, the lowest energy level, which would
+
+256
+00:18:41,860 --> 00:18:44,170
+be the calligraphic use of zero,
+
+257
+00:18:46,210 --> 00:18:49,340
+is non-negative that.
+
+258
+00:18:52,100 --> 00:18:55,160
+Is justifiable and can be justified if you want to
+
+259
+00:18:55,160 --> 00:18:59,970
+see that argument. Now, what we have to do with
+
+260
+00:18:59,970 --> 00:19:03,750
+this notation in place of energy levels and the
+
+261
+00:19:03,750 --> 00:19:07,710
+cost of energy for these levels is that we have to
+
+262
+00:19:08,170 --> 00:19:12,970
+define the microstates that we sell over. In
+
+263
+00:19:13,150 --> 00:19:15,460
+writing down the Grand Canal, the coopetition
+
+264
+00:19:15,460 --> 00:19:18,640
+function, that depends on the temperature that the
+
+265
+00:19:18,970 --> 00:19:23,850
+potential new. And you drive last week that
+
+266
+00:19:25,890 --> 00:19:29,620
+the factor being subdued in the great economical
+
+267
+00:19:29,640 --> 00:19:33,000
+partition functions, this exponential factor that
+
+268
+00:19:33,000 --> 00:19:36,510
+depends on both the energy and the chemical
+
+269
+00:19:36,510 --> 00:19:39,420
+potential times the number of particles in the
+
+270
+00:19:39,420 --> 00:19:42,660
+corresponding micro space because of all of that
+
+271
+00:19:42,660 --> 00:19:46,260
+divided by temperature, multiplied by the inverse
+
+272
+00:19:46,260 --> 00:19:47,070
+temperature below.
+
+273
+00:19:50,670 --> 00:19:51,630
+Now, there's a.
+
+274
+00:19:56,780 --> 00:20:00,310
+Nice way to organize the some of the microstates
+
+275
+00:20:00,320 --> 00:20:03,060
+so that we can keep track of all the microstates,
+
+276
+00:20:03,110 --> 00:20:05,720
+ensure that we don't lose track of it. You can
+
+277
+00:20:05,720 --> 00:20:13,510
+also handle them all. In a easy way, based on the
+
+278
+00:20:13,510 --> 00:20:17,020
+work that we've already done, and this is to break
+
+279
+00:20:17,020 --> 00:20:21,280
+up the single sum over all possible microstates
+
+280
+00:20:21,670 --> 00:20:26,800
+into a series of cells, each of which considers a
+
+281
+00:20:26,800 --> 00:20:32,050
+particular value for the particle. No, so. It's
+
+282
+00:20:32,050 --> 00:20:35,270
+written here. In his first term to break up the
+
+283
+00:20:35,270 --> 00:20:38,630
+sum over the microstates, I guess the first is
+
+284
+00:20:38,630 --> 00:20:42,020
+some over the microstates that have new particles
+
+285
+00:20:42,020 --> 00:20:44,240
+in them, they're actually always turns out to be a
+
+286
+00:20:44,240 --> 00:20:48,530
+single micro state of that, which is just empty
+
+287
+00:20:48,530 --> 00:20:51,860
+back, you know, particles. And then we separate
+
+288
+00:20:51,860 --> 00:20:54,980
+them off from a second sum over all of the
+
+289
+00:20:55,400 --> 00:20:59,840
+microstates indexed by chain that involve only a
+
+290
+00:20:59,840 --> 00:21:04,980
+single particle. So this is. Taking into account
+
+291
+00:21:04,980 --> 00:21:09,210
+the fact that the number of particles in the blood
+
+292
+00:21:09,210 --> 00:21:12,210
+sample was not fixed and can fluctuate by particle
+
+293
+00:21:12,210 --> 00:21:15,660
+exchange with the particle reservoir, and we can
+
+294
+00:21:15,660 --> 00:21:20,160
+tell you the next song by studying over the
+
+295
+00:21:20,670 --> 00:21:23,850
+microstates that involve exactly two particles.
+
+296
+00:21:24,990 --> 00:21:28,050
+And in all of the exponential factors that are
+
+297
+00:21:28,050 --> 00:21:32,860
+appearing in the song. We can plug in already that
+
+298
+00:21:32,860 --> 00:21:37,120
+the protocol number multiply that multiplies the
+
+299
+00:21:37,120 --> 00:21:42,280
+chemical potential is equal to one to two to three
+
+300
+00:21:42,280 --> 00:21:44,980
+and so on, up to infinity.
+
+301
+00:21:49,430 --> 00:21:51,520
+What we can do with this, why this is the oldest
+
+302
+00:21:51,530 --> 00:21:55,970
+trick, is that if we break up these exponential
+
+303
+00:21:55,970 --> 00:21:56,690
+factors.
+
+304
+00:22:01,800 --> 00:22:07,120
+Into so where a fixed number of particles, lower
+
+305
+00:22:07,200 --> 00:22:12,480
+case than times do we can pull this constant
+
+306
+00:22:12,480 --> 00:22:15,390
+factor of new times in?
+
+307
+00:22:17,790 --> 00:22:21,570
+Outside of the overall sum and what is next, then,
+
+308
+00:22:21,600 --> 00:22:25,590
+is just the sum over Bowsman factors, even the
+
+309
+00:22:25,590 --> 00:22:31,240
+minus beta times energy. For all of the
+
+310
+00:22:31,240 --> 00:22:33,370
+microstates that have either a fixed number of
+
+311
+00:22:33,370 --> 00:22:36,760
+articles being one, a fixed number of articles
+
+312
+00:22:36,760 --> 00:22:40,420
+being two and so on, up to having a fixed number
+
+313
+00:22:40,420 --> 00:22:44,620
+of particles being infinite and fixing the number
+
+314
+00:22:44,620 --> 00:22:48,400
+of particles while allowing the energies to
+
+315
+00:22:48,520 --> 00:22:51,100
+fluctuate with the fixed temperature exactly
+
+316
+00:22:51,100 --> 00:22:56,820
+defines the canonical partition function for and
+
+317
+00:22:56,830 --> 00:22:59,340
+particles as a function of the inverse temperature.
+
+318
+00:23:00,670 --> 00:23:05,450
+So. After we pull out the exponential factor that
+
+319
+00:23:05,450 --> 00:23:08,780
+depends on the times, the chemical potential.
+
+320
+00:23:09,800 --> 00:23:13,760
+Times the critical number for all the microstates
+
+321
+00:23:13,760 --> 00:23:15,470
+with that fixed number of particles.
+
+322
+00:23:18,570 --> 00:23:21,540
+Chemical factories multiplies the economic
+
+323
+00:23:21,540 --> 00:23:24,510
+competition function for the corresponding number
+
+324
+00:23:24,510 --> 00:23:28,470
+of particles, starting with the trivial zero
+
+325
+00:23:28,470 --> 00:23:31,590
+particle, because is unity and the protection
+
+326
+00:23:31,590 --> 00:23:33,780
+function for a single particle, you cannot have a
+
+327
+00:23:33,780 --> 00:23:36,330
+production function for two particles and then
+
+328
+00:23:36,330 --> 00:23:37,290
+generally some.
+
+329
+00:23:39,440 --> 00:23:42,530
+Over the number of particles ranging from zero to
+
+330
+00:23:42,530 --> 00:23:48,710
+infinity of. This exponential factor into The View
+
+331
+00:23:48,980 --> 00:23:52,310
+is raised to the power of the number of particles
+
+332
+00:23:52,850 --> 00:23:56,240
+that multiplies the canonical partition function
+
+333
+00:23:56,960 --> 00:23:59,210
+for that fixed number of particles in each other.
+
+334
+00:24:01,140 --> 00:24:03,570
+And this is a general result, but we haven't had
+
+335
+00:24:03,570 --> 00:24:07,410
+to specify any details of the energy levels
+
+336
+00:24:07,410 --> 00:24:08,090
+themselves.
+
+337
+00:24:10,350 --> 00:24:15,510
+This holds for any grain economical system with
+
+338
+00:24:15,510 --> 00:24:18,940
+discrete energy levels, it is known as the free
+
+339
+00:24:18,960 --> 00:24:22,260
+gas, the expansion a I'll tell you right now,
+
+340
+00:24:22,350 --> 00:24:24,810
+that's not a term you'll have to remember
+
+341
+00:24:25,320 --> 00:24:28,030
+something you might see popping up here. There it
+
+342
+00:24:28,680 --> 00:24:31,050
+is present because this exponential factor that I
+
+343
+00:24:31,050 --> 00:24:34,380
+put out is called the figure acidy for obscure
+
+344
+00:24:34,380 --> 00:24:35,550
+historical reasons.
+
+345
+00:24:38,560 --> 00:24:42,760
+We will benefit from this approach is that now, in
+
+346
+00:24:42,760 --> 00:24:46,420
+order to compute the great economic competition
+
+347
+00:24:46,420 --> 00:24:50,500
+function with oil that's calculated down to
+
+348
+00:24:50,500 --> 00:24:54,070
+dealing with economical partition functions, which
+
+349
+00:24:54,070 --> 00:24:56,440
+of course, we did for several weeks in the
+
+350
+00:24:56,440 --> 00:25:01,180
+framework of Abdelbasset cycles, and in particular
+
+351
+00:25:02,350 --> 00:25:07,630
+we saw that in units three and four that we have
+
+352
+00:25:07,630 --> 00:25:12,030
+in indistinguishable particles in an ideal system
+
+353
+00:25:12,030 --> 00:25:14,200
+with these particles don't interact with each
+
+354
+00:25:14,200 --> 00:25:21,920
+other. That the end particle hold function is.
+
+355
+00:25:23,000 --> 00:25:26,150
+Just the single particle protection function
+
+356
+00:25:26,630 --> 00:25:30,980
+raised to the power of end and then normalized by
+
+357
+00:25:30,980 --> 00:25:33,770
+this factor of one over and factorial that
+
+358
+00:25:33,770 --> 00:25:36,950
+corrects for the overcounting.
+
+359
+00:25:39,850 --> 00:25:42,310
+Repeatedly counting different microstates that
+
+360
+00:25:42,310 --> 00:25:44,470
+would differ only by the labels we give the
+
+361
+00:25:44,470 --> 00:25:48,230
+different particles. And while I talk, I'll try to
+
+362
+00:25:48,790 --> 00:25:51,900
+come down with the later on that screen.
+
+363
+00:25:55,740 --> 00:25:56,220
+So.
+
+364
+00:26:01,600 --> 00:26:09,020
+Particles get that full factor of the function to
+
+365
+00:26:09,020 --> 00:26:13,360
+the power. And that counts all the different ways
+
+366
+00:26:13,360 --> 00:26:16,060
+we can imagine the different particles of
+
+367
+00:26:16,060 --> 00:26:17,650
+microstates from the particles are
+
+368
+00:26:17,650 --> 00:26:19,960
+indistinguishable, all of those different
+
+369
+00:26:19,960 --> 00:26:23,410
+labelling secretly describe the same microstates
+
+370
+00:26:24,460 --> 00:26:28,510
+in that factory and factorial as to be divided out
+
+371
+00:26:29,170 --> 00:26:35,530
+to get the correct number of micro microstates. So
+
+372
+00:26:35,530 --> 00:26:42,240
+that is. The Carex for the overcounting. Of this
+
+373
+00:26:42,240 --> 00:26:44,820
+invisible particles from the base, the particle
+
+374
+00:26:44,820 --> 00:26:48,150
+position function off of the powers of the single
+
+375
+00:26:48,150 --> 00:26:53,140
+particle protection function. But this is. A very
+
+376
+00:26:53,770 --> 00:26:57,530
+nice expression to insert into the equation and to
+
+377
+00:26:58,390 --> 00:27:02,710
+keep that guessing factor to our end and then in
+
+378
+00:27:02,860 --> 00:27:06,670
+the important competition function as whatever in
+
+379
+00:27:06,670 --> 00:27:09,550
+factorial times, the single part, partition
+
+380
+00:27:09,550 --> 00:27:13,600
+function to the power, and we can rearrange things
+
+381
+00:27:14,110 --> 00:27:18,370
+as the cell membrane from zero to infinity of one
+
+382
+00:27:18,370 --> 00:27:21,340
+over and factorial times, some quantity to the
+
+383
+00:27:21,340 --> 00:27:25,180
+power end, which is exactly the power series for
+
+384
+00:27:25,180 --> 00:27:26,740
+the exponential function.
+
+385
+00:27:30,680 --> 00:27:37,580
+So this whole infinite sum over infinite options
+
+386
+00:27:37,580 --> 00:27:39,980
+for the number of particles in the Grand Canal
+
+387
+00:27:39,980 --> 00:27:46,280
+system boils down to just the exponential of the
+
+388
+00:27:46,280 --> 00:27:50,720
+single particle canonical efficient function times
+
+389
+00:27:50,870 --> 00:27:53,930
+the sagacity exponential factor of chemical
+
+390
+00:27:53,930 --> 00:27:56,070
+potential divided by temperature.
+
+391
+00:27:59,990 --> 00:28:00,360
+We.
+
+392
+00:28:02,620 --> 00:28:05,070
+The fact that we're considering a system with the
+
+393
+00:28:05,070 --> 00:28:09,030
+discreet energy levels that we define at the start
+
+394
+00:28:09,030 --> 00:28:13,670
+of this subsection, so. There are these
+
+395
+00:28:13,670 --> 00:28:16,070
+microstates labeled by Hill that each have
+
+396
+00:28:16,640 --> 00:28:21,560
+possibly equal energies separately, so then the
+
+397
+00:28:22,250 --> 00:28:27,510
+single particle microstates are simply. Counting
+
+398
+00:28:27,900 --> 00:28:30,600
+how many energy levels there are for this single
+
+399
+00:28:30,600 --> 00:28:35,790
+particle to occupy. And with each energy level,
+
+400
+00:28:36,000 --> 00:28:39,030
+the corresponding both the vector. And the
+
+401
+00:28:39,030 --> 00:28:43,100
+canonical approach is E to the negative by times,
+
+402
+00:28:43,180 --> 00:28:46,680
+times, that energy, so the overall single particle
+
+403
+00:28:46,680 --> 00:28:51,030
+petition function simply has to sum over all of
+
+404
+00:28:51,030 --> 00:28:54,750
+those energy levels of that Boltzmann factor into
+
+405
+00:28:54,750 --> 00:29:00,390
+the minus beta, the energy. So every so there are
+
+406
+00:29:00,660 --> 00:29:04,410
+L plus one total microstates, they went from zero
+
+407
+00:29:04,410 --> 00:29:08,100
+up to L, each of them correspond to a different
+
+408
+00:29:08,550 --> 00:29:13,050
+energy level, even when the value of the energy
+
+409
+00:29:13,590 --> 00:29:16,320
+for the energy level may be the same. And if we
+
+410
+00:29:16,320 --> 00:29:19,350
+plug in this expression for the single particle
+
+411
+00:29:19,360 --> 00:29:24,160
+protection function into the grand canonical
+
+412
+00:29:24,180 --> 00:29:26,730
+partition function that we derived through the
+
+413
+00:29:26,730 --> 00:29:29,700
+capacity expansion, then we have.
+
+414
+00:29:32,490 --> 00:29:35,820
+The exponential of that figure has to be times the
+
+415
+00:29:35,820 --> 00:29:39,030
+sum of the factors which we can rearrange before
+
+416
+00:29:39,040 --> 00:29:42,090
+we get into orbit, if we get ourselves into an
+
+417
+00:29:42,090 --> 00:29:45,690
+exponential that looks more like what we're used
+
+418
+00:29:45,690 --> 00:29:50,010
+to for the grand canonical. Ensemble. So the
+
+419
+00:29:50,010 --> 00:29:53,100
+exponential of the sum overall energy levels of
+
+420
+00:29:53,100 --> 00:29:57,720
+this exponential factor, it the minus B times the
+
+421
+00:29:57,720 --> 00:30:04,200
+difference. Between the energy of each energy
+
+422
+00:30:04,200 --> 00:30:07,950
+level, labor, well, minus the fixed chemical
+
+423
+00:30:07,950 --> 00:30:09,090
+potential of the system.
+
+424
+00:30:11,980 --> 00:30:16,640
+So that is. The chemical protection function that
+
+425
+00:30:16,640 --> 00:30:20,420
+defines this Maxell both statistics, so it's the
+
+426
+00:30:20,750 --> 00:30:23,150
+grand canonical statistics for.
+
+427
+00:30:25,370 --> 00:30:28,820
+Classical systems with discrete quantize energy
+
+428
+00:30:28,820 --> 00:30:33,080
+levels and before going on into the second issue,
+
+429
+00:30:33,080 --> 00:30:35,990
+that distinguishes true quantum statistics from
+
+430
+00:30:36,350 --> 00:30:41,260
+this classical result. Was paused to make sure
+
+431
+00:30:41,260 --> 00:30:41,680
+that.
+
+432
+00:30:44,320 --> 00:30:48,260
+This. This derivation didn't.
+
+433
+00:30:51,850 --> 00:30:54,930
+Raising questions in your mind as we went through
+
+434
+00:30:55,000 --> 00:30:56,820
+his last few minutes.
+
+435
+00:31:09,850 --> 00:31:13,770
+I guess I've already. Give it away, the next step
+
+436
+00:31:14,430 --> 00:31:17,580
+in the presentation here, which is on the screen,
+
+437
+00:31:18,480 --> 00:31:22,730
+which is that. The argument about distinguishable
+
+438
+00:31:22,730 --> 00:31:25,850
+versus indistinguishable particles that I went
+
+439
+00:31:25,850 --> 00:31:29,660
+through, I tried to block out the sun and get the
+
+440
+00:31:30,860 --> 00:31:36,570
+screen a bit more visible is only correct. When?
+
+441
+00:31:38,100 --> 00:31:41,400
+Each of the particles in the system is in a
+
+442
+00:31:41,400 --> 00:31:44,340
+different energy level, so when we brought in this
+
+443
+00:31:44,340 --> 00:31:47,880
+factor of whatever and factorial that we said was
+
+444
+00:31:48,390 --> 00:31:52,260
+present to correct for overcounting of building
+
+445
+00:31:52,590 --> 00:31:55,830
+and particle partition function out of a product
+
+446
+00:31:55,830 --> 00:31:58,960
+of any single particle prediction functions. We
+
+447
+00:31:59,020 --> 00:32:05,250
+implicitly assume. That's. Each of the different
+
+448
+00:32:05,250 --> 00:32:08,070
+particles that we want to multiply together can be
+
+449
+00:32:08,400 --> 00:32:10,860
+labeled in a different way, which is only possible
+
+450
+00:32:10,860 --> 00:32:17,180
+when they are in a. Different energy level. In the
+
+451
+00:32:17,180 --> 00:32:21,140
+context of Section four point one, I think it was
+
+452
+00:32:21,140 --> 00:32:23,840
+this equation fifty one, we were assuming that
+
+453
+00:32:23,840 --> 00:32:26,600
+every particle in the ideal gas was considered at
+
+454
+00:32:26,600 --> 00:32:31,070
+that time had a distinct momentum. And we went
+
+455
+00:32:31,070 --> 00:32:33,740
+through this argument by looking at the different
+
+456
+00:32:33,740 --> 00:32:36,470
+ways those different Amanto could be labeled,
+
+457
+00:32:37,040 --> 00:32:40,040
+setting aside until now the question of what
+
+458
+00:32:40,040 --> 00:32:43,130
+happens when we would have identical particles
+
+459
+00:32:43,520 --> 00:32:44,780
+with identical momentum.
+
+460
+00:32:49,270 --> 00:32:52,550
+We set that aside in Unit four because we were
+
+461
+00:32:53,380 --> 00:32:55,570
+working in a regime, but we argue that the
+
+462
+00:32:55,580 --> 00:32:58,670
+energies were effectively dirty and continuous.
+
+463
+00:32:59,110 --> 00:33:03,960
+Thanks to that relation that we had close to being
+
+464
+00:33:04,330 --> 00:33:09,160
+much smaller than the combination of system
+
+465
+00:33:09,160 --> 00:33:12,850
+parameters governing the energies. And if we
+
+466
+00:33:13,090 --> 00:33:15,600
+imagine having a real value of energy energies
+
+467
+00:33:15,670 --> 00:33:19,580
+that there is a vanishing chance of picking to
+
+468
+00:33:19,600 --> 00:33:22,420
+real numbers completely at random and having them
+
+469
+00:33:22,420 --> 00:33:25,870
+exactly matched to infinitely many decimal places
+
+470
+00:33:27,340 --> 00:33:33,700
+and. This holds more generally if and only if
+
+471
+00:33:34,180 --> 00:33:38,620
+there are many more accessible energy levels, then
+
+472
+00:33:38,620 --> 00:33:44,690
+there are particles to occupy. And the regime
+
+473
+00:33:44,690 --> 00:33:49,460
+where the assumption of every particle in a
+
+474
+00:33:49,460 --> 00:33:53,390
+different energy level breaks down is precisely
+
+475
+00:33:53,390 --> 00:33:55,970
+the one we are now interested in. So let's.
+
+476
+00:33:58,690 --> 00:34:02,950
+Go through a much simpler illustration of exactly
+
+477
+00:34:02,950 --> 00:34:06,640
+how this can cause problems, I've told you that.
+
+478
+00:34:10,150 --> 00:34:12,760
+This is a problem of the overcounting factor,
+
+479
+00:34:12,770 --> 00:34:15,640
+depends on particles being in different energy
+
+480
+00:34:15,640 --> 00:34:18,730
+levels. Let's think about the simplest possible
+
+481
+00:34:19,030 --> 00:34:23,740
+system where this problem arises to see that it is
+
+482
+00:34:23,770 --> 00:34:27,640
+a problem and get an idea for what we can do about
+
+483
+00:34:27,640 --> 00:34:34,510
+it. So. We will consider a system with a fixed
+
+484
+00:34:34,510 --> 00:34:37,450
+number of particles and see your end equals two
+
+485
+00:34:37,450 --> 00:34:43,480
+particles, and we'll say it has five. Energy
+
+486
+00:34:43,480 --> 00:34:49,540
+levels, so. Calligraphic e Sub-Zero through a
+
+487
+00:34:49,550 --> 00:34:53,630
+script E for and just to make things as simple as
+
+488
+00:34:53,630 --> 00:34:56,120
+possible, you'll make all five of those energy
+
+489
+00:34:56,120 --> 00:35:00,350
+levels to generate and shift the energy so that
+
+490
+00:35:00,530 --> 00:35:04,400
+every one of these five energy levels as a
+
+491
+00:35:04,400 --> 00:35:08,090
+vanishing energy. For L from zero to four
+
+492
+00:35:08,090 --> 00:35:13,090
+inclusive, so the single particle. You know, equal
+
+493
+00:35:13,090 --> 00:35:14,050
+protection function.
+
+494
+00:35:16,140 --> 00:35:21,990
+Is simply counting. A factor of one with energy is
+
+495
+00:35:21,990 --> 00:35:27,630
+zero for every microstates. Independent of
+
+496
+00:35:28,350 --> 00:35:30,870
+whatever the temperature is, so long as that
+
+497
+00:35:30,900 --> 00:35:34,620
+temperature is finite and not zero, so that we
+
+498
+00:35:34,620 --> 00:35:38,490
+don't get into issues of dividing 050 no, take
+
+499
+00:35:38,490 --> 00:35:43,760
+that as given say that the opposition function. As
+
+500
+00:35:43,760 --> 00:35:46,580
+a consequence, must be a positive integer, it is
+
+501
+00:35:46,580 --> 00:35:49,610
+counting how many microstates there are in the
+
+502
+00:35:49,610 --> 00:35:54,860
+system. So the single single particle case, we
+
+503
+00:35:54,860 --> 00:35:59,300
+have five energy levels that that particle could
+
+504
+00:35:59,300 --> 00:36:03,680
+be in over those five energy levels gives us the
+
+505
+00:36:03,680 --> 00:36:06,230
+five microstates that we know we have.
+
+506
+00:36:09,920 --> 00:36:13,220
+And this actually turns out to be the same
+
+507
+00:36:13,790 --> 00:36:18,780
+calculation as a simple combinatorial problem by
+
+508
+00:36:18,800 --> 00:36:23,370
+counting the number of ways that. This certain
+
+509
+00:36:23,370 --> 00:36:27,750
+number of particles or bottles. So if we have any
+
+510
+00:36:27,750 --> 00:36:32,640
+close to particles, we want to place them in the
+
+511
+00:36:33,780 --> 00:36:35,670
+five different energy levels, we can represent
+
+512
+00:36:35,670 --> 00:36:38,340
+those energy levels as boxes that can hold these
+
+513
+00:36:38,340 --> 00:36:43,350
+bottles and represent all the possible microstates
+
+514
+00:36:43,350 --> 00:36:47,130
+just by drawing five boxes with a total of two
+
+515
+00:36:47,130 --> 00:36:51,000
+bottles distributed between them, either two
+
+516
+00:36:51,000 --> 00:36:55,370
+bottles in the same box or one bottle in each of
+
+517
+00:36:55,380 --> 00:37:00,180
+two different boxes. And hopefully I have
+
+518
+00:37:01,080 --> 00:37:03,630
+presented the setup clearly enough that you can
+
+519
+00:37:03,630 --> 00:37:07,410
+tell me the two particle partition function if the
+
+520
+00:37:07,770 --> 00:37:10,080
+balls are distinguishable in this case.
+
+521
+00:37:26,730 --> 00:37:31,590
+And so we want to compute the two party
+
+522
+00:37:31,590 --> 00:37:36,270
+coopetition function, assuming that the particles
+
+523
+00:37:36,270 --> 00:37:39,330
+are distinguishable when the two of them can
+
+524
+00:37:39,330 --> 00:37:43,020
+occupy any of five distinct energy levels.
+
+525
+00:37:47,140 --> 00:37:47,580
+Yes.
+
+526
+00:37:49,990 --> 00:37:54,970
+Which is in the case of plugging in L and twenty
+
+527
+00:37:54,970 --> 00:37:59,410
+five total number of microstates corresponding to
+
+528
+00:38:00,190 --> 00:38:04,060
+the five ways that the first ball can be placed in
+
+529
+00:38:04,060 --> 00:38:07,060
+any of the five energy levels for each of the five
+
+530
+00:38:07,060 --> 00:38:10,820
+ways that the second bullet can be placed in them.
+
+531
+00:38:10,840 --> 00:38:15,370
+So this is the usual relation that we had for
+
+532
+00:38:15,610 --> 00:38:19,300
+distinguishable particles. In the canonical
+
+533
+00:38:19,300 --> 00:38:25,150
+example, the end particle partition function is
+
+534
+00:38:25,150 --> 00:38:27,520
+the power of the single particle partition
+
+535
+00:38:27,520 --> 00:38:30,770
+function, and that same argument for
+
+536
+00:38:30,790 --> 00:38:33,820
+indistinguishable particles then corrects for the
+
+537
+00:38:33,820 --> 00:38:39,460
+overcounting of those two, those two particles. So
+
+538
+00:38:39,880 --> 00:38:42,460
+taking them from distinguishable to
+
+539
+00:38:42,760 --> 00:38:47,210
+indistinguishable. We bring in this factor of
+
+540
+00:38:47,210 --> 00:38:51,560
+whatever and Vectorial, which is one half, and we
+
+541
+00:38:51,560 --> 00:38:55,690
+find out that the two political parties can
+
+542
+00:38:55,700 --> 00:39:00,110
+function in this article. This is 12 and a half,
+
+543
+00:39:00,680 --> 00:39:03,890
+which supposedly is counting the number of
+
+544
+00:39:03,890 --> 00:39:07,370
+microstates in the system, which is nonsense
+
+545
+00:39:07,370 --> 00:39:09,620
+because there's no such thing as half a
+
+546
+00:39:09,620 --> 00:39:13,760
+microstates. So you've got bomb somewhere in this
+
+547
+00:39:13,760 --> 00:39:19,760
+process. And the reason we cut things down to such
+
+548
+00:39:19,760 --> 00:39:23,270
+a small example is to be able to look at things in
+
+549
+00:39:23,540 --> 00:39:27,590
+full detail and see exactly where it went wrong
+
+550
+00:39:27,800 --> 00:39:32,870
+and then what we can do about it. So. You've
+
+551
+00:39:32,870 --> 00:39:35,030
+already said that it is the overcounting
+
+552
+00:39:35,030 --> 00:39:39,550
+correction that goes wrong. And gives us this
+
+553
+00:39:40,150 --> 00:39:43,540
+nonsensical, not integer number of microstates.
+
+554
+00:39:46,030 --> 00:39:49,860
+And if we start off in the distinction of the case
+
+555
+00:39:49,870 --> 00:39:53,260
+that we considered first, we can do that by
+
+556
+00:39:53,320 --> 00:39:56,560
+supposing that one of these balls is red, that the
+
+557
+00:39:56,560 --> 00:40:02,380
+other is blue, we can label each micro state by a
+
+558
+00:40:02,380 --> 00:40:08,160
+five digit code summarizing how many particles in
+
+559
+00:40:08,200 --> 00:40:10,180
+the distinguishable case. We have to specify which
+
+560
+00:40:10,180 --> 00:40:13,210
+particular particle is in each of the five energy
+
+561
+00:40:13,210 --> 00:40:16,780
+levels. So if any of these energy levels has no
+
+562
+00:40:16,780 --> 00:40:20,950
+particles, we can label it with zero. If it has
+
+563
+00:40:21,460 --> 00:40:24,040
+the red particle in, it could be labeled with the
+
+564
+00:40:24,040 --> 00:40:28,160
+power. If it has the blue particle in taking label
+
+565
+00:40:28,220 --> 00:40:32,150
+with a B. and if those particles are in the
+
+566
+00:40:32,180 --> 00:40:34,630
+particular energy level, we can label that with a
+
+567
+00:40:34,630 --> 00:40:41,800
+two and this list here of five times five
+
+568
+00:40:42,640 --> 00:40:48,310
+different ways of. Putting these two balls in the
+
+569
+00:40:48,310 --> 00:40:52,480
+five boxes is that full set of twenty five
+
+570
+00:40:52,480 --> 00:40:58,510
+microstates. That we had the previous page, there
+
+571
+00:40:58,540 --> 00:41:02,200
+are 20 where the red and blue balls are in
+
+572
+00:41:02,200 --> 00:41:06,460
+different boxes and five in this last column where
+
+573
+00:41:06,460 --> 00:41:10,320
+both of them are in every single one of these
+
+574
+00:41:10,410 --> 00:41:11,170
+individuals.
+
+575
+00:41:15,060 --> 00:41:18,500
+So that. Is accounting for all twenty five
+
+576
+00:41:18,500 --> 00:41:22,790
+microstates. And we tried to get to the
+
+577
+00:41:23,300 --> 00:41:25,400
+microstates indistinguishable particles on the
+
+578
+00:41:25,400 --> 00:41:31,640
+previous page by. Dividing by two, claiming that
+
+579
+00:41:31,640 --> 00:41:35,000
+this accounted for the overcounting that we can
+
+580
+00:41:35,000 --> 00:41:41,030
+actually see in this list every. Microstates in
+
+581
+00:41:41,030 --> 00:41:47,790
+the first home. Is. Almost the same as every
+
+582
+00:41:47,790 --> 00:41:51,420
+microstates in the third column, if we just
+
+583
+00:41:51,420 --> 00:42:00,120
+interchange the blue ball, the red ball. So all 20
+
+584
+00:42:00,120 --> 00:42:02,010
+of those microstates in the case of
+
+585
+00:42:02,010 --> 00:42:05,370
+indistinguishably particles are indeed double
+
+586
+00:42:05,370 --> 00:42:11,250
+counted by exactly the factor of two and factorial
+
+587
+00:42:11,760 --> 00:42:16,230
+that we are used to. But that is not the case for
+
+588
+00:42:16,680 --> 00:42:21,820
+the final column where. The red, blue and gold are
+
+589
+00:42:22,360 --> 00:42:27,470
+both in the same energy level. Each of these micro
+
+590
+00:42:27,470 --> 00:42:31,640
+states is not being double counted, even when the
+
+591
+00:42:31,880 --> 00:42:35,060
+particles are distinguishable in the micro state
+
+592
+00:42:35,060 --> 00:42:39,550
+remains the same. And in particular, is not
+
+593
+00:42:39,790 --> 00:42:44,410
+corrected for double counting. When we go from the
+
+594
+00:42:44,740 --> 00:42:48,130
+about particles to the indistinguishable particles
+
+595
+00:42:48,460 --> 00:42:54,310
+of quantum mechanics, so rather than that total
+
+596
+00:42:54,310 --> 00:42:57,730
+twenty five divided by Victoria microstates, we
+
+597
+00:42:57,730 --> 00:43:03,010
+really end up with 15 because it was only the set
+
+598
+00:43:03,460 --> 00:43:06,730
+of microstates where the particles were a
+
+599
+00:43:06,740 --> 00:43:10,090
+different energy levels that were double counted
+
+600
+00:43:10,450 --> 00:43:12,970
+in the classical approach and had to have that
+
+601
+00:43:12,970 --> 00:43:16,990
+double counting correctly. And having gone through
+
+602
+00:43:17,470 --> 00:43:20,350
+the sort of exhaustive exercise of seeing what
+
+603
+00:43:20,350 --> 00:43:24,100
+goes wrong in the classical approach when it's
+
+604
+00:43:24,100 --> 00:43:27,070
+possible for multiple particles to be in the same
+
+605
+00:43:27,070 --> 00:43:34,330
+energy level we can. Appreciates the simple way to
+
+606
+00:43:34,600 --> 00:43:37,840
+fix this, which is instead of something over.
+
+607
+00:43:41,330 --> 00:43:44,240
+Single particles and then multiply all a single
+
+608
+00:43:44,240 --> 00:43:47,450
+particle partition functions together to get the
+
+609
+00:43:47,450 --> 00:43:49,980
+end particle partition function and correcting for
+
+610
+00:43:50,000 --> 00:43:53,720
+overcounting after the fact, we can turn the
+
+611
+00:43:53,720 --> 00:43:57,020
+approach on its head and represent the system in
+
+612
+00:43:57,020 --> 00:44:02,480
+terms of the occupation numbers for each energy
+
+613
+00:44:02,480 --> 00:44:08,750
+level. Occupation number is something that we saw
+
+614
+00:44:08,750 --> 00:44:12,710
+before when going through the replica trick to
+
+615
+00:44:12,740 --> 00:44:16,820
+define both economical and economical ensemble
+
+616
+00:44:17,360 --> 00:44:20,370
+with an ensemble, their large external reservoirs
+
+617
+00:44:21,050 --> 00:44:26,250
+here. This occupation number and SIBYLLE. Is
+
+618
+00:44:26,610 --> 00:44:30,570
+counting the number of particles in the
+
+619
+00:44:30,570 --> 00:44:34,010
+corresponding energy level labeled by that same
+
+620
+00:44:34,010 --> 00:44:38,240
+metal. And this gives us the definition of quantum
+
+621
+00:44:38,240 --> 00:44:43,520
+statistics where. The protection function that we
+
+622
+00:44:43,520 --> 00:44:46,460
+always start off with remains a symbol over all
+
+623
+00:44:46,460 --> 00:44:51,470
+the microstates, but we define those microstates.
+
+624
+00:44:52,720 --> 00:44:57,850
+By considering in turn each energy level and then
+
+625
+00:44:57,850 --> 00:45:01,330
+something over all of the possible occupation
+
+626
+00:45:01,330 --> 00:45:08,670
+numbers. That this energy level could have. So
+
+627
+00:45:08,670 --> 00:45:09,390
+this is.
+
+628
+00:45:13,830 --> 00:45:15,900
+There are two things to say about this. First of
+
+629
+00:45:15,900 --> 00:45:18,510
+all, it differs from the classical approach that
+
+630
+00:45:18,510 --> 00:45:20,940
+we've been doing up till now. But what we did for
+
+631
+00:45:21,600 --> 00:45:24,030
+Maxwell, both statistics with discrete energy
+
+632
+00:45:24,030 --> 00:45:29,940
+levels where we summed over all of the what we
+
+633
+00:45:29,940 --> 00:45:32,340
+consider and in turn, each particle.
+
+634
+00:45:34,340 --> 00:45:38,000
+And stumbled over the possible energies that it
+
+635
+00:45:38,000 --> 00:45:46,050
+could have. And in addition to. Giving us a just a
+
+636
+00:45:46,050 --> 00:45:48,360
+different way of organizing the calculation. It
+
+637
+00:45:48,360 --> 00:45:51,510
+turns out to be the better way of organizing the
+
+638
+00:45:51,510 --> 00:45:55,380
+calculation, we have to worry about multiple
+
+639
+00:45:55,380 --> 00:46:01,530
+occupancy of particular energy levels because.
+
+640
+00:46:06,580 --> 00:46:11,380
+In the quantum approach, if we take the tactic of
+
+641
+00:46:11,710 --> 00:46:14,260
+something over the energy levels, something over
+
+642
+00:46:14,260 --> 00:46:17,950
+the possible occupation, we can see it may be
+
+643
+00:46:19,480 --> 00:46:22,150
+worth going through that simple exercise in that
+
+644
+00:46:22,150 --> 00:46:25,270
+way. In doing so, I don't think we have time to do
+
+645
+00:46:25,270 --> 00:46:30,520
+that in the few minutes remaining today, but it
+
+646
+00:46:30,520 --> 00:46:36,330
+will indeed turn out that. There is no further
+
+647
+00:46:36,330 --> 00:46:39,810
+need to correct for any overcounting because we
+
+648
+00:46:40,020 --> 00:46:43,620
+organize things in terms first of energy levels
+
+649
+00:46:44,790 --> 00:46:45,480
+and then.
+
+650
+00:46:47,610 --> 00:46:51,340
+On the screen first in terms of energy levels and
+
+651
+00:46:51,340 --> 00:46:54,300
+then in terms of occupation numbers, all the
+
+652
+00:46:54,300 --> 00:47:00,330
+microstates are accounted for one by one with No.
+
+653
+00:47:01,560 --> 00:47:04,890
+Overcounting, now that we get from the classical
+
+654
+00:47:04,890 --> 00:47:09,180
+approach and then have to try to correct it, is
+
+655
+00:47:09,180 --> 00:47:11,430
+exactly that overcounting that becomes.
+
+656
+00:47:13,010 --> 00:47:16,460
+Problematic, or at least not trivial, whenever
+
+657
+00:47:16,460 --> 00:47:19,610
+there can be multiple articles in the same energy
+
+658
+00:47:19,610 --> 00:47:24,120
+level. Now. In principle, we could continue to.
+
+659
+00:47:26,300 --> 00:47:29,630
+Follow that classical approach and try to keep
+
+660
+00:47:29,630 --> 00:47:36,030
+track of. How many microstates have this issue of
+
+661
+00:47:36,900 --> 00:47:39,390
+multiple particles in the same energy level that
+
+662
+00:47:39,390 --> 00:47:43,410
+would have to be handled specially and not just
+
+663
+00:47:43,980 --> 00:47:48,470
+divided by one of reinfect real? Normalization
+
+664
+00:47:48,470 --> 00:47:52,310
+factor. In practice, that turns out to be
+
+665
+00:47:52,320 --> 00:47:55,680
+equivalent to the quantum approach of something
+
+666
+00:47:55,680 --> 00:47:59,730
+over energy levels and occupation numbers. So that
+
+667
+00:47:59,730 --> 00:48:01,880
+is. The.
+
+668
+00:48:05,260 --> 00:48:07,540
+The definition of quantum statistics and the way
+
+669
+00:48:07,540 --> 00:48:11,050
+that it varies from vasculitis effects in addition
+
+670
+00:48:11,050 --> 00:48:16,240
+to maintaining discrete energy levels. We also
+
+671
+00:48:16,240 --> 00:48:20,260
+have to keep track of the occupation numbers of
+
+672
+00:48:20,260 --> 00:48:23,710
+those energy levels and approach the population in
+
+673
+00:48:23,710 --> 00:48:27,340
+such a way that overcounting does not become an
+
+674
+00:48:27,340 --> 00:48:31,540
+issue even when there can be multiple particles in
+
+675
+00:48:31,540 --> 00:48:36,520
+the same energy level. And that is a good place to
+
+676
+00:48:36,520 --> 00:48:40,930
+stop for today. If there are immediate questions,
+
+677
+00:48:41,390 --> 00:48:45,070
+bring that up now. Otherwise, went back to my
+
+678
+00:48:45,070 --> 00:48:49,270
+office for office hours and we'll pick up tomorrow
+
+679
+00:48:49,270 --> 00:48:54,110
+morning by considering. The possible occupation
+
+680
+00:48:54,110 --> 00:49:01,190
+numbers, that's just part of the occupation
+
+681
+00:49:01,190 --> 00:49:06,750
+numbers that are possible for energy levels. Two
+
+682
+00:49:06,750 --> 00:49:10,510
+different cases, but it also sounds like you think
+
+683
+00:49:10,620 --> 00:49:13,530
+the types of particles that lead to two distinct
+
+684
+00:49:13,530 --> 00:49:19,300
+types of quantum systems. So that's a great
+
+685
+00:49:19,380 --> 00:49:22,350
+question. I will see you then tomorrow morning to
+
+686
+00:49:22,350 --> 00:49:23,580
+pick up with that.
+
+687
+00:49:27,540 --> 00:49:28,940
+So for.
