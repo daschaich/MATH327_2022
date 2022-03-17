@@ -1,49 +1,84 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 8}
-\renewcommand{\moddate}{Last modified 13 Mar.~2022}
+\renewcommand{\moddate}{Last modified 17 Mar.~2022}
 \setcounter{section}{8}
 \setcounter{subsection}{0}
 \phantomsection
 \addcontentsline{toc}{section}{Unit 8: Quantum gases}
 \section*{Unit 8: Quantum gases}
-\subsection{The photon gas}
-Last week we derived the grand-canonical partition function (\eq{eq:partfunc_BE}) that defines quantum Bose--Einstein statistics for systems of non-interacting bosons,
+\subsection{\label{sec:photon}The photon gas}
+\subsubsection{Massive bosons in a box}
+In \secref{sec:bose} we derived the grand-canonical partition function (\eq{eq:partfunc_BE}) that defines quantum Bose--Einstein statistics for systems of non-interacting bosons,
 \begin{equation*}
-  \ZBE(\be, \mu) = \prod_{\ell = 0}^L \frac{1}{1 - e^{-\be (E_{\ell} - \mu)}}.
+  \ZBE(\be, \mu) = \prod_{\ell = 0}^{\cL} \frac{1}{1 - e^{-\be (E_{\ell} - \mu)}}.
 \end{equation*}
-This expression results from summing over the possible occupation numbers $n_{\ell} \in \Nbb_0$ for each energy level $\cE_{\ell}$ with energy $E_{\ell}$.
+Following the quantum approach, we obtained this result by considering in turn each energy level $\cE_{\ell}$ with energy $E_{\ell}$, and summing over all possible occupation numbers that it could have.
+For bosons, $n_{\ell} \in \Nbb_0$ produces sums that only converge if $\mu < E_{\ell}$ for all $\ell$.
 The corresponding grand-canonical potential is
 \begin{equation*}
-  \Phi_{\text{BE}} = -T \log Z_g = T \sum_{\ell = 0}^L \log\left[1 - e^{-\be (E_{\ell} - \mu)}\right],
+  \Phi_{\text{BE}} = -T \log Z_g = T \sum_{\ell = 0}^{\cL} \log\left[1 - e^{-\be (E_{\ell} - \mu)}\right],
 \end{equation*}
 from which we can determine the large-scale properties of the system, including its average internal energy $\vev{E}$, average particle number $\vev{N}$, entropy $S$, and pressure $P$.
 
-To do so, we have to specify the energy levels of the particles that compose the system of interest, and the degeneracies of those energy levels.
-One example of this that we have already seen is the analysis of non-relativistic ideal gas particles in \secref{sec:regulate}.
-For a single particle with mass $m$ in a volume $V = L^3$, we determined the quantized energies
-\begin{equation}
+To do so, we have to specify the energy levels of the particles that compose the system of interest, taking care to note potentially degenerate energy levels $\left\{\cE_m, \cE_n\right\}$ with the same energy $E_m = E_n$ for $m \neq n$.
+One example of this that we have already considered is the analysis of non-relativistic ideal gas particles in \secref{sec:regulate}.
+For a single particle with mass $m$ in a volume $V = L^3$, we adopted an ansatz for the quantized energies,
+\begin{align}
   \label{eq:nonrel_energy}
-  E(k_x, k_y, k_z) = \frac{\hbar^2 \pi^2}{2mL^2}\left(k_x^2 + k_y^2 + k_z^2\right),
-\end{equation}
+  E(k_x, k_y, k_z) & = \frac{\hbar^2 \pi^2}{2mL^2}\left(k_x^2 + k_y^2 + k_z^2\right) = \eps \left(k_x^2 + k_y^2 + k_z^2\right) \qquad &
+  \eps & \equiv \frac{\hbar^2 \pi^2}{2mL^2},
+\end{align}
 where the integers $k_{x, y, z}$ specify the possible momenta of the particle,
 \begin{align*}
   \vec p & = (p_x, p_y, p_z) = \hbar \frac{\pi}{L} (k_x, k_y, k_z) &
   k_{x, y, z} & = 1, 2, \cdots.
 \end{align*}
-(For technical reasons, quantum mechanics requires $k_{x, y, z} \geq 1$, leading us to adjust our ansatz compared to \eq{eq:quant_mom}.)
-This system has a unique ground state $\cE_0$ with $\vec k = (1, 1, 1)$ and energy $E_0 = \frac{3}{2} \frac{\hbar^2 \pi^2}{mL^2}$.
-The next three energy levels are degenerate, with energy $3 \frac{\hbar^2 \pi^2}{mL^2}$ corresponding to $\vec k = (2, 1, 1)$ and permutations, followed by another three degenerate energy levels with energy $\frac{9}{2} \frac{\hbar^2 \pi^2}{mL^2}$ corresponding to $\vec k = (2, 2, 1)$ and permutations.
 
-This week we will build on that experience to consider a gas of \textit{photons}, massless bosonic quantum particles of light.
-For our purposes, with no prior knowledge of particle physics, we can define photons simply by specifying two relevant details of their energy levels.
-First, a photon's energy is proportional to the magnitude of its momentum, %with $m = 0$ for massless photons, \eq{eq:nonrel_energy} is clearly problematic.
+Compared to \eq{eq:quant_mom}, here we have adjusted our ansatz to require strictly positive $k_{x, y, z}$.
+This adjustment is required by another feature of quantum mechanics, which this paragraph will imprecisely describe for the curious.
+This description can be skipped without any problem, with the adjusted ansatz simply taken as input.
+The feature at play here is known as \href{https://en.wikipedia.org/wiki/Uncertainty_principle}{Heisenberg's uncertainty principle} (named after \href{https://en.wikipedia.org/wiki/Werner_Heisenberg}{Werner Heisenberg}), which relates the precision with which the position and momentum of each particle can simultaneously be \emph{defined}:
+\begin{equation*}
+  \left(\De x\right) \left(\De p_x\right) \gtrsim \hbar
+\end{equation*}
+and similarly for $y$ and $z$.
+The `$\gtrsim$' sign here hints that we're ignoring irrelevant factors of $2$ and $\pi$, while `$\De$' refers to the precision (or uncertainty) with which $x$ and $p_x$ are defined.
+Since the particle is within a volume $V = L^3$, we know $\De x \lesssim L$.
+Therefore the uncertainty principle requires $\De p_x \gtrsim \hbar / L$, which is only possible if $p_x$ is non-zero, corresponding to $k_x \geq 1$.
+Note that smaller lengths $L$ imply larger momenta and therefore larger energies.
+
+With this adjusted ansatz, $k_{x, y, z} \geq 1$, we can adapt an exercise from \secref{sec:regulate} and ask: What are the lowest energies and the degeneracies of the corresponding energy levels?
+\begin{mdframed}
+  \ \\[100 pt]
+\end{mdframed}
+
+\subsubsection{Massless photons}
+Now we will build on our experience with massive bosons to consider a gas of \textit{photons}, massless bosonic quantum particles of light.
+For our purposes, with no prior knowledge of particle physics, we can define photons simply by specifying their energy levels.
+Clearly $E \propto 1 / m$ from \eq{eq:nonrel_energy} is problematic for massless particles with $m = 0$.
+Instead, a photon's energy is proportional to the magnitude of its momentum,
 \begin{equation*}
   \Eph(p) = c \sqrt{p_x^2 + p_y^2 + p_z^2} \equiv c p.
 \end{equation*}
-Here the speed of light $c$ is really just a unit conversion factor that we could set to $c = 1$ by using appropriate units.
-Second, for each momentum $\vec p$, a photon has two degenerate energy levels with the same energy $E(p)$. % TODO: Could mention polarization...
+Here the speed of light $c$ is really just a unit conversion factor (like the Boltzmann constant) that we could set to $c = 1$ by working in appropriate units.
 
-In a volume $V = L^3$, only the same discrete momenta as above are allowed,
+This relation is connected to the non-relativistic energy $E = \frac{p^2}{2m}$ that we considered in \secref{sec:regulate} through the general expression
+\begin{equation*}
+  E^2 = \left(mc^2\right)^2 + \left(pc\right)^2,
+\end{equation*}
+which is sometimes called Einstein's triangle.
+When $m = 0$, or $m \ll p / c$ more generally, this reproduces the \emph{ultra-relativistic} relation above.
+For stationary particles with $p = 0$ it reduces to the famous `mass-energy' $E = mc^2$, while the non-relativistic kinetic energy is recovered for $m \gg p / c$: % TODO: Could add v<<c in this regime, though may lead to confusion if students assume v>>c in the ultra-relativistic regime...
+\begin{mdframed}
+  \ \\[60 pt] % WARNING: ADJUSTED SIZE BY HAND TO FILL REMAINDER OF PAGE
+\end{mdframed}
+
+Another feature of photons' energy levels is that each momentum $(p_x, p_y, p_z)$ corresponds to two degenerate energy levels with the same energy $E(p)$.
+This arises from photons' connection to electric and magnetic fields, which allows each photon to be \href{https://en.wikipedia.org/wiki/Photon_polarization}{polarized} in two different ways.
+If there is interest we can discuss this further in a tutorial, but it is not relevant to the statistical physics of photons, for which we can take this double degeneracy as input.
+Note that this factor of two multiplies all other degeneracies, for instance from permutations of $(p_x, p_y, p_z)$.
+
+For photons in a volume $V = L^3$, only the same discrete momenta as in the massive case are allowed,
 \begin{align*}
   p & = \hbar \frac{\pi}{L} \sqrt{k_x^2 + k_y^2 + k_z^2} \equiv \hbar \frac{\pi}{L} k &
   k_{x, y, z} = 1, 2, \cdots,
@@ -53,24 +88,29 @@ so that the quantized photon energies are
   \label{eq:photon_Ek}
   \Eph(k) = \hbar c \frac{\pi}{L} k.
 \end{equation}
-It is conventional to use the speed of light to work with photons in terms of their wavelength \la and angular frequency $\om = 2\pi f$ (not to be confused with generic micro-states $\om_i$), given the relation
+Because light is an electromagnetic wave, it is convenient to work in terms of photons' wavelength \la and angular frequency $\om = 2\pi f$ (not to be confused with generic micro-states $\om_i$).
+Together, the wavelength and frequency determine the speed of the wave's propagation, in this case the speed of light % TODO: In vacuum, or at least linear medium...
 \begin{equation*}
   c = \frac{\la \om}{2\pi}.
 \end{equation*}
-Just like the momenta, the wavelengths \la are also quantized in volume $V = L^3$,
+
+In quantum physics, a particle's momentum is related to its de~Broglie wavelength, implying that in a volume $V = L^3$ the wavelengths are also quantized as illustrated in the picture below (from Schroeder's \textit{Introduction to Thermal Physics}).
+Specifically, the length $L$ must be an integer multiple of half a wavelength,
 \begin{equation*}
-  \la = \frac{2L}{k} \qquad \Lra \qquad c = \frac{\om}{\frac{\pi}{L} k},
+  L = k \frac{\la}{2} \qquad \Lra \qquad c = \frac{L}{k} \frac{\om}{\pi} = \frac{\om}{\frac{\pi}{L} k},
 \end{equation*}
 and we can rewrite \eq{eq:photon_Ek} as
 \begin{equation}
   \label{eq:photon_omega}
   \Eph(\om) = \hbar \om.
 \end{equation}
-Low (\textit{infrared}) frequencies correspond to small energies and long wavelengths, while high (\textit{ultraviolet}) frequencies correspond to large energies and short wavelengths.
+With $\la \propto c / \om$, this incorporates the relation between length and energy scales that we noted above.
+Low (\textit{infrared}) frequencies correspond to small energies and long wavelengths, while high (\textit{ultraviolet}) frequencies correspond to large energies and short wavelengths. \\[-24 pt]
+\begin{center}\includegraphics[width=0.65\textwidth]{figs/unit08_wavelengths.pdf}\end{center} % WARNING: ADJUSTED SIZE BY HAND TO FILL REMAINDER OF PAGE
 
 We are now ready to write down the grand-canonical potential for a photon gas:
 \begin{equation*}
-  \Phi_{\text{ph}} = T \sum_{\ell = 0}^L \log\left[1 - e^{-\be (E_{\ell} - \mu)}\right] = 2T \sum_{\vec k} \log\left[1 - e^{-\be (\Eph(k) - \mu)}\right],
+  \Phi_{\text{ph}} = T \sum_{\ell = 0}^{\cL} \log\left[1 - e^{-\be (E_{\ell} - \mu)}\right] = 2T \sum_{\vec k} \log\left[1 - e^{-\be (\Eph(k) - \mu)}\right],
 \end{equation*}
 where the factor of $2$ in the final expression accounts for the doubly degenerate energy levels.
 We can simplify this expression by appreciating that photons are easy to create and destroy.
@@ -80,14 +120,15 @@ In both cases an enormous number of photons is required to make even a small cha
 \begin{equation*}
   \mu = \left.\pderiv{E}{N}\right|_S \approx 0 \qquad \Lra \qquad \Phi_{\text{ph}} \approx 2T \sum_{\vec k} \log\left[1 - e^{-\be \Eph(k)}\right].
 \end{equation*}
-% TODO: This is a significant simplification, and the reason we only consider photons this week...
+% TODO: Can emphasize that particle number still fluctuating greatly, despite (in fact, because of) chemical potential no longer appearing in expression...
+Since we have $k_{x, y, z} \geq 1$, the strictly positive energies $\Eph(k) \propto k / L > 0$ ensure Bose--Einstein statistics is still convergent even with $\mu = 0$.
 
-Another simplification comes from considering the photon gas in a large volume, so that we can approximate the sum over discrete integer $k_{x, y, z}$ by integrals over continuous real $\khat_{x, y, z}$,
+Another simplification comes from considering the photon gas in a large volume, so that the energies $\Eph(k) \propto k / L$ are very closely spaced and we can approximate the sum over integer $k_{x, y, z}$ by integrals over continuous real $\khat_{x, y, z}$, % TODO: Mention Poisson resummation?...
 \begin{equation*}
-  \Phi_{\text{ph}} \approx 2T \int d\khat_x d\khat_y d\khat_z \log\left[1 - e^{-\be \Eph(\khat)}\right].
+  \Phi_{\text{ph}} \approx 2T \int d\khat_x \; d\khat_y \; d\khat_z \; \log\left[1 - e^{-\be \Eph(\khat)}\right].
 \end{equation*}
 Since the energy $\Eph(\khat)$ depends only on the magnitude $\khat$, we can profit from converting to spherical coordinates.
-When we do so, we have to keep in mind that $k_{x, y, z} > 0$ corresponds only to the positive octant of the sphere,
+When we do so, we have to keep in mind that $k_{x, y, z} > 0$ corresponds only to the positive octant of the sphere, % TODO: Explicitly justify setting lower bounds to zero?...
 \begin{equation*}
   \int_0^{\infty} d\khat_x \int_0^{\infty} d\khat_y \int_0^{\infty} d\khat_z = \int_0^{\infty} d\khat \; \khat^2 \int_0^{\pi / 2} d\theta \; \sin\theta \int_0^{\pi / 2} d\phi = \frac{\pi}{2} \int_0^{\infty} d\khat \; \khat^2,
 \end{equation*}
@@ -97,7 +138,7 @@ so that
 \end{equation*}
 We can finally change variables to integrate over the photon angular frequency $\om = c \frac{\pi}{L} k$, with $\Eph = \hbar \om$, to find
 \begin{align}
-  \Phi_{\text{ph}} & \approx \pi T \left(\frac{L}{\pi c}\right)^3 \int_0^{\infty} d\om \; \om^2 \log\left[1 - e^{-\be \hbar \om}\right] \cr
+  \Phi_{\text{ph}} & \approx \pi T \left(\frac{L}{c \pi}\right)^3 \int_0^{\infty} d\om \; \om^2 \log\left[1 - e^{-\be \hbar \om}\right] \cr
                    & = \frac{VT}{c^3 \pi^2} \int_0^{\infty} d\om \; \om^2 \log\left[1 - e^{-\be \hbar \om}\right], \label{eq:photon_grand}
 \end{align}
 recognizing $L^3 = V$.
@@ -107,9 +148,9 @@ With this grand-canonical potential derived, we just need to take the appropriat
 
 
 % ------------------------------------------------------------------
-\subsection{The sun and the void}
-We are now ready to analyze the average internal energy from the grand-canonical potential for a photon gas, \eq{eq:photon_grand}.
-With $\mu = 0$, \eq{eq:E_grand} from week~6 becomes
+\subsection{\label{sec:planck}The sun and the void}
+It will be very interesting to use the grand-canonical potential in \eq{eq:photon_grand} to analyze the average internal energy for a photon gas.
+With $\mu = 0$, \eq{eq:E_grand} from \secref{sec:grand_pot} becomes
 \begin{equation*}
   \vev{E}_{\text{ph}} = -T^2 \pderiv{}{T} \left[\frac{\Phi_{\text{ph}}}{T}\right] = \pderiv{}{\be} \left[\be \Phi_{\text{ph}}\right].
 \end{equation*}
@@ -118,9 +159,10 @@ To begin, we will consider the energy density expressed as an integral over phot
   \frac{\vev{E}_{\text{ph}}}{V} = \int_0^{\infty} P(\om) \; d\om,
 \end{equation*}
 where the function $P(\om)$ is known as the \textit{spectral density}, or simply the \textit{spectrum}.
+(It's not the pressure!)
 What is the spectrum for a photon gas?
 \begin{mdframed}
-  $\displaystyle \frac{\vev{E}_{\text{ph}}}{V} = \frac{1}{c^3 \pi^2} \int_0^{\infty} d\om \; \om^2 \pderiv{}{\be} \log\left[1 - e^{-\be \hbar \om}\right] = $ \\[100 pt]
+  $\displaystyle \frac{\vev{E}_{\text{ph}}}{V} = \frac{1}{c^3 \pi^2} \int_0^{\infty} d\om \; \om^2 \pderiv{}{\be} \log\left[1 - e^{-\be \hbar \om}\right] = $ \\[120 pt] % WARNING: FORMATTING BY HAND
 \end{mdframed}
 
 You should find
@@ -129,12 +171,7 @@ You should find
   P(\om) = \left(\frac{\hbar}{c^3 \pi^2}\right) \frac{\om^3}{e^{\be \hbar \om} - 1},
 \end{equation}
 which is known as the Planck spectrum, named after Max Planck.
-The Planck spectrum is plotted in the figure below, which comes from \href{https://commons.wikimedia.org/wiki/File:Black_body.svg}{Wikimedia Commons}.
-
-\begin{center}\includegraphics[width=\textwidth]{figs/unit08_spectrum.pdf}\end{center}
-
-In this plot the horizontal axis uses the wavelength $\la = 2\pi c / \om$.
-Changing variables in your work above, what is Planck spectrum $P(\la)$ as a function of wavelength?
+We can equally well consider the Planck spectrum $P(\la)$ as a function of the wavelength $\la = 2\pi c / \om$, by changing variables in the expression above:
 \begin{mdframed}
   $\displaystyle \frac{\vev{E}_{\text{ph}}}{V} = \frac{\hbar}{c^3 \pi^2} \int_0^{\infty} \frac{\om^3}{e^{\be \hbar \om} - 1} \; d\om = $ \\[120 pt] % WARNING: FORMATTING BY HAND
 \end{mdframed}
@@ -144,31 +181,34 @@ You should find
   \label{eq:Planck_la}
   P(\la) = \left(\frac{16\pi^2 \hbar c}{\la^5}\right) \frac{1}{e^{2\pi\be \hbar c / \la} - 1},
 \end{equation}
-which is plotted\footnote{The plot divides our $P(\la)$ by $4\pi$~steradian and multiplies it by $c$ to convert from an energy density to a spectral power per unit area per unit of solid angle.  For our purposes only the functional form is significant.} for three temperatures $T = 1 / \be$ in the figure above.
-Considering first the high-energy ultraviolet (UV) limit of small wavelengths $\la$, we can see from \eq{eq:Planck_la} that $P(\la)$ is exponentially suppressed, which overwhelms the diverging factor $\propto 1 / \la^5$ in parentheses.
+which is plotted for three temperatures $T = 1 / \be$ in the figure below, which comes from \href{https://commons.wikimedia.org/wiki/File:Black_body.svg}{Wikimedia Commons}.
+(The plot divides our $P(\la)$ by $4\pi$~steradian and multiplies it by $c$ to convert from a spectral density to a spectral power per unit area per unit of solid angle.  For our purposes only the functional form is significant.)
 
+\begin{center}\includegraphics[width=\textwidth]{figs/unit08_spectrum.pdf}\end{center}
+
+Considering first the high-energy ultraviolet (UV) limit of small wavelengths $\la$, we can see from \eq{eq:Planck_la} that $P(\la)$ is exponentially suppressed, which overwhelms the diverging factor $\propto 1 / \la^5$ in parentheses.
 In the low-energy infrared limit, the large $\la$ has the same effect that a large temperature ($\be \ll 1$) would have: $e^{2\pi\be \hbar c / \la} - 1 \approx 2\pi\be \hbar c / \la$ and
 \begin{equation*}
   P(\la) \approx \left(\frac{16\pi^2 \hbar c}{\la^5}\right) \frac{\la}{2\pi\be \hbar c} = \frac{8\pi T}{\la^4}.
 \end{equation*}
-The connection to large temperatures indicates that this is what classical statistics would predict for the energy spectrum of light.
+The connection to large temperatures indicates that this is what classical statistics would predict for the spectrum of light.
 It is known as the Rayleigh--Jeans spectrum, named after \href{https://en.wikipedia.org/wiki/John_William_Strutt,_3rd_Baron_Rayleigh}{the third Baron Rayleigh} and \href{https://en.wikipedia.org/wiki/James_Jeans}{James Jeans}.
 Recall that the classical approach sums over all possible energies for each degree of freedom, corresponding to a light-emitting object (historically known as a \textit{black body}) emitting light of all wavelengths $\la$.
-According to the classical Rayleigh--Jeans spectrum, in the limit $\la \to 0$ this light would carry an infinite amount of energy, an obvious error that became known as the \textit{ultraviolet catastrophe}.
-Planck's (heuristic) solution to this conundrum in 1900 was one of the first steps towards the quantum physics that introduces the exponential suppression we computed above.
+According to the classical Rayleigh--Jeans spectrum, in the limit $\la \to 0$ this light would carry an infinite amount of energy, an obvious problem that became known as the \textit{ultraviolet catastrophe}.
+Planck described his 1900 derivation of the UV-suppressed $P(\la)$ as ``an act of desperation'' to avoid this problem; it turned out to be one of the first steps towards the quantum physics.
 
-One final observation we will make about the Planck spectrum shown above is that as the temperature increases, the maximum of the Planck spectrum moves to shorter wavelengths and correspondingly larger energies.
+Another noteworthy feature of the Planck spectrum shown above is that as the temperature increases, the maximum of $P(\la)$ moves to shorter wavelengths and correspondingly larger energies.
 The fact that the peak of the spectrum for $T \approx 5000$~K falls within the wavelengths of visible light (roughly $400$--$700$~nm) is not a coincidence.
-As shown in the figure below (from \href{https://commons.wikimedia.org/wiki/File:Solar_Spectrum.png}{Wikimedia Commons}), the amount of sunlight that reaches the surface of the earth is also maximized around visible wavelengths, which are visible to us because we have evolved to make the most efficient use of this sunlight.
+As shown in the figure below, also from \href{https://commons.wikimedia.org/wiki/File:Solar_spectrum_en.svg}{Wikimedia Commons}, the amount of sunlight that reaches the surface of the earth is also maximized around visible wavelengths, which are visible to us because we have evolved to make the most efficient use of this sunlight.
 
 Taking into account the absorption of some sunlight by molecules in the atmosphere, we can see from the figure below that the energy spectrum of the sunlight reaching the top of the atmosphere is quite close to a Planck (or `blackbody') spectrum with temperature $T \approx 5778$~K.
 The agreement isn't perfect, which is to be expected since the Planck spectrum relies on the non-trivial assumption of an ideal gas of non-interacting particles.
-Even with that caveat, numerically fitting the measured sunlight to the Planck spectrum is how the surface temperature of the sun is determined to be $T \approx 5778$~K.
+Despite that caveat, numerically fitting the measured sunlight to the Planck spectrum is how this `effective' surface temperature of the sun is determined.
 This same fitting procedure can even be done for distant stars, with red stars corresponding to relatively low temperatures $T \lesssim 3500$~K and blue stars corresponding to relatively high temperatures $T \gtrsim 10{,}000$~K.
 
-\begin{center}\includegraphics[width=\textwidth]{figs/unit08_sun.pdf}\end{center}
+\begin{center}\includegraphics[width=0.9\textwidth]{figs/unit08_sun.pdf}\end{center} % WARNING: ADJUSTED SIZE BY HAND TO FILL REMAINDER OF PAGE
 
-In fact, we can even use the Planck spectrum to determine the temperature of inter-galactic space.
+Even more remarkably, we can use the Planck spectrum to determine the temperature of intergalactic space.
 Rather than being empty, these voids are actually permeated by a very low-temperature photon gas left over from the Big Bang roughly $14$~billion years ago.
 This photon gas is known as the \href{https://en.wikipedia.org/wiki/Cosmic_microwave_background}{cosmic microwave background} (CMB), and carries information about the early evolution of the universe, including some of the strongest evidence for the existence of dark matter.
 
@@ -183,7 +223,7 @@ That average temperature is subtracted and the fluctuations themselves are shown
 The final figure below illustrates such a fit of CMB data to the Planck spectrum, using measurements taken by the Cosmic Background Explorer (COBE) satellite and \href{https://doi.org/10.1086/185717}{published in 1990}.
 (This version of the figure is adapted from that publication, and copied from Schroeder's \textit{Introduction to Thermal Physics}.)
 The squares are the measured data, and their size represents a cautious estimate of uncertainties.
-They are plotted with the frequency $f = \om / (2\pi)$ on the horizontal axis, with $f \approx 3\cdot 10^{-11}~\text{s}^{-1}$ corresponding to a low-energy wavelength $\la = c / f \approx 1$~mm, roughly $1000$ times longer than the wavelengths of visible light.
+They are plotted with the frequency $f = \om / (2\pi)$ on the horizontal axis, with $f \approx 3\times 10^{-11}~\text{s}^{-1}$ corresponding to a low-energy wavelength $\la = c / f \approx 1$~mm, roughly $1000$ times longer than the wavelengths of visible light.
 The solid line is a fit to the data that produces $T_{\text{CMB}} = 2.735 \pm 0.060$~K.
 While more recent satellites have increased the precision with which we know $T_{\text{CMB}}$, this first result was awarded the 2006 Nobel Prize in Physics.
 
@@ -197,7 +237,7 @@ While more recent satellites have increased the precision with which we know $T_
 
 
 % ------------------------------------------------------------------
-\subsection{Equation of state for the photon gas}
+\subsection{\label{sec:photon_eos}Equation of state for the photon gas}
 Having looked in some detail at the integrand for the photon gas energy density, \eq{eq:Planck_omega}, let's complete the integration, which involves a famous integral related to the Riemann zeta function:
 \begin{equation*}
   I_4 = \int_0^{\infty} \frac{x^3}{e^x - 1} dx = \Gamma(4) \zeta(4) = \frac{\pi^4}{15}.
@@ -218,8 +258,7 @@ The calculation is quite similar to that for the average internal energy density
 \begin{equation*}
   I_3 = \int_0^{\infty} \frac{x^2}{e^x - 1} dx = \Gamma(3) \zeta(3) = 2\zeta(3).
 \end{equation*}
-\newpage % WARNING: FORMATTING BY HAND
-\noindent Using this result, what is the ideal photon gas number density?
+Using this result, what is the ideal photon gas number density?
 \begin{mdframed}
   $\displaystyle \frac{\vev{N}_{\text{ph}}}{V} = \frac{1}{c^3 \pi^2} \int_0^{\infty} \frac{\om^2}{e^{\be \hbar \om} - 1} \; d\om = $ \\[100 pt]
 \end{mdframed}
@@ -254,7 +293,6 @@ The final factor in this expression is yet another delightful integral,
 \end{equation*}
 Since this gives us $S \propto VT^3$, we can conclude that the condition of constant entropy for a photon gas is $V T^3 = \mbox{constant}$, in contrast to the $V T^{3/2}$ dependence of \eq{eq:ideal_entropy} for classical non-relativistic particles.
 
-\newpage % WARNING: FORMATTING BY HAND
 At this point we just need to insert the constant-entropy condition $T = b V^{-1 / 3}$ (with $b$ a constant) into the average internal energy and take the derivative:
 \begin{mdframed}
   $\displaystyle P = -\left. \pderiv{}{V} \vev{E}_{\text{ph}} \right|_{S_{\text{ph}}} = -\pderiv{}{V} \frac{\pi^2}{15 \hbar^3 c^3} b^4 V^{-1 / 3} = $ \\[100 pt]
@@ -273,36 +311,36 @@ The functional form is the same as the (classical, non-relativistic) ideal gas l
 
 % ------------------------------------------------------------------
 \subsection{\label{sec:fermi_nonrel}Non-relativistic ideal fermion gas}
-This week we wrap up our applications of the grand-canonical ensemble to investigate ideal gases of non-interacting particles.
+Now we will work through similar applications of the grand-canonical ensemble to investigate ideal gases of non-interacting fermions.
 We again take the quantum statistical approach of defining micro-states by summing over the possible occupation numbers $n_{\ell}$ for each energy level $\cE_{\ell}$ with energy $E_{\ell}$.
-In contrast to the bosonic case considered last week, we now focus on quantum gases of fermions, where the only possible occupation numbers are $n_{\ell} = 0$ and $1$, since the Pauli exclusion principle prevents multiple identical fermions from occupying the same energy level.
+In contrast to the bosonic case considered above, we now focus on the case where the only possible occupation numbers are $n_{\ell} = 0$ and $1$, since the Pauli exclusion principle prevents multiple identical fermions from occupying the same energy level.
 
 In \secref{sec:fermi} we derived the grand-canonical partition function (\eq{eq:partfunc_FD}) that defines quantum Fermi--Dirac statistics for such systems of non-interacting fermions,
 \begin{equation*}
-  \ZFD(\be, \mu) = \prod_{\ell = 0}^L \left[1 + e^{-\be (E_{\ell} - \mu)}\right],
+  \ZFD(\be, \mu) = \prod_{\ell = 0}^{\cL} \left[1 + e^{-\be (E_{\ell} - \mu)}\right],
 \end{equation*}
 for inverse temperature $\be = 1 / T$ and chemical potential $\mu$.
-Recall that it is possible for systems of fermions to have any value for the chemical potential (either positive or negative), in contrast to the systems of bosons we considered last week.
+Recall that it is possible for systems of fermions to have any value for the chemical potential (either positive or negative), in contrast to the systems of bosons we considered above.
 From the corresponding grand-canonical potential,
 \begin{equation*}
-  \Phi_{\text{FD}} = -T \sum_{\ell = 0}^L \log\left[1 + e^{-\be (E_{\ell} - \mu)}\right]
+  \Phi_{\text{FD}} = -T \sum_{\ell = 0}^{\cL} \log\left[1 + e^{-\be (E_{\ell} - \mu)}\right]
 \end{equation*}
 we can determine the large-scale properties of the system, including its average internal energy $\vev{E}$, average particle number $\vev{N}$, entropy $S$, and pressure $P$, along with the equation of state relating these quantities.
 
 A concrete calculation requires specifying the energy levels of the particles that compose the gas, and the degeneracies of those energy levels.
-Let's begin this week by considering non-relativistic particles of the sort we previously analyzed in \secref{sec:regulate}.
+Let's begin by considering non-relativistic particles of the sort we previously analyzed in \secref{sec:regulate}.
 In a volume $V = L^3$, the energy levels are defined by the non-zero quantized energies
 \begin{align*}
   E(k) & = \frac{p^2}{2m} = \frac{\hbar^2 \pi^2}{2mL^2}\left(k_x^2 + k_y^2 + k_z^2\right) &
   k_{x, y, z} & = 1, 2, \cdots.
 \end{align*}
-In addition to the usual degeneracies coming from permutations of $(k_x, k_y, k_z)$ that we discussed in previous weeks, for each distinct $\vec k$ typical fermions such as electrons have two degenerate energy levels with the same energy.
-This factor of $2$ has a different origin compared to the double degeneracy discussed for photons last week.
+In addition to the usual degeneracies coming from permutations of $(k_x, k_y, k_z)$ that we discussed previously, for each distinct $\vec k$ typical fermions such as electrons have two degenerate energy levels with the same energy.
+This factor of $2$ has a different origin compared to the double degeneracy discussed for photons in \secref{sec:photon}.
 Rather than worry about the physical origins of this behaviour, in both cases we simply incorporate this given information into our ansatz. % TODO: Could mention spin...
 
 The grand-canonical potential for an ideal gas of non-relativistic fermions is therefore
 \begin{equation*}
-  \Phi_{\text{f}} = T \sum_{\ell = 0}^L \log\left[1 + e^{-\be (E_{\ell} - \mu)}\right] = 2T \sum_{\vec k} \log\left[1 + \exp\left(-\frac{\hbar^2 \pi^2 k^2}{2mL^2 T} + \frac{\mu}{T}\right)\right].
+  \Phi_{\text{f}} = T \sum_{\ell = 0}^{\cL} \log\left[1 + e^{-\be (E_{\ell} - \mu)}\right] = 2T \sum_{\vec k} \log\left[1 + \exp\left(-\frac{\hbar^2 \pi^2 k^2}{2mL^2 T} + \frac{\mu}{T}\right)\right].
 \end{equation*}
 We can again proceed by considering the gas in a large volume and approximating the sum over discrete integer $k_{x, y, z}$ by integrals over continuous real $\khat_{x, y, z}$:
 \begin{equation*}
@@ -312,7 +350,7 @@ Converting to spherical coordinates and carrying out the angular integrations ov
 \begin{equation*}
   \Phi_{\text{f}} \approx \pi T \int_0^{\infty} d\khat \; \khat^2 \log\left[1 + \exp\left(-\frac{\hbar^2 \pi^2 \khat^2}{2mL^2 T} + \frac{\mu}{T}\right)\right].
 \end{equation*}
-In the same spirit as the change of variables we carried out last week, to integrate over photon frequencies $\om = \Eph / \hbar$, we will now change variables to integrate over the fermion energy:
+In the same spirit as the change of variables we carried out to integrate over photon frequencies $\om = \Eph / \hbar$, we will now change variables to integrate over the fermion energy:
 \begin{align*}
   E = \frac{\hbar^2 \pi^2}{2mL^2}\khat^2 \quad \lra \quad \khat & = \frac{L\sqrt{m}}{\pi \hbar} \sqrt{2E} \cr
                                                          d\khat & = \frac{L\sqrt{m}}{\pi \hbar} \frac{dE}{\sqrt{2E}}.
@@ -327,7 +365,7 @@ recognizing $L^3 = V$.
 With this grand-canonical potential derived, we just need to take the appropriate derivatives to determine the thermodynamics and equation of state for non-relativistic fermions.
 When doing so, we'll focus on the low-temperature regime where we expect quantum Fermi--Dirac statistics to differ significantly from the classical case we considered back in \secref{sec:regulate}.
 As we saw in \secref{sec:quantum_classical}, at high temperatures (with large negative chemical potential) the classical approach provides a good approximation to the true quantum physics.
-% TODO: Low temperatures provide a significant simplification, which is why we only consider that regime this week
+% TODO: Low temperatures provide a significant simplification, which is why we only consider that regime here...
 % ------------------------------------------------------------------
 
 
@@ -339,7 +377,7 @@ Rather than the average internal energy $\vev{E}_{\text{f}}$, it will prove prof
   \vev{N}_{\text{f}} = -\pderiv{}{\mu} \Phi_{\text{f}}
 \end{equation*}
 coming from the grand-canonical potential for non-relativistic fermions, \eq{eq:fermi_grand}.
-In analogy to the Planck spectrum we derived for the photon gas last week, we first express the particle number density as an integral over energies,
+In analogy to the Planck spectrum we derived for the photon gas in \secref{sec:planck}, we first express the particle number density as an integral over energies,
 \begin{equation*}
   \frac{\vev{N}_{\text{f}}}{V} = \frac{\sqrt{2m^3}}{\pi^2 \hbar^3} \int_0^{\infty} F(E) \sqrt{E} \; dE,
 \end{equation*}
@@ -392,14 +430,14 @@ If we were to invert this relation, we would obtain the so-called \textbf{Fermi 
 \end{equation}
 
 Now we can consider the average energy density of the non-relativistic fermion gas at low temperatures.
-Rather than taking another derivative of the grand-canonical potential, we can note from \eq{eq:total_energy_levels} and from our work on the photon gas last week that
+Rather than taking another derivative of the grand-canonical potential, we can note from \eq{eq:total_energy_levels} and from our work on the photon gas in \secref{sec:photon_eos} that
 \begin{equation}
   \frac{\vev{E}_{\text{f}}}{V} = \frac{\sqrt{2m^3}}{\pi^2 \hbar^3} \int_0^{\infty} E \; F(E) \sqrt{E} \; dE.
 \end{equation}
 That is, instead of simply counting the number of fermions in the system, we need to add up their energies, introducing an extra factor of $E$ compared to \eq{eq:N_fermi}.
 Still using the low-temperature step-function approximation for the Fermi function in \eq{eq:Fermi_step}, what is the average energy density?
 \begin{mdframed}
-  $\displaystyle \frac{\vev{E}_{\text{f}}}{V} = \frac{\sqrt{2m^3}}{\pi^2 \hbar^3} \int_0^{\infty} F(E) E^{3 / 2} \; dE = $ \\[100 pt]
+  $\displaystyle \frac{\vev{E}_{\text{f}}}{V} = \frac{\sqrt{2m^3}}{\pi^2 \hbar^3} \int_0^{\infty} F(E) \; E^{3 / 2} \; dE = $ \\[100 pt]
 \end{mdframed}
 
 You should find
