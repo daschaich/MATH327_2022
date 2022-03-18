@@ -1,0 +1,1647 @@
+1
+00:00:05,430 --> 00:00:11,970
+I'm running just slightly late this afternoon, but we can
+
+2
+00:00:11,970 --> 00:00:17,600
+get underway now with the next six digit number
+
+3
+00:00:19,890 --> 00:00:20,580
+for this afternoon,
+
+4
+00:00:23,960 --> 00:00:24,400
+which does not have to do
+
+5
+00:00:27,390 --> 00:00:27,790
+with these mass densities.
+
+6
+00:00:36,070 --> 00:00:38,500
+Today it is nine eight
+
+7
+00:00:41,110 --> 00:00:44,470
+two zero, nine six.
+
+8
+00:00:47,250 --> 00:00:51,960
+And let's start, to see if there are any questions
+
+9
+00:00:52,380 --> 00:00:57,090
+about any topic we've been covering so far in this
+
+10
+00:00:57,090 --> 00:01:01,650
+module, Including the second part of that computer
+
+11
+00:01:01,650 --> 00:01:04,380
+project that's due next week.
+
+12
+00:01:06,400 --> 00:01:09,360
+I'll say that this is the last tutorial
+
+13
+00:01:09,360 --> 00:01:14,220
+before that deadline and we will have another set
+
+14
+00:01:14,220 --> 00:01:18,420
+of office hours Monday afternoon. And this is a
+
+15
+00:01:18,420 --> 00:01:27,000
+quick. Notes I put in the miscellaneous section of
+
+16
+00:01:27,000 --> 00:01:31,670
+the material on canvas, just a couple of links are
+
+17
+00:01:31,670 --> 00:01:35,330
+actually a couple of paragraphs that I downloaded
+
+18
+00:01:35,330 --> 00:01:39,950
+from relatively recent applications of anomalous
+
+19
+00:01:39,950 --> 00:01:44,630
+diffusion published in the journal Physical Review
+
+20
+00:01:44,630 --> 00:01:47,990
+Letters, which publishes short four or five page
+
+21
+00:01:48,200 --> 00:01:52,430
+papers looking at things like anomalous diffusion
+
+22
+00:01:52,430 --> 00:01:57,710
+in terms of how genes move around in DNA from
+
+23
+00:01:57,710 --> 00:02:01,160
+about 10 years ago, as well as a more recent
+
+24
+00:02:01,910 --> 00:02:03,620
+letter that.
+
+25
+00:02:06,460 --> 00:02:08,260
+Some supplemental material getting it up to 10
+
+26
+00:02:08,260 --> 00:02:12,370
+pages, but maybe of some general interest in how
+
+27
+00:02:12,370 --> 00:02:14,590
+it reviews.
+
+28
+00:02:17,100 --> 00:02:20,040
+Different contexts in which both sub diffusion and
+
+29
+00:02:20,040 --> 00:02:24,390
+super diffusion occur in biophysical contexts,
+
+30
+00:02:24,390 --> 00:02:28,020
+which is what these folks are working on, things
+
+31
+00:02:28,020 --> 00:02:34,230
+related to polymers, education, DNA, active
+
+32
+00:02:34,250 --> 00:02:35,070
+networks.
+
+33
+00:02:38,710 --> 00:02:43,690
+Motion of tracer particles in in cells, so lots of.
+
+34
+00:02:46,280 --> 00:02:51,510
+References there to. Applications of supervision
+
+35
+00:02:51,510 --> 00:02:54,330
+and substitution, specifically in biophysics,
+
+36
+00:02:54,330 --> 00:02:58,290
+which were considered interesting enough by the
+
+37
+00:02:58,290 --> 00:03:01,410
+editors of that journal that they commissioned,
+
+38
+00:03:01,410 --> 00:03:07,310
+Dave Schwartz, less technical summary of. How all
+
+39
+00:03:07,310 --> 00:03:11,480
+of this supervision and subterfuge have come into
+
+40
+00:03:11,480 --> 00:03:14,420
+play in actual physical systems.
+
+41
+00:03:18,300 --> 00:03:24,390
+That is just in the final miscellaneous section of
+
+42
+00:03:24,390 --> 00:03:28,370
+the budget materials for those who are interested.
+
+43
+00:03:28,590 --> 00:03:30,390
+And with that.
+
+44
+00:03:33,200 --> 00:03:37,890
+Out of the way and mentioned. You can pick up with
+
+45
+00:03:38,310 --> 00:03:44,410
+not this, but what we were doing at. Last Friday.
+
+46
+00:03:46,590 --> 00:03:49,580
+That up to steal the screen and.
+
+47
+00:03:52,910 --> 00:04:01,660
+As a. Reminder of last week we had. A bit too much
+
+48
+00:04:01,660 --> 00:04:04,540
+material to get through the time available, so
+
+49
+00:04:04,540 --> 00:04:09,070
+this tutorial problem on the auto cycle for a
+
+50
+00:04:09,070 --> 00:04:11,950
+petrol engine is something that we just sort of
+
+51
+00:04:14,260 --> 00:04:17,900
+tossed out at the end with the idea that could we
+
+52
+00:04:17,930 --> 00:04:24,050
+visited. Today. We're just as a quick reminder,
+
+53
+00:04:24,050 --> 00:04:28,670
+the engine has like the carbon cycle, four stages.
+
+54
+00:04:29,830 --> 00:04:33,010
+No, in contrast to the current cycle, rather than
+
+55
+00:04:33,010 --> 00:04:36,250
+waiting for heat to be exchanged between external
+
+56
+00:04:36,250 --> 00:04:40,580
+hot and cold reservoirs. What happens with the
+
+57
+00:04:40,580 --> 00:04:47,510
+auto cycle is that after the. The fuel, so the gas
+
+58
+00:04:47,520 --> 00:04:50,370
+is a mixture of air and vaporized petrol is
+
+59
+00:04:50,370 --> 00:04:54,690
+compressed to some small volume V two, it is
+
+60
+00:04:54,690 --> 00:04:59,520
+ignited and burned the internal combustion process
+
+61
+00:04:59,520 --> 00:05:02,970
+to crank up the temperature of the pressure very
+
+62
+00:05:02,970 --> 00:05:05,970
+quickly at that fixed volume. And that high
+
+63
+00:05:05,970 --> 00:05:09,240
+pressure can then be used to generate work or
+
+64
+00:05:09,240 --> 00:05:13,830
+power from the expansion cycle before. That
+
+65
+00:05:13,830 --> 00:05:19,050
+Högberg fuel is expelled and replaced with a new
+
+66
+00:05:19,260 --> 00:05:23,280
+cooler mixture for the cycle to begin again,
+
+67
+00:05:23,520 --> 00:05:25,620
+keeping the same number of particles even as
+
+68
+00:05:25,620 --> 00:05:30,270
+particles are expelled and replaced from outside.
+
+69
+00:05:30,300 --> 00:05:35,610
+The question was. What is the efficiency of this
+
+70
+00:05:35,610 --> 00:05:37,920
+cycle in particular in terms of this compression
+
+71
+00:05:37,920 --> 00:05:44,160
+ratio between the large and small volumes? And how
+
+72
+00:05:44,160 --> 00:05:49,110
+that compares to the efficiency we computed. Last
+
+73
+00:05:49,110 --> 00:05:51,150
+week for the annual cycle.
+
+74
+00:05:53,360 --> 00:05:59,180
+And one topic I was going to. Mentioned briefly
+
+75
+00:05:59,180 --> 00:06:03,620
+even before diving into this out of cycle was an
+
+76
+00:06:03,620 --> 00:06:07,160
+alternative way of representing these cycles, both
+
+77
+00:06:07,160 --> 00:06:11,270
+Kernow as well as other cycles and many others,
+
+78
+00:06:12,170 --> 00:06:12,770
+that
+
+79
+00:06:15,170 --> 00:06:19,440
+takes advantage of the set of. Thermodynamic
+
+80
+00:06:19,440 --> 00:06:23,990
+equations that we. I wrote down for some the
+
+81
+00:06:24,290 --> 00:06:30,770
+cycles to express. All aspects of the system in
+
+82
+00:06:30,770 --> 00:06:34,280
+terms of a different set of variables rather than
+
+83
+00:06:34,280 --> 00:06:38,750
+the pressure and volume. So we've seen a
+
+84
+00:06:40,910 --> 00:06:45,740
+reminder from just law books, both empty,
+
+85
+00:06:45,890 --> 00:06:49,370
+specifying both pressure and volume, determines
+
+86
+00:06:49,490 --> 00:06:50,360
+the temperature
+
+87
+00:06:52,520 --> 00:06:57,500
+of the volume and temperature determines usually.
+
+88
+00:06:58,730 --> 00:07:03,660
+Find the entropy is proportional to that volume of
+
+89
+00:07:03,770 --> 00:07:06,950
+temperature to the three taps power, so an
+
+90
+00:07:06,950 --> 00:07:11,560
+alternative set of. Freedom parameters that we can
+
+91
+00:07:12,220 --> 00:07:17,920
+work with. Let me see if I can. He with the finger
+
+92
+00:07:17,920 --> 00:07:20,860
+and the question on the screen there, through this
+
+93
+00:07:21,490 --> 00:07:25,090
+sort of pressure and volume, we can work with the
+
+94
+00:07:25,420 --> 00:07:31,750
+temperature and can see underlining the state as
+
+95
+00:07:31,750 --> 00:07:34,930
+well as with the interview and from those get back
+
+96
+00:07:34,930 --> 00:07:37,240
+and forth between pressure and volume
+
+97
+00:07:39,340 --> 00:07:42,070
+to temperature and entropy.
+
+98
+00:07:44,070 --> 00:07:47,400
+So I removed myself.
+
+99
+00:07:50,320 --> 00:07:54,490
+Which of these two are most traditional there on
+
+100
+00:07:54,940 --> 00:07:59,890
+which axis the entropy is actually treated as the
+
+101
+00:07:59,890 --> 00:08:03,760
+x axis temperature on the y axis of these
+
+102
+00:08:04,380 --> 00:08:10,560
+so-called S.T. diagrams? As opposed to PV diagrams,
+
+103
+00:08:11,420 --> 00:08:12,000
+if we.
+
+104
+00:08:14,250 --> 00:08:20,910
+Call the news cycle, we're in the TV diagram, we
+
+105
+00:08:20,910 --> 00:08:25,620
+have to idiomatic expansion into precious stages,
+
+106
+00:08:25,620 --> 00:08:29,640
+interweaved with two isothermal progression and
+
+107
+00:08:29,640 --> 00:08:35,190
+expansion stages. As a reminder, boy in for final
+
+108
+00:08:35,400 --> 00:08:41,030
+was like. That where.
+
+109
+00:08:43,890 --> 00:08:44,450
+Scott.
+
+110
+00:08:47,490 --> 00:08:50,870
+It's not the best. But the.
+
+111
+00:08:54,400 --> 00:09:00,940
+Those up 80 stages connected to two stages, so.
+
+112
+00:09:02,660 --> 00:09:03,320
+That's.
+
+113
+00:09:08,440 --> 00:09:10,030
+Was there?
+
+114
+00:09:15,290 --> 00:09:21,440
+And so Adams on the other two stages. And
+
+115
+00:09:24,440 --> 00:09:26,990
+in contrast to how tricky it was for me to draw
+
+116
+00:09:27,200 --> 00:09:32,240
+that diagram before we see the entirety of your
+
+117
+00:09:32,240 --> 00:09:35,900
+diagram for the current cycle, it's much easier to
+
+118
+00:09:35,910 --> 00:09:39,890
+draw those terms or processes with constant
+
+119
+00:09:39,890 --> 00:09:44,660
+temperature. So the idioms that we've seen with no
+
+120
+00:09:44,660 --> 00:09:48,400
+exchange of sheets have no change. And there's a
+
+121
+00:09:48,410 --> 00:09:52,380
+constant central issue which leads to the current
+
+122
+00:09:52,400 --> 00:09:56,360
+cycle just being a.
+
+123
+00:09:59,810 --> 00:10:04,460
+Square or a rectangle in the axis of.
+
+124
+00:10:06,470 --> 00:10:09,530
+Temperature and the. And.
+
+125
+00:10:12,320 --> 00:10:15,870
+Whereas in the case of PV diagrams, we had a of
+
+126
+00:10:15,940 --> 00:10:20,570
+radical interpretation of the work, and it's that
+
+127
+00:10:20,570 --> 00:10:22,730
+area closed
+
+128
+00:10:25,310 --> 00:10:27,620
+under the cycle, so.
+
+129
+00:10:30,570 --> 00:10:31,570
+Work integrated.
+
+130
+00:10:36,810 --> 00:10:39,680
+We move forward and back with the negative side.
+
+131
+00:10:42,180 --> 00:10:47,070
+So canceling out, that is under both of those two
+
+132
+00:10:47,070 --> 00:10:50,970
+lines and keeping all boys in between the call
+
+133
+00:10:50,970 --> 00:10:53,280
+that similarly
+
+134
+00:10:57,330 --> 00:11:03,660
+keeps deploying and entropy put on that x axis,
+
+135
+00:11:04,020 --> 00:11:05,730
+then we end up with each
+
+136
+00:11:08,190 --> 00:11:16,330
+others operating cycles. That's it would be fine.
+
+137
+00:11:18,210 --> 00:11:22,410
+So that's just an alternate representation of the
+
+138
+00:11:22,430 --> 00:11:26,730
+two cycles. That's the whole case. There would
+
+139
+00:11:30,240 --> 00:11:36,440
+be up not here, the TV diagram correspondents that
+
+140
+00:11:36,750 --> 00:11:43,430
+I've crossed onto this diagram. So for the other
+
+141
+00:11:43,450 --> 00:11:44,060
+cycle.
+
+142
+00:11:46,760 --> 00:11:51,100
+Hopefully is usable, we have again to idiomatic
+
+143
+00:11:51,830 --> 00:11:56,670
+compression and expansion phases, which
+
+144
+00:11:59,720 --> 00:12:00,080
+mean.
+
+145
+00:12:12,940 --> 00:12:18,580
+So there will be two council phases and then in
+
+146
+00:12:18,580 --> 00:12:23,320
+between then we have this constant volume increase
+
+147
+00:12:23,380 --> 00:12:25,500
+or decrease in the pressure and temperature. So
+
+148
+00:12:25,500 --> 00:12:29,920
+the heat is being pumped into the system by
+
+149
+00:12:29,920 --> 00:12:33,370
+burning its fuel. So that increases the entropy at
+
+150
+00:12:33,370 --> 00:12:37,450
+the same time as it increases the temperature. And
+
+151
+00:12:37,450 --> 00:12:40,120
+similarly, at the exhaust stage when he is dumped
+
+152
+00:12:40,120 --> 00:12:42,430
+out into the environment.
+
+153
+00:12:45,520 --> 00:12:46,210
+There is
+
+154
+00:12:48,310 --> 00:12:52,090
+a decrease in the temperature and the interest of
+
+155
+00:12:52,090 --> 00:12:55,780
+the system and entropy being pumped out along with
+
+156
+00:12:55,780 --> 00:13:01,210
+the heat, so integrating these PV and AC diagrams
+
+157
+00:13:01,780 --> 00:13:04,810
+will give both the heat and the work.
+
+158
+00:13:08,400 --> 00:13:12,600
+So just to be precise, before we get back into the
+
+159
+00:13:12,600 --> 00:13:18,740
+actual question, that was, is the Baltimore Sun,
+
+160
+00:13:21,740 --> 00:13:25,980
+yes, going from four to one is cooling down the
+
+161
+00:13:25,980 --> 00:13:29,280
+system. So decreasing its temperature and its
+
+162
+00:13:29,280 --> 00:13:34,600
+pressure at a fixed point, the small of
+
+163
+00:13:36,670 --> 00:13:39,810
+civil rights people.
+
+164
+00:13:42,570 --> 00:13:48,360
+We have a free choice of volumes and we have to
+
+165
+00:13:48,360 --> 00:13:51,870
+specify at least one of the pressures in order to
+
+166
+00:13:51,870 --> 00:13:55,110
+close the cycle, if we go around this in a.
+
+167
+00:13:57,580 --> 00:14:01,540
+Rigorous analysis and essentially what we have at
+
+168
+00:14:01,540 --> 00:14:02,440
+our freedom, there's.
+
+169
+00:14:04,710 --> 00:14:09,090
+The temperature of the Interreg gas, as we bring
+
+170
+00:14:09,090 --> 00:14:11,340
+it in, assuming that the cycle has been running
+
+171
+00:14:11,340 --> 00:14:14,760
+for a while so that the engine is as hot as it's
+
+172
+00:14:14,760 --> 00:14:17,820
+going to be, not overheating, so that fixed
+
+173
+00:14:17,820 --> 00:14:21,780
+temperature is going to be set by how hot the time
+
+174
+00:14:21,810 --> 00:14:24,480
+is, how hot the engine is running. And then we
+
+175
+00:14:24,480 --> 00:14:30,920
+just need to pump out all of the. Burns fuel that
+
+176
+00:14:30,920 --> 00:14:33,740
+is at a higher temperature from having been burned
+
+177
+00:14:34,430 --> 00:14:38,510
+and then replace it with the fresh fuel mixture at
+
+178
+00:14:38,510 --> 00:14:40,280
+the same temperature. We started off with, which
+
+179
+00:14:40,280 --> 00:14:43,640
+necessarily lowers the pressure while the fight
+
+180
+00:14:43,640 --> 00:14:47,870
+against the occupation and be fixed in temperature
+
+181
+00:14:48,440 --> 00:14:53,080
+correspondingly lowers the pressure. So. We are
+
+182
+00:14:53,080 --> 00:14:58,230
+able to analyze this in the same terms. As a TV
+
+183
+00:14:58,290 --> 00:15:01,500
+diagram, even though it differs from Kurnos
+
+184
+00:15:01,500 --> 00:15:04,830
+original idea that we have some large external
+
+185
+00:15:04,830 --> 00:15:08,540
+reservoir that is shifting heat into and out of
+
+186
+00:15:08,550 --> 00:15:11,490
+the system just through from contact. Instead, we
+
+187
+00:15:11,490 --> 00:15:15,510
+have ignition and exhaust as ways to speed up the
+
+188
+00:15:15,510 --> 00:15:20,970
+process and have engines that run at several
+
+189
+00:15:20,970 --> 00:15:24,170
+thousand revolutions per minute rather than taking
+
+190
+00:15:24,180 --> 00:15:25,980
+several minutes for resolution.
+
+191
+00:15:31,190 --> 00:15:35,120
+And what I should ask at this stage is, are you
+
+192
+00:15:35,120 --> 00:15:40,290
+already done with. The question of calculating the
+
+193
+00:15:40,290 --> 00:15:43,350
+efficiency of the auto cycle or should we take
+
+194
+00:15:43,770 --> 00:15:49,750
+five minutes to. Work out that seem to be. Working
+
+195
+00:15:49,890 --> 00:15:56,390
+so. That's a sign she paused for those five
+
+196
+00:15:56,390 --> 00:16:02,030
+minutes reporting to check in. At that point.
+
+197
+00:16:04,430 --> 00:16:05,540
+After 20 past.
+
+198
+00:16:17,690 --> 00:16:20,800
+That was the worst ever for me to check in, having
+
+199
+00:16:21,170 --> 00:16:24,980
+what still seemed to be part of work on Friday,
+
+200
+00:16:24,980 --> 00:16:26,180
+just it to another.
+
+201
+00:16:28,210 --> 00:16:31,300
+But about a five minute period for you to keep
+
+202
+00:16:31,300 --> 00:16:34,180
+working on this. Are there any obstacles that have
+
+203
+00:16:34,180 --> 00:16:35,950
+come up so far?
+
+204
+00:16:51,580 --> 00:16:55,000
+It's just a matter of pushing through the.
+
+205
+00:16:57,250 --> 00:17:01,360
+Computation can help you with it, at least for
+
+206
+00:17:01,360 --> 00:17:05,970
+another. Five minutes before. Another chicken.
+
+207
+00:17:19,470 --> 00:17:22,560
+And the recording and say that maybe with at this
+
+208
+00:17:22,560 --> 00:17:25,710
+point, see how far we got out and.
+
+209
+00:17:27,720 --> 00:17:29,780
+Able to simplify things.
+
+210
+00:17:38,930 --> 00:17:40,750
+In terms of
+
+211
+00:17:44,680 --> 00:17:47,630
+looking at the efficiency of general expression,
+
+212
+00:17:48,250 --> 00:17:53,470
+that efficiency is the net amount of work put out
+
+213
+00:17:53,710 --> 00:17:59,660
+by the system that works in from the surroundings
+
+214
+00:17:59,680 --> 00:18:03,980
+to break the cycle, complete with the bottom line
+
+215
+00:18:06,370 --> 00:18:09,160
+that comes in, in this case, in the form of
+
+216
+00:18:09,700 --> 00:18:11,560
+burning fuel. In addition.
+
+217
+00:18:13,670 --> 00:18:14,140
+Well,
+
+218
+00:18:16,900 --> 00:18:20,300
+interestingly enough, some of you that
+
+219
+00:18:22,990 --> 00:18:29,560
+saw on this panel, you have the three. Quaternions
+
+220
+00:18:29,560 --> 00:18:40,380
+to return. And your work so far, it seen that the
+
+221
+00:18:42,990 --> 00:18:49,710
+system is the negative of the work done by. How
+
+222
+00:18:49,710 --> 00:18:53,130
+are things going to have a positive quality
+
+223
+00:18:53,700 --> 00:18:57,230
+negative work from three to four since that's the.
+
+224
+00:18:57,450 --> 00:19:05,950
+That is the major change in the energy, which, by
+
+225
+00:19:06,080 --> 00:19:11,040
+the way, was key to the equation cycles. It's just
+
+226
+00:19:11,550 --> 00:19:14,280
+three times and
+
+227
+00:19:17,220 --> 00:19:24,020
+the change is positive. Then Scorpion's.
+
+228
+00:19:27,170 --> 00:19:30,280
+Nearly the same one, the compression faced three
+
+229
+00:19:30,680 --> 00:19:35,320
+different sizes because the work is being done by
+
+230
+00:19:35,540 --> 00:19:40,820
+this system, which is the positive change from
+
+231
+00:19:41,240 --> 00:19:42,740
+point one to point to
+
+232
+00:19:45,260 --> 00:19:47,370
+the ads and
+
+233
+00:19:51,080 --> 00:19:59,390
+also the new needs to be. And then because Putin
+
+234
+00:20:00,230 --> 00:20:04,400
+is going to change the volume is zero and a fixed
+
+235
+00:20:04,400 --> 00:20:10,400
+volume, there is no work being done. So this is
+
+236
+00:20:10,400 --> 00:20:10,880
+also
+
+237
+00:20:13,610 --> 00:20:16,610
+for change and energy.
+
+238
+00:20:18,620 --> 00:20:20,320
+Those two to three
+
+239
+00:20:22,780 --> 00:20:23,680
+is part of the
+
+240
+00:20:27,450 --> 00:20:31,310
+picture. So ever
+
+241
+00:20:33,410 --> 00:20:38,510
+since all these factors that have been cast, that
+
+242
+00:20:38,510 --> 00:20:38,930
+is just
+
+243
+00:20:40,980 --> 00:20:48,350
+on the almost by the estimates of two one by.
+
+244
+00:20:51,470 --> 00:20:57,950
+To pull that, he wants to go to France to have one
+
+245
+00:20:58,460 --> 00:21:03,150
+like this one's for.
+
+246
+00:21:06,940 --> 00:21:10,990
+And this, too, may well look familiar from
+
+247
+00:21:13,300 --> 00:21:18,370
+the past few minutes. Now.
+
+248
+00:21:22,390 --> 00:21:23,120
+No, no.
+
+249
+00:21:25,130 --> 00:21:28,430
+So that's the starting point for people who want
+
+250
+00:21:28,430 --> 00:21:31,750
+to help, aside from the large scale of regional
+
+251
+00:21:31,760 --> 00:21:33,910
+pressure and temperature, but we're going to have
+
+252
+00:21:33,950 --> 00:21:37,100
+to do the same so we have a seasonal space.
+
+253
+00:21:37,640 --> 00:21:41,980
+Whenever a burning fuel is pushed out into, the
+
+254
+00:21:41,980 --> 00:21:47,260
+demand has to be replaced immediately with a fresh
+
+255
+00:21:47,270 --> 00:21:50,990
+batch of fuels that no article statistics, even
+
+256
+00:21:51,340 --> 00:21:55,930
+which these particles they are, is evolving. So
+
+257
+00:21:55,930 --> 00:22:00,220
+that is an important condition for analyzing for
+
+258
+00:22:00,520 --> 00:22:04,300
+cycles through the canonical ensemble that fixes
+
+259
+00:22:04,300 --> 00:22:12,080
+the temperature. No. That insurance for was. And
+
+260
+00:22:12,080 --> 00:22:16,010
+that. In particular, it is also part of that
+
+261
+00:22:16,010 --> 00:22:18,690
+condition for constant intracranial.
+
+262
+00:22:20,980 --> 00:22:25,060
+That this country needs is proportional to just
+
+263
+00:22:25,060 --> 00:22:29,100
+that combination of the temperature when the of is
+
+264
+00:22:29,110 --> 00:22:33,540
+six. I mentioned that interview commission as it
+
+265
+00:22:33,540 --> 00:22:38,070
+is a useful way to simplify this, to get to the
+
+266
+00:22:38,070 --> 00:22:40,890
+promised result of this efficiency is to depend
+
+267
+00:22:41,430 --> 00:22:45,480
+only on that compression ratio of the one divided
+
+268
+00:22:45,480 --> 00:22:46,350
+by two to.
+
+269
+00:22:48,570 --> 00:22:54,150
+Rich. We can see that by applying that condition
+
+270
+00:22:54,150 --> 00:23:01,430
+of entry to both of the antibiotic cycles where me
+
+271
+00:23:01,680 --> 00:23:06,500
+Constance's will do that over here at.
+
+272
+00:23:10,630 --> 00:23:16,250
+Just because. In addition, here comes the boiling
+
+273
+00:23:16,250 --> 00:23:19,490
+water temperature, one, two, three,
+
+274
+00:23:26,090 --> 00:23:28,910
+two, three. And similarly.
+
+275
+00:23:31,900 --> 00:23:32,410
+For.
+
+276
+00:23:36,780 --> 00:23:39,860
+That's kind of the general rule.
+
+277
+00:23:42,090 --> 00:23:46,950
+So this is the second or full cycle one this stage,
+
+278
+00:23:47,430 --> 00:23:52,970
+as well as for that stage to be the for some
+
+279
+00:23:52,980 --> 00:23:59,450
+rearranging things, they have ratios to one to two
+
+280
+00:23:59,480 --> 00:24:02,140
+to four to.
+
+281
+00:24:10,480 --> 00:24:14,320
+What will prevent depression with your help and
+
+282
+00:24:14,320 --> 00:24:18,820
+also the same ratio that pops up from other power
+
+283
+00:24:18,830 --> 00:24:23,020
+stage just as the ratio of for
+
+284
+00:24:26,020 --> 00:24:26,800
+to three?
+
+285
+00:24:29,330 --> 00:24:33,230
+Or if I rearrange those equations
+
+286
+00:24:37,250 --> 00:24:46,150
+to one, which is the same. As to what was he did
+
+287
+00:24:46,160 --> 00:24:46,700
+through?
+
+288
+00:24:51,360 --> 00:24:55,590
+Let's see what we can do with this expression
+
+289
+00:25:03,360 --> 00:25:11,140
+later on this morning. Well, the bottom line is
+
+290
+00:25:15,070 --> 00:25:20,340
+since to one, all he wanted was to oversee this
+
+291
+00:25:20,340 --> 00:25:24,600
+whole factor in parentheses. This one, the
+
+292
+00:25:24,780 --> 00:25:30,120
+efficiency is one minus that ratio for over three
+
+293
+00:25:30,690 --> 00:25:37,140
+that we identify as the compression ratio to two
+
+294
+00:25:37,140 --> 00:25:42,670
+thirds. And that is the answer to the first
+
+295
+00:25:42,670 --> 00:25:47,440
+question. Keeping an eye on the clock to wrap
+
+296
+00:25:47,440 --> 00:25:50,170
+things up today on his charge ahead with.
+
+297
+00:25:54,160 --> 00:25:58,270
+Your comments about the other two pieces of this
+
+298
+00:25:58,270 --> 00:26:01,980
+problem, because the comparison
+
+299
+00:26:04,090 --> 00:26:09,910
+is efficiency is the problem. So if you plug in
+
+300
+00:26:10,630 --> 00:26:13,750
+rather than whatever depression version of the two
+
+301
+00:26:13,750 --> 00:26:18,460
+thirds for this speculative for which you three
+
+302
+00:26:19,270 --> 00:26:24,040
+other ratio tell the truth, then express the other
+
+303
+00:26:24,040 --> 00:26:31,450
+side of this numbers, the ratio between two, which
+
+304
+00:26:32,470 --> 00:26:41,820
+is less than one, the T cycle, which is two begins.
+
+305
+00:26:42,730 --> 00:26:45,940
+And it's easy to see where this inequality comes
+
+306
+00:26:45,940 --> 00:26:50,830
+from with teaching itself. The temperature before
+
+307
+00:26:50,860 --> 00:26:55,270
+the fuels is able to stop being smaller than two
+
+308
+00:26:55,360 --> 00:26:57,100
+three. So there
+
+309
+00:26:59,260 --> 00:27:04,840
+is longer and subtracting a larger number. For one,
+
+310
+00:27:05,320 --> 00:27:10,130
+you say reduce the efficiency cycle. Which is what
+
+311
+00:27:10,130 --> 00:27:14,990
+we expect, given what we saw was the theoretical
+
+312
+00:27:14,990 --> 00:27:19,070
+maximum. So the best we could do would be throw
+
+313
+00:27:19,940 --> 00:27:23,420
+the other side well, is less efficient, but much
+
+314
+00:27:23,420 --> 00:27:27,090
+faster to operate in an internal combustion engine.
+
+315
+00:27:28,850 --> 00:27:32,540
+But the last comment for today has to do with
+
+316
+00:27:32,540 --> 00:27:37,790
+maximizing the efficiency of this cycle, which you
+
+317
+00:27:37,790 --> 00:27:44,810
+can do by maximizing this compression ratio. So as
+
+318
+00:27:48,380 --> 00:27:50,240
+our goes to infinity.
+
+319
+00:27:55,190 --> 00:28:01,120
+There's a ratio of the boils over which this
+
+320
+00:28:02,230 --> 00:28:04,810
+engine is operating, it's become larger and larger,
+
+321
+00:28:04,820 --> 00:28:08,080
+the efficiency gets better and better, and there's
+
+322
+00:28:08,080 --> 00:28:12,930
+less relative amount of energy lost to wastage
+
+323
+00:28:12,970 --> 00:28:16,360
+compared to the amount that is converted into used
+
+324
+00:28:16,360 --> 00:28:23,020
+to work. So what we would want to do to make our
+
+325
+00:28:23,020 --> 00:28:26,170
+petrol engine as efficient as possible is make
+
+326
+00:28:26,800 --> 00:28:29,560
+this with compression and power stage as long as
+
+327
+00:28:29,560 --> 00:28:34,180
+possible. Which went into some practical
+
+328
+00:28:34,360 --> 00:28:40,420
+limitations, because as we compress the mixture of
+
+329
+00:28:40,420 --> 00:28:44,340
+air and vaporize petrol that is burned as fuel in
+
+330
+00:28:44,350 --> 00:28:49,660
+these engines, the temperature is steadily rising
+
+331
+00:28:50,800 --> 00:28:55,970
+through the ideal gas law. This is adiabatic
+
+332
+00:28:56,390 --> 00:28:57,290
+compression.
+
+333
+00:29:00,390 --> 00:29:06,230
+That's. Leads to larger temperature as the system
+
+334
+00:29:06,230 --> 00:29:09,140
+is compressed with no ability to exchange heat
+
+335
+00:29:09,140 --> 00:29:12,020
+with its surroundings, and if that temperature
+
+336
+00:29:12,020 --> 00:29:16,010
+becomes too large, then it is possible for that
+
+337
+00:29:16,010 --> 00:29:19,940
+mixture of air and fuel is being compressed to
+
+338
+00:29:19,940 --> 00:29:24,350
+spontaneously combust and start the ignition phase
+
+339
+00:29:24,350 --> 00:29:30,320
+before an actual spark is put in to ignite the.
+
+340
+00:29:31,820 --> 00:29:36,280
+The fuel is controlled by. Audio engineering, this
+
+341
+00:29:36,280 --> 00:29:39,880
+is called Docketed, and you have engineers
+
+342
+00:29:40,090 --> 00:29:44,380
+knocking in a car, that is what happens when it's
+
+343
+00:29:44,380 --> 00:29:50,170
+trying to work with a. Compression ratio we want
+
+344
+00:29:50,170 --> 00:29:58,190
+to repeat to that is too large. For these fuels to
+
+345
+00:29:58,190 --> 00:30:03,320
+remain stable. This is a just brief segment in the
+
+346
+00:30:03,320 --> 00:30:08,930
+last couple of minutes here to alternate. Form of
+
+347
+00:30:08,930 --> 00:30:13,910
+internal combustion engine, I need to zoom out to
+
+348
+00:30:14,030 --> 00:30:17,900
+get into the screen. That should do it. And what
+
+349
+00:30:17,900 --> 00:30:21,050
+we have here is a cycle.
+
+350
+00:30:23,460 --> 00:30:26,280
+Known as the diesel cycle.
+
+351
+00:30:31,480 --> 00:30:32,430
+Imlach.
+
+352
+00:30:36,370 --> 00:30:40,630
+And similarly to the auto cycle that describes a
+
+353
+00:30:40,630 --> 00:30:47,050
+petrol engine we have, adiabatic compression is
+
+354
+00:30:47,470 --> 00:30:52,000
+going from using, if you want to be to and
+
+355
+00:30:52,130 --> 00:30:57,280
+idiomatic powerplays. But instead of mixing the
+
+356
+00:30:57,280 --> 00:31:01,100
+air fuel at the start, the schools are concerned
+
+357
+00:31:02,880 --> 00:31:07,240
+about what what is compressed is actually just air
+
+358
+00:31:07,240 --> 00:31:10,570
+itself, which is not going to spontaneously
+
+359
+00:31:10,570 --> 00:31:13,930
+combust, at least not if the temperature is large
+
+360
+00:31:13,930 --> 00:31:16,840
+enough to melt whatever the engine is made out of
+
+361
+00:31:17,190 --> 00:31:21,930
+the first place. It is only at this stage. Mr.
+
+362
+00:31:21,930 --> 00:31:26,560
+Weebles, one, two, three and four. The initial
+
+363
+00:31:26,560 --> 00:31:33,490
+phase is now happening at a cost and pressure. And
+
+364
+00:31:33,500 --> 00:31:36,130
+pushing the system out to a larger point where
+
+365
+00:31:37,100 --> 00:31:41,420
+fuel is actually injected into the hot air that
+
+366
+00:31:41,420 --> 00:31:45,520
+has been compressed. Where it immediately ignites,
+
+367
+00:31:46,000 --> 00:31:49,600
+increases the temperature and increases the volume
+
+368
+00:31:49,780 --> 00:31:55,550
+at this fixed pressure and then. It's power. Out
+
+369
+00:31:55,550 --> 00:31:59,620
+of. Remaining expansion back to the point where we
+
+370
+00:31:59,620 --> 00:32:03,680
+started off with. So the efficiency of the diesel
+
+371
+00:32:03,680 --> 00:32:08,180
+cycle is going to depend on both the compression
+
+372
+00:32:08,180 --> 00:32:13,860
+ratio, the one. Review, too, as well as what is
+
+373
+00:32:13,860 --> 00:32:19,300
+called the cut off ratio, which is this. New
+
+374
+00:32:19,300 --> 00:32:23,550
+volume three divided by the two how?
+
+375
+00:32:26,050 --> 00:32:28,630
+This is putting the limit on how much how high the
+
+376
+00:32:28,630 --> 00:32:33,620
+pressure can be as fuel is injected to be burned.
+
+377
+00:32:35,790 --> 00:32:40,320
+So. We have an expression for the utmost
+
+378
+00:32:40,590 --> 00:32:46,490
+efficiency. Given a depression ratio of.
+
+379
+00:32:50,920 --> 00:32:54,430
+Existing cars tend to have compression ratios,
+
+380
+00:32:54,820 --> 00:32:57,780
+babies, so it's going to be almost is times for
+
+381
+00:32:57,790 --> 00:33:02,500
+children to get into this expression of the auto
+
+382
+00:33:02,500 --> 00:33:07,480
+cycle efficiency, what is now fifty six percent
+
+383
+00:33:07,480 --> 00:33:12,550
+efficient efficiently. What's.
+
+384
+00:33:14,580 --> 00:33:17,850
+In practice, so realistic cycles, psychosis is
+
+385
+00:33:18,060 --> 00:33:21,600
+ignoring things like fiction and other
+
+386
+00:33:21,650 --> 00:33:25,890
+inefficiencies, the people burning fuel, so the
+
+387
+00:33:25,890 --> 00:33:31,710
+other cycle legalistic deficiencies are usually
+
+388
+00:33:31,710 --> 00:33:36,300
+about 10 to 20 percent between two to three. And
+
+389
+00:33:37,200 --> 00:33:40,290
+you can find in the diesel cycle with a fixed
+
+390
+00:33:40,980 --> 00:33:43,290
+compression ratio. The efficiency actually tends
+
+391
+00:33:43,290 --> 00:33:47,490
+to be less than the other cycle. But because we
+
+392
+00:33:47,490 --> 00:33:50,700
+don't have this risk of spontaneous combustion, we
+
+393
+00:33:50,700 --> 00:33:56,160
+can get much larger compression ratios at work
+
+394
+00:33:57,930 --> 00:34:03,930
+around 20. So two and a half times the ratio for a
+
+395
+00:34:03,990 --> 00:34:08,700
+petrol engine is possible with typical diesel
+
+396
+00:34:08,700 --> 00:34:13,230
+engines. And in those real world examples, the
+
+397
+00:34:13,230 --> 00:34:16,590
+efficiency can rise from 20 to 30 percent all the
+
+398
+00:34:16,590 --> 00:34:20,580
+way up to 40 percent, which doesn't seem to be
+
+399
+00:34:20,580 --> 00:34:23,780
+showing up well on that screen. But. Is, I think,
+
+400
+00:34:23,840 --> 00:34:27,320
+the place to stop for today in light of the time.
+
+401
+00:34:28,680 --> 00:34:32,690
+I think over the coming week, both in lecture and
+
+402
+00:34:32,690 --> 00:34:37,300
+tutorial, we'll do some more. Connections with.
+
+403
+00:34:38,430 --> 00:34:43,470
+These more realistic real world applications of
+
+404
+00:34:43,470 --> 00:34:46,590
+all the food and concepts we've been building up
+
+405
+00:34:48,570 --> 00:34:53,940
+in time, gas related to solar radiation, and I
+
+406
+00:34:53,940 --> 00:34:56,910
+think a tutorial will look at the Einstein model
+
+407
+00:34:57,630 --> 00:34:58,500
+of a solid.
+
+408
+00:35:00,820 --> 00:35:04,050
+It's its capacity to some experimental data.
+
+409
+00:35:06,360 --> 00:35:10,410
+So if there are no further questions for today,
+
+410
+00:35:10,410 --> 00:35:14,820
+we'll have a week for statistical physics. Hope
+
+411
+00:35:14,820 --> 00:35:20,400
+you enjoy the weekend. It remains so nice and
+
+412
+00:35:20,400 --> 00:35:20,790
+sunny.
