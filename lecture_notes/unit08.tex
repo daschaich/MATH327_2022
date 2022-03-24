@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 8}
-\renewcommand{\moddate}{Last modified 19 Mar.~2022}
+\renewcommand{\moddate}{Last modified 24 Mar.~2022}
 \setcounter{section}{8}
 \setcounter{subsection}{0}
 \phantomsection
@@ -16,7 +16,7 @@ Following the quantum approach, we obtained this result by considering in turn e
 For bosons, $n_{\ell} \in \Nbb_0$ produces sums that only converge if $\mu < E_{\ell}$ for all $\ell$.
 The corresponding grand-canonical potential is
 \begin{equation*}
-  \Phi_{\text{BE}} = -T \log Z_g = T \sum_{\ell = 0}^{\cL} \log\left[1 - e^{-\be (E_{\ell} - \mu)}\right],
+  \Phi_{\text{BE}} = -T \log \ZBE = T \sum_{\ell = 0}^{\cL} \log\left[1 - e^{-\be (E_{\ell} - \mu)}\right],
 \end{equation*}
 from which we can determine the large-scale properties of the system, including its average internal energy $\vev{E}$, average particle number $\vev{N}$, entropy $S$, and pressure $P$.
 
@@ -265,6 +265,7 @@ Using this result, what is the average particle number density ideal photon gas?
 
 You should find a result proportional to $T^3 \propto \vev{E}_{\text{ph}} / T$, so that
 \begin{equation}
+  \label{eq:photon_gas_energy}
   \vev{E}_{\text{ph}} = \frac{\pi^2}{15 \hbar^3 c^3} VT^4 = \frac{\pi^4}{30\zeta(3)} \vev{N}_{\text{ph}} T.
 \end{equation}
 The functional form is the same as \eq{eq:ideal_energy}, with a larger numerical factor
@@ -303,7 +304,7 @@ For the resulting equation of state for the photon gas, you should find
 \end{equation}
 The functional form is the same as the (classical, non-relativistic) ideal gas law, with just an additional numerical factor of
 \begin{equation*}
-  \frac{\pi^4}{90\zeta(3)} = \frac{\zeta(4)}{\zeta(3)}.
+  \frac{\pi^4}{90\zeta(3)} = \frac{\zeta(4)}{\zeta(3)}. % TODO: Approximately 0.9...
 \end{equation*}
 % ------------------------------------------------------------------
 
@@ -312,123 +313,119 @@ The functional form is the same as the (classical, non-relativistic) ideal gas l
 % ------------------------------------------------------------------
 \newpage % WARNING: FORMATTING BY HAND
 \subsection{\label{sec:fermi_nonrel}Non-relativistic ideal fermion gas}
-Now we will work through similar applications of the grand-canonical ensemble to investigate ideal gases of non-interacting fermions.
-We again take the quantum statistical approach of defining micro-states by summing over the possible occupation numbers $n_{\ell}$ for each energy level $\cE_{\ell}$ with energy $E_{\ell}$.
-In contrast to the bosonic case considered above, we now focus on the case where the only possible occupation numbers are $n_{\ell} = 0$ and $1$, since the Pauli exclusion principle prevents multiple identical fermions from occupying the same energy level.
+For the remainder of this unit we will turn our attention to applying the grand-canonical ensemble to investigate ideal gases of non-interacting fermions.
+We again take the approach of quantum statistics, defining micro-states by summing over the possible occupation numbers $n_{\ell}$ for each energy level $\cE_{\ell}$ with (possibly not unique) energy $E_{\ell}$.
+In contrast to the bosonic case considered above, the only possible occupation numbers are now $n_{\ell} = 0$ and $1$, since the Pauli exclusion principle prevents multiple identical fermions from occupying the same energy level.
 
 In \secref{sec:fermi} we derived the grand-canonical partition function (\eq{eq:partfunc_FD}) that defines quantum Fermi--Dirac statistics for such systems of non-interacting fermions,
 \begin{equation*}
   \ZFD(\be, \mu) = \prod_{\ell = 0}^{\cL} \left[1 + e^{-\be (E_{\ell} - \mu)}\right],
 \end{equation*}
-for inverse temperature $\be = 1 / T$ and chemical potential $\mu$.
-Recall that it is possible for systems of fermions to have any value for the chemical potential (either positive or negative), in contrast to the systems of bosons we considered above.
+in terms of the inverse temperature $\be = 1 / T$ and chemical potential $\mu$.
+Recall that it is possible for systems of fermions to have any value for the chemical potential, either positive or negative, in contrast to the systems of bosons we considered above.
 From the corresponding grand-canonical potential,
 \begin{equation*}
-  \Phi_{\text{FD}} = -T \sum_{\ell = 0}^{\cL} \log\left[1 + e^{-\be (E_{\ell} - \mu)}\right]
+  \Phi_{\text{FD}} = -T\log \ZFD = -T \sum_{\ell = 0}^{\cL} \log\left[1 + e^{-\be (E_{\ell} - \mu)}\right]
 \end{equation*}
 we can determine the large-scale properties of the system, including its average internal energy $\vev{E}$, average particle number $\vev{N}$, entropy $S$, and pressure $P$, along with the equation of state relating these quantities.
 
-A concrete calculation requires specifying the energy levels of the particles that compose the gas, and the degeneracies of those energy levels.
-Let's begin by considering non-relativistic particles of the sort we previously analyzed in \secref{sec:regulate}.
+Concrete calculations require specifying the energy levels of the particles that compose the gas, including the degeneracies of any distinct energy levels $\left\{\cE_m, \cE_n\right\}$, $m \neq n$, with the same energy $E_m = E_n$.
+In this section we'll begin by considering non-relativistic particles, expanding on our review of such systems in \secref{sec:photon}.
 In a volume $V = L^3$, the energy levels are defined by the non-zero quantized energies
 \begin{align*}
-  E(k) & = \frac{p^2}{2m} = \frac{\hbar^2 \pi^2}{2mL^2}\left(k_x^2 + k_y^2 + k_z^2\right) &
+  E(k) & = \eps \left(k_x^2 + k_y^2 + k_z^2\right) \qquad &
+  \eps & \equiv \frac{\hbar^2 \pi^2}{2mL^2} \qquad &
   k_{x, y, z} & = 1, 2, \cdots.
 \end{align*}
-In addition to the usual degeneracies coming from permutations of $(k_x, k_y, k_z)$ that we discussed previously, for each distinct $\vec k$ typical fermions such as electrons have two degenerate energy levels with the same energy.
-This factor of $2$ has a different origin compared to the double degeneracy discussed for photons in \secref{sec:photon}.
-Rather than worry about the physical origins of this behaviour, in both cases we simply incorporate this given information into our ansatz. % TODO: Could mention spin...
+In addition to the usual degeneracies coming from permutations of $(k_x, k_y, k_z)$ that we have already analyzed, for each distinct $\vec k$ typical fermions such as electrons have two degenerate energy levels with the same energy $E(k)$.
+This arises from a quantum property called \textit{spin}, rather than the two polarizations for photons discussed in \secref{sec:photon}: `spin-up' and `spin-down' electrons with the same momenta and energies occupy distinct, degenerate energy levels.
+This property of spin is related to the spin--statistics theorem mentioned in \secref{sec:spin}, and is another topic we can discuss further in a tutorial if there is interest.
+For our statistical physics purposes it will suffice simply to incorporate this information into our ansatz as input.
 
 The grand-canonical potential for an ideal gas of non-relativistic fermions is therefore
 \begin{equation*}
-  \Phi_{\text{f}} = T \sum_{\ell = 0}^{\cL} \log\left[1 + e^{-\be (E_{\ell} - \mu)}\right] = 2T \sum_{\vec k} \log\left[1 + \exp\left(-\frac{\hbar^2 \pi^2 k^2}{2mL^2 T} + \frac{\mu}{T}\right)\right].
+  \Phi_{\text{f}} = -T \sum_{\ell = 0}^{\cL} \log\left[1 + e^{-\be (E_{\ell} - \mu)}\right] = -2T \sum_{\vec k} \log\left[1 + \exp\left(-\frac{\hbar^2 \pi^2 k^2}{2mL^2 T} + \frac{\mu}{T}\right)\right].
 \end{equation*}
 We can again proceed by considering the gas in a large volume and approximating the sum over discrete integer $k_{x, y, z}$ by integrals over continuous real $\khat_{x, y, z}$:
 \begin{equation*}
-  \Phi_{\text{f}} \approx 2T \int d\khat_x d\khat_y d\khat_z \log\left[1 + \exp\left(-\frac{\hbar^2 \pi^2 \khat^2}{2mL^2 T} + \frac{\mu}{T}\right)\right].
+  \Phi_{\text{f}} \approx -2T \int d\khat_x \; d\khat_y \; d\khat_z \; \log\left[1 + \exp\left(-\frac{\hbar^2 \pi^2 \khat^2}{2mL^2 T} + \frac{\mu}{T}\right)\right].
 \end{equation*}
 Converting to spherical coordinates and carrying out the angular integrations over the $\frac{\pi}{2}$ solid angle of the octant of the sphere with $k_{x, y, z} > 0$, we have
 \begin{equation*}
-  \Phi_{\text{f}} \approx \pi T \int_0^{\infty} d\khat \; \khat^2 \log\left[1 + \exp\left(-\frac{\hbar^2 \pi^2 \khat^2}{2mL^2 T} + \frac{\mu}{T}\right)\right].
+  \Phi_{\text{f}} \approx -\pi T \int_0^{\infty} d\khat \; \khat^2 \log\left[1 + \exp\left(-\frac{\hbar^2 \pi^2 \khat^2}{2mL^2 T} + \frac{\mu}{T}\right)\right].
 \end{equation*}
-In the same spirit as the change of variables we carried out to integrate over photon frequencies $\om = \Eph / \hbar$, we will now change variables to integrate over the fermion energy:
-\begin{align*}
-  E = \frac{\hbar^2 \pi^2}{2mL^2}\khat^2 \quad \lra \quad \khat & = \frac{L\sqrt{m}}{\pi \hbar} \sqrt{2E} \cr
-                                                         d\khat & = \frac{L\sqrt{m}}{\pi \hbar} \frac{dE}{\sqrt{2E}}.
-\end{align*}
-Plugging this in produces
-\begin{align}
-  \Phi_{\text{f}} & \approx \pi T \left(\frac{L^3 m^{3 / 2}}{\pi^3 \hbar^3}\right) \int_0^{\infty} dE \frac{2E}{\sqrt{2E}} \log\left[1 + e^{-\be(E - \mu)}\right] \cr
-                  & = \frac{\sqrt{2 m^3} VT}{\pi^2 \hbar^3} \int_0^{\infty} dE \sqrt{E} \log\left[1 + e^{-\be(E - \mu)}\right]. \label{eq:fermi_grand}
-\end{align}
-recognizing $L^3 = V$.
+In the same spirit as the change of variables we carried out to integrate over photon frequencies $\om = \Eph / \hbar$, we will now change variables to integrate over the fermion energy $E = \displaystyle \frac{\hbar^2 \pi^2}{2mL^2}\khat^2$:
+\begin{mdframed}
+  $\displaystyle \Phi_{\text{f}} = $ \\[120 pt]
+\end{mdframed}
 
-With this grand-canonical potential derived, we just need to take the appropriate derivatives to determine the thermodynamics and equation of state for non-relativistic fermions.
-When doing so, we'll focus on the low-temperature regime where we expect quantum Fermi--Dirac statistics to differ significantly from the classical case we considered back in \secref{sec:regulate}.
-As we saw in \secref{sec:quantum_classical}, at high temperatures (with large negative chemical potential) the classical approach provides a good approximation to the true quantum physics.
-% TODO: Low temperatures provide a significant simplification, which is why we only consider that regime here...
+As for the case of a photon gas, \eq{eq:photon_grand}, you should find $\Phi_{\text{f}} \propto VT$.
+It will be convenient to keep this grand-canonical potential in the form of an integral over the energy $E$, which we will evaluate after taking appropriate derivatives to determine the thermodynamics and equation of state for non-relativistic fermions.
 % ------------------------------------------------------------------
 
 
 
 % ------------------------------------------------------------------
 \subsection{Low-temperature equation of state}
-Rather than the average internal energy $\vev{E}_{\text{f}}$, it will prove profitable to first analyze the average particle number
-\begin{equation*}
-  \vev{N}_{\text{f}} = -\pderiv{}{\mu} \Phi_{\text{f}}
-\end{equation*}
-coming from the grand-canonical potential for non-relativistic fermions, \eq{eq:fermi_grand}.
-In analogy to the Planck spectrum we derived for the photon gas in \secref{sec:planck}, we first express the particle number density as an integral over energies,
-\begin{equation*}
-  \frac{\vev{N}_{\text{f}}}{V} = \frac{\sqrt{2m^3}}{\pi^2 \hbar^3} \int_0^{\infty} F(E) \sqrt{E} \; dE,
-\end{equation*}
-where the function $F(E)$ is known as the Fermi function.
-In contrast to the Planck spectrum, all the constant factors are kept separate from $F(E)$:
-\begin{align}
-  \frac{\vev{N}_{\text{f}}}{V} & = \frac{\sqrt{2m^3} T}{\pi^2 \hbar^3} \int_0^{\infty} dE \sqrt{E} \pderiv{}{\mu} \log\left[1 + e^{-\be(E - \mu)}\right] \cr
-                               & = \frac{\sqrt{2m^3}}{\pi^2 \hbar^3} \int_0^{\infty} \frac{1}{e^{\be(E - \mu)} + 1} \sqrt{E} \; dE = \frac{\sqrt{2m^3}}{\pi^2 \hbar^3} \int_0^{\infty} F(E) \sqrt{E} \; dE. \label{eq:N_fermi}
-\end{align}
-This allows the Fermi function to closely resemble the average occupation numbers $\vev{n_{\ell}}$ we computed in \secref{sec:quantum_classical}:
-\begin{equation}
-  \label{eq:Fermi_func}
-  F(E) = \frac{1}{e^{\be(E - \mu)} + 1}.
-\end{equation}
+In contrast to the photon gas, we need to retain the chemical potential in our analyses of non-relativistic fermions, which makes these calculations more complicated.
+To achieve a different simplification, we can focus on the low-temperature regime where we expect quantum Fermi--Dirac statistics to differ significantly from the classical case we considered back in \secref{sec:regulate}.
+As we saw in \secref{sec:quantum_classical}, it is only at high temperatures, with large negative chemical potential, that the classical approach provides a good approximation to the true quantum physics.
 
-As usual in the grand-canonical approach, the average particle number and Fermi function depend on both the inverse temperature \be and the chemical potential $\mu$.
+To see how low temperatures simplify the analysis of the non-relativistic fermion gas, it will prove profitable to first analyze the average particle number
+\begin{equation*}
+  \vev{N}_{\text{f}} = -\pderiv{}{\mu} \Phi_{\text{f}},
+\end{equation*}
+using the grand-canonical potential we computed above.
+In analogy to the Planck spectrum we derived for the photon gas in \secref{sec:planck}, we first express the average particle number density as an integral over energies,
+\begin{equation}
+  \label{eq:N_fermi}
+  \frac{\vev{N}_{\text{f}}}{V} = \frac{\sqrt{2m^3}}{\pi^2 \hbar^3} \int_0^{\infty} F(E) \sqrt{E} \; dE,
+\end{equation}
+where the function $F(E)$ is known as the Fermi function.
+In contrast to the Planck spectrum, some constant factors are kept separate from $F(E)$, so that it more closely resembles the average occupation numbers $\vev{n_{\ell}}$ we computed in \secref{sec:quantum_classical}:
+\begin{mdframed}
+  $\displaystyle \frac{\vev{N}_{\text{f}}}{V} = -\pderiv{}{\mu} \frac{\Phi_{\text{f}}}{V} = $ \\[120 pt]
+\end{mdframed}
+
+As usual in the grand-canonical approach, the average particle number density and Fermi function depend on both the inverse temperature \be and the chemical potential $\mu$.
 Expressing $F(E)$ in terms of the dimensionless ratios $E / \mu$ and $T / \mu$,
 \begin{equation*}
   F(E) = \frac{1}{\exp\left[\frac{E - \mu}{T}\right] + 1} = \frac{1}{\exp\left[\frac{\mu}{T}\left(\frac{E}{\mu} - 1\right)\right] + 1} = \frac{1}{\left(\exp\left[\frac{E}{\mu} - 1\right]\right)^{\mu / T} + 1},
 \end{equation*}
 we can highlight the two main features of the figure below, which plots the Fermi function against $E / \mu$ for various temperatures $T / \mu$.
-
-\begin{center}\includegraphics[width=\textwidth]{figs/unit08_dist.pdf}\end{center}
+Here we assume a positive chemical potential, $\mu > 0$, which we will soon show is required for low-temperature non-relativistic fermion gases.
 
 First, we can see that the point $E = \mu$, where $F(E) = 1 / 2$ for any non-zero temperature, is a threshold at which the behaviour of the Fermi function changes.
 For larger energies $E > \mu$, the exponential factor $\exp\left[\frac{E}{\mu} - 1\right] > 1$ and drives $F(E) \to 0$ as the energy increases.
 For smaller energies $E < \mu$, the exponential factor $\exp\left[\frac{E}{\mu} - 1\right] < 1$ and vanishes as the energy decreases, leaving $F(E) \to 1$.
 These two asymptotic limits reflect the possible energy level occupation numbers for fermions, $n_{\ell} = 0$ and $1$.
 Second, smaller temperatures cause much more rapid approach to these two limits, with the exponential factor either enhanced (if $E > \mu$) or suppressed (if $E < \mu$) by a power $\mu / T \gg 1$.
+
+\begin{center}\includegraphics[width=\textwidth]{figs/unit08_dist.pdf}\end{center}
+
 Therefore, for small temperatures $T \ll \mu$, we can simplify our calculations by approximating the Fermi function as a step function,
 \begin{equation}
   \label{eq:Fermi_step}
   F(E) \approx \left\{\begin{array}{l}1 \qquad \mbox{for } \ E < \mu \\
                                       0 \qquad \mbox{otherwise}\end{array}\right. .
 \end{equation}
-Using this approximation, what is the resulting particle number density?
+Using this approximation, what is the resulting average particle number density?
 \begin{mdframed}
   $\displaystyle \frac{\vev{N}_{\text{f}}}{V} = \frac{\sqrt{2m^3}}{\pi^2 \hbar^3} \int_0^{\infty} F(E) \sqrt{E} \; dE = $ \\[100 pt]
 \end{mdframed}
 
 You should find a result proportional to $\mu^{3 / 2}$ but independent of $T$.
-The temperature independence can be understood by viewing this as the leading-order term in an expansion in the small temperature (known as a \textit{Sommerfeld expansion}, named after \href{https://en.wikipedia.org/wiki/Arnold_Sommerfeld}{Arnold Sommerfeld}).
-The $\mu^{3 / 2}$ dependence on the chemical potential is also what we would predict even without doing the detailed calculation.
-The step function in \eq{eq:Fermi_step} corresponds to a single fermion occupying each and every energy level with $E_{\ell} < \mu$, while all energy levels with $E_{\ell} > \mu$ are unoccupied.
-Since $E(k) \propto k^2$, summing over all $k_{x, y, z}$ corresponds to computing (a portion of) the volume of a sphere of radius $r = \sqrt{\mu}$, which is proportional to $r^3 = \mu^{3 / 2}$ as we found directly above.
-If we were to invert this relation, we would obtain the so-called \textbf{Fermi energy} as a function of the particle number density,
+The temperature independence turns out to be the leading-order behaviour of a more general result that can be organized in powers of the small temperature, $T / \mu \ll 1$, through a method known as the \textit{Sommerfeld expansion} (named after \href{https://en.wikipedia.org/wiki/Arnold_Sommerfeld}{Arnold Sommerfeld}).
+The $\mu^{3 / 2}$ dependence on the chemical potential is something we could have predicted before doing the explicit calculation.
+This is because the step function in \eq{eq:Fermi_step} corresponds to a single fermion occupying each and every energy level with $E_{\ell} < \mu$, while all energy levels with $E_{\ell} > \mu$ are unoccupied.
+Since $E(k) \propto k^2$, summing over all $k_{x, y, z}$ for which $E(k) < \mu$ corresponds to computing (a portion of) the volume of a sphere of radius $r_k = \sqrt{\mu}$.
+This volume is proportional to $r_k^3 = \mu^{3 / 2}$, in agreement with our result above.
+If we invert that result, we obtain the so-called \textbf{Fermi energy} as a function of the average particle number density,
 \begin{equation}
   \label{eq:Fermi_energy}
   E_F = \mu = \frac{\hbar^2}{2m}\left(\frac{3\pi^2 \vev{N}_{\text{f}}}{V}\right)^{2 / 3}.
 \end{equation}
+Like the step-function approximation to the Fermi function, this equality between the Fermi energy and the chemical potential is only exact at zero temperature, with $T > 0$ introducing small corrections that take some work to compute. % TODO: Could introduce Fermi energy as radius of energy sphere into which all N particles could be packed...
 
 Now we can consider the average energy density of the non-relativistic fermion gas at low temperatures.
 Rather than taking another derivative of the grand-canonical potential, we can note from \eq{eq:total_energy_levels} and from our work on the photon gas in \secref{sec:photon_eos} that
@@ -440,35 +437,47 @@ Still using the low-temperature step-function approximation for the Fermi functi
 \begin{mdframed}
   $\displaystyle \frac{\vev{E}_{\text{f}}}{V} = \frac{\sqrt{2m^3}}{\pi^2 \hbar^3} \int_0^{\infty} F(E) \; E^{3 / 2} \; dE = $ \\[100 pt]
 \end{mdframed}
-
 You should find
 \begin{equation}
   \label{eq:fermi_E_N}
   \vev{E}_{\text{f}} = \frac{3}{5} \mu \vev{N}_{\text{f}},
 \end{equation}
-which means that the average energy of the fermions in a low-temperature ideal gas is $3 / 5$ the Fermi energy $E_F = \mu$.
-In particular, because this result is also independent of the temperature, we find that non-interacting quantum fermions retain a positive energy even as the temperature approaches absolute zero, $T \to 0$.
-This can be understood by recalling that the lowest-energy pair of degenerate energy levels can each only hold a single fermion, forcing all additional fermions to `fill' energy levels with larger energies $E_{\ell} > 0$, up to the Fermi energy set by the chemical potential.
-This is a stark contrast to the classical ($\vev{E} \propto T$) and bosonic ($\vev{E} \propto T^4$) cases we considered earlier, where the average energy vanishes in the zero-temperature limit.
-As discussed in Sections~\ref{sec:spin_info} and \ref{sec:quantum_classical}, in those cases all the particles in the system are able to fall into the lowest energy level, with only an exponentially small probability for particles to occupy any energy levels with $E_{\ell} > E_0$.
+which means that the average energy of each fermion in a low-temperature ideal gas, $\vev{E}_{\text{f}} / \vev{N}_{\text{f}}$, is three-fifths of the Fermi energy $E_F = \mu$.
 
-To get the rest of the way to the equation of state for the ideal gas of non-relativistic fermions, we need to compute the pressure
+\begin{shaded}
+  In particular, because \eq{eq:fermi_E_N} is independent of the temperature, we find that non-interacting quantum fermions retain a positive energy even as the temperature approaches absolute zero, $T \to 0$.
+\end{shaded}
+
+This can be understood by recalling that the lowest-energy pair of degenerate energy levels can each only hold a single fermion, forcing any additional fermions to `fill' energy levels with larger energies $E_{\ell} > 0$, up to the Fermi energy set by the chemical potential.
+This is a stark contrast to the $\vev{E} = \frac{3}{2} N T$ we found for classical ideal gases in the canonical ensemble in \eq{eq:ideal_energy}, as well as the $\vev{E}_{\text{ph}} \approx 2.7 \vev{N}_{\text{ph}} T \propto T^4$ we more recently computed in \eq{eq:photon_gas_energy} for a grand-canonical quantum gas of photons.
+In both of those cases the average energy vanishes in the zero-temperature limit.
+This is because all the particles in those classical and bosonic systems are able to occupy the lowest energy level at low temperatures, with only exponentially small probabilities $\propto e^{-E_{\ell}/ T}$ for particles to occupy any energy levels with $E_{\ell} > E_0$.
+
+This picture of fermions filling energy levels up to the Fermi energy also clarifies why the chemical potential for a fermion gas must be positive at low temperatures.
+Recalling \eq{eq:mu_E} for the chemical potential,
+\begin{equation*}
+  \mu = \left.\pderiv{E}{N}\right|_{S, V},
+\end{equation*}
+which we derived from the generalized thermodynamic identity in \secref{sec:grand_pot}, we can consider what happens when we increase the number of particles in a zero-temperature fermion gas.
+In this limit $T \to 0$, there is only the single quantum micro-state described above, with all energy levels filled below the Fermi energy and empty above the Fermi energy.
+Adding particles, $\De N > 0$, doesn't increase the number of accessible micro-states, and therefore doesn't increase the entropy $S_{\text{f}} = -\sum_{i = 1}^M p_i \log p_i = 0$, satisfying the constant-entropy condition required by this equation.
+However, this does necessarily increase the energy, because the added particles must fill the first available energy levels, just above the Fermi energy. % TODO: Could remind of continuous approximation used to change from sums to integrals above...
+That is, $\De E = E_F \De N > 0$, and we find $\mu = E_F > E_0 \geq 0$ as claimed earlier in this section.
+It is an interesting but lengthy exercise (discussed in Section~7.3 of Schroeder's \textit{Introduction to Thermal Physics}) to show that controlling the number of fermions in the gas requires the chemical potential to become negative as the temperature increases and we approach the classical limit.
+
+To get the rest of the way to the low-temperature equation of state for ideal gases of non-relativistic fermions, we need to compute the pressure
 \begin{equation*}
   P_{\text{f}} = -\left. \pderiv{}{V} \vev{E}_{\text{f}} \right|_{N, S_{\text{f}}}.
 \end{equation*}
-In the low-temperature limit, the condition of constant entropy $S_{\text{f}} = -\sum_{i = 1}^M p_i \log p_i$ is automatically satisfied, since the step function in \eq{eq:Fermi_step} restricts the system to a single micro-state, resulting in $S_{\text{f}} = 0$.
-This micro-state is the one in which each and every energy level with $E_{\ell} < \mu$ is occupied, while all energy levels with $E_{\ell} > \mu$ are unoccupied.
-
-Inserting \eq{eq:Fermi_energy} into \eq{eq:fermi_E_N}, we have
+As we just discussed, the single accessible micro-state for $T \to 0$ automatically satisfies the condition of constant entropy, $S_{\text{f}} = 0$.
+Applying \eq{eq:Fermi_energy} relating the chemical potential to the average particle number density, we have
 \begin{equation*}
   \vev{E}_{\text{f}} = \frac{3}{5} \mu \vev{N}_{\text{f}} = \frac{3}{5} \left(\frac{\hbar^2}{2m}\right) \left(\frac{3\pi^2}{V}\right)^{2 / 3} \vev{N}_{\text{f}}^{5 / 3}.
 \end{equation*}
-The pressure is therefore
-\begin{align}
-  P_{\text{f}} & = -\pderiv{}{V} \left[\frac{3}{5} \left(\frac{\hbar^2}{2m}\right) \left(\frac{3\pi^2}{V}\right)^{2 / 3} \vev{N}_{\text{f}}^{5 / 3}\right] = \frac{2}{3V} \left[\frac{3}{5} \left(\frac{\hbar^2}{2m}\right) \left(\frac{3\pi^2}{V}\right)^{2 / 3} \vev{N}_{\text{f}}^{5 / 3}\right] \nonumber \\
-               & = \left(3\pi^2\right)^{2 / 3} \frac{\hbar^2}{5m} \left(\frac{\vev{N}_{\text{f}}}{V}\right)^{5 / 3} = \frac{2}{5} \mu \frac{\vev{N}_{\text{f}}}{V} = \frac{2}{3} \frac{\vev{E}_{\text{f}}}{V}.
-\end{align}
-The three expressions in the second line above present several relations between the pressure, the energy density, the Fermi energy $E_F = \mu$ and the particle number density.
+This is all we need to determine the pressure, which we can relate to the energy density, the Fermi energy $E_F = \mu$ and the particle number density:
+\begin{mdframed}
+  $\displaystyle P_{\text{f}} = -\pderiv{}{V} \left[\frac{3}{5} \left(\frac{\hbar^2}{2m}\right) \left(\frac{3\pi^2}{V}\right)^{2 / 3} \vev{N}_{\text{f}}^{5 / 3}\right] =  $ \\[100 pt]
+\end{mdframed}
 In particular, we can see that the pressure (like the energy) remains positive even as the temperature approaches absolute zero, with
 \begin{equation}
   \label{eq:degen_pressure}
@@ -479,99 +488,122 @@ This positive pressure in the zero-temperature limit is not due to any direct fo
 Instead, it is a purely quantum effect resulting from the Pauli exclusion principle.
 
 As we saw earlier in this section, the temperature independence of the pressure $P_{\text{f}}$ is due to approximating the low-temperature Fermi function as a step function in \eq{eq:Fermi_step}, and systematic corrections to this approximation can be computed through a Sommerfeld expansion.
-Even without getting into such detailed calculations, we know that at high temperatures the quantum ideal gas of massive fermions will be well approximated by the classical ideal gas we considered in \secref{sec:ideal_gas}, with equation of state
+Even without getting into such detailed calculations, we know that in the high-temperature classical regime the quantum ideal gas of massive fermions will be well approximated by the classical ideal gas we considered in \secref{sec:ideal_gas}, with equation of state
 \begin{equation}
   PV = NT \qquad \Lra \qquad P = \frac{N}{V} T = \rho T.
 \end{equation}
 In words, at high temperatures the pressure depends linearly on the temperature, with the slope corresponding to the density $\rho$.
-The plot below (produced by \href{https://github.com/daschaich/MATH327_2022/blob/master/lecture_notes/figs/unit08_pressure.py}{this Python code}) shows how the pressure changes from a positive constant as $T \to 0$ to this linear behaviour at higher temperatures. \\[-24 pt] % WARNING: FORMATTING BY HAND
-
-\begin{center}\includegraphics[width=0.725\textwidth]{figs/unit08_pressure.pdf}\end{center}
+The plot below (produced by \href{https://github.com/daschaich/MATH327_2022/blob/master/lecture_notes/figs/unit08_pressure.py}{this Python code}) shows how the pressure changes from a positive constant as $T \to 0$ to this linear behaviour at higher temperatures. \\[-24 pt]
+\begin{center}\includegraphics[width=0.7\textwidth]{figs/unit08_pressure.pdf}\end{center} % WARNING: ADJUSTED SIZE BY HAND TO FILL REMAINDER OF PAGE
 % ------------------------------------------------------------------
 
 
 
 % ------------------------------------------------------------------
-\subsection{Type-Ia supernovas}
+\subsection{Type-{\textrm I}a supernovas}
 The positive pressure that remains for a fermion gas even at zero temperature, \eq{eq:degen_pressure}, is known as the \textit{degeneracy pressure}.
-(This use of the word `degenerate' is completely unrelated to its other use describing multiple energy levels with the same value of the energy.)
-The degeneracy pressure plays a key role in a famous cosmic phenomenon---a certain class of supernova explosions of stars.
+(This use of the word `degeneracy' is unrelated to its other use describing multiple energy levels with the same value of the energy.)
+The degeneracy pressure plays a key role in a certain type of supernova explosions of stars --- a famous astrophysical phenomenon.
 
-As a opening remark to this topic, note that the temperature doesn't need to be exactly zero in order for the degeneracy pressure to be significant.
+To begin considering this topic, we'll remark that the temperature doesn't need to be exactly zero in order for the degeneracy pressure to be significant.
 The temperature just needs to be small compared to the Fermi energy, $T \ll E_F$.
 From \eq{eq:Fermi_energy} we can see that $E_F \propto \rho_{\text{f}}^{2 / 3}$ increases for larger densities $\rho_{\text{f}} = \vev{N}_{\text{f}} / V$.
 Not surprisingly, the densities of stars can be very large indeed, due to the enormous amount of matter that is being squeezed together by gravitational attraction.
-Everyday matter has densities around $10^{28}$--$10^{29}$ atoms per cubic metre (roughly corresponding to Avogadro's number per cubic centimetre), which results in Fermi energies $E_F \sim 10^4$~K. % 2--10 eV with eV~10^4 K being the Boltzmann constant
-Fermi energies for particularly dense stars known as \textit{white dwarfs} are a hundred thousand times larger, $E_F \sim 10^9$~K, corresponding to densities of roughly one tonne per cubic centimetre.
-This is around a million times more dense than our sun---while white dwarf stars have a mass similar to our sun's $M_{\odot}$, their radius is a hundred times smaller, comparable to the radius of the earth.
+Everyday matter has densities around $10^{28}$--$10^{29}$ atoms per cubic metre (roughly Avogadro's number per cubic centimetre), which corresponds to Fermi energies $E_F \sim 10^4$~K, very large compared to everyday temperatures. % 2--10 eV with eV~10^4 K being the Boltzmann constant
+Fermi energies for particularly dense stars known as \textit{white dwarfs} are a hundred thousand times larger still, $E_F \sim 10^9$~K, with densities around $10^{35}$--$10^{36}$ atoms per cubic metre roughly equivalent to a mass density of one tonne per cubic centimetre. % ~10^(−27) kg per amu times 10^(36) / (10^2)^3 particles gives ~1000 kg per cc
+This is around a million times more dense than our sun --- while white dwarf stars have a mass similar to our sun's $M_{\odot}$, their radius is a hundred times smaller, comparable to the radius of the earth.
 
-White dwarf stars are so dense because they have exhausted the hydrogen and helium `fuel' for the nuclear fusion that generates heat and light---and therefore radiation pressure---in stars such as our sun.
+White dwarf stars are so dense because they have exhausted the hydrogen and helium `fuel' for the nuclear fusion that generates heat and light --- and therefore radiation pressure --- in stars such as our sun.
 For actively `burning' stars, this radiation pressure counteracts the gravitational attraction of the star's enormous mass.
 Without nuclear fusion, white dwarfs end up gravitationally compressed into much denser and more compact objects.
 The degeneracy pressure, \eq{eq:degen_pressure}, coming from the (fermionic) electrons in the white dwarf is what stabilizes these stars and prevents them from collapsing further into even denser objects such as black holes.
 
-It is remarkable that even under these extreme conditions the electrons in white dwarf stars are well described by the non-interacting ideal fermion gas we have analyzed above.
+It is remarkable that even under these extreme conditions the electrons in white dwarf stars are well described by the non-interacting ideal fermion gas we analyzed above.
 In particular, it is crucial that white dwarfs' Fermi energies are so large, $E_F \sim 10^9$~K.
 Even though white dwarfs have burned all their nuclear fuel, their interiors remain quite hot by everyday standards, roughly ten million kelvin ($T \sim 10^7$~K). % 0.3 MeV ~ 10^5 eV with eV~10^4 K being the Boltzmann constant
 It is only due to their large densities and Fermi energies that $T \ll E_F$ and white dwarfs can be treated as zero-temperature objects to a good approximation.
 
-So far we've seen no sign of supernovas.
-In isolation, white dwarfs will happily cool for trillions of years, supported by their degeneracy pressure, until they reach thermal equilibrium with the $T_{\text{CMB}} \approx 2.725$~K cosmic microwave background radiation we considered last week. % TODO: CMB temperature will also keep decreasing as universe continues expanding...
-Things become more interesting for a white dwarf that forms a binary system with a companion star.
-If this companion star that is still burning hydrogen or helium through nuclear fusion, it will emit matter that is then captured by the white dwarf, slowly increasing the white dwarf's mass.
+So far we haven't encountered supernovas.
+In isolation, white dwarfs will happily cool for trillions of years, supported by their degeneracy pressure, until they reach thermal equilibrium with the low-temperature cosmic microwave background radiation we discussed in \secref{sec:planck}.
+Things become more interesting for a white dwarf in a binary system with a companion star.
+If this companion star is still burning hydrogen or helium through nuclear fusion, it will emit matter that is then captured by the white dwarf, slowly increasing the white dwarf's mass.
 Such a binary system is pictured below, in an artist's illustration provided by the \href{https://www.esa.int/ESA_Multimedia/Images/2014/09/Artist_s_impression_of_Type_Ia_supernova}{European Space Agency}.
 
 \begin{center}\includegraphics[width=0.8\textwidth]{figs/unit08_nova.pdf}\end{center}
 
 As the white dwarf accumulates the matter emitted by its companion, its mass and its density will steadily increase.
-As the mass of the white dwarf approaches a value about 40\% larger than the mass of our sun (known as the Chandrasekhar limit, named after \href{https://en.wikipedia.org/wiki/Subrahmanyan_Chandrasekhar}{Subrahmanyan Chandrasekhar}), its density becomes large enough for new types of nuclear fusion reactions to occur.
-Instead of hydrogen or helium, which the white dwarf has already burned, these new fusion reactions involve carbon and oxygen, which the white dwarf has in plenty.
+As the mass of the white dwarf approaches a value roughly 40\% larger than the mass of our sun, known as the \textit{Chandrasekhar limit} (named after \href{https://en.wikipedia.org/wiki/Subrahmanyan_Chandrasekhar}{Subrahmanyan Chandrasekhar}), its density becomes large enough for new types of nuclear fusion reactions to occur.
+Instead of hydrogen or helium, which the white dwarf has already burned, these new fusion reactions involve carbon and oxygen, which remain present in abundance.
 In the space of just a few seconds, these fusion reactions run away, increase the temperature of the white dwarf to billions of kelvin, and blast it apart in a supernova explosion about five billion times brighter than the sun.
 
-For obscure historical reasons, these particular stellar explosions are known as \textit{type-Ia} (``one-A'') \textit{supernovas}.
+For obscure historical reasons, these particular stellar explosions are known as \textit{type-{\textrm I}a} (``one-A'') \textit{supernovas}.
 They rely on the degeneracy pressure (\eq{eq:degen_pressure}) of a low-temperature gas of non-interacting fermions, which allows a specific amount of mass to build up before the explosion is triggered.
-The specificity of the process results in a great deal of regularity among type-Ia supernovas, which is very useful to astronomers.
-In particular, these type Ia supernovas play a key role in demonstrating that the expansion of the universe is accelerating (a phenomenon popularly called `dark energy'), which was awarded the 2011 Nobel Prize in Physics.
+The specificity of the process results in a great deal of regularity among type-{\textrm I}a supernovas, which is very useful to astronomers.
+In particular, these type-{\textrm I}a supernovas play a key role in demonstrating that the expansion of the universe is accelerating (a phenomenon popularly called `dark energy'), which was awarded the 2011 Nobel Prize in Physics.
 % ------------------------------------------------------------------
 
 
 
 % ------------------------------------------------------------------
 \subsection{Relativistic ideal fermion gas}
-While our main focus this week is on non-relativistic gases with $E \propto p^2$, gases of relativistic fermions also appear in nature.
-In fact, by changing units we can see that the white dwarf Fermi energy discussed above, $E_F \sim 10^9~\text{K} \sim 0.3$~MeV is comparable to the $0.511$~MeV rest-energy of electrons, suggesting that relativistic effects may be non-negligible in white dwarfs.
-Such relativistic effects were indeed taken into account by Chandrasekhar and others investigating these compact stars in the twentieth century.
-While the full calculations required to analyze massive relativistic particles are beyond the scope of this module, we can benefit from last week's consideration of gases of massless photons to briefly consider similar gases of massless fermions.
-\textit{Neutrinos} (denoted `$\nu$') are physical examples of particles whose masses are so small that they can be very well approximated as massless fermions.\footnote{Neutrinos' masses are so small that it was extremely difficult to determine that they are not exactly massless.  The 2015 Nobel Prize in Physics was awarded for this discovery.}
+Although we will discuss them more briefly, gases of relativistic fermions also play important roles in nature.
+In fact, by changing units we can see that the white dwarf Fermi energy discussed above, $E_F \sim 10^9~\text{K} \sim 0.3$~MeV is comparable to the $0.511$~MeV rest-energy of electrons, suggesting that relativistic effects may be non-negligible in white dwarfs. % eV~10^4 K is the Boltzmann constant
+Such relativistic effects are indeed crucial to the computation of the Chandrasekhar limit mentioned above.
 
-In the same way as photons, such massless fermions travel at the speed of light, $c$, and have energies $E = cp$ that depend on their angular frequencies,
-\begin{equation}
+While the full calculations required to analyze massive relativistic particles are beyond the scope of this module, we can take advantage of our earlier analyses of gases of massless photons to briefly consider similar gases of massless fermions.
+\textit{Neutrinos} (denoted `$\nu$') are physical examples of fermions whose masses are so small that they can be very well approximated as massless.
+In fact, for many years neutrinos were thought to be exactly massless --- the discovery that neutrinos have non-zero masses was awarded the 2015 Nobel Prize in Physics.
+
+In the same way as photons, massless fermions would travel at the speed of light, $c$, and have energies $E = cp$ determined by their angular frequencies,
+\begin{equation*}
   E_{\nu} = \hbar \om.
-\end{equation}
+\end{equation*}
 In a volume $V = L^3$, these energies are quantized as usual,
 \begin{equation*}
   \om = \frac{2\pi c}{\la} = c \frac{\pi}{L} k,
 \end{equation*}
 where $k^2 = k_x^2 + k_y^2 + k_z^2$ and $k_{x, y, z} > 0$ are positive integers.
-Just as for the massive fermions considered in \secref{sec:fermi_nonrel}, for each distinct set of integers $\vec k = (k_x, k_y, k_z)$, typical massless fermions such as neutrinos have two degenerate energy levels with the same energy.
+Just as for the non-relativistic case considered in \secref{sec:fermi_nonrel}, for each distinct $\vec k$ typical massless fermions, including neutrinos, have two degenerate energy levels with the same energy $E(k)$ but opposite spin.
 
-The detailed analysis of a gas of massless fermions is nearly the same as the work we did last week for photon gases.
-In particular, massless fermions are also well described by a vanishing chemical potential, $\mu \approx 0$.
+The computations required to analyze a gas of massless fermions are very similar to the work we recently did for photon gases.
+In particular, massless fermions are also easy to create and destroy, and therefore well described by a vanishing chemical potential, $\mu \approx 0$.
 Again approximating sums over discrete integer $k_{x, y, z}$ by integrals over continuous real $\khat_{x, y, z}$, and changing variables to integrate over the angular frequency, we end up with the grand-canonical potential
 \begin{align}
   \Phi_{\nu} = -\frac{VT}{c^3 \pi^2} \int_0^{\infty} d\om \; \om^2 \log\left[1 + e^{-\be \hbar \om}\right]. \label{eq:neutrino_grand}
 \end{align}
-The only change in $\Phi_{\nu}$ compared to \eq{eq:photon_grand} for photons are a couple of negative signs, precisely as we would expect from comparing the Bose--Einstein and Fermi--Dirac grand-canonical potentials in \secref{sec:quantum_classical}.
+The only changes here compared to \eq{eq:photon_grand} for the photon $\Phi_{\text{ph}}$ are a couple of negative signs, precisely as we would expect from comparing the Bose--Einstein and Fermi--Dirac grand-canonical potentials in \secref{sec:quantum_classical}.
 
-Carrying out the derivatives to obtain the average particle number density and the average internal energy density produces
-\begin{align}
-  \frac{\vev{E}_{\nu}}{V} & = \frac{1}{c^3 \pi^2} \int_0^{\infty} \frac{\hbar \om^3}{e^{\be \hbar \om} + 1} d\om &
-  \frac{\vev{N}_{\nu}}{V} & = \frac{1}{c^3 \pi^2} \int_0^{\infty} \frac{\om^2}{e^{\be \hbar \om} + 1} d\om,
-\end{align}
-now differing only by negative signs in their denominators compared to the photon gas results we obtained last week.
-The condition of constant entropy is still $V T^3 = \mbox{constant}$, and the resulting pressure leads to an equation of state in the usual form,
+Due to these negative signs, when we compute derived quantities by taking derivatives of the potential,
+\begin{align*}
+  \vev{E}_{\nu} & = \pderiv{}{\be} \left[\be \Phi_{\nu}\right] \qquad &
+  \vev{N}_{\nu} & = -\left. \pderiv{}{\mu} \Phi_{\nu}\right|_{\mu = 0},
+\end{align*}
+we will encounter slightly different but equally enjoyable integrals, % Fermi-Dirac integral involving polylog of -1 related to Dirichlet eta function
+\begin{align*}
+  \int_0^{\infty} \frac{x^3}{e^x + 1} dx & = \left(1 - \frac{1}{2^3}\right) \Gamma(4) \zeta(4) = \frac{7\pi^4}{120}, \\
+  \int_0^{\infty} \frac{x^2}{e^x + 1} dx & = \left(1 - \frac{1}{2^2}\right) \Gamma(3) \zeta(3) = \frac{3}{2} \zeta(3).
+\end{align*}
+Using these results, what are the average internal energy density and the average particle number density for a gas of massless fermions?
+\begin{mdframed}
+  $\displaystyle \frac{\vev{E}_{\nu}}{V} = -\frac{1}{c^3 \pi^2} \int_0^{\infty} d\om \; \om^2 \pderiv{}{\be} \log\left[1 + e^{-\be \hbar \om}\right] = $ \\[110 pt]
+  $\displaystyle \frac{\vev{N}_{\nu}}{V} = \left. \frac{T}{c^3 \pi^2} \int_0^{\infty} d\om \; \om^2 \pderiv{}{\mu} \log\left[1 + e^{-\be \hbar \om} e^{\be \mu}\right] \right|_{\mu = 0} = $ \\[100 pt]
+\end{mdframed}
+
+You should again find $\vev{E}_{\nu} \propto \vev{N}_{\nu} T \propto VT^4$, and by noting that
 \begin{equation*}
-  P_{\nu} V \propto \vev{N}_{\nu} T,
+  \frac{\Phi_{\nu}}{T} = \frac{V}{c^3 \pi^2} \left(\frac{T}{\hbar}\right)^3 \int_0^{\infty} dx \; x^2 \log\left[1 + e^{-x}\right] \propto VT^3,
 \end{equation*}
-with the constant of proportionality another $\cO(1)$ number involving the Riemann zeta function.
+we can see that the entropy $S_{\nu} = \left(E_{\nu} - \Phi_{\nu}\right) / T$ is constant when $V T^3 = \mbox{constant}$.
+Applying this, what is the pressure for a gas of massless fermions?
+\begin{mdframed}
+  $\displaystyle P_{\nu} = -\left. \pderiv{}{V} \vev{E}_{\nu} \right|_{S_{\nu}} = $ \\[100 pt]
+\end{mdframed}
+You should find yet another equation of state with the usual functional form,
+\begin{equation*}
+  P_{\nu} V = \frac{1}{3} \vev{E}_{\nu} = \frac{7\pi^4}{540\zeta(3)} \vev{N}_{\nu} T,
+\end{equation*}
+and just a new numerical factor of
+\begin{equation*}
+  \frac{7\pi^4}{540\zeta(3)} = \frac{(7/8)\zeta(4)}{(3/4)\zeta(3)}. % TODO: Approximately 1.05...
+\end{equation*}
 % ------------------------------------------------------------------
