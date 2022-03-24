@@ -60,7 +60,7 @@
 % ------------------------------------------------------------------
 \begin{document}
 \newcommand{\thisunit}{MATH327 Project Part 2}
-\newcommand{\moddate}{Last modified 10 Mar.~2022}
+\newcommand{\moddate}{Last modified 23 Mar.~2022}
 \begin{center}
   {\Large \textbf{MATH327: Statistical Physics, Spring 2022}} \\[12 pt]
   {\Large \textbf{Computer Project \ --- \ Part 2}} \\[24 pt]
@@ -203,7 +203,7 @@ With fixed $N = 100$, generate $R$ $100$-step random walks,
   r & = 1, 2, \cdots, R,
 \end{align*}
 for each of the five $R = 10$, $100$, $1000$, $10{,}000$ and $100{,}000$.
-Use the resulting $X_r$ to numerically estimate
+Use the five resulting sets $\left\{X_r\right\}$ to numerically estimate
 \begin{equation*}
   \overline{\ell_{\theta}(N)}_R \approx \left[\frac{1}{R} \sum_{r = 1}^R \left|X_r(N)\right|^{\theta}\right]^{1 / \theta}
 \end{equation*}
@@ -215,8 +215,8 @@ for three values of $\theta = 0.25$, $0.5$ and $0.75$.
 \subsection*{Task b: Anomalous diffusive exponent}
 Reset by initializing the random number generator with seed $327$.
 Then fix $R = 10{,}000$ and estimate $\overline{\ell_{\theta}(N)}_R$ for \textit{every} $N = 1, 2, \cdots, 250$, again considering $\theta = 0.25$, $0.5$ and $0.75$.
-Instead of reporting your numerical results, plot all three $\ell_{\theta}(N)$ vs.\ $N$ in a single figure.
-(\textbf{Hint:} You can ignore potential correlations between $\ell_{\theta}(N)$ for different values of $N$.)
+Instead of reporting your numerical results, plot all three $\overline{\ell_{\theta}(N)}$ vs.\ $N$ in a single figure.
+(\textbf{Hint:} You can ignore potential correlations between $\overline{\ell_{\theta}(N)}$ for different values of $N$.)
 
 \showmarks{8}
 
