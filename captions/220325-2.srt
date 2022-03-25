@@ -1,0 +1,2167 @@
+1
+00:00:02,160 --> 00:00:08,270
+OK, the bells have rung, so it's time for me to get
+
+2
+00:00:08,280 --> 00:00:13,680
+under way, even though I'm still getting
+
+3
+00:00:13,680 --> 00:00:17,730
+everything in order today.  We can start with the
+
+4
+00:00:18,630 --> 00:00:22,770
+usual six digit code for this afternoon:
+
+5
+00:00:26,460 --> 00:00:27,500
+Four nine, three eight, nine
+
+6
+00:00:33,030 --> 00:00:33,480
+seven.
+
+7
+00:00:36,900 --> 00:00:39,780
+See if there are any questions about
+
+8
+00:00:41,820 --> 00:00:45,190
+the quantum gases we've been going through this week,
+
+9
+00:00:47,570 --> 00:00:50,550
+or anything else in the course so far, or even coming up.
+
+10
+00:00:56,940 --> 00:01:03,900
+There was a bit of discussion on the Canvas site forums
+
+11
+00:01:03,900 --> 00:01:07,260
+about historical developments of some of the
+
+12
+00:01:07,800 --> 00:01:09,660
+concepts we've been dealing with, in particular
+
+13
+00:01:09,660 --> 00:01:14,010
+entropy, and there'll be a bit more historical
+
+14
+00:01:14,400 --> 00:01:17,820
+commentary in the exercise I have planned for today,
+
+15
+00:01:17,840 --> 00:01:21,330
+but I'm going to somewhat violate the principle I
+
+16
+00:01:21,330 --> 00:01:25,030
+proposed online and give a lot of credit to a
+
+17
+00:01:25,050 --> 00:01:28,800
+particular individual for introducing a new idea.
+
+18
+00:01:29,700 --> 00:01:32,600
+But I won't give to that right away.
+
+19
+00:01:35,810 --> 00:01:36,530
+Instead of.
+
+20
+00:01:41,760 --> 00:01:44,850
+It's very briefly in the couple of minutes to
+
+21
+00:01:44,850 --> 00:01:50,080
+elaborate on some topics that came up during the
+
+22
+00:01:50,090 --> 00:01:54,060
+lectures, which might benefit from a bit more
+
+23
+00:01:54,060 --> 00:01:57,480
+background information, at least for those who
+
+24
+00:01:57,870 --> 00:02:03,070
+aren't already familiar with the. And the first
+
+25
+00:02:03,070 --> 00:02:06,680
+actually was when I was pulling up in my window
+
+26
+00:02:06,680 --> 00:02:07,900
+when it started.
+
+27
+00:02:16,290 --> 00:02:21,520
+Which has to do with the. Details of photons that
+
+28
+00:02:21,520 --> 00:02:25,360
+we discussed earlier this week, I'm not sure why
+
+29
+00:02:25,360 --> 00:02:27,400
+that the search, but.
+
+30
+00:02:30,850 --> 00:02:34,840
+I've collected a few visualizations of.
+
+31
+00:02:41,300 --> 00:02:44,750
+We used to picture those photons and in particular,
+
+32
+00:02:44,750 --> 00:02:49,130
+their connection to electric and magnetic waves or
+
+33
+00:02:49,220 --> 00:02:53,450
+electromagnetic waves, which may well be familiar
+
+34
+00:02:53,450 --> 00:02:58,040
+to some of you from previous modules, but could be
+
+35
+00:02:58,040 --> 00:03:02,900
+useful if you don't have a picture to guide
+
+36
+00:03:02,900 --> 00:03:07,100
+intuition as to why photons are waves like they
+
+37
+00:03:07,100 --> 00:03:08,960
+have a wave, like the frequency and how they're
+
+38
+00:03:08,960 --> 00:03:15,190
+connected to the. Electric magnetic fields and a
+
+39
+00:03:15,190 --> 00:03:20,560
+particular electromagnetic radiation that's just
+
+40
+00:03:20,560 --> 00:03:24,760
+trying to zoom in on one of these illustrations at
+
+41
+00:03:24,760 --> 00:03:27,520
+a time, because all the flashing at once may not
+
+42
+00:03:27,520 --> 00:03:32,860
+be easiest to understand the not going into any
+
+43
+00:03:33,070 --> 00:03:35,380
+technical details about this. This is more picture
+
+44
+00:03:35,380 --> 00:03:40,030
+to date intuition that we have electric fields
+
+45
+00:03:40,030 --> 00:03:43,000
+here showing is red and magnetic fields shown is
+
+46
+00:03:43,000 --> 00:03:47,470
+blue that oscillates in relation with each other
+
+47
+00:03:48,160 --> 00:03:50,320
+here. They don't have any phase shifts, so they
+
+48
+00:03:50,320 --> 00:03:54,670
+have maximum minima at the same point. And as they
+
+49
+00:03:54,670 --> 00:03:55,240
+oscillate.
+
+50
+00:03:59,170 --> 00:04:03,640
+That corresponds to a propagation of energy, the
+
+51
+00:04:03,640 --> 00:04:09,430
+form of photons you're going along this area off
+
+52
+00:04:09,430 --> 00:04:15,290
+to the right of the screen. Where the distance
+
+53
+00:04:15,300 --> 00:04:19,640
+between subsequent Mexico in each of these
+
+54
+00:04:19,640 --> 00:04:25,780
+oscillations defines the wavelength of. This wave,
+
+55
+00:04:26,380 --> 00:04:28,060
+which we interpret as the wave length of the
+
+56
+00:04:28,060 --> 00:04:34,030
+photon and the number of. That signals that.
+
+57
+00:04:38,010 --> 00:04:41,940
+The radiation dose through each second then
+
+58
+00:04:41,940 --> 00:04:45,000
+combines with the wave length to determine the
+
+59
+00:04:45,000 --> 00:04:47,820
+speed with which this radiation is propagating,
+
+60
+00:04:47,820 --> 00:04:50,760
+which Maxwell famously found to be the speed of
+
+61
+00:04:50,760 --> 00:04:55,410
+light to be able to identify light as precisely
+
+62
+00:04:55,410 --> 00:04:58,210
+these fluctuations in electromagnetic radiation.
+
+63
+00:04:59,010 --> 00:05:01,770
+The main points of figures that are collected on
+
+64
+00:05:01,770 --> 00:05:05,880
+this page, all the from the camp site later today
+
+65
+00:05:06,690 --> 00:05:09,990
+is the two polarizations states that were
+
+66
+00:05:09,990 --> 00:05:14,520
+mentioned in the lecture. For this, we have what
+
+67
+00:05:14,540 --> 00:05:16,950
+you get is certainly electric fields are
+
+68
+00:05:16,950 --> 00:05:20,570
+oscillating the vertical direction perpendicular
+
+69
+00:05:20,570 --> 00:05:24,260
+to the fields in the horizontal direction is
+
+70
+00:05:24,260 --> 00:05:26,920
+what's known as a linear polarization of light.
+
+71
+00:05:27,530 --> 00:05:32,110
+And there's a second one where. This picture is
+
+72
+00:05:32,110 --> 00:05:36,670
+just tilted 90 degrees outside so that the fields
+
+73
+00:05:37,060 --> 00:05:43,020
+are possibly in total direction, the way we had
+
+74
+00:05:43,140 --> 00:05:47,440
+field is inflated vertically.
+
+75
+00:05:50,120 --> 00:05:54,820
+What is another way of. Representing these two
+
+76
+00:05:54,990 --> 00:05:58,480
+photon polarizations is actually two.
+
+77
+00:06:01,070 --> 00:06:07,490
+On. Essentially. Interpolate between them as time
+
+78
+00:06:07,490 --> 00:06:12,840
+goes on each of these cycles. So that you did
+
+79
+00:06:12,930 --> 00:06:16,440
+point in the cycle. I could feel the same be
+
+80
+00:06:16,440 --> 00:06:22,920
+oriented on the portable axis this year and the
+
+81
+00:06:23,100 --> 00:06:25,770
+extreme volatility cycle, it gets around to the
+
+82
+00:06:26,250 --> 00:06:30,010
+vertical axis. So there's a picture of the
+
+83
+00:06:30,140 --> 00:06:34,910
+polarizations of tracing out the circle. That goes
+
+84
+00:06:34,910 --> 00:06:41,180
+along with the frequency of this wave, rather than
+
+85
+00:06:41,180 --> 00:06:43,820
+drawing that with my fingers, I can just.
+
+86
+00:06:46,560 --> 00:06:50,450
+The other two. Illustrations on this page, which
+
+87
+00:06:52,130 --> 00:06:57,000
+are linked to further discussions and.
+
+88
+00:07:01,100 --> 00:07:03,560
+During that interpolation of the electric
+
+89
+00:07:03,830 --> 00:07:06,560
+orientation, Qasm decided to desired.
+
+90
+00:07:08,850 --> 00:07:11,220
+Leads to what's called circular polarization,
+
+91
+00:07:11,640 --> 00:07:15,510
+which can precede that either in two ways,
+
+92
+00:07:15,510 --> 00:07:20,520
+depending on what you trace around. In a clockwise
+
+93
+00:07:20,520 --> 00:07:25,010
+or counterclockwise direction, as the cycles pass
+
+94
+00:07:25,010 --> 00:07:28,440
+passed, they still have wavelength separating the
+
+95
+00:07:28,500 --> 00:07:32,130
+peaks and electric fields and the clear
+
+96
+00:07:32,130 --> 00:07:36,540
+propagation in this case still always to the right
+
+97
+00:07:36,540 --> 00:07:43,330
+side of the screen. And here's a. Sort of like a
+
+98
+00:07:43,890 --> 00:07:48,170
+where treaty out the direction that the electorate
+
+99
+00:07:48,560 --> 00:07:51,890
+is changing with the figures and then the sun is
+
+100
+00:07:51,890 --> 00:07:54,800
+pointing in the direction of propagation for the
+
+101
+00:07:55,350 --> 00:08:00,630
+whole rest of time. Similarly, the other faiths
+
+102
+00:08:00,670 --> 00:08:03,340
+that we treat is the ultimate direction of
+
+103
+00:08:03,340 --> 00:08:07,360
+propagation and that the left hand pointed in the
+
+104
+00:08:07,360 --> 00:08:11,200
+direction of propagation I of propagation rather
+
+105
+00:08:11,200 --> 00:08:16,950
+than rotation. The two circular polarization sets
+
+106
+00:08:16,950 --> 00:08:20,740
+of photons is evolving linear combinations of the
+
+107
+00:08:20,790 --> 00:08:26,950
+linear polarization states. Provided those two
+
+108
+00:08:27,130 --> 00:08:34,300
+extra generous energy levels for. Any given energy
+
+109
+00:08:34,300 --> 00:08:37,960
+level that we any given energy, any combination of
+
+110
+00:08:37,960 --> 00:08:41,530
+momentum that we have for photons or will be for
+
+111
+00:08:42,040 --> 00:08:45,670
+any other mass, this particle covered by its
+
+112
+00:08:45,970 --> 00:08:51,140
+wavelength or frequency. So hopefully that is
+
+113
+00:08:51,140 --> 00:08:55,260
+useful and not just. Making things more confusing
+
+114
+00:08:55,260 --> 00:09:03,470
+for those who haven't. Seen. These details of U.S.
+
+115
+00:09:03,610 --> 00:09:06,070
+preventive radiation and its interpretation is
+
+116
+00:09:06,070 --> 00:09:09,550
+photons before. Are there immediate questions on
+
+117
+00:09:09,550 --> 00:09:14,020
+that topic? Yeah, with the words that you said
+
+118
+00:09:14,290 --> 00:09:19,610
+there was the energy that was not.
+
+119
+00:09:21,740 --> 00:09:26,870
+So. With everything else the same, those two ways
+
+120
+00:09:26,870 --> 00:09:30,880
+of sort of things are going to degenerate into
+
+121
+00:09:30,890 --> 00:09:33,980
+battles that they've brought in as an overall
+
+122
+00:09:33,980 --> 00:09:37,860
+factor to our calculations. Earlier this week. So
+
+123
+00:09:37,910 --> 00:09:41,600
+it sounds like it's cleared up. Might not have
+
+124
+00:09:41,630 --> 00:09:42,700
+presented so clearly
+
+125
+00:09:45,920 --> 00:09:51,160
+what other further questions about so-called.
+
+126
+00:10:00,540 --> 00:10:05,680
+You seem to be thinking about. Ms. We can always
+
+127
+00:10:05,680 --> 00:10:06,490
+come back to this.
+
+128
+00:10:08,860 --> 00:10:13,010
+There was one other. For Tom DeLay, the topic that
+
+129
+00:10:13,010 --> 00:10:15,920
+I mentioned in passing, that is sort of fun to
+
+130
+00:10:15,920 --> 00:10:19,550
+take a look at a bit more deeply than exercise for
+
+131
+00:10:19,550 --> 00:10:21,260
+you to go through this. I'll try not to take up
+
+132
+00:10:21,590 --> 00:10:24,230
+too much of your time in the tutorial, but that
+
+133
+00:10:24,650 --> 00:10:28,100
+connects to the cosmic microwave background
+
+134
+00:10:28,640 --> 00:10:32,360
+radiation and the particular mentioned in passing
+
+135
+00:10:32,360 --> 00:10:36,770
+that these sorts of measurements of the
+
+136
+00:10:36,770 --> 00:10:39,920
+temperature of the cosmic microwave background.
+
+137
+00:10:40,850 --> 00:10:44,000
+Provide evidence for the existence of dark matter,
+
+138
+00:10:44,390 --> 00:10:47,270
+which is ongoing research, trying to figure out
+
+139
+00:10:47,270 --> 00:10:52,550
+the properties and the fundamental nature of dark
+
+140
+00:10:52,550 --> 00:10:57,560
+matter, interpreted as some new set of particles
+
+141
+00:10:57,560 --> 00:11:02,240
+that are as yet unknown in fundamental theories of
+
+142
+00:11:02,240 --> 00:11:04,740
+physics. And a
+
+143
+00:11:06,810 --> 00:11:10,830
+quick reminder, this cosmic background radiation
+
+144
+00:11:10,830 --> 00:11:16,320
+is left over from. About three hundred eighty
+
+145
+00:11:16,320 --> 00:11:19,320
+thousand years after the Big Bang, the universe
+
+146
+00:11:19,320 --> 00:11:23,700
+cooled enough for the plasma of electrons and
+
+147
+00:11:24,030 --> 00:11:27,840
+protons to combine into neutral atoms and wildlife
+
+148
+00:11:27,840 --> 00:11:32,250
+to propagate its propagating for thirteen point
+
+149
+00:11:32,250 --> 00:11:35,010
+eight billion years since then, before reaching us
+
+150
+00:11:35,010 --> 00:11:41,480
+to form this sort of pattern. And what we didn't
+
+151
+00:11:41,480 --> 00:11:48,020
+go over and lectures was. How these patterns of
+
+152
+00:11:48,170 --> 00:11:51,290
+those complaints and rules are sorry, those are
+
+153
+00:11:51,290 --> 00:11:54,410
+the hot emails of the contractures, different
+
+154
+00:11:54,410 --> 00:11:58,670
+Bibles, one part in 10000 around the average
+
+155
+00:11:58,670 --> 00:12:04,130
+temperature. Those depend on dark matter through
+
+156
+00:12:04,730 --> 00:12:08,900
+the dynamics of the Spurtle universe plasma, which
+
+157
+00:12:08,900 --> 00:12:12,980
+is affected by precisely what particles are in
+
+158
+00:12:12,980 --> 00:12:15,410
+that plasma and how they're all interacting with
+
+159
+00:12:15,410 --> 00:12:19,820
+each other, going through those calculations,
+
+160
+00:12:19,820 --> 00:12:24,950
+which is sort of the module itself, leaves a six
+
+161
+00:12:24,950 --> 00:12:27,710
+parameter expression for
+
+162
+00:12:29,780 --> 00:12:32,390
+things like the behavior of the cosmic microwave
+
+163
+00:12:32,390 --> 00:12:35,840
+background. Indeed, all other cosmological aspects
+
+164
+00:12:35,840 --> 00:12:40,430
+of the early universe. This is known as Lambdas
+
+165
+00:12:40,500 --> 00:12:43,220
+Kvamme model, where
+
+166
+00:12:46,520 --> 00:12:49,640
+Lambda refers to what's known as Dark Energy,
+
+167
+00:12:50,270 --> 00:12:54,320
+which will be mentioned briefly in the lecture on
+
+168
+00:12:54,320 --> 00:12:57,860
+Monday. And KVAMME stands for cold dark matter,
+
+169
+00:12:57,860 --> 00:13:02,290
+cold, meaning that this is a non relativistic gas
+
+170
+00:13:02,720 --> 00:13:05,480
+of not interacting particles.
+
+171
+00:13:07,710 --> 00:13:08,220
+And.
+
+172
+00:13:10,340 --> 00:13:14,210
+I have printed out here the usual way, which I
+
+173
+00:13:14,210 --> 00:13:17,390
+have to zoom out the usual way of.
+
+174
+00:13:19,490 --> 00:13:22,310
+Mathematically analyzed those patterns of
+
+175
+00:13:22,310 --> 00:13:24,740
+temperature fluctuations in the cosmic microwave
+
+176
+00:13:24,740 --> 00:13:28,160
+background, which I think I mentioned in class, is
+
+177
+00:13:28,160 --> 00:13:33,080
+to look at the correlations between those
+
+178
+00:13:33,080 --> 00:13:37,070
+different points, which here are plotted on two
+
+179
+00:13:37,520 --> 00:13:41,150
+equivalents, horizontal axis, one being a multiple
+
+180
+00:13:41,150 --> 00:13:44,240
+moments and the other being the corresponding
+
+181
+00:13:44,240 --> 00:13:47,690
+angular scale over which we are looking for
+
+182
+00:13:48,290 --> 00:13:53,600
+correlations. So to take a quick step back to this
+
+183
+00:13:53,600 --> 00:13:58,010
+figure, the idea is this is the projection of the
+
+184
+00:13:58,010 --> 00:14:01,910
+entire sky on two dimensions. So distances in here
+
+185
+00:14:01,910 --> 00:14:04,940
+correspond to angular separations looking in one
+
+186
+00:14:04,940 --> 00:14:07,160
+direction and then another separated by some angle.
+
+187
+00:14:07,670 --> 00:14:11,090
+You can spin to fix that angle. Look at all
+
+188
+00:14:11,090 --> 00:14:13,820
+possible orientations and all possible
+
+189
+00:14:13,850 --> 00:14:18,540
+translation's the night sky. And the product of
+
+190
+00:14:18,900 --> 00:14:22,740
+the energy is coming in at those two angles, some
+
+191
+00:14:23,160 --> 00:14:27,090
+integrated over orientation's translation's gives
+
+192
+00:14:27,810 --> 00:14:33,720
+this simple angular spectrum that corresponds to
+
+193
+00:14:33,720 --> 00:14:36,510
+the vertical axis plotted against the angular
+
+194
+00:14:36,510 --> 00:14:39,930
+scales. So maybe the simple limit is a 90 degree
+
+195
+00:14:39,930 --> 00:14:46,120
+separation. On this plot, which is a dipole. And
+
+196
+00:14:46,120 --> 00:14:47,080
+then looking at.
+
+197
+00:14:49,430 --> 00:14:54,950
+Points that are more and more closely aligned in
+
+198
+00:14:54,950 --> 00:14:59,740
+their angle. Corresponds to higher multiple
+
+199
+00:15:00,040 --> 00:15:04,420
+moments in in that expansion. It's probably easier
+
+200
+00:15:05,260 --> 00:15:08,500
+at first glance to interpret this in terms of that
+
+201
+00:15:08,920 --> 00:15:11,560
+scale, looking at points that are two degrees
+
+202
+00:15:11,560 --> 00:15:15,460
+apart, half a degree apart, or even smaller
+
+203
+00:15:15,460 --> 00:15:22,470
+angular scales where. The line on this graph,
+
+204
+00:15:23,130 --> 00:15:24,330
+which is coming from
+
+205
+00:15:27,720 --> 00:15:31,620
+a few years ago, that still this.
+
+206
+00:15:33,930 --> 00:15:37,140
+This was based on the release of the first three
+
+207
+00:15:37,140 --> 00:15:40,530
+years of data by the Wilkinson Microwave Software
+
+208
+00:15:40,560 --> 00:15:48,180
+Program, which was in 2006 and provided the first
+
+209
+00:15:48,180 --> 00:15:52,590
+resolution of the second peak in the spectrum
+
+210
+00:15:54,210 --> 00:15:58,560
+power spectrum here, getting below the half a
+
+211
+00:15:58,560 --> 00:16:04,370
+degree and separation. The functional form of the
+
+212
+00:16:04,370 --> 00:16:07,890
+line that is being fit to all these data from that
+
+213
+00:16:08,510 --> 00:16:10,760
+experiment and the earlier experiments that were
+
+214
+00:16:10,760 --> 00:16:14,030
+mostly based on the earth that are high up the
+
+215
+00:16:14,040 --> 00:16:16,800
+balance or carried balloons to try to avoid.
+
+216
+00:16:17,900 --> 00:16:19,850
+Interference from the Earth's atmosphere.
+
+217
+00:16:23,370 --> 00:16:26,480
+Is precisely given by the six parameter
+
+218
+00:16:26,720 --> 00:16:30,840
+expression's. Michael, respond to that dark energy
+
+219
+00:16:30,840 --> 00:16:35,610
+and dark matter model of cosmology, of which the
+
+220
+00:16:36,330 --> 00:16:43,590
+key feature is the second and third piece in the
+
+221
+00:16:43,590 --> 00:16:46,560
+singular power spectrum being roughly the same
+
+222
+00:16:46,560 --> 00:16:50,070
+height, about twenty five hundred in these units
+
+223
+00:16:50,070 --> 00:16:54,400
+of Microtel squared. And to give a.
+
+224
+00:16:56,830 --> 00:17:01,120
+Slight contrast illustrates how that matters. But
+
+225
+00:17:01,120 --> 00:17:04,210
+it has to do with dark energy. This figure from
+
+226
+00:17:04,210 --> 00:17:07,660
+just a few years later, which is using a lot of
+
+227
+00:17:07,660 --> 00:17:11,110
+the same data with some improvements around that
+
+228
+00:17:11,110 --> 00:17:13,810
+third peak, you're showing two different
+
+229
+00:17:14,380 --> 00:17:19,700
+predictions for this angular power spectrum. In
+
+230
+00:17:19,700 --> 00:17:22,550
+terms of that multiple woman that's now, but that
+
+231
+00:17:22,550 --> 00:17:25,980
+is again plotted on a logarithmic scale, the
+
+232
+00:17:26,000 --> 00:17:31,980
+dotted lines are the predictions of the CDM, but
+
+233
+00:17:32,020 --> 00:17:37,860
+more generally, what is predicted if. Not
+
+234
+00:17:37,880 --> 00:17:42,560
+relativistic dark matter exists. And the salad
+
+235
+00:17:42,560 --> 00:17:48,190
+line is from it's called modified gravity. The
+
+236
+00:17:48,190 --> 00:17:51,180
+idea that dark matter doesn't actually exist,
+
+237
+00:17:51,190 --> 00:17:55,690
+there's some change to Newton's laws of gravity
+
+238
+00:17:55,690 --> 00:17:58,720
+that has to be taken into account in large
+
+239
+00:17:58,720 --> 00:18:02,540
+cosmological scales to explain. Explain what
+
+240
+00:18:02,540 --> 00:18:06,840
+appears to be. Dark matter and things like
+
+241
+00:18:07,170 --> 00:18:12,140
+galactic rotation curves, and even 10 years ago
+
+242
+00:18:12,540 --> 00:18:17,190
+from these data, it was. Very strongly confirmed
+
+243
+00:18:17,190 --> 00:18:23,190
+that the data themselves are following the we're
+
+244
+00:18:23,190 --> 00:18:26,190
+in agreement with the predictions coming from
+
+245
+00:18:26,190 --> 00:18:29,610
+hypothesising dark matter and strongly ruling out
+
+246
+00:18:30,090 --> 00:18:33,570
+modifications to gravity that can explain other
+
+247
+00:18:33,570 --> 00:18:37,110
+evidence for dark matter, coming from galaxies, a
+
+248
+00:18:37,110 --> 00:18:41,100
+galaxy, clusters. So this is.
+
+249
+00:18:43,150 --> 00:18:45,400
+Really, what gives us confidence that dark matter
+
+250
+00:18:45,400 --> 00:18:51,130
+exists and allows a lot of research to continue to
+
+251
+00:18:51,160 --> 00:18:54,580
+go into figuring out precisely what that dark
+
+252
+00:18:54,580 --> 00:18:58,750
+matter consists of and how it interacts with the
+
+253
+00:18:59,020 --> 00:19:04,180
+ordinary. Of particles and fields that we are
+
+254
+00:19:04,660 --> 00:19:09,030
+familiar with. So that was a brief
+
+255
+00:19:11,430 --> 00:19:16,680
+introduction to that ongoing topic in modern
+
+256
+00:19:16,680 --> 00:19:19,770
+physics research, new questions about it before I
+
+257
+00:19:19,770 --> 00:19:22,380
+give you something more interesting to actually do
+
+258
+00:19:23,100 --> 00:19:23,840
+yourselves.
+
+259
+00:19:33,230 --> 00:19:33,740
+So.
+
+260
+00:19:37,270 --> 00:19:39,870
+And in the spirit of confronting.
+
+261
+00:19:42,030 --> 00:19:44,550
+Observations or experimental measurements with.
+
+262
+00:19:45,610 --> 00:19:48,280
+Predictions, this case predictions from
+
+263
+00:19:48,280 --> 00:19:49,330
+statistical physics
+
+264
+00:19:51,370 --> 00:19:56,500
+think it would be fun to. Step back a bit to kind
+
+265
+00:19:56,510 --> 00:20:02,130
+of things we were doing about a month ago, Unit
+
+266
+00:20:02,150 --> 00:20:08,210
+three on the economic loss of. We started
+
+267
+00:20:08,210 --> 00:20:13,670
+considering a solid system that was formed of
+
+268
+00:20:15,230 --> 00:20:18,050
+these spins that.
+
+269
+00:20:20,190 --> 00:20:23,610
+Soon to be oriented either up or down and
+
+270
+00:20:23,760 --> 00:20:28,080
+interacted with the magnetic field of strength
+
+271
+00:20:28,080 --> 00:20:33,640
+given by age. And forming a solid out of these
+
+272
+00:20:33,640 --> 00:20:37,510
+spins, which will allow us to distinguish between,
+
+273
+00:20:37,870 --> 00:20:39,940
+well, that allowed us to make the contrast between
+
+274
+00:20:39,940 --> 00:20:43,300
+distinguishable spins that are at a fixed location
+
+275
+00:20:43,300 --> 00:20:46,900
+in the solid and indistinguishable spins that are
+
+276
+00:20:47,080 --> 00:20:50,410
+in a gas allowed to move around so that they can't
+
+277
+00:20:50,410 --> 00:20:53,890
+be told apart by observation, observation we
+
+278
+00:20:53,940 --> 00:20:58,900
+computed be distinguishable case. That the energy
+
+279
+00:20:59,170 --> 00:21:05,140
+of a solid formed of energy spins was this simple,
+
+280
+00:21:05,140 --> 00:21:07,630
+hyperbolic tangent function of the inverse
+
+281
+00:21:07,650 --> 00:21:09,880
+temperature data helps make the field strength.
+
+282
+00:21:11,860 --> 00:21:16,870
+Which we can put into our calculations for our
+
+283
+00:21:16,870 --> 00:21:21,310
+definition of the heat capacity to get a
+
+284
+00:21:21,310 --> 00:21:26,260
+prediction from. Statistical physics to compare
+
+285
+00:21:26,260 --> 00:21:30,850
+with experimental measurements, which are the data
+
+286
+00:21:30,850 --> 00:21:36,920
+points on this figure, which those data are. Can
+
+287
+00:21:36,960 --> 00:21:40,020
+you tell me about 50 years old now, but suffice to.
+
+288
+00:21:40,940 --> 00:21:45,200
+Cover the temperature dependence of the heat
+
+289
+00:21:45,200 --> 00:21:48,170
+capacities for several different solid materials
+
+290
+00:21:48,740 --> 00:21:53,330
+level women and diamonds, both in the low
+
+291
+00:21:53,330 --> 00:21:56,210
+temperature regime with the heat capacity. It's
+
+292
+00:21:56,210 --> 00:21:59,930
+got to be very small to be banished to the limit
+
+293
+00:21:59,930 --> 00:22:03,140
+of absolute zero and the high temperature regime
+
+294
+00:22:03,740 --> 00:22:07,920
+leadership capacities all approach some constant
+
+295
+00:22:07,940 --> 00:22:14,510
+limiting factor. So the first exercise is to check
+
+296
+00:22:14,510 --> 00:22:17,960
+with the result that we have for the energy, how
+
+297
+00:22:17,960 --> 00:22:21,700
+well we can reproduce. These data points actually
+
+298
+00:22:21,700 --> 00:22:25,870
+mentioned that experimentally it's much easier to
+
+299
+00:22:25,870 --> 00:22:30,940
+measure the cost of pressure rather than how to
+
+300
+00:22:30,940 --> 00:22:33,460
+bowl. So as you increase the temperature we've
+
+301
+00:22:33,460 --> 00:22:36,520
+seen in the context of actual gases, for instance,
+
+302
+00:22:36,520 --> 00:22:40,090
+that the volume pressure, although those will tend
+
+303
+00:22:40,090 --> 00:22:43,360
+to increase. So you have to exert more force to
+
+304
+00:22:43,360 --> 00:22:46,570
+keep the volume constant for if you exert the same
+
+305
+00:22:46,570 --> 00:22:51,490
+amount of force, you end up with a variable. So
+
+306
+00:22:51,490 --> 00:22:55,210
+the sudden curves out here are for the heat
+
+307
+00:22:55,210 --> 00:22:58,510
+capacity, a constant volume, even though the data
+
+308
+00:22:58,510 --> 00:23:03,370
+points are for the capacity and pressure. The
+
+309
+00:23:03,370 --> 00:23:07,000
+effect of those two definitions of heat capacity
+
+310
+00:23:07,330 --> 00:23:10,660
+is something that we could ignore, at least for
+
+311
+00:23:11,230 --> 00:23:12,210
+our purposes.
+
+312
+00:23:18,400 --> 00:23:19,990
+And maybe I can.
+
+313
+00:23:23,870 --> 00:23:27,080
+Just pause the recording now to be five minutes to
+
+314
+00:23:27,650 --> 00:23:33,480
+compute that acetate and see how it compares to
+
+315
+00:23:35,030 --> 00:23:40,280
+the data points that are on this plot, at least in
+
+316
+00:23:40,340 --> 00:23:43,340
+their qualitative shape of dropping to zero at low
+
+317
+00:23:43,340 --> 00:23:48,110
+temperature and increasing to subcontinent's at
+
+318
+00:23:48,110 --> 00:23:49,160
+higher temperatures.
+
+319
+00:24:02,300 --> 00:24:06,440
+That was my favorite time going on. How are you
+
+320
+00:24:07,100 --> 00:24:10,220
+getting on with this is actually motivation for
+
+321
+00:24:10,730 --> 00:24:13,970
+the legal problems still to come up?
+
+322
+00:24:21,670 --> 00:24:28,280
+Do you have a. Expression for the heat capacity
+
+323
+00:24:28,280 --> 00:24:30,020
+from this energy.
+
+324
+00:24:37,350 --> 00:24:43,200
+They just let go of the system. So
+
+325
+00:24:45,930 --> 00:24:47,150
+let's be clear
+
+326
+00:24:49,560 --> 00:24:50,700
+in the public
+
+327
+00:24:53,640 --> 00:25:00,120
+square, the problems facing the nation that shows
+
+328
+00:25:00,120 --> 00:25:01,020
+up with the camera there.
+
+329
+00:25:03,140 --> 00:25:06,320
+So I agree with that, except for the negative side.
+
+330
+00:25:08,970 --> 00:25:09,420
+Which.
+
+331
+00:25:12,090 --> 00:25:15,900
+Because there are two ways to resolve that, one is
+
+332
+00:25:15,900 --> 00:25:19,260
+by changing the variables to differentiate to
+
+333
+00:25:19,260 --> 00:25:22,470
+better. The other is by the chamber with the one
+
+334
+00:25:22,470 --> 00:25:26,320
+over temperature and ability there and the
+
+335
+00:25:26,340 --> 00:25:29,270
+argument that you're not. So I think you see now
+
+336
+00:25:29,290 --> 00:25:31,160
+an agreement, several.
+
+337
+00:25:34,240 --> 00:25:39,720
+What to do with this will be my first and
+
+338
+00:25:44,680 --> 00:25:45,040
+time.
+
+339
+00:25:47,760 --> 00:25:51,690
+We think about the looks, I'm sure, which is
+
+340
+00:25:52,830 --> 00:25:56,120
+building increased temperatures close to infinity,
+
+341
+00:25:56,760 --> 00:26:02,130
+then this heat capacity reduces to
+
+342
+00:26:04,200 --> 00:26:07,440
+mean something on live off the factors of
+
+343
+00:26:07,440 --> 00:26:11,820
+proportionality. That's hyperbolic. Cosine square
+
+344
+00:26:12,270 --> 00:26:16,950
+is a sum of either the better age plus or minus
+
+345
+00:26:16,950 --> 00:26:19,950
+that age as being opposed to infinity that
+
+346
+00:26:19,950 --> 00:26:24,030
+exponentially dominates and we end up with
+
+347
+00:26:26,580 --> 00:26:31,770
+something better over the cumulative.
+
+348
+00:26:35,480 --> 00:26:41,520
+To the square, which does indeed go to zero zero
+
+349
+00:26:41,540 --> 00:26:45,080
+exponentially quickly in the inverse temperature,
+
+350
+00:26:46,220 --> 00:26:49,150
+so that these degrees with the zero emission
+
+351
+00:26:49,190 --> 00:26:51,300
+limits of these experiments, we measure heat
+
+352
+00:26:51,380 --> 00:26:52,100
+capacities.
+
+353
+00:26:54,390 --> 00:26:57,110
+Although I'll mention that the functional form of
+
+354
+00:26:57,280 --> 00:27:00,030
+exponential attendance is incorrect, but at least
+
+355
+00:27:00,030 --> 00:27:03,510
+it's getting the right limiting value of zero.
+
+356
+00:27:04,930 --> 00:27:07,360
+It's the high commission that's available in
+
+357
+00:27:08,200 --> 00:27:13,090
+Europe where things are more interesting here,
+
+358
+00:27:13,870 --> 00:27:18,350
+hyperbolic, cosine goes to one. Catchable.
+
+359
+00:27:21,640 --> 00:27:27,760
+Zero is one, and then we have just in Times Square,
+
+360
+00:27:27,760 --> 00:27:28,450
+each square
+
+361
+00:27:31,480 --> 00:27:35,920
+one goes to zero, in this case quite dramatically
+
+362
+00:27:36,370 --> 00:27:40,630
+in the universe temperature, which is not what is
+
+363
+00:27:41,500 --> 00:27:45,130
+measured experimentally. And in fact, there is an
+
+364
+00:27:45,130 --> 00:27:47,350
+even bigger issue that these experimental
+
+365
+00:27:47,350 --> 00:27:49,340
+measurements were done without any external by the
+
+366
+00:27:49,370 --> 00:27:53,200
+field at zero. So I guess the trigger response is
+
+367
+00:27:53,200 --> 00:27:59,050
+that capacity is always zero, that what we can
+
+368
+00:28:00,190 --> 00:28:04,420
+take that as a model for the functional form of
+
+369
+00:28:04,420 --> 00:28:10,690
+the heat capacity. And so we're going to pull up.
+
+370
+00:28:12,040 --> 00:28:14,710
+While we're working on that, but wasn't able to,
+
+371
+00:28:15,580 --> 00:28:16,450
+was the.
+
+372
+00:28:19,990 --> 00:28:24,980
+We thought plot of what? Was being predicted.
+
+373
+00:28:31,790 --> 00:28:33,500
+For some reason, it's not.
+
+374
+00:28:35,790 --> 00:28:40,900
+That is updating itself, the capacity normalize by
+
+375
+00:28:40,980 --> 00:28:47,640
+and so part of the sea over in versus either the
+
+376
+00:28:47,640 --> 00:28:54,670
+age or the temperature over age. So it's a simple
+
+377
+00:28:54,670 --> 00:28:59,110
+function once we put things in terms of X equals V
+
+378
+00:28:59,110 --> 00:29:02,730
+at a time stage. This is just X squared over the
+
+379
+00:29:03,430 --> 00:29:08,110
+sides where she was zero at the height of the
+
+380
+00:29:08,560 --> 00:29:13,100
+multimeter limits and changing the variables to
+
+381
+00:29:13,120 --> 00:29:15,310
+plot things in terms of the temperature like we
+
+382
+00:29:15,310 --> 00:29:19,520
+had from that experimental data. We see a nice
+
+383
+00:29:20,000 --> 00:29:23,480
+drop off to zero that's just too steep being
+
+384
+00:29:23,480 --> 00:29:26,570
+exponential rather than it turns out the
+
+385
+00:29:26,570 --> 00:29:29,040
+experimental measurements are best fit by a power
+
+386
+00:29:29,510 --> 00:29:35,270
+T cubed because you go to work for. But the big
+
+387
+00:29:35,270 --> 00:29:38,420
+issue is that as soon as the heat capacity.
+
+388
+00:29:39,760 --> 00:29:44,200
+Increases to a little under point five per
+
+389
+00:29:44,200 --> 00:29:49,800
+particle. That's exactly where the. Hyperbolic,
+
+390
+00:29:49,820 --> 00:29:54,390
+cosine undersecretary's starts to die off and one
+
+391
+00:29:54,390 --> 00:29:58,310
+over. Temperatures square from the famous square
+
+392
+00:29:58,320 --> 00:30:01,390
+starts to kick in and push things back down to
+
+393
+00:30:01,410 --> 00:30:04,500
+zero. In this case, the quadratic equations,
+
+394
+00:30:04,500 --> 00:30:09,360
+rather than exponential hopping back to what we
+
+395
+00:30:10,080 --> 00:30:14,740
+want to match, it doesn't match. Not even
+
+396
+00:30:14,740 --> 00:30:17,470
+qualitatively in that high temperature limit, and
+
+397
+00:30:18,040 --> 00:30:22,360
+this is not entirely due to the simplicity of
+
+398
+00:30:22,810 --> 00:30:25,560
+modeling solids is just upward or downward extends.
+
+399
+00:30:27,070 --> 00:30:31,330
+Somewhat of a silly or unrealistic model, even
+
+400
+00:30:31,330 --> 00:30:37,520
+with more or better justified models of solids.
+
+401
+00:30:38,170 --> 00:30:40,990
+The predictions for the heat capacity obtained
+
+402
+00:30:41,440 --> 00:30:45,400
+through classical statistical mechanics methods in
+
+403
+00:30:45,400 --> 00:30:51,280
+classical models of. The solids were not
+
+404
+00:30:51,280 --> 00:30:54,100
+reproducing. He capacity's that the experiment
+
+405
+00:30:54,310 --> 00:30:57,700
+measured even as late as the 18th or as early as
+
+406
+00:30:57,700 --> 00:31:01,220
+the eighteen hundreds. This was a known issue and
+
+407
+00:31:01,240 --> 00:31:05,860
+a fellow named Einstein attempted to address. With
+
+408
+00:31:05,860 --> 00:31:10,090
+some inspiration from his solution to the
+
+409
+00:31:10,090 --> 00:31:13,780
+photoelectric effect, which was another one of his
+
+410
+00:31:16,330 --> 00:31:19,620
+breakthroughs in his miracle, 019 of thoughts and
+
+411
+00:31:19,630 --> 00:31:22,840
+addition to showing that Brownian motion can be
+
+412
+00:31:22,840 --> 00:31:26,680
+explained on the basis of statistical physics, he
+
+413
+00:31:27,730 --> 00:31:29,770
+took one of the first steps towards quantum
+
+414
+00:31:29,770 --> 00:31:34,210
+mechanics by solving or proposing a solution to
+
+415
+00:31:35,170 --> 00:31:37,700
+puzzling experimental measurements known as the
+
+416
+00:31:37,960 --> 00:31:41,200
+electric effect, which don't have time to really
+
+417
+00:31:41,200 --> 00:31:43,030
+get into here. And it's not really relevant to
+
+418
+00:31:43,030 --> 00:31:46,120
+statistical physics. But the take away was the
+
+419
+00:31:46,120 --> 00:31:52,430
+proposal that. Energy had to be quantize in the
+
+420
+00:31:52,430 --> 00:31:56,480
+context of the interactions of lights and sirens
+
+421
+00:31:57,320 --> 00:31:59,480
+and just a couple of years later.
+
+422
+00:32:03,070 --> 00:32:06,970
+At the insights that taking a similar approach to
+
+423
+00:32:06,970 --> 00:32:10,690
+quantize the energies could help to resolve the
+
+424
+00:32:10,990 --> 00:32:13,570
+disagreement between these experimental heat
+
+425
+00:32:13,570 --> 00:32:17,260
+capacity measurements and classical theoretical
+
+426
+00:32:17,260 --> 00:32:22,040
+predictions, classical here being not quantum. So
+
+427
+00:32:22,040 --> 00:32:23,540
+the idea is maybe just.
+
+428
+00:32:27,570 --> 00:32:29,730
+Appreciate it. Again, with the picture rather than
+
+429
+00:32:29,910 --> 00:32:36,370
+a bunch of words there. This is the basic model
+
+430
+00:32:36,370 --> 00:32:40,900
+for a solid that he proposed where he tried to
+
+431
+00:32:40,900 --> 00:32:45,230
+simplify things as much as possible. By focusing
+
+432
+00:32:45,230 --> 00:32:52,910
+on. The. The energies that are at play rather than
+
+433
+00:32:52,910 --> 00:32:55,490
+the detailed balance of forces that is being
+
+434
+00:32:55,490 --> 00:32:57,950
+pictured is holding at odds with the solid in
+
+435
+00:32:57,950 --> 00:33:01,820
+place. This is just around the time the ads were
+
+436
+00:33:02,870 --> 00:33:06,440
+no longer being a theoretical construction or
+
+437
+00:33:06,440 --> 00:33:07,820
+turning into something that people thought
+
+438
+00:33:07,820 --> 00:33:12,200
+actually existed. So building a solid out of a
+
+439
+00:33:12,200 --> 00:33:15,980
+bunch of atoms is a regular array leads to the
+
+440
+00:33:15,980 --> 00:33:21,080
+question of how the atoms are fixed to their given
+
+441
+00:33:21,410 --> 00:33:27,450
+distinguishable positions. And the simple way of
+
+442
+00:33:27,960 --> 00:33:30,480
+bottling this is to say that all of these atoms
+
+443
+00:33:30,480 --> 00:33:34,710
+are interacting in some way with the atoms around
+
+444
+00:33:34,710 --> 00:33:34,920
+them.
+
+445
+00:33:36,980 --> 00:33:40,350
+So that whenever one tries to move, sort of is
+
+446
+00:33:40,370 --> 00:33:44,240
+pushed back by the adults around it, that's the
+
+447
+00:33:44,240 --> 00:33:47,660
+jagged lines here can be thought of kind of like
+
+448
+00:33:47,660 --> 00:33:51,740
+springs that are pulling all of the adults in
+
+449
+00:33:51,740 --> 00:33:54,620
+position. And then it becomes a very complicated
+
+450
+00:33:54,650 --> 00:33:58,410
+exercise to try to model how those atoms are
+
+451
+00:33:58,440 --> 00:34:00,500
+interacting with each other. We're all connected
+
+452
+00:34:00,500 --> 00:34:03,800
+to each other and that's independent, not
+
+453
+00:34:03,800 --> 00:34:09,380
+interested in degrees of freedom. So the idea is
+
+454
+00:34:09,840 --> 00:34:15,170
+ignore all of the details of interactions between
+
+455
+00:34:15,680 --> 00:34:19,250
+neighbouring atoms and just focus on the amount of
+
+456
+00:34:19,250 --> 00:34:23,930
+energy that's stored in each of these oscillators.
+
+457
+00:34:24,170 --> 00:34:24,680
+The.
+
+458
+00:34:27,990 --> 00:34:30,870
+The picture of the cell that's being proposed is
+
+459
+00:34:30,870 --> 00:34:34,440
+that. These interactions with these friends can be
+
+460
+00:34:34,440 --> 00:34:37,830
+represented as degrees of freedom that have some
+
+461
+00:34:37,830 --> 00:34:42,300
+energy and as I was growing up with that, that
+
+462
+00:34:42,350 --> 00:34:46,410
+could affect your proposal, is that the energy
+
+463
+00:34:46,530 --> 00:34:50,640
+that these oscillators have by virtue of the
+
+464
+00:34:50,640 --> 00:34:53,460
+interactions between neighboring atoms is
+
+465
+00:34:53,460 --> 00:34:58,690
+quantized. In terms of conservation times, some
+
+466
+00:34:58,690 --> 00:35:01,870
+characteristic frequency that is the same for all
+
+467
+00:35:01,870 --> 00:35:06,740
+of the oscillators in the cell, and this is. Well,
+
+468
+00:35:07,660 --> 00:35:11,240
+the fantastic simplification, because now, even
+
+469
+00:35:11,240 --> 00:35:14,810
+though we're modeling lots of interactions between
+
+470
+00:35:15,410 --> 00:35:19,280
+neighbouring particles, if we look at the physics
+
+471
+00:35:19,280 --> 00:35:22,010
+of the oscillators themselves, those are not
+
+472
+00:35:22,010 --> 00:35:25,310
+interactive degrees of freedom. And we can analyze
+
+473
+00:35:25,310 --> 00:35:29,810
+them using the statistical physics methods we've
+
+474
+00:35:30,170 --> 00:35:35,000
+produced up till now particularly. We can start
+
+475
+00:35:35,420 --> 00:35:39,710
+already in the canonical example.
+
+476
+00:35:42,230 --> 00:35:47,250
+By. Fixing the overall energy that is present in
+
+477
+00:35:47,250 --> 00:35:49,880
+the south, it's going to be dependent on
+
+478
+00:35:49,890 --> 00:35:52,830
+temperature, will be solid as gas, whatever that
+
+479
+00:35:52,830 --> 00:35:55,620
+temperature is, if some amount of energy that can
+
+480
+00:35:55,620 --> 00:35:59,910
+be distributed among the and different oscillators
+
+481
+00:36:00,150 --> 00:36:04,790
+in the system. I mentioned in passing that the
+
+482
+00:36:04,790 --> 00:36:08,480
+oscillators depend both on the number of atoms
+
+483
+00:36:08,480 --> 00:36:10,980
+that there are, as well as how they are laid out.
+
+484
+00:36:11,360 --> 00:36:15,200
+So can this square lattice, there are two
+
+485
+00:36:15,770 --> 00:36:20,090
+independent possibilities for each atom, and that
+
+486
+00:36:20,100 --> 00:36:22,610
+could rise to three independent oscillators per
+
+487
+00:36:22,610 --> 00:36:26,600
+atom, three dimensional cubic lattice. It's also
+
+488
+00:36:27,830 --> 00:36:29,480
+three different lattice structures that have
+
+489
+00:36:29,480 --> 00:36:32,090
+different members of your neighbors. Things like
+
+490
+00:36:32,090 --> 00:36:35,630
+the honeycomb lattice that shows up in graphene,
+
+491
+00:36:35,630 --> 00:36:39,080
+for instance, has somewhat different counting in
+
+492
+00:36:39,080 --> 00:36:42,740
+this. Setting that aside for the moment and
+
+493
+00:36:42,740 --> 00:36:47,180
+working in terms of a fixed number of oscillators.
+
+494
+00:36:48,530 --> 00:36:51,110
+So that will be our end rather than the number of
+
+495
+00:36:51,110 --> 00:36:55,340
+atoms. They can go through sort of four step
+
+496
+00:36:55,340 --> 00:36:59,720
+process to get from the definition of the small.
+
+497
+00:37:00,860 --> 00:37:05,450
+In the microeconomic ensemble to capacity, as
+
+498
+00:37:05,450 --> 00:37:09,750
+usual, I've gone on longer than I expected with
+
+499
+00:37:09,770 --> 00:37:13,120
+the introduction of things today, so Will. Just.
+
+500
+00:37:17,710 --> 00:37:22,180
+They believe a lot of the detailed work for you to
+
+501
+00:37:22,390 --> 00:37:26,260
+work on over the coming week and dive back into
+
+502
+00:37:26,260 --> 00:37:29,280
+this just before the break. Next week.
+
+503
+00:37:32,090 --> 00:37:32,750
+Maybe even.
+
+504
+00:37:35,000 --> 00:37:39,880
+When they police say. We're just a complete
+
+505
+00:37:40,300 --> 00:37:45,850
+misrepresentation of the calculation at hand in
+
+506
+00:37:45,850 --> 00:37:48,550
+the microcosmic ensemble. We're fixing the amount
+
+507
+00:37:48,550 --> 00:37:52,420
+of energy which we divide into some number of
+
+508
+00:37:52,420 --> 00:37:55,390
+these quanta, each with units of mega.
+
+509
+00:37:57,990 --> 00:38:02,430
+And the first question is, what is the total
+
+510
+00:38:02,430 --> 00:38:07,350
+number of microstates that designed ISIS can have
+
+511
+00:38:07,890 --> 00:38:11,190
+with that fixed amount of energy being distributed
+
+512
+00:38:11,190 --> 00:38:16,440
+among a fixed amount of oscillators? So this case
+
+513
+00:38:17,130 --> 00:38:21,090
+is an integer counting the units of.
+
+514
+00:38:23,380 --> 00:38:27,100
+Quantize energy levels can be distributed among
+
+515
+00:38:27,100 --> 00:38:30,850
+all the oscillators and then from the total number
+
+516
+00:38:30,850 --> 00:38:34,270
+of microstates going through the same sort of
+
+517
+00:38:34,270 --> 00:38:38,570
+calculations that we've done over the. First of
+
+518
+00:38:38,570 --> 00:38:41,960
+all, to this cause, we can extract the entropy,
+
+519
+00:38:42,890 --> 00:38:47,900
+the temperature and energy and from there and
+
+520
+00:38:48,080 --> 00:38:52,280
+ultimately the heat capacity to be compared with
+
+521
+00:38:52,390 --> 00:38:59,930
+experiment. So. Just stop there. Get started in
+
+522
+00:38:59,930 --> 00:39:02,720
+the next five minutes or save this
+
+523
+00:39:04,940 --> 00:39:08,540
+free time over the coming week, in the end,
+
+524
+00:39:08,540 --> 00:39:11,870
+hopefully you should see a significant improvement
+
+525
+00:39:12,620 --> 00:39:20,050
+compared to. What we had from the system, but room
+
+526
+00:39:20,050 --> 00:39:22,350
+for further improvement will turn out to be
+
+527
+00:39:22,810 --> 00:39:23,430
+possible.
+
+528
+00:39:26,240 --> 00:39:31,760
+You may get into that. Once we start possibly next
+
+529
+00:39:31,970 --> 00:39:37,750
+week, so. Just wrap up the recording and leave you
+
+530
+00:39:37,750 --> 00:39:41,020
+with this problem for the next five minutes plus
+
+531
+00:39:41,140 --> 00:39:46,230
+five days, are there any questions about the setup
+
+532
+00:39:46,420 --> 00:39:51,490
+that we should clarify it before you? We'll get to
+
+533
+00:39:51,490 --> 00:39:51,660
+it.
+
+534
+00:40:45,580 --> 00:40:49,030
+One check of the work that she neglected to
+
+535
+00:40:49,030 --> 00:40:55,090
+mention is. It's comparing predictions with I it a
+
+536
+00:40:55,110 --> 00:41:01,200
+minimal three hospital system. We can set up.
+
+537
+00:41:02,570 --> 00:41:08,730
+Three atoms, each pair of them connected by one of
+
+538
+00:41:08,730 --> 00:41:14,790
+these oscillators. That's. It's simple enough that.
+
+539
+00:41:16,360 --> 00:41:18,190
+For the small.
+
+540
+00:41:20,570 --> 00:41:25,580
+Number of energy units can be checked explicitly
+
+541
+00:41:25,910 --> 00:41:28,160
+that the total number of microstates matches
+
+542
+00:41:29,750 --> 00:41:34,300
+functional form in terms of and hoc.

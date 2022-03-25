@@ -1,0 +1,2563 @@
+1
+00:00:03,440 --> 00:00:09,330
+All right, that's the recording started and we can get
+
+2
+00:00:09,800 --> 00:00:14,930
+set up with the six digit code for this morning.
+
+3
+00:00:23,140 --> 00:00:24,840
+It is seven three zero zero
+
+4
+00:00:27,490 --> 00:00:28,160
+five nine.
+
+5
+00:00:31,570 --> 00:00:37,000
+And welcome to a warm, sunny Friday morning. A very---well,
+
+6
+00:00:37,240 --> 00:00:39,490
+congratulations on getting through that computer
+
+7
+00:00:39,490 --> 00:00:43,450
+project. So that's most of the in-term assessment
+
+8
+00:00:43,450 --> 00:00:47,200
+dealt with. Just one final homework assignment
+
+9
+00:00:47,230 --> 00:00:50,890
+that will be showing up in your inbox during the
+
+10
+00:00:50,890 --> 00:00:53,800
+break and due the second week we come back, in early
+
+11
+00:00:53,800 --> 00:00:57,370
+May. Are there any questions about what we've been
+
+12
+00:00:57,370 --> 00:01:02,220
+going through recently before we pick up wrapping
+
+13
+00:01:02,220 --> 00:01:06,090
+up the photon gas and moving on to quantum gases of fermions,
+
+14
+00:01:06,330 --> 00:01:10,230
+which is the plan for today, or at least for
+
+15
+00:01:10,230 --> 00:01:16,140
+this morning.  In the afternoon, we may well look at
+
+16
+00:01:16,150 --> 00:01:20,360
+taking a step back to the canonical ensemble and
+
+17
+00:01:20,400 --> 00:01:25,400
+look at the heat capacity of a
+
+18
+00:01:25,540 --> 00:01:29,320
+statistical model of solids.  I have a few
+
+19
+00:01:29,320 --> 00:01:32,740
+hours to figure out if that will be interesting or
+
+20
+00:01:32,740 --> 00:01:34,330
+there's anything better to do more directly
+
+21
+00:01:34,330 --> 00:01:37,200
+related to what's been happening this week.
+
+22
+00:01:39,450 --> 00:01:39,960
+And
+
+23
+00:01:42,940 --> 00:01:46,860
+it's to get underway with a quick recap, since
+
+24
+00:01:46,860 --> 00:01:51,380
+it's been a few days last year at the.
+
+25
+00:01:54,230 --> 00:01:57,500
+From the 5th of March, that's where the cameras
+
+26
+00:01:57,500 --> 00:01:57,950
+point to.
+
+27
+00:02:01,030 --> 00:02:06,190
+So we've been looking at the full time gas in the
+
+28
+00:02:06,190 --> 00:02:12,380
+grand canonical ensemble as a system of massless
+
+29
+00:02:12,400 --> 00:02:13,120
+photons.
+
+30
+00:02:18,210 --> 00:02:21,600
+Because the particles are massless, their energies
+
+31
+00:02:21,600 --> 00:02:25,630
+are given by their angular frequency, is working
+
+32
+00:02:25,650 --> 00:02:29,830
+with wavelengths rather than P squared over two in
+
+33
+00:02:30,060 --> 00:02:34,350
+the classical case, and we have to drive the
+
+34
+00:02:35,040 --> 00:02:39,480
+so-called Planck spectrum. Or it's called black
+
+35
+00:02:39,480 --> 00:02:43,830
+body radiation. The photons emitted by an object
+
+36
+00:02:43,830 --> 00:02:45,500
+at a given temperature.
+
+37
+00:02:50,010 --> 00:02:55,020
+Without any contamination from reflecting evidence
+
+38
+00:02:55,020 --> 00:02:59,610
+for plants and found in particular, that spectrum
+
+39
+00:02:59,610 --> 00:03:03,990
+is proportional to. The ratio of that frequency
+
+40
+00:03:03,990 --> 00:03:10,710
+cubed divided by E to the minus one, whereas in
+
+41
+00:03:10,710 --> 00:03:12,960
+the classical limit you end up with something
+
+42
+00:03:13,140 --> 00:03:18,670
+proportional to. How big a square that that would
+
+43
+00:03:18,670 --> 00:03:22,240
+diverge a little bit of large frequency's a mega
+
+44
+00:03:22,240 --> 00:03:25,780
+or short wavelengths, so that is known as the
+
+45
+00:03:26,470 --> 00:03:30,260
+ultraviolet catastrophe. Of.
+
+46
+00:03:33,730 --> 00:03:38,350
+Classical treatments of the energy of a mass of
+
+47
+00:03:38,350 --> 00:03:43,910
+photons or radiation. And we checked this against.
+
+48
+00:03:44,920 --> 00:03:46,660
+With the solar radiation
+
+49
+00:03:48,790 --> 00:03:53,090
+emitted by the sun, the temperature around. Little
+
+50
+00:03:53,090 --> 00:03:54,080
+under six thousand.
+
+51
+00:03:56,790 --> 00:03:59,360
+As well as the cosmic microwave background,
+
+52
+00:04:00,630 --> 00:04:02,580
+radiation is very low temperature.
+
+53
+00:04:05,760 --> 00:04:08,970
+Photons left over from the Big Bang about 14
+
+54
+00:04:09,570 --> 00:04:12,360
+billion years ago, finding, despite our assumption
+
+55
+00:04:12,360 --> 00:04:16,890
+of not interacting, ideal gases, good descriptions
+
+56
+00:04:17,370 --> 00:04:22,160
+of that data. From in both of those regimes of the
+
+57
+00:04:22,170 --> 00:04:24,840
+high-temperature solar radiation and the low
+
+58
+00:04:24,840 --> 00:04:27,740
+temperature cosmic microwave background, we went
+
+59
+00:04:27,750 --> 00:04:34,760
+on to find that. The overall energy density coming
+
+60
+00:04:34,760 --> 00:04:37,250
+from the black spectrum, sharing out the overall
+
+61
+00:04:37,250 --> 00:04:42,100
+frequencies is proportional to. These see the
+
+62
+00:04:42,120 --> 00:04:45,180
+power 40, so that's very different from the
+
+63
+00:04:45,730 --> 00:04:49,700
+relativistic energy disproportionality tea this
+
+64
+00:04:49,700 --> 00:04:52,650
+gave us. A.
+
+65
+00:05:00,520 --> 00:05:04,630
+Well, but it's going to give us today is entropy
+
+66
+00:05:04,930 --> 00:05:08,200
+and the heat capacity, both of which are
+
+67
+00:05:08,320 --> 00:05:13,000
+proportional to Cube rather than in case the heat
+
+68
+00:05:13,000 --> 00:05:15,970
+capacity getting constants like the classical
+
+69
+00:05:15,970 --> 00:05:21,040
+relativistic gas and the interest in the entropy
+
+70
+00:05:21,520 --> 00:05:25,750
+is connected to the radiation pressure that we
+
+71
+00:05:26,410 --> 00:05:30,490
+started discussing at the end of Tuesday's lecture
+
+72
+00:05:31,510 --> 00:05:34,900
+and will pick up to push through the last steps to
+
+73
+00:05:35,530 --> 00:05:37,840
+the full equation of states for the first time
+
+74
+00:05:37,860 --> 00:05:41,410
+yesterday. Today, if we are happy with what we've
+
+75
+00:05:41,410 --> 00:05:46,760
+gotten up to so far, there is the. Dependence on
+
+76
+00:05:46,790 --> 00:05:50,810
+the internal energy, that photon gas on.
+
+77
+00:05:52,830 --> 00:05:55,710
+The fourth power, the temperature which we can
+
+78
+00:05:56,220 --> 00:05:58,860
+relate through the last calculation that we did on
+
+79
+00:05:58,860 --> 00:06:04,280
+Tuesday to the average number of photons with the
+
+80
+00:06:04,320 --> 00:06:08,460
+energy chemical potential reflecting the ease of
+
+81
+00:06:08,460 --> 00:06:12,920
+creating and destroying photons. That, like the
+
+82
+00:06:12,920 --> 00:06:16,250
+heat capacity, is proportional to three towers of
+
+83
+00:06:16,250 --> 00:06:21,380
+the temperature with interesting factors of gamma
+
+84
+00:06:21,380 --> 00:06:25,370
+functions in Zyda functions, showing up from
+
+85
+00:06:25,820 --> 00:06:28,840
+carrying out these intervals over that spectrum
+
+86
+00:06:30,050 --> 00:06:32,840
+and by looking at the.
+
+87
+00:06:35,800 --> 00:06:39,730
+Usual expression we have for the Entropia related
+
+88
+00:06:39,730 --> 00:06:42,640
+to the internal energy, the free energy normalized
+
+89
+00:06:42,670 --> 00:06:45,930
+by the temperature in the case of the ensemble
+
+90
+00:06:45,940 --> 00:06:49,990
+with the energy chemical potential. We can confirm
+
+91
+00:06:49,990 --> 00:06:57,640
+that this entropy is almost the times here. That's
+
+92
+00:06:57,640 --> 00:07:00,680
+exactly what we wrapped up on Tuesday.
+
+93
+00:07:03,690 --> 00:07:06,670
+This is the condition of constant entropy that
+
+94
+00:07:06,670 --> 00:07:11,200
+needs to go into the determination of the
+
+95
+00:07:11,200 --> 00:07:14,470
+radiation pressure. We take the derivative of the
+
+96
+00:07:14,470 --> 00:07:19,450
+photon energy with respect to the. Volume of the
+
+97
+00:07:19,450 --> 00:07:19,890
+system,
+
+98
+00:07:22,750 --> 00:07:28,390
+indeed, is even easier to see that the dimensions
+
+99
+00:07:29,050 --> 00:07:32,580
+of the entropy would get to be the type of CQ
+
+100
+00:07:32,620 --> 00:07:35,890
+there is a rather complicated integral involving
+
+101
+00:07:35,930 --> 00:07:41,440
+more of one minus Ticketfly, the sex that having
+
+102
+00:07:41,950 --> 00:07:45,370
+cast everything into dimensionless quantities like
+
+103
+00:07:45,370 --> 00:07:53,410
+this X because the photon energy is Omega divided
+
+104
+00:07:53,410 --> 00:07:57,480
+by the temperature. That's where the factor of
+
+105
+00:07:57,490 --> 00:08:00,840
+teen Kud gets pulled out of this overall integral.
+
+106
+00:08:01,780 --> 00:08:05,740
+Which suffices to determine the condition of
+
+107
+00:08:05,740 --> 00:08:11,500
+constant entropy that we can plug in to free
+
+108
+00:08:11,500 --> 00:08:16,610
+expression for the injury to the power for. Now
+
+109
+00:08:16,620 --> 00:08:25,470
+has to satisfy the relation to that tier is some
+
+110
+00:08:25,500 --> 00:08:29,600
+constant times the inverse cube root of the volume
+
+111
+00:08:30,060 --> 00:08:34,890
+we call that tends to be then playing in
+
+112
+00:08:37,980 --> 00:08:45,990
+relation here. So. For the cost of factories of.
+
+113
+00:08:46,890 --> 00:08:52,200
+Minus PI squared and over 15 each passing year
+
+114
+00:08:53,070 --> 00:08:58,640
+cubed. Out front of this derivative, which is then
+
+115
+00:08:59,270 --> 00:09:02,750
+one power of times negative for two thirds power
+
+116
+00:09:03,140 --> 00:09:06,380
+towers V.. So there is a cost to be to the forward
+
+117
+00:09:07,250 --> 00:09:12,940
+and left over. The two year. Minus one third kids
+
+118
+00:09:12,960 --> 00:09:13,470
+looking out.
+
+119
+00:09:16,820 --> 00:09:20,570
+One of those negative for three hours from the
+
+120
+00:09:20,570 --> 00:09:23,660
+fourth power of the constant entropy relation to
+
+121
+00:09:23,660 --> 00:09:28,370
+the derivative of V to the power, minus a third is
+
+122
+00:09:28,370 --> 00:09:34,440
+just. Minus a third times, one over, obviously,
+
+123
+00:09:34,440 --> 00:09:39,470
+the negative signs cancel. This expression,
+
+124
+00:09:39,990 --> 00:09:46,370
+constant factors of high squared over 15 each bar
+
+125
+00:09:46,380 --> 00:09:53,390
+scene cubed through. As does the of the 4th and
+
+126
+00:09:53,870 --> 00:09:59,030
+getting. Moved, the new power of water will be up
+
+127
+00:09:59,060 --> 00:10:03,140
+front, the original V to the minus one third is
+
+128
+00:10:03,470 --> 00:10:07,880
+still in place, which we can recognize as.
+
+129
+00:10:09,940 --> 00:10:14,470
+One over three times, because I think the average
+
+130
+00:10:14,470 --> 00:10:16,720
+internal energy of the folks on gas when we
+
+131
+00:10:16,720 --> 00:10:21,300
+started off with. So multiplying through by the
+
+132
+00:10:21,300 --> 00:10:25,110
+volume, we find an equation of state that looks
+
+133
+00:10:25,770 --> 00:10:29,250
+very nearly like the ideal gas law we had for
+
+134
+00:10:29,790 --> 00:10:33,270
+classical non relativistic gases all the way back
+
+135
+00:10:33,270 --> 00:10:38,010
+in for the chemical ensemble. Where the pressure
+
+136
+00:10:38,010 --> 00:10:43,110
+times volume is just one third of the internal
+
+137
+00:10:43,110 --> 00:10:47,590
+energy, which we have related to a constant factor.
+
+138
+00:10:47,640 --> 00:10:53,310
+Times the average particle number. Times the
+
+139
+00:10:53,670 --> 00:10:56,280
+temperature of the gas in the classical case, the
+
+140
+00:10:56,280 --> 00:11:01,280
+ideal gas was PV equals a. the fixed and
+
+141
+00:11:01,320 --> 00:11:05,190
+economical cycle. And the only change in this
+
+142
+00:11:05,190 --> 00:11:09,480
+equation, 98 compared to that, is this funny
+
+143
+00:11:09,480 --> 00:11:12,870
+looking pretty factor that depends on the remote
+
+144
+00:11:12,990 --> 00:11:17,010
+data function. And the fact is a ratio of two
+
+145
+00:11:17,010 --> 00:11:20,670
+different values of the remote signal function
+
+146
+00:11:21,030 --> 00:11:25,590
+zero four divided by zero of three, which is
+
+147
+00:11:25,590 --> 00:11:31,200
+related to actually the dimensionality that the. I
+
+148
+00:11:31,250 --> 00:11:35,780
+guess occupies three dimensional space, the total
+
+149
+00:11:35,780 --> 00:11:39,050
+number is proportional to the three, and the
+
+150
+00:11:39,050 --> 00:11:41,690
+internal energy brings in an additional factor of
+
+151
+00:11:44,120 --> 00:11:48,800
+Omega in these sorts of integrals over frequency
+
+152
+00:11:48,800 --> 00:11:54,260
+that we've been doing, pulling out zero for very
+
+153
+00:11:54,710 --> 00:11:58,670
+few of those. Is that showing up in the equation
+
+154
+00:11:58,670 --> 00:12:02,480
+of state. So if we were to imagine photon gas is
+
+155
+00:12:02,480 --> 00:12:07,490
+confined to some surface, you would expect to have
+
+156
+00:12:07,520 --> 00:12:12,140
+the same sort of ideal gas law type relation with.
+
+157
+00:12:13,180 --> 00:12:17,290
+Some different ratio of data functions coming up
+
+158
+00:12:17,290 --> 00:12:19,180
+at the cost of the proportionality test, maybe
+
+159
+00:12:19,180 --> 00:12:25,840
+getting a little far away from the mainstream of
+
+160
+00:12:25,840 --> 00:12:32,200
+this module, and this indeed is our destination
+
+161
+00:12:32,200 --> 00:12:34,750
+for the photon gas, at least for the time being,
+
+162
+00:12:35,060 --> 00:12:36,010
+having derived.
+
+163
+00:12:38,020 --> 00:12:40,780
+All of the usual observables, the internal energy
+
+164
+00:12:40,780 --> 00:12:44,680
+density, every particle, no entropy and equation
+
+165
+00:12:44,680 --> 00:12:48,040
+of state involving radiation pressure, and we will
+
+166
+00:12:48,730 --> 00:12:52,270
+now set some time to decide and turn to quantum
+
+167
+00:12:52,270 --> 00:12:56,890
+gases at fermions unless there are any questions
+
+168
+00:12:56,890 --> 00:13:01,240
+about the topic of these photon gases or those
+
+169
+00:13:01,240 --> 00:13:03,460
+other quantum gases more generally.
+
+170
+00:13:11,290 --> 00:13:19,430
+And to switch things up a bit and keep from. Re
+
+171
+00:13:19,590 --> 00:13:21,030
+doing the same thing with slightly different
+
+172
+00:13:21,030 --> 00:13:25,740
+negative signs, let's look for the most part, abs
+
+173
+00:13:27,240 --> 00:13:31,030
+gas's of. I'm not attractive, but also not
+
+174
+00:13:31,030 --> 00:13:33,400
+relativistic fermions.
+
+175
+00:13:36,580 --> 00:13:40,650
+And again, this is being investigated through
+
+176
+00:13:40,670 --> 00:13:44,320
+quantum statistics as a reminder, this defines the
+
+177
+00:13:44,320 --> 00:13:47,850
+microstates by considering energy levels in turn,
+
+178
+00:13:47,980 --> 00:13:50,770
+something over all of the possible occupation
+
+179
+00:13:50,770 --> 00:13:54,550
+numbers for each of those energy levels, which
+
+180
+00:13:54,550 --> 00:13:57,960
+would be for on a case, are restricted to being
+
+181
+00:13:57,970 --> 00:14:03,160
+either empty or filled, unoccupied or occupied
+
+182
+00:14:03,160 --> 00:14:06,470
+energy levels. The poverty exclusion principle
+
+183
+00:14:06,770 --> 00:14:10,850
+forbids the identical fermions in this case from
+
+184
+00:14:11,300 --> 00:14:15,530
+occupying that same energy level and in the
+
+185
+00:14:15,560 --> 00:14:20,710
+previous units, seven derived. So-called fair
+
+186
+00:14:21,110 --> 00:14:26,660
+statistics. That governs the statistical behavior
+
+187
+00:14:26,660 --> 00:14:31,790
+of these gases of one's. The starting point for
+
+188
+00:14:32,240 --> 00:14:36,260
+the statistics is with all. Sophistical ensembles
+
+189
+00:14:36,260 --> 00:14:41,880
+is the corresponding production function. As this
+
+190
+00:14:41,890 --> 00:14:46,930
+form of product over all of the energy levels
+
+191
+00:14:46,930 --> 00:14:50,660
+which we can label as running from zero to some
+
+192
+00:14:50,660 --> 00:14:53,200
+accountable but possibly infinite L
+
+193
+00:14:55,240 --> 00:15:01,150
+and then. Some factor of one plus or minus two
+
+194
+00:15:01,150 --> 00:15:05,200
+times the difference between the energy value of
+
+195
+00:15:05,200 --> 00:15:07,810
+the corresponding energy level, minus the chemical
+
+196
+00:15:07,810 --> 00:15:08,410
+potential.
+
+197
+00:15:11,430 --> 00:15:17,790
+Where this is clearly connected to the two
+
+198
+00:15:17,790 --> 00:15:19,920
+possible occupation numbers, which is energy
+
+199
+00:15:19,920 --> 00:15:25,180
+levels when a energy level is occupied. The
+
+200
+00:15:25,180 --> 00:15:28,150
+exponential factor reduces to one when it is
+
+201
+00:15:28,150 --> 00:15:32,110
+occupied, it corresponds to this exponential
+
+202
+00:15:32,110 --> 00:15:35,880
+factor of ratio of energy, the temperatures. And
+
+203
+00:15:35,890 --> 00:15:39,910
+unlike the movies, I have seen statistics where
+
+204
+00:15:40,630 --> 00:15:44,320
+the convergence of the partition function required
+
+205
+00:15:44,770 --> 00:15:48,340
+that the energy be larger than the chemical
+
+206
+00:15:48,340 --> 00:15:51,310
+potential, every single energy level, there is no
+
+207
+00:15:51,310 --> 00:15:57,920
+such restriction in February statistics and. We
+
+208
+00:15:57,920 --> 00:16:01,040
+really need to see that both negative and positive
+
+209
+00:16:01,430 --> 00:16:07,210
+values of the chemical potential are. Realized in
+
+210
+00:16:07,210 --> 00:16:12,820
+nature, that's in contrast to the system of
+
+211
+00:16:12,820 --> 00:16:15,130
+photons we were just considering, we argued that
+
+212
+00:16:15,580 --> 00:16:17,890
+the ease with which we can create and absorb
+
+213
+00:16:17,890 --> 00:16:22,030
+photons corresponded to a chemical potential, that.
+
+214
+00:16:23,150 --> 00:16:26,830
+Effectively vanishes, so the corresponding
+
+215
+00:16:27,050 --> 00:16:32,390
+economic potential arising from. This protection
+
+216
+00:16:32,390 --> 00:16:37,530
+function. It is just now the sun over the lot of
+
+217
+00:16:37,530 --> 00:16:40,380
+these factors, one plus the exponential
+
+218
+00:16:42,690 --> 00:16:46,050
+based on which we want to determine the same sort
+
+219
+00:16:46,050 --> 00:16:48,180
+of energy, the same sort of quantities we were
+
+220
+00:16:48,180 --> 00:16:51,600
+looking for the first time, gas, internal energy,
+
+221
+00:16:51,690 --> 00:16:54,990
+average particle, no entropy pressure in the state.
+
+222
+00:16:57,040 --> 00:16:59,890
+And what we need to do to start off with this is
+
+223
+00:16:59,890 --> 00:17:04,720
+specify precisely what these energies showing up
+
+224
+00:17:04,720 --> 00:17:08,530
+in the energy levels are going to these violations,
+
+225
+00:17:09,430 --> 00:17:14,380
+including any degeneracy where we have distinct
+
+226
+00:17:14,380 --> 00:17:17,290
+energy levels with the same value of the energy
+
+227
+00:17:18,070 --> 00:17:19,270
+and the case of the.
+
+228
+00:17:21,340 --> 00:17:25,980
+Photon, yes, we had massless particles with energy
+
+229
+00:17:25,990 --> 00:17:30,170
+is given by their frequency. Here are the numbers
+
+230
+00:17:30,190 --> 00:17:35,450
+in the case. We go back to that limit in science
+
+231
+00:17:35,500 --> 00:17:36,130
+triangle, the
+
+232
+00:17:38,140 --> 00:17:42,130
+the mass energy and momentum energy can expand
+
+233
+00:17:42,130 --> 00:17:45,730
+that for momentum that are very small compared to
+
+234
+00:17:45,730 --> 00:17:50,710
+masses and find the usual kinetic energy from
+
+235
+00:17:50,710 --> 00:17:55,500
+classical mechanics squared divided by two, where
+
+236
+00:17:55,540 --> 00:18:00,400
+quantization filaments in a volume cube, as usual,
+
+237
+00:18:01,000 --> 00:18:07,620
+gives us. Energy's. Of the same formerly. Reviewed
+
+238
+00:18:08,160 --> 00:18:12,030
+in section April one earlier this week, it cost
+
+239
+00:18:12,030 --> 00:18:15,600
+the factor four squared squared times, PI split
+
+240
+00:18:15,600 --> 00:18:20,670
+over to end Times Square, that system multiplied
+
+241
+00:18:20,670 --> 00:18:27,480
+by. The square magnitude of non-negative, that's
+
+242
+00:18:27,620 --> 00:18:32,530
+really positive integers. Why is that label
+
+243
+00:18:32,950 --> 00:18:36,070
+possible so that these numbers of particles can
+
+244
+00:18:36,070 --> 00:18:39,880
+have each of the three spatial directions?
+
+245
+00:18:43,080 --> 00:18:46,320
+So therefore, the generosity is now coming from
+
+246
+00:18:46,770 --> 00:18:49,170
+permutations of those.
+
+247
+00:18:51,230 --> 00:18:54,290
+Different possible ways we can have, say, six
+
+248
+00:18:54,290 --> 00:18:57,860
+units of momentum oriented in different directions,
+
+249
+00:18:57,860 --> 00:19:01,550
+X, Y or Z, we calibrated those at the start of
+
+250
+00:19:01,550 --> 00:19:09,240
+this unit and whereas photons had. To generate
+
+251
+00:19:09,240 --> 00:19:15,920
+energy levels for. Each sets of vector Numenta.
+
+252
+00:19:17,390 --> 00:19:21,700
+That corresponds to polarizations fermions is
+
+253
+00:19:21,710 --> 00:19:26,660
+typical for males have a similar degeneracy. So
+
+254
+00:19:26,660 --> 00:19:32,510
+for any fixed millennial vector, there are two
+
+255
+00:19:32,970 --> 00:19:35,780
+degenerate energy levels with the same energy, a
+
+256
+00:19:35,790 --> 00:19:38,550
+different by a quantum property that is called
+
+257
+00:19:38,870 --> 00:19:43,700
+spin rather than the two hybridization states. And
+
+258
+00:19:43,700 --> 00:19:50,630
+we have four photons. And spin is. Related to
+
+259
+00:19:50,640 --> 00:19:52,820
+angular momentum, but it's potentially misleading
+
+260
+00:19:52,820 --> 00:19:55,700
+terminology because we shouldn't picture these
+
+261
+00:19:55,700 --> 00:19:59,840
+four year olds as actually. It's an intrinsic
+
+262
+00:19:59,840 --> 00:20:00,440
+property.
+
+263
+00:20:03,380 --> 00:20:07,870
+That they possess where? Particles such as
+
+264
+00:20:07,870 --> 00:20:11,890
+electrons exist in one of the two states either
+
+265
+00:20:11,890 --> 00:20:16,240
+spin or spin down with the same level as the
+
+266
+00:20:16,240 --> 00:20:19,810
+corresponding to the same energy in the state
+
+267
+00:20:19,990 --> 00:20:22,570
+energy levels. This is the same spin that showed
+
+268
+00:20:22,570 --> 00:20:25,810
+up in the spin statistics theorem we mentioned in
+
+269
+00:20:25,810 --> 00:20:31,530
+introducing photons and fermions. And I think
+
+270
+00:20:31,540 --> 00:20:34,720
+he'll say no more about that now what we can
+
+271
+00:20:34,960 --> 00:20:38,860
+discuss it further, if there is interest, just
+
+272
+00:20:38,860 --> 00:20:41,590
+like the organization that's going to suffice to
+
+273
+00:20:41,590 --> 00:20:45,820
+take this as input, that all of the energy levels
+
+274
+00:20:46,630 --> 00:20:51,950
+with. These novelistic energies come in, spin up,
+
+275
+00:20:51,980 --> 00:20:56,270
+spin down the parents, and for typical fermions of
+
+276
+00:20:56,270 --> 00:21:01,790
+those two distinct values for the spin. So all we
+
+277
+00:21:01,790 --> 00:21:08,260
+need to do. To get under way is insert these
+
+278
+00:21:08,260 --> 00:21:11,690
+energies into the great economic potential for
+
+279
+00:21:11,980 --> 00:21:16,030
+seven, which is written down here.
+
+280
+00:21:18,050 --> 00:21:22,910
+And that overall factor of two from the two spin
+
+281
+00:21:22,910 --> 00:21:27,650
+states and then the launch of one plus the
+
+282
+00:21:27,650 --> 00:21:31,100
+exponential of a larger expression that now
+
+283
+00:21:31,100 --> 00:21:36,730
+depends on. The magnitude of the incident led to a
+
+284
+00:21:36,750 --> 00:21:40,730
+case squared with the usual factors that are
+
+285
+00:21:40,830 --> 00:21:44,340
+critical mass and elsewhere, all divided by the
+
+286
+00:21:44,370 --> 00:21:45,050
+temperature.
+
+287
+00:21:47,150 --> 00:21:47,630
+James.
+
+288
+00:21:49,830 --> 00:21:52,740
+Put in that form of temperature, rather than being
+
+289
+00:21:53,280 --> 00:21:59,250
+beat up to remind you that this is the. Sort of
+
+290
+00:21:59,250 --> 00:22:02,340
+expressions we came up with in terms of the
+
+291
+00:22:02,640 --> 00:22:05,610
+different wavelengths that we were considering,
+
+292
+00:22:05,970 --> 00:22:09,600
+the classical ideal gases, and for the difference
+
+293
+00:22:09,600 --> 00:22:12,800
+now being that we have. Some or all of the
+
+294
+00:22:12,800 --> 00:22:16,520
+intricacies of the logarithm of this factor,
+
+295
+00:22:17,330 --> 00:22:20,780
+rather than having to take a classical approach,
+
+296
+00:22:21,380 --> 00:22:25,010
+consider back then of analyzing the single
+
+297
+00:22:25,010 --> 00:22:29,970
+particle production function and then. Trying to
+
+298
+00:22:31,110 --> 00:22:34,230
+build a gas, many particles based on that.
+
+299
+00:22:37,670 --> 00:22:41,000
+We are going to proceed in the same way we did
+
+300
+00:22:41,000 --> 00:22:44,480
+with the time approximate this complicated sum
+
+301
+00:22:44,480 --> 00:22:50,970
+over three vector memento by. Approximating that
+
+302
+00:22:50,980 --> 00:22:55,540
+some over integers by integrals over us real
+
+303
+00:22:55,540 --> 00:22:58,630
+numbers, something that we can justify at least
+
+304
+00:22:58,630 --> 00:23:02,620
+when the gas is in a large volume compared to.
+
+305
+00:23:03,740 --> 00:23:08,620
+It's. The other factors that show up in this
+
+306
+00:23:08,620 --> 00:23:12,520
+energy, in particular, each bar is a very small
+
+307
+00:23:12,520 --> 00:23:17,680
+number and then that gives us instead of something
+
+308
+00:23:17,680 --> 00:23:24,050
+over it, why is it? We can integrate over a the
+
+309
+00:23:24,060 --> 00:23:29,130
+parameters that show up in the continuous energy.
+
+310
+00:23:31,460 --> 00:23:36,530
+We can convert to spiritual coordinates as the.
+
+311
+00:23:38,020 --> 00:23:40,960
+Factor being integrated, so the grant here depends
+
+312
+00:23:40,960 --> 00:23:46,690
+only on the magnitude of these momentum vectors.
+
+313
+00:23:48,150 --> 00:23:54,900
+So the anger and the just pull out the same solid
+
+314
+00:23:54,900 --> 00:23:58,950
+angle corresponding to the positive content of the
+
+315
+00:23:58,950 --> 00:24:04,260
+sphere. So one eighth of the sphere, the solid
+
+316
+00:24:04,260 --> 00:24:09,770
+angle for PI will use a factor of PI has. So the
+
+317
+00:24:09,770 --> 00:24:14,150
+overall expression for the economic potential for
+
+318
+00:24:14,150 --> 00:24:15,950
+this non militaristic firm, Yungas.
+
+319
+00:24:18,780 --> 00:24:22,200
+Reduce this to a trickle just over the magnitude
+
+320
+00:24:22,800 --> 00:24:26,680
+of the momentum. Of this expression, the board of
+
+321
+00:24:26,680 --> 00:24:29,890
+one, plus the exponential of that.
+
+322
+00:24:32,050 --> 00:24:35,920
+Negative data on this view all divided by the
+
+323
+00:24:36,070 --> 00:24:36,760
+temperature.
+
+324
+00:24:43,210 --> 00:24:43,690
+And.
+
+325
+00:24:46,240 --> 00:24:49,090
+We can simplify this sort of expression by
+
+326
+00:24:49,600 --> 00:24:52,570
+changing variables much in the way that we did to
+
+327
+00:24:53,410 --> 00:24:55,360
+convert the full time gas integration to
+
+328
+00:24:55,400 --> 00:24:59,920
+integration over the total frequencies that showed
+
+329
+00:24:59,920 --> 00:25:03,040
+up linearly and the energy we now want to.
+
+330
+00:25:04,730 --> 00:25:10,070
+Integrate over the similar dependence on the phone
+
+331
+00:25:10,160 --> 00:25:15,110
+you call the administration variable, that now
+
+332
+00:25:15,290 --> 00:25:19,070
+depends quite radically on the mentality's
+
+333
+00:25:19,070 --> 00:25:24,920
+particles. So if we invert this relation between.
+
+334
+00:25:27,040 --> 00:25:31,960
+Momentum and energy and the variables we want to
+
+335
+00:25:31,960 --> 00:25:37,230
+work with are going to be. The cat, which is.
+
+336
+00:25:38,180 --> 00:25:42,060
+Factor of the square root of L squared is just 12
+
+337
+00:25:42,890 --> 00:25:47,630
+square root, divided by high times, Planck's
+
+338
+00:25:47,630 --> 00:25:52,530
+constant and then. Another square root of two
+
+339
+00:25:52,530 --> 00:25:58,020
+times the energy. This is what we want to replace.
+
+340
+00:25:59,420 --> 00:26:05,360
+The factors of Khap Square to show up in the
+
+341
+00:26:05,360 --> 00:26:10,580
+center for the Dark had itself is then the
+
+342
+00:26:10,580 --> 00:26:13,610
+derivative of the square root of the energy which
+
+343
+00:26:14,690 --> 00:26:19,770
+brings down. A factor of two that cancels out half
+
+344
+00:26:19,770 --> 00:26:24,420
+of that square root to factor in the numerator and
+
+345
+00:26:25,620 --> 00:26:28,950
+pay for counseling comes along for the ride and
+
+346
+00:26:28,950 --> 00:26:32,670
+then e to the power one half if we reduce that
+
+347
+00:26:32,670 --> 00:26:33,120
+down.
+
+348
+00:26:35,160 --> 00:26:40,230
+By one factor of energy, it again cancels out half
+
+349
+00:26:40,230 --> 00:26:42,360
+of that square root of the numerator and left with
+
+350
+00:26:42,810 --> 00:26:46,890
+it one over square root in the denominator with
+
+351
+00:26:46,890 --> 00:26:50,730
+the differential factor long. So putting all of
+
+352
+00:26:50,730 --> 00:26:51,330
+this in.
+
+353
+00:26:54,390 --> 00:27:02,570
+We have negative TV times. Three powers of this
+
+354
+00:27:02,620 --> 00:27:08,260
+council prefecture them over age. So.
+
+355
+00:27:11,280 --> 00:27:17,410
+Scrappiness, Altuve. The three have spoken of MICU.
+
+356
+00:27:18,610 --> 00:27:19,800
+Each party room.
+
+357
+00:27:22,310 --> 00:27:24,830
+The limits of integration stay the same, the
+
+358
+00:27:24,830 --> 00:27:28,550
+energy vanishes when much of vanishes, diverges
+
+359
+00:27:28,580 --> 00:27:36,260
+with averages. We have over all the roots to the
+
+360
+00:27:36,890 --> 00:27:43,740
+times that need to be squared has squared and in
+
+361
+00:27:43,940 --> 00:27:49,070
+the logarithmic factor, which is much simpler now
+
+362
+00:27:49,070 --> 00:27:52,160
+that this combination.
+
+363
+00:27:54,520 --> 00:27:58,850
+Quantities is is just the ratio of energy and
+
+364
+00:27:58,870 --> 00:28:06,270
+temperature, so it's back to. So that. Looks
+
+365
+00:28:06,270 --> 00:28:10,020
+fairly familiar energy minus chemical potential
+
+366
+00:28:10,470 --> 00:28:15,270
+divided by temperature. Now the energy is the
+
+367
+00:28:15,540 --> 00:28:19,440
+integration variable we are integrating over. We
+
+368
+00:28:19,440 --> 00:28:27,680
+can simplify. This result. I did find that a huge
+
+369
+00:28:27,680 --> 00:28:34,370
+factor is the volume working in. So pulling out. A
+
+370
+00:28:34,370 --> 00:28:39,020
+square root to factor. The difference between
+
+371
+00:28:39,230 --> 00:28:46,290
+those two. So a negative route to this square root
+
+372
+00:28:46,990 --> 00:28:51,670
+cubed. We have the volume, we have a temperature,
+
+373
+00:28:52,740 --> 00:28:57,790
+the high humidity and huge variety of factors come
+
+374
+00:28:57,790 --> 00:29:02,950
+along for the ride. Then there is just the water,
+
+375
+00:29:02,980 --> 00:29:03,250
+the.
+
+376
+00:29:06,560 --> 00:29:11,670
+One plus the exponential, the sticks and the
+
+377
+00:29:11,680 --> 00:29:16,100
+Google factor of the square root of the energy
+
+378
+00:29:18,620 --> 00:29:25,640
+left over from this. Ratio of energy terms in case
+
+379
+00:29:25,640 --> 00:29:29,360
+squared, divided by the room to the differential
+
+380
+00:29:29,360 --> 00:29:29,950
+factor.
+
+381
+00:29:32,450 --> 00:29:36,560
+So the overall proportionality to that building in
+
+382
+00:29:36,560 --> 00:29:41,600
+times temperature is the same as the photon gas.
+
+383
+00:29:42,810 --> 00:29:47,970
+And there are obvious differences, both in the
+
+384
+00:29:48,900 --> 00:29:52,020
+relative sign that shows up in the logarithm as
+
+385
+00:29:52,020 --> 00:29:55,830
+well as the overall square root energy factor
+
+386
+00:29:55,830 --> 00:29:58,050
+coming to the normal mystic nature of these
+
+387
+00:29:58,050 --> 00:30:04,360
+particles. And we can proceed now to take the
+
+388
+00:30:05,290 --> 00:30:10,060
+usual derivatives of the economic potential and
+
+389
+00:30:10,060 --> 00:30:13,960
+then evaluate this integral after doing so.
+
+390
+00:30:17,090 --> 00:30:21,300
+Which is the same approach that we took from the
+
+391
+00:30:21,370 --> 00:30:26,880
+photographs with different factors. Different
+
+392
+00:30:26,880 --> 00:30:31,300
+expressions show in the. Objects being integrated
+
+393
+00:30:31,310 --> 00:30:31,700
+over.
+
+394
+00:30:34,010 --> 00:30:39,330
+So our target for. This from Yungas, much as it
+
+395
+00:30:39,330 --> 00:30:42,360
+was for the folks on the West, will be the
+
+396
+00:30:42,360 --> 00:30:46,050
+equation of the state relating all of the large
+
+397
+00:30:46,050 --> 00:30:48,810
+scale thermodynamic properties that we want to
+
+398
+00:30:48,810 --> 00:30:49,380
+drive.
+
+399
+00:30:51,850 --> 00:30:55,350
+And what big change that we can see in this
+
+400
+00:30:55,350 --> 00:30:58,360
+expression here compared to the full time gas, is
+
+401
+00:30:58,440 --> 00:31:04,560
+that we need to retain the chemical potential. We
+
+402
+00:31:04,560 --> 00:31:11,730
+can argue that it is negligible in the case of non
+
+403
+00:31:11,730 --> 00:31:16,260
+relativistic fermions that are not necessarily
+
+404
+00:31:16,260 --> 00:31:19,920
+easy to create. And so in contrast to photons.
+
+405
+00:31:22,850 --> 00:31:26,960
+But we will be able to simplify our calculations
+
+406
+00:31:27,290 --> 00:31:30,640
+in a different way if we focus on the low
+
+407
+00:31:30,660 --> 00:31:34,010
+temperature regime, which in any event is the
+
+408
+00:31:34,040 --> 00:31:38,610
+interesting regime. Or we can expect different
+
+409
+00:31:38,610 --> 00:31:42,450
+behavior compared to the classical dresses we've
+
+410
+00:31:42,900 --> 00:31:49,750
+already analyzed. Is at high temperatures that the
+
+411
+00:31:49,900 --> 00:31:55,120
+quantum physics reduces to classical actual
+
+412
+00:31:55,470 --> 00:32:00,960
+statistics. And we can expect is still an to
+
+413
+00:32:00,960 --> 00:32:05,300
+reduce to classical thermodynamics of non
+
+414
+00:32:05,580 --> 00:32:08,910
+relativistic particles without having to specify
+
+415
+00:32:08,910 --> 00:32:15,360
+any quantum behavior or dependence on the nature
+
+416
+00:32:15,810 --> 00:32:17,640
+of these particles, asteroids.
+
+417
+00:32:20,920 --> 00:32:21,460
+So.
+
+418
+00:32:24,200 --> 00:32:27,960
+As a first step towards this equation, the
+
+419
+00:32:28,010 --> 00:32:32,270
+statement illustrates the simplification that we
+
+420
+00:32:32,270 --> 00:32:34,460
+can get by working at low temperatures.
+
+421
+00:32:37,010 --> 00:32:39,920
+Rather than talking about the spectrum of the
+
+422
+00:32:39,920 --> 00:32:43,310
+system, the look first at the average particle
+
+423
+00:32:43,310 --> 00:32:47,450
+number given by the negative derivative of the
+
+424
+00:32:47,450 --> 00:32:49,400
+Grand Canal, the full potential with respect to
+
+425
+00:32:49,920 --> 00:32:53,070
+chemical potential. That's the relation between
+
+426
+00:32:53,070 --> 00:32:55,030
+the lived in Unit six.
+
+427
+00:32:57,750 --> 00:33:00,030
+And even though we're not looking at the spectrum,
+
+428
+00:33:00,210 --> 00:33:00,900
+we'll still.
+
+429
+00:33:03,030 --> 00:33:06,340
+Be motivated by some analogy to that to express
+
+430
+00:33:07,270 --> 00:33:09,580
+the average particle density so the number of
+
+431
+00:33:09,580 --> 00:33:12,910
+particles on average per unit volume as an
+
+432
+00:33:12,910 --> 00:33:18,760
+integral over the energies of the individual
+
+433
+00:33:19,330 --> 00:33:22,570
+fermions in this gas. So we'll be interested in
+
+434
+00:33:23,440 --> 00:33:28,970
+the integrated. The function that shows up in the
+
+435
+00:33:28,970 --> 00:33:33,490
+integral that would have. Left hanging around to
+
+436
+00:33:33,640 --> 00:33:38,490
+carry out some of this work. She goes by the name
+
+437
+00:33:38,490 --> 00:33:44,130
+of the family function named after the same Enrico
+
+438
+00:33:44,130 --> 00:33:50,420
+Fermi as Fairmont's themselves. There is some
+
+439
+00:33:50,420 --> 00:33:55,910
+contrast to that spectrum caps, the overall
+
+440
+00:33:55,910 --> 00:33:59,510
+factors that you consider to include a place where
+
+441
+00:34:00,650 --> 00:34:03,230
+each bar cube separates.
+
+442
+00:34:06,170 --> 00:34:10,760
+Well. The family function, as well as that split
+
+443
+00:34:10,970 --> 00:34:14,810
+energy, we are here and I noticed that I did have
+
+444
+00:34:14,810 --> 00:34:19,950
+a typo in this little calculation where. Puyehue
+
+445
+00:34:19,970 --> 00:34:24,170
+to the denominator cancels partly with the overall
+
+446
+00:34:24,170 --> 00:34:28,520
+pie coming from the salad angle and we integrate
+
+447
+00:34:28,520 --> 00:34:32,450
+over in momentum space so there's always pie
+
+448
+00:34:32,450 --> 00:34:38,330
+squared times each barbecue in the denominator of
+
+449
+00:34:38,330 --> 00:34:39,680
+the grand finale potential.
+
+450
+00:34:42,550 --> 00:34:43,150
+So.
+
+451
+00:34:47,010 --> 00:34:51,060
+If we insert that result for economic potential
+
+452
+00:34:51,060 --> 00:34:55,710
+that we just. Derived, we can extract the Fairbury
+
+453
+00:34:55,710 --> 00:34:56,220
+function.
+
+454
+00:34:58,320 --> 00:35:04,990
+So pulling out. Fear that negative grew to include
+
+455
+00:35:05,000 --> 00:35:07,340
+both high school graduates, particularly the
+
+456
+00:35:07,340 --> 00:35:12,050
+negatives, cancel, get that positive. To include.
+
+457
+00:35:14,250 --> 00:35:18,330
+Overpriced beach bar cubed, the factor of volume
+
+458
+00:35:18,360 --> 00:35:24,030
+we divide out, so only a tower of T remains and
+
+459
+00:35:24,030 --> 00:35:27,030
+then we're integrating over the energies of the
+
+460
+00:35:27,030 --> 00:35:29,880
+derivative with respect to chemical potential. But
+
+461
+00:35:29,880 --> 00:35:37,300
+this log of one plus. Exponential factor. Times
+
+462
+00:35:37,310 --> 00:35:42,520
+the additional square root of energy. So taking
+
+463
+00:35:42,530 --> 00:35:43,730
+the derivative.
+
+464
+00:35:47,160 --> 00:35:50,430
+Of that board will bring down, first of all, the
+
+465
+00:35:51,150 --> 00:35:55,710
+argument of going into the denominator so much
+
+466
+00:35:55,710 --> 00:35:58,230
+less due to the minus beta,
+
+467
+00:36:00,630 --> 00:36:05,270
+minus the. And then pulling through the chain to
+
+468
+00:36:06,090 --> 00:36:13,650
+pick up the data. My view, the derivative of
+
+469
+00:36:13,890 --> 00:36:16,980
+either the plus B, the Times view with respect to
+
+470
+00:36:16,980 --> 00:36:19,620
+the two, is the initial factor of data. The
+
+471
+00:36:19,620 --> 00:36:23,670
+inverse temperature cancels out the direct
+
+472
+00:36:23,670 --> 00:36:27,960
+temperature to be had. Outside of the integral.
+
+473
+00:36:30,010 --> 00:36:35,210
+Seeking independence at the end. Which we can.
+
+474
+00:36:37,640 --> 00:36:42,790
+Ben. Clean up slightly by dividing through the
+
+475
+00:36:42,800 --> 00:36:46,350
+multiplying by the ratio of expenditures
+
+476
+00:36:48,550 --> 00:36:51,350
+in the plus meter in this new.
+
+477
+00:36:55,760 --> 00:36:58,580
+Squared each Teichberg cube.
+
+478
+00:37:01,200 --> 00:37:06,930
+So we end up then with first one. No need to be
+
+479
+00:37:06,930 --> 00:37:16,320
+the. E minus two plus one times e t e. Which if we
+
+480
+00:37:16,560 --> 00:37:20,270
+compare that to the equation 99, defining the
+
+481
+00:37:20,280 --> 00:37:24,000
+family function is the integration of the average
+
+482
+00:37:24,000 --> 00:37:25,240
+particle density.
+
+483
+00:37:27,440 --> 00:37:32,390
+With respect to energy, we can read off. The
+
+484
+00:37:32,390 --> 00:37:35,270
+family function is exactly.
+
+485
+00:37:37,500 --> 00:37:44,690
+This one over. Exponential factor. Positive. Even
+
+486
+00:37:44,720 --> 00:37:46,940
+as New Yorkers have the juror plus one,
+
+487
+00:37:50,420 --> 00:37:54,200
+which. As promised is.
+
+488
+00:37:56,320 --> 00:38:00,130
+Very similar to the average occupation number for.
+
+489
+00:38:01,100 --> 00:38:03,620
+The energy level with this energy that we are
+
+490
+00:38:03,620 --> 00:38:04,580
+intervening over.
+
+491
+00:38:08,490 --> 00:38:11,460
+If we look back to the calculation we did for
+
+492
+00:38:11,940 --> 00:38:14,970
+demographics, logistics in general and the
+
+493
+00:38:14,970 --> 00:38:19,380
+previous units. So what is way of organizing the
+
+494
+00:38:19,380 --> 00:38:26,130
+calculations doing is. Relating the average number
+
+495
+00:38:26,130 --> 00:38:30,700
+of particles that we have given the volume to. The
+
+496
+00:38:30,700 --> 00:38:35,590
+energy levels with a given infinitesimal range of
+
+497
+00:38:35,590 --> 00:38:36,280
+energies.
+
+498
+00:38:40,150 --> 00:38:44,450
+That's. Comes in with the average occupation
+
+499
+00:38:44,450 --> 00:38:46,510
+number as a function of the energy, not so
+
+500
+00:38:46,520 --> 00:38:50,010
+surprisingly, but then an additional factor of a
+
+501
+00:38:50,030 --> 00:38:54,020
+square root of energy. And that integration, which
+
+502
+00:38:54,020 --> 00:38:57,740
+is something that people need to look at a bit
+
+503
+00:38:57,740 --> 00:39:02,270
+more closely as we go forward. First, I promised
+
+504
+00:39:02,270 --> 00:39:06,050
+some simplification for considering this average
+
+505
+00:39:06,050 --> 00:39:08,870
+protocol, no density at low temperatures, which we
+
+506
+00:39:08,870 --> 00:39:17,030
+are now in a position to realize by. Looking a bit
+
+507
+00:39:17,090 --> 00:39:20,780
+more closely at the Fairbury function, we just
+
+508
+00:39:20,780 --> 00:39:24,110
+arrived, and I'm particularly writing it in terms
+
+509
+00:39:24,110 --> 00:39:28,280
+of dimensionless ratios of this energy to the
+
+510
+00:39:28,280 --> 00:39:31,740
+chemical potential and the ratio of the
+
+511
+00:39:31,760 --> 00:39:34,520
+temperature of the chemical potential. So
+
+512
+00:39:35,630 --> 00:39:40,530
+replacing Beta with one Oberti. The overall
+
+513
+00:39:40,530 --> 00:39:43,470
+impression that we have one divided by this
+
+514
+00:39:43,470 --> 00:39:48,580
+exponential of E minus new over T plus one, if we
+
+515
+00:39:48,600 --> 00:39:52,530
+pull out the ratio of chemical potential over
+
+516
+00:39:52,530 --> 00:39:54,300
+temperature for both of those terms, is in the
+
+517
+00:39:54,300 --> 00:39:59,050
+exponential. We can break it up into a product of
+
+518
+00:39:59,050 --> 00:40:04,920
+two factors. And the exponential of the product is
+
+519
+00:40:05,580 --> 00:40:09,810
+exponential itself, raised to the power of those
+
+520
+00:40:09,810 --> 00:40:15,040
+products, so we end up with an exponential of. The
+
+521
+00:40:15,040 --> 00:40:19,270
+ratio of energy to potential minus one. All that
+
+522
+00:40:19,270 --> 00:40:22,980
+raised to the power of the ratio of chemical
+
+523
+00:40:22,990 --> 00:40:29,900
+essential to the temperature. And this is showing
+
+524
+00:40:29,900 --> 00:40:32,660
+us two main things, one of which depends on the
+
+525
+00:40:32,660 --> 00:40:36,350
+chemical essential temperature can be either
+
+526
+00:40:36,350 --> 00:40:38,840
+positive or negative, the other than depends on
+
+527
+00:40:39,440 --> 00:40:41,570
+the temperature for a fixed value of the chemical
+
+528
+00:40:41,570 --> 00:40:47,130
+potential. First of all, whenever the energy is
+
+529
+00:40:47,310 --> 00:40:50,570
+larger than the chemical potential, the argument
+
+530
+00:40:50,580 --> 00:40:53,400
+of this exponential is going to be positive. So
+
+531
+00:40:53,400 --> 00:40:57,030
+the explosion itself will be larger than one being
+
+532
+00:40:57,030 --> 00:41:03,060
+raised to some power that causes it to increase.
+
+533
+00:41:03,090 --> 00:41:07,680
+So an object to the one used to power, it's larger
+
+534
+00:41:07,680 --> 00:41:11,520
+still, which is the opposite of what happens if
+
+535
+00:41:11,520 --> 00:41:14,880
+the energy is less than the chemical potential.
+
+536
+00:41:15,120 --> 00:41:18,090
+This ratio is less than one. The arguments of the
+
+537
+00:41:18,090 --> 00:41:20,310
+exponential is negative and the expansion itself
+
+538
+00:41:20,310 --> 00:41:23,070
+is less than one, and then gets suppressed and
+
+539
+00:41:23,070 --> 00:41:26,940
+pushed closer to zero by this power that's being
+
+540
+00:41:26,940 --> 00:41:30,990
+raised to give by the ratio of chemical potential
+
+541
+00:41:30,990 --> 00:41:34,650
+to temperature and the larger the temperature.
+
+542
+00:41:37,020 --> 00:41:40,330
+The more suppression or enhancements this
+
+543
+00:41:40,350 --> 00:41:46,750
+exponential factor has. And depending on. Which
+
+544
+00:41:46,750 --> 00:41:54,910
+side of this points equals new reform also? Remark.
+
+545
+00:41:54,960 --> 00:42:00,810
+That's exactly when equals me and the exponential
+
+546
+00:42:00,810 --> 00:42:05,570
+reduces to unity based in the power of the family
+
+547
+00:42:05,580 --> 00:42:11,940
+function is exactly what has. One over one plus
+
+548
+00:42:11,940 --> 00:42:18,180
+one. What is the threshold where? The behavior of
+
+549
+00:42:18,180 --> 00:42:20,340
+the family function changes.
+
+550
+00:42:23,200 --> 00:42:26,920
+It's probably easiest to see by putting that
+
+551
+00:42:26,930 --> 00:42:27,840
+fairly function.
+
+552
+00:42:29,890 --> 00:42:33,370
+Versus this dimensionless ratio of energy to
+
+553
+00:42:33,370 --> 00:42:38,800
+chemical potential for. Various ratios of that
+
+554
+00:42:38,880 --> 00:42:45,240
+temperature to chemical potential. So the four
+
+555
+00:42:45,240 --> 00:42:49,380
+different lines here are corresponding to four
+
+556
+00:42:49,380 --> 00:42:55,940
+different values. Appreciate you over team that
+
+557
+00:42:56,190 --> 00:43:01,640
+showed up as the. Power hitting the exponential
+
+558
+00:43:01,640 --> 00:43:07,940
+factor in nominator of the function. So you over t
+
+559
+00:43:08,540 --> 00:43:14,270
+is going to be one to ten or one hundred for the
+
+560
+00:43:14,270 --> 00:43:18,720
+red and green, Blue and Black Crowes. That
+
+561
+00:43:19,590 --> 00:43:24,480
+Stoodley approach to behavior that we just
+
+562
+00:43:24,480 --> 00:43:27,420
+described by looking at the form of this motion
+
+563
+00:43:27,420 --> 00:43:27,990
+itself.
+
+564
+00:43:30,210 --> 00:43:33,180
+Now, whatever the energy is less than the chemical
+
+565
+00:43:33,210 --> 00:43:36,630
+potential, that's exponential factor is suppressed
+
+566
+00:43:36,900 --> 00:43:39,740
+and all that is left of the denominator is the
+
+567
+00:43:39,750 --> 00:43:44,470
+plus one. The family functions and approaches one
+
+568
+00:43:44,470 --> 00:43:47,290
+over one, which is one the maximum occupation
+
+569
+00:43:47,290 --> 00:43:51,040
+number that we can have for four months, the
+
+570
+00:43:51,040 --> 00:43:53,980
+opposite happens whenever the enemy is larger than
+
+571
+00:43:53,980 --> 00:43:56,630
+the chemical potential. The exponential factor
+
+572
+00:43:56,650 --> 00:44:00,100
+that is more the one who has this power increases
+
+573
+00:44:00,100 --> 00:44:03,010
+from one to two to ten to one hundred. That's
+
+574
+00:44:03,340 --> 00:44:07,960
+exponential. More than one gets larger and larger
+
+575
+00:44:07,960 --> 00:44:12,670
+and larger. So it's exponential suppression of the
+
+576
+00:44:13,120 --> 00:44:17,480
+function as a whole, driving it to zero. The other
+
+577
+00:44:17,480 --> 00:44:19,660
+element of an occupational.
+
+578
+00:44:21,750 --> 00:44:29,020
+So the. He here. Is that not only are we
+
+579
+00:44:29,530 --> 00:44:33,460
+interpolating between these two limited cases
+
+580
+00:44:34,030 --> 00:44:39,760
+where. They're all energy levels are filled with
+
+581
+00:44:39,760 --> 00:44:42,540
+occupation, number one, or empty occupation of
+
+582
+00:44:42,550 --> 00:44:46,810
+zero, and interpellation happens faster and faster
+
+583
+00:44:46,850 --> 00:44:51,520
+as the temperature gets lower with respect to the
+
+584
+00:44:51,520 --> 00:44:54,880
+kind of global financial ratio of new poverty
+
+585
+00:44:55,210 --> 00:45:00,530
+becomes larger. And in the limits of. Low
+
+586
+00:45:00,530 --> 00:45:03,800
+temperatures where we're hitting that exponential
+
+587
+00:45:03,800 --> 00:45:08,720
+factor is much larger than one. We can approximate.
+
+588
+00:45:10,590 --> 00:45:13,860
+The security function as a whole is simply a step
+
+589
+00:45:13,860 --> 00:45:19,540
+function that changes. Essentially immediately
+
+590
+00:45:19,870 --> 00:45:24,530
+from being one for low energies to being zero for
+
+591
+00:45:24,530 --> 00:45:27,220
+all high energies and.
+
+592
+00:45:30,820 --> 00:45:33,490
+Before going on to apply that, just to wrap up
+
+593
+00:45:33,490 --> 00:45:37,750
+today, I should mention something that may already
+
+594
+00:45:37,750 --> 00:45:44,140
+have seen. And all of these all of the plots here,
+
+595
+00:45:44,170 --> 00:45:46,940
+the discussions with the treating the chemical
+
+596
+00:45:46,970 --> 00:45:51,420
+potentially as a positive under. So that we look
+
+597
+00:45:51,420 --> 00:45:55,620
+at energy is divided by you that are created in
+
+598
+00:45:55,620 --> 00:45:58,890
+zero and also looking at temperatures that are
+
+599
+00:45:58,890 --> 00:46:04,080
+greater than zero, and that is a contrast with the
+
+600
+00:46:05,220 --> 00:46:08,040
+classical limits of large negative chemical
+
+601
+00:46:08,040 --> 00:46:11,760
+potential we discussed earlier. So next Monday, we
+
+602
+00:46:11,760 --> 00:46:16,950
+will justify this self treatment of the kind of
+
+603
+00:46:16,950 --> 00:46:21,350
+global financial as. Be positive, no show why that
+
+604
+00:46:21,350 --> 00:46:26,030
+is actually required for now, we will just roll
+
+605
+00:46:26,030 --> 00:46:29,760
+with this and see what happens when we fly again,
+
+606
+00:46:29,930 --> 00:46:32,300
+this low temperature approximation.
+
+607
+00:46:34,390 --> 00:46:40,700
+For the family function as a step function in the
+
+608
+00:46:40,720 --> 00:46:43,870
+result that we've derived for the average, the
+
+609
+00:46:43,960 --> 00:46:49,510
+density just a few minutes ago, where now?
+
+610
+00:46:55,020 --> 00:47:01,200
+We have from energies of zero up to new.
+
+611
+00:47:03,390 --> 00:47:06,660
+This security function is one to pick up the rest
+
+612
+00:47:06,660 --> 00:47:13,050
+of the integrated team and then for. And the
+
+613
+00:47:13,050 --> 00:47:15,900
+energy is larger than you at every function at
+
+614
+00:47:15,900 --> 00:47:19,560
+zero, the integral vanishes and we just have to
+
+615
+00:47:19,560 --> 00:47:22,710
+integrate from zero to the chemical potential
+
+616
+00:47:22,710 --> 00:47:30,330
+itself. The integral of Scooter Libby is a simple
+
+617
+00:47:30,330 --> 00:47:37,640
+one to compute. Council directors on. For the ride
+
+618
+00:47:38,990 --> 00:47:42,540
+and we end up with E to the power three halves,
+
+619
+00:47:43,860 --> 00:47:48,560
+raising the power of that argument by one and then
+
+620
+00:47:49,160 --> 00:47:52,400
+one over three heads, which is the transit's two
+
+621
+00:47:52,400 --> 00:47:55,840
+thirds evaluated at zero and the.
+
+622
+00:47:57,960 --> 00:48:02,870
+Which is below zero for the three 1/2 hour is zero.
+
+623
+00:48:04,060 --> 00:48:08,260
+And you, the three halves gives us a another.
+
+624
+00:48:10,690 --> 00:48:13,930
+However, three heads that we can combine with that
+
+625
+00:48:13,930 --> 00:48:18,100
+to an. So we end up with two and hundreds of
+
+626
+00:48:18,110 --> 00:48:20,090
+chemical potential onto the three house.
+
+627
+00:48:22,710 --> 00:48:26,940
+Providing that that's too with the factor of two
+
+628
+00:48:26,940 --> 00:48:31,960
+thirds will be integral and then a three. I swear
+
+629
+00:48:31,960 --> 00:48:33,010
+to each barbecued.
+
+630
+00:48:36,060 --> 00:48:39,120
+As the full result for the average particle, no
+
+631
+00:48:39,570 --> 00:48:45,350
+density, we will make extensive and build on on
+
+632
+00:48:45,360 --> 00:48:45,860
+Monday.
+
+633
+00:48:48,150 --> 00:48:54,600
+For now. Unless there are questions about
+
+634
+00:48:56,850 --> 00:48:59,690
+what we've been doing with the knowledge Mr..
+
+635
+00:49:01,350 --> 00:49:04,160
+Gaffes or why?
+
+636
+00:49:16,170 --> 00:49:20,190
+You're going to go wrap up there for the lectures
+
+637
+00:49:20,190 --> 00:49:23,190
+this week and have office hours now if.
+
+638
+00:49:25,700 --> 00:49:29,360
+The topics you want to discuss individually, so
+
+639
+00:49:29,700 --> 00:49:32,130
+hopefully I'll see you this afternoon, I think,
+
+640
+00:49:32,130 --> 00:49:38,110
+for some consideration of heat capacities, more
+
+641
+00:49:38,160 --> 00:49:40,980
+comparisons to experimental data.
