@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 8}
-\renewcommand{\moddate}{Last modified 24 Mar.~2022}
+\renewcommand{\moddate}{Last modified 29 Mar.~2022}
 \setcounter{section}{8}
 \setcounter{subsection}{0}
 \phantomsection
@@ -476,7 +476,7 @@ Applying \eq{eq:Fermi_energy} relating the chemical potential to the average par
 \end{equation*}
 This is all we need to determine the pressure, which we can relate to the energy density, the Fermi energy $E_F = \mu$ and the particle number density:
 \begin{mdframed}
-  $\displaystyle P_{\text{f}} = -\pderiv{}{V} \left[\frac{3}{5} \left(\frac{\hbar^2}{2m}\right) \left(\frac{3\pi^2}{V}\right)^{2 / 3} \vev{N}_{\text{f}}^{5 / 3}\right] =  $ \\[100 pt]
+  $\displaystyle P_{\text{f}} = -\pderiv{}{V} \left[\frac{3}{5} \left(\frac{\hbar^2}{2m}\right) \left(\frac{3\pi^2}{V}\right)^{2 / 3} \vev{N}_{\text{f}}^{5 / 3}\right] = $ \\[100 pt]
 \end{mdframed}
 In particular, we can see that the pressure (like the energy) remains positive even as the temperature approaches absolute zero, with
 \begin{equation}
@@ -606,4 +606,119 @@ and just a new numerical factor of
 \begin{equation*}
   \frac{7\pi^4}{540\zeta(3)} = \frac{(7/8)\zeta(4)}{(3/4)\zeta(3)}. % TODO: Approximately 1.05...
 \end{equation*}
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\subsection{Supplement: Density of states \& Sommerfeld expansion}
+In \eq{eq:fermi_E_N} we found that the average internal energy of a non-relativistic fermion gas becomes independent of the temperature in the limit $T \to 0$.
+This means that its heat capacity,
+\begin{equation*}
+  c_v = \left. \pderiv{}{T} \vev{E} \right|_{N,V},
+\end{equation*}
+vanishes in this limit, which we could also see by considering the fluctuation--dissipation relation $c_v = \be^2 \vev{\left(E - \vev{E}\right)^2}$ with only a single micro-state. % TODO: Again module degeneracies...
+
+To derive the non-trivial heat capacity for a gas with a small but non-zero temperature, we need to move beyond approximating the Fermi function
+\begin{equation*}
+  F(E) = \frac{1}{e^{\be(E - \mu)} + 1}
+\end{equation*}
+as a step function, and return to the full \eq{eq:N_fermi} for the average particle number,
+\begin{equation}
+  \label{eq:number}
+  \vev{N}_{\text{f}} = V \frac{\sqrt{2m^3}}{\pi^2 \hbar^3} \int_0^{\infty} F(E) \sqrt{E} \; dE \equiv \int_0^{\infty} g(E) \; F(E) \; dE.
+\end{equation}
+Here we have defined the \textbf{density of states}
+\begin{equation*}
+  g(E) \equiv V \frac{\sqrt{2m^3}}{\pi^2 \hbar^3} \sqrt{E} \equiv g_0 \; \sqrt{E}
+\end{equation*}
+as the number of single-particle energy levels per unit energy.
+We can read \eq{eq:number} as saying that the total number of particles is given by integrating over the single-particle energy levels, $g(E)$, times the probability $F(E)$ that each of these energy levels is occupied.
+
+The figures below, from Schroeder's \textit{Introduction to Thermal Physics}, illustrate this integral in the case of $T = 0$ (left) and $T > 0$ (right).
+As we have already seen, when $T \to 0$ all energy levels with $E < E_F$ are occupied while all those with $E > E_F$ are unoccupied.
+With $T > 0$, there is an exponentially suppressed probability for some energy levels with $E > E_F$ to be occupied.
+Because the Fermi energy is set by the number of particles,
+\begin{equation*}
+  E_F = \frac{\hbar^2}{2m}\left(\frac{3\pi^2 \vev{N}_{\text{f}}}{V}\right)^{2 / 3},
+\end{equation*}
+having some of these particles occupy energy levels with $E > E_F$ requires that an equal number of energy levels with $E < E_F$ be unoccupied.
+
+\noindent\includegraphics[width=0.45\textwidth]{figs/unit08_zero.pdf}\hfill \includegraphics[width=0.45\textwidth]{figs/unit08_nonzero.pdf}
+
+Note that $E = \mu$ is the point where the Fermi function $F(E) = \frac{1}{2}$.
+We will see below that $\mu \leq E_F$, as shown in the right figure above, with equality when $T = 0$.
+
+In order to determine the particle number and internal energy, we need to evaluate the integrals
+\begin{align}
+  \vev{N}_{\text{f}} & = g_0 \int_0^{\infty} F(E) \sqrt{E} \; dE \qquad &
+  \vev{E}_{\text{f}} & = g_0 \int_0^{\infty} E \; F(E) \sqrt{E} \; dE
+\end{align}
+without approximating the Fermi function as a step function.
+For $T \ll E_F$, we can do this through a \textbf{Sommerfeld expansion}.
+Let's begin by considering the particle number.
+The first step in the Sommerfeld expansion is integrating by parts:
+\begin{mdframed}
+  $\displaystyle \int_0^{\infty} E^{1 / 2} \; F(E) \; dE = $ \\[120 pt]
+\end{mdframed}
+
+Changing variables to $x \equiv \be(E - \mu)$, you should find
+\begin{equation*}
+  \vev{N}_{\text{f}} = \frac{2}{3} g_0 \int_{-\be\mu}^{\infty} \frac{e^x}{\left(e^x + 1\right)^2} E^{3 / 2} \; dx.
+\end{equation*}
+This is not obviously simpler than the expression we started with, but has the benefit of being exponentially suppressed for \textit{both}
+\begin{align*}
+  x \gg 1  \qquad \Lra \qquad & \frac{e^x}{\left(e^x + 1\right)^2} \approx \frac{e^x}{e^{2x}} = \frac{1}{e^x} \\
+  x \ll -1 \qquad \Lra \qquad & \frac{e^x}{\left(e^x + 1\right)^2} \approx \frac{e^x}{1} = \frac{1}{e^{-x}}.
+\end{align*}
+The additional $E^{3 / 2}$ factor is far too mild to overcome this exponential suppression.
+In other words, non-negligible contributions to the integral as a whole come only from a region centered at $E = \mu$, which becomes narrower in $E$ as the temperature decreases (corresponding to larger $\be = 1 / T$).
+This is illustrated by the plot below, which shows the exponential suppression setting in when $|E - \mu|$ larger than a few times the temperature, and certainly for $|E - \mu| \gtrsim 5 / \be = 5T$. \\[-24 pt]
+\begin{center}\noindent\includegraphics[width=0.5\textwidth]{figs/unit08_Sommerfeld.pdf}\end{center} % WARNING: ADJUSTED SIZE BY HAND TO FILL REMAINDER OF PAGE
+
+These considerations justify two low-temperature approximations.
+First, recalling $\mu > 0$ at low temperatures, for large \be (say $\be\mu \gtrsim 10$) we are free to extend the lower limit of the integral to obtain a more convenient domain of integration,
+\begin{equation*}
+  \vev{N}_{\text{f}} = \frac{2}{3} g_0 \int_{-\be\mu}^{\infty} \frac{e^x}{\left(e^x + 1\right)^2} E^{3 / 2} \; dx \approx \frac{2}{3} g_0 \int_{-\infty}^{\infty} \frac{e^x}{\left(e^x + 1\right)^2} E^{3 / 2} \; dx.
+\end{equation*}
+Second, we can expand $E^{3 / 2}$ in a Taylor series around $E = \mu$, and truncate after the first few terms:
+\begin{align*}
+  E^{3 / 2} & \approx \mu^{3 / 2} + (E - \mu) \left. \pderiv{}{E} E^{3 / 2}\right|_{E = \mu} + \frac{1}{2} (E - \mu)^2 \left. \ppderiv{}{E} E^{3 / 2}\right|_{E = \mu} \\
+            & = \mu^{3 / 2} + \frac{3}{2} (E - \mu) \mu^{1 / 2} + \frac{3}{8} (E - \mu)^2 \mu^{-1 / 2} = \mu^{3 / 2} + \frac{3}{2} \frac{x \mu^{1 / 2}}{\be} + \frac{3}{8} \frac{x^2 \mu^{-1 / 2}}{\be^2}.
+\end{align*}
+
+Switching to work in terms of $T = 1 / \be$, the Sommerfeld expansion has given us a series of manageable integrals we can consider one by one:
+\begin{equation*}
+  \vev{N}_{\text{f}} \approx \frac{2}{3} g_0 \mu^{3 / 2} \Ibb_1 + g_0 T \mu^{1 / 2} \Ibb_2 + \frac{g_0 T^2}{4\mu^{1 / 2}} \Ibb_3.
+\end{equation*}
+\begin{mdframed}
+  $\displaystyle \Ibb_1 = \int_{-\infty}^{\infty} \frac{e^x}{\left(e^x + 1\right)^2} \; dx = $ \\[80 pt]
+  $\displaystyle \Ibb_2 = \int_{-\infty}^{\infty} \frac{x e^x}{\left(e^x + 1\right)^2} \; dx = $ \\[80 pt]
+  $\displaystyle \Ibb_3 = \int_{-\infty}^{\infty} \frac{x^2 e^x}{\left(e^x + 1\right)^2} \; dx = $ \\[110 pt] % WARNING: ADJUSTED SIZE BY HAND TO FILL REMAINDER OF PAGE
+\end{mdframed}
+Collecting the results, you should find
+\begin{equation*}
+  \vev{N}_{\text{f}} \approx \frac{2}{3} g_0 \mu^{3 / 2} + g_0 \frac{\pi^2 T^2}{12\mu^{1 / 2}}.
+\end{equation*}
+This becomes more interesting when we restore the explicit constant factors in $g_0$ from \eq{eq:number}, especially if we rearrange \eq{eq:Fermi_energy} to relate these to the Fermi energy $E_F$:
+\begin{mdframed}
+  $\displaystyle g_0 = V \frac{\sqrt{2m^3}}{\pi^2 \hbar^3}$ \\
+  $\displaystyle E_F = \frac{\hbar^2}{2m}\left(\frac{3\pi^2 \vev{N}_{\text{f}}}{V}\right)^{2 / 3}$ \\[120 pt]
+\end{mdframed}
+
+The result
+\begin{equation*}
+  \frac{\mu}{E_F} \approx \left[1 - \frac{\pi^2 T^2}{8 E_F^{3 / 2} \mu^{1 / 2}}\right]^{2 / 3}
+\end{equation*}
+can be simplified through one final low-temperature approximation.
+Because $T$ is small, just in the second term above we can set $E_F \approx \mu$ (the zero-temperature relation).
+Then
+\begin{equation*}
+  \frac{\mu}{E_F} \approx 1 - \frac{\pi^2 T^2}{12 \mu^2},
+\end{equation*}
+which confirms our earlier claim $\mu \leq E_F$, and reveals that the leading correction to the zero-temperature relation is quadratic in $T$.
+
+\TODO{...}
+
+
 % ------------------------------------------------------------------
