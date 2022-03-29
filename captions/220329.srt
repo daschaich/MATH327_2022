@@ -1,0 +1,2727 @@
+1
+00:00:04,140 --> 00:00:08,700
+All right, we'll start getting under way.  Welcome back to the
+
+2
+00:00:08,970 --> 00:00:12,060
+second half of the first part of this week and I'll
+
+3
+00:00:12,080 --> 00:00:20,850
+remember to put up the six-digit number first this time. It is eight seven two
+
+4
+00:00:20,880 --> 00:00:21,360
+six five seven.
+
+5
+00:00:27,010 --> 00:00:34,170
+That can sit there for the rest of the hour and we can pick
+
+6
+00:00:34,170 --> 00:00:38,940
+up pretty much where we left off yesterday, which
+
+7
+00:00:38,940 --> 00:00:43,050
+was essentially the end of the non-relativistic
+
+8
+00:00:43,530 --> 00:00:48,580
+fermion gas at low temperatures, where we came up
+
+9
+00:00:48,580 --> 00:00:52,770
+with, essentially, the equation of states.  And I
+
+10
+00:00:52,770 --> 00:00:55,610
+can check if there are questions lingering from
+
+11
+00:00:55,620 --> 00:00:58,170
+last time about what we got to,
+
+12
+00:01:01,690 --> 00:01:02,640
+or anything different.
+
+13
+00:01:06,080 --> 00:01:09,920
+But now this result here in this gap is indeed
+
+14
+00:01:10,430 --> 00:01:13,460
+the equation of state for this non relativistic
+
+15
+00:01:13,460 --> 00:01:17,180
+fermion gas at low temperature. So it's the usual
+
+16
+00:01:17,180 --> 00:01:19,430
+target we've been going after with all these
+
+17
+00:01:20,600 --> 00:01:23,540
+quantum gases into the classical ideal gas before
+
+18
+00:01:23,540 --> 00:01:26,160
+that written in a few different ways, relieving
+
+19
+00:01:26,210 --> 00:01:30,450
+the pressure either to the energy density, the
+
+20
+00:01:30,770 --> 00:01:35,810
+density times, the chemical potential new or.
+
+21
+00:01:37,050 --> 00:01:39,690
+Fighting in the relation between that number of
+
+22
+00:01:39,690 --> 00:01:42,480
+density and chemical potential for the low
+
+23
+00:01:42,480 --> 00:01:45,500
+temperature for gas, just in terms of the
+
+24
+00:01:45,530 --> 00:01:47,550
+intensity of the number of particles per unit
+
+25
+00:01:47,550 --> 00:01:50,400
+volume raised to the five thirds power, and what
+
+26
+00:01:50,400 --> 00:01:54,660
+is unusual about this result compared to the
+
+27
+00:01:54,660 --> 00:01:56,820
+equation of states that we derive from the
+
+28
+00:01:56,820 --> 00:02:01,320
+classical ideal gas PV equals A.. Which also
+
+29
+00:02:01,560 --> 00:02:06,540
+persisted with just a minor change in numerical
+
+30
+00:02:06,540 --> 00:02:10,470
+constants for photon gas is that there is no
+
+31
+00:02:10,710 --> 00:02:13,320
+dependence on the temperature at all in any of
+
+32
+00:02:13,320 --> 00:02:17,850
+these relations. The energy and density are
+
+33
+00:02:17,850 --> 00:02:19,950
+independent of temperature, at least for a
+
+34
+00:02:19,950 --> 00:02:24,210
+sufficiently low temperatures, leaving this
+
+35
+00:02:24,210 --> 00:02:27,180
+constant temperature, independent pressure or
+
+36
+00:02:27,180 --> 00:02:31,830
+equation state that we can plot here as the low
+
+37
+00:02:31,840 --> 00:02:34,650
+temperature limit on the more general expression
+
+38
+00:02:37,080 --> 00:02:41,610
+in some python code will produce notes and
+
+39
+00:02:41,610 --> 00:02:45,270
+interpolate between this low temperature, constant
+
+40
+00:02:45,270 --> 00:02:48,540
+equation of state and the classical ideal gas law
+
+41
+00:02:49,050 --> 00:02:52,530
+at high temperatures where the pressure becomes
+
+42
+00:02:53,250 --> 00:02:55,650
+linear and the temperature with that.
+
+43
+00:02:58,260 --> 00:03:00,810
+Proportionality just be the number that's
+
+44
+00:03:00,810 --> 00:03:09,500
+available, so. Having. Reached the equation of
+
+45
+00:03:09,500 --> 00:03:13,970
+state for the non relativistic, at least at low
+
+46
+00:03:13,970 --> 00:03:21,050
+temperatures, we can see this at work. In physics
+
+47
+00:03:21,320 --> 00:03:26,510
+of a certain type of supernova explosion of stars
+
+48
+00:03:26,510 --> 00:03:28,550
+and maybe before going on to that, I should also
+
+49
+00:03:28,550 --> 00:03:34,310
+reiterate the overall physical picture that led to
+
+50
+00:03:34,490 --> 00:03:37,850
+the equations that we found where we had the idea
+
+51
+00:03:37,870 --> 00:03:41,240
+of all the particles in this gas filling up energy
+
+52
+00:03:41,240 --> 00:03:44,600
+levels one after the next until they reach the
+
+53
+00:03:44,600 --> 00:03:48,200
+maximum energy level at which all the particles
+
+54
+00:03:48,200 --> 00:03:51,260
+are accounted for that corresponds to that Fermi
+
+55
+00:03:51,260 --> 00:03:54,890
+energy. So that is a very useful picture of what's
+
+56
+00:03:54,890 --> 00:03:59,720
+going on behind the mathematics to explain both
+
+57
+00:03:59,720 --> 00:04:03,710
+why the energy and pressure are independent of
+
+58
+00:04:03,710 --> 00:04:08,660
+temperature and low temperatures, as well as why
+
+59
+00:04:08,660 --> 00:04:11,600
+that chemical potential has to be positive in that
+
+60
+00:04:11,600 --> 00:04:14,600
+regime with only a single microstates
+
+61
+00:04:14,600 --> 00:04:17,990
+corresponding to that organization, of all the
+
+62
+00:04:17,990 --> 00:04:21,860
+particles filling all of the energy levels with a
+
+63
+00:04:21,870 --> 00:04:25,490
+low energy up to that maximum very energy.
+
+64
+00:04:27,720 --> 00:04:31,650
+And that sort of physical picture is essentially
+
+65
+00:04:31,650 --> 00:04:36,140
+what's realized in certain types of stars and
+
+66
+00:04:36,150 --> 00:04:36,840
+particular.
+
+67
+00:04:40,200 --> 00:04:42,390
+Very dense stars known as Whitehorse that are
+
+68
+00:04:42,390 --> 00:04:45,780
+related to these type of a supernova explosions of
+
+69
+00:04:45,780 --> 00:04:52,430
+stars and as a prelude to seeing how that operates,
+
+70
+00:04:53,100 --> 00:04:55,800
+just mentioned that the.
+
+71
+00:04:57,980 --> 00:05:00,550
+The question here is, how low does a temperature
+
+72
+00:05:00,560 --> 00:05:04,010
+have to be at practice in order for this low
+
+73
+00:05:04,010 --> 00:05:06,950
+temperature equation states to be valid? So that
+
+74
+00:05:06,950 --> 00:05:11,420
+constant pressure that we derived yesterday is
+
+75
+00:05:11,420 --> 00:05:16,040
+known as the university pressure and. The
+
+76
+00:05:16,190 --> 00:05:19,190
+terminology here is not exactly perfect, it's
+
+77
+00:05:19,220 --> 00:05:21,830
+something you inherited from the past, so the
+
+78
+00:05:21,830 --> 00:05:26,930
+degeneracy is unrelated to the multiple energy
+
+79
+00:05:26,930 --> 00:05:29,440
+levels that we all have the same value of the
+
+80
+00:05:29,450 --> 00:05:33,740
+energy. The idea is that at these low temperatures,
+
+81
+00:05:33,740 --> 00:05:38,660
+all the particles in this gas want to be at the
+
+82
+00:05:38,660 --> 00:05:41,330
+lowest possible energy, which is to say that the
+
+83
+00:05:41,330 --> 00:05:44,600
+very direct distribution exponentially suppresses
+
+84
+00:05:44,600 --> 00:05:47,630
+the occupation probability for energy levels with
+
+85
+00:05:47,630 --> 00:05:53,480
+higher values of the energy. And as close to equal
+
+86
+00:05:53,480 --> 00:05:58,880
+energies as these fermions can get is the system
+
+87
+00:05:58,880 --> 00:06:03,390
+where all the energy levels are are filled up. So
+
+88
+00:06:03,390 --> 00:06:07,980
+they're trying to be degenerate, but can't quite
+
+89
+00:06:07,980 --> 00:06:11,420
+make it due to the point exclusion principle. And
+
+90
+00:06:11,420 --> 00:06:12,350
+in order to.
+
+91
+00:06:14,380 --> 00:06:17,150
+Have this non-zero degeneracy pressure in order to
+
+92
+00:06:17,150 --> 00:06:21,980
+realize this physical picture where all of the
+
+93
+00:06:22,790 --> 00:06:25,690
+particles are trying to fill the low energy energy
+
+94
+00:06:25,760 --> 00:06:30,230
+levels due to the low temperature that.
+
+95
+00:06:32,620 --> 00:06:36,490
+Temperature has to be low relative to that Fermoy
+
+96
+00:06:36,490 --> 00:06:41,410
+energy. The highest energy level that is filled in
+
+97
+00:06:41,410 --> 00:06:44,080
+the limit of zero temperature and the place where
+
+98
+00:06:44,560 --> 00:06:47,140
+any additional Hermione's being added to the gas
+
+99
+00:06:47,140 --> 00:06:52,210
+would have to enter the first energy levels
+
+100
+00:06:52,210 --> 00:06:55,840
+available for them to fill up so long as the
+
+101
+00:06:56,620 --> 00:07:00,310
+temperature is small compared to the energy we can.
+
+102
+00:07:01,940 --> 00:07:09,610
+Rely on having a. Nonzero generosity, pressure and
+
+103
+00:07:09,610 --> 00:07:14,780
+the zero temperature limit. And just from the
+
+104
+00:07:14,780 --> 00:07:19,140
+definition of the energy that we had. We looked at
+
+105
+00:07:19,140 --> 00:07:23,480
+yesterday, which may as well write down, so we
+
+106
+00:07:23,490 --> 00:07:24,210
+have here.
+
+107
+00:07:26,210 --> 00:07:33,260
+That up at the top of the page from the energy was
+
+108
+00:07:33,860 --> 00:07:40,560
+squared. Over to the three PI squared and then the
+
+109
+00:07:41,130 --> 00:07:44,280
+average particle density arrays to the two thirds
+
+110
+00:07:44,280 --> 00:07:49,840
+power. So we can see that this dependence on that
+
+111
+00:07:49,840 --> 00:07:54,490
+density of two thirds is increasing the energy as
+
+112
+00:07:54,490 --> 00:07:58,420
+the density increases, which becomes particularly
+
+113
+00:07:58,420 --> 00:08:01,570
+relevant for stars, where the gravitational
+
+114
+00:08:01,570 --> 00:08:04,210
+attraction of an enormous amount of matter is
+
+115
+00:08:04,210 --> 00:08:07,210
+introducing very high densities and
+
+116
+00:08:07,210 --> 00:08:10,240
+correspondingly high ferme energies. So that's
+
+117
+00:08:10,240 --> 00:08:13,990
+even ordinary temperatures that we would consider
+
+118
+00:08:16,020 --> 00:08:20,050
+every day. Levels not particularly low turn out to
+
+119
+00:08:20,050 --> 00:08:23,710
+be very small compared to the energy. So just to
+
+120
+00:08:23,860 --> 00:08:27,280
+give some illustrations matter, like this table
+
+121
+00:08:27,280 --> 00:08:30,940
+tends to have roughly an Avogadro's number worth
+
+122
+00:08:30,940 --> 00:08:35,860
+of particles in a cubic centimeter of changing.
+
+123
+00:08:37,210 --> 00:08:40,210
+Units to adults per cubic meter, we have something
+
+124
+00:08:40,210 --> 00:08:45,670
+like 10 to be twenty three times two to convert
+
+125
+00:08:45,670 --> 00:08:49,600
+from centimeter commuter times, a cube to get from
+
+126
+00:08:50,050 --> 00:08:54,120
+all three dimensions of space takes us up to ten
+
+127
+00:08:54,120 --> 00:08:58,780
+to twenty nine atoms per cubic meter. And this
+
+128
+00:08:58,780 --> 00:09:02,110
+I'll just tell you, if you plug in the conversion
+
+129
+00:09:02,110 --> 00:09:06,040
+factor between the topic units, energies and
+
+130
+00:09:06,040 --> 00:09:09,880
+temperatures corresponds to a fairly energy of
+
+131
+00:09:09,880 --> 00:09:15,970
+about ten thousand Kelvin. So that even the
+
+132
+00:09:16,180 --> 00:09:18,160
+temperature is two orders of magnitude lower that
+
+133
+00:09:18,160 --> 00:09:21,580
+we are working in right now, our low temperatures
+
+134
+00:09:21,580 --> 00:09:25,720
+compared to the very of everyday metals, for
+
+135
+00:09:25,720 --> 00:09:28,720
+instance, electrons moving around in the metal.
+
+136
+00:09:30,820 --> 00:09:35,050
+If we consider those white dwarf stars I mentioned
+
+137
+00:09:35,050 --> 00:09:40,090
+earlier, we have. Energies that are about a
+
+138
+00:09:40,100 --> 00:09:44,620
+hundred thousand times larger, which correspond to
+
+139
+00:09:44,620 --> 00:09:47,850
+densities that are then. One hundred thousand
+
+140
+00:09:47,850 --> 00:09:51,900
+times to the power, three halves larger, so things
+
+141
+00:09:51,900 --> 00:09:55,110
+like ten of the thirty six atoms per cubic meter,
+
+142
+00:09:55,290 --> 00:09:57,780
+which you can plug in the relation between
+
+143
+00:09:58,200 --> 00:10:02,250
+temperature and atomic mass units, is usually
+
+144
+00:10:03,330 --> 00:10:07,290
+talked about in terms of about one ton of mass per
+
+145
+00:10:07,290 --> 00:10:08,340
+cubic centimeter.
+
+146
+00:10:10,860 --> 00:10:16,030
+And this is. About a million times more dense than
+
+147
+00:10:16,270 --> 00:10:22,490
+our sun. So back to 10 of the six, that would be
+
+148
+00:10:22,490 --> 00:10:25,670
+what we got if we tried to cram all of the matter
+
+149
+00:10:25,670 --> 00:10:30,500
+in our son into a volume. About the size of the
+
+150
+00:10:30,500 --> 00:10:33,350
+earth, one hundred times smaller radius or one
+
+151
+00:10:33,350 --> 00:10:37,250
+hundred cubed is a million times smaller in volume.
+
+152
+00:10:37,940 --> 00:10:43,070
+So that is the context for the sorts of energy,
+
+153
+00:10:43,070 --> 00:10:46,700
+the temperatures, where we want to apply our low
+
+154
+00:10:46,700 --> 00:10:50,690
+temperature equation of state from yesterday. I'll
+
+155
+00:10:50,690 --> 00:10:54,440
+just say that the reason these wildfires are so
+
+156
+00:10:54,440 --> 00:10:59,570
+dense is because the nuclear fusion processes that
+
+157
+00:10:59,570 --> 00:11:04,370
+typically inject heat and energy into stars has
+
+158
+00:11:04,760 --> 00:11:09,350
+turned off and they have exhausted all of the
+
+159
+00:11:10,040 --> 00:11:14,150
+elements. So hydrogen, helium is what are fused
+
+160
+00:11:14,150 --> 00:11:16,850
+together at very high temperatures and pressures
+
+161
+00:11:17,180 --> 00:11:22,210
+to produce energy from nuclear fusion. But as you
+
+162
+00:11:22,260 --> 00:11:25,430
+know, hydrogen fuel, hydrogen and helium nuclei
+
+163
+00:11:25,430 --> 00:11:30,590
+fuse together to produce larger nuclei higher up
+
+164
+00:11:30,590 --> 00:11:33,710
+on the periodic table. Lithium really up to carbon
+
+165
+00:11:33,710 --> 00:11:39,280
+and oxygen. And once that. Nuclear fusion has
+
+166
+00:11:39,280 --> 00:11:41,890
+ceased all of that heat and the radiation pressure
+
+167
+00:11:42,340 --> 00:11:45,990
+coming from this nuclear fusion, which formerly
+
+168
+00:11:46,050 --> 00:11:49,720
+formerly counteracted the gravitational traction
+
+169
+00:11:49,900 --> 00:11:55,000
+in these stars, has entrances. And the only thing
+
+170
+00:11:55,420 --> 00:12:01,360
+that is left to balance the. The gravitational
+
+171
+00:12:01,360 --> 00:12:04,330
+attraction that's pulling all of this matter into
+
+172
+00:12:04,330 --> 00:12:07,660
+smaller and smaller volumes, making the denser,
+
+173
+00:12:07,660 --> 00:12:13,320
+denser. Is exactly that degeneracy pressure coming
+
+174
+00:12:13,320 --> 00:12:16,470
+from the Pauli exclusion principle rather than any
+
+175
+00:12:16,470 --> 00:12:23,160
+actual forces? And this is. The only source of
+
+176
+00:12:23,160 --> 00:12:25,620
+pressure left to counteract the gravitational
+
+177
+00:12:25,620 --> 00:12:29,130
+attraction and keep these white dwarfs from
+
+178
+00:12:29,520 --> 00:12:32,520
+collapsing into either denser objects and
+
+179
+00:12:32,520 --> 00:12:37,030
+eventually to black holes, once the. Maternity
+
+180
+00:12:37,030 --> 00:12:42,250
+services shoved into such a small region that. And
+
+181
+00:12:42,870 --> 00:12:44,950
+that's right, and forms in the framework of
+
+182
+00:12:44,950 --> 00:12:45,880
+general relativity.
+
+183
+00:12:48,020 --> 00:12:53,000
+So maybe the one. Remarkable aspect of this
+
+184
+00:12:53,000 --> 00:12:59,100
+physics. Worth commenting on is that. This is the
+
+185
+00:12:59,120 --> 00:13:01,450
+pressure we derived, this coming from a non
+
+186
+00:13:01,450 --> 00:13:07,660
+attractive ideal gas of quantum fermions and the
+
+187
+00:13:07,660 --> 00:13:12,610
+fact that we can accurately describe even these
+
+188
+00:13:12,610 --> 00:13:15,550
+extreme, very dense and very high energy
+
+189
+00:13:15,550 --> 00:13:20,670
+conditions as not interacting particles. Yusoff.
+
+190
+00:13:22,040 --> 00:13:27,110
+Part of the reason why it is so useful in an
+
+191
+00:13:27,110 --> 00:13:30,560
+application that the large numbers of particles
+
+192
+00:13:30,560 --> 00:13:34,760
+and the negative energy scales comparing the
+
+193
+00:13:34,760 --> 00:13:38,930
+temperature to the Fermi energy conspire to. Allow
+
+194
+00:13:38,930 --> 00:13:41,270
+even a good description of.
+
+195
+00:13:43,400 --> 00:13:46,220
+Matter in extreme environments from a fairly
+
+196
+00:13:46,220 --> 00:13:49,940
+simple physical principles, and here we are helped
+
+197
+00:13:49,940 --> 00:13:53,210
+by that very large ferme energy from the very high
+
+198
+00:13:53,210 --> 00:13:59,340
+pressure. So apparently energy around. A billion
+
+199
+00:13:59,760 --> 00:14:00,390
+kelvin.
+
+200
+00:14:02,390 --> 00:14:06,380
+It's crucial to keep the temperatures of these
+
+201
+00:14:06,380 --> 00:14:12,140
+blackhorse low because once that so I should say,
+
+202
+00:14:12,140 --> 00:14:14,960
+as the as time goes on, the white floors are no
+
+203
+00:14:14,960 --> 00:14:19,220
+longer burning any fuel in nuclear fusion. But of
+
+204
+00:14:19,220 --> 00:14:21,320
+course, when they formed, they formed at the end
+
+205
+00:14:21,320 --> 00:14:26,120
+of that nuclear fusion process. So at the time
+
+206
+00:14:26,120 --> 00:14:29,840
+when the hydrogen fuel run out, temperatures in
+
+207
+00:14:29,840 --> 00:14:32,510
+the interior of these Wetmore stars tend to be
+
+208
+00:14:32,510 --> 00:14:36,140
+about 10 degrees coming from that high temperature
+
+209
+00:14:36,140 --> 00:14:40,580
+nuclear fusion. And they only gradually cool by
+
+210
+00:14:40,580 --> 00:14:43,510
+admitting that thermal radiation over the course
+
+211
+00:14:43,520 --> 00:14:46,790
+of 12, they really have to be cool for trillions
+
+212
+00:14:46,790 --> 00:14:50,150
+of years until they reach some equilibrium with
+
+213
+00:14:50,150 --> 00:14:53,060
+the very low temperature, cosmic microwave
+
+214
+00:14:53,060 --> 00:14:53,780
+background
+
+215
+00:14:55,820 --> 00:14:59,270
+that has an order of about two Kelvin rather than
+
+216
+00:14:59,630 --> 00:15:05,860
+10 million Kelvin. So we're saved by the very
+
+217
+00:15:05,860 --> 00:15:09,790
+large Verm energy that allows even temperatures
+
+218
+00:15:09,970 --> 00:15:11,920
+that if they were in this room, we would consider
+
+219
+00:15:11,920 --> 00:15:16,060
+to be very high and still be considered very low
+
+220
+00:15:16,060 --> 00:15:18,640
+and effectively zero temperature to a very good
+
+221
+00:15:18,640 --> 00:15:19,450
+approximation.
+
+222
+00:15:22,150 --> 00:15:25,810
+And yes, I have said that. Left on their own,
+
+223
+00:15:25,810 --> 00:15:30,310
+white dwarfs will happily cool for trillions of
+
+224
+00:15:30,310 --> 00:15:32,950
+years is what it would take for those temperatures,
+
+225
+00:15:33,020 --> 00:15:36,150
+10 million Kelvin to eventually reach equilibrium.
+
+226
+00:15:37,140 --> 00:15:40,200
+With the low temperature cosmic microwave
+
+227
+00:15:40,200 --> 00:15:42,930
+background radiation, which is itself cooling off
+
+228
+00:15:42,930 --> 00:15:45,120
+as time goes by, it's currently about two point
+
+229
+00:15:45,120 --> 00:15:51,220
+seven Kelvin and dropping. By the by the day, very
+
+230
+00:15:51,220 --> 00:15:51,730
+slowly.
+
+231
+00:15:54,360 --> 00:15:58,020
+The way that this connects to supernovas is if we
+
+232
+00:15:58,020 --> 00:16:02,430
+consider a white dwarf star in what's called a
+
+233
+00:16:02,430 --> 00:16:07,200
+binary system where there are two stars orbiting
+
+234
+00:16:07,440 --> 00:16:10,410
+around each other, at least one of which is the
+
+235
+00:16:10,410 --> 00:16:15,930
+white door. So this is an artist's impression of
+
+236
+00:16:16,560 --> 00:16:21,630
+the sort of binary system where we have. On the
+
+237
+00:16:21,630 --> 00:16:25,580
+left. Some companion star to that white dwarf,
+
+238
+00:16:25,580 --> 00:16:29,870
+which is still burning its nuclear fuel, producing
+
+239
+00:16:30,590 --> 00:16:34,310
+energy radiation and emitting a steady stream of
+
+240
+00:16:34,310 --> 00:16:40,320
+particles, and by having this very dense. White
+
+241
+00:16:40,320 --> 00:16:44,860
+dwarf star nearby. The gravitational attraction of
+
+242
+00:16:44,860 --> 00:16:49,420
+that, that object pulls in all of the matter being
+
+243
+00:16:49,420 --> 00:16:52,870
+emitted by the companion star, that's gradually
+
+244
+00:16:52,960 --> 00:16:55,900
+over the course of millions of years and trillions
+
+245
+00:16:55,900 --> 00:17:01,330
+of years, piles up in the white dwarf, increasing
+
+246
+00:17:01,330 --> 00:17:06,580
+its particle number, increasing its density and
+
+247
+00:17:08,920 --> 00:17:11,710
+increasing its temperature by virtue of.
+
+248
+00:17:15,050 --> 00:17:19,860
+The larger amount, the larger densify, that's. Is
+
+249
+00:17:19,860 --> 00:17:24,200
+being brought into play. And a somewhat more
+
+250
+00:17:24,200 --> 00:17:28,130
+complicated calculation, bringing in relativistic
+
+251
+00:17:28,130 --> 00:17:30,650
+nuclear physics in addition to the statistical
+
+252
+00:17:30,650 --> 00:17:32,870
+physics that we are considering.
+
+253
+00:17:35,350 --> 00:17:39,670
+Identifies the critical density for the star at
+
+254
+00:17:39,670 --> 00:17:43,060
+which new and different types of fusion reactions
+
+255
+00:17:43,060 --> 00:17:46,570
+can start to occur, and in particular, the carbon
+
+256
+00:17:46,570 --> 00:17:49,780
+and oxygen that I mentioned earlier, that the
+
+257
+00:17:50,290 --> 00:17:56,590
+fence consists of become able to fuse themselves,
+
+258
+00:17:56,680 --> 00:17:59,800
+which requires larger density compared to hydrogen
+
+259
+00:17:59,800 --> 00:18:03,940
+and helium. And this happens when the overall mass
+
+260
+00:18:03,940 --> 00:18:08,640
+of the white dwarf. Is about 40 percent larger
+
+261
+00:18:08,640 --> 00:18:14,790
+than the massive or so one point four for about a
+
+262
+00:18:14,790 --> 00:18:18,720
+few percent uncertainty. This is a value of the
+
+263
+00:18:18,720 --> 00:18:20,460
+math known as the chandrasekar.
+
+264
+00:18:22,500 --> 00:18:25,920
+Something drives by to remind you chandrasekar in
+
+265
+00:18:25,920 --> 00:18:28,200
+the nineteen hundreds and.
+
+266
+00:18:31,030 --> 00:18:35,110
+As soon as the carbon and oxygen in the white talk
+
+267
+00:18:35,230 --> 00:18:42,540
+are able to start fusing and producing lots of. A
+
+268
+00:18:42,670 --> 00:18:46,540
+new source of thermal radiation and a new source
+
+269
+00:18:46,540 --> 00:18:52,090
+of energy and an increase in the temperature, this
+
+270
+00:18:52,090 --> 00:18:54,800
+fusion procedes quickly enough that it actually
+
+271
+00:18:55,570 --> 00:19:00,730
+undergoes what's called a runaway reaction. So as
+
+272
+00:19:00,730 --> 00:19:03,790
+the fusion recedes, the temperature of the white
+
+273
+00:19:03,790 --> 00:19:07,540
+dwarf is increased faster than its density can
+
+274
+00:19:07,540 --> 00:19:12,160
+adjust, as we would expect from equations, to seem
+
+275
+00:19:12,190 --> 00:19:15,250
+like the ideal gas law that we end up with a very
+
+276
+00:19:15,250 --> 00:19:18,910
+dense object and a very high pressure. That, in
+
+277
+00:19:18,910 --> 00:19:22,000
+turn, encourages more and more fusion, giving more
+
+278
+00:19:22,000 --> 00:19:23,890
+and more energy until.
+
+279
+00:19:26,960 --> 00:19:30,080
+A significant fraction of the total mass in the
+
+280
+00:19:30,080 --> 00:19:35,250
+star million times that of the Earth. It's all
+
+281
+00:19:35,250 --> 00:19:38,820
+fused into heavier elements, increasing the
+
+282
+00:19:38,820 --> 00:19:42,030
+temperature. To billions of Kelvyn, rather than
+
+283
+00:19:42,030 --> 00:19:46,890
+just hundreds or tens of millions and producing
+
+284
+00:19:47,070 --> 00:19:50,550
+belatedly and increasing the pressure that blasts
+
+285
+00:19:50,550 --> 00:19:55,490
+the white door for cart. Releasing about five
+
+286
+00:19:55,490 --> 00:19:59,840
+million times the energy that the sun that would
+
+287
+00:19:59,840 --> 00:20:02,960
+release through its hydrogen fusion in a
+
+288
+00:20:02,960 --> 00:20:05,090
+comparable amount of time.
+
+289
+00:20:08,430 --> 00:20:12,930
+So this is a supernova, a very rapid a very
+
+290
+00:20:12,930 --> 00:20:17,160
+violent explosion of a star, and it's not the only
+
+291
+00:20:17,160 --> 00:20:18,930
+type of supernova that's possible.
+
+292
+00:20:21,350 --> 00:20:26,090
+It is an obscure historical reasons known as type
+
+293
+00:20:26,090 --> 00:20:31,140
+one, a supernova. The other types of supernovas
+
+294
+00:20:31,140 --> 00:20:34,560
+tend to come from larger and heavier stars that
+
+295
+00:20:35,250 --> 00:20:38,760
+collapse very rapidly as they run out of nuclear
+
+296
+00:20:38,760 --> 00:20:42,330
+fuel, and that collapse immediately produces a
+
+297
+00:20:42,330 --> 00:20:46,550
+supernova. The key aspect of these Type 1A
+
+298
+00:20:46,550 --> 00:20:52,060
+supernovas that. Are based on a way to start
+
+299
+00:20:52,630 --> 00:20:56,530
+acquiring additional matter, additional density
+
+300
+00:20:56,530 --> 00:21:03,490
+from a companion. Is that thanks to relying on the
+
+301
+00:21:03,490 --> 00:21:06,540
+degeneracy pressure of a low temperature Fairbury
+
+302
+00:21:06,550 --> 00:21:12,260
+gas to. Stabilize the system as it accumulates
+
+303
+00:21:12,260 --> 00:21:16,940
+that matter, the people in a supernova is always
+
+304
+00:21:16,940 --> 00:21:21,260
+triggered at a very regular, predictable point,
+
+305
+00:21:21,980 --> 00:21:26,270
+just as the amount of matter the light accumulates
+
+306
+00:21:26,270 --> 00:21:30,140
+passes this chandrasekar limit at 40 percent
+
+307
+00:21:30,140 --> 00:21:34,610
+larger than the mass of our sun. And because this
+
+308
+00:21:35,120 --> 00:21:40,160
+very specific amount of mass is the trigger for
+
+309
+00:21:40,160 --> 00:21:44,930
+the supernova. All of the Type 1A supernovas are
+
+310
+00:21:44,990 --> 00:21:50,020
+very similar and independent of. Whatever the mass
+
+311
+00:21:50,020 --> 00:21:53,230
+or the temperature of the star was at the point
+
+312
+00:21:53,230 --> 00:21:57,400
+when nuclear fusion ran out of hydrogen and helium
+
+313
+00:21:57,430 --> 00:22:02,620
+fuel. So what this provides is a very regular
+
+314
+00:22:03,520 --> 00:22:06,580
+process that astronomers can look at what they
+
+315
+00:22:06,580 --> 00:22:14,080
+call a standard candle where by observing how much.
+
+316
+00:22:15,480 --> 00:22:18,930
+Energy and radiation reach the Earth from a
+
+317
+00:22:18,930 --> 00:22:22,350
+distance Type 1A supernova, making calibrate
+
+318
+00:22:22,450 --> 00:22:28,230
+precisely how far away it had to be in order for
+
+319
+00:22:28,350 --> 00:22:31,700
+that amount of energy to reach the earth. Not
+
+320
+00:22:31,790 --> 00:22:35,730
+knowing exactly, exactly the same amount of energy
+
+321
+00:22:35,730 --> 00:22:40,050
+in the same matter was put out at the source of
+
+322
+00:22:40,050 --> 00:22:44,160
+that supernova. And there was about 20 years ago,
+
+323
+00:22:44,160 --> 00:22:48,870
+a very large scale worldwide project to map out.
+
+324
+00:22:49,920 --> 00:22:55,140
+Lots of Type 1A supernovas, various distances away
+
+325
+00:22:55,140 --> 00:22:59,580
+from the earth, which correspond to the supernova
+
+326
+00:22:59,580 --> 00:23:02,430
+having occurred many years ago and the like,
+
+327
+00:23:02,550 --> 00:23:05,730
+taking thousands or millions of years to reach the
+
+328
+00:23:05,730 --> 00:23:06,090
+earth.
+
+329
+00:23:08,200 --> 00:23:11,320
+Traveling at the speed of light, so by looking at
+
+330
+00:23:11,410 --> 00:23:14,440
+supernovas of different distances to get a glimpse
+
+331
+00:23:14,440 --> 00:23:19,320
+back at the. Behaviour of the universe at
+
+332
+00:23:19,320 --> 00:23:21,720
+different points of time as a supernovas were
+
+333
+00:23:21,750 --> 00:23:24,270
+occurring and the light from them was traveling
+
+334
+00:23:24,510 --> 00:23:30,630
+towards us. And the surprising observation of that
+
+335
+00:23:30,660 --> 00:23:36,610
+mapping process was that. The longer go the
+
+336
+00:23:36,610 --> 00:23:42,130
+supernova occurred, the faster it seemed to be
+
+337
+00:23:42,490 --> 00:23:45,490
+moving away from us or to see things, in other
+
+338
+00:23:45,490 --> 00:23:50,990
+words, the expansion of the universe. Is actually
+
+339
+00:23:52,010 --> 00:23:54,680
+accelerating, so the universe is expanding more
+
+340
+00:23:54,680 --> 00:23:58,550
+and more rapidly. As time goes on over the course
+
+341
+00:23:58,550 --> 00:24:02,500
+of these millions or billions of years. And this
+
+342
+00:24:02,500 --> 00:24:06,200
+is a phenomenon that we observe without yet
+
+343
+00:24:06,520 --> 00:24:10,180
+understanding what drives that, we give it a fancy
+
+344
+00:24:10,180 --> 00:24:13,030
+name called dark energy, which is somewhat
+
+345
+00:24:13,030 --> 00:24:15,290
+nonsensical. And.
+
+346
+00:24:17,660 --> 00:24:21,000
+And in the context of general relativity, I'll
+
+347
+00:24:21,000 --> 00:24:24,390
+just say that this dark energy is terminology that
+
+348
+00:24:24,390 --> 00:24:27,210
+refers to exactly the accelerating expansion of
+
+349
+00:24:27,210 --> 00:24:32,220
+the universe that was initially revealed by
+
+350
+00:24:32,610 --> 00:24:36,000
+observing these type of supernovas, relying on the
+
+351
+00:24:36,010 --> 00:24:40,020
+regularity thanks to the slow build up of mass
+
+352
+00:24:40,200 --> 00:24:43,800
+counterbalanced by their degeneracy pressure and
+
+353
+00:24:43,800 --> 00:24:47,900
+that. Receive the Nobel Prize in physics lab 10
+
+354
+00:24:47,900 --> 00:24:52,090
+years ago, getting ever closer to the present day
+
+355
+00:24:52,300 --> 00:24:57,800
+and upcoming Nobel Prizes. So any questions about
+
+356
+00:24:57,800 --> 00:25:02,060
+that application of our equation of states for non
+
+357
+00:25:02,060 --> 00:25:04,490
+relativistic and gases?
+
+358
+00:25:11,920 --> 00:25:13,210
+We can move on to
+
+359
+00:25:15,670 --> 00:25:21,160
+someone we consider the different regime going
+
+360
+00:25:21,160 --> 00:25:24,580
+from the non relativistic, from the obvious to the
+
+361
+00:25:24,580 --> 00:25:28,390
+relatively large mass compared to particle, its
+
+362
+00:25:28,390 --> 00:25:32,680
+particles, momentum to the relativistic regime.
+
+363
+00:25:33,900 --> 00:25:36,780
+Which gets us back in somewhat of a full circle to
+
+364
+00:25:36,780 --> 00:25:41,270
+the photon gas that we dealt with last week.
+
+365
+00:25:43,630 --> 00:25:47,380
+These so the difference now being that we will
+
+366
+00:25:47,410 --> 00:25:50,530
+consider Marsalis, who effectively Marsalis
+
+367
+00:25:50,530 --> 00:25:54,220
+fermions rather than Krotons where?
+
+368
+00:25:56,920 --> 00:26:00,400
+We can motivate, considering the relativistic
+
+369
+00:26:00,400 --> 00:26:03,790
+regime by. Noting that it is.
+
+370
+00:26:06,580 --> 00:26:11,950
+Relevance in nature, even in this context of the
+
+371
+00:26:12,460 --> 00:26:17,140
+supernova explosions, if we convert to the the
+
+372
+00:26:17,170 --> 00:26:20,440
+energy of a billion Kelvin we just mentioned for
+
+373
+00:26:20,620 --> 00:26:24,310
+the light dwarf star into units of. Millions of
+
+374
+00:26:24,310 --> 00:26:29,490
+electron volts. So looking at energies as opposed
+
+375
+00:26:29,570 --> 00:26:32,550
+to temperatures, just a conversion of units, we
+
+376
+00:26:32,550 --> 00:26:36,720
+see that the electrons in these Whitehorse that
+
+377
+00:26:36,720 --> 00:26:41,750
+are providing and pressure that stabilizes them. I
+
+378
+00:26:41,990 --> 00:26:44,900
+have this kinetic energy of about three hundred
+
+379
+00:26:44,900 --> 00:26:48,890
+thousand electron volts that is comparable to the
+
+380
+00:26:48,890 --> 00:26:53,060
+mass energy of electrons, five hundred eleven
+
+381
+00:26:53,510 --> 00:26:58,330
+thousand electron volts. Which is the regime in
+
+382
+00:26:58,330 --> 00:27:01,510
+which we can't necessarily neglect militaristic
+
+383
+00:27:01,510 --> 00:27:04,640
+corrections to the behavior of these particles and
+
+384
+00:27:04,640 --> 00:27:08,410
+indeed in, say, Carter's calculation, this
+
+385
+00:27:08,410 --> 00:27:11,020
+relativistic effects were crucial to show that
+
+386
+00:27:11,020 --> 00:27:13,540
+anything interesting happens around that
+
+387
+00:27:13,750 --> 00:27:14,950
+Chandrasekhar limit.
+
+388
+00:27:18,730 --> 00:27:23,090
+Unfortunately, the. Intermediate regime between
+
+389
+00:27:23,330 --> 00:27:26,780
+relativistic ultra relativistic energies is
+
+390
+00:27:26,780 --> 00:27:29,660
+typically the most complicated, at least
+
+391
+00:27:29,660 --> 00:27:34,760
+enlightening to analyze. We have to. Account for
+
+392
+00:27:35,090 --> 00:27:37,430
+the effects of relativity. We can't make any
+
+393
+00:27:37,910 --> 00:27:41,210
+simplifications the way we could for photon gasses,
+
+394
+00:27:41,690 --> 00:27:48,590
+so for purposes we will. Just. Consider the ultra
+
+395
+00:27:48,590 --> 00:27:53,960
+relativistic regime looking at gases of massless
+
+396
+00:27:53,960 --> 00:27:57,950
+Hermione's that are not completely unpredictable.
+
+397
+00:27:57,980 --> 00:28:02,030
+These are an excellent approximation to thermionic
+
+398
+00:28:02,030 --> 00:28:05,850
+particles known as neutrinos. Which.
+
+399
+00:28:09,030 --> 00:28:14,550
+Are also a topic of very active experimental
+
+400
+00:28:14,550 --> 00:28:19,570
+investigation. At prisons in particular, related
+
+401
+00:28:19,570 --> 00:28:24,660
+to the. The masses of neutrinos and the puzzle of
+
+402
+00:28:24,660 --> 00:28:27,270
+explaining why you treat the masses are so small
+
+403
+00:28:27,270 --> 00:28:30,630
+compared to all the other fermions that we know,
+
+404
+00:28:30,630 --> 00:28:34,410
+like electrons on neutrino masses, are many orders
+
+405
+00:28:34,410 --> 00:28:38,220
+of magnitude smaller than electron masses or any
+
+406
+00:28:38,220 --> 00:28:40,690
+others. We don't actually know how small they are.
+
+407
+00:28:40,710 --> 00:28:45,350
+We only have upper bounds. As well as lower bounds,
+
+408
+00:28:45,590 --> 00:28:48,350
+what the masses of the was can be, but for many
+
+409
+00:28:48,350 --> 00:28:52,760
+years they were thought to be exactly massless.
+
+410
+00:28:54,520 --> 00:28:57,440
+It's because their voices are so too small to
+
+411
+00:28:58,160 --> 00:29:02,460
+resolve experimentally, and it was. Just six years
+
+412
+00:29:02,460 --> 00:29:06,360
+ago now, the twenty fifteen Nobel Prize that was
+
+413
+00:29:06,360 --> 00:29:10,160
+able to prove that neutrinos have to masses at all
+
+414
+00:29:10,170 --> 00:29:13,200
+places that lower about. On their possible
+
+415
+00:29:13,200 --> 00:29:14,040
+Maskell's.
+
+416
+00:29:16,310 --> 00:29:19,820
+Even though those masses are not zero, they are so
+
+417
+00:29:19,820 --> 00:29:27,690
+small compared to. Any energy's any conceivable
+
+418
+00:29:27,690 --> 00:29:31,470
+momenta wavelengths that these neutrinos have that
+
+419
+00:29:31,470 --> 00:29:34,200
+we can treat them as masses, the programs to a
+
+420
+00:29:34,200 --> 00:29:38,980
+very good approximation and use the same. Approach
+
+421
+00:29:38,990 --> 00:29:42,590
+the same mathematics as we had for photons, the
+
+422
+00:29:42,590 --> 00:29:47,120
+masses, mohsen's where. The energy and the ultra
+
+423
+00:29:47,120 --> 00:29:50,830
+relativistic regime is the speed of light times
+
+424
+00:29:50,850 --> 00:29:53,870
+when these particles, which we can in the same way
+
+425
+00:29:53,870 --> 00:29:59,990
+recast to place in times the angular frequency. Of
+
+426
+00:30:00,020 --> 00:30:03,900
+these fermions. With the angular frequency
+
+427
+00:30:03,980 --> 00:30:09,770
+themselves are quantized by being defined in some
+
+428
+00:30:09,770 --> 00:30:14,510
+volume cubed that brings in the power of L..
+
+429
+00:30:16,740 --> 00:30:22,180
+Leading the. Allowable frequency Omega to integer
+
+430
+00:30:22,190 --> 00:30:30,030
+vectors. All of which are positive. And. We again
+
+431
+00:30:30,030 --> 00:30:34,650
+have for each of these values of the individual
+
+432
+00:30:34,650 --> 00:30:40,050
+romantic. To each other, energy levels, we are
+
+433
+00:30:40,050 --> 00:30:46,440
+here to. Degeneracy is coming from spin rather
+
+434
+00:30:46,440 --> 00:30:50,820
+than polarization, so the same factor, too, but a
+
+435
+00:30:50,820 --> 00:30:54,270
+different physical origin, the same spin as we had
+
+436
+00:30:54,270 --> 00:30:57,600
+for non relativistic fermions previously.
+
+437
+00:31:01,060 --> 00:31:03,220
+So we can begin.
+
+438
+00:31:05,510 --> 00:31:07,970
+Consider a large volume, a large volume else of
+
+439
+00:31:08,260 --> 00:31:11,720
+the integer case are well approximated by
+
+440
+00:31:12,260 --> 00:31:17,240
+continuous real numbers that is replacing the cube
+
+441
+00:31:17,750 --> 00:31:23,120
+in this momentum space with the sphere. The family
+
+442
+00:31:23,140 --> 00:31:30,140
+surface that we looked at yesterday, people lined
+
+443
+00:31:30,190 --> 00:31:32,200
+up as a quick reminder.
+
+444
+00:31:36,210 --> 00:31:40,820
+This picture. Correspondence going from the into
+
+445
+00:31:40,830 --> 00:31:44,670
+Zurich approximated those as a continuous real
+
+446
+00:31:44,690 --> 00:31:47,000
+parameter that we can integrate over rather than
+
+447
+00:31:47,450 --> 00:31:48,500
+dealing with sums,
+
+448
+00:31:50,580 --> 00:31:52,970
+and we can also.
+
+449
+00:31:56,000 --> 00:32:00,140
+Easily create and destroy neutrinos for the same
+
+450
+00:32:00,140 --> 00:32:02,510
+reason that we can easily create and destroy the
+
+451
+00:32:02,510 --> 00:32:06,900
+photons like those coming from the light. These
+
+452
+00:32:06,990 --> 00:32:11,570
+energies that depend only on the frequency of the
+
+453
+00:32:11,580 --> 00:32:18,560
+neutrinos are. Very small. So a large. A large
+
+454
+00:32:18,560 --> 00:32:21,230
+number of neutrinos are passing through all of us
+
+455
+00:32:21,230 --> 00:32:24,860
+every second, and something like a trillion
+
+456
+00:32:24,860 --> 00:32:28,640
+neutrinos per square inch per second is the flexin
+
+457
+00:32:28,640 --> 00:32:31,040
+between us passing through Boston through the
+
+458
+00:32:31,040 --> 00:32:31,400
+Earth.
+
+459
+00:32:33,890 --> 00:32:37,340
+So a huge number that is easy to change is that
+
+460
+00:32:37,340 --> 00:32:43,920
+change the energy, which is. What corresponds to a
+
+461
+00:32:43,920 --> 00:32:46,440
+small or approximately vanishing chemical
+
+462
+00:32:46,440 --> 00:32:52,570
+potential with that? Change in the number of
+
+463
+00:32:52,570 --> 00:32:56,230
+particles does not significantly change the
+
+464
+00:32:56,230 --> 00:33:02,840
+overall energy of the system. So the grand
+
+465
+00:33:02,840 --> 00:33:07,370
+economic potential that we end up with compared to
+
+466
+00:33:08,180 --> 00:33:12,620
+the full time economic potential that we saw last
+
+467
+00:33:12,620 --> 00:33:16,310
+week, are two different two changes, the negative
+
+468
+00:33:16,310 --> 00:33:20,330
+side both coming from the starting point of very
+
+469
+00:33:20,360 --> 00:33:25,330
+direct statistics as opposed to sticks. And if you
+
+470
+00:33:25,340 --> 00:33:28,100
+are to look back through your notes to that
+
+471
+00:33:28,100 --> 00:33:31,640
+equation before you'll see it does not have an
+
+472
+00:33:31,650 --> 00:33:34,310
+overall negative sign out front, but it does have
+
+473
+00:33:34,310 --> 00:33:38,120
+a relative negative sign, which is the argument of
+
+474
+00:33:38,120 --> 00:33:41,180
+this likability factor. One liners, an exponential
+
+475
+00:33:41,180 --> 00:33:47,750
+rather than one, plus the exponential. So we have
+
+476
+00:33:47,750 --> 00:33:53,450
+plenty of time to do through the calculation of
+
+477
+00:33:53,450 --> 00:33:55,970
+the internal energy and average particle number
+
+478
+00:33:56,540 --> 00:33:57,290
+based on.
+
+479
+00:33:59,340 --> 00:34:03,340
+This economic potential for massive photomontages,
+
+480
+00:34:03,350 --> 00:34:06,030
+just label with that Greek letter, new for
+
+481
+00:34:06,030 --> 00:34:11,970
+Neutrino, where we recall the setup of great
+
+482
+00:34:12,330 --> 00:34:15,300
+potential from now a few weeks ago, the internal
+
+483
+00:34:15,300 --> 00:34:19,500
+energy is just given by the derivative with
+
+484
+00:34:19,500 --> 00:34:22,550
+respect to the infrastructure data of that
+
+485
+00:34:22,570 --> 00:34:26,940
+infrastructure times, economic potential. And for
+
+486
+00:34:26,940 --> 00:34:28,860
+the average particle, no, we have the negative
+
+487
+00:34:28,860 --> 00:34:32,040
+derivative with respect to potential of the
+
+488
+00:34:32,370 --> 00:34:35,640
+economic potential. And then at the end of taking
+
+489
+00:34:35,640 --> 00:34:38,360
+that derivative, we need to set the capital
+
+490
+00:34:38,430 --> 00:34:42,370
+attention to zero. Which has already been done in
+
+491
+00:34:42,370 --> 00:34:45,220
+equation one of the six. We just have that
+
+492
+00:34:45,490 --> 00:34:49,150
+exponential of each Farmigo negativity rather than
+
+493
+00:34:49,150 --> 00:34:53,540
+the additional factor of either the new Oberti.
+
+494
+00:34:54,980 --> 00:34:59,470
+That we're coming for you, so you might as well
+
+495
+00:34:59,470 --> 00:35:07,360
+just go ahead and do those computations where the.
+
+496
+00:35:10,710 --> 00:35:11,490
+Derivative.
+
+497
+00:35:13,580 --> 00:35:17,060
+Of the the function, the detail with respect to
+
+498
+00:35:17,060 --> 00:35:20,850
+data is going to first with the argument of that
+
+499
+00:35:20,850 --> 00:35:27,260
+law into the denominator. And then go through with
+
+500
+00:35:27,260 --> 00:35:29,870
+the chain rule, derivative of that exponential
+
+501
+00:35:29,870 --> 00:35:34,310
+factor with respect to data is indicative of each
+
+502
+00:35:34,330 --> 00:35:38,990
+farmiga the exponential factor itself and then we
+
+503
+00:35:38,990 --> 00:35:43,040
+have. The overall factor of Omega squared coming
+
+504
+00:35:43,080 --> 00:35:48,620
+along. And we can just combine the third of mega.
+
+505
+00:35:49,810 --> 00:35:50,350
+From.
+
+506
+00:35:52,520 --> 00:35:54,740
+Combined with the additional power from the
+
+507
+00:35:54,740 --> 00:35:58,790
+derivative of the exponential factor and change
+
+508
+00:35:58,790 --> 00:36:06,660
+variables as we have for. Tax equal to our mega.
+
+509
+00:36:07,680 --> 00:36:12,290
+For each part of routine, so that this moment
+
+510
+00:36:12,540 --> 00:36:18,810
+dealmaker wielded by the ratio T over H bar to X
+
+511
+00:36:18,810 --> 00:36:21,570
+or X, so.
+
+512
+00:36:23,950 --> 00:36:26,800
+Collecting these constants, the negative signs
+
+513
+00:36:26,800 --> 00:36:32,100
+cancel out each bar over, see huge piles squared,
+
+514
+00:36:32,620 --> 00:36:37,860
+and then. People in factories of T divided by far
+
+515
+00:36:37,860 --> 00:36:43,300
+from. I'll make a cube and from the deal by so in
+
+516
+00:36:43,300 --> 00:36:47,860
+total, four of those factors, the limits of
+
+517
+00:36:47,860 --> 00:36:51,070
+integration remain the same through this direct
+
+518
+00:36:51,070 --> 00:36:57,500
+relation between variable X and if we. Multiply
+
+519
+00:36:57,500 --> 00:37:01,340
+through by the plus data HRO, they could divide it
+
+520
+00:37:01,340 --> 00:37:06,620
+by. Plus each Farmigo multiplied by one, we end up
+
+521
+00:37:06,620 --> 00:37:14,870
+with one over one, but rather X cubed over the
+
+522
+00:37:14,870 --> 00:37:15,860
+positive X.
+
+523
+00:37:18,800 --> 00:37:25,400
+Plus one. Which is one of those fun, no integrals
+
+524
+00:37:25,400 --> 00:37:30,020
+that depends on the remains of function and the
+
+525
+00:37:30,020 --> 00:37:33,800
+gamma function and the particular now that we have
+
+526
+00:37:34,700 --> 00:37:38,480
+a relative positive time in the denominator of
+
+527
+00:37:38,480 --> 00:37:42,620
+these integrals. All that does is bring in a
+
+528
+00:37:42,620 --> 00:37:48,880
+numerical factor. It depends on the power to which
+
+529
+00:37:48,880 --> 00:37:52,930
+this integration variable X is raised numerator a
+
+530
+00:37:52,960 --> 00:37:56,680
+factor of one minus one over to raise of that
+
+531
+00:37:56,680 --> 00:38:01,000
+power. So in this case of executed, we have one
+
+532
+00:38:01,000 --> 00:38:04,540
+minus one over to Cube, which is one minus an
+
+533
+00:38:04,540 --> 00:38:09,030
+eight, which is seven eighths. Again, before it is
+
+534
+00:38:09,030 --> 00:38:12,630
+three factorial, which is six. So six times seven
+
+535
+00:38:12,630 --> 00:38:13,710
+eighths is.
+
+536
+00:38:16,560 --> 00:38:21,360
+Seven times three over four, and then we remind
+
+537
+00:38:21,380 --> 00:38:22,200
+theater function.
+
+538
+00:38:25,750 --> 00:38:26,380
+For.
+
+539
+00:38:29,920 --> 00:38:30,940
+Argument for
+
+540
+00:38:33,130 --> 00:38:39,210
+is it the fourth over 90, so 90 multiplied by four
+
+541
+00:38:39,230 --> 00:38:42,160
+thirds gives us 120 overall factor of seven fourth
+
+542
+00:38:42,700 --> 00:38:47,380
+that we can then plug into the computation
+
+543
+00:38:48,310 --> 00:38:51,740
+underway. To find.
+
+544
+00:38:54,290 --> 00:38:57,020
+That overall seven, we have two factors of pie
+
+545
+00:38:57,020 --> 00:38:59,750
+after canceling out with the two in the
+
+546
+00:39:00,320 --> 00:39:05,810
+denominator, we have T to the power four and then
+
+547
+00:39:05,900 --> 00:39:10,970
+that one hundred twenty each cubed, C cubed. So
+
+548
+00:39:10,970 --> 00:39:11,420
+again,
+
+549
+00:39:13,550 --> 00:39:17,420
+finding the same sort of functional dependence of
+
+550
+00:39:17,420 --> 00:39:20,660
+the energy density that we had for the photon gas
+
+551
+00:39:21,260 --> 00:39:26,890
+where. The. Energy of these this gas of masses
+
+552
+00:39:26,890 --> 00:39:31,780
+neutrinos depends on the volume times temperature
+
+553
+00:39:31,780 --> 00:39:33,070
+to the power for.
+
+554
+00:39:35,820 --> 00:39:41,710
+And if we proceed. The similar substitution in the.
+
+555
+00:39:42,920 --> 00:39:47,640
+Average particle, no density. We're now taking the
+
+556
+00:39:47,640 --> 00:39:52,680
+same sort of derivative, restoring this factor of.
+
+557
+00:39:53,680 --> 00:39:58,410
+E to the. New over tea and then setting up
+
+558
+00:39:58,470 --> 00:40:01,640
+potential value equal to zero at the end, so.
+
+559
+00:40:03,540 --> 00:40:06,690
+Churning through this change of variables more
+
+560
+00:40:06,690 --> 00:40:09,810
+quickly, we will pick up.
+
+561
+00:40:14,900 --> 00:40:19,160
+Only two powers of tea over power from the two
+
+562
+00:40:19,160 --> 00:40:23,300
+factors of Omega squared, plus a third factor from
+
+563
+00:40:23,300 --> 00:40:26,540
+the Omega, the derivative itself is bringing down
+
+564
+00:40:26,840 --> 00:40:32,960
+a factor of beta, which is the inverse temperature,
+
+565
+00:40:32,960 --> 00:40:37,640
+and will eventually cancel out with that out front.
+
+566
+00:40:37,650 --> 00:40:41,390
+So we can cancel that out and be left with just T
+
+567
+00:40:41,390 --> 00:40:46,220
+over H cubed times. But it's almost that same
+
+568
+00:40:46,220 --> 00:40:52,800
+integral. Just now, X squared the X plus one T X.
+
+569
+00:40:54,030 --> 00:40:59,190
+Which follows the same pattern as we had for
+
+570
+00:41:01,440 --> 00:41:06,210
+the integral executed over the X plus one, we now
+
+571
+00:41:06,210 --> 00:41:09,630
+have one minus one or two squared is one minus a
+
+572
+00:41:09,630 --> 00:41:13,470
+quarter, three quarters times Gamma three, which
+
+573
+00:41:13,470 --> 00:41:17,220
+is two factorial or two. So three quarters times
+
+574
+00:41:17,220 --> 00:41:20,970
+two is three 1/2 times this irrational factor, say
+
+575
+00:41:21,090 --> 00:41:28,400
+three of the Roman Zeta function. So. Collecting
+
+576
+00:41:28,760 --> 00:41:31,550
+all that gives us.
+
+577
+00:41:42,030 --> 00:41:50,430
+Rehabs. There it is, so free. Zeta three T cubed
+
+578
+00:41:51,240 --> 00:41:59,810
+over two pi squared each four cubed C cube stone
+
+579
+00:42:01,050 --> 00:42:04,200
+also. As for the case of the photon, yes, the
+
+580
+00:42:04,620 --> 00:42:09,660
+particle number is one powered down in temperature
+
+581
+00:42:09,660 --> 00:42:13,890
+compared to the energy. In other words, that
+
+582
+00:42:14,370 --> 00:42:17,100
+energy of the neutrino gas is proportional to
+
+583
+00:42:20,310 --> 00:42:23,300
+the particle number times temperature, both of
+
+584
+00:42:23,310 --> 00:42:26,340
+which are then personal to buoyant times.
+
+585
+00:42:26,340 --> 00:42:27,600
+Temperature to the fourth.
+
+586
+00:42:29,920 --> 00:42:37,970
+And you can even. Plug in a note here, what that
+
+587
+00:42:38,630 --> 00:42:42,980
+constant of proportionality is where.
+
+588
+00:42:46,480 --> 00:42:50,730
+I have enough room up at the top of the page, all
+
+589
+00:42:50,730 --> 00:42:54,630
+fit on the screen at the same time. Right.
+
+590
+00:42:57,780 --> 00:42:58,230
+This
+
+591
+00:43:00,600 --> 00:43:06,630
+energy as the between a number of times we need to
+
+592
+00:43:06,630 --> 00:43:11,950
+end up with. Seven PI squared times over 120.
+
+593
+00:43:16,620 --> 00:43:20,790
+The factors of heart and see are the same and both
+
+594
+00:43:20,790 --> 00:43:23,340
+of the energy density and particle numbers, so
+
+595
+00:43:23,340 --> 00:43:26,550
+they are accounted for. We just need to cancel out
+
+596
+00:43:26,550 --> 00:43:30,690
+the remaining factors in the particle numbers. So
+
+597
+00:43:30,690 --> 00:43:37,130
+to. PI squared over three, Zyda three. So the
+
+598
+00:43:37,130 --> 00:43:41,240
+overall factor to consider proportionality in this
+
+599
+00:43:41,240 --> 00:43:42,980
+expression is going to be
+
+600
+00:43:45,080 --> 00:43:52,190
+seven pi to the four. Divided by one 20 over to 60
+
+601
+00:43:52,190 --> 00:43:53,180
+times, three is one.
+
+602
+00:43:55,470 --> 00:43:58,980
+Times have Monday, the function of three and then
+
+603
+00:43:59,880 --> 00:44:02,130
+the number times temperature.
+
+604
+00:44:04,900 --> 00:44:09,790
+The last step to the equation of fate for this gas
+
+605
+00:44:09,790 --> 00:44:14,270
+of Marcellus fermions, which looks like a good
+
+606
+00:44:14,290 --> 00:44:21,150
+place to. Lined up for today is to impose the
+
+607
+00:44:21,150 --> 00:44:24,810
+condition of chaos and entropy so that we can take
+
+608
+00:44:24,810 --> 00:44:30,960
+the. Derivative of the energy with respect to the
+
+609
+00:44:31,170 --> 00:44:32,090
+negative volume.
+
+610
+00:44:34,160 --> 00:44:39,420
+And just as for. The photon us.
+
+611
+00:44:41,800 --> 00:44:46,100
+Recalling that the energy is. One over temperature
+
+612
+00:44:46,100 --> 00:44:49,370
+times, the difference between the internal energy
+
+613
+00:44:49,520 --> 00:44:52,640
+and the. Free energy, Europe, the great economic
+
+614
+00:44:52,650 --> 00:44:53,370
+potential.
+
+615
+00:44:55,430 --> 00:45:02,680
+We again have an integral over X. Of each Farmigo.
+
+616
+00:45:04,330 --> 00:45:07,840
+A change of variables that brings in three powers
+
+617
+00:45:07,840 --> 00:45:12,550
+of T divided by far from the three factors of X
+
+618
+00:45:12,550 --> 00:45:16,960
+outside of the logarithm. That integral over the
+
+619
+00:45:16,960 --> 00:45:23,210
+logarithm is yet another. Factor that depends on
+
+620
+00:45:23,570 --> 00:45:28,610
+the remote Zeta function turns out to be something
+
+621
+00:45:28,610 --> 00:45:34,890
+like. Seven to the fourth, over three sixty, which
+
+622
+00:45:34,890 --> 00:45:36,510
+is seven quarters times.
+
+623
+00:45:40,840 --> 00:45:41,740
+Zeta for.
+
+624
+00:45:44,100 --> 00:45:46,650
+But we don't actually care about what that value
+
+625
+00:45:46,650 --> 00:45:50,640
+is, only the functional dependence proportional to
+
+626
+00:45:50,820 --> 00:45:56,660
+volume times T cubed is relevant. Because when we
+
+627
+00:45:57,380 --> 00:46:05,620
+plug that in to. This derivative. We have from the
+
+628
+00:46:05,810 --> 00:46:10,390
+for the energy, there is seven pipes squared to
+
+629
+00:46:10,390 --> 00:46:16,470
+the four. Over 120. Each part you see, Kud.
+
+630
+00:46:21,620 --> 00:46:26,030
+And imposing this constant neutrino entropy.
+
+631
+00:46:28,430 --> 00:46:35,120
+Tells us to fix T equal to some constant times the
+
+632
+00:46:35,690 --> 00:46:40,550
+inverse cube root of the volume. So for powers of
+
+633
+00:46:41,060 --> 00:46:44,840
+B to the minus, a third gives us V to the minus
+
+634
+00:46:44,840 --> 00:46:48,590
+four thirds multiplied by T to the plus one leaves.
+
+635
+00:46:51,230 --> 00:46:51,920
+Overall.
+
+636
+00:46:54,650 --> 00:46:56,390
+B to the minus one third.
+
+637
+00:46:59,940 --> 00:47:02,510
+So derivative with respect to be of some comfort,
+
+638
+00:47:02,600 --> 00:47:07,100
+to be for to minus the 30 counts, for the constant
+
+639
+00:47:07,110 --> 00:47:10,260
+entropy condition, so that derivative just brings
+
+640
+00:47:10,260 --> 00:47:13,590
+down a factor of minus the third cancels the
+
+641
+00:47:14,280 --> 00:47:17,820
+negative sign. You bring down an extra factor of B
+
+642
+00:47:17,820 --> 00:47:23,190
+that we can pull out front and just have all of
+
+643
+00:47:23,190 --> 00:47:28,690
+the house factors coming along. For the ride here
+
+644
+00:47:29,170 --> 00:47:34,670
+to be to the fourth from the city to the fourth to
+
+645
+00:47:34,880 --> 00:47:39,550
+the remaining B to the minus third, which is then
+
+646
+00:47:40,180 --> 00:47:45,190
+just one third of the energy of the neutrino gas
+
+647
+00:47:45,190 --> 00:47:50,500
+divided by volume or rearranging we have.
+
+648
+00:47:52,620 --> 00:47:56,740
+Equation states for Marcellus. Fermions that
+
+649
+00:47:56,740 --> 00:48:01,570
+follows the now familiar. Functional form of the
+
+650
+00:48:01,720 --> 00:48:05,560
+ideal gas law pressure times volume is one
+
+651
+00:48:05,560 --> 00:48:11,890
+thousand times the average internal energy related
+
+652
+00:48:11,890 --> 00:48:15,220
+that average internal energy to the neutrino
+
+653
+00:48:15,220 --> 00:48:18,580
+particle number at the top of the page. So three
+
+654
+00:48:18,580 --> 00:48:22,510
+times when he is five hundred forty five, the
+
+655
+00:48:22,510 --> 00:48:26,590
+factor of seven out of the four over Zyda, three
+
+656
+00:48:26,710 --> 00:48:31,840
+coming along. To give us, again, a different
+
+657
+00:48:32,350 --> 00:48:35,800
+numerical factor compared to both the classical.
+
+658
+00:48:36,860 --> 00:48:41,570
+Ideal gas law equals energy, as well as the
+
+659
+00:48:42,770 --> 00:48:47,630
+equation of state for the photon gas, where we had
+
+660
+00:48:48,810 --> 00:48:53,870
+the factor of PI for over 90 days in the three.
+
+661
+00:48:55,750 --> 00:48:59,830
+That was the ratio of Zyda of four over the three,
+
+662
+00:49:00,220 --> 00:49:04,660
+we have that same ratio of Zeta functions just
+
+663
+00:49:04,660 --> 00:49:09,010
+with an additional seven eighths over three
+
+664
+00:49:09,010 --> 00:49:14,760
+quarters, which boils down to seven six four
+
+665
+00:49:14,830 --> 00:49:19,690
+overstated. Three said yesterday that this ratio
+
+666
+00:49:19,690 --> 00:49:23,980
+was about four point nine. So multiply that by
+
+667
+00:49:23,980 --> 00:49:27,220
+seven. Six gives us another factor, very close to
+
+668
+00:49:27,220 --> 00:49:33,060
+one. So just a few percent deviation from the
+
+669
+00:49:33,060 --> 00:49:37,080
+classical ideal gas law for this gas is Marcellus
+
+670
+00:49:37,560 --> 00:49:44,480
+fermions. And that is that at least was the end of
+
+671
+00:49:44,970 --> 00:49:47,660
+the day, which is why I pushed to get through the
+
+672
+00:49:47,660 --> 00:49:51,290
+end with our immediate questions, we can take them
+
+673
+00:49:51,310 --> 00:49:55,040
+quickly before next class tries to get in here. I
+
+674
+00:49:55,040 --> 00:50:02,660
+see that we are just at the end of time and. And
+
+675
+00:50:02,660 --> 00:50:05,900
+not seeing any real pick up on Friday was just a
+
+676
+00:50:05,900 --> 00:50:10,430
+bit of additional detail about how to accommodate
+
+677
+00:50:11,420 --> 00:50:15,080
+a low but nonzero temperature in that non
+
+678
+00:50:15,080 --> 00:50:17,780
+relativistic from Yungas going beyond the
+
+679
+00:50:17,780 --> 00:50:20,900
+approximation of the FERME function is a step
+
+680
+00:50:20,900 --> 00:50:29,020
+function. So see you back for that. To wrap up the
+
+681
+00:50:29,910 --> 00:50:35,680
+part of first part of this term. Take. The rest of
+
+682
+00:50:35,680 --> 00:50:36,160
+you there.
