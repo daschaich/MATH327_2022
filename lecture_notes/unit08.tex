@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 8}
-\renewcommand{\moddate}{Last modified 29 Mar.~2022}
+\renewcommand{\moddate}{Last modified 1 Apr.~2022}
 \setcounter{section}{8}
 \setcounter{subsection}{0}
 \phantomsection
@@ -366,7 +366,7 @@ It will be convenient to keep this grand-canonical potential in the form of an i
 
 
 % ------------------------------------------------------------------
-\subsection{Low-temperature equation of state}
+\subsection{\label{sec:fermi_lowT}Low-temperature equation of state}
 In contrast to the photon gas, we need to retain the chemical potential in our analyses of non-relativistic fermions, which makes these calculations more complicated.
 To achieve a different simplification, we can focus on the low-temperature regime where we expect quantum Fermi--Dirac statistics to differ significantly from the classical case we considered back in \secref{sec:regulate}.
 As we saw in \secref{sec:quantum_classical}, it is only at high temperatures, with large negative chemical potential, that the classical approach provides a good approximation to the true quantum physics.
@@ -463,7 +463,7 @@ In this limit $T \to 0$, there is only the single quantum micro-state described 
 Adding particles, $\De N > 0$, doesn't increase the number of accessible micro-states, and therefore doesn't increase the entropy $S_{\text{f}} = -\sum_{i = 1}^M p_i \log p_i = 0$, satisfying the constant-entropy condition required by this equation.
 However, this does necessarily increase the energy, because the added particles must fill the first available energy levels, just above the Fermi energy. % TODO: Could remind of continuous approximation used to change from sums to integrals above...
 That is, $\De E = E_F \De N > 0$, and we find $\mu = E_F > E_0 \geq 0$ as claimed earlier in this section.
-It is an interesting but lengthy exercise (discussed in Section~7.3 of Schroeder's \textit{Introduction to Thermal Physics}) to show that controlling the number of fermions in the gas requires the chemical potential to become negative as the temperature increases and we approach the classical limit.
+It is an interesting but lengthy exercise (discussed in the supplement below) to show that the chemical potential becomes negative as the temperature increases and we approach the classical limit.
 
 To get the rest of the way to the low-temperature equation of state for ideal gases of non-relativistic fermions, we need to compute the pressure
 \begin{equation*}
@@ -651,6 +651,7 @@ We will see below that $\mu \leq E_F$, as shown in the right figure above, with 
 
 In order to determine the particle number and internal energy, we need to evaluate the integrals
 \begin{align}
+  \label{eq:DoS_full}
   \vev{N}_{\text{f}} & = g_0 \int_0^{\infty} F(E) \sqrt{E} \; dE \qquad &
   \vev{E}_{\text{f}} & = g_0 \int_0^{\infty} E \; F(E) \sqrt{E} \; dE
 \end{align}
@@ -668,16 +669,16 @@ Changing variables to $x \equiv \be(E - \mu)$, you should find
 \end{equation*}
 This is not obviously simpler than the expression we started with, but has the benefit of being exponentially suppressed for \textit{both}
 \begin{align*}
-  x \gg 1  \qquad \Lra \qquad & \frac{e^x}{\left(e^x + 1\right)^2} \approx \frac{e^x}{e^{2x}} = \frac{1}{e^x} \\
-  x \ll -1 \qquad \Lra \qquad & \frac{e^x}{\left(e^x + 1\right)^2} \approx \frac{e^x}{1} = \frac{1}{e^{-x}}.
+                   x \gg 1  \qquad \Lra \qquad & \frac{e^x}{\left(e^x + 1\right)^2} \approx \frac{e^x}{e^{2x}} = \frac{1}{e^x} \\
+  \mbox{and} \quad x \ll -1 \qquad \Lra \qquad & \frac{e^x}{\left(e^x + 1\right)^2} \approx \frac{e^x}{1} = \frac{1}{e^{-x}}.
 \end{align*}
 The additional $E^{3 / 2}$ factor is far too mild to overcome this exponential suppression.
 In other words, non-negligible contributions to the integral as a whole come only from a region centered at $E = \mu$, which becomes narrower in $E$ as the temperature decreases (corresponding to larger $\be = 1 / T$).
-This is illustrated by the plot below, which shows the exponential suppression setting in when $|E - \mu|$ larger than a few times the temperature, and certainly for $|E - \mu| \gtrsim 5 / \be = 5T$. \\[-24 pt]
+This is illustrated by the plot below, which shows the exponential suppression setting in when $|E - \mu|$ is larger than a few times the temperature, and certainly for $|E - \mu| \gtrsim 5 / \be = 5T$. \\[-24 pt]
 \begin{center}\noindent\includegraphics[width=0.5\textwidth]{figs/unit08_Sommerfeld.pdf}\end{center} % WARNING: ADJUSTED SIZE BY HAND TO FILL REMAINDER OF PAGE
 
 These considerations justify two low-temperature approximations.
-First, recalling $\mu > 0$ at low temperatures, for large \be (say $\be\mu \gtrsim 10$) we are free to extend the lower limit of the integral to obtain a more convenient domain of integration,
+First, recalling $\mu > 0$ at low temperatures, for large \be we are free to extend the lower limit of the integral to obtain a more convenient domain of integration,
 \begin{equation*}
   \vev{N}_{\text{f}} = \frac{2}{3} g_0 \int_{-\be\mu}^{\infty} \frac{e^x}{\left(e^x + 1\right)^2} E^{3 / 2} \; dx \approx \frac{2}{3} g_0 \int_{-\infty}^{\infty} \frac{e^x}{\left(e^x + 1\right)^2} E^{3 / 2} \; dx.
 \end{equation*}
@@ -687,7 +688,7 @@ Second, we can expand $E^{3 / 2}$ in a Taylor series around $E = \mu$, and trunc
             & = \mu^{3 / 2} + \frac{3}{2} (E - \mu) \mu^{1 / 2} + \frac{3}{8} (E - \mu)^2 \mu^{-1 / 2} = \mu^{3 / 2} + \frac{3}{2} \frac{x \mu^{1 / 2}}{\be} + \frac{3}{8} \frac{x^2 \mu^{-1 / 2}}{\be^2}.
 \end{align*}
 
-Switching to work in terms of $T = 1 / \be$, the Sommerfeld expansion has given us a series of manageable integrals we can consider one by one:
+Switching to work with $T = 1 / \be$, the Sommerfeld expansion has given us a series of manageable integrals we can consider one by one:
 \begin{equation*}
   \vev{N}_{\text{f}} \approx \frac{2}{3} g_0 \mu^{3 / 2} \Ibb_1 + g_0 T \mu^{1 / 2} \Ibb_2 + \frac{g_0 T^2}{4\mu^{1 / 2}} \Ibb_3.
 \end{equation*}
@@ -696,14 +697,14 @@ Switching to work in terms of $T = 1 / \be$, the Sommerfeld expansion has given 
   $\displaystyle \Ibb_2 = \int_{-\infty}^{\infty} \frac{x e^x}{\left(e^x + 1\right)^2} \; dx = $ \\[80 pt]
   $\displaystyle \Ibb_3 = \int_{-\infty}^{\infty} \frac{x^2 e^x}{\left(e^x + 1\right)^2} \; dx = $ \\[110 pt] % WARNING: ADJUSTED SIZE BY HAND TO FILL REMAINDER OF PAGE
 \end{mdframed}
-Collecting the results, you should find
+Collecting the results and restoring $g_0 = V \frac{\sqrt{2m^3}}{\pi^2 \hbar^3}$, you should find
 \begin{equation*}
-  \vev{N}_{\text{f}} \approx \frac{2}{3} g_0 \mu^{3 / 2} + g_0 \frac{\pi^2 T^2}{12\mu^{1 / 2}}.
+  \vev{N}_{\text{f}} \approx \frac{2}{3} g_0 \mu^{3 / 2} + g_0 \frac{\pi^2 T^2}{12\mu^{1 / 2}} = V \frac{(2m\mu)^{3 / 2}}{3\pi^2\hbar^3} + V \frac{\sqrt{2m^3}}{12\hbar^3 \mu^{1 / 2}} T^2.
 \end{equation*}
-This becomes more interesting when we restore the explicit constant factors in $g_0$ from \eq{eq:number}, especially if we rearrange \eq{eq:Fermi_energy} to relate these to the Fermi energy $E_F$:
+The first term reproduces what we found with the step-function approximation in \secref{sec:fermi_lowT}, while the second term provides the promised temperature dependence, at leading order in the Sommerfeld expansion.
+This becomes more interesting if we rearrange \eq{eq:Fermi_energy} to work in terms of the Fermi energy:
 \begin{mdframed}
-  $\displaystyle g_0 = V \frac{\sqrt{2m^3}}{\pi^2 \hbar^3}$ \\
-  $\displaystyle E_F = \frac{\hbar^2}{2m}\left(\frac{3\pi^2 \vev{N}_{\text{f}}}{V}\right)^{2 / 3}$ \\[120 pt]
+  $\displaystyle E_F = \frac{\hbar^2}{2m}\left(\frac{3\pi^2 \vev{N}_{\text{f}}}{V}\right)^{2 / 3} \Lra $ \\[120 pt]
 \end{mdframed}
 
 The result
@@ -713,12 +714,63 @@ The result
 can be simplified through one final low-temperature approximation.
 Because $T$ is small, just in the second term above we can set $E_F \approx \mu$ (the zero-temperature relation).
 Then
-\begin{equation*}
-  \frac{\mu}{E_F} \approx 1 - \frac{\pi^2 T^2}{12 \mu^2},
-\end{equation*}
+\begin{equation}
+  \label{eq:mu_vs_T}
+  \frac{\mu}{E_F} \approx 1 - \frac{\pi^2 T^2}{12 E_F^2},
+\end{equation}
 which confirms our earlier claim $\mu \leq E_F$, and reveals that the leading correction to the zero-temperature relation is quadratic in $T$.
 
-\TODO{...}
+The calculation is essentially the same for the internal energy from \eq{eq:DoS_full}.
+With $E^{3 / 2}$ in place of $E^{1 / 2}$, integrating by parts just gives
+\begin{equation*}
+  \vev{E}_{\text{f}} = g_0 \int_0^{\infty} \frac{E^{3 / 2}}{e^{\be(E - \mu)} + 1} dE \approx \frac{2}{5} g_0 \int_{-\infty}^{\infty} \frac{e^x}{\left(e^x + 1\right)^2} E^{5 / 2} \; dx
+\end{equation*}
+with the same $x = \be(E - \mu)$ and extended lower limit of integration.
+The Taylor expansion
+\begin{equation*}
+  E^{5 / 2} \approx \mu^{5 / 2} + \frac{5}{2} (E - \mu) \mu^{3 / 2} + \frac{15}{8} (E - \mu)^2 \mu^{1 / 2} = \mu^{5 / 2} + \frac{5}{2} \frac{x \mu^{3 / 2}}{\be} + \frac{15}{8} \frac{x^2 \mu^{1 / 2}}{\be^2}
+\end{equation*}
+also produces the same integrals, with different coefficients:
+\begin{equation*}
+  \vev{E}_{\text{f}} \approx \frac{2}{5} g_0 \mu^{5 / 2} \Ibb_1 + g_0 T \mu^{3 / 2} \Ibb_2 + \frac{3}{4} g_0 T^2 \mu^{1 / 2} \Ibb_3 = \frac{2}{5} g_0 \mu^{5 / 2} + \frac{1}{4} g_0 \pi^2 T^2 \mu^{1 / 2}.
+\end{equation*}
+Inserting $g_0 = \frac{3\vev{N}_{\text{f}}}{2E_F^{3 / 2}}$, we have
+\begin{equation*}
+  \vev{E}_{\text{f}} \approx \frac{3}{5} \vev{N}_{\text{f}} \frac{\mu^{5 / 2}}{E_F^{3 / 2}} + \frac{3}{8} \vev{N}_{\text{f}} \pi^2 T^2 \frac{\mu^{1 / 2}}{E_F^{3 / 2}},
+\end{equation*}
+which we can simplify by applying \eq{eq:mu_vs_T} and dropping $\cO\left(T^3\right)$ terms:
+\begin{mdframed}
+  $\displaystyle \mu^{5 / 2} \approx $ \\[100 pt]
+\end{mdframed}
+From your result you should obtain the heat capacity
+\begin{equation*}
+  c_v = \left. \pderiv{}{T} \vev{E} \right|_{N,V} \approx \frac{\pi^2}{2} \frac{\vev{N}_{\text{f}}}{E_F} T.
+\end{equation*}
+This low-temperature linear dependence on $T$ agrees with experimental heat capacity measurements, as we will see in the next tutorial.
 
+As a final comment in this supplement, let's consider what would happen to $\vev{N}_{\text{f}}$ at higher temperatures $T^2 \sim E_F^2$, for which the two terms in \eq{eq:mu_vs_T} would cancel out, leaving $\cO(T^4 / E_F^4)$ effects non-negligible.
+In this regime, there's no guarantee that the low-temperature Sommerfeld expansion would even converge, so we need to work with the full integral from \eq{eq:DoS_full}.
+Fortunately, it is not hard to numerically evaluate this integral, which is done by \href{https://github.com/daschaich/MATH327_2022/blob/master/lecture_notes/unit08_fermi-gas.py}{this Python code}.
+For the purpose of numerical analysis, it's best to express everything in terms of dimensionless ratios, such as
+\begin{align*}
+  t & \equiv \frac{T}{E_F} \qquad &
+  c & \equiv \frac{\mu}{E_F} \qquad &
+  x & \equiv \frac{E}{T} = \be E.
+\end{align*}
+Also inserting $g_0 = \frac{3\vev{N}_{\text{f}}}{2E_F^{3 / 2}}$, we have
+\begin{equation*}
+  \vev{N}_{\text{f}} = \frac{3\vev{N}_{\text{f}}}{2E_F^{3 / 2}} \int_0^{\infty} \frac{\sqrt{E}}{e^{\be(E - \mu)} + 1} dE = \frac{3\vev{N}_{\text{f}}}{2} t^{3 / 2} \int_0^{\infty} \frac{\sqrt{x} e^{-x}}{e^{-c / t} + e^{-x}} dx,
+\end{equation*}
+working with small $e^{-\be E} = e^{-x}$ rather than large $e^x$ to avoid numerical overflow.
 
+As in \eq{eq:mu_vs_T}, $\vev{N}_{\text{f}}$ drops out, and we end up with the consistency condition
+\begin{equation}
+  1 = \frac{3}{2} t^{3 / 2} \int_0^{\infty} \frac{\sqrt{x} e^{-x}}{e^{-c / t} + e^{-x}} dx.
+\end{equation}
+If we fix the temperature $t = T / E_F$ in units of the Fermi energy, by repeatedly evaluating this integral with different values of $c = \mu / E_F$ we can determine the self-consistent value of the chemical potential, also in units of the Fermi energy.
+The red $\times$'s in the figure below are results of such work for eleven temperatures $0.1 \leq t \leq 2$, compared to the $\cO\left(t^2\right)$ result from the Sommerfeld expansion, \eq{eq:mu_vs_T}.
+This leading-order Sommerfeld expansion clearly deviates from the full results by the time $T \sim E_F$.
+The more interesting result is that the chemical potential continues to decrease as the temperature increases, becoming negative for $T \gtrsim E_F$ and approaching the expected high-temperature classical limit.
+
+\begin{center}\noindent\includegraphics[width=0.8\textwidth]{figs/unit08_fermi-gas.pdf}\end{center}
 % ------------------------------------------------------------------
