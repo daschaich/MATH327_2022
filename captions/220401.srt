@@ -1,0 +1,2743 @@
+1
+00:00:02,150 --> 00:00:05,560
+So we may as well get underway.
+
+2
+00:00:09,530 --> 00:00:15,110
+Let's deal with the six-digit number before I forget.  For this morning, it is three six
+
+3
+00:00:16,430 --> 00:00:19,240
+nine nine three zero.
+
+4
+00:00:23,840 --> 00:00:27,380
+So, we've reached the last day before the spring break,
+
+5
+00:00:27,380 --> 00:00:31,370
+though it feels less like spring out there than at this
+
+6
+00:00:31,370 --> 00:00:37,830
+time last week. And we have gotten
+
+7
+00:00:37,860 --> 00:00:42,900
+through Unit 8 on quantum gases of bosons
+
+8
+00:00:42,900 --> 00:00:45,480
+and fermions with enough speed that we
+
+9
+00:00:45,480 --> 00:00:50,390
+have this hour to get a bit more into some of
+
+10
+00:00:50,430 --> 00:00:56,210
+the fun details justifying some of the claims and
+
+11
+00:00:56,510 --> 00:01:01,280
+approximations that we went through earlier.
+
+12
+00:01:01,700 --> 00:01:04,850
+Before digging into that, we can just recall the
+
+13
+00:01:04,850 --> 00:01:07,670
+brief recap without running things down, since we
+
+14
+00:01:07,670 --> 00:01:10,970
+are changing gears just a little bit. That's so
+
+15
+00:01:10,970 --> 00:01:13,540
+far this week we focused on Fortum gases, the
+
+16
+00:01:13,550 --> 00:01:17,810
+fermions looking both at the non relativistic low
+
+17
+00:01:17,810 --> 00:01:21,530
+temperatures where we approximated this very
+
+18
+00:01:21,530 --> 00:01:26,120
+function as a step function. Michael responds to
+
+19
+00:01:26,120 --> 00:01:30,290
+all energy levels filled up, to be fair, energy
+
+20
+00:01:30,470 --> 00:01:34,340
+equals to the chemical potential view at zero
+
+21
+00:01:34,340 --> 00:01:37,460
+temperature and then all higher energy levels
+
+22
+00:01:38,510 --> 00:01:42,830
+unoccupied or empty. And this had interesting
+
+23
+00:01:42,830 --> 00:01:48,380
+effects, both in producing a value for the average
+
+24
+00:01:48,380 --> 00:01:50,990
+particle number, an average natural energy that
+
+25
+00:01:50,990 --> 00:01:54,650
+we're independent of the temperature, as well as a
+
+26
+00:01:54,920 --> 00:01:59,390
+non-zero degeneracy pressure that was also
+
+27
+00:01:59,810 --> 00:02:02,270
+independent of the temperature remaining zero even
+
+28
+00:02:02,270 --> 00:02:05,540
+at the limit of absolute zero, and is responsible
+
+29
+00:02:05,540 --> 00:02:10,370
+for processes known as type one supernovas that
+
+30
+00:02:10,370 --> 00:02:14,330
+have been of great utility to astrophysics and
+
+31
+00:02:14,330 --> 00:02:18,140
+cosmology. And we then looked a bit more briefly
+
+32
+00:02:18,140 --> 00:02:21,290
+at the opposite. The ultra relativistic Fergana
+
+33
+00:02:21,290 --> 00:02:25,550
+gases motivated by neutrinos, which are very
+
+34
+00:02:25,550 --> 00:02:30,620
+nearly massless particles coming up with a
+
+35
+00:02:30,920 --> 00:02:33,200
+equation of states that limit that looked a bit
+
+36
+00:02:33,200 --> 00:02:36,470
+more like what we are used to, almost exactly the
+
+37
+00:02:36,470 --> 00:02:39,830
+same as the photon gas, just different by a factor
+
+38
+00:02:39,830 --> 00:02:43,000
+of seven six. So about 20 percent different
+
+39
+00:02:43,000 --> 00:02:46,300
+numerical factor in the usual relation, TV
+
+40
+00:02:46,300 --> 00:02:48,520
+proportional to a..
+
+41
+00:02:51,810 --> 00:02:52,560
+And today.
+
+42
+00:02:55,170 --> 00:02:59,560
+The plan is to. Build on the novelistic side of
+
+43
+00:02:59,560 --> 00:03:04,600
+things a bit by asking what happens if we have a
+
+44
+00:03:05,320 --> 00:03:07,930
+small but not zero temperature to the extent that
+
+45
+00:03:07,930 --> 00:03:12,760
+we cannot approximate this very function as a
+
+46
+00:03:12,760 --> 00:03:17,560
+simple step function to a reasonable level of
+
+47
+00:03:17,560 --> 00:03:21,100
+approximation? We can start to try to start by
+
+48
+00:03:21,100 --> 00:03:23,230
+asking if there are any questions about what we
+
+49
+00:03:23,230 --> 00:03:28,020
+have seen this week and the main topic of this
+
+50
+00:03:28,150 --> 00:03:37,230
+that. We want to go beyond what was. Initially in
+
+51
+00:03:37,230 --> 00:03:41,130
+the syllabus on the topic of quantum gases of
+
+52
+00:03:41,130 --> 00:03:47,100
+fermions, just to illustrate one application where
+
+53
+00:03:47,100 --> 00:03:50,610
+it is indeed necessary to go beyond that low
+
+54
+00:03:50,610 --> 00:03:56,100
+temperature approximation of the Fermi energy as a
+
+55
+00:03:56,100 --> 00:03:57,930
+step function, which is if we consider the heat
+
+56
+00:03:57,930 --> 00:04:02,640
+capacity as the derivative with respect to the
+
+57
+00:04:02,640 --> 00:04:05,520
+internal energy, the derivative of the internal
+
+58
+00:04:05,520 --> 00:04:09,300
+energy with respect to the temperature. From the
+
+59
+00:04:09,300 --> 00:04:13,510
+approximation. Of this family function as a social
+
+60
+00:04:13,510 --> 00:04:16,470
+function, reminding you here what that full family
+
+61
+00:04:16,510 --> 00:04:20,850
+function is essentially the. Fairly direct
+
+62
+00:04:21,690 --> 00:04:25,740
+occupation, number four, an energy level with this
+
+63
+00:04:25,740 --> 00:04:26,830
+energy e
+
+64
+00:04:29,370 --> 00:04:33,000
+approximating this as a step function, which is
+
+65
+00:04:33,000 --> 00:04:36,180
+exactly correct, only the limit of the temperature
+
+66
+00:04:36,180 --> 00:04:39,720
+going to zero corresponding to the rest of it be
+
+67
+00:04:39,770 --> 00:04:44,350
+to go into infinity. Then the temperature
+
+68
+00:04:44,350 --> 00:04:48,130
+independence result for the energy gives us
+
+69
+00:04:48,560 --> 00:04:52,860
+ignition key capacity, the capacity going to zero.
+
+70
+00:04:53,170 --> 00:04:56,170
+So we have essentially no information about how
+
+71
+00:04:56,170 --> 00:04:58,650
+the heat capacity behaves at zero temperature,
+
+72
+00:04:58,690 --> 00:05:01,760
+what it is related to and with what numerical
+
+73
+00:05:01,780 --> 00:05:03,970
+factors. And as we saw in last week's tutorial, is
+
+74
+00:05:03,970 --> 00:05:07,840
+heat capacity is one of the most convenient things
+
+75
+00:05:07,840 --> 00:05:10,480
+for experimentalists to measure. So it's
+
+76
+00:05:11,050 --> 00:05:15,690
+worthwhile. Give me a solid prediction for how it
+
+77
+00:05:15,690 --> 00:05:20,760
+behaves at low temperatures as opposed to in the
+
+78
+00:05:20,760 --> 00:05:22,410
+limit of absolute zero temperature.
+
+79
+00:05:27,470 --> 00:05:31,460
+The starting point for this analysis is to go back
+
+80
+00:05:31,460 --> 00:05:34,040
+to the sort of expression that we had for
+
+81
+00:05:34,590 --> 00:05:39,500
+political number and think about. What to do with
+
+82
+00:05:39,500 --> 00:05:42,800
+it when we cannot approximate the very function as
+
+83
+00:05:42,800 --> 00:05:45,050
+a step function, which is our earlier calculations,
+
+84
+00:05:45,050 --> 00:05:47,870
+just killed off the whole range of this integral
+
+85
+00:05:47,870 --> 00:05:52,090
+about equal to you and brought in the factor of
+
+86
+00:05:53,300 --> 00:05:56,690
+use of the three has. Just the cost of
+
+87
+00:05:56,690 --> 00:06:00,080
+proportionality in front of it and for convenience,
+
+88
+00:06:00,080 --> 00:06:04,040
+both in this calculation and if we circle back to
+
+89
+00:06:04,040 --> 00:06:06,740
+look at those Einstein conversations in the
+
+90
+00:06:06,740 --> 00:06:09,320
+tutorial after the break, it's convenient to
+
+91
+00:06:09,320 --> 00:06:13,850
+package. Everything apart from that family
+
+92
+00:06:13,850 --> 00:06:17,810
+function as some other function, what is known as
+
+93
+00:06:18,140 --> 00:06:22,810
+the density of estates. So this. Combination of
+
+94
+00:06:22,810 --> 00:06:26,800
+volume times, the square root of two times the
+
+95
+00:06:26,800 --> 00:06:29,680
+part of the mass cubed times, the energy all over
+
+96
+00:06:29,680 --> 00:06:32,470
+the square root and the normal factor pi squared
+
+97
+00:06:32,470 --> 00:06:33,640
+plus constitute.
+
+98
+00:06:36,050 --> 00:06:39,380
+Is essentially here just a shorthand that we could
+
+99
+00:06:39,380 --> 00:06:42,890
+do without that becomes convenient, as you will
+
+100
+00:06:42,890 --> 00:06:45,160
+see, we're going through the calculations and all
+
+101
+00:06:45,180 --> 00:06:48,290
+those constants. We can just package into a single.
+
+102
+00:06:49,290 --> 00:06:55,650
+The variable juice not. That we can plug back in
+
+103
+00:06:55,650 --> 00:06:59,130
+once we've gone through all of the manipulations.
+
+104
+00:07:00,160 --> 00:07:03,190
+And the density of states is essentially what it
+
+105
+00:07:03,190 --> 00:07:06,550
+says on the tin. It is the number of single
+
+106
+00:07:06,550 --> 00:07:09,090
+particle energy levels for some physical energy
+
+107
+00:07:09,130 --> 00:07:14,440
+states now expressed as a density, not per unit
+
+108
+00:07:14,440 --> 00:07:18,970
+volume, but per unit energy. So density of states
+
+109
+00:07:18,970 --> 00:07:21,670
+is a function of the energy. And we can read this
+
+110
+00:07:21,670 --> 00:07:23,980
+equation one hundred seven for the average
+
+111
+00:07:23,980 --> 00:07:27,880
+particle number to be the integral over the number
+
+112
+00:07:27,880 --> 00:07:32,800
+of energy levels given energy range multiplied by
+
+113
+00:07:32,800 --> 00:07:35,290
+the very function that gives us the probability
+
+114
+00:07:35,470 --> 00:07:39,820
+for each of those energy levels to be filled as a
+
+115
+00:07:39,820 --> 00:07:44,290
+function of that energy. So these two plots here
+
+116
+00:07:45,520 --> 00:07:50,980
+grab from one of the textbooks in the recommended
+
+117
+00:07:51,110 --> 00:07:54,190
+supplemental material in the lecture. This is.
+
+118
+00:07:55,860 --> 00:07:58,650
+Showing how the states, the states and the
+
+119
+00:07:58,980 --> 00:08:02,550
+integral more generally work out, but in the case
+
+120
+00:08:02,550 --> 00:08:07,770
+of zero temperature on the left where the family
+
+121
+00:08:07,800 --> 00:08:10,740
+functioned as a step function, it guarantees that
+
+122
+00:08:10,740 --> 00:08:15,630
+all states up to the energy are filled, all of
+
+123
+00:08:15,630 --> 00:08:18,450
+those with the higher energy or empty that shaded.
+
+124
+00:08:19,500 --> 00:08:22,470
+Which corresponds to field versus MPU states and
+
+125
+00:08:22,470 --> 00:08:25,950
+the total number of particles manages to go over
+
+126
+00:08:25,950 --> 00:08:30,250
+that shaded area and the density of states times
+
+127
+00:08:30,250 --> 00:08:34,300
+their step function. And once we. Go to a.
+
+128
+00:08:35,560 --> 00:08:39,260
+Strictly positive, but still small temperature, we
+
+129
+00:08:39,280 --> 00:08:44,050
+pick up some non-zero probability for energy
+
+130
+00:08:44,050 --> 00:08:46,480
+levels with values of the energy larger than the
+
+131
+00:08:46,810 --> 00:08:51,100
+energy use of F to be filled. And this did not
+
+132
+00:08:51,100 --> 00:08:55,860
+come out so well that the overall. No particles
+
+133
+00:08:55,870 --> 00:09:00,360
+now. Is the area under the solid curve that
+
+134
+00:09:00,360 --> 00:09:03,870
+multiplies together the density of states,
+
+135
+00:09:04,110 --> 00:09:06,840
+essentially the square root e times, the constant
+
+136
+00:09:07,500 --> 00:09:11,070
+and the primary function, that's exponentially
+
+137
+00:09:11,070 --> 00:09:15,030
+suppresses the probability of energy level with
+
+138
+00:09:15,030 --> 00:09:17,700
+higher energies being occupied? And one other
+
+139
+00:09:17,700 --> 00:09:25,500
+thing we can note. About. This way of visualizing
+
+140
+00:09:26,400 --> 00:09:32,090
+things is that for every one of these. Higher
+
+141
+00:09:32,090 --> 00:09:36,200
+energy levels that is occupied, the particle
+
+142
+00:09:36,200 --> 00:09:37,130
+occupying it
+
+143
+00:09:39,140 --> 00:09:42,680
+at caesura temperature would fit within the range
+
+144
+00:09:42,680 --> 00:09:45,530
+given by the Fermi Energy. So there is a one to
+
+145
+00:09:45,530 --> 00:09:49,790
+one correspondence between these occupied higher
+
+146
+00:09:49,790 --> 00:09:52,340
+energy levels in the unoccupied.
+
+147
+00:09:55,550 --> 00:09:59,320
+Lower energy levels to the left of that Fairbury
+
+148
+00:09:59,330 --> 00:10:02,030
+energy at lower energies and the feminine energy,
+
+149
+00:10:03,370 --> 00:10:07,900
+we can also see that that's due again to the very
+
+150
+00:10:07,910 --> 00:10:12,080
+energy being set by. The average number of
+
+151
+00:10:12,130 --> 00:10:18,950
+particles, so that that vertical line, the energy.
+
+152
+00:10:20,490 --> 00:10:23,610
+Is just counting the number of particles in the
+
+153
+00:10:24,390 --> 00:10:27,750
+occupied states and the rate of it must match up
+
+154
+00:10:28,290 --> 00:10:32,980
+one to one with an occupied state to the left. One
+
+155
+00:10:32,980 --> 00:10:37,270
+other feature of this plot at non-zero temperature
+
+156
+00:10:37,270 --> 00:10:41,380
+is that the chemical potential now no longer
+
+157
+00:10:41,380 --> 00:10:45,040
+exactly corresponds to the fear of the energy. If
+
+158
+00:10:45,040 --> 00:10:48,580
+we go back to the purity function just briefly, we
+
+159
+00:10:48,580 --> 00:10:52,660
+can see that when the energy equals the chemical
+
+160
+00:10:52,660 --> 00:10:56,200
+potential, the argument of an exponential function
+
+161
+00:10:56,200 --> 00:11:02,320
+vanishes. So zero is one and the energy reduces to
+
+162
+00:11:02,470 --> 00:11:09,250
+one over one plus one half. And this happens at a
+
+163
+00:11:09,250 --> 00:11:14,190
+value of energy that approaches the Fairbury
+
+164
+00:11:14,200 --> 00:11:17,080
+energy and the zero temperature limit and is
+
+165
+00:11:17,080 --> 00:11:21,310
+smaller than the thermal energy for non-zero
+
+166
+00:11:21,310 --> 00:11:27,910
+temperatures, which is a claim that we can confirm
+
+167
+00:11:28,270 --> 00:11:34,630
+by actually going through the evaluation of these
+
+168
+00:11:34,840 --> 00:11:37,750
+bills, both for average particle number and
+
+169
+00:11:38,290 --> 00:11:44,420
+average internal energy. That's. As we saw in our
+
+170
+00:11:44,420 --> 00:11:47,630
+earlier work, differ only by the presence of an
+
+171
+00:11:47,630 --> 00:11:50,840
+extra factor of the energy being carried by
+
+172
+00:11:51,500 --> 00:11:52,940
+particles that are being counted.
+
+173
+00:11:55,520 --> 00:11:59,990
+So before diving into the mathematics of how to
+
+174
+00:12:00,650 --> 00:12:02,810
+evaluate this as you go through this check to see
+
+175
+00:12:02,810 --> 00:12:06,260
+that no questions about the basic motivation or
+
+176
+00:12:06,620 --> 00:12:08,780
+setup we're going to here.
+
+177
+00:12:11,220 --> 00:12:15,440
+And not seeing any. You will go through what is
+
+178
+00:12:15,440 --> 00:12:18,200
+called the Somerfield expansion, something that
+
+179
+00:12:18,200 --> 00:12:22,640
+was mentioned last week, I think with the
+
+180
+00:12:23,060 --> 00:12:25,640
+temperature independence limit being just the
+
+181
+00:12:25,640 --> 00:12:29,600
+first term in this expansion. And what we will see
+
+182
+00:12:29,600 --> 00:12:33,590
+is that the Somerfield expansion is really just a
+
+183
+00:12:33,590 --> 00:12:37,940
+glorified timber expansion where the real work is
+
+184
+00:12:37,940 --> 00:12:42,040
+done in setting up the problem in a form where it
+
+185
+00:12:42,050 --> 00:12:45,620
+faler expansion that can be justified looking at.
+
+186
+00:12:47,510 --> 00:12:52,130
+The stuff is complicated integrals that involve
+
+187
+00:12:52,520 --> 00:12:55,220
+square roots of energy divided by exponential
+
+188
+00:12:55,220 --> 00:12:59,930
+functions in the energy. So the first step in
+
+189
+00:12:59,990 --> 00:13:06,110
+Zurfluh expansion is to integrate by parts. And
+
+190
+00:13:06,110 --> 00:13:08,470
+because it's been a while since you've done
+
+191
+00:13:08,490 --> 00:13:10,340
+integration bypass, I'll just remind you of the
+
+192
+00:13:10,940 --> 00:13:14,010
+schematic setup that we have something to go and
+
+193
+00:13:14,030 --> 00:13:17,900
+we can express as a function. You times the
+
+194
+00:13:17,900 --> 00:13:20,120
+differential factor of the different function.
+
+195
+00:13:20,120 --> 00:13:26,200
+D.V. and this is equal to, again, schematically,
+
+196
+00:13:26,420 --> 00:13:28,370
+the product of those two functions. You would be
+
+197
+00:13:28,370 --> 00:13:34,130
+evaluated the integration minus the integral of
+
+198
+00:13:34,610 --> 00:13:40,190
+the function v the differential to you. So to
+
+199
+00:13:40,190 --> 00:13:47,040
+apply this integration by parts to integrated. Of
+
+200
+00:13:47,040 --> 00:13:52,560
+the average particle, no. What we do is identify
+
+201
+00:13:52,740 --> 00:13:57,330
+that function, you as the family function itself,
+
+202
+00:13:57,330 --> 00:13:59,250
+which we're no longer approximating as a step
+
+203
+00:13:59,250 --> 00:14:04,140
+function, and then DV is everything else. So that
+
+204
+00:14:04,680 --> 00:14:09,540
+square root, the times, which means that the
+
+205
+00:14:09,540 --> 00:14:15,160
+corresponding function V. Is each of the three
+
+206
+00:14:15,160 --> 00:14:20,200
+halves power with a two thirds in front to cancel
+
+207
+00:14:20,200 --> 00:14:23,540
+off the power and get back to that differential
+
+208
+00:14:23,540 --> 00:14:25,690
+for so.
+
+209
+00:14:27,700 --> 00:14:32,740
+Putting in this identification into the integral
+
+210
+00:14:32,740 --> 00:14:39,190
+that we have, we have you times V is. Two thirds
+
+211
+00:14:39,610 --> 00:14:43,300
+energy, the three times that fermenters year
+
+212
+00:14:43,300 --> 00:14:47,650
+function you evaluated at energy equals zero and
+
+213
+00:14:47,650 --> 00:14:52,090
+infinity, and then we subtract off two thirds of
+
+214
+00:14:52,090 --> 00:14:57,980
+the integral zero to infinity. Of the three times
+
+215
+00:14:57,980 --> 00:15:01,760
+the differential over you, which is the derivative
+
+216
+00:15:02,660 --> 00:15:06,470
+of the family function. Times the differential to
+
+217
+00:15:08,150 --> 00:15:08,570
+now.
+
+218
+00:15:10,690 --> 00:15:13,810
+The first term was called the boundary term, we
+
+219
+00:15:13,810 --> 00:15:19,210
+have particularly simple results, we've seen that
+
+220
+00:15:19,210 --> 00:15:22,690
+that Fermoy function is always some number between
+
+221
+00:15:22,690 --> 00:15:25,750
+zero and one. So with some finite number is
+
+222
+00:15:25,750 --> 00:15:30,940
+multiplied by zero zero. And the limit where the
+
+223
+00:15:30,940 --> 00:15:36,580
+energy goes to infinity is to pull up every
+
+224
+00:15:36,640 --> 00:15:40,510
+function again and look at that for any non-zero
+
+225
+00:15:40,510 --> 00:15:44,160
+temperatures will find a better. As he goes to
+
+226
+00:15:44,160 --> 00:15:47,040
+infinity, the exponential factor is large, the
+
+227
+00:15:47,130 --> 00:15:50,550
+fear, the energy goes to zero zero again. So all
+
+228
+00:15:50,550 --> 00:15:55,360
+of these battery terms. They both the initial go
+
+229
+00:15:55,360 --> 00:16:02,120
+to zero. And we can repackage the remainder of the
+
+230
+00:16:02,120 --> 00:16:06,620
+integral as two thirds. I was the integral of
+
+231
+00:16:07,340 --> 00:16:13,730
+minus derivative of the function and the energy to
+
+232
+00:16:13,730 --> 00:16:16,280
+be free Avesta
+
+233
+00:16:18,440 --> 00:16:18,920
+and.
+
+234
+00:16:21,250 --> 00:16:26,260
+Looking at the. Negative, integral with respect to
+
+235
+00:16:26,260 --> 00:16:30,820
+energy of the family function, she can achieve the
+
+236
+00:16:31,720 --> 00:16:36,310
+end of energy, minus the potential plus one to the
+
+237
+00:16:36,310 --> 00:16:40,960
+minus one power. Taking the derivative of that
+
+238
+00:16:41,590 --> 00:16:46,600
+brings that exponential factor. Down into
+
+239
+00:16:47,460 --> 00:16:52,030
+numerator with that extra power squared, and then
+
+240
+00:16:52,030 --> 00:16:57,190
+the chain will move with minus one factor for the
+
+241
+00:16:57,220 --> 00:17:02,500
+power cases up front, the chain rule then gives us
+
+242
+00:17:03,250 --> 00:17:10,620
+a factor of theta times due to. So that's why this
+
+243
+00:17:10,620 --> 00:17:10,980
+new.
+
+244
+00:17:13,200 --> 00:17:17,550
+And we can change variables to make this a bit
+
+245
+00:17:17,550 --> 00:17:22,440
+more compactly, especially to the X, X plus one.
+
+246
+00:17:23,520 --> 00:17:27,410
+Involving the X plus one squared where X is this
+
+247
+00:17:27,410 --> 00:17:33,530
+combination. Of the difference in energy minus
+
+248
+00:17:33,530 --> 00:17:34,460
+chemical potential.
+
+249
+00:17:36,690 --> 00:17:41,010
+So plugging that in to the
+
+250
+00:17:43,170 --> 00:17:49,000
+grid that we have, we end up with. Same two thirds
+
+251
+00:17:49,510 --> 00:17:52,320
+integral from zero to infinity will now be able to
+
+252
+00:17:52,330 --> 00:17:56,210
+go over this. One of the X.
+
+253
+00:17:58,210 --> 00:18:06,010
+And you can just rate. The integrated. Is the X?
+
+254
+00:18:07,290 --> 00:18:09,440
+Over the years, plus one squared.
+
+255
+00:18:13,510 --> 00:18:15,700
+Times either the power of three has taken that
+
+256
+00:18:15,700 --> 00:18:21,240
+data from the. Derivative you and bringing it into
+
+257
+00:18:21,680 --> 00:18:25,080
+a differential factor which could be recognized as
+
+258
+00:18:25,080 --> 00:18:26,610
+the differential factor of.
+
+259
+00:18:28,870 --> 00:18:35,380
+X with the ID, that one equals zero at the lower
+
+260
+00:18:35,380 --> 00:18:40,680
+level of integration, X is minus the Times MU. So
+
+261
+00:18:40,680 --> 00:18:41,340
+we out of.
+
+262
+00:18:44,320 --> 00:18:49,960
+Terms of. X with just this residual. Factor of
+
+263
+00:18:49,960 --> 00:18:52,690
+energy to the three house power left over.
+
+264
+00:18:55,830 --> 00:18:59,280
+But this expression here that if you drive.
+
+265
+00:19:01,280 --> 00:19:04,100
+If we plug in the overall collection of constants
+
+266
+00:19:04,340 --> 00:19:08,180
+zero that appears in the density of states, it was
+
+267
+00:19:08,990 --> 00:19:12,280
+Eurocracy factor relating the average particle
+
+268
+00:19:12,290 --> 00:19:18,000
+number to this particular integral. And it might
+
+269
+00:19:18,000 --> 00:19:21,300
+be the question, why go through the trouble of his
+
+270
+00:19:21,300 --> 00:19:23,730
+credit cards just to end up with something that
+
+271
+00:19:23,730 --> 00:19:26,490
+looks like such a mess with ratios of exponential
+
+272
+00:19:27,360 --> 00:19:33,000
+and a term that has already that is now related to
+
+273
+00:19:33,000 --> 00:19:38,910
+X and someone that obviously the advantage of
+
+274
+00:19:38,910 --> 00:19:44,310
+doing this, which. Sommerfeld, that was smart
+
+275
+00:19:44,310 --> 00:19:47,510
+enough or skilled enough to see and we can
+
+276
+00:19:47,520 --> 00:19:50,010
+appreciate by looking at the figure at the bottom
+
+277
+00:19:50,010 --> 00:19:54,570
+of this page, is to recognize that by casting the
+
+278
+00:19:54,570 --> 00:19:58,970
+integral in this for. We have something that is.
+
+279
+00:19:59,870 --> 00:20:04,320
+Exponentially suppressed both in the region of
+
+280
+00:20:04,320 --> 00:20:08,900
+large X, where that the denominator is
+
+281
+00:20:08,900 --> 00:20:12,660
+approximately E to the X squared, in the case of
+
+282
+00:20:12,680 --> 00:20:14,420
+the other people, the X with the numerator, we end
+
+283
+00:20:14,420 --> 00:20:17,090
+up with one over an exponentially worse number,
+
+284
+00:20:17,610 --> 00:20:21,650
+but it's also exponentially suppressed. The
+
+285
+00:20:21,650 --> 00:20:27,350
+opposite of it when X is a very negative number,
+
+286
+00:20:27,440 --> 00:20:30,860
+margin lending to small zero, where the
+
+287
+00:20:30,860 --> 00:20:35,150
+exponential of a large negative number is much
+
+288
+00:20:35,150 --> 00:20:37,520
+less than one. And the.
+
+289
+00:20:39,630 --> 00:20:43,980
+Overall, integrated is then or can be expressed as
+
+290
+00:20:43,980 --> 00:20:47,430
+one over another, exponentially large number
+
+291
+00:20:47,850 --> 00:20:50,500
+exponentially with minus X, which is a much larger
+
+292
+00:20:50,540 --> 00:20:54,870
+one, and the remaining factor of X of the three
+
+293
+00:20:54,870 --> 00:20:58,870
+halves coming from that energy. Can't really do
+
+294
+00:20:58,870 --> 00:21:03,550
+anything about an exponential factor. Suppressing
+
+295
+00:21:03,550 --> 00:21:09,340
+things, and I've left that. That could be the
+
+296
+00:21:09,340 --> 00:21:12,760
+three halves of the plot here, what we could see.
+
+297
+00:21:13,920 --> 00:21:21,120
+Is it sharply function around? The region where
+
+298
+00:21:21,540 --> 00:21:24,050
+the energy is equal to the chemical potential,
+
+299
+00:21:24,630 --> 00:21:29,070
+this combination is being the time square minus
+
+300
+00:21:29,070 --> 00:21:33,690
+new, centered around zero. And this rapidly dies
+
+301
+00:21:33,690 --> 00:21:38,790
+off as this combination of quantities becomes even
+
+302
+00:21:38,790 --> 00:21:39,090
+just
+
+303
+00:21:41,820 --> 00:21:44,470
+a factor of a few. And certainly by the time we
+
+304
+00:21:44,490 --> 00:21:48,420
+are five, there's almost nothing left in the tail
+
+305
+00:21:48,420 --> 00:21:52,740
+on either side of this function. The important
+
+306
+00:21:52,740 --> 00:21:56,160
+thing is the appearance of BITA and that
+
+307
+00:21:56,160 --> 00:22:00,200
+accommodation, which means that. If we fix the
+
+308
+00:22:00,200 --> 00:22:02,870
+temperature at a low value that corresponds to a
+
+309
+00:22:03,200 --> 00:22:06,860
+large volume of beta, then we don't have to shift
+
+310
+00:22:06,890 --> 00:22:12,980
+very far away in absolute terms of the energy from
+
+311
+00:22:12,980 --> 00:22:16,550
+away from that chemical potential in order for the
+
+312
+00:22:16,550 --> 00:22:23,240
+Interbrand to be completely negligible. So this
+
+313
+00:22:23,240 --> 00:22:26,180
+factor of five that I pointed out here corresponds
+
+314
+00:22:26,180 --> 00:22:29,840
+to the absolute value of embarrassment greater
+
+315
+00:22:29,840 --> 00:22:32,240
+than about five times the temperature. So the
+
+316
+00:22:32,240 --> 00:22:34,310
+lower the temperature, the quicker this
+
+317
+00:22:34,310 --> 00:22:36,580
+exponential suppression sets in.
+
+318
+00:22:39,630 --> 00:22:43,620
+And that is the. The Senate version of the bill
+
+319
+00:22:44,160 --> 00:22:49,770
+came up with, which allows two approximations
+
+320
+00:22:49,770 --> 00:22:54,480
+valid at low temperatures, the first of which is
+
+321
+00:22:56,190 --> 00:22:59,840
+to simplify the structure of this integral change
+
+322
+00:22:59,850 --> 00:23:04,560
+of the lower limit of integration that was minus
+
+323
+00:23:04,560 --> 00:23:12,290
+daytime's view. If we consider the. The limit of a
+
+324
+00:23:13,730 --> 00:23:19,220
+large data set to something greater than you might
+
+325
+00:23:19,220 --> 00:23:21,890
+be under 10 or more, you can see that.
+
+326
+00:23:24,060 --> 00:23:27,630
+Emerging, this region of integration is bringing
+
+327
+00:23:27,630 --> 00:23:32,070
+in all the major contributions that don't show up
+
+328
+00:23:32,460 --> 00:23:40,530
+in this plot from a region of very small X, so we
+
+329
+00:23:40,530 --> 00:23:44,070
+are free to include those in with the integration
+
+330
+00:23:44,070 --> 00:23:47,960
+domain that. Is it more convenient to work with?
+
+331
+00:23:49,410 --> 00:23:52,230
+When we actually try to evaluate these integrals
+
+332
+00:23:53,400 --> 00:23:57,930
+in order to put that back on the screen there, in
+
+333
+00:23:57,930 --> 00:24:00,970
+order to actually evaluate these integrals, we
+
+334
+00:24:00,970 --> 00:24:05,040
+need to handle this factor of each of the three
+
+335
+00:24:05,040 --> 00:24:09,660
+hands, which is a second approximation we can do
+
+336
+00:24:09,660 --> 00:24:14,460
+through a Taylor expansion. I mentioned expanding
+
+337
+00:24:14,670 --> 00:24:20,500
+the energy around MUE. Precisely because this is
+
+338
+00:24:20,500 --> 00:24:24,310
+the region where the integration is not negligible
+
+339
+00:24:24,670 --> 00:24:27,790
+and this becomes a very narrow region as the
+
+340
+00:24:28,540 --> 00:24:34,540
+temperature decreases, so the first few terms in
+
+341
+00:24:34,570 --> 00:24:37,360
+this Taylor expansion, we start off with just that
+
+342
+00:24:37,360 --> 00:24:40,870
+central value, usually the three halves, and then
+
+343
+00:24:40,870 --> 00:24:44,310
+take the derivative of each of the three as set
+
+344
+00:24:44,350 --> 00:24:49,330
+equal to view and multiply that by the linear
+
+345
+00:24:49,420 --> 00:24:52,150
+factor so that derivatives just brings down the
+
+346
+00:24:52,150 --> 00:24:57,520
+power. Three halves we set to view the remaining
+
+347
+00:24:57,520 --> 00:25:01,870
+square root factor and the next term does the same
+
+348
+00:25:01,870 --> 00:25:05,350
+thing with the second derivative. So we bring down
+
+349
+00:25:05,370 --> 00:25:09,310
+first. A factor of three has been another factor,
+
+350
+00:25:09,340 --> 00:25:12,270
+one half gets three quarters tops. Another factor
+
+351
+00:25:12,270 --> 00:25:16,020
+of one half gets three eighths. The square
+
+352
+00:25:16,020 --> 00:25:21,000
+displacement is minus two. And now the result of
+
+353
+00:25:21,000 --> 00:25:23,770
+two derivatives into the three halves is key to
+
+354
+00:25:23,790 --> 00:25:28,470
+the minus half. That is set to the chemical
+
+355
+00:25:28,470 --> 00:25:33,390
+potential, which we can now rewrite in terms of
+
+356
+00:25:33,390 --> 00:25:35,330
+integer powers of X.
+
+357
+00:25:39,260 --> 00:25:39,740
+This.
+
+358
+00:25:41,740 --> 00:25:45,090
+We recall, oops. Is.
+
+359
+00:25:47,180 --> 00:25:49,400
+This actor, by the time, has the energy Midas
+
+360
+00:25:49,400 --> 00:25:53,240
+chemical potential. So each of these is new terms,
+
+361
+00:25:53,840 --> 00:26:00,110
+is a power of X over data. And by virtue of having
+
+362
+00:26:00,770 --> 00:26:04,250
+X raised to an integer power in the resulting
+
+363
+00:26:04,250 --> 00:26:06,290
+integrals, it becomes something much more
+
+364
+00:26:06,290 --> 00:26:10,810
+tractable than trying to integrate the square root
+
+365
+00:26:10,820 --> 00:26:11,630
+of execute.
+
+366
+00:26:14,420 --> 00:26:19,310
+So. If we just rewrite those babies as we're in
+
+367
+00:26:19,310 --> 00:26:24,670
+terms of the temperature we have. A few leading
+
+368
+00:26:24,670 --> 00:26:28,410
+terms for the average particle, no, in terms of
+
+369
+00:26:28,430 --> 00:26:33,010
+particles that we can consider one by one. So the
+
+370
+00:26:33,010 --> 00:26:35,860
+first term in this expansion is just the constant
+
+371
+00:26:36,310 --> 00:26:39,070
+attention to the three halves that gets pulled out
+
+372
+00:26:39,070 --> 00:26:44,220
+of this integral over. Frightened to go of the X
+
+373
+00:26:44,220 --> 00:26:47,730
+over the X plus one square, so we need to evaluate
+
+374
+00:26:47,730 --> 00:26:51,690
+that. We need to evaluate the next term that has
+
+375
+00:26:51,690 --> 00:26:56,970
+one factor of X showing up alongside the
+
+376
+00:26:56,970 --> 00:27:00,030
+exponential factors and of the extremities, the
+
+377
+00:27:00,210 --> 00:27:05,100
+powers of X, so X squared times the X over the X
+
+378
+00:27:05,100 --> 00:27:05,670
+plus one.
+
+379
+00:27:07,780 --> 00:27:11,080
+In the interest of time, I'll just charge through
+
+380
+00:27:11,080 --> 00:27:16,850
+these integrals. Show you how they're done that
+
+381
+00:27:16,850 --> 00:27:22,420
+rather than leaving them for you to work on. The
+
+382
+00:27:22,600 --> 00:27:25,740
+trick to the first interview was to go back to.
+
+383
+00:27:26,980 --> 00:27:31,420
+The integration by parts we did a few minutes ago
+
+384
+00:27:31,540 --> 00:27:36,000
+and recognize that this. It's the X or the X plus
+
+385
+00:27:36,000 --> 00:27:40,980
+one squared is closely related to the derivative
+
+386
+00:27:40,980 --> 00:27:44,970
+of the family function, in particular, if you keep
+
+387
+00:27:44,970 --> 00:27:50,400
+track of all the factors, the data can see that up
+
+388
+00:27:50,400 --> 00:27:56,450
+to a negative sign. This integration is just. The
+
+389
+00:27:56,550 --> 00:27:59,610
+derivative of that very function as a function of
+
+390
+00:27:59,610 --> 00:28:03,420
+energy integrated over that energy rather than
+
+391
+00:28:04,020 --> 00:28:11,310
+over X, as we have defined it, like the integral
+
+392
+00:28:11,670 --> 00:28:16,740
+of a derivative, just gives us the value of that
+
+393
+00:28:16,740 --> 00:28:20,820
+function. That's why it is the. Antiderivative,
+
+394
+00:28:21,030 --> 00:28:23,970
+and this is evaluated, but the energy is minus
+
+395
+00:28:23,970 --> 00:28:25,680
+infinity to infinity,
+
+396
+00:28:27,840 --> 00:28:32,940
+recalling that very function that we have here is
+
+397
+00:28:32,940 --> 00:28:37,620
+just integrated between zero and one. This limit
+
+398
+00:28:37,620 --> 00:28:40,230
+where the energy is plus or minus infinity is
+
+399
+00:28:40,230 --> 00:28:44,220
+exactly where this function becomes zero or one.
+
+400
+00:28:44,700 --> 00:28:49,500
+So when the energy is infinite, this is a very
+
+401
+00:28:49,500 --> 00:28:53,040
+large exponential factor for a non-zero up finite
+
+402
+00:28:53,880 --> 00:28:56,460
+or any finite data, which is the right temperature
+
+403
+00:28:57,480 --> 00:29:00,570
+and whatever. A very large number, then infinitely
+
+404
+00:29:00,570 --> 00:29:06,200
+large number. Those to zero to the other limit of
+
+405
+00:29:06,680 --> 00:29:09,600
+E going to negative infinity again for a finite.
+
+406
+00:29:10,490 --> 00:29:13,300
+We have a very small number and B for every
+
+407
+00:29:13,340 --> 00:29:17,480
+function goes to one. So that's what that integral
+
+408
+00:29:17,480 --> 00:29:19,640
+is, just one.
+
+409
+00:29:22,480 --> 00:29:29,170
+The second integral. We can do a similarly simple
+
+410
+00:29:29,170 --> 00:29:36,760
+calculation just by. Expanding out the square in
+
+411
+00:29:36,760 --> 00:29:40,540
+the denominator's, this is two powers of the X
+
+412
+00:29:40,540 --> 00:29:47,590
+plus one. And then if we divide through by X in
+
+413
+00:29:47,600 --> 00:29:52,390
+the numerator, we end up with. Is the integral of
+
+414
+00:29:52,390 --> 00:29:57,130
+X over one of those factors, B, B, B, X, plus one,
+
+415
+00:29:57,730 --> 00:30:01,720
+the dividing through gives us one plus E to the
+
+416
+00:30:01,720 --> 00:30:07,470
+minus X over X. And we can see that this
+
+417
+00:30:07,740 --> 00:30:13,370
+denominator now is symmetric if we exchange the
+
+418
+00:30:13,410 --> 00:30:16,980
+gate X, so replacing X goes to Windows X, we just
+
+419
+00:30:16,980 --> 00:30:21,420
+swap these two terms in parentheses. So that is an
+
+420
+00:30:21,420 --> 00:30:25,740
+even function in the denominator. It's obviously a
+
+421
+00:30:25,740 --> 00:30:29,430
+function of the numerator. I heard the results
+
+422
+00:30:29,430 --> 00:30:33,450
+coming from from you already, the integration of
+
+423
+00:30:33,810 --> 00:30:38,020
+an overall odd function. Across a domain, that
+
+424
+00:30:38,020 --> 00:30:41,500
+symmetrical ground zero is indeed zero, and this
+
+425
+00:30:41,500 --> 00:30:42,910
+would actually hold for.
+
+426
+00:30:45,060 --> 00:30:48,390
+All of the higher terms in this Taylor expansion
+
+427
+00:30:48,390 --> 00:30:54,350
+that you have. The powers of X in these tentacles,
+
+428
+00:30:55,400 --> 00:30:59,480
+so we can already know that the T cubed term here
+
+429
+00:30:59,810 --> 00:31:03,480
+is going to vanish and the fourth is going to be
+
+430
+00:31:03,480 --> 00:31:07,970
+the first power that we have collected. I guess
+
+431
+00:31:07,970 --> 00:31:12,550
+the interesting thing happens now. When we have
+
+432
+00:31:12,550 --> 00:31:18,600
+the T squared, a term that is proportional to this
+
+433
+00:31:18,610 --> 00:31:23,710
+final integral X squared plus one squared. So this
+
+434
+00:31:23,710 --> 00:31:26,980
+is even if the goal is not varnishing, it's not
+
+435
+00:31:26,980 --> 00:31:33,040
+just a antiderivative. And what we can do here is,
+
+436
+00:31:33,820 --> 00:31:39,730
+again, go through integration by parts. Really, we
+
+437
+00:31:40,630 --> 00:31:44,350
+said that function. You want to be the X squared
+
+438
+00:31:45,040 --> 00:31:50,260
+and then give. Is everything else you'd be next or
+
+439
+00:31:50,270 --> 00:31:57,440
+even next? Plus one squared the X. Which, as we
+
+440
+00:31:57,440 --> 00:32:01,900
+have seen, is that VSL is the negative ferry
+
+441
+00:32:01,910 --> 00:32:05,840
+function. I just want everything to be X plus one
+
+442
+00:32:07,700 --> 00:32:09,950
+and. Just.
+
+443
+00:32:13,030 --> 00:32:17,560
+As before, we will get. The.
+
+444
+00:32:20,180 --> 00:32:25,010
+Very out. It is actually convenient here to note
+
+445
+00:32:25,010 --> 00:32:27,980
+that because this is an even function, I forgot to
+
+446
+00:32:27,980 --> 00:32:31,520
+drive that argument to its conclusion. We can
+
+447
+00:32:32,120 --> 00:32:36,110
+change the meaning of integration to be zero to
+
+448
+00:32:36,110 --> 00:32:41,860
+infinity with just a factor of two. For each side.
+
+449
+00:32:43,480 --> 00:32:50,700
+Of. That symmetric debate of integration and now
+
+450
+00:32:50,700 --> 00:32:56,520
+putting in. You times V, you get minus two X
+
+451
+00:32:56,530 --> 00:33:02,710
+squared. X plus one evaluated at zero and infinity,
+
+452
+00:33:02,900 --> 00:33:05,750
+and then the subtraction cancels out the negative
+
+453
+00:33:05,750 --> 00:33:13,500
+sign you have twice the integral of. View, which
+
+454
+00:33:13,500 --> 00:33:18,660
+is to ex again over either the ex plus one.
+
+455
+00:33:24,920 --> 00:33:31,010
+Now, just as you saw in our first integration by
+
+456
+00:33:31,010 --> 00:33:34,580
+parts, just when it's convenient to change the
+
+457
+00:33:34,580 --> 00:33:36,810
+standard of integration, we have the fabric
+
+458
+00:33:36,830 --> 00:33:41,300
+function times SULABH something proportional to
+
+459
+00:33:41,480 --> 00:33:47,630
+the energy and that energy is zero zero, sort of
+
+460
+00:33:47,660 --> 00:33:51,440
+the numerator of the energy goes to infinity. We
+
+461
+00:33:51,440 --> 00:33:55,910
+get zero from the infinitely large factor in the
+
+462
+00:33:55,910 --> 00:34:01,040
+denominator. We are again left with no so-called
+
+463
+00:34:01,040 --> 00:34:07,340
+boundry term and just the integration over. X
+
+464
+00:34:08,000 --> 00:34:13,310
+divided by X plus one, which is an integral we
+
+465
+00:34:13,310 --> 00:34:19,180
+have seen before. Let me see if I can track it
+
+466
+00:34:19,180 --> 00:34:23,890
+down in a reasonably short amount of time.
+
+467
+00:34:30,210 --> 00:34:34,890
+When we were looking at the ultra relativistic gas
+
+468
+00:34:34,890 --> 00:34:41,370
+of neutrinos, you had a couple of particles of
+
+469
+00:34:41,370 --> 00:34:45,870
+this form, axis of power divided by the X plus one,
+
+470
+00:34:45,870 --> 00:34:52,740
+the X. And we saw a general expression for. Those
+
+471
+00:34:52,760 --> 00:34:57,090
+integrals in terms of numerical factors, gamma
+
+472
+00:34:57,090 --> 00:35:02,660
+functions and Zeta functions going power lower. So
+
+473
+00:35:02,660 --> 00:35:05,270
+rather than dwelling on the
+
+474
+00:35:07,650 --> 00:35:13,070
+experience of the ex, we have to go over to X
+
+475
+00:35:13,070 --> 00:35:16,670
+times, even the X, so there's no overall factor of
+
+476
+00:35:16,670 --> 00:35:21,710
+four that we have already. There is that one minus
+
+477
+00:35:22,310 --> 00:35:27,160
+one over to the one power. Now the pre factor and
+
+478
+00:35:27,170 --> 00:35:31,940
+then you a function of two and Z the function of
+
+479
+00:35:32,090 --> 00:35:32,570
+two.
+
+480
+00:35:35,130 --> 00:35:38,310
+Get a function of two is one factorial, which is
+
+481
+00:35:38,310 --> 00:35:44,400
+one four times a half is two and three one zero
+
+482
+00:35:44,410 --> 00:35:48,060
+function with only the two to pick it up or I'll
+
+483
+00:35:48,060 --> 00:35:53,400
+just tell you, it is over six. So the result of
+
+484
+00:35:53,400 --> 00:35:58,700
+this integral is high speed over three and. One,
+
+485
+00:35:59,000 --> 00:36:01,280
+the is in to her expression.
+
+486
+00:36:04,400 --> 00:36:08,540
+The average price number, the first thing to go
+
+487
+00:36:08,540 --> 00:36:12,340
+was just one second. Zero zero third integral is
+
+488
+00:36:12,350 --> 00:36:18,650
+high school level three, which we collect gives us
+
+489
+00:36:19,460 --> 00:36:23,330
+this expression. Is that cost factor that depends
+
+490
+00:36:23,330 --> 00:36:26,810
+on you to the three halves. And then PI squared
+
+491
+00:36:26,810 --> 00:36:29,870
+over three times, four times the temperature
+
+492
+00:36:29,870 --> 00:36:34,070
+squared divided by the square root of the chemical
+
+493
+00:36:34,100 --> 00:36:41,820
+potential. So in restoring this constant vector.
+
+494
+00:36:43,260 --> 00:36:50,360
+In the density of states. We have. To. Times
+
+495
+00:36:50,380 --> 00:36:54,130
+Square two is the three of two or three times
+
+496
+00:36:54,140 --> 00:36:57,450
+higher than the previous path, potentially again
+
+497
+00:36:57,490 --> 00:37:00,970
+divided by three per square each barbequed, which
+
+498
+00:37:00,970 --> 00:37:04,450
+is exactly what we found in the limit of zero
+
+499
+00:37:04,460 --> 00:37:07,120
+temperature with the step function approximation
+
+500
+00:37:07,780 --> 00:37:12,410
+for the very function. And we now have the leading
+
+501
+00:37:12,490 --> 00:37:14,840
+correction to that, which depends quite
+
+502
+00:37:14,840 --> 00:37:20,070
+dramatically on the temperature and has a one over
+
+503
+00:37:20,080 --> 00:37:23,710
+square root chemical potential term similar to
+
+504
+00:37:23,710 --> 00:37:26,810
+that with similar factors of the mass of the three
+
+505
+00:37:27,040 --> 00:37:30,940
+power plants constant, chilled by squares, cancel
+
+506
+00:37:30,940 --> 00:37:34,030
+out with that rebound, say the function of two.
+
+507
+00:37:36,160 --> 00:37:40,780
+This actually becomes even more interesting if we
+
+508
+00:37:40,780 --> 00:37:45,340
+express it in terms of the family energy, a way to
+
+509
+00:37:45,760 --> 00:37:51,550
+wrap up the average part of the of convenience for
+
+510
+00:37:52,090 --> 00:37:56,170
+what we saw already with the density of states. So
+
+511
+00:37:56,380 --> 00:38:01,050
+kicking the three has power of both sides of this
+
+512
+00:38:01,060 --> 00:38:06,790
+equation gives us a huge. Over
+
+513
+00:38:08,830 --> 00:38:12,790
+two into the three handles China threatens to lead
+
+514
+00:38:12,900 --> 00:38:19,510
+to. Q And then the terms in parentheses are
+
+515
+00:38:19,530 --> 00:38:24,730
+reasonably linear power, there's a three PI
+
+516
+00:38:24,730 --> 00:38:25,270
+squared.
+
+517
+00:38:27,360 --> 00:38:31,470
+An average particle, no, in the factor of the
+
+518
+00:38:31,470 --> 00:38:38,740
+volume. Which we can. Recognize, I've written this
+
+519
+00:38:38,740 --> 00:38:44,290
+here, that volume times routes to include is the
+
+520
+00:38:44,290 --> 00:38:49,450
+numerator of zero. That's pi squared cubed shows
+
+521
+00:38:49,450 --> 00:38:54,580
+up with nominator. So if I replace. Everything but
+
+522
+00:38:54,940 --> 00:39:03,370
+the three have end with. This G zero relation
+
+523
+00:39:03,370 --> 00:39:08,190
+between. The cost factor and the density of states
+
+524
+00:39:08,610 --> 00:39:12,840
+and the energy. To the three power.
+
+525
+00:39:14,930 --> 00:39:20,400
+Which plugging things in to this equation here. V0.
+
+526
+00:39:23,410 --> 00:39:29,170
+Equals three and the two, if you're one of the
+
+527
+00:39:29,170 --> 00:39:33,420
+three, Halsy. Three halves and two thirds cancel
+
+528
+00:39:33,420 --> 00:39:33,840
+out.
+
+529
+00:39:36,110 --> 00:39:42,230
+And we end up with just and three times this ratio
+
+530
+00:39:42,230 --> 00:39:48,900
+of view over here to the three haves. And if
+
+531
+00:39:48,930 --> 00:39:52,160
+something similar happens in the second term. G
+
+532
+00:39:52,230 --> 00:39:58,620
+zero is three, pi squared, T three has divided by
+
+533
+00:39:58,920 --> 00:40:01,770
+12 is three eighths
+
+534
+00:40:03,810 --> 00:40:08,190
+or sorry, one of the three Kansas 12 the four
+
+535
+00:40:08,190 --> 00:40:12,690
+which is double to eight. So there is again that
+
+536
+00:40:12,790 --> 00:40:17,940
+be a factor of average particle number PI squared
+
+537
+00:40:18,120 --> 00:40:23,860
+T squared over eight. Times that energy, the three
+
+538
+00:40:23,860 --> 00:40:28,120
+haves just as the previous term, and then the
+
+539
+00:40:28,270 --> 00:40:33,370
+square root of chemical potential. And what is?
+
+540
+00:40:35,030 --> 00:40:37,220
+Fun about writing things in this way is that we
+
+541
+00:40:37,220 --> 00:40:41,700
+now have. With the average particle number wrapped
+
+542
+00:40:41,700 --> 00:40:44,950
+up in the Fairbury function. The explicit
+
+543
+00:40:44,950 --> 00:40:48,790
+dependence on the average particle, no cancels out
+
+544
+00:40:49,780 --> 00:40:54,250
+and we can rearrange to isolate this ratio of
+
+545
+00:40:54,370 --> 00:40:58,160
+chemical potential in terms of units of the Fermi
+
+546
+00:40:58,180 --> 00:40:58,690
+energy.
+
+547
+00:41:00,700 --> 00:41:04,890
+Which of the left hand side we have, the one that
+
+548
+00:41:06,400 --> 00:41:10,900
+we can subtract from that square to square over.
+
+549
+00:41:11,900 --> 00:41:16,490
+It's very interesting to the three house, to the
+
+550
+00:41:17,210 --> 00:41:20,840
+square root, and then raise everything to the two
+
+551
+00:41:20,840 --> 00:41:25,790
+thirds power to pick out just that ratio. So that
+
+552
+00:41:25,790 --> 00:41:29,570
+is what is written below. We have successfully
+
+553
+00:41:29,570 --> 00:41:36,640
+reproduced. Target. And again, considering low
+
+554
+00:41:36,640 --> 00:41:41,350
+temperatures and neglecting the order key to the
+
+555
+00:41:41,350 --> 00:41:47,630
+fourth terms. We can just expand this Powerball.
+
+556
+00:41:54,770 --> 00:42:00,020
+As one minus two thirds times, this factors that
+
+557
+00:42:00,020 --> 00:42:04,280
+two or three to six that date back up to 12, and
+
+558
+00:42:04,730 --> 00:42:07,940
+because the second term is already small, we will
+
+559
+00:42:07,940 --> 00:42:12,530
+introduce a small error from setting the ferry
+
+560
+00:42:12,530 --> 00:42:15,020
+energy to be the chemical potential, which is
+
+561
+00:42:15,310 --> 00:42:20,880
+which is at zero temperatures. The error in this
+
+562
+00:42:20,880 --> 00:42:24,550
+identification is coming in at order of
+
+563
+00:42:24,600 --> 00:42:28,830
+temperature squared and is part of a term that is
+
+564
+00:42:28,830 --> 00:42:31,530
+under the order temperature squared. So overall,
+
+565
+00:42:32,010 --> 00:42:35,940
+that is accurate up to terms for neglecting the
+
+566
+00:42:35,940 --> 00:42:38,370
+fourth power in the temperature relative to the
+
+567
+00:42:38,370 --> 00:42:42,960
+family function. And that that combines those
+
+568
+00:42:42,960 --> 00:42:47,130
+three has one power into an overall function
+
+569
+00:42:47,130 --> 00:42:51,900
+squared. And we end up with this equation is known
+
+570
+00:42:52,110 --> 00:42:57,400
+as a consistency condition. That comes from the
+
+571
+00:42:57,400 --> 00:43:01,450
+average particle, but doesn't explicitly depend on
+
+572
+00:43:01,450 --> 00:43:05,600
+that, apart from, as it appears, within the fairly
+
+573
+00:43:05,620 --> 00:43:11,920
+energy. I see that the free energy approaches the
+
+574
+00:43:11,920 --> 00:43:14,800
+chemical potential as the temperature goes to zero,
+
+575
+00:43:15,190 --> 00:43:17,650
+and then we've derived a living correction, which
+
+576
+00:43:17,650 --> 00:43:21,530
+is indeed negative, decreasing the chemical
+
+577
+00:43:21,530 --> 00:43:26,020
+potential, which is exactly what we claimed at the
+
+578
+00:43:26,020 --> 00:43:31,460
+start of the supplement. So this is one of those
+
+579
+00:43:31,460 --> 00:43:37,480
+claims justified and. And check to see if there
+
+580
+00:43:37,510 --> 00:43:42,010
+are questions about the Sommerfeld expansion that
+
+581
+00:43:42,610 --> 00:43:46,390
+we have now gone through to meeting order to get
+
+582
+00:43:46,390 --> 00:43:47,640
+this result.
+
+583
+00:43:54,670 --> 00:44:00,820
+So looking at the time, we have to. Final pieces
+
+584
+00:44:00,820 --> 00:44:05,500
+in this little supplemental. We can get through
+
+585
+00:44:05,500 --> 00:44:07,870
+one of those documents, remember this morning,
+
+586
+00:44:08,590 --> 00:44:13,420
+circle back to the other one in the afternoon. We
+
+587
+00:44:13,420 --> 00:44:17,350
+need a tutorial. This is a supplement anyway, so
+
+588
+00:44:17,440 --> 00:44:20,860
+no harm then shifting just the last couple of
+
+589
+00:44:20,860 --> 00:44:26,140
+paragraphs to the tutorial. You can go much more
+
+590
+00:44:26,140 --> 00:44:30,430
+quickly through the computation of the average
+
+591
+00:44:30,430 --> 00:44:38,030
+internal energy. Which, as we have seen is. Set up
+
+592
+00:44:38,030 --> 00:44:40,220
+almost the same as the average particle, no, just
+
+593
+00:44:40,220 --> 00:44:44,390
+brings an additional factor of energy. So overall
+
+594
+00:44:44,690 --> 00:44:48,530
+power of energy to the three haves. Rather than
+
+595
+00:44:48,620 --> 00:44:52,610
+energy to the one has to be integrated, so the
+
+596
+00:44:52,610 --> 00:44:57,200
+only difference in integrated parts is that we end
+
+597
+00:44:57,200 --> 00:45:03,980
+up with that function is now two fifths of the
+
+598
+00:45:03,980 --> 00:45:08,080
+five halves, two thirds of the three halves. So
+
+599
+00:45:08,090 --> 00:45:13,310
+change in the numerical factor and the function of
+
+600
+00:45:13,310 --> 00:45:17,830
+energy that we are going to be putting through our
+
+601
+00:45:17,960 --> 00:45:22,580
+expansion, having reformulated things. In the
+
+602
+00:45:22,580 --> 00:45:29,110
+sharp explosion around. Equal to you, the Taylor
+
+603
+00:45:29,110 --> 00:45:31,780
+expansion itself is almost the same. You just pick
+
+604
+00:45:31,780 --> 00:45:35,740
+up different numeric factors for taking the
+
+605
+00:45:35,740 --> 00:45:40,270
+derivative into the five halves. We also have
+
+606
+00:45:40,270 --> 00:45:43,630
+different powers of view that appear in these
+
+607
+00:45:43,630 --> 00:45:46,910
+first three terms. So five has three 1/2 and
+
+608
+00:45:46,930 --> 00:45:50,290
+positive one half rather than the three halves and
+
+609
+00:45:50,290 --> 00:45:54,910
+plus or minus half that came from the previous
+
+610
+00:45:55,240 --> 00:46:02,630
+magic number. And plugging all of this in, we find
+
+611
+00:46:02,630 --> 00:46:07,050
+that we have to deal with the same integrals which
+
+612
+00:46:07,090 --> 00:46:12,250
+we found to be one zero and PI squared over three.
+
+613
+00:46:13,900 --> 00:46:17,650
+So at the end we have the average internal energy
+
+614
+00:46:18,160 --> 00:46:22,330
+give it in terms of the chemical potential as we
+
+615
+00:46:22,500 --> 00:46:26,200
+use the five halves, plus a correction that is
+
+616
+00:46:26,200 --> 00:46:30,060
+again, quadratic in the temperature and now
+
+617
+00:46:30,070 --> 00:46:33,270
+depends on the square root of new.
+
+618
+00:46:36,970 --> 00:46:40,360
+And just as we did at the top of this page, we
+
+619
+00:46:40,360 --> 00:46:43,540
+want to get things in terms
+
+620
+00:46:45,550 --> 00:46:53,560
+of the very energy which we will see provide some
+
+621
+00:46:54,880 --> 00:47:01,890
+elegant results. So this due to the five have
+
+622
+00:47:02,010 --> 00:47:04,420
+power coming from
+
+623
+00:47:06,790 --> 00:47:10,550
+our results for the approval number. We have to
+
+624
+00:47:10,570 --> 00:47:14,140
+move the very energy to the right hand side, and
+
+625
+00:47:14,170 --> 00:47:17,440
+this is approximately be energy to the five gas
+
+626
+00:47:17,460 --> 00:47:22,780
+power times the factor, one minus 30 squared over
+
+627
+00:47:22,790 --> 00:47:28,880
+12 if. Also raised to the five house power.
+
+628
+00:47:37,960 --> 00:47:39,490
+And similarly expanding.
+
+629
+00:47:42,150 --> 00:47:49,120
+This. Small deviation from one is one minus that
+
+630
+00:47:49,160 --> 00:47:54,010
+five has power of that function, we have the the
+
+631
+00:47:54,020 --> 00:47:58,820
+five halves times one. And then minus five hands,
+
+632
+00:47:59,030 --> 00:48:04,010
+so that gives us five twenty four times PI squared,
+
+633
+00:48:04,340 --> 00:48:07,730
+T squared and then A.
+
+634
+00:48:10,150 --> 00:48:11,670
+Lingering factor of.
+
+635
+00:48:14,350 --> 00:48:20,650
+So this thing is here that is squared. So even the
+
+636
+00:48:20,650 --> 00:48:23,800
+five haves divided by each of the four has
+
+637
+00:48:24,010 --> 00:48:29,600
+lipshitz that square root of the Fermi Energy. And
+
+638
+00:48:29,620 --> 00:48:35,160
+plugging this in for that view, the five helps
+
+639
+00:48:35,170 --> 00:48:39,660
+power in the average internal energy to free
+
+640
+00:48:39,670 --> 00:48:46,040
+energy leaves us. With that first term. Three
+
+641
+00:48:46,040 --> 00:48:46,670
+fifths.
+
+642
+00:48:49,070 --> 00:48:50,450
+No times.
+
+643
+00:48:52,680 --> 00:48:55,800
+If to the five heads of the three hats is a single
+
+644
+00:48:55,800 --> 00:49:01,410
+factor of energy sucking in the second term here
+
+645
+00:49:02,130 --> 00:49:07,010
+into the first term. And the expression for the
+
+646
+00:49:07,010 --> 00:49:12,380
+control energy, we have three fifths times five
+
+647
+00:49:12,380 --> 00:49:15,490
+twenty fourth leaves us with one eight times
+
+648
+00:49:15,530 --> 00:49:18,920
+cancel and twenty four with three states. We have
+
+649
+00:49:18,920 --> 00:49:23,180
+another factor of average particle number PI
+
+650
+00:49:23,180 --> 00:49:27,600
+squared and then T squared. And then.
+
+651
+00:49:31,100 --> 00:49:34,400
+E two, the one half divided by E to the three
+
+652
+00:49:34,400 --> 00:49:38,630
+hands is a factor of one over the ferry energy.
+
+653
+00:49:39,360 --> 00:49:44,150
+And then finally the second term here we can, as
+
+654
+00:49:44,150 --> 00:49:46,060
+we did before, to collect the order T-square
+
+655
+00:49:46,070 --> 00:49:49,610
+correction in the order to use the term dropping
+
+656
+00:49:50,270 --> 00:49:54,530
+that order, the fourth correction. So this is a
+
+657
+00:49:54,530 --> 00:50:00,740
+plus three Ade's. Average particle, no. PI squared,
+
+658
+00:50:01,230 --> 00:50:06,510
+T squared and now E to the one half over each of
+
+659
+00:50:06,510 --> 00:50:10,090
+the three has again. Very interesting in the
+
+660
+00:50:10,090 --> 00:50:10,900
+denominator.
+
+661
+00:50:12,970 --> 00:50:16,090
+In other words, we have the.
+
+662
+00:50:20,100 --> 00:50:25,610
+The factor that we derived earlier this week was
+
+663
+00:50:25,610 --> 00:50:29,480
+internal energy had zero temperature is I consider
+
+664
+00:50:29,480 --> 00:50:31,520
+proportional to the particle number with that
+
+665
+00:50:31,520 --> 00:50:37,040
+factor of three fifths that we saw. And then three,
+
+666
+00:50:37,040 --> 00:50:42,280
+it's minus one is two aides or a quarter of PI
+
+667
+00:50:42,290 --> 00:50:46,200
+squared. Oftentimes, that is part of the number
+
+668
+00:50:47,040 --> 00:50:51,480
+and a factor that is quadratic in the temperature,
+
+669
+00:50:52,650 --> 00:50:55,290
+which gives us if we take the derivative with
+
+670
+00:50:55,290 --> 00:50:59,010
+respect to temperature, we have the linear term in
+
+671
+00:50:59,010 --> 00:51:04,120
+temperature left over. And that's. Quarter becomes
+
+672
+00:51:04,960 --> 00:51:08,730
+a half, and I have this sign there, which is
+
+673
+00:51:08,740 --> 00:51:11,190
+positive, three eighths minus one. It was positive
+
+674
+00:51:11,210 --> 00:51:14,690
+the quarter and we have a non-trivial, huge
+
+675
+00:51:14,710 --> 00:51:22,660
+capacity for the gas at low temperature that is
+
+676
+00:51:22,840 --> 00:51:28,490
+linear in temperature with a no MPRI factor factor
+
+677
+00:51:28,510 --> 00:51:31,990
+that we have now derived. You can't compare with
+
+678
+00:51:31,990 --> 00:51:35,140
+experimental data, which is some people say for
+
+679
+00:51:35,140 --> 00:51:39,660
+this afternoon. So. Sorry to run a couple of
+
+680
+00:51:39,660 --> 00:51:43,400
+minutes over to reach this result, the low
+
+681
+00:51:43,410 --> 00:51:46,320
+temperature heat capacity for a non relativistic
+
+682
+00:51:46,450 --> 00:51:52,220
+of yes. Which we will see at play this afternoon,
+
+683
+00:51:52,530 --> 00:51:55,790
+looking at the same experiment they started
+
+684
+00:51:56,400 --> 00:51:59,700
+discussing in terms of STEM last week. So
+
+685
+00:52:00,600 --> 00:52:03,990
+immediate questions shouted out otherwise. We'll
+
+686
+00:52:04,130 --> 00:52:07,170
+see you back here in a few hours.
