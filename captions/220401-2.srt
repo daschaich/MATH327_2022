@@ -1,0 +1,2487 @@
+1
+00:00:01,750 --> 00:00:09,520
+So we are ready to go with the last meeting of
+
+2
+00:00:09,540 --> 00:00:12,640
+statistical physics before the break.
+
+3
+00:00:14,710 --> 00:00:15,310
+Starting with
+
+4
+00:00:17,320 --> 00:00:20,600
+the six digit code for this afternoon.
+
+5
+00:00:26,210 --> 00:00:27,470
+It's three two,
+
+6
+00:00:31,530 --> 00:00:32,490
+three nine, two nine.
+
+7
+00:00:37,950 --> 00:00:38,130
+And
+
+8
+00:00:41,710 --> 00:00:47,360
+we can wrap up quickly with the one last piece in this
+
+9
+00:00:47,570 --> 00:00:49,730
+supplement on the Sommerfeld expansion that we
+
+10
+00:00:49,730 --> 00:00:55,460
+didn't get to this morning.  Though I'll first check in if there
+
+11
+00:00:55,490 --> 00:00:59,320
+are any immediate questions about what went
+
+12
+00:00:59,320 --> 00:01:05,110
+through this morning.  This last piece is
+
+13
+00:01:08,320 --> 00:01:10,720
+not so much to do with the Sommerfeld expansion
+
+14
+00:01:10,720 --> 00:01:14,740
+itself as an alternative that we now have access
+
+15
+00:01:14,740 --> 00:01:18,790
+to, which is a real difference in the nineteen
+
+16
+00:01:18,790 --> 00:01:23,740
+hundreds. So the Somerfield expansion is a way to
+
+17
+00:01:24,550 --> 00:01:29,230
+recast, intractable, integral to a series of.
+
+18
+00:01:31,100 --> 00:01:34,730
+Management rules, we can compute word about order
+
+19
+00:01:34,880 --> 00:01:39,180
+finding this severe dependence on the temperature
+
+20
+00:01:39,200 --> 00:01:42,680
+and the heat capacity of the low temperature,
+
+21
+00:01:42,680 --> 00:01:46,310
+family gas and living order in what is a fact, an
+
+22
+00:01:46,310 --> 00:01:49,540
+expansion over here, an expansion in terms of this
+
+23
+00:01:49,550 --> 00:01:55,130
+ratio, the temperature divided by a fairly energy.
+
+24
+00:01:57,310 --> 00:02:01,270
+And we can expect this expansion to break down
+
+25
+00:02:01,390 --> 00:02:05,140
+when the temperature is an order that fury energy.
+
+26
+00:02:06,470 --> 00:02:10,220
+Not only are we neglecting the key to the fourth
+
+27
+00:02:10,220 --> 00:02:14,030
+effects, for instance, this equation, one of nine
+
+28
+00:02:14,080 --> 00:02:16,970
+of the consistency condition that we got from the
+
+29
+00:02:16,970 --> 00:02:21,500
+particle number that relates to the energy and the
+
+30
+00:02:21,500 --> 00:02:24,170
+chemical potential, depending on the temperature
+
+31
+00:02:25,070 --> 00:02:30,410
+of high square is about 10. So when T squared is
+
+32
+00:02:30,410 --> 00:02:34,250
+about one point two times per square, those two
+
+33
+00:02:34,250 --> 00:02:37,790
+terms will cancel out. The dominant contribution
+
+34
+00:02:37,790 --> 00:02:42,380
+will come from precisely the next correction that
+
+35
+00:02:42,890 --> 00:02:46,190
+we're due to the fourth over the energy to the
+
+36
+00:02:46,190 --> 00:02:48,170
+fourth that we have collected.
+
+37
+00:02:51,020 --> 00:02:51,470
+But.
+
+38
+00:02:53,570 --> 00:02:57,860
+We have that summer film doesn't is Python or more
+
+39
+00:02:57,860 --> 00:03:01,880
+specifically, computers that are capable of doing
+
+40
+00:03:02,480 --> 00:03:08,330
+easily numerical integration through Python or any
+
+41
+00:03:08,330 --> 00:03:14,620
+other programming model of. Of your choice, which
+
+42
+00:03:14,620 --> 00:03:18,580
+we can bring to bear on this problem by recasting
+
+43
+00:03:18,580 --> 00:03:22,420
+it first in terms of dimensionless, ratio's,
+
+44
+00:03:22,420 --> 00:03:25,000
+dimensionless degrees of freedom, which are the
+
+45
+00:03:25,000 --> 00:03:28,360
+ones that match up to what we have to
+
+46
+00:03:28,360 --> 00:03:31,000
+dimensionless numbers we have access to on a
+
+47
+00:03:31,000 --> 00:03:34,610
+computer as opposed to the temperature of energy.
+
+48
+00:03:34,610 --> 00:03:40,180
+The chemical potential has units of energy. So if
+
+49
+00:03:40,180 --> 00:03:46,300
+we go back to the full integral that we hit with
+
+50
+00:03:46,300 --> 00:03:48,910
+these our expansion to get a low temperature
+
+51
+00:03:48,910 --> 00:03:52,900
+approximation and we plug in the expression that
+
+52
+00:03:52,900 --> 00:03:56,090
+we have from earlier in the week for this pre
+
+53
+00:03:56,110 --> 00:03:59,740
+factor, the constant terms that are collected in
+
+54
+00:04:00,000 --> 00:04:00,730
+the states.
+
+55
+00:04:03,850 --> 00:04:08,110
+What we can do here is replace the square root of
+
+56
+00:04:08,110 --> 00:04:13,860
+energy and the differential to you by three has
+
+57
+00:04:13,990 --> 00:04:20,290
+powers of this X Times team. So we get a square
+
+58
+00:04:20,290 --> 00:04:24,130
+root X times X and then T to the power three
+
+59
+00:04:24,130 --> 00:04:27,560
+halves, which combine with whatever the Fairbury
+
+60
+00:04:27,580 --> 00:04:31,540
+energy to the three has. Power gives us the three
+
+61
+00:04:31,590 --> 00:04:34,570
+horsepower. They dimensionless ratio of the
+
+62
+00:04:34,570 --> 00:04:40,540
+temperature relative to the energy. And similarly.
+
+63
+00:04:42,390 --> 00:04:48,700
+Stick in this X for the. One of the exponential
+
+64
+00:04:48,700 --> 00:04:52,570
+factors is the data of the better times, it is
+
+65
+00:04:52,570 --> 00:04:56,380
+just the X that becomes an infinitely large number,
+
+66
+00:04:56,380 --> 00:05:01,630
+has X goes to infinity, which is by far the jokes
+
+67
+00:05:01,630 --> 00:05:05,410
+which rearrange that have very small factors of
+
+68
+00:05:05,570 --> 00:05:09,130
+the lightest X everywhere else in this ratio. And
+
+69
+00:05:09,130 --> 00:05:12,470
+then finally, we're left with an exponential of
+
+70
+00:05:12,580 --> 00:05:17,140
+minus B to be able to smooth over T. And if we
+
+71
+00:05:17,140 --> 00:05:22,720
+also introduce a dimensionless constancy as this
+
+72
+00:05:22,720 --> 00:05:25,840
+ratio of chemical potential to Fairbury energy,
+
+73
+00:05:26,590 --> 00:05:30,950
+then that exponential factor just matches into a C
+
+74
+00:05:31,180 --> 00:05:34,930
+divided by the dimensionless lowercase T.. We can
+
+75
+00:05:34,930 --> 00:05:38,200
+see if we look at that ratio of security factors
+
+76
+00:05:38,200 --> 00:05:41,650
+of Fairbury energy cancel out. And this is equal
+
+77
+00:05:41,650 --> 00:05:44,850
+to you over the dimension for capital here.
+
+78
+00:05:47,230 --> 00:05:50,290
+And just as we saw this morning in the summer
+
+79
+00:05:50,290 --> 00:05:53,830
+field expansion, we have factors of the average
+
+80
+00:05:53,830 --> 00:05:56,380
+particle number on each side of this equation that
+
+81
+00:05:56,380 --> 00:05:59,920
+drop out. And we are left with just the
+
+82
+00:05:59,920 --> 00:06:04,170
+consistency condition relating this. Complicated,
+
+83
+00:06:04,170 --> 00:06:09,700
+integral to Wilsonville, simple number one. What
+
+84
+00:06:10,130 --> 00:06:14,700
+we can do that is. Choose a value for the
+
+85
+00:06:14,700 --> 00:06:19,060
+temperature and choose a value for the sea, the
+
+86
+00:06:19,080 --> 00:06:23,180
+chemical potential telefon to evaluate, to go,
+
+87
+00:06:23,220 --> 00:06:27,050
+which only takes a few lines of code. Excellent
+
+88
+00:06:27,060 --> 00:06:32,370
+libraries available for iPhone and see if this
+
+89
+00:06:32,370 --> 00:06:36,900
+relationship works out, if we get one as demanded
+
+90
+00:06:37,500 --> 00:06:39,830
+by this consistency condition.
+
+91
+00:06:43,490 --> 00:06:48,380
+And what we can do at that point is keep rerunning
+
+92
+00:06:48,380 --> 00:06:51,740
+that conversation with a fixed temperature and
+
+93
+00:06:51,740 --> 00:06:55,130
+different values, the chemical potential, until we
+
+94
+00:06:55,130 --> 00:06:59,720
+find the correct value relative to the very energy
+
+95
+00:07:00,140 --> 00:07:05,650
+that satisfies that condition. We just arrived. So
+
+96
+00:07:06,670 --> 00:07:08,770
+why change?
+
+97
+00:07:10,880 --> 00:07:16,890
+Those. Projector here and look at a python code
+
+98
+00:07:16,890 --> 00:07:21,930
+that I will upload a canvas this afternoon. This
+
+99
+00:07:21,930 --> 00:07:23,940
+does essentially what we just went through. We
+
+100
+00:07:23,940 --> 00:07:27,660
+define a value for that dimensionless T so twice
+
+101
+00:07:27,660 --> 00:07:32,680
+the free energy in this case. And then adjust the
+
+102
+00:07:32,680 --> 00:07:35,140
+chemical potential in terms of the Fairbury energy
+
+103
+00:07:36,370 --> 00:07:42,190
+and numerically integrate dysfunction, the square
+
+104
+00:07:42,190 --> 00:07:46,840
+root of X times to the minus X divided by the
+
+105
+00:07:46,840 --> 00:07:51,610
+exponential of minus C over T minus 40, plus
+
+106
+00:07:51,620 --> 00:07:55,060
+another factor that into the minus X and check to
+
+107
+00:07:55,060 --> 00:08:00,130
+see how close we are to what we should have won.
+
+108
+00:08:01,300 --> 00:08:04,780
+So this is roughly where I ended up. So it should
+
+109
+00:08:04,780 --> 00:08:10,130
+be pretty close to one if I look at. This chemical
+
+110
+00:08:10,130 --> 00:08:13,460
+potential of about minus two and a half times the
+
+111
+00:08:13,460 --> 00:08:16,160
+very energy where a temperature of twice the
+
+112
+00:08:16,160 --> 00:08:20,950
+Fairbury energy, it's just about. Less than one
+
+113
+00:08:20,950 --> 00:08:26,710
+part per thousand of. And you fire and collect.
+
+114
+00:08:28,730 --> 00:08:33,800
+This result for the appropriate chemical potential
+
+115
+00:08:35,120 --> 00:08:39,260
+as a function of the temperature to the minus two
+
+116
+00:08:39,260 --> 00:08:43,760
+point four six corresponds to two point oh, then
+
+117
+00:08:44,060 --> 00:08:47,900
+that produces the very last red point on this plot,
+
+118
+00:08:49,280 --> 00:08:54,650
+which you see in a slightly larger size down here.
+
+119
+00:08:54,650 --> 00:08:58,850
+I just went through a handful of values of this
+
+120
+00:08:58,880 --> 00:09:02,510
+dimensionless ratio for the temperature, then the.
+
+121
+00:09:04,350 --> 00:09:08,520
+Correct, chemical potential, not as a fund or in
+
+122
+00:09:08,550 --> 00:09:12,360
+units of the free energy up to a couple of decimal
+
+123
+00:09:12,360 --> 00:09:16,380
+places, that just took a few minutes. And then I
+
+124
+00:09:16,380 --> 00:09:20,610
+can compare this to that, the order quadratic
+
+125
+00:09:20,610 --> 00:09:24,760
+result. We got this morning that showed. The
+
+126
+00:09:25,480 --> 00:09:28,570
+chemical potential approaching the family energy,
+
+127
+00:09:29,020 --> 00:09:31,510
+the limit of zero temperature with quadratic
+
+128
+00:09:31,840 --> 00:09:36,670
+corrections, at least in the regime of. Tea over
+
+129
+00:09:37,010 --> 00:09:41,720
+the energy that we can rely on the expansion to
+
+130
+00:09:41,720 --> 00:09:44,720
+converge. So you see there's good agreement for
+
+131
+00:09:45,500 --> 00:09:48,500
+small volumes of temperature, that quadratics
+
+132
+00:09:48,500 --> 00:09:53,140
+dependence. And I just thought of this dependence
+
+133
+00:09:53,330 --> 00:09:56,090
+beyond where we may expect to see problems. Indeed,
+
+134
+00:09:56,120 --> 00:10:01,490
+we do see some noticeable discrepancies setting in
+
+135
+00:10:02,300 --> 00:10:07,900
+right around. The. Value, there was first two
+
+136
+00:10:07,900 --> 00:10:12,290
+terms cancels out the expected issues. But maybe
+
+137
+00:10:12,290 --> 00:10:16,880
+the more interesting result here is following up
+
+138
+00:10:16,880 --> 00:10:20,750
+on something we came across earlier this week or
+
+139
+00:10:20,750 --> 00:10:23,420
+possibly the last week, which is that as the
+
+140
+00:10:23,420 --> 00:10:27,230
+temperature increases, we do indeed see the
+
+141
+00:10:27,230 --> 00:10:30,800
+chemical potential changing from negative, from
+
+142
+00:10:30,800 --> 00:10:33,920
+positive to negative, getting back into the
+
+143
+00:10:33,920 --> 00:10:36,680
+classical regime where we introduce the chemical
+
+144
+00:10:36,680 --> 00:10:38,580
+potential, where we want to take the classical
+
+145
+00:10:38,600 --> 00:10:43,760
+limit that corresponds to this high temperature
+
+146
+00:10:44,020 --> 00:10:47,570
+quantum gas with a large negative value of the
+
+147
+00:10:47,570 --> 00:10:52,290
+chemical potential. So that is going beyond the
+
+148
+00:10:52,290 --> 00:10:56,730
+limitations of the Sommerfeld expansion with some
+
+149
+00:10:56,730 --> 00:11:00,330
+assistance to modern technology and confirming
+
+150
+00:11:00,540 --> 00:11:05,610
+some of the claims earlier, and that's all there
+
+151
+00:11:05,610 --> 00:11:08,880
+is to say about all that I have to say for that
+
+152
+00:11:09,270 --> 00:11:09,870
+supplement.
+
+153
+00:11:13,870 --> 00:11:19,900
+And that lets us get back to the actual tutorial
+
+154
+00:11:19,900 --> 00:11:23,650
+problem that we just looked at fairly briefly
+
+155
+00:11:23,650 --> 00:11:27,330
+toward the end of last week, this Einstein model
+
+156
+00:11:27,330 --> 00:11:29,140
+will be solid where
+
+157
+00:11:31,570 --> 00:11:36,690
+someone just being pictured as some regular array
+
+158
+00:11:36,700 --> 00:11:43,090
+of atoms that are held in place by oscillators
+
+159
+00:11:43,090 --> 00:11:43,780
+between those.
+
+160
+00:11:55,120 --> 00:11:58,780
+Where each of these oscillators is treated as a
+
+161
+00:11:58,780 --> 00:12:04,720
+non interacting degree of freedom and. The.
+
+162
+00:12:06,650 --> 00:12:11,450
+Resulting heat capacity can be predicted compared
+
+163
+00:12:11,480 --> 00:12:16,940
+with these experimental data through the usual
+
+164
+00:12:17,300 --> 00:12:20,510
+sort of calculation we've been doing and we got to
+
+165
+00:12:20,510 --> 00:12:24,260
+the point last week checking on what would happen
+
+166
+00:12:24,260 --> 00:12:29,000
+if we followed these solids just as a bunch of
+
+167
+00:12:29,000 --> 00:12:33,440
+spins pointed up or down. Of course, with each
+
+168
+00:12:33,740 --> 00:12:40,610
+atom in this array finding that the capacity is
+
+169
+00:12:41,480 --> 00:12:45,650
+always negative as it should be and is
+
+170
+00:12:45,650 --> 00:12:48,380
+proportional to the inverse temperature squared
+
+171
+00:12:48,770 --> 00:12:51,800
+divided by the hyperbolic cosine of that inverse
+
+172
+00:12:51,800 --> 00:12:54,380
+temperature times the external magnetic field.
+
+173
+00:12:56,460 --> 00:13:00,900
+So this appropriately banished in the limit of
+
+174
+00:13:00,900 --> 00:13:05,070
+zero temperature in agreement with the data we
+
+175
+00:13:05,070 --> 00:13:10,600
+were looking at, this actually turns out to be. A
+
+176
+00:13:10,630 --> 00:13:15,110
+universal result sometimes called the third law of
+
+177
+00:13:15,110 --> 00:13:20,670
+thermodynamics. And related to the Entropia and
+
+178
+00:13:20,670 --> 00:13:25,250
+the connection between entropy and heat. But there
+
+179
+00:13:25,250 --> 00:13:32,210
+were problems if we try to match this bottle for a
+
+180
+00:13:32,210 --> 00:13:36,440
+solid, not attractive experience to the
+
+181
+00:13:36,560 --> 00:13:39,770
+experimental data that motivated this
+
+182
+00:13:39,770 --> 00:13:44,030
+consideration in the first place, as the
+
+183
+00:13:44,030 --> 00:13:48,680
+temperature gets large and small, the other side
+
+184
+00:13:48,680 --> 00:13:54,290
+goes to one and. The capacity as a whole vanishes
+
+185
+00:13:54,290 --> 00:13:57,560
+roughly proportionately to whatever temperature
+
+186
+00:13:57,590 --> 00:14:04,140
+square is shown here for. Temperatures larger than
+
+187
+00:14:04,140 --> 00:14:08,070
+that, I feel, in contrast to the experimental data
+
+188
+00:14:08,070 --> 00:14:11,700
+that roughly approach a constant battle that high
+
+189
+00:14:11,740 --> 00:14:14,220
+temperatures of a few hundred Kelvin.
+
+190
+00:14:16,220 --> 00:14:22,730
+So that's where the ISIS is aiming to make a
+
+191
+00:14:22,730 --> 00:14:26,520
+difference and provide a better description. And
+
+192
+00:14:26,520 --> 00:14:32,400
+we at least put up. Last week, this forced.
+
+193
+00:14:33,910 --> 00:14:38,680
+Procedure to derive the heat capacity from just
+
+194
+00:14:38,680 --> 00:14:43,230
+the definition of the bottle itself into the
+
+195
+00:14:43,240 --> 00:14:46,960
+oscillators has some amount of energy that comes
+
+196
+00:14:46,960 --> 00:14:50,680
+in quantize units motivated by Einstein's work on
+
+197
+00:14:50,680 --> 00:14:54,930
+the electric effect. And the statistics of
+
+198
+00:14:54,930 --> 00:14:58,020
+counting how those units of energy can be
+
+199
+00:14:58,020 --> 00:15:01,680
+distributed among the oscillators connecting the
+
+200
+00:15:01,680 --> 00:15:05,910
+atoms in this model of a solid. They'll give us
+
+201
+00:15:05,910 --> 00:15:10,390
+eventually the total number of microstates, the
+
+202
+00:15:10,440 --> 00:15:15,230
+entropy temperature, energy from its peak capacity.
+
+203
+00:15:18,070 --> 00:15:22,660
+So perhaps at this point I'll just pause the
+
+204
+00:15:22,660 --> 00:15:27,200
+recording for five minutes or so and you can. Let
+
+205
+00:15:27,200 --> 00:15:32,000
+me know how far you got along this path already
+
+206
+00:15:32,540 --> 00:15:35,230
+and how far you get at the end of that, unless
+
+207
+00:15:35,240 --> 00:15:39,470
+there are questions about the. The basic set of
+
+208
+00:15:39,490 --> 00:15:44,400
+definitions of this model where. I'm not going
+
+209
+00:15:44,400 --> 00:15:48,030
+over some of the things we introduced last week
+
+210
+00:15:48,030 --> 00:15:52,130
+with this case to a number of units of energy for
+
+211
+00:15:52,620 --> 00:15:57,090
+each Baalbeck as basic unit energy in an
+
+212
+00:15:57,090 --> 00:16:00,690
+oscillator itself. If that isn't clear, we can.
+
+213
+00:16:03,050 --> 00:16:08,190
+Revisit it and get up to speed. Otherwise. No hit,
+
+214
+00:16:08,200 --> 00:16:10,440
+pause and start timer.
+
+215
+00:16:13,250 --> 00:16:15,830
+So that was five minutes, just check and see how
+
+216
+00:16:15,830 --> 00:16:20,480
+it's come on, if you are having a slow time
+
+217
+00:16:20,480 --> 00:16:25,550
+getting started or or the job and board.
+
+218
+00:16:27,650 --> 00:16:31,600
+I will say that this first step is figuring out
+
+219
+00:16:31,620 --> 00:16:35,030
+the total number of microstates is the real needs
+
+220
+00:16:35,030 --> 00:16:39,380
+of the of the problem. And once we have the total
+
+221
+00:16:39,380 --> 00:16:41,420
+number of states that everything else sort of
+
+222
+00:16:41,420 --> 00:16:43,970
+follows through the work we've done. It sounds
+
+223
+00:16:43,970 --> 00:16:44,270
+like
+
+224
+00:16:47,670 --> 00:16:54,950
+customize. Yeah, that sounds right. To have a
+
+225
+00:16:54,960 --> 00:16:56,080
+spoiler factor.
+
+226
+00:16:58,120 --> 00:16:59,800
+That was last.
+
+227
+00:17:02,210 --> 00:17:03,660
+This one,
+
+228
+00:17:06,630 --> 00:17:08,760
+which is equal to.
+
+229
+00:17:12,690 --> 00:17:19,940
+Chris. That is indeed what I have. And if everyone
+
+230
+00:17:19,950 --> 00:17:24,920
+is happy with that, we can look at a.
+
+231
+00:17:27,160 --> 00:17:29,650
+My favorite way of driving that, which there are
+
+232
+00:17:29,650 --> 00:17:32,590
+many ways of getting at this result,
+
+233
+00:17:36,410 --> 00:17:40,090
+but it's one nice one is recognizing that the
+
+234
+00:17:40,090 --> 00:17:43,310
+competition works here is divided, dividing two
+
+235
+00:17:43,330 --> 00:17:46,720
+units of energy into an indistinguishable
+
+236
+00:17:46,720 --> 00:17:49,930
+oscillators distinguishable due to their fixed
+
+237
+00:17:49,930 --> 00:17:53,830
+location in the solid. So this is the same county
+
+238
+00:17:53,830 --> 00:17:57,910
+as putting bolts into boxes. And we did when
+
+239
+00:17:57,910 --> 00:18:03,130
+introducing quantum statistics with the change
+
+240
+00:18:03,130 --> 00:18:07,270
+that the boxes are since you are now
+
+241
+00:18:07,690 --> 00:18:15,100
+distinguishable. It can be. Defined by putting in
+
+242
+00:18:15,100 --> 00:18:19,120
+and minus four walls, dividing these boxes in a
+
+243
+00:18:19,120 --> 00:18:22,150
+sequence of symbols corresponding either to the
+
+244
+00:18:22,150 --> 00:18:25,600
+units of energy or the dividing lines between the
+
+245
+00:18:25,600 --> 00:18:28,150
+oscillators that are going into it. So this sort
+
+246
+00:18:28,150 --> 00:18:34,940
+of sequence of symbols. We describe what is that,
+
+247
+00:18:34,940 --> 00:18:38,060
+11 minutes of energy divided among six boxes
+
+248
+00:18:38,450 --> 00:18:41,480
+through 16 symbols, so.
+
+249
+00:18:44,030 --> 00:18:50,350
+And minus one of those plastic balls and. All that
+
+250
+00:18:50,350 --> 00:18:55,640
+we have to do is choose. All of the possible ways
+
+251
+00:18:55,640 --> 00:18:58,490
+for a case of these case, plus embarrassment,
+
+252
+00:18:58,490 --> 00:19:03,080
+symbols to be units of energy that are
+
+253
+00:19:03,080 --> 00:19:08,120
+distinguishable and we then have all of the
+
+254
+00:19:08,120 --> 00:19:12,740
+remaining symbols are fixed to be those dividing
+
+255
+00:19:12,740 --> 00:19:19,650
+lines, the walls. Fully specifies microstates. And
+
+256
+00:19:21,210 --> 00:19:26,500
+you can check out. As I have this printed out, I
+
+257
+00:19:27,090 --> 00:19:28,470
+do it through here quickly.
+
+258
+00:19:30,870 --> 00:19:33,720
+You seem to be in good shape with this.
+
+259
+00:19:36,150 --> 00:19:41,130
+Check the results against that minimal system of
+
+260
+00:19:41,670 --> 00:19:42,840
+three oscillators,
+
+261
+00:19:48,780 --> 00:19:51,360
+if there are no use of energy to the state to
+
+262
+00:19:51,360 --> 00:19:54,240
+distribute among those three oscillators, there's
+
+263
+00:19:54,240 --> 00:19:57,990
+only a single microstates. Each oscillator has
+
+264
+00:19:58,350 --> 00:20:01,560
+units of energy that is equal to.
+
+265
+00:20:06,540 --> 00:20:07,020
+So.
+
+266
+00:20:10,560 --> 00:20:13,140
+Three oscillators to
+
+267
+00:20:15,150 --> 00:20:21,300
+choose to choose zero is only one possible way of
+
+268
+00:20:21,300 --> 00:20:25,600
+managing that. We thought it was one minute of
+
+269
+00:20:25,600 --> 00:20:28,360
+energy, it could be either of those three
+
+270
+00:20:28,840 --> 00:20:31,390
+oscillators. That's three microstates, which is
+
+271
+00:20:31,450 --> 00:20:34,480
+the three choose one. And something interesting
+
+272
+00:20:34,480 --> 00:20:37,900
+happens when we have two units of energy, we
+
+273
+00:20:37,900 --> 00:20:41,380
+finally get something that is not possible with
+
+274
+00:20:41,380 --> 00:20:45,940
+that spin system. The spin, we could just have a
+
+275
+00:20:45,940 --> 00:20:48,490
+spin pointing up or down, we could call that no
+
+276
+00:20:48,490 --> 00:20:52,300
+energy or what you have to do in this model. We
+
+277
+00:20:52,300 --> 00:20:55,690
+now have the possibility of having an oscillator
+
+278
+00:20:55,690 --> 00:21:00,340
+with two units of energy, something going beyond
+
+279
+00:21:00,670 --> 00:21:03,940
+the system. So we have this three microstates
+
+280
+00:21:03,940 --> 00:21:08,860
+where. The two units of energy are either the
+
+281
+00:21:08,860 --> 00:21:12,520
+three oscillators or the three different ways of
+
+282
+00:21:12,520 --> 00:21:16,810
+having one unit of energy to mobilize voters. And
+
+283
+00:21:16,810 --> 00:21:20,860
+the third one having no energy. So six microstates
+
+284
+00:21:20,860 --> 00:21:26,810
+in total. Which we want to match for choose to,
+
+285
+00:21:27,060 --> 00:21:31,200
+which is four factorial over two squared, which is
+
+286
+00:21:31,710 --> 00:21:37,420
+the. Six. For them, sometimes to two square,
+
+287
+00:21:37,440 --> 00:21:41,210
+finally. The three units of energy, we can have,
+
+288
+00:21:41,210 --> 00:21:44,360
+all three in one of these oscillators, you can
+
+289
+00:21:44,360 --> 00:21:50,050
+have one unit in each of them. Or six possible
+
+290
+00:21:50,050 --> 00:21:55,570
+ways of dividing two units of energy in one
+
+291
+00:21:55,570 --> 00:22:01,010
+oscillator and one unit in another. And that three
+
+292
+00:22:01,010 --> 00:22:06,650
+plus one four six is 10, which is that five choose
+
+293
+00:22:06,650 --> 00:22:13,700
+three is five times four. Overtrading is a B10.
+
+294
+00:22:17,810 --> 00:22:22,520
+So that is a check that the explicit computation
+
+295
+00:22:22,520 --> 00:22:25,190
+we can do with a small number of oscillators
+
+296
+00:22:25,190 --> 00:22:29,450
+matches this combinatorial result in terms of.
+
+297
+00:22:31,410 --> 00:22:36,330
+Satriale's and binomial coefficients go back to
+
+298
+00:22:36,720 --> 00:22:41,420
+the usual regime for a solid working with blink of
+
+299
+00:22:41,530 --> 00:22:43,620
+an eye is no worth of oscillators, ten of the
+
+300
+00:22:43,620 --> 00:22:46,920
+twenty three and a comparable number of units of
+
+301
+00:22:46,920 --> 00:22:50,370
+energy to distribute among them. I can simplify
+
+302
+00:22:50,370 --> 00:22:53,580
+things just slightly by dropping those miners arms
+
+303
+00:22:54,060 --> 00:22:56,940
+even within the factory. We could say that this
+
+304
+00:22:56,940 --> 00:23:00,750
+ratio of factory owners is approximately given by
+
+305
+00:23:01,230 --> 00:23:06,930
+just Caples and factorial factory and factory. And
+
+306
+00:23:07,040 --> 00:23:11,800
+the logarithm of that ratio gives us the entropy
+
+307
+00:23:12,610 --> 00:23:16,720
+that we can hit with the leading order of
+
+308
+00:23:17,170 --> 00:23:22,060
+Serling's approximation and again, minus in the
+
+309
+00:23:22,060 --> 00:23:25,900
+linear terms, K plus and minus K minus N cancel
+
+310
+00:23:25,900 --> 00:23:30,070
+out. So we're left with just combinations of logs,
+
+311
+00:23:31,000 --> 00:23:34,210
+Caples and types, along with cables and by key
+
+312
+00:23:34,210 --> 00:23:36,220
+like minus and walk and.
+
+313
+00:23:39,270 --> 00:23:42,330
+So that is already the second bullet point to the
+
+314
+00:23:42,330 --> 00:23:46,080
+step to capacity and the third is taking the
+
+315
+00:23:46,440 --> 00:23:50,370
+derivative of the entropy with respect to the
+
+316
+00:23:50,370 --> 00:23:54,690
+energy that defines the inverse temperature. Of
+
+317
+00:23:54,690 --> 00:24:00,480
+the solid. And this is usually what we. Just plug
+
+318
+00:24:00,510 --> 00:24:05,160
+in the relation between the energy and the units
+
+319
+00:24:05,160 --> 00:24:10,720
+of energy that gets. The derivative in terms of
+
+320
+00:24:10,720 --> 00:24:15,130
+this cave, which already expressed things in the
+
+321
+00:24:15,130 --> 00:24:18,520
+pick up of what it was in derivatives of the K
+
+322
+00:24:19,330 --> 00:24:21,670
+through 12 of the law, takes the cake. Listen to
+
+323
+00:24:21,670 --> 00:24:25,930
+the denominator of two plus one. And similarly,
+
+324
+00:24:26,260 --> 00:24:29,540
+you get along OK, the negative side. Now, that
+
+325
+00:24:29,680 --> 00:24:33,100
+minus K over today, which is one cancels out that
+
+326
+00:24:33,100 --> 00:24:37,140
+we can combine things. Into the temperature given
+
+327
+00:24:37,140 --> 00:24:41,280
+by the unit of energy that we work with in the
+
+328
+00:24:41,280 --> 00:24:46,500
+solid. Times, this logarithm of cupolas and
+
+329
+00:24:46,500 --> 00:24:50,310
+overcatch, which is one plus and over record with
+
+330
+00:24:50,310 --> 00:24:55,920
+both and K Motors positive numbers could be invert
+
+331
+00:24:56,100 --> 00:24:59,670
+to bring down the temperature is made up, divided
+
+332
+00:24:59,670 --> 00:25:05,420
+by this log. We can easily see that the
+
+333
+00:25:05,420 --> 00:25:09,080
+temperature is indeed positive. We have a lot of
+
+334
+00:25:09,080 --> 00:25:10,700
+something that is greater than one.
+
+335
+00:25:13,240 --> 00:25:17,640
+So this. Corresponds to what we call the natural
+
+336
+00:25:17,640 --> 00:25:21,540
+systems of the MicroCon global context. With the
+
+337
+00:25:21,540 --> 00:25:26,190
+positive temperature already a contrast with the
+
+338
+00:25:26,190 --> 00:25:29,470
+spin system, which is where we introduce the idea
+
+339
+00:25:29,890 --> 00:25:35,030
+of temperatures in the first place. And as we
+
+340
+00:25:35,030 --> 00:25:41,260
+discussed back in. That needed to come out, so the
+
+341
+00:25:42,040 --> 00:25:45,220
+natural positive temperature reflects the fact
+
+342
+00:25:45,220 --> 00:25:49,660
+that more and more microstates are opened up when
+
+343
+00:25:49,660 --> 00:25:53,160
+we have larger amounts of energy in the system to
+
+344
+00:25:53,190 --> 00:25:56,590
+unlike the spin system, where it's going to be
+
+345
+00:25:56,590 --> 00:26:00,240
+filled with so much the maximum amount of energy
+
+346
+00:26:00,250 --> 00:26:04,240
+that they're able to carry. Here we can just keep
+
+347
+00:26:04,240 --> 00:26:07,240
+adding more and more use of energy to each of
+
+348
+00:26:07,240 --> 00:26:10,600
+these oscillators and have more ways of
+
+349
+00:26:10,600 --> 00:26:15,570
+distributing those using energy among the. Total
+
+350
+00:26:15,570 --> 00:26:22,240
+number of isolators. Well, as. As he increases.
+
+351
+00:26:26,090 --> 00:26:30,680
+And I have here flooded the relation between that
+
+352
+00:26:30,680 --> 00:26:33,560
+cave and the energy itself, because the energy
+
+353
+00:26:33,560 --> 00:26:39,380
+itself is what we want to isolate in order to get
+
+354
+00:26:39,380 --> 00:26:45,040
+to the heat capacity. So rearranging this
+
+355
+00:26:45,040 --> 00:26:49,810
+expression, taking the one off into left hand side
+
+356
+00:26:49,810 --> 00:26:53,070
+and dividing through body temperature multiplied
+
+357
+00:26:53,200 --> 00:26:57,900
+by below the exponential rates both sides and
+
+358
+00:26:57,910 --> 00:27:01,840
+subtract that one can get an elevator for a mega
+
+359
+00:27:02,140 --> 00:27:08,680
+minus one related to. This and Farmigo divided by
+
+360
+00:27:08,680 --> 00:27:13,030
+energy, that reorienting again gives us the energy.
+
+361
+00:27:14,180 --> 00:27:18,530
+Is in today's world divided by this exponential
+
+362
+00:27:18,530 --> 00:27:26,390
+factor? That is not so dissimilar to the
+
+363
+00:27:26,870 --> 00:27:30,580
+expansions we were seeing for a full time gas, and
+
+364
+00:27:30,590 --> 00:27:35,340
+that is. And observation will come back to to wrap
+
+365
+00:27:35,340 --> 00:27:39,900
+things up, but at this point, we now have the
+
+366
+00:27:39,900 --> 00:27:43,860
+capacity, the derivative of that energy with
+
+367
+00:27:43,860 --> 00:27:45,420
+respect to.
+
+368
+00:27:48,200 --> 00:27:52,700
+The temperature that we can relate to, minus the
+
+369
+00:27:52,710 --> 00:27:54,920
+spirit times, the derivative with respect to the
+
+370
+00:27:54,920 --> 00:27:59,210
+inverse temperature, and that is a straightforward
+
+371
+00:27:59,300 --> 00:28:02,780
+derivative to do the denominator. Brings in a
+
+372
+00:28:02,780 --> 00:28:05,300
+negative sign that cancels out literally the sign
+
+373
+00:28:05,660 --> 00:28:09,830
+denominator squared and the chain rule through HBO
+
+374
+00:28:09,860 --> 00:28:13,350
+may get you to the better part, may go and change
+
+375
+00:28:13,370 --> 00:28:17,860
+variables to the one that suggested the problem is
+
+376
+00:28:17,870 --> 00:28:23,660
+X equal, better age. But we can see towers of
+
+377
+00:28:24,110 --> 00:28:27,650
+better in each of the numerator. So X squared
+
+378
+00:28:28,460 --> 00:28:33,560
+added to the X to the numerator divided by X minus
+
+379
+00:28:33,560 --> 00:28:37,160
+one squared. And the denominator.
+
+380
+00:28:39,330 --> 00:28:45,340
+So this is the result equation one in this in
+
+381
+00:28:45,360 --> 00:28:48,490
+these comments on the real problem, that is the
+
+382
+00:28:48,720 --> 00:28:53,100
+that is the capacity for nine states. And the
+
+383
+00:28:53,310 --> 00:28:57,660
+question now is how does it compare to the
+
+384
+00:28:57,660 --> 00:28:59,790
+experimental measurements that we started off with
+
+385
+00:29:00,360 --> 00:29:04,860
+and so on, did not work with the studio system
+
+386
+00:29:05,550 --> 00:29:09,410
+before getting into that many questions about the
+
+387
+00:29:09,420 --> 00:29:14,770
+steps coming up to here. Sort of once once the
+
+388
+00:29:14,770 --> 00:29:18,030
+total number of microstates was expressed in
+
+389
+00:29:18,040 --> 00:29:22,300
+functional form, it was basically targeting
+
+390
+00:29:22,300 --> 00:29:25,270
+through the sequence of definitions of reason
+
+391
+00:29:25,270 --> 00:29:34,410
+before to turn the crank to the capacity. So just
+
+392
+00:29:34,410 --> 00:29:37,080
+as we did for that school system, we can start by
+
+393
+00:29:37,080 --> 00:29:40,440
+considering the high, low temperature limits of
+
+394
+00:29:40,440 --> 00:29:44,730
+the sea capacity and see whether and if so, how
+
+395
+00:29:44,730 --> 00:29:49,610
+well they respond to what we want to describe
+
+396
+00:29:50,100 --> 00:29:53,010
+experimentally. And the low temperature limit.
+
+397
+00:29:53,310 --> 00:29:56,280
+This X is inversely proportional to the T and goes
+
+398
+00:29:56,280 --> 00:29:59,460
+to infinity is always exponential is a very large
+
+399
+00:29:59,460 --> 00:30:03,480
+numbers. We can ignore the minus one in the
+
+400
+00:30:03,480 --> 00:30:09,570
+denominator and end up with something that. As a
+
+401
+00:30:09,660 --> 00:30:13,870
+factor of the age of the X in the denominator of
+
+402
+00:30:13,920 --> 00:30:17,010
+vanishes exponentially quickly as the temperature
+
+403
+00:30:17,010 --> 00:30:22,470
+goes to zero. This is. This vanishing, of course,
+
+404
+00:30:22,470 --> 00:30:27,080
+is required by that third law of thermodynamics. I
+
+405
+00:30:27,090 --> 00:30:30,950
+mentioned at the start of this, we know that the
+
+406
+00:30:30,960 --> 00:30:33,330
+heat capacity has to be limited to the absolute
+
+407
+00:30:33,330 --> 00:30:36,270
+zero temperature. And the fact that it does so
+
+408
+00:30:36,270 --> 00:30:41,070
+exponentially quickly is similar to the spin
+
+409
+00:30:41,100 --> 00:30:48,870
+system and also. A quantitative poll comparing to
+
+410
+00:30:49,050 --> 00:30:52,910
+experimental data. We'll get into that in just a
+
+411
+00:30:52,910 --> 00:30:56,240
+bit. We got to check the height of where the
+
+412
+00:30:56,480 --> 00:31:00,590
+system broke down completely it here and the
+
+413
+00:31:00,590 --> 00:31:04,880
+exponential E to the X can be expanded into a
+
+414
+00:31:05,480 --> 00:31:09,610
+power series in the usual way at the leading order.
+
+415
+00:31:10,160 --> 00:31:13,280
+We can just approximate the X is one of the
+
+416
+00:31:13,280 --> 00:31:18,200
+numerator and one plus X. The denominator, which
+
+417
+00:31:18,200 --> 00:31:21,980
+would be minus one, is cancel out leaves and X
+
+418
+00:31:21,980 --> 00:31:25,880
+squared to cancel the X squared the numerator and
+
+419
+00:31:25,880 --> 00:31:29,720
+tells us that the heat capacity approach is a
+
+420
+00:31:29,720 --> 00:31:35,430
+constant value that is non-zero. So rather than.
+
+421
+00:31:36,760 --> 00:31:40,270
+Dropping back down quadratics, the disorder in the
+
+422
+00:31:40,270 --> 00:31:43,480
+expansion of the exponential in terms of the
+
+423
+00:31:43,810 --> 00:31:48,490
+temperature, we see something much more promising
+
+424
+00:31:48,940 --> 00:31:55,910
+with that cause the dotted line that. Is. That is
+
+425
+00:31:56,210 --> 00:31:58,960
+possibly consistent with the experimental data.
+
+426
+00:32:00,200 --> 00:32:00,950
+Overall.
+
+427
+00:32:03,120 --> 00:32:06,880
+Now, we can also go beyond that, just that leading
+
+428
+00:32:06,880 --> 00:32:10,240
+asymptotic limit could be equal to the number of
+
+429
+00:32:10,240 --> 00:32:13,150
+oscillators that actually compute the
+
+430
+00:32:15,250 --> 00:32:18,460
+leading temperature dependent's to this result.
+
+431
+00:32:18,490 --> 00:32:22,180
+This is similar to some of the stuff that we do on
+
+432
+00:32:22,390 --> 00:32:28,210
+the homework. Seem to be graded where the king is,
+
+433
+00:32:28,220 --> 00:32:31,770
+I'm sure you've seen, is. In the expansion's
+
+434
+00:32:31,770 --> 00:32:36,150
+keeping enough terms to work with a given how the
+
+435
+00:32:36,160 --> 00:32:40,320
+mix in the full expression rather than the
+
+436
+00:32:40,320 --> 00:32:45,770
+numerator or denominator by itself. So expanding
+
+437
+00:32:45,770 --> 00:32:50,350
+the exponential is to a few orders it out again,
+
+438
+00:32:50,360 --> 00:32:53,480
+but leaving one of the denominator, we can pull
+
+439
+00:32:53,480 --> 00:32:57,020
+out of X squared to cancel with the X squared of
+
+440
+00:32:57,020 --> 00:33:01,350
+the numerator. And then square the remaining terms
+
+441
+00:33:01,810 --> 00:33:05,890
+later and start with that one squared that have
+
+442
+00:33:05,890 --> 00:33:12,100
+two times I have X from the crossroads and then we
+
+443
+00:33:12,100 --> 00:33:14,590
+have again to tie this to one sixth from the
+
+444
+00:33:14,590 --> 00:33:18,310
+crossroads of X squared, one in the square, and
+
+445
+00:33:18,310 --> 00:33:23,290
+then another quarter from this over to quantity
+
+446
+00:33:23,290 --> 00:33:29,160
+squared. That. Three twelfths plus four fouls as
+
+447
+00:33:29,160 --> 00:33:33,540
+of the Seven Dwarfs, and we can change the
+
+448
+00:33:33,540 --> 00:33:37,770
+denominator into the geometric series up to now.
+
+449
+00:33:38,160 --> 00:33:45,140
+Kubic Order in this small X. So we have to retain
+
+450
+00:33:45,980 --> 00:33:50,300
+up to quadraphonic order, enumerator. And up to
+
+451
+00:33:50,840 --> 00:33:56,450
+quarter to quarter, both in the term being treated
+
+452
+00:33:56,450 --> 00:34:02,060
+as small to expand, that is serious as well as the
+
+453
+00:34:02,060 --> 00:34:04,820
+number of terms in that series the quadratic will
+
+454
+00:34:04,960 --> 00:34:05,120
+get.
+
+455
+00:34:08,380 --> 00:34:11,390
+This now just becomes a question of expanding out
+
+456
+00:34:11,410 --> 00:34:16,960
+this product. One time want to give the living
+
+457
+00:34:16,960 --> 00:34:20,350
+constitution and then two terms that come in a
+
+458
+00:34:20,350 --> 00:34:25,900
+linear order. Next, we have. X times one plus one.
+
+459
+00:34:26,830 --> 00:34:31,440
+Times X and then this minus six times one is a
+
+460
+00:34:31,450 --> 00:34:35,710
+minus one, so those two terms cancel out at the X
+
+461
+00:34:35,710 --> 00:34:39,400
+squared level. We can start with product of those
+
+462
+00:34:39,400 --> 00:34:43,340
+two terms coming in with a plus a half. And then
+
+463
+00:34:43,550 --> 00:34:48,200
+minus X times X comes in with a minus one minus
+
+464
+00:34:48,980 --> 00:34:52,830
+seven, 12 X squared times one minus seven plus,
+
+465
+00:34:52,850 --> 00:34:56,720
+and finally the one times X squared from here
+
+466
+00:34:57,320 --> 00:35:02,360
+brings in the one to cancel out that we were left
+
+467
+00:35:02,360 --> 00:35:07,100
+with six twelfths minus seven 12 leaves us with
+
+468
+00:35:07,490 --> 00:35:10,490
+quadratic dependence on the inverse temperature
+
+469
+00:35:10,970 --> 00:35:14,950
+and alcohol factor with each bar squared squared
+
+470
+00:35:14,960 --> 00:35:23,060
+of the twelve. So as shown in this figure, this is
+
+471
+00:35:23,630 --> 00:35:26,960
+the plot of the exercise on high capacity
+
+472
+00:35:26,960 --> 00:35:29,930
+approaching that constant factor at high
+
+473
+00:35:29,930 --> 00:35:32,480
+temperatures vanishing exponentially at low
+
+474
+00:35:32,480 --> 00:35:37,010
+temperatures. And we just arrived at the rate at
+
+475
+00:35:37,010 --> 00:35:40,610
+which high temperature limit was approached,
+
+476
+00:35:41,210 --> 00:35:47,180
+vanishing quite radically in the temperature. So
+
+477
+00:35:47,180 --> 00:35:53,690
+this plot, at least, is consistent with our
+
+478
+00:35:53,690 --> 00:35:57,770
+experimental data and the fact that I am flipping
+
+479
+00:35:57,770 --> 00:36:00,320
+between two sheets of paper, one with the
+
+480
+00:36:00,320 --> 00:36:03,410
+theoretical prediction of some experimental data
+
+481
+00:36:04,070 --> 00:36:04,990
+reminds me of.
+
+482
+00:36:07,160 --> 00:36:11,930
+A saying by the gunman many years ago that in
+
+483
+00:36:12,200 --> 00:36:14,600
+physics it's customary to put theory and
+
+484
+00:36:14,600 --> 00:36:17,420
+experiments on the same piece of paper, and that's
+
+485
+00:36:17,420 --> 00:36:20,660
+something that you can play with during the break
+
+486
+00:36:20,660 --> 00:36:25,070
+by inserting units for these temperatures. Each
+
+487
+00:36:25,080 --> 00:36:30,110
+participant to try to match up to the scale with
+
+488
+00:36:30,110 --> 00:36:33,260
+which the heat capacity is being measured from
+
+489
+00:36:33,290 --> 00:36:40,890
+these data. Speaking of that scale. It becomes
+
+490
+00:36:40,890 --> 00:36:44,430
+interesting and actually reveals a flaw in the
+
+491
+00:36:44,520 --> 00:36:48,360
+design of solid if we zoom in so much lower
+
+492
+00:36:48,360 --> 00:36:51,090
+temperatures. So rather than the hundreds of
+
+493
+00:36:51,090 --> 00:36:55,350
+kaledin that we have here, we started looking at
+
+494
+00:36:55,710 --> 00:36:59,820
+zoomed into Tev about four Kelvin and below 40,
+
+495
+00:36:59,820 --> 00:37:05,880
+squared up to 18 and plotted on the vertical axis
+
+496
+00:37:05,880 --> 00:37:08,850
+here, not the heat capacity itself, but rather the
+
+497
+00:37:08,850 --> 00:37:13,080
+ratio of heat capacity and temperature. We can see
+
+498
+00:37:13,950 --> 00:37:17,070
+the limit of absolute zero goes to a non-zero
+
+499
+00:37:17,070 --> 00:37:19,470
+value slightly below one, these units of
+
+500
+00:37:19,800 --> 00:37:25,640
+individuals per square. It is then. Very well
+
+501
+00:37:25,640 --> 00:37:30,620
+described by a straight line in T-square, which is
+
+502
+00:37:30,620 --> 00:37:35,330
+to say that the capacity itself has some linear
+
+503
+00:37:35,330 --> 00:37:40,330
+peace process that intercept Alpha and a cubit
+
+504
+00:37:40,340 --> 00:37:44,870
+piece proportional to that that slope gave up in
+
+505
+00:37:44,870 --> 00:37:51,610
+this plot. And this is, as we mentioned, not what
+
+506
+00:37:52,360 --> 00:37:55,810
+the unsign solid gibs that predicted next
+
+507
+00:37:55,810 --> 00:37:59,710
+eventually vanishing chip capacity and zero
+
+508
+00:37:59,710 --> 00:38:03,760
+temperatures. So we did not have straight lines on
+
+509
+00:38:03,760 --> 00:38:07,180
+a plot like this. This is a polynomial approach,
+
+510
+00:38:07,230 --> 00:38:12,800
+in particular, this polynomial. And actually, from
+
+511
+00:38:13,400 --> 00:38:19,360
+the work we did this morning, we know we recognize
+
+512
+00:38:19,400 --> 00:38:24,260
+this linear contribution to the heat capacity as
+
+513
+00:38:24,710 --> 00:38:28,190
+the prediction that we got for a low temperature
+
+514
+00:38:29,060 --> 00:38:33,130
+for gas through the leading order of the overfill
+
+515
+00:38:33,170 --> 00:38:39,250
+expansion. We have that result.
+
+516
+00:38:42,530 --> 00:38:44,910
+Now, the last thing we did this morning, which was
+
+517
+00:38:44,910 --> 00:38:48,210
+a bit rushed at the end, was fine for the heat
+
+518
+00:38:48,210 --> 00:38:51,690
+capacity. They said, look, temperature through the
+
+519
+00:38:51,690 --> 00:38:55,860
+summer. The question is, is PI squared over two
+
+520
+00:38:56,460 --> 00:38:58,790
+times the number of particles over the feel the
+
+521
+00:38:58,800 --> 00:39:03,210
+energy policy mix that identifies both the
+
+522
+00:39:03,210 --> 00:39:09,480
+functional form and the value of this alpha
+
+523
+00:39:09,480 --> 00:39:13,650
+parameter in PI squared over two times the energy.
+
+524
+00:39:14,790 --> 00:39:18,240
+Which can be compared to this experimental data to
+
+525
+00:39:18,750 --> 00:39:25,000
+actually measure the energy of. The electron gas
+
+526
+00:39:25,270 --> 00:39:28,720
+that we can attribute this this turn its
+
+527
+00:39:28,720 --> 00:39:30,490
+contribution to heat capacity to.
+
+528
+00:39:33,240 --> 00:39:36,240
+And we can also actually, just in the last five
+
+529
+00:39:36,240 --> 00:39:39,000
+minutes, motivate without going through the full
+
+530
+00:39:39,000 --> 00:39:43,860
+derivation where the tube is coming from and why
+
+531
+00:39:44,190 --> 00:39:46,550
+the Einstein song gets it wrong.
+
+532
+00:39:48,990 --> 00:39:53,100
+The key picture is that these oscillators that are
+
+533
+00:39:53,100 --> 00:39:55,370
+being treated as completely independent body
+
+534
+00:39:55,380 --> 00:39:56,670
+interact and feel
+
+535
+00:39:59,030 --> 00:40:03,000
+that they are connected to the very atoms. And in
+
+536
+00:40:03,000 --> 00:40:05,880
+an actual solid whenever one of these atoms starts
+
+537
+00:40:05,880 --> 00:40:09,240
+to wiggle around and try to move, it's going to
+
+538
+00:40:09,240 --> 00:40:15,840
+affect the atoms around it. And you can expect the
+
+539
+00:40:15,840 --> 00:40:20,510
+movements of atoms in a solid to form a pattern
+
+540
+00:40:21,240 --> 00:40:25,520
+and in particular this sort of pattern. And I know
+
+541
+00:40:25,580 --> 00:40:27,270
+sort of skipping through these comments pretty
+
+542
+00:40:27,270 --> 00:40:33,010
+quickly will get uploaded for you if you. But let
+
+543
+00:40:33,030 --> 00:40:37,280
+me see the dots. And here is. Representative Adam
+
+544
+00:40:37,800 --> 00:40:42,000
+along one dimension of itself, and the idea is
+
+545
+00:40:42,000 --> 00:40:46,080
+that these can be modeled as propagating waves.
+
+546
+00:40:47,230 --> 00:40:49,390
+The displacements and the atoms from their
+
+547
+00:40:49,930 --> 00:40:54,180
+composition is correlated with that, the adults
+
+548
+00:40:54,190 --> 00:40:58,880
+around them. In patterns with wavelength and
+
+549
+00:40:58,880 --> 00:41:01,400
+frequency, it's just like those we considered for
+
+550
+00:41:01,820 --> 00:41:02,560
+photons,
+
+551
+00:41:04,610 --> 00:41:08,570
+the difference with photons, though, is that when
+
+552
+00:41:08,570 --> 00:41:10,850
+we get to very high frequency, these are very
+
+553
+00:41:10,850 --> 00:41:14,540
+short wavelengths. There's actually a cutoff on.
+
+554
+00:41:15,690 --> 00:41:19,470
+How should we like to be? We can't have atoms that
+
+555
+00:41:19,470 --> 00:41:23,200
+are. Having a collective motion on a shorter
+
+556
+00:41:23,200 --> 00:41:26,350
+distance scale than actually separates those atoms,
+
+557
+00:41:26,350 --> 00:41:30,430
+there's nothing collective left behind with this
+
+558
+00:41:30,430 --> 00:41:33,760
+cut off and the frequency is the maximum frequency
+
+559
+00:41:33,760 --> 00:41:37,390
+is proportional to the cube root of the number of
+
+560
+00:41:37,390 --> 00:41:41,560
+atoms, which is different by a factor of three
+
+561
+00:41:41,560 --> 00:41:44,600
+compared to the number of oscillators. So these
+
+562
+00:41:44,600 --> 00:41:49,100
+waves in sorrow's collected motion of atoms are
+
+563
+00:41:49,100 --> 00:41:50,900
+called photons.
+
+564
+00:41:53,330 --> 00:41:58,080
+And they behaved in some ways quite similarly to
+
+565
+00:41:58,220 --> 00:42:03,180
+photons. There are other. Important differences,
+
+566
+00:42:03,180 --> 00:42:06,180
+chief among them being this cut off on the back,
+
+567
+00:42:06,180 --> 00:42:11,550
+some frequency. So if just to wrap up the first
+
+568
+00:42:11,550 --> 00:42:16,770
+nine weeks of the module, go back to page 111 and
+
+569
+00:42:16,770 --> 00:42:20,290
+look at the energy density for a full time gas.
+
+570
+00:42:21,060 --> 00:42:23,430
+And instead of integrating the frequencies up to
+
+571
+00:42:23,430 --> 00:42:27,360
+infinity, we cut them off at some maximum
+
+572
+00:42:27,360 --> 00:42:30,620
+frequency. Let me go through the usual change in
+
+573
+00:42:30,780 --> 00:42:33,210
+variables that we did I.
+
+574
+00:42:35,270 --> 00:42:37,400
+Last week, or possibly even two weeks ago now for
+
+575
+00:42:37,400 --> 00:42:42,200
+the first time, gas, then this X integrity over is
+
+576
+00:42:42,200 --> 00:42:45,110
+inversely proportional to the temperature and the
+
+577
+00:42:45,110 --> 00:42:49,280
+integrity is cut off at some function of
+
+578
+00:42:49,850 --> 00:42:53,560
+temperature. And we can now look at the high, low
+
+579
+00:42:53,570 --> 00:42:56,120
+temperature behaviors of this at high temperatures
+
+580
+00:42:56,660 --> 00:42:59,840
+relative to this so-called DIBBY temperature t
+
+581
+00:42:59,860 --> 00:43:03,230
+study. That is some complicated combination of
+
+582
+00:43:03,230 --> 00:43:07,220
+constants coming into this way of looking at
+
+583
+00:43:07,220 --> 00:43:11,940
+things, the so-called bi theory of solids. Well,
+
+584
+00:43:11,980 --> 00:43:15,510
+that X is very small, we can just expand the
+
+585
+00:43:15,510 --> 00:43:22,500
+exponential, get to one plus X, minus one X, the
+
+586
+00:43:22,500 --> 00:43:28,080
+denominator that is a integral to do the role of X
+
+587
+00:43:28,080 --> 00:43:31,440
+squared is executed. So we end up with three
+
+588
+00:43:31,440 --> 00:43:34,620
+powers of the temperature from the limit of
+
+589
+00:43:34,620 --> 00:43:38,410
+integration to cancel out three of the four powers
+
+590
+00:43:38,410 --> 00:43:41,370
+in temperature. You started off with short on gas.
+
+591
+00:43:42,060 --> 00:43:46,250
+So we end up with. Energy that is linear in the
+
+592
+00:43:46,250 --> 00:43:49,700
+temperature, which means a heat capacity that is
+
+593
+00:43:49,700 --> 00:43:52,310
+constant, and it turns out to be that you actually
+
+594
+00:43:52,310 --> 00:43:56,390
+go through the calculation the same constant as
+
+595
+00:43:56,390 --> 00:44:01,600
+the guys solo. Just found one in the units
+
+596
+00:44:01,750 --> 00:44:04,510
+reported earlier, but of course, the interesting
+
+597
+00:44:04,510 --> 00:44:06,820
+stuff happens at low temperatures. That's where
+
+598
+00:44:06,820 --> 00:44:13,320
+the cell breaks down. And the divide approach. Has
+
+599
+00:44:14,300 --> 00:44:16,970
+this cut off on the education, becomes very large,
+
+600
+00:44:17,210 --> 00:44:20,270
+approximately, gets back to the full integral from
+
+601
+00:44:20,270 --> 00:44:24,670
+zero to infinity? We considered in Section eight
+
+602
+00:44:24,680 --> 00:44:29,310
+with three. Which was that delightful combination
+
+603
+00:44:29,310 --> 00:44:34,880
+of game of four and three zero four. But the key
+
+604
+00:44:34,880 --> 00:44:38,240
+is that that is just a constant no high school
+
+605
+00:44:38,240 --> 00:44:43,260
+over 15. So this for. To the fourth, dependent's
+
+606
+00:44:43,260 --> 00:44:46,950
+remains in the energy density at low temperatures,
+
+607
+00:44:47,820 --> 00:44:54,210
+taking a derivative means the heat capacity. Is
+
+608
+00:44:55,020 --> 00:44:59,310
+vanishing without proportionately to T cubed,
+
+609
+00:44:59,760 --> 00:45:04,920
+exactly as we saw in this more detailed look at
+
+610
+00:45:04,920 --> 00:45:10,520
+lower temperatures. So that is. All I have to say
+
+611
+00:45:10,520 --> 00:45:16,650
+about that really enjoyable to see. Some actual
+
+612
+00:45:16,650 --> 00:45:19,610
+comparisons with experimental data and the
+
+613
+00:45:20,220 --> 00:45:23,130
+considerations you have to go through in order to
+
+614
+00:45:26,280 --> 00:45:29,520
+get realistic physical predictions out of
+
+615
+00:45:29,910 --> 00:45:34,560
+knowledge, ranking systems could be three weeks.
+
+616
+00:45:34,800 --> 00:45:37,860
+I'll be in touch in the meantime and start to look
+
+617
+00:45:37,860 --> 00:45:42,180
+at the complications that show up when we go
+
+618
+00:45:42,180 --> 00:45:45,530
+beyond the non interactive theories like these and
+
+619
+00:45:45,630 --> 00:45:49,900
+actually introduce interactions to very
+
+620
+00:45:49,930 --> 00:45:55,110
+sophisticated physics. So you were able to have an
+
+621
+00:45:55,110 --> 00:45:58,920
+enjoyable and productive break. I'll see you a few
+
+622
+00:45:58,920 --> 00:45:59,390
+minutes from.
