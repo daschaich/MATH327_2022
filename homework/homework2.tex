@@ -1,0 +1,185 @@
+% ------------------------------------------------------------------
+\documentclass[12 pt]{article} % A4 paper set by geometry package below
+\pagenumbering{arabic}
+\setlength{\parindent}{10 mm}
+\setlength{\parskip}{12 pt}
+
+% Nimbus Sans font should be reasonably legible
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[T1]{fontenc}  % Without this \textsterling produces $
+
+% Section header spacing
+\usepackage{titlesec}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{verbatim}    % For comment
+\usepackage[shortlabels]{enumitem}
+\usepackage[paper=a4paper, marginparwidth=0 cm, marginparsep=0 cm, top=2.5 cm, bottom=2.5 cm, left=3 cm, right=3 cm, includemp]{geometry}
+\usepackage[pdftex, pdfstartview={FitH}, pdfnewwindow=true, colorlinks=true, citecolor=blue, filecolor=blue, linkcolor=blue, urlcolor=blue, pdfpagemode=UseNone]{hyperref}
+
+% Put module code and last-modified date in footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\cfoot{{\small \thisweek}\hfill \thepage\hfill {\small \moddate}}
+
+% Hopefully address Canvas complaints about pdf tagging and title
+%\usepackage[tagged]{accessibility}
+\hypersetup {
+  pdfauthor={David Schaich},
+  pdftitle={Statistical Physics Homework},
+}
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+% Shortcuts
+\newcommand{\be}{\ensuremath{\beta} }
+\newcommand{\la}{\ensuremath{\lambda} }
+\newcommand{\Om}{\ensuremath{\Omega} }
+\newcommand{\vev}[1]{\ensuremath{\left\langle #1 \right\rangle} }
+\newcommand{\pderiv}[2]{\ensuremath{\frac{\partial #1}{\partial #2}} }
+\newcommand{\showmarks}[1]{\rightline{\texttt{[#1 marks]}}} % \showmarks needs to follow a blank line!
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\begin{document}
+\newcommand{\thisweek}{MATH327 Homework 2}
+\newcommand{\moddate}{Last modified 23 Apr.~2022}
+\begin{center}
+  {\Large \textbf{MATH327: Statistical Physics, Spring 2022}} \\[12 pt]
+  {\Large \textbf{Homework assignment 2}} \\[24 pt]
+\end{center}
+
+\section*{Instructions}
+Complete all four questions below and submit your solutions by file upload \href{https://liverpool.instructure.com/courses/47333/assignments/178544}{on Canvas}.\footnote{By submitting solutions to this assessment you affirm that you have read and understood the \href{https://www.liverpool.ac.uk/media/livacuk/tqsd/code-of-practice-on-assessment/appendix_L_cop_assess.pdf}{Academic Integrity Policy} detailed in Appendix L of the Code of Practice on Assessment and have successfully passed the Academic Integrity Tutorial and Quiz.  The marks achieved on this assessment remain provisional until they are ratified by the Board of Examiners in June 2022.}
+Clear and neat presentations of your workings and the logic behind them will contribute to your mark.
+This assignment is \textbf{due by 23:59 on Thursday, 5 May}, and anonymous marking is turned on.
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\vfill
+\section*{Question 1: Thermodynamic cycle}
+Consider the Diesel cycle defined by the $PV$~diagram shown below, in which the `compression' stage $1 \to 2$ and the `power' stage $3 \to 4$ are both adiabatic, while the pressure is constant during the `injection/ignition' stage $2 \to 3$.
+
+\begin{center}\includegraphics[width=0.5\textwidth]{figs/Diesel.pdf}\end{center}
+
+Calculate the efficiency of the Diesel cycle, $\eta_D$, in terms of the compression ratio $r \equiv V_1 / V_2 > 1$ and the cutoff ratio $C \equiv V_3 / V_2 > 1$, where $C < r$.
+
+\showmarks{10}
+
+Fixing the compression ratio $r$, compare $\eta_D$ to the efficiency of the Otto cycle.
+Is the Diesel cycle more efficient than the Otto cycle, less efficient, or the same?
+How does this depend on the cutoff ratio $C$?
+
+\showmarks{4}
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\newpage
+\section*{Question 2: Mixed ideal gases}
+Consider a mixture of two ideal (non-interacting) gases in thermodynamic equilibrium in a container of volume $V$ at temperature $T$, like that illustrated below.
+Let $N_1$ and $N_2$ be the fixed particle numbers of the two gases.
+Within each gas the particles are indistinguishable, but particles of one gas are distinguishable from particles of the other gas.
+In particular, they have different masses $m_1$ and $m_2$, implying different thermal de~Broglie wavelengths and single-particle canonical partition functions:
+\begin{align*}
+  \la_i(T) & = \sqrt{\frac{2\pi\hbar^2}{m_i T}} &
+  Z_1^{(i)}(T) & = \frac{V}{\la_i^3}.
+\end{align*}
+
+\begin{center}\includegraphics[width=0.5\textwidth]{figs/mixed.pdf}\end{center}
+
+\begin{enumerate}[label={(\alph*)}]
+  \item Calculate the canonical partition function $Z$ and the Helmholtz free energy of the ($N_1 + N_2$)-particle mixture, approximating $\log(N_i!) \approx N_i\log N_i - N_i$.
+
+  \showmarks{4}
+
+  \item Calculate the internal energy $\vev{E}$ and the entropy $S$ of the mixture.
+        What is the condition of constant entropy?
+
+  \showmarks{4}
+
+  \item Calculate the pressure $P$ of the mixture, and relate it to the pressures $P_1$ and $P_2$ of each gas in isolation (as illustrated below).
+
+  \showmarks{4}
+\end{enumerate}
+
+\begin{center}\includegraphics[width=0.3\textwidth]{figs/red.pdf}\hspace{0.3\textwidth}\includegraphics[width=0.3\textwidth]{figs/blue.pdf}\end{center}
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\newpage
+\section*{Question 3: Particle number fluctuations}
+Consider the fugacity expansion of the grand-canonical partition function (Eq.~82),
+\begin{equation*}
+  Z_g(T, \mu) = \sum_{N = 0}^{\infty} \xi^N \, Z_N(T),
+\end{equation*}
+where the fugacity $\xi = e^{\be \mu} = e^{\mu / T}$ and $Z_N(T)$ is the $N$-particle canonical partition function (which is independent of $\xi$).
+Recall that $\Phi(T, \mu) = -T \log Z_g(T, \mu)$ is the corresponding grand-canonical potential.
+
+\begin{enumerate}[label={(\alph*)}]
+  \item Derive a relation between the average particle number $\vev{N}$ and the derivative $\displaystyle \pderiv{}{\log \xi}\Phi = \xi \pderiv{}{\xi}\Phi$.
+
+  \showmarks{4}
+
+\item Derive a relation between $\vev{\left(N - \vev{N}\right)^2}$ and $\displaystyle \left(\xi \pderiv{}{\xi}\right)^2 \Phi$.
+
+  \showmarks{4}
+
+  \item Specializing to Maxwell--Boltzmann statistics, for which the fugacity expansion simplifies to $Z_g^{\text{MB}}(T, \mu) = \exp[\xi Z_1(T)]$, show
+        \begin{equation*}
+          \frac{\sqrt{\vev{\left(N - \vev{N}\right)^2}}}{\vev{N}} = \frac{1}{\sqrt{\vev{N}}}.
+        \end{equation*}
+
+  \showmarks{4}
+\end{enumerate}
+
+As an aside, this final result means that the relative fluctuations in the particle number vanish in the \textbf{thermodynamic limit} $\vev{N} \to \infty$.
+That is, when $\vev{N}$ is large it is approximately constant, which allows the grand-canonical system to be approximated by the corresponding canonical system with fixed $N$.
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\newpage
+\section*{Question 4: Magnetization}
+Consider a system of $N$ (distinguishable) non-interacting `spins' in a lattice at temperature $T$, where the value $s_i$ of each spin can vary \emph{continuously} in the range $-1 \leq s_i \leq 1$.
+In an external magnetic field of strength $H > 0$, the internal energy of the system is $\displaystyle E = -H \sum_{i = 1}^N s_i$.
+
+\begin{enumerate}[label={(\alph*)}]
+  \item Calculate the canonical partition function $Z$ and the Helmholtz free energy of the system.
+
+  \showmarks{4}
+
+  \item Calculate the magnetization $\vev{m}$ of the system.
+        For finite $H > 0$, what are its low- and high-temperature limits, $\displaystyle \lim_{T \to 0} \vev{m}$ and $\displaystyle \lim_{T \to \infty} \vev{m}$?
+
+  \showmarks{4}
+
+  \item Calculate the leading $T$-dependent correction to each of the low- and high-temperature limits from the previous part.
+
+  \showmarks{4}
+\end{enumerate}
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\end{document}
+% ------------------------------------------------------------------
