@@ -1,176 +1,185 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 9}
-\renewcommand{\moddate}{Last modified 1 Apr.~2022}
+\renewcommand{\moddate}{Last modified 25 Apr.~2022}
 \setcounter{section}{9}
 \setcounter{subsection}{0}
 \phantomsection
 \addcontentsline{toc}{section}{Unit 9: Interacting systems}
 \section*{Unit 9: Interacting systems}
-\subsection{\label{sec:Ising}From non-interacting spins to the Ising model}
-So far in this module we have considered `ideal' systems whose constituent objects do not interact with each other.
-While we have seen that excellent mathematical models for real physical systems (such as stars and the cosmic microwave background) can be obtained despite this approximation of non-interacting particles, there are important statistical physics phenomena that cannot be captured by this approach.
+\subsection{\label{sec:Ising}The Ising model}
+So far in this module we have considered `ideal' systems composed of constituent degrees of freedom that do not interact with each other.
+While we have seen that this approximation of non-interacting particles can produce excellent mathematical models for real physical systems ranging from the low-temperature heat capacities of solids to solar radiation and the cosmic microwave background, there are crucial statistical physics phenomena that this approach fails to predict.
 
-An important class of examples, which we will investigate this week, are \textbf{phase transitions}, where interactions allow the same particles to produce extremely different large-scale behaviours, depending on control parameters such as the temperature or pressure.
-An everyday example is the transition of H$_2$O molecules from liquid water to solid ice as the temperature decreases.
-As the temperature of the universe itself decreased during the first few micro-seconds following the big bang, elementary particles transitioned from a quark--gluon plasma to the protons and neutrons we are made out of today.
-An intermediate example illustrated in the figure below (\href{https://doi.org/10.1063/PT.3.4384}{source}) involves two layers of graphene at a low temperature $T \approx 1.7$~K.
-If these two layers are rotated with respect to each other by a small ``magic angle'' $\theta \approx 1.1^{\circ}$, the system transitions from being an electrical insulator to being a superconductor.
+An important class of examples, which we investigate in this unit, are \textit{phase transitions}.
+These occur when interactions allow extremely different large-scale behaviours to arise from the same set of degrees of freedom, depending on control parameters such as the temperature or pressure.
+Phase transitions occur in both everyday and extreme situations.
+Everyday examples include the liquid--gas transition of H$_2$O molecules from water to steam upon boiling a kettle, as well as the transition from liquid water to solid ice as the temperature decreases.
+In the extreme conditions following the big bang, the matter in the universe existed as a charged plasma of quarks and gluons.
+Once the universe was a few micro-seconds old, it cooled enough for this matter to transition into the protons and neutrons we are made out of today.
 
-\begin{center}\includegraphics[width=0.5\textwidth]{figs/unit09_graphene.pdf}\end{center}
+An intermediate example in between the everyday and the extreme involves two layers of graphene as illustrated in the figure below.\footnote{Heather M. Hill, ``\href{https://doi.org/10.1063/PT.3.4384}{Twisted bilayer graphene enters a new phase}'', \textit{Physics Today} \textbf{73}:18, 2020.}
+Graphene is an amazing material (recognized by the 2010 Nobel Prize in Physics) that consists of a single-atom-thick sheet of carbon atoms arranged in a hexagonal `honeycomb' lattice.
+Under most conditions, graphene is an electrical insulator.
+However, if two graphene sheets are stacked and rotated with respect to each other by a small ``magic angle'' $\theta \approx 1.1^{\circ}$, the system transitions into a superconducting phase at low temperatures $T \lesssim 1.7$~K.
+Superconductivity allows electrical current to flow with no resistance, meaning that no energy is lost to the production of waste heat.
+If we could discover or design materials that exhibit superconductivity at everyday temperatures $T \sim 300$~K rather than low $T \sim \cO(1)$~K, it would revolutionize the energy efficiency of electronics and the power grid.
 
-We will introduce interactions and explore their effects using simple spin systems of the sort we previously analyzed in some depth during weeks $2$ and $3$.
-In the non-interacting case we previously considered, the internal energy of the system (\eq{eq:spin_energy}) is
+\begin{center}\includegraphics[width=0.45\textwidth]{figs/unit09_graphene.pdf}\end{center} % WARNING: ADJUSTED SIZE BY HAND TO FILL REMAINDER OF PAGE
+
+With this motivation for investigating phase transitions, let's step back to introduce interactions and explore their effects using simple spin systems of the sort we considered in units $2$ and $3$.
+In the non-interacting case we previously analyzed (\eq{eq:spin_energy}), the internal energy of the system is
 \begin{equation*}
-  E = H \sum_{n = 1}^N s_n \qquad \mbox{(non-interacting)},
+  E_i = -H \sum_{n = 1}^N s_n \qquad \mbox{(non-interacting)}
 \end{equation*}
-where $H > 0$ is the constant strength of an external magnetic field and the orientation of the $n$th spin, $s_n$, takes one of only two possible values: $s_n = 1$ if the spin is aligned anti-parallel to the field and $s_n = -1$ if the spin is aligned parallel to the field.
+for micro-state $\om_i$ specified by the $N$ spins $\left\{s_n\right\}$ (and, as always for this module, in thermodynamic equilibrium).
+Here $H > 0$ is the constant strength of an external magnetic field and the orientation of the $n$th spin, $s_n$, takes one of only two possible values: $s_n = 1$ if the spin is aligned parallel to the field and $s_n = -1$ if the spin is aligned anti-parallel to the field.
 The ground state of the system features all $N$ spins aligned parallel to the magnetic field, with minimal energy $E_0 = -NH$.
-This week we will only consider systems of distinguishable spins, which can be labeled by their fixed position in a $d$-dimensional simple cubic \textbf{lattice} like that shown below for $d = 2$ dimensions.
+
+In this unit we will only consider systems of distinguishable spins that we label by their fixed position in a $d$-dimensional simple cubic \textbf{lattice}.
 The $d = 1$ case of a one-dimensional lattice is precisely the system of spins arranged in a line that we analyzed in \secref{sec:spin_chain}.
+This and the case of $d = 2$ are both easy to visualize and draw on a sheet of paper:
+\begin{mdframed}
+  \ \\[100 pt]
+\end{mdframed}
+While we can only have physical lattices with $d = 1$, $2$ or $3$ in nature, the mathematical construction works just as well for any integer $d \geq 1$.
 
-\begin{center}\includegraphics[width=0.8\textwidth]{figs/unit09_spins.pdf}\end{center}
-
-We can see that the total internal energy of the non-interacting system can easily be written as a sum over energies for each individual spin,
+We can see that the total internal energy of the non-interacting system can easily be written as a sum over energies $\eps_n$ for each individual spin,
 \begin{align*}
-  E_n & = H s_n &
-  E & = \sum_{n = 1}^N E_n \qquad \mbox{(non-interacting)}.
+  \eps_n & = -H s_n &
+  E_i & = \sum_{n = 1}^N \eps_n \qquad \mbox{(non-interacting)}.
 \end{align*}
-This is a generic feature of non-interacting systems, and an aspect of the \textbf{factorization} that enormously simplifies calculations by causing the $N$-particle partition function (\eq{eq:spin_part_func}) to take the form of a product of $N$ identical terms, $Z = \left[2\cosh\left(\be H\right)\right]^N = Z_1^N$.
-However, a stronger condition needs to be satisfied in order for such factorization to be guaranteed, which rigorously defines what it means for a system to be non-interacting.
+This is a generic feature of non-interacting systems, and an aspect of the \textbf{factorization} that enormously simplifies calculations --- in this case by causing the $N$-particle partition function (\eq{eq:spin_part_func}) to take the form of a product of $N$ identical terms, $Z = \left[2\cosh\left(\be H\right)\right]^N = Z_1^N$.
+However, it is possible to have non-factorizable systems in which the internal energy can be expressed as a sum of this sort.
+A stronger condition needs to be satisfied in order to guarantee factorization, and this conditions rigorously defines what it means for a system to be non-interacting.
 
 \begin{shaded}
-  Let $\De E_i$ be the change in the system's internal energy caused by changing its $i$th degree of freedom.
-  Then the system is defined to be \textbf{non-interacting} if and only if $\De E_i$ is independent of all other degrees of freedom $k \ne i$.
+  Let $\De E_j$ be the change in the system's internal energy caused by changing its $j$th degree of freedom.
+  Then the system is defined to be \textbf{non-interacting} if and only if $\De E_j$ for any $j$ is independent of all other degrees of freedom $k \ne j$.
 \end{shaded}
 
-For our system of $N$ distinguishable spins, the only possible change we can make to a degree of freedom is to negate it, $s_i \to -s_i$, which corresponds to flipping its alignment relative to the external magnetic field.
-This spin flip causes the total energy to change,
-\begin{equation*}
-  E = H \sum_{n = 1}^N s_n = H\left(s_i + \sum_{k \ne i} s_k\right) \quad \lra \quad H\left(-s_i + \sum_{k \ne i} s_k\right),
-\end{equation*}
-corresponding to $\De E_i = -2H s_i$, which is indeed independent of all spins $s_k$ with $k \ne i$.
-This simple check confirms that our definition works for the non-interacting spin system under consideration.
+For our system of $N$ distinguishable spins, the only possible change we can make to a degree of freedom is to negate it, $s_j \to -s_j$, which corresponds to flipping its alignment relative to the external magnetic field.
+It is easy to check that the change in the internal energy resulting from such a spin flip satisfies our definition of a non-interacting system:
+\begin{mdframed}
+  \ \\[80 pt]
+\end{mdframed}
 
-Now let's convert this setup into a system of interacting spins by adding the simplest possible two-spin contribution to its energy:
+Now let's make things more interesting by considering a different spin system that also includes a simple two-spin contribution to the internal energy:
 \begin{equation}
   \label{eq:Ising_energy}
-  E = -\sum_{(ij)} s_i s_j + H \sum_{n = 1}^N s_n.
+  E_i = -\sum_{(jk)} s_j s_k - H \sum_{n = 1}^N s_n.
 \end{equation}
-The first sum runs over all pairs of nearest-neighbour spins in the lattice, denoted $(ij)$.
-What is the change in energy $\De E_i$ from \eq{eq:Ising_energy} upon negating $s_i \to -s_i$?
+The first sum runs over all pairs of nearest-neighbour spins in the lattice, denoted $(jk)$.
+What is the change in energy $\De E_j$ from \eq{eq:Ising_energy} upon negating $s_j \to -s_j$?
 Does this indicate an interacting or non-interacting system?
 \begin{mdframed}
   \ \\[100 pt]
 \end{mdframed}
-The pictures below illustrate nearest-neighbour pairs for simple cubic lattices in $d = 2$ and $3$ dimensions, while also introducing some additional lattice terminology.
+
+The pictures on the next page illustrate nearest-neighbour pairs for simple cubic lattices in $d = 2$ and $3$ dimensions, while also introducing some additional lattice terminology.
+Instead of drawing up- and down-pointing arrows, these pictures identify the spins with \textit{sites} in the lattice represented as points (or larger filled circles).
+In simple cubic lattices, all sites are positioned in a regular grid, separated by a constant distance along each basis vector.
+We can also draw \textit{links} as solid lines connecting these nearest-neighbour sites, with each link corresponding to a term in $\sum_{(jk)}$.
+The picture of a two-dimensional lattice on the left highlights the four links (with red hatch marks) that correspond to the four nearest neighbours (circled in red) of a particular site (circled in blue).
+For $d \geq 2$, an elementary unit of surface area is called a \textit{plaquette}, while for $d \geq 3$ the elementary unit of volume is called a \textit{cube}.
 
 \begin{center}
   \includegraphics[height=0.4\textwidth]{figs/unit09_lattice_2d.pdf}\hfill
   \includegraphics[height=0.4\textwidth]{figs/unit09_lattice_3d.pdf}
 \end{center}
 
-Instead of drawing up- and down-pointing arrows, these pictures identify the spins with \textit{sites} in the lattice represented as points (or larger filled circles).
-In simple cubic lattices, all sites are positioned in a regular grid, separated by a constant distance along each basis vector.
-In between nearest-neighbour sites, we can draw \textit{links} as solid lines.
-The picture of a two-dimensional lattice on the left highlights the four links (with red hatch marks) that correspond to the four nearest neighbours (circled in red) of a particular site (circled in blue).
-While we can only have physical lattices with $d = 1$, $2$ or $3$ in nature, the mathematical construction works just as well for any integer $d \geq 1$.
-For $d \geq 2$, an elementary unit of surface area is called a \textit{plaquettes}, while for $d \geq 3$ the elementary unit of volume is called a \textit{cube}.
-
-Computing the energy in \eq{eq:Ising_energy} requires determining all of the nearest-neighbour pairs to be summed in the first term, which is equivalent to all of the links in the lattice, $\ell = (ij)$.
-The only potential complication to this task is the need to consider what happens at the edges of the (finite) lattice.
-We can avoid this complication by imposing \textbf{periodic boundary conditions}, which add an extra link between each site on the left edge of the lattice and a corresponding site on the right edge (and similarly in all other dimensions).
-This is illustrated below for the simple one-dimensional lattice, which has been drawn as a circle to emphasize that all $N$ sites remain separated by a constant distance.
-In higher dimensions, periodic boundary conditions produce flat (zero-curvature) $d$-dimensional tori that preserve the simple cubic lattice structure.
-
-\begin{center}\includegraphics[width=0.45\textwidth]{figs/unit09_lattice_1d.pdf}\end{center}
+Computing the energy in \eq{eq:Ising_energy} requires determining all of the nearest-neighbour pairs to be summed in the first term, which is equivalent to all of the links in the lattice, $\ell = (jk)$.
+When considering a finite lattice, this task is complicated by the need to consider the edges of the lattice.
+We can avoid this complication by imposing \textbf{periodic boundary conditions}, which remove these edges by adding links between each site on the left edge of the lattice and the corresponding site on the right edge, and similarly in all other dimensions.
+This is illustrated below for the simple case of the one-dimensional lattice, drawn as a circle to emphasize that all $N$ sites remain separated by a constant distance.
+In higher dimensions, periodic boundary conditions produce flat (zero-curvature) $d$-dimensional tori that preserve the simple cubic lattice structure. \\[-24 pt]
+\begin{center}\includegraphics[width=0.425\textwidth]{figs/unit09_lattice_1d.pdf}\end{center} % WARNING: ADJUSTED SPACING AND SIZE BY HAND TO KEEP NEXT TWO SENTENCES ON THIS PAGE
 
 With periodic boundary conditions, we can easily see that the $N$-site one-dimensional lattice drawn above has $N$ links.
 Each site has two links connecting it to its two nearest neighbours, and each of those links is shared between two sites, so that $\#\ell = 2N / 2 = N$.
 Looking back to the two-dimensional lattice drawn farther above, the four links per site produce $\#\ell = 4N / 2 = 2N$.
-How many terms are there in the sum $\sum_{(ij)}$ in \eq{eq:Ising_energy} for $N$-site lattices with periodic boundary conditions in $d$ dimensions?
+How many terms are there in the sum $\sum_{(jk)}$ in \eq{eq:Ising_energy} for $N$-site lattices with periodic boundary conditions in $d$ dimensions?
 \begin{mdframed}
   \ \\[50 pt]
 \end{mdframed}
 
-The energy in \eq{eq:Ising_energy}, with nearest-neighbour spins specified by the underlying simple cubic lattice structure, defines a famous system known as the $d$-dimensional \textbf{Ising model}.
-Since the 1960s, the Ising model has been the basis of thousands of scientific studies analyzing everything from ferromagnetism to neural networks to urban segregation.\footnote{For a brief summary, see Charlie Wood, ``\href{https://www.quantamagazine.org/the-cartoon-picture-of-magnets-that-has-transformed-science-20200624/}{The Cartoon Picture of Magnets That Has Transformed Science}'', \textit{Quanta Magazine}, 24 July 2020.}
+The energy of interacting spins given by \eq{eq:Ising_energy}, with a lattice structure defined to specify which spins form the nearest-neighbour pairs $(jk)$, defines a famous system known as the $d$-dimensional \textbf{Ising model}.
+Since the 1960s, the Ising model has been the basis of thousands of scientific studies analyzing everything from ferromagnetism to neural networks to urban segregation.\footnote{For a brief discussion, see Charlie Wood, ``\href{https://www.quantamagazine.org/the-cartoon-picture-of-magnets-that-has-transformed-science-20200624/}{The Cartoon Picture of Magnets That Has Transformed Science}'', \textit{Quanta Magazine}, 2020.}
 The model was proposed in 1920 by \href{https://en.wikipedia.org/wiki/Wilhelm_Lenz}{Wilhelm Lenz}, whose PhD student \href{https://en.wikipedia.org/wiki/Ernst_Ising}{Ernst Ising} solved the one-dimensional system as a research project in 1924.
 Exactly solving the two-dimensional case (with $H = 0$) took another twenty years, culminating in renowned work by \href{https://en.wikipedia.org/wiki/Lars_Onsager}{Lars Onsager} in 1944.
 The three-dimensional Ising model remains an open mathematical question, with no known exact solution.
 
 In this context, `solving' the Ising model means deriving a closed-form expression for its canonical partition function,
 \begin{equation*}
-  Z(\be, N, H) = \sum_{\left\{s_n\right\}} \exp\left[-\be E(s_n)\right] = \sum_{\left\{s_n\right\}} \exp\left[\be\sum_{(ij)} s_i s_j - \be H \sum_n s_n\right].
+  Z(\be, N, H) = \sum_{\left\{s_n\right\}} \exp\left[-\be E(s_n)\right] = \sum_{\left\{s_n\right\}} \exp\left[\be\sum_{(jk)} s_j s_k + \be H \sum_n s_n\right].
 \end{equation*}
 As in \secref{sec:spin_info}, the partition function sums over all possible spin configurations $\left\{s_n\right\}$, which amounts to a sum of $2^N$ exponential factors for $N$ spins, with $\cO(N)$ terms within each exponential.
-Now that the system is interacting, the partition function can no longer be factorized into $N$ identical two-term factors, making it extremely difficult to evaluate.
+Now that the system is interacting, the partition function no longer factorizes into the $N$ identical $\cosh$ factors of \eq{eq:spin_part_func}, making it extremely difficult to evaluate.
 This is why there is no known exact solution to the three-dimensional Ising model, and it also makes `brute-force' numerical computations impractical.
-Even for a system of $N = 1023$ spins (tiny compared to Avogadro's number $\sim 10^{23}$) there would be roughly $2^{1023} \sim 10^{310}$ terms in the partition function, far beyond the capabilities of existing or foreseeable supercomputers.
+Even for a system of $N = 1023$ spins, twenty orders of magnitude smaller than our typical $N \sim 10^{23}$, there are roughly $2^{1023} \sim 10^{310}$ terms in the partition function, far beyond the capabilities of existing or foreseeable supercomputers.
 % ------------------------------------------------------------------
 
 
 
 % ------------------------------------------------------------------
 \subsection{\label{sec:Ising_phases}Ising model phases and phase transition}
-Similarly to how we analyzed non-interacting spin systems in \secref{sec:spin_info}, we can simplify the Ising model by considering its behaviour in the limits of high and low temperatures.
-For another simplification, we will set $H = 0$ in this section, and consider
+Despite the insolubility of the Ising model in an arbitrary number of $d$ dimensions, we can still make robust predictions for its large-scale behaviour by considering the simplified limits of high and low temperature, much as we did for non-interacting spin systems in \secref{sec:spin_info}.
+We can also simplify the system by setting $H = 0$ in this section, and considering just
 \begin{align}
   \label{eq:Ising_zero_field}
-  E & = -\sum_{(ij)} s_i s_j &
-  Z(\be, N) & = \sum_{\left\{s_n\right\}} \exp\left[\be\sum_{(ij)} s_i s_j\right].
+  E_i & = -\sum_{(jk)} s_j s_k &
+  Z(\be, N) & = \sum_{\left\{s_n\right\}} \exp\left[\be\sum_{(jk)} s_j s_k\right].
 \end{align}
-We will see that the large-scale behaviour of the Ising model is qualitatively different at high temperatures compared to low temperatures.
-In other words, the system exhibits two distinct phases for different temperatures.
-This is a necessary but not sufficient condition for there to be a true phase transition---a priori, it is possible for there to be a gradual \textit{crossover} between these two phases, as opposed to a rapid transition.
-We will use the Ising model to more rigorously define what exactly constitutes a phase transition, and how this can be distinguished from a crossover.
+We will see that the behaviour of this zero-field Ising model is qualitatively different at high temperatures compared to low temperatures.
+In other words, the system exhibits at least two distinct phases for different temperatures.
+This is a necessary but not sufficient condition for there to be a true phase transition --- it leaves open the possibility of a gradual \textit{crossover} between these two phases, as opposed to a rapid transition.
+In this section we will use the Ising model to more rigorously define what exactly constitutes a phase transition, and how this can be distinguished from a crossover.
 
-\newpage % WARNING: FORMATTING BY HAND
-The Ising model partition function becomes extremely simple in the \textbf{high-temperature} limit $\be \to 0$.
-What is its asymptotic limit?
+First, though, let's consider the \textbf{high-temperature} limit $\be \to 0$, where the Ising model partition function becomes extremely simple:
 \begin{mdframed}
-  $\displaystyle Z(\be = 0, N) = $ \\[50 pt]
+  $\displaystyle \lim_{\be \to 0} Z(\be, N) = $ \\[40 pt]
 \end{mdframed}
-You should find a result identical to that for a micro-canonical system with energy $E = 0$, which is clearly non-interacting since $\De E_i = 0$.
-Every spin configuration is a different micro-state of the system, all with the same probability $p_i = 1 / 2^N$, as in \eq{eq:micro_equil}.
+In this limit, all $2^N$ spin configurations are adopted with the same probability $p_i = 1 / 2^N$, regardless of their internal energy from \eq{eq:Ising_zero_field}.
+In effect, that energy has become negligible compared to the temperature
 
-Effectively, we are considering temperatures so high that the energy from \eq{eq:Ising_zero_field} is negligible for any spin configuration.
-Although the energy no longer distinguishes between different micro-states, we can define a quantity that continues to be sensitive to the details of the spin configuration.
-This is the \textbf{magnetization} $M = n_+ - n_-$, where we redefine $n_{\pm}$ to be the number of spins with value $\pm 1$, so that $N = n_+ + n_-$.\footnote{\TODO{In week $2$ we defined $n_{\pm}$ based on spins' alignment with or against the external magnetic field, which no longer applies now that we have set $H = 0$.}}
-It is convenient to normalize the total magnetization $M$ by the number of spins,
+Rather than computing the expectation value of that internal energy, there is a simpler observable that we can consider to characterize this high-temperature phase.
+This is the \textbf{magnetization} $M = n_+ - n_-$, retaining our definition of $n_{\pm}$ as the number of spins with value $\pm 1$, even without an external field for them to align with or align against.
+It is convenient to normalize the magnetization by the number of spins,
 \begin{equation}
   \label{eq:Ising_magnet}
-  |m| \equiv \frac{|M|}{N} = \frac{|n_+ - n_-|}{n_+ + n_-}
+  m \equiv \frac{M}{N} = \frac{n_+ - n_-}{n_+ + n_-},
 \end{equation}
-so that $0 \leq |m| \leq 1$ for any value of $N$.
+so that $-1 \leq m \leq 1$ for any value of $N$.
+In addition, without an external field to distinguish between $\pm 1$ spins, it is also convenient to consider the absolute magnitude $0 \leq |m| \leq 1$.
 
 Our task is now to determine the expectation value of the magnetization at high temperatures.
-Above we found that all spin configurations are equally probable in this regime, so $\vev{|m|}$ will be determined by how likely it is for these micro-states to have a particular magnetization.
+Above we found that all spin configurations are equally probable in this regime, so $\vev{|m|}$ will be determined by how many of these equally-probably micro-states have a particular magnetization.
 For example, there are only two micro-states with $|m| = 1$, corresponding to $(n_+, n_-) = (N, 0)$ and $(0, N)$.
 In general, just as we saw in \eq{eq:spin_states}, there are
 \begin{equation*}
   \binom{N}{n_+} = \binom{N}{n_-} = \frac{N!}{n_+! \; n_-!}
 \end{equation*}
 equally probable micro-states with a given $n_+ = N - n_-$.
-For large $N \gg 1$ this binomial coefficient is factorially peaked around
+For large $N \gg 1$ this binomial coefficient has a factorially narrow peak around
 \begin{equation*}
-  n_+ = n_- = \frac{1}{2} N \qquad \lra \qquad |m| = 0,
+  n_+ = n_- = \frac{1}{2} N \qquad \lra \qquad |m| = 0.
 \end{equation*}
-which defines a \textbf{disordered phase} with similar numbers of up- and down-pointing spins producing a small magnetization.
-In the so-called \textit{thermodynamic limit} $N \to \infty$, the expectation value of the magnetization in the disordered phase vanishes exactly, $\vev{|m|} \to 0$.
+This characterizes a \textbf{disordered phase} with similar numbers of up- and down-pointing spins producing a small magnetization.
+In the \textit{thermodynamic limit} $N \to \infty$, the expectation value of the magnetization in the disordered phase vanishes exactly, $\vev{|m|} \to 0$.
 
-We now need to determine $\vev{|m|}$ in the \textbf{low-temperature} limit $\be \to \infty$.
-In this regime, as we saw in \secref{sec:spin_chain}, the Boltzmann factor $\exp\left[\be\sum_{(ij)} s_i s_j\right]$ makes it exponentially more likely for the system to adopt micro-states with lower energies.
+We next need to determine $\vev{|m|}$ in the \textbf{low-temperature} limit $\be \to \infty$.
+In this regime, as we saw in \secref{sec:spin_chain}, the Boltzmann factor $\exp\left[\be\sum_{(jk)} s_j s_k\right]$ makes it exponentially more likely for the system to adopt micro-states with lower energies.
 In particular, we can expect the ground state to dominate the expectation value of the magnetization, $\vev{|m|}$, up to exponentially suppressed corrections from higher-energy excited states.
 With $H = 0$, the Ising model has two degenerate ground states corresponding to the two ways all the spins can be aligned with each other: $(n_+, n_-) = (N, 0)$ and $(0, N)$.
 What is the ground-state energy of the $N$-site Ising model in $d$ dimensions?
 \begin{mdframed}
-  $\displaystyle E_0 = -\sum_{(ij)} s_i s_j = $ \\[50 pt]
+  $\displaystyle E_0 = -\sum_{(jk)} s_j s_k = $ \\[50 pt]
 \end{mdframed}
 
 As mentioned above, both of these degenerate ground states have the maximal magnetization $|m| = 1$.
 Let's check what effect the first excited state would have on the overall magnetization of the system.
-The first excited state involves negating (or `flipping') a single spin, corresponding to $(n_+, n_-) = (N - 1, 1)$ and $(1, N - 1)$.
-Because any one of the $N$ spins in the lattice could be flipped, the degeneracy of the first excited state grows with $N$:
+The first excited energy level is obtained by flipping a single spin --- negating its value.
+Starting from the two degenerate ground states, this produces all possible micro-states with $(n_+, n_-) = (N - 1, 1)$ and $(1, N - 1)$.
+Because any one of the $N$ spins in the lattice could be flipped, the degeneracy of this first excited energy level grows with $N$:
 \begin{equation*}
   \binom{N}{1} + \binom{N}{N - 1} = 2N.
 \end{equation*}
@@ -178,46 +187,77 @@ At the same time, as $N$ increases the magnetization of each of these micro-stat
 \begin{equation*}
   |m| = \frac{N - 1}{N} = 1 - \frac{1}{N}.
 \end{equation*}
-The key factor is the probability for the system to be in one of these micro-states, which depends on the energy of the first excited state, $E_1$.
-What is the first-excited-state energy of the $N$-site Ising model in $d$ dimensions?
+\newpage % WARNING: FORMATTING BY HAND
+\noindent The key factor is the probability for the system to be in one of these micro-states, which depends on the value of the energy $E_1$ for the first excited energy level.
+What is this $E_1$ for the $N$-site Ising model in $d$ dimensions?
 \begin{mdframed}
   $\displaystyle E_1 = $ \\[100 pt]
 \end{mdframed}
 
-Let's put things together by computing the relative probability for the $d$-dimensional Ising model to be in its ground state with $|m| = 1$ compared to its first excited state with $|m| = 1 - \frac{1}{N}$, accounting for the different number of micro-states in each case:
+Let's bring everything together by computing the relative probability for the $d$-dimensional Ising model to be in its ground state with $|m| = 1$ compared to its first excited state with $|m| = 1 - \frac{1}{N}$.
+This probability is the product of the degeneracy of each energy level times the Boltzmann factor that governs the probability of the system adopting any of these degenerate micro-states:
 \begin{equation*}
-  \frac{p(E_0)}{p(E_1)} = \frac{2\cdot \exp\left[\be d\cdot N\right]}{2N\cdot \exp\left[\be \left(d\cdot N - 4d\right)\right]} = \frac{\exp\left[4\be d\right]}{N}.
+  \frac{P(E_0)}{P(E_1)} = \frac{2\cdot \exp\left[\be d\cdot N\right]}{2N\cdot \exp\left[\be \left(d\cdot N - 4d\right)\right]} = \frac{\exp\left[4\be d\right]}{N}.
 \end{equation*}
-For any fixed $N$, a sufficiently low temperature will cause the ground state to dominate.
-This defines an \textbf{ordered phase} in which essentially all spins are aligned in the same direction, producing a large expectation value for the magnetization, $\vev{|m|} = 1$.
+For any fixed $N$, a sufficiently low temperature will cause the ground state to dominate, with exponentially suppressed contributions from higher energy levels, just as we previously found for simpler non-interacting systems.
+This characterizes an \textbf{ordered phase} with essentially all spins aligned in the same direction, producing a large expectation value for the magnetization, $\vev{|m|} \to 1$.
 
-We have seen that the magnetization $\vev{|m|}$ distinguishes between the high- and low-temperature behaviour of the $d$-dimensional Ising model.
+We have now seen how the behaviour of the magnetization $\vev{|m|}$ distinguishes the high- and low-temperature phases of the zero-field Ising model in $d$ dimensions.
 In the high-temperature disordered phase, the magnetization is small and $\vev{|m|} \to 0$ in the thermodynamic limit $N \to \infty$.
 In the low-temperature ordered phase, the magnetization is large and $\vev{|m|} \to 1$ as $T \to 0$.
-This is typical behaviour for interacting statistical systems, where the quantity distinguishing between these two phases (here the magnetization) is known as the \textbf{order parameter}.
-The behaviour of the order parameter is what distinguishes gradual crossovers from rapid phase transitions.
+
+This contrast between ordered and disordered phases is typical behaviour for interacting statistical systems.
+These two phases are distinguished by an \textbf{order parameter} --- an observable (related to a derivative of the free energy) that is zero in the disordered phase but non-zero in the ordered phase.\footnote{There are atypical (but interesting and important) \textit{topological phase transitions} that are not characterized by such an order parameter.  The most famous example is the BKT phase transition named after \href{https://en.wikipedia.org/wiki/Vadim_Berezinskii}{Vadim Berezinskii}, \href{https://en.wikipedia.org/wiki/J._Michael_Kosterlitz}{J.\ Michael Kosterlitz} and \href{https://en.wikipedia.org/wiki/David_J._Thouless}{David Thouless}, which was awarded the 2016 Nobel Prize in Physics.  It is also possible for a single system to have multiple distinct phase transitions, each characterized by a different order parameter.}
+The magnetization is the order parameter for the Ising model, which we will connect to the free energy in the next section.
+Note that the order parameter need not reach its maximum value in the ordered phase --- in the case of the Ising model, we don't need complete domination by the fully ordered ground state.
+So long as there is a tendency towards order, mathematically defined by a non-zero order parameter, the system is in the ordered phase.
+The details of how the order parameter changes between zero and non-zero values are what distinguish gradual crossovers from rapid phase transitions.
 
 \begin{shaded}
-  A phase transition is characterized by a discontinuity in the order parameter or its derivative(s), in the $N \to \infty$ thermodynamic limit.
-  The value(s) of the control parameter(s) at which the discontinuity occurs define the \textit{critical point} corresponding to the transition.
+  A \textbf{phase transition} is defined by a discontinuity or divergence in the order parameter or its derivative(s), in the $N \to \infty$ thermodynamic limit.
+  The value(s) of the control parameter(s) at which the discontinuity occurs define the \textit{critical point(s)} corresponding to the transition.
 \end{shaded}
 
-For the zero-field ($H = 0$) Ising model, the control parameter is the temperature $T$, and any phase transition would occur at a \textbf{critical temperature} $T_C$.
+For the zero-field Ising model, since we have set $H = 0$, the only remaining control parameter is the temperature $T$.
+Any phase transition would therefore occur at a \textbf{critical temperature} $T_C$.
 The sketches below illustrate the most common types of phase transitions.
-When the order parameter (OP) itself is discontinuous (shown by a dashed line), the transition is said to be a \textit{first-order} phase transition.
-When the order parameter is continuous at $T_C$ but its first derivative is discontinuous, the transition is said to be a \textit{second-order} phase transition.
-This naming scheme generalizes to higher-order phase transitions, the most remarkable of which is the infinite-order BKT phase transition (named after \href{https://en.wikipedia.org/wiki/Vadim_Berezinskii}{Vadim Berezinskii}, \href{https://en.wikipedia.org/wiki/J._Michael_Kosterlitz}{J.\ Michael Kosterlitz} and \href{https://en.wikipedia.org/wiki/David_J._Thouless}{David Thouless}), which was awarded the 2016 Nobel Prize in Physics.
+When the order parameter (OP) itself is discontinuous (shown by a dashed line), the transition is said to be a \textit{first-order} phase transition. % TODO: Leads to non-zero latent heat...
+When the order parameter is continuous at $T_C$ but its first derivative with respect to the control parameter is discontinuous (typically divergent), the transition is said to be a \textit{second-order} phase transition.
+This naming scheme can be generalized to higher-order phase transitions, for which discontinuities don't occur until higher derivatives of the order parameter are considered, but in general any phase transition with a continuous order parameter is called a second-order transition.
 
 \begin{center}\includegraphics[width=0.8\textwidth]{figs/unit09_transitions.pdf}\end{center}
 
-Because true discontinuities are only possible with an infinite number of degrees of freedom, it is really the way in which the system approaches the $N \to \infty$ thermodynamic limit that distinguishes crossovers from true phase transitions.
-We will conclude this week's consideration of interacting systems by developing a useful approximation for the Ising model, which will turn out to be more reliable as the dimensionality $d$ increases.
+In practice, any system with a finite number of degrees of freedom will not exhibit a true discontinuity or divergence in any observable.
+As a result, it is sometimes said that true phase transitions only occur in the $N \to \infty$ thermodynamic limit, but I consider this excessively pedantic, especially given the finite number of atoms in the universe.
+We are still able to distinguish crossovers from true phase transitions when considering a finite number of degrees of freedom, by analyzing the way in which the system approaches the thermodynomic limit.
+If there is time and inclination, we may explore such \textit{finite-size scaling}, but first we will develop a useful approximation technique, and apply it to the Ising model to investigate its (dimensionality-dependent) phase transition in more detail.
 % ------------------------------------------------------------------
 
 
 
 % ------------------------------------------------------------------
 \subsection{\label{sec:mean_field}The mean-field approximation}
+We now restore non-zero external magnetic field, $H > 0$, which allows us to gain a deeper appreciation of the magnetization.
+\TODO{...}
+We can do this by recalling the connection between the magnetization and the average spin discussed at the start of this section.
+Because the total $N$-spin magnetization
+\begin{equation*}
+  M = n_+ - n_- = \sum_{n = 1}^N s_n,
+\end{equation*}
+we can write the full Ising model energy as
+\begin{equation*}
+  E = -\sum_{(ij)} s_i s_j - H \sum_{n = 1}^N s_n = -\sum_{(ij)} s_i s_j - H M,
+\end{equation*}
+with corresponding canonical partition function
+\begin{equation*}
+  Z = \sum_{\left\{s_i\right\}} \exp\left[\be \sum_{(ij)} s_i s_j + \be H M\right].
+\end{equation*}
+From our earlier experience with the canonical ensemble, it now comes as no surprise that $\vev{M} = N\vev{m}$ can be related to a derivative of the Helmholtz free energy $F = -T\log Z$.
+What is this relation?
+\begin{mdframed}
+  $\displaystyle \pderiv{}{H} F = $ \\[100 pt]
+\end{mdframed}
+\TODO{...}
 Looking back to \eq{eq:Ising_magnet}, we can identify the magnetization (with no absolute value) as the average spin,
 \begin{equation*}
   m = \frac{M}{N} = \frac{1}{N}\left(n_+ - n_-\right) = \frac{1}{N} \sum_{n = 1}^N s_n.
@@ -244,8 +284,7 @@ Similarly, since the first term includes both spins $\left(s_i + s_j\right)$ on 
   \label{eq:MF_energy}
   \EMF = d\cdot N \vev{m}^2 - \left(2d\vev{m} + H\right) \sum_{n = 1}^N s_n \equiv d\cdot N \vev{m}^2 - H_{\text{eff}} \sum_{n = 1}^N s_n,
 \end{equation}
-\newpage % WARNING: FORMATTING BY HAND
-\noindent defining an effective magnetic field $H_{\text{eff}}$ that depends on the mean spin.
+defining an effective magnetic field $H_{\text{eff}}$ that depends on the mean spin.
 What is the change in energy $\De E_i$ from \eq{eq:MF_energy} upon negating $s_i \to -s_i$?
 Does this indicate an interacting or non-interacting system?
 \begin{mdframed}
@@ -261,26 +300,7 @@ The mean-field approximation producing \eq{eq:MF_energy} makes it very easy to c
 where we defined $x = -\be H_{\text{eff}}$ to put the sums into exactly the same form as \eq{eq:spin_part_func}.
 We see that the mean-field partition function exhibits complicated dependence on $\vev{m}$.
 In order to get a handle on this dependence, we need to determine another relation between $\vev{m}$ and $\ZMF$.
-
-We can do this by recalling the connection between the magnetization and the average spin discussed at the start of this section.
-Because the total $N$-spin magnetization
-\begin{equation*}
-  M = n_+ - n_- = \sum_{n = 1}^N s_n,
-\end{equation*}
-we can write the full Ising model energy as
-\begin{equation*}
-  E = -\sum_{(ij)} s_i s_j - H \sum_{n = 1}^N s_n = -\sum_{(ij)} s_i s_j - H M,
-\end{equation*}
-with corresponding canonical partition function
-\begin{equation*}
-  Z = \sum_{\left\{s_i\right\}} \exp\left[\be \sum_{(ij)} s_i s_j + \be H M\right].
-\end{equation*}
-\newpage % WARNING: FORMATTING BY HAND
-\noindent From our earlier experience with the canonical ensemble, it now comes as no surprise that $\vev{M} = N\vev{m}$ can be related to a derivative of the Helmholtz free energy $F = -T\log Z$.
-What is this relation?
-\begin{mdframed}
-  $\displaystyle \pderiv{}{H} F = $ \\[100 pt]
-\end{mdframed}
+\TODO{FIX...}
 
 Returning to the mean-field approximation,
 \begin{equation*}
