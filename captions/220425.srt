@@ -1,0 +1,2635 @@
+1
+00:00:02,590 --> 00:00:05,800
+All right, might as well get underway. Welcome
+
+2
+00:00:05,800 --> 00:00:09,840
+back to the last quarter of the term for
+
+3
+00:00:09,850 --> 00:00:14,880
+statistical physics.  We will cover here the final
+
+4
+00:00:14,880 --> 00:00:18,430
+major topic of the course, going into interacting
+
+5
+00:00:18,430 --> 00:00:23,710
+systems and the new phenomena that can enable. But
+
+6
+00:00:23,710 --> 00:00:30,160
+first, let's put up the usual six digit code for
+
+7
+00:00:30,170 --> 00:00:41,270
+today before I forget about that. It is six two, three two,
+
+8
+00:00:41,300 --> 00:00:42,020
+six zero.
+
+9
+00:00:46,420 --> 00:00:51,940
+Before diving into the new stuff, since it's been a
+
+10
+00:00:51,940 --> 00:00:55,290
+while since we have last gone through
+
+11
+00:00:57,710 --> 00:01:02,720
+statistical physics, let's do a bit of recap of
+
+12
+00:01:02,720 --> 00:01:06,530
+what we've seen up to now and what remains as well
+
+13
+00:01:06,530 --> 00:01:12,440
+as some of the. Majestical notices that. Piled up
+
+14
+00:01:12,440 --> 00:01:15,740
+during the spring break. So today is.
+
+15
+00:01:18,270 --> 00:01:19,470
+The 25th of April.
+
+16
+00:01:21,510 --> 00:01:24,620
+We both in there and.
+
+17
+00:01:27,550 --> 00:01:31,260
+Terms of some just legal matters, the.
+
+18
+00:01:34,330 --> 00:01:37,760
+First homework assignment was. Returnability in
+
+19
+00:01:37,760 --> 00:01:42,120
+the last week or two, you mentioned that there was,
+
+20
+00:01:42,120 --> 00:01:44,070
+again, like the first part of the computer project,
+
+21
+00:01:44,070 --> 00:01:46,980
+a fairly broad distribution of marks. The average
+
+22
+00:01:46,980 --> 00:01:49,800
+was around sixty eight percent, with the standard
+
+23
+00:01:49,800 --> 00:01:54,390
+deviation around 16 percent. And that's roughly
+
+24
+00:01:54,390 --> 00:01:57,120
+what I was aiming for by making that number more
+
+25
+00:01:57,480 --> 00:02:01,410
+challenging than, say, the exam would be. So don't
+
+26
+00:02:01,410 --> 00:02:04,040
+be discouraged if you. I ended up with a
+
+27
+00:02:04,040 --> 00:02:07,610
+percentage that seems low on the face value, since
+
+28
+00:02:07,610 --> 00:02:11,390
+there is that average and standard deviation to
+
+29
+00:02:11,390 --> 00:02:16,370
+take into account the. Next step, though, is the
+
+30
+00:02:16,370 --> 00:02:20,840
+final homework that also appeared last week and is
+
+31
+00:02:20,840 --> 00:02:25,880
+due next week, so Thursday, the 5th of May go 10
+
+32
+00:02:25,880 --> 00:02:31,010
+days is going out to that. And normally it might
+
+33
+00:02:31,010 --> 00:02:34,090
+take a look at that in the tutorial on Friday,
+
+34
+00:02:34,100 --> 00:02:36,380
+since there was no tutorial last Friday. We can
+
+35
+00:02:36,380 --> 00:02:40,820
+just skim through the questions quickly here, make
+
+36
+00:02:40,820 --> 00:02:43,490
+sure they all clear and see if there are any
+
+37
+00:02:43,700 --> 00:02:48,290
+immediate questions about them. And just to get
+
+38
+00:02:48,290 --> 00:02:51,980
+underway with that, the first question we have is
+
+39
+00:02:51,980 --> 00:02:55,370
+actually picking up from one of the tutorials
+
+40
+00:02:55,670 --> 00:02:59,390
+before the spring break in at the last one. But a
+
+41
+00:03:00,620 --> 00:03:02,870
+couple of weeks before looking when we looked at.
+
+42
+00:03:04,140 --> 00:03:07,200
+Idealized sort of Namik cycles, describing
+
+43
+00:03:07,200 --> 00:03:09,070
+internal combustion engines, in particular
+
+44
+00:03:09,120 --> 00:03:13,740
+comparing the auto cycle for a petrol engine to
+
+45
+00:03:13,770 --> 00:03:18,320
+this diesel cycle, the diesel engine in question
+
+46
+00:03:18,330 --> 00:03:23,010
+is one that came up in that tutorial but was not
+
+47
+00:03:23,010 --> 00:03:26,430
+answered. Your chance to answer yourself. What is
+
+48
+00:03:26,430 --> 00:03:29,700
+the efficiency of this diesel cycle and how does
+
+49
+00:03:29,700 --> 00:03:33,090
+that compare to the efficiency of the auto cycle
+
+50
+00:03:33,480 --> 00:03:36,810
+for a internal combustion engine?
+
+51
+00:03:38,880 --> 00:03:45,730
+Second question also is not too dissimilar to the.
+
+52
+00:03:47,170 --> 00:03:50,620
+The mixing entropy that we looked at in another of
+
+53
+00:03:50,620 --> 00:03:52,900
+the tutorials here, instead of looking at what
+
+54
+00:03:52,900 --> 00:03:58,900
+happens upon mixing two distinct gases. And what
+
+55
+00:03:58,910 --> 00:04:02,210
+you just consider the mixture from the outset with
+
+56
+00:04:02,210 --> 00:04:05,600
+the new ingredient, that the gases now have
+
+57
+00:04:05,990 --> 00:04:08,600
+different properties beyond their cover that can
+
+58
+00:04:08,600 --> 00:04:14,220
+be distinguished by their wavelength. Which leads
+
+59
+00:04:14,220 --> 00:04:17,550
+to some interesting relations that could arise
+
+60
+00:04:18,000 --> 00:04:22,410
+among the standard observables that we impute for
+
+61
+00:04:22,410 --> 00:04:29,370
+an ideal gas's of the sort compared to. The two
+
+62
+00:04:29,370 --> 00:04:32,190
+separate gases of each of those particles
+
+63
+00:04:32,400 --> 00:04:36,870
+individually, if the other species were absent.
+
+64
+00:04:42,070 --> 00:04:46,210
+Quickly running through the third of four problems
+
+65
+00:04:46,210 --> 00:04:49,850
+here, dealing with the economic ensemble,
+
+66
+00:04:50,080 --> 00:04:56,260
+particularly the sagacity and expansion that. Came
+
+67
+00:04:56,260 --> 00:04:58,820
+up in the lectures relating that grant model
+
+68
+00:04:58,870 --> 00:05:02,530
+competition functioned to an infinite series of
+
+69
+00:05:02,530 --> 00:05:07,160
+economic competition functions. And deriving some
+
+70
+00:05:07,340 --> 00:05:10,970
+relations between observables or the Grand Canal,
+
+71
+00:05:11,150 --> 00:05:14,330
+it's not over, the number fluctuate and
+
+72
+00:05:14,330 --> 00:05:18,230
+derivatives of the Grand Canal, the potential of
+
+73
+00:05:18,230 --> 00:05:21,620
+the Landauer free energy with respect to that from
+
+74
+00:05:21,650 --> 00:05:26,180
+gas, it just may be a good opportunity to
+
+75
+00:05:26,720 --> 00:05:31,670
+highlight the point of this final relation that we
+
+76
+00:05:31,850 --> 00:05:37,310
+will be able to derive in this way, where if we
+
+77
+00:05:37,310 --> 00:05:41,480
+look at the relative fluctuations in that average
+
+78
+00:05:41,480 --> 00:05:44,450
+particle number compared to the total number of
+
+79
+00:05:44,450 --> 00:05:47,780
+particles, much like we saw in the case of
+
+80
+00:05:48,200 --> 00:05:51,770
+diffusion in the first year, we're back in
+
+81
+00:05:51,770 --> 00:05:56,360
+February, those relative fluctuations vanish as
+
+82
+00:05:57,050 --> 00:05:59,360
+the number of particles increases. In this case,
+
+83
+00:05:59,360 --> 00:06:01,940
+the average particle number going to infinity,
+
+84
+00:06:01,940 --> 00:06:05,270
+something called the thermodynamic limit. That has
+
+85
+00:06:05,270 --> 00:06:07,760
+come up briefly in the lecture notes and will come
+
+86
+00:06:07,760 --> 00:06:13,160
+up again this week. So what this means is that
+
+87
+00:06:13,640 --> 00:06:17,480
+when an average particle is large, the relative
+
+88
+00:06:17,480 --> 00:06:21,440
+fluctuations about it are vanishingly small and it
+
+89
+00:06:21,440 --> 00:06:24,260
+can be approximated as simply the constant
+
+90
+00:06:24,380 --> 00:06:27,890
+particle number, which is the distinction between
+
+91
+00:06:28,280 --> 00:06:30,680
+the grand, canonical and canonical examples. In
+
+92
+00:06:30,680 --> 00:06:34,490
+other words, the pragmatical ensemble system
+
+93
+00:06:34,490 --> 00:06:36,940
+described by the Great American ensemble
+
+94
+00:06:37,370 --> 00:06:41,960
+effectively reduces to economical system with a
+
+95
+00:06:41,960 --> 00:06:44,030
+fixed number of particles, one that picks up the
+
+96
+00:06:44,040 --> 00:06:49,010
+particles. It's large. So that is a worthwhile
+
+97
+00:06:49,220 --> 00:06:56,000
+relation to drive this case for maximum the and
+
+98
+00:06:56,000 --> 00:07:00,890
+then the final question focuses on the
+
+99
+00:07:01,310 --> 00:07:06,140
+magnetization, which we will introduce possibly
+
+100
+00:07:06,140 --> 00:07:08,990
+today. More likely tomorrow will get for the.
+
+101
+00:07:09,840 --> 00:07:14,670
+Later in the week here, we're still looking at not
+
+102
+00:07:14,670 --> 00:07:16,770
+interacting system of spitters.
+
+103
+00:07:19,220 --> 00:07:23,090
+So not reading him the bulk of the new information
+
+104
+00:07:23,090 --> 00:07:25,460
+that's coming up this week with interactive
+
+105
+00:07:25,460 --> 00:07:29,180
+systems, but with the wrinkle that each of these
+
+106
+00:07:29,180 --> 00:07:34,490
+degrees of freedom as a value continuously in the
+
+107
+00:07:34,490 --> 00:07:37,730
+range of minus one to one, rather than just taking
+
+108
+00:07:38,180 --> 00:07:41,930
+those two extreme values, that's a difference
+
+109
+00:07:42,380 --> 00:07:45,590
+compared to the knowledge and expense systems that
+
+110
+00:07:45,590 --> 00:07:48,950
+we consider all the way back in units two and
+
+111
+00:07:48,950 --> 00:07:54,500
+three. And the focus of this question is, Danto,
+
+112
+00:07:55,120 --> 00:07:57,640
+given the set, compute the economic competition,
+
+113
+00:07:57,640 --> 00:08:01,030
+function magnetization and look at the limits of
+
+114
+00:08:01,030 --> 00:08:05,230
+how that behaves at high and low temperatures for
+
+115
+00:08:05,650 --> 00:08:09,370
+a fixed externalising field strength gauge.
+
+116
+00:08:11,510 --> 00:08:15,380
+So that's just a quick look through that final
+
+117
+00:08:15,380 --> 00:08:18,800
+assignment due next week at the immediate points
+
+118
+00:08:18,800 --> 00:08:21,290
+of confusion or concern about it.
+
+119
+00:08:27,700 --> 00:08:31,900
+And that here know there is time for those to come
+
+120
+00:08:31,900 --> 00:08:36,850
+up if they occur to you later on and move on to
+
+121
+00:08:39,370 --> 00:08:45,310
+the next. Logistical matters still, which is that
+
+122
+00:08:45,430 --> 00:08:50,390
+final exam, the schedule for those was released
+
+123
+00:08:50,430 --> 00:08:55,240
+and for this module, it is a one hour personal
+
+124
+00:08:55,240 --> 00:08:59,530
+exam scheduled for Wednesday afternoon at two
+
+125
+00:08:59,530 --> 00:09:04,090
+thirty p.m. on the 1st of June. So toward the end
+
+126
+00:09:04,360 --> 00:09:09,190
+of the assessment period and being held in the
+
+127
+00:09:09,190 --> 00:09:13,940
+sports center, which came as a surprise to me
+
+128
+00:09:14,350 --> 00:09:18,780
+because there were. Rooms for exams in that sports
+
+129
+00:09:18,780 --> 00:09:21,930
+center. I'll try to track down the specific
+
+130
+00:09:21,930 --> 00:09:24,930
+location so I can be sure to find it about leave
+
+131
+00:09:24,930 --> 00:09:32,320
+you. Even on your own on that first of June? And
+
+132
+00:09:32,620 --> 00:09:36,040
+to provide some more resources for that exam
+
+133
+00:09:36,040 --> 00:09:40,270
+preparation on the Canada site for the module,
+
+134
+00:09:40,270 --> 00:09:43,180
+I've uploaded a couple of sample exams and also
+
+135
+00:09:43,180 --> 00:09:46,540
+linked to the past exams repository, which is
+
+136
+00:09:46,990 --> 00:09:53,080
+fairly modest for this module on 20 20 was the
+
+137
+00:09:53,410 --> 00:09:58,160
+very first time this module ran. And this that
+
+138
+00:09:58,190 --> 00:10:00,620
+makes this year the very first time it was not
+
+139
+00:10:01,010 --> 00:10:05,660
+disrupted by at least so far, so that 20 20 exam
+
+140
+00:10:05,660 --> 00:10:10,850
+is in the repository. Twenty twenty one was an
+
+141
+00:10:10,850 --> 00:10:14,090
+unusual year in terms of exams and assessments. As
+
+142
+00:10:14,090 --> 00:10:17,210
+you know, that is the final exam for twenty twenty
+
+143
+00:10:17,210 --> 00:10:21,170
+one is going to be two samples that are uploaded
+
+144
+00:10:21,170 --> 00:10:27,020
+to the bottom of this page on campus where right
+
+145
+00:10:27,020 --> 00:10:32,000
+now it's just the sets of problems for you to look
+
+146
+00:10:32,000 --> 00:10:37,550
+at and consider and get a feeling for the scale
+
+147
+00:10:37,550 --> 00:10:41,420
+and style of the exam. And at some point today,
+
+148
+00:10:41,420 --> 00:10:46,340
+I'll upload modules, moral solutions to accompany
+
+149
+00:10:46,940 --> 00:10:51,750
+these postings. Which we can probably discuss
+
+150
+00:10:51,750 --> 00:10:57,740
+before the end of. The teaching at. Weeks going
+
+151
+00:10:57,740 --> 00:10:58,330
+forward.
+
+152
+00:11:00,560 --> 00:11:01,130
+So.
+
+153
+00:11:03,530 --> 00:11:08,870
+That those are the main logistic issues for today,
+
+154
+00:11:09,380 --> 00:11:11,990
+though maybe I can start to.
+
+155
+00:11:15,490 --> 00:11:18,310
+Look ahead to what is coming up and mentioned that
+
+156
+00:11:18,310 --> 00:11:22,950
+compared to twenty twenty the first year, we had a
+
+157
+00:11:23,860 --> 00:11:28,360
+ordinary run of this module, we are now two hours
+
+158
+00:11:28,360 --> 00:11:32,320
+ahead in terms of covering this year, which gives
+
+159
+00:11:32,320 --> 00:11:35,960
+opportunities for. A few more supplements to be
+
+160
+00:11:35,960 --> 00:11:38,450
+added, possibly on things like booze. It's a
+
+161
+00:11:38,470 --> 00:11:41,900
+conversation little Gaspé transitions or spin
+
+162
+00:11:41,900 --> 00:11:46,310
+classes that receive to be recognized by the Nobel
+
+163
+00:11:46,310 --> 00:11:50,390
+Prize last year. So as we go forward over the next
+
+164
+00:11:50,390 --> 00:11:54,500
+few weeks, there will be less of a gap between the
+
+165
+00:11:54,980 --> 00:11:56,570
+release of the lecture notes and lectures
+
+166
+00:11:56,570 --> 00:12:00,170
+themselves as I try to figure out what topics will
+
+167
+00:12:00,350 --> 00:12:04,960
+fit nicely in terms of time and theme. With what
+
+168
+00:12:04,960 --> 00:12:10,000
+we are going over and the time that remains, which
+
+169
+00:12:10,030 --> 00:12:15,250
+I guess brings us to. The recap of where we have
+
+170
+00:12:15,250 --> 00:12:18,490
+been and the foundation that will now be building
+
+171
+00:12:18,490 --> 00:12:23,560
+on. And it's worth probably. Briefly going back
+
+172
+00:12:23,560 --> 00:12:26,500
+all the way to. Beginning.
+
+173
+00:12:30,090 --> 00:12:34,530
+Laila. The foundation of probability theory in
+
+174
+00:12:34,530 --> 00:12:38,430
+terms of probability spaces that consider
+
+175
+00:12:38,790 --> 00:12:42,300
+measurements performed on experiments that are
+
+176
+00:12:42,300 --> 00:12:47,550
+then defining outcomes, sets of those all possible
+
+177
+00:12:47,940 --> 00:12:50,520
+outcomes of these experiments that are then assign
+
+178
+00:12:50,940 --> 00:12:56,190
+probabilities and the particular realization of
+
+179
+00:12:56,700 --> 00:13:03,210
+statistical samples as the probability spaces that
+
+180
+00:13:03,210 --> 00:13:06,990
+correspond to a collection of particles that are
+
+181
+00:13:06,990 --> 00:13:10,620
+evolving in time and probabilistically adopting
+
+182
+00:13:11,700 --> 00:13:16,530
+different possible microstates as they as time
+
+183
+00:13:16,530 --> 00:13:21,570
+goes on and these particles are left free to do
+
+184
+00:13:21,570 --> 00:13:22,130
+their thing.
+
+185
+00:13:24,200 --> 00:13:29,570
+And we have looked at. Three distinct statistical
+
+186
+00:13:29,570 --> 00:13:31,430
+examples, so.
+
+187
+00:13:34,080 --> 00:13:37,140
+Rather than writing anything here, might as well
+
+188
+00:13:37,290 --> 00:13:42,860
+zoom out to. The big picture contrasting these
+
+189
+00:13:42,880 --> 00:13:46,420
+three statistical samples of the memorable way to
+
+190
+00:13:46,570 --> 00:13:49,630
+keep track of how they differ, both in terms of
+
+191
+00:13:50,170 --> 00:13:53,380
+the constraints that are imposed in each of these
+
+192
+00:13:53,500 --> 00:13:56,730
+samples and what those constraints mean in
+
+193
+00:13:57,160 --> 00:13:57,910
+practice.
+
+194
+00:14:00,100 --> 00:14:03,790
+So in the microeconomic ensemble, we directly
+
+195
+00:14:04,210 --> 00:14:07,690
+apply the conservation of energy, as well as the
+
+196
+00:14:07,690 --> 00:14:11,770
+conservation of the number of degrees of freedom,
+
+197
+00:14:11,770 --> 00:14:15,340
+particleboard, which means that we are considering
+
+198
+00:14:15,340 --> 00:14:19,060
+a system that is completely isolated from the rest
+
+199
+00:14:19,060 --> 00:14:22,210
+of the universe. There's no way for any particles
+
+200
+00:14:22,210 --> 00:14:25,120
+to be exchanged within the system or no way for
+
+201
+00:14:25,120 --> 00:14:29,430
+energy to flow into or out of the system. Whereas
+
+202
+00:14:29,430 --> 00:14:32,670
+with the Canaletto ensemble, that's more
+
+203
+00:14:32,670 --> 00:14:35,040
+realistically matches out of the sorts of
+
+204
+00:14:35,040 --> 00:14:36,360
+experiments that you've done.
+
+205
+00:14:38,750 --> 00:14:45,600
+In. Physics and. Science, more broadly, we still
+
+206
+00:14:46,350 --> 00:14:48,750
+preserve the number of particles and allow those
+
+207
+00:14:48,750 --> 00:14:53,130
+to freely come and go, but we do allow energy to
+
+208
+00:14:53,130 --> 00:14:54,720
+be exchanged between the system and its
+
+209
+00:14:54,720 --> 00:14:57,330
+surroundings so that we can do things like look at
+
+210
+00:14:57,330 --> 00:15:02,090
+it and measure it and manipulate it. And we set up
+
+211
+00:15:02,270 --> 00:15:05,690
+in place of that constraint on the energy. The
+
+212
+00:15:05,870 --> 00:15:09,110
+temperature is now in quantity fixed and the
+
+213
+00:15:09,120 --> 00:15:11,240
+economical framework by.
+
+214
+00:15:13,290 --> 00:15:16,380
+Demanding that the system we're interested in is
+
+215
+00:15:16,380 --> 00:15:20,610
+in thermal contact with the large external keypad
+
+216
+00:15:20,610 --> 00:15:23,520
+for thermal reservoir with which energy can freely
+
+217
+00:15:23,520 --> 00:15:29,530
+be exchanged. And that is large enough to fix the
+
+218
+00:15:29,530 --> 00:15:33,820
+overall temperature of the system, went through a
+
+219
+00:15:33,820 --> 00:15:37,330
+couple to the heat and the canonical ensemble
+
+220
+00:15:39,220 --> 00:15:41,660
+takes this to the logical conclusion, along with
+
+221
+00:15:42,160 --> 00:15:46,690
+particle number and energy, to fluctuate with the
+
+222
+00:15:46,690 --> 00:15:49,150
+large external reservoir. Now, being a particle
+
+223
+00:15:49,150 --> 00:15:53,140
+reservoir with which the system can exchange both
+
+224
+00:15:53,140 --> 00:15:57,270
+particles and energy. Now, keep it fixed, in
+
+225
+00:15:57,270 --> 00:15:59,790
+addition to the temperature, the chemical
+
+226
+00:15:59,790 --> 00:16:05,720
+potential that. Effectively describes the flow of
+
+227
+00:16:05,720 --> 00:16:09,860
+these particles from the high density to really
+
+228
+00:16:09,870 --> 00:16:10,810
+secluded city.
+
+229
+00:16:20,890 --> 00:16:21,430
+So.
+
+230
+00:16:30,470 --> 00:16:34,740
+Over the weeks, we have not only. Defiant,
+
+231
+00:16:34,770 --> 00:16:40,040
+introduced. Those micro, canonical, canonical
+
+232
+00:16:40,760 --> 00:16:46,460
+examples, but in all three cases. We have imposed
+
+233
+00:16:47,180 --> 00:16:48,710
+thermodynamic equilibrium.
+
+234
+00:16:57,180 --> 00:17:01,500
+By maximizing the entropy of the system, they see
+
+235
+00:17:02,610 --> 00:17:08,250
+that back in writing is at least plausibly legible.
+
+236
+00:17:10,150 --> 00:17:14,110
+Maximizing the entropy of these systems, being
+
+237
+00:17:14,110 --> 00:17:16,370
+consistent with the second law of thermodynamics,
+
+238
+00:17:16,370 --> 00:17:18,350
+that the entropy is not decreasing, pollution
+
+239
+00:17:18,670 --> 00:17:19,420
+increasing
+
+240
+00:17:21,700 --> 00:17:24,280
+led us to be economical. The graphic novel, the
+
+241
+00:17:24,280 --> 00:17:27,580
+case, the precision function.
+
+242
+00:17:30,060 --> 00:17:36,210
+And the corresponding free energy or potential as
+
+243
+00:17:36,210 --> 00:17:42,690
+the fundamental starting points for analysis of
+
+244
+00:17:42,690 --> 00:17:46,580
+systems governed by the use of probability spaces,
+
+245
+00:17:47,580 --> 00:17:51,750
+and we've seen particular examples of applications
+
+246
+00:17:52,170 --> 00:17:58,020
+of the canonical ensemble to the classical ideal
+
+247
+00:17:58,020 --> 00:17:58,800
+gaseous.
+
+248
+00:18:02,030 --> 00:18:05,660
+Of the swords appearing in question two of the
+
+249
+00:18:05,840 --> 00:18:08,480
+biggest homework assignments as well as.
+
+250
+00:18:09,640 --> 00:18:10,990
+Thermodynamic cycles.
+
+251
+00:18:13,980 --> 00:18:19,800
+So the question, what addresses and the canonical
+
+252
+00:18:19,800 --> 00:18:20,340
+case?
+
+253
+00:18:23,170 --> 00:18:25,450
+The corresponding quantum ideal gas is.
+
+254
+00:18:27,660 --> 00:18:32,790
+Where you have two types of quantum particles goes
+
+255
+00:18:32,790 --> 00:18:37,670
+up to four each with their own distinct behavior.
+
+256
+00:18:38,990 --> 00:18:43,010
+So we have gone through quite a bit so far, but
+
+257
+00:18:43,010 --> 00:18:46,340
+all of it has been considering systems of
+
+258
+00:18:47,180 --> 00:18:49,220
+particles or degrees of freedom that don't
+
+259
+00:18:49,220 --> 00:18:52,580
+interact with each other. As always, precise
+
+260
+00:18:52,580 --> 00:18:56,990
+mathematical way we get into today and tomorrow
+
+261
+00:18:57,350 --> 00:19:01,040
+defining what it means for particles to be
+
+262
+00:19:01,040 --> 00:19:05,810
+interacting or not attracting. And as we introduce
+
+263
+00:19:05,810 --> 00:19:10,920
+interactions. And you will find that systems
+
+264
+00:19:10,920 --> 00:19:16,800
+become more complicated, but also allow a broader
+
+265
+00:19:16,800 --> 00:19:19,800
+range of more realistic behaviors to be modeled,
+
+266
+00:19:20,850 --> 00:19:24,270
+and we will do so building on all of these.
+
+267
+00:19:27,150 --> 00:19:30,480
+Concepts, tools and techniques that we derived
+
+268
+00:19:31,200 --> 00:19:35,010
+prior to the spring break, and as I understand,
+
+269
+00:19:35,010 --> 00:19:38,970
+this is a extended introduction to getting back
+
+270
+00:19:38,970 --> 00:19:42,540
+into the course of stuff like one less thing that
+
+271
+00:19:42,540 --> 00:19:47,850
+as we went through. All of the topics so far, if
+
+272
+00:19:47,850 --> 00:19:52,950
+any of those sounded unfamiliar and you had a hard
+
+273
+00:19:52,950 --> 00:19:55,920
+time recalling what the point was, what the
+
+274
+00:19:55,920 --> 00:20:01,290
+details were, I set up a way for you to flag those
+
+275
+00:20:02,460 --> 00:20:06,750
+you can do anonymously, just filling in a response
+
+276
+00:20:06,750 --> 00:20:11,490
+to these polls everywhere, activities that I'll
+
+277
+00:20:11,490 --> 00:20:15,150
+leave potentially and definitely see if there are
+
+278
+00:20:15,900 --> 00:20:19,810
+asynchronous concerns. Outside of class meetings
+
+279
+00:20:21,400 --> 00:20:25,890
+that can then be addressed as we go forward, for
+
+280
+00:20:25,900 --> 00:20:29,760
+instance, in tutorials, so I will continue to say,
+
+281
+00:20:29,780 --> 00:20:33,220
+are there? Any questions in the media, questions
+
+282
+00:20:33,220 --> 00:20:38,080
+about the roadmap that is taking us to the point
+
+283
+00:20:38,080 --> 00:20:39,070
+that we are now?
+
+284
+00:20:41,800 --> 00:20:44,830
+Typically, there are not, and that poll everywhere
+
+285
+00:20:44,830 --> 00:20:47,800
+provides a way for any questions that do come up
+
+286
+00:20:48,100 --> 00:20:51,880
+at any time to be symptoms, to be quickly and
+
+287
+00:20:51,880 --> 00:20:55,900
+easily, rather than putting you on the spot here
+
+288
+00:20:55,900 --> 00:20:56,230
+in that.
+
+289
+00:20:59,420 --> 00:21:01,520
+So the.
+
+290
+00:21:04,380 --> 00:21:09,650
+Zoo is adequate to move on to those long term
+
+291
+00:21:09,680 --> 00:21:13,320
+message systems. Where?
+
+292
+00:21:16,080 --> 00:21:19,860
+There's even a bit more here about the recap in.
+
+293
+00:21:21,180 --> 00:21:25,740
+Looking at some of the specific physical systems
+
+294
+00:21:25,740 --> 00:21:29,970
+that we found were very well modeled by not
+
+295
+00:21:29,970 --> 00:21:33,870
+interacting systems in the last tutorial before
+
+296
+00:21:33,870 --> 00:21:37,230
+the spring break, we put that. The heat capacity
+
+297
+00:21:37,230 --> 00:21:40,560
+is accelerating, so fantastic agreement between
+
+298
+00:21:40,980 --> 00:21:44,430
+our calculations coming from the well, coming from
+
+299
+00:21:44,430 --> 00:21:49,890
+the Dubai theory of Soldz, but also totals to
+
+300
+00:21:50,430 --> 00:21:53,940
+those capacities, as well as the blank spectrum
+
+301
+00:21:53,940 --> 00:21:57,690
+for solar radiation and the cosmic microwave
+
+302
+00:21:57,690 --> 00:22:02,640
+background. There are. So those are examples,
+
+303
+00:22:02,640 --> 00:22:08,250
+we're not interacting systems. And tell us a great
+
+304
+00:22:08,250 --> 00:22:11,880
+deal about what is going on in physics, but there
+
+305
+00:22:11,880 --> 00:22:16,530
+is, of course, much more that can go on and cannot
+
+306
+00:22:16,530 --> 00:22:22,980
+be captured by these monitoring systems. And just
+
+307
+00:22:22,980 --> 00:22:26,820
+as a bit of general motivation, you talk a bit
+
+308
+00:22:26,820 --> 00:22:32,560
+about phase transitions. As. Phenomena that
+
+309
+00:22:33,280 --> 00:22:37,320
+typically are not captured by not the tracking
+
+310
+00:22:37,330 --> 00:22:40,330
+systems, the biggest transitions, as you probably
+
+311
+00:22:40,330 --> 00:22:43,960
+appreciate, occur in a very wide range of
+
+312
+00:22:43,960 --> 00:22:48,100
+circumstances, but every day and extreme and are
+
+313
+00:22:48,610 --> 00:22:51,400
+exactly the type of physical phenomenon that we
+
+314
+00:22:51,400 --> 00:22:56,500
+want to mathematically analyze and describe using
+
+315
+00:22:56,680 --> 00:22:57,820
+statistical physics.
+
+316
+00:23:00,380 --> 00:23:04,100
+What they amount to is when we take the same
+
+317
+00:23:04,610 --> 00:23:07,610
+system, the same set of stuff, and depending on
+
+318
+00:23:07,730 --> 00:23:10,040
+the control parameters, the conditions in which
+
+319
+00:23:10,040 --> 00:23:14,100
+the system exists, it's temperature pressure, the
+
+320
+00:23:14,120 --> 00:23:17,210
+overall large scale system exhibits vastly
+
+321
+00:23:17,210 --> 00:23:21,470
+different behaviors. So in an everyday situation,
+
+322
+00:23:21,470 --> 00:23:25,370
+we can think about boiling the kettle to force
+
+323
+00:23:25,370 --> 00:23:28,070
+liquid water, to transition to steam. Both
+
+324
+00:23:28,220 --> 00:23:32,920
+collections of EU molecules behaving in a
+
+325
+00:23:33,030 --> 00:23:37,010
+qualitatively different ways, as well as actually
+
+326
+00:23:37,010 --> 00:23:40,340
+freezing liquid water through solid ice is another
+
+327
+00:23:40,400 --> 00:23:44,330
+phase transition of this sort. Maybe more exotic
+
+328
+00:23:45,080 --> 00:23:49,840
+example that. Maybe less familiar, but some of you
+
+329
+00:23:49,840 --> 00:23:52,960
+might have heard of the courtroom on plasma,
+
+330
+00:23:53,020 --> 00:23:57,470
+that's. Is the phase in which the matter in the
+
+331
+00:23:57,470 --> 00:24:01,010
+universe existed for the first few microseconds
+
+332
+00:24:01,370 --> 00:24:03,710
+following the Big Bang until the universe crumbled
+
+333
+00:24:03,710 --> 00:24:10,290
+enough for these quarks gluons to transition into
+
+334
+00:24:10,290 --> 00:24:13,760
+the protons and neutrons, particles that we had
+
+335
+00:24:13,760 --> 00:24:16,600
+and everything else are made out of today.
+
+336
+00:24:20,800 --> 00:24:22,930
+Maybe to split the difference between that every
+
+337
+00:24:22,960 --> 00:24:32,340
+day and extreme. A flag. An interesting. He's a
+
+338
+00:24:32,620 --> 00:24:34,510
+particularly interesting phase transition that
+
+339
+00:24:34,510 --> 00:24:38,230
+occurs in type of materials, not the type of stuff
+
+340
+00:24:38,230 --> 00:24:41,890
+that we work with every day, are things that can
+
+341
+00:24:41,890 --> 00:24:45,340
+easily be produced and played with in a physics
+
+342
+00:24:45,340 --> 00:24:51,070
+lab. That are based on graphic and get something.
+
+343
+00:24:52,310 --> 00:24:56,690
+Exotic, but in the news, so it's a remarkable
+
+344
+00:24:56,690 --> 00:25:01,860
+material that consists of. A single atom thick
+
+345
+00:25:01,860 --> 00:25:06,960
+sheet of carbon atoms that are made in the form of
+
+346
+00:25:06,960 --> 00:25:11,400
+a hexagonal or honeycomb structure. You get an
+
+347
+00:25:11,400 --> 00:25:16,230
+idea of what that is. This picture out here shows
+
+348
+00:25:16,230 --> 00:25:22,510
+two large hexagons or honeycomb cells. Overlap on
+
+349
+00:25:22,510 --> 00:25:27,340
+top of each other in such a way that the smaller
+
+350
+00:25:27,520 --> 00:25:31,420
+unit hexagons that they're built out of overlap
+
+351
+00:25:31,420 --> 00:25:32,130
+into.
+
+352
+00:25:34,380 --> 00:25:40,500
+Certain numbers of cells zoom in a bit here, you
+
+353
+00:25:40,500 --> 00:25:45,360
+can see there are that's maximum zoom or hexagons
+
+354
+00:25:45,360 --> 00:25:51,150
+within hexagons in the system of two layers of the
+
+355
+00:25:51,150 --> 00:25:54,270
+single atom, thick graphene placed on top of each
+
+356
+00:25:54,270 --> 00:25:59,820
+other and motion very slightly by the small angle
+
+357
+00:26:00,300 --> 00:26:05,600
+theta that is around. One degree, but one degree,
+
+358
+00:26:05,600 --> 00:26:09,190
+I think, is the. Next degree with the next
+
+359
+00:26:09,190 --> 00:26:12,910
+significant figure in that theater, what was
+
+360
+00:26:12,910 --> 00:26:15,610
+discovered just a few years ago was that in this
+
+361
+00:26:16,330 --> 00:26:22,210
+situation where two layers of graphene are stacked
+
+362
+00:26:22,210 --> 00:26:26,130
+in twisted by just that small amount. The overall,
+
+363
+00:26:26,130 --> 00:26:29,130
+while their system transitions from the normal
+
+364
+00:26:29,370 --> 00:26:32,670
+electrical insulator phase, the Graffin exists
+
+365
+00:26:33,450 --> 00:26:37,810
+where it's sort of like wood, it doesn't really
+
+366
+00:26:37,830 --> 00:26:42,030
+allow electrical parents to flow naturally turns
+
+367
+00:26:42,030 --> 00:26:46,830
+into an electrical superconductor where electrical
+
+368
+00:26:46,830 --> 00:26:49,890
+currents are able to flow without encountering any
+
+369
+00:26:49,890 --> 00:26:53,400
+resistance, which is to say without producing any
+
+370
+00:26:53,400 --> 00:26:58,650
+heat from the air flow and as a consequence,
+
+371
+00:26:58,650 --> 00:27:03,090
+without using any energy to the production of
+
+372
+00:27:03,090 --> 00:27:09,220
+wasted. So superconductivity is. A remarkable
+
+373
+00:27:09,220 --> 00:27:12,970
+phase of conducting materials discovered a little
+
+374
+00:27:12,970 --> 00:27:18,870
+over a century ago. That's. For reasons I.
+
+375
+00:27:19,890 --> 00:27:23,010
+Although we're talking about generally only occurs
+
+376
+00:27:23,010 --> 00:27:26,610
+at very low temperatures in this case of twisted
+
+377
+00:27:26,610 --> 00:27:29,310
+by their grapheme, the temperature below two
+
+378
+00:27:29,310 --> 00:27:34,500
+Heldon, so about minus three hundred degrees
+
+379
+00:27:34,500 --> 00:27:40,430
+Celsius. Now, numbers. And for decades now,
+
+380
+00:27:40,430 --> 00:27:45,900
+there's been a worldwide push to. Find these sorts
+
+381
+00:27:45,900 --> 00:27:50,640
+of novel materials that exhibit superconductivity
+
+382
+00:27:50,640 --> 00:27:54,480
+at higher temperatures, ideally room temperatures
+
+383
+00:27:54,660 --> 00:27:57,180
+that don't require a great degree of cooling,
+
+384
+00:27:57,600 --> 00:28:01,500
+which would allow if such materials could be
+
+385
+00:28:01,500 --> 00:28:04,710
+discovered or design and we were able to build
+
+386
+00:28:05,110 --> 00:28:09,360
+electronics or power networks out of it. You can
+
+387
+00:28:09,360 --> 00:28:12,840
+no longer lose large amounts of energy to the
+
+388
+00:28:12,840 --> 00:28:16,050
+production of waste, to the energy efficiency of
+
+389
+00:28:16,380 --> 00:28:20,340
+all technology would increase dramatically.
+
+390
+00:28:21,560 --> 00:28:25,490
+Superconductivity that can also mentioned is a key
+
+391
+00:28:25,490 --> 00:28:28,910
+feature of a lot of quantum devices that are
+
+392
+00:28:29,030 --> 00:28:32,300
+employed in quantum computing precisely because
+
+393
+00:28:33,680 --> 00:28:38,780
+none of this waste is produced, that leads to the
+
+394
+00:28:38,780 --> 00:28:42,990
+delicate quantum superposition. Being destroyed in
+
+395
+00:28:42,990 --> 00:28:47,310
+those quantum computers, so the irrelevant phase
+
+396
+00:28:47,310 --> 00:28:52,230
+transition in this situation. Is that from an
+
+397
+00:28:52,280 --> 00:28:56,330
+electrical insulator to a superconductor allowing
+
+398
+00:28:56,630 --> 00:28:59,060
+electrical current either not to flow or to flow
+
+399
+00:28:59,060 --> 00:29:04,430
+without resistance? And this example of the phase
+
+400
+00:29:04,430 --> 00:29:08,180
+transition along with those others, like water and
+
+401
+00:29:08,800 --> 00:29:12,830
+plasma discussed, have to do with the interactions
+
+402
+00:29:13,190 --> 00:29:16,640
+between the degrees of freedom in the system.
+
+403
+00:29:20,640 --> 00:29:25,570
+It is, in fact, the. The way in which the two
+
+404
+00:29:26,110 --> 00:29:31,600
+sheets of hexagonal lettuces align to form larger
+
+405
+00:29:31,600 --> 00:29:36,670
+hexagons that allow more powerful interactions to
+
+406
+00:29:36,670 --> 00:29:40,480
+be introduced into these systems between that
+
+407
+00:29:40,480 --> 00:29:44,560
+stupid phase transition. That's a bit of a
+
+408
+00:29:44,560 --> 00:29:50,440
+digression into physics that isn't really relevant
+
+409
+00:29:50,440 --> 00:29:53,440
+for what we're going to be doing here now. And of
+
+410
+00:29:53,440 --> 00:29:57,370
+course, I just couldn't resist chatting up some of
+
+411
+00:29:57,370 --> 00:30:00,460
+that fun stuff. This is all motivation for
+
+412
+00:30:00,640 --> 00:30:05,770
+investigating phase transitions. And as usual, we
+
+413
+00:30:05,770 --> 00:30:09,910
+will introduce this sort of thing by going back to
+
+414
+00:30:10,450 --> 00:30:16,870
+our simplest physical system, one of these systems
+
+415
+00:30:16,870 --> 00:30:20,830
+that we have already considered. Back when they
+
+416
+00:30:20,830 --> 00:30:23,890
+were not interacting to introduce things like
+
+417
+00:30:24,010 --> 00:30:28,110
+entropy and temperature, the canonical example. So
+
+418
+00:30:28,180 --> 00:30:32,050
+as a more detailed recap and reminder of that
+
+419
+00:30:32,050 --> 00:30:37,030
+particular system in the not interacting case. The
+
+420
+00:30:37,810 --> 00:30:41,570
+internal energy for a given microstates labor
+
+421
+00:30:41,660 --> 00:30:46,000
+supply that is determined by the orientation of
+
+422
+00:30:46,450 --> 00:30:52,450
+some fixed number of spins. Is just the product of
+
+423
+00:30:53,320 --> 00:30:57,610
+each of those orientations with an external
+
+424
+00:30:57,610 --> 00:30:58,470
+magnetic field.
+
+425
+00:31:01,540 --> 00:31:04,360
+Strength parametrized with this constant variable
+
+426
+00:31:04,360 --> 00:31:10,830
+pitch that we always take to be positive. And the.
+
+427
+00:31:12,770 --> 00:31:15,940
+The end here represents the orientation of the
+
+428
+00:31:16,180 --> 00:31:20,620
+spin of the little and spin, how to be big and
+
+429
+00:31:20,620 --> 00:31:26,100
+total that takes only one of two possible balance
+
+430
+00:31:26,110 --> 00:31:30,520
+of the spin is a line parallel to that magnetic
+
+431
+00:31:30,520 --> 00:31:34,630
+field. Then this estimate equals one and the
+
+432
+00:31:34,630 --> 00:31:37,670
+energy gets a contribution of negative each
+
+433
+00:31:37,930 --> 00:31:42,340
+lowering it. If the spin is a. parallel to the
+
+434
+00:31:42,340 --> 00:31:46,960
+field, then it is to give you the minus one and
+
+435
+00:31:46,960 --> 00:31:49,950
+the energy gets a positive contribution plus age.
+
+436
+00:31:51,070 --> 00:31:54,280
+So we saw back in June three that the ground state
+
+437
+00:31:54,280 --> 00:31:59,140
+of the system, the macro state with minimal energy,
+
+438
+00:31:59,320 --> 00:32:02,740
+is the one in which all of the spins are aligned
+
+439
+00:32:02,740 --> 00:32:06,380
+parallel to the field. So there the sun is just
+
+440
+00:32:06,380 --> 00:32:10,090
+the sun over and factors of one. And the total
+
+441
+00:32:10,090 --> 00:32:14,350
+energy of that ground state is the negative of the
+
+442
+00:32:14,350 --> 00:32:17,530
+total number of spins times the external magnetic
+
+443
+00:32:17,530 --> 00:32:17,920
+field.
+
+444
+00:32:20,740 --> 00:32:25,300
+So we use this, the tracking system as a
+
+445
+00:32:26,200 --> 00:32:28,930
+playground to explore the physics of information
+
+446
+00:32:28,930 --> 00:32:32,290
+in the way that the entropy and internal energy
+
+447
+00:32:32,770 --> 00:32:37,570
+differ with the temperature, depending on whether
+
+448
+00:32:37,570 --> 00:32:39,640
+or not the spins were distinguishable or
+
+449
+00:32:39,640 --> 00:32:43,030
+indistinguishable. At least for this unit, the
+
+450
+00:32:43,030 --> 00:32:47,290
+focus only on the distinguishable case where all
+
+451
+00:32:47,290 --> 00:32:52,390
+of these spins are embedded in a fixed lattice. In
+
+452
+00:32:52,400 --> 00:32:54,730
+particular, we'll consider just simple cubic
+
+453
+00:32:54,730 --> 00:32:59,700
+lattices, at least from. Said the lectures, there
+
+454
+00:32:59,700 --> 00:33:02,460
+are other lattice structures that will be
+
+455
+00:33:02,940 --> 00:33:07,940
+interesting to discuss in the tutorial, and we
+
+456
+00:33:07,980 --> 00:33:11,610
+also go beyond the earlier work by allowing these
+
+457
+00:33:11,610 --> 00:33:16,900
+lattices to be multi-dimensional. So back in two
+
+458
+00:33:16,900 --> 00:33:20,850
+and three, the latter be considered in this
+
+459
+00:33:21,060 --> 00:33:27,150
+external field of speech, just some number of
+
+460
+00:33:27,150 --> 00:33:33,510
+spins of the line, either up or down the line or
+
+461
+00:33:33,870 --> 00:33:38,070
+into alignment with the magnetic field where the
+
+462
+00:33:38,070 --> 00:33:40,860
+position of each spin in this one dimensional
+
+463
+00:33:40,860 --> 00:33:41,490
+lattice.
+
+464
+00:33:44,160 --> 00:33:46,050
+System of spin is arranged line.
+
+465
+00:33:49,110 --> 00:33:52,340
+Just allows us to leave Alaska and say, guess what
+
+466
+00:33:52,740 --> 00:33:56,160
+we did off there in this particular microstates
+
+467
+00:33:56,160 --> 00:33:59,510
+that I've drawn here, it's been Escalon has you
+
+468
+00:33:59,520 --> 00:34:06,030
+plus one mile spense estate has value minus one.
+
+469
+00:34:07,420 --> 00:34:13,030
+And it's not too hard to repeat this same sort of.
+
+470
+00:34:16,040 --> 00:34:21,120
+Visualization for. A two dimensional scan system
+
+471
+00:34:21,450 --> 00:34:25,350
+gets progressively harder as we consider higher
+
+472
+00:34:25,350 --> 00:34:31,640
+and higher dimensions. There again, with that same.
+
+473
+00:34:33,830 --> 00:34:37,550
+Fix external Magnetic Fields Beach, we have a two
+
+474
+00:34:37,550 --> 00:34:42,530
+dimensional array of spins, a line either parallel
+
+475
+00:34:42,530 --> 00:34:47,600
+to the magnetic field. So the first state and the
+
+476
+00:34:47,600 --> 00:34:51,650
+fourth row, this micro state has the value of plus
+
+477
+00:34:51,650 --> 00:34:58,760
+one. The fourth spin in the first row has a value
+
+478
+00:34:58,790 --> 00:35:03,290
+minus one aligned against that magnetic field and.
+
+479
+00:35:05,120 --> 00:35:12,380
+While we will focus on. That is one or two or
+
+480
+00:35:12,740 --> 00:35:16,880
+three dimensions spins arranged in a line, on a
+
+481
+00:35:16,880 --> 00:35:22,010
+sheet or in a volume, mathematically, the
+
+482
+00:35:22,400 --> 00:35:26,420
+construction of used spin systems works just as
+
+483
+00:35:26,420 --> 00:35:32,360
+well for any integer, no dimensions, one or above.
+
+484
+00:35:32,570 --> 00:35:36,930
+And it will be. We will see you useful context in
+
+485
+00:35:36,930 --> 00:35:39,090
+which thinking of abstract mathematical.
+
+486
+00:35:42,400 --> 00:35:46,330
+Systems in higher numbers, interventions of the
+
+487
+00:35:46,420 --> 00:35:50,920
+three that we operate in will be useful to gain
+
+488
+00:35:50,920 --> 00:35:54,030
+insight into the calculations and determining.
+
+489
+00:35:57,460 --> 00:35:59,830
+And so, Tim.
+
+490
+00:36:01,870 --> 00:36:05,940
+Define that more vigorously, more mathematically,
+
+491
+00:36:05,950 --> 00:36:09,010
+what we mean when we say that these systems are
+
+492
+00:36:09,010 --> 00:36:15,320
+not interacting, we can. No, first, that the
+
+493
+00:36:15,500 --> 00:36:19,940
+overall internal energy or the systems we consider
+
+494
+00:36:19,950 --> 00:36:24,350
+so far factories into a simple sum of
+
+495
+00:36:24,350 --> 00:36:28,100
+contributions, so individual energies for each
+
+496
+00:36:28,100 --> 00:36:32,920
+individual degree of freedom in the system. And
+
+497
+00:36:33,400 --> 00:36:36,670
+this is at least an aspect of the overall
+
+498
+00:36:36,670 --> 00:36:39,970
+factorization that we have seen in our previous
+
+499
+00:36:39,970 --> 00:36:42,070
+treatment, where we saw, for instance, that
+
+500
+00:36:42,910 --> 00:36:46,570
+considering these storm systems, we could analyze
+
+501
+00:36:46,570 --> 00:36:50,280
+them by computing the single particle partition
+
+502
+00:36:50,290 --> 00:36:54,460
+function, in this case, a single spin that points
+
+503
+00:36:54,460 --> 00:37:00,340
+either up or down and then obtaining the overall
+
+504
+00:37:00,340 --> 00:37:04,000
+importance for protection function, for instance,
+
+505
+00:37:04,030 --> 00:37:08,380
+in this equation, for one, just by taking that
+
+506
+00:37:08,380 --> 00:37:12,790
+product of identical independent single particle
+
+507
+00:37:12,790 --> 00:37:15,990
+partition functions to the incredible production
+
+508
+00:37:16,000 --> 00:37:18,730
+function that I could be able to see. And that's
+
+509
+00:37:18,730 --> 00:37:21,820
+just the power of that single particle partition
+
+510
+00:37:21,820 --> 00:37:25,630
+function in this case, two times the hyperbolic
+
+511
+00:37:25,630 --> 00:37:29,680
+cosine of that magnetic field divided by
+
+512
+00:37:29,950 --> 00:37:30,520
+temperature.
+
+513
+00:37:32,940 --> 00:37:35,610
+Now, this is an aspect of factorization,
+
+514
+00:37:35,610 --> 00:37:38,840
+factorization is a bit more subtle. That just
+
+515
+00:37:38,840 --> 00:37:43,010
+being able to write the overall internal energy as
+
+516
+00:37:43,010 --> 00:37:47,120
+a sum of contributions from different degrees of
+
+517
+00:37:47,120 --> 00:37:52,790
+freedom. There is a stronger condition that needs
+
+518
+00:37:52,790 --> 00:37:55,400
+to be satisfied in order to guarantee
+
+519
+00:37:56,420 --> 00:38:00,500
+factorization or guarantee prevalently that the
+
+520
+00:38:00,500 --> 00:38:07,030
+system is not interacting. Which considers what
+
+521
+00:38:07,030 --> 00:38:13,330
+happens to that internal energy when just one of
+
+522
+00:38:13,330 --> 00:38:17,380
+the degrees of freedom is changed. So call that
+
+523
+00:38:17,380 --> 00:38:21,250
+the degree your freedom in serving the subsequent
+
+524
+00:38:21,250 --> 00:38:25,480
+I, as you refer to, different microstates. And
+
+525
+00:38:25,480 --> 00:38:29,530
+suppose we make some change to this particular
+
+526
+00:38:29,530 --> 00:38:35,240
+degree of freedom. That's produces some change in
+
+527
+00:38:35,420 --> 00:38:39,800
+the overall energy of the system. Delta, a subject.
+
+528
+00:38:42,050 --> 00:38:49,460
+The system is not interacting if and only if. The
+
+529
+00:38:49,880 --> 00:38:54,440
+change in internal energy for any arbitrary degree
+
+530
+00:38:54,440 --> 00:38:59,150
+of freedom turns out to be independent of all the
+
+531
+00:38:59,150 --> 00:39:03,440
+other degrees of freedom. Labeled by nightfall
+
+532
+00:39:03,500 --> 00:39:08,930
+Tuesday. So part of the reason for reviewing the
+
+533
+00:39:09,260 --> 00:39:12,680
+track and speed system in so much detail here is
+
+534
+00:39:12,680 --> 00:39:16,730
+to demonstrate that this definition makes sense
+
+535
+00:39:16,910 --> 00:39:21,950
+and that we do indeed recover, confirm that under
+
+536
+00:39:21,950 --> 00:39:26,100
+this definition, the indistinguishable speeds that
+
+537
+00:39:26,180 --> 00:39:28,430
+we've been considering are, in fact.
+
+538
+00:39:30,850 --> 00:39:34,720
+Not attracted, so the only possible change that we
+
+539
+00:39:34,720 --> 00:39:39,640
+can make to any of these degrees of freedom is to
+
+540
+00:39:40,180 --> 00:39:43,340
+negate its value, which corresponds to slipping
+
+541
+00:39:43,390 --> 00:39:45,940
+its orientation with respect to that external
+
+542
+00:39:45,940 --> 00:39:48,730
+magnetic field. If we pick a degree of freedom
+
+543
+00:39:48,730 --> 00:39:50,890
+that happens to be split up along with the
+
+544
+00:39:50,890 --> 00:39:54,080
+magnetic field, we flip it to spin down negative
+
+545
+00:39:54,080 --> 00:40:00,250
+for Angelyne and vice versa so we can consider
+
+546
+00:40:00,250 --> 00:40:05,230
+what happens to the internal energy. Upon.
+
+547
+00:40:06,800 --> 00:40:11,040
+Performing that sort of spiritual navigation of
+
+548
+00:40:11,040 --> 00:40:15,910
+the degree of freedom for an arbitrary still in
+
+549
+00:40:15,920 --> 00:40:20,320
+the system. So what we can do starting from that
+
+550
+00:40:20,320 --> 00:40:21,310
+internal energy.
+
+551
+00:40:24,290 --> 00:40:28,250
+We wrote down on the previous page is pick out
+
+552
+00:40:28,250 --> 00:40:36,170
+from that song over all and spins the spin that we
+
+553
+00:40:36,170 --> 00:40:39,290
+will be flipping. And then what remains in the
+
+554
+00:40:39,290 --> 00:40:45,090
+song is all those other degrees of freedom, Candy,
+
+555
+00:40:45,260 --> 00:40:46,730
+that are not equal to Jay.
+
+556
+00:40:49,320 --> 00:40:56,100
+So when we put that spin, that's picks up a
+
+557
+00:40:56,110 --> 00:41:02,400
+negative sign and nothing else happens to the
+
+558
+00:41:02,400 --> 00:41:06,320
+other spins. We then take the difference between
+
+559
+00:41:07,130 --> 00:41:11,390
+the new internal energy after that speech and the
+
+560
+00:41:12,380 --> 00:41:16,960
+starting points that we wrote down here, can you
+
+561
+00:41:16,970 --> 00:41:21,590
+see that Delta is associated with Arbitraging? So
+
+562
+00:41:21,950 --> 00:41:25,130
+those sums canceling the difference in the left
+
+563
+00:41:25,130 --> 00:41:30,020
+with just two times, eight times the original
+
+564
+00:41:30,020 --> 00:41:34,350
+value of that spin. As subject, which has to be
+
+565
+00:41:34,350 --> 00:41:41,060
+the. Independent of all. The.
+
+566
+00:41:43,510 --> 00:41:48,260
+Other degrees of freedom that been with Kate J.
+
+567
+00:41:50,580 --> 00:41:51,030
+Which
+
+568
+00:41:53,430 --> 00:41:54,420
+checks out with.
+
+569
+00:41:56,600 --> 00:42:02,150
+Our claim that this is a not a tracking system by
+
+570
+00:42:02,150 --> 00:42:05,270
+the more formal definition that we now have.
+
+571
+00:42:07,570 --> 00:42:12,250
+So any questions about that were the build up to.
+
+572
+00:42:14,170 --> 00:42:16,540
+To this definition of what it means for the system
+
+573
+00:42:16,540 --> 00:42:18,700
+to be interacting or not.
+
+574
+00:42:23,460 --> 00:42:24,770
+Because the next step is to.
+
+575
+00:42:27,550 --> 00:42:31,780
+Make things a bit more interesting by changing how
+
+576
+00:42:31,930 --> 00:42:37,120
+the internal energy of our system depends on the
+
+577
+00:42:37,300 --> 00:42:40,480
+degrees of freedom. So really, this is a different
+
+578
+00:42:40,480 --> 00:42:45,100
+spin system where the internal energy has, in
+
+579
+00:42:45,100 --> 00:42:50,500
+addition to the interaction or the contributions
+
+580
+00:42:50,500 --> 00:42:53,860
+of the energy from each of these spins coupled to
+
+581
+00:42:53,860 --> 00:42:57,760
+that external with added fuel, we have a second
+
+582
+00:42:58,210 --> 00:43:04,450
+term, the internal energy A. Contribution to the
+
+583
+00:43:04,450 --> 00:43:07,300
+internal energy that depends on the product of two
+
+584
+00:43:07,300 --> 00:43:12,880
+spins, SMG Times, that's OK. We're the sum here.
+
+585
+00:43:13,970 --> 00:43:15,870
+Is being taken over.
+
+586
+00:43:18,600 --> 00:43:23,150
+AU pairs of nearest neighbor spins in the lattice,
+
+587
+00:43:24,000 --> 00:43:29,460
+so the Haitian being defined here is that Jaquet
+
+588
+00:43:29,460 --> 00:43:34,820
+in parentheses are picking out all sight, all J
+
+589
+00:43:34,830 --> 00:43:39,000
+and K that are next to each other in any one of
+
+590
+00:43:39,000 --> 00:43:44,250
+the. The dimensions that we are operating at, just
+
+591
+00:43:44,250 --> 00:43:50,310
+as a quick illustration of this, we look at a 2D
+
+592
+00:43:50,760 --> 00:43:54,660
+lattice representing the Spinosaurus points rather
+
+593
+00:43:54,660 --> 00:43:59,190
+than upward of Delaporte arrows. The nearest
+
+594
+00:43:59,190 --> 00:44:01,980
+neighbors of this size, circled in blue,
+
+595
+00:44:02,490 --> 00:44:05,760
+correspond to those four sites circled in red,
+
+596
+00:44:06,120 --> 00:44:09,000
+either left or right of it in one dimension or
+
+597
+00:44:09,450 --> 00:44:11,580
+above or below it in that second dimension.
+
+598
+00:44:11,880 --> 00:44:14,790
+Similarly, for all the higher dimensions that we
+
+599
+00:44:14,790 --> 00:44:15,810
+might consider.
+
+600
+00:44:18,700 --> 00:44:24,260
+So now in this case, we can. Do the same exercise,
+
+601
+00:44:24,620 --> 00:44:27,580
+computing the change in the internal energy of
+
+602
+00:44:28,070 --> 00:44:31,730
+flipping a student with this new expression for
+
+603
+00:44:31,730 --> 00:44:35,830
+the internal energy. The approach is the same with.
+
+604
+00:44:36,640 --> 00:44:40,270
+We write the internal energy, pulling out the
+
+605
+00:44:41,050 --> 00:44:44,950
+arbitrary spin we're going to flip so from the
+
+606
+00:44:44,950 --> 00:44:52,380
+first term. We can pull out of jail and there will
+
+607
+00:44:52,380 --> 00:44:58,070
+be some number of terms in this, some. For all the
+
+608
+00:44:58,280 --> 00:45:03,290
+spins that are in. The nearest neighbor cares,
+
+609
+00:45:03,300 --> 00:45:08,420
+Jake, for this fixed J this SJT gets multiplied by
+
+610
+00:45:08,990 --> 00:45:14,030
+České, and then there are all of the other two
+
+611
+00:45:14,030 --> 00:45:19,340
+spin combinations that don't involve our spin of
+
+612
+00:45:19,340 --> 00:45:23,870
+interest. OK, so this is a sum over nearest
+
+613
+00:45:23,870 --> 00:45:28,640
+neighbor pairs this little M and K that do not
+
+614
+00:45:28,640 --> 00:45:35,970
+contain J. That same product of spin time spin
+
+615
+00:45:35,990 --> 00:45:36,410
+came.
+
+616
+00:45:38,470 --> 00:45:43,580
+And then the same sort of. External magnetic field
+
+617
+00:45:43,580 --> 00:45:47,320
+terms that we had before, minus stage times
+
+618
+00:45:48,040 --> 00:45:51,640
+yesterday, plus some of all that are not.
+
+619
+00:45:54,710 --> 00:46:01,970
+So I'm flipping the spin, S.J making the change
+
+620
+00:46:01,970 --> 00:46:04,760
+that I was her degree of freedom, the sign of this
+
+621
+00:46:04,760 --> 00:46:12,000
+first term. Flips to become positive. Back in. N
+
+622
+00:46:12,030 --> 00:46:16,250
+never pairs of jeans. Nothing happens to the
+
+623
+00:46:16,410 --> 00:46:20,380
+second term. Something over here, it appears, that
+
+624
+00:46:20,380 --> 00:46:22,660
+do not include spenger.
+
+625
+00:46:26,290 --> 00:46:32,130
+In the thick of a negative sign. On spenger
+
+626
+00:46:32,430 --> 00:46:38,310
+multiplied by the magnetic field. But not. The.
+
+627
+00:46:39,690 --> 00:46:42,870
+Other degrees of freedom. So taking the difference
+
+628
+00:46:42,870 --> 00:46:43,260
+here.
+
+629
+00:46:47,710 --> 00:46:52,610
+Those two terms that don't involve Jay Hawkins and
+
+630
+00:46:52,960 --> 00:46:57,880
+Delta, a subject that comes out, is to get a
+
+631
+00:46:57,880 --> 00:47:03,310
+factor of two times the spenger now multiply not
+
+632
+00:47:03,310 --> 00:47:10,560
+only by age, but by. There's some barricade the
+
+633
+00:47:10,560 --> 00:47:15,600
+nearest neighbor appears to have escaped. So.
+
+634
+00:47:22,850 --> 00:47:25,010
+Hopefully, there are no objections to that
+
+635
+00:47:25,550 --> 00:47:31,430
+calculation. We can see that. In contrast to the
+
+636
+00:47:31,430 --> 00:47:35,210
+not tracking system, this new internal energy.
+
+637
+00:47:38,700 --> 00:47:43,740
+Produces a. Changing energy upon changing what the
+
+638
+00:47:43,740 --> 00:47:46,530
+degrees of freedom that depend on other degrees of
+
+639
+00:47:46,530 --> 00:47:49,100
+freedom. So this Delta, Ajay.
+
+640
+00:47:52,110 --> 00:47:54,940
+Now depends. These this.
+
+641
+00:47:58,360 --> 00:48:04,720
+With Kay. Going to change. So this is. Now
+
+642
+00:48:04,760 --> 00:48:10,400
+contracting. System, in contrast to the simpler
+
+643
+00:48:10,400 --> 00:48:12,140
+one that we've been setting up to battle.
+
+644
+00:48:18,540 --> 00:48:22,820
+Rather than. Going on to introduce some more
+
+645
+00:48:23,180 --> 00:48:26,300
+terminology about the underlying structure of
+
+646
+00:48:26,300 --> 00:48:27,050
+these systems,
+
+647
+00:48:30,860 --> 00:48:33,020
+best to stop here by.
+
+648
+00:48:35,330 --> 00:48:37,670
+Just reiterating that we have now confirmed that
+
+649
+00:48:38,420 --> 00:48:44,060
+this new spin system with an internal energy that
+
+650
+00:48:44,060 --> 00:48:47,150
+depends on products of substance, in addition to
+
+651
+00:48:47,660 --> 00:48:49,610
+the product of a speed with that external magnetic
+
+652
+00:48:49,610 --> 00:48:53,050
+field, does provide us with an interacting system.
+
+653
+00:48:53,540 --> 00:48:56,780
+And after a overnight break tomorrow morning, we
+
+654
+00:48:56,780 --> 00:48:59,240
+can look forward to starting to do more
+
+655
+00:48:59,240 --> 00:49:04,380
+interesting things. With this simple interacting
+
+656
+00:49:04,630 --> 00:49:11,050
+system, so. Unless there are questions before we
+
+657
+00:49:11,350 --> 00:49:16,140
+break for the evening, I will forward to seeing
+
+658
+00:49:16,150 --> 00:49:19,180
+you back in the other room tomorrow morning at.
+
+659
+00:49:26,860 --> 00:49:27,200
+When?
