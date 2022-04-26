@@ -185,7 +185,7 @@ Because any one of the $N$ spins in the lattice could be flipped, the degeneracy
 \end{equation*}
 At the same time, as $N$ increases the magnetization of each of these micro-states gets closer to that of the ground state,
 \begin{equation*}
-  |m| = \frac{N - 1}{N} = 1 - \frac{1}{N}.
+  |m| = \frac{N - 2}{N} = 1 - \frac{2}{N}.
 \end{equation*}
 \newpage % WARNING: FORMATTING BY HAND
 \noindent The key factor is the probability for the system to be in one of these micro-states, which depends on the value of the energy $E_1$ for the first excited energy level.
@@ -194,7 +194,7 @@ What is this $E_1$ for the $N$-site Ising model in $d$ dimensions?
   $\displaystyle E_1 = $ \\[100 pt]
 \end{mdframed}
 
-Let's bring everything together by computing the relative probability for the $d$-dimensional Ising model to be in its ground state with $|m| = 1$ compared to its first excited state with $|m| = 1 - \frac{1}{N}$.
+Let's bring everything together by computing the relative probability for the $d$-dimensional Ising model to be in its ground state with $|m| = 1$ compared to its first excited state with $|m| = 1 - \frac{2}{N}$.
 This probability is the product of the degeneracy of each energy level times the Boltzmann factor that governs the probability of the system adopting any of these degenerate micro-states:
 \begin{equation*}
   \frac{P(E_0)}{P(E_1)} = \frac{2\cdot \exp\left[\be d\cdot N\right]}{2N\cdot \exp\left[\be \left(d\cdot N - 4d\right)\right]} = \frac{\exp\left[4\be d\right]}{N}.
