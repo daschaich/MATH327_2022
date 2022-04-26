@@ -15,7 +15,7 @@ These occur when interactions allow extremely different large-scale behaviours t
 Phase transitions occur in both everyday and extreme situations.
 Everyday examples include the liquid--gas transition of H$_2$O molecules from water to steam upon boiling a kettle, as well as the transition from liquid water to solid ice as the temperature decreases.
 In the extreme conditions following the big bang, the matter in the universe existed as a charged plasma of quarks and gluons.
-Once the universe was a few micro-seconds old, it cooled enough for this matter to transition into the protons and neutrons we are made out of today.
+Once the universe was a few micro-seconds old, it cooled enough for this matter to transition into the protons and neutrons we are made out of today. % TODO: Crossover vs. phase transition depends on quark masses...
 
 An intermediate example in between the everyday and the extreme involves two layers of graphene as illustrated in the figure below.\footnote{Heather M. Hill, ``\href{https://doi.org/10.1063/PT.3.4384}{Twisted bilayer graphene enters a new phase}'', \textit{Physics Today} \textbf{73}:18, 2020.}
 Graphene is an amazing material (recognized by the 2010 Nobel Prize in Physics) that consists of a single-atom-thick sheet of carbon atoms arranged in a hexagonal `honeycomb' lattice.
@@ -139,7 +139,7 @@ First, though, let's consider the \textbf{high-temperature} limit $\be \to 0$, w
   $\displaystyle \lim_{\be \to 0} Z(\be, N) = $ \\[40 pt]
 \end{mdframed}
 In this limit, all $2^N$ spin configurations are adopted with the same probability $p_i = 1 / 2^N$, regardless of their internal energy from \eq{eq:Ising_zero_field}.
-In effect, that energy has become negligible compared to the temperature
+In effect, that energy has become negligible compared to the temperature.
 
 Rather than computing the expectation value of that internal energy, there is a simpler observable that we can consider to characterize this high-temperature phase.
 This is the \textbf{magnetization} $M = n_+ - n_-$, retaining our definition of $n_{\pm}$ as the number of spins with value $\pm 1$, even without an external field for them to align with or align against.
@@ -237,80 +237,76 @@ If there is time and inclination, we may explore such \textit{finite-size scalin
 
 % ------------------------------------------------------------------
 \subsection{\label{sec:mean_field}The mean-field approximation}
-We now restore non-zero external magnetic field, $H > 0$, which allows us to gain a deeper appreciation of the magnetization.
-\TODO{...}
-We can do this by recalling the connection between the magnetization and the average spin discussed at the start of this section.
-Because the total $N$-spin magnetization
-\begin{equation*}
-  M = n_+ - n_- = \sum_{n = 1}^N s_n,
-\end{equation*}
-we can write the full Ising model energy as
-\begin{equation*}
-  E = -\sum_{(ij)} s_i s_j - H \sum_{n = 1}^N s_n = -\sum_{(ij)} s_i s_j - H M,
-\end{equation*}
-with corresponding canonical partition function
-\begin{equation*}
-  Z = \sum_{\left\{s_i\right\}} \exp\left[\be \sum_{(ij)} s_i s_j + \be H M\right].
-\end{equation*}
-From our earlier experience with the canonical ensemble, it now comes as no surprise that $\vev{M} = N\vev{m}$ can be related to a derivative of the Helmholtz free energy $F = -T\log Z$.
-What is this relation?
-\begin{mdframed}
-  $\displaystyle \pderiv{}{H} F = $ \\[100 pt]
-\end{mdframed}
-\TODO{...}
-Looking back to \eq{eq:Ising_magnet}, we can identify the magnetization (with no absolute value) as the average spin,
+Having identified the ordered and disordered phases of the zero-field Ising model, respectively at low and high temperatures, let's now restore a non-zero external magnetic field, $H > 0$.
+This will allow us to gain a deeper appreciation of the magnetization --- now with no absolute value --- by noting that \eq{eq:Ising_magnet} means the magnetization is just the average spin:
 \begin{equation*}
   m = \frac{M}{N} = \frac{1}{N}\left(n_+ - n_-\right) = \frac{1}{N} \sum_{n = 1}^N s_n.
 \end{equation*}
-The `mean' in the mean-field approximation refers to the expectation value of the average spin,
+We can benefit from this observation in two ways.
+First, we can recognize the magnetization in the internal energy of the full Ising model with $H >0$:
 \begin{equation*}
-  \vev{m} = \frac{1}{Z} \sum_{\left\{s_n\right\}} m \; e^{-\be E(s_n)} = \frac{1}{N} \sum_{n = 1}^N \vev{s_n},
+  E_i = -\sum_{(jk)} s_j s_k - H \sum_{n = 1}^N s_n = -\sum_{(jk)} s_j s_k - H N m = -\sum_{(jk)} s_j s_k - H M.
 \end{equation*}
-which is independent of the spin configuration $\left\{s_n\right\}$ and is simply a function of the inverse temperature \be and magnetic field strength $H$.\footnote{\TODO{To be consistent with the redefinition of $n_{\pm}$ above \eq{eq:Ising_magnet}, we reverse our sign convention for the magnetic field, $H \to -H$.}}
+The corresponding canonical partition function is
+\begin{equation*}
+  Z = \sum_{\left\{s_i\right\}} \exp\left[\be \sum_{(jk)} s_j s_k + \be H M\right].
+\end{equation*}
+Based on this expression, and our earlier experience with the entropy and internal energy, we can anticipate that $\vev{m} = \vev{M} / N$ is related to the derivative of the Helmholtz free energy $F = -T\log Z$ with respect to the field strength $H$:
+\begin{mdframed}
+  $\displaystyle \pderiv{}{H} F = $ \\[100 pt]
+\end{mdframed}
+As promised in the previous section, this relation ensures that the magnetization is an appropriate order parameter for the Ising model phase transition.
+
+The second way we can benefit from relating the magnetization to the average spin is to express the Ising model in terms of the expectation value
+\begin{equation*}
+  \vev{m} = \frac{1}{Z} \sum_{\left\{s_n\right\}} m \; e^{-\be E(s_n)} = \frac{1}{N} \sum_{n = 1}^N \vev{s_n}.
+\end{equation*}
+The expectation value of the average spin, $\frac{1}{N} \sum_{n = 1}^N \vev{s_n}$, is independent of the spin configuration $\left\{s_n\right\}$ and is simply a function of the inverse temperature \be and magnetic field strength $H$.
 By adding and subtracting factors of $\vev{m}$, we can exactly rewrite each nearest-neighbour term in the Ising model energy, \eq{eq:Ising_energy}, as
 \begin{align}
   s_i s_j & = \left[\left(s_i - \vev{m}\right) + \vev{m}\right] \times \left[\left(s_j - \vev{m}\right) + \vev{m}\right] \cr
           & = \left(s_i - \vev{m}\right) \left(s_j - \vev{m}\right) + \left(s_i + s_j\right)\vev{m} - \vev{m}^2. \label{eq:MF_start}
 \end{align}
 
-The factors of $\left(s_i - \vev{m}\right)$ correspond to the spins' fluctuations around their mean value $\vev{m}$.
+This is beneficial because we can note that the factors of $\left(s_i - \vev{m}\right)$ correspond to the spins' fluctuations around their mean value $\vev{m}$.
 By conjecturing that these fluctuations are small \textit{on average}, we can approximate the Ising model energy by neglecting the first term in \eq{eq:MF_start} when summing over all links:
 \begin{equation*}
-  E = -\sum_{(ij)} s_i s_j - H \sum_{n = 1}^N s_n \quad \lra \quad \EMF = -\sum_{(ij)} \left[\left(s_i + s_j\right)\vev{m} - \vev{m}^2\right] - H \sum_{n = 1}^N s_n.
+  E_i = -\sum_{(jk)} s_j s_k - H \sum_{n = 1}^N s_n \quad \lra \quad \EMF = -\sum_{(jk)} \left[\left(s_j + s_k\right)\vev{m} - \vev{m}^2\right] - H \sum_{n = 1}^N s_n.
 \end{equation*}
-The sum over the links $\ell = (ij)$ in $d$ dimensions simply counts $d\cdot N$ factors of the constant $\vev{m}^2$.
-Similarly, since the first term includes both spins $\left(s_i + s_j\right)$ on each end of the link, every individual spin appears $2d$ times in the sum over links, which we can combine with the sum over sites:
+The sum over the links $\ell = (jk)$ in $d$ dimensions simply counts $d\cdot N$ factors of the constant $\vev{m}^2$.
+Similarly, since the first term includes both spins $\left(s_j + s_k\right)$ on each end of the link, every individual spin appears $2d$ times in the sum over links.
+Therefore this term just gives us $2d\vev{m}$ times another sum over the spins $s_n$, which we can combine with the final term above:
 \begin{equation}
   \label{eq:MF_energy}
-  \EMF = d\cdot N \vev{m}^2 - \left(2d\vev{m} + H\right) \sum_{n = 1}^N s_n \equiv d\cdot N \vev{m}^2 - H_{\text{eff}} \sum_{n = 1}^N s_n,
+  \EMF = d\cdot N \vev{m}^2 - \left(2d\vev{m} + H\right) \sum_{n = 1}^N s_n \equiv d\cdot N \vev{m}^2 - H_{\text{eff}} \sum_{n = 1}^N s_n.
 \end{equation}
-defining an effective magnetic field $H_{\text{eff}}$ that depends on the mean spin.
-What is the change in energy $\De E_i$ from \eq{eq:MF_energy} upon negating $s_i \to -s_i$?
-Does this indicate an interacting or non-interacting system?
+
+In this expression we define an effective magnetic field $H_{\text{eff}} = 2d\vev{m} + H$ that depends on the mean spin.
+This is a way to remember that this approach of neglecting the squared fluctuations $\left(s_i - \vev{m}\right) \left(s_j - \vev{m}\right)$ is known as the \textbf{mean-field approximation}.
+In essence, this approach supposes that we can average over all $2d$ nearest neighbours of each spin and end up with an approximately constant factor that behaves like a modification of the magnetic field. % TODO: Applies more generally than just the Ising model...
+Given the resulting mean-field energy \EMF from \eq{eq:MF_energy}, let's check the change in this energy, $\De E_j$, upon negating any $s_j \to -s_j$:
 \begin{mdframed}
-  \ \\[100 pt]
+  \ \\[120 pt]
 \end{mdframed}
 
-The mean-field approximation producing \eq{eq:MF_energy} makes it very easy to compute the corresponding canonical partition function
+\newpage % WARNING: FORMATTING BY HAND
+In light of this result, it isn't surprising that the mean-field approximation producing \eq{eq:MF_energy} makes it very easy to compute the corresponding canonical partition function
 \begin{align}
   \ZMF & = \sum_{\left\{s_n\right\}} \exp\left[-\be E(s_n)\right] = \exp\left[-\be d\cdot N \vev{m}^2\right] \sum_{s_1 = \pm 1} \cdots \sum_{s_N = \pm 1} \exp\left[-x \sum_{n = 1}^N s_n\right] \cr
        & = \exp\left[-\be d\cdot N \vev{m}^2\right] \left(2\cosh\left[\be H_{\text{eff}}\right]\right)^N \nonumber \\
        & = \exp\left[-\be d\cdot N \vev{m}^2\right] \left(2\cosh\left[\be \left(2d\vev{m} + H\right)\right]\right)^N,
 \end{align}
-where we defined $x = -\be H_{\text{eff}}$ to put the sums into exactly the same form as \eq{eq:spin_part_func}.
-We see that the mean-field partition function exhibits complicated dependence on $\vev{m}$.
-In order to get a handle on this dependence, we need to determine another relation between $\vev{m}$ and $\ZMF$.
-\TODO{FIX...}
-
-Returning to the mean-field approximation,
+where we defined $x \equiv -\be H_{\text{eff}}$ to put the sums into the same form as in \eq{eq:spin_part_func}.
+We see that the mean-field partition function exhibits complicated dependence on $\vev{m}$, which in turn is related to a derivative of $\log \ZMF$, as we derived above.
+With
 \begin{equation*}
   \log \ZMF = N\log \cosh\left[\be \left(2d\vev{m} + H\right)\right] + \left\{H\mbox{-independent terms}\right\},
 \end{equation*}
-we can use this relation between $\vev{m}$ and $\ZMF$ to find
+this relation between $\vev{m}$ and \ZMF gives us
 \begin{equation*}
   \vev{m} = \frac{1}{N\be} \pderiv{}{H}\log \ZMF = \frac{1}{\be} \frac{1}{\cosh\left[\be \left(2d\vev{m} + H\right)\right]} \pderiv{}{H}\cosh\left[\be \left(2d\vev{m} + H\right)\right].
 \end{equation*}
-Simplifying, we obtain a \textbf{self-consistency condition} for the magnetization in the mean-field approximation:
+Simplifying, we obtain a \textbf{self-consistency condition} for the Ising model magnetization in the mean-field approximation:
 \begin{equation}
   \label{eq:consistency}
   \vev{m} = \tanh\left[\be \left(2d\vev{m} + H\right)\right].
