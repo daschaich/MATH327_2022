@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 9}
-\renewcommand{\moddate}{Last modified 25 Apr.~2022}
+\renewcommand{\moddate}{Last modified 28 Apr.~2022}
 \setcounter{section}{9}
 \setcounter{subsection}{0}
 \phantomsection
@@ -264,11 +264,11 @@ The second way we can benefit from relating the magnetization to the average spi
 The expectation value of the average spin, $\frac{1}{N} \sum_{n = 1}^N \vev{s_n}$, is independent of the spin configuration $\left\{s_n\right\}$ and is simply a function of the inverse temperature \be and magnetic field strength $H$.
 By adding and subtracting factors of $\vev{m}$, we can exactly rewrite each nearest-neighbour term in the Ising model energy, \eq{eq:Ising_energy}, as
 \begin{align}
-  s_i s_j & = \left[\left(s_i - \vev{m}\right) + \vev{m}\right] \times \left[\left(s_j - \vev{m}\right) + \vev{m}\right] \cr
-          & = \left(s_i - \vev{m}\right) \left(s_j - \vev{m}\right) + \left(s_i + s_j\right)\vev{m} - \vev{m}^2. \label{eq:MF_start}
+  s_j s_k & = \left[\left(s_j - \vev{m}\right) + \vev{m}\right] \times \left[\left(s_k - \vev{m}\right) + \vev{m}\right] \cr
+          & = \left(s_j - \vev{m}\right) \left(s_k - \vev{m}\right) + \left(s_j + s_k\right)\vev{m} - \vev{m}^2. \label{eq:MF_start}
 \end{align}
 
-This is beneficial because we can note that the factors of $\left(s_i - \vev{m}\right)$ correspond to the spins' fluctuations around their mean value $\vev{m}$.
+This is beneficial because we can note that the factors of $\left(s_j - \vev{m}\right)$ correspond to the spins' fluctuations around their mean value $\vev{m}$.
 By conjecturing that these fluctuations are small \textit{on average}, we can approximate the Ising model energy by neglecting the first term in \eq{eq:MF_start} when summing over all links:
 \begin{equation*}
   E_i = -\sum_{(jk)} s_j s_k - H \sum_{n = 1}^N s_n \quad \lra \quad \EMF = -\sum_{(jk)} \left[\left(s_j + s_k\right)\vev{m} - \vev{m}^2\right] - H \sum_{n = 1}^N s_n.
@@ -282,7 +282,7 @@ Therefore this term just gives us $2d\vev{m}$ times another sum over the spins $
 \end{equation}
 
 In this expression we define an effective magnetic field $H_{\text{eff}} = 2d\vev{m} + H$ that depends on the mean spin.
-This is a way to remember that this approach of neglecting the squared fluctuations $\left(s_i - \vev{m}\right) \left(s_j - \vev{m}\right)$ is known as the \textbf{mean-field approximation}.
+This is a way to remember that this approach of neglecting the squared fluctuations $\left(s_j - \vev{m}\right) \left(s_k - \vev{m}\right)$ is known as the \textbf{mean-field approximation}.
 In essence, this approach supposes that we can average over all $2d$ nearest neighbours of each spin and end up with an approximately constant factor that behaves like a modification of the magnetic field. % TODO: Applies more generally than just the Ising model...
 Given the resulting mean-field energy \EMF from \eq{eq:MF_energy}, let's check the change in this energy, $\De E_j$, upon negating any $s_j \to -s_j$:
 \begin{mdframed}
@@ -297,12 +297,12 @@ In light of this result, it isn't surprising that the mean-field approximation p
        & = \exp\left[-\be d\cdot N \vev{m}^2\right] \left(2\cosh\left[\be \left(2d\vev{m} + H\right)\right]\right)^N,
 \end{align}
 where we defined $x \equiv -\be H_{\text{eff}}$ to put the sums into the same form as in \eq{eq:spin_part_func}.
-We see that the mean-field partition function exhibits complicated dependence on $\vev{m}$, which in turn is related to a derivative of $\log \ZMF$, as we derived above.
+Although this factorized result is far simpler than the partition function for the full Ising model, it does involve some complicated dependence on $\vev{m}$ --- especially when we recall that $\vev{m}$ itself is related to a derivative of $\log \ZMF$. % TODO: $\vev{m}$ is now essentially both degree of freedom and prediction...
 With
 \begin{equation*}
   \log \ZMF = N\log \cosh\left[\be \left(2d\vev{m} + H\right)\right] + \left\{H\mbox{-independent terms}\right\},
 \end{equation*}
-this relation between $\vev{m}$ and \ZMF gives us
+the relation we derived above gives us
 \begin{equation*}
   \vev{m} = \frac{1}{N\be} \pderiv{}{H}\log \ZMF = \frac{1}{\be} \frac{1}{\cosh\left[\be \left(2d\vev{m} + H\right)\right]} \pderiv{}{H}\cosh\left[\be \left(2d\vev{m} + H\right)\right].
 \end{equation*}
@@ -320,67 +320,68 @@ A straightforward way to inspect such solutions is by plotting both
 \end{align*}
 and monitoring the intersections of these two functions.
 Fixing $d = 2$ dimensions, the plot below considers the simplest case $\be = \frac{1}{4}$ and $H = 0$ for which $g(\vev{m}) = \tanh\left[\vev{m}\right]$ (the solid line).
-There is only a single intersection between this function and $f(\vev{m})$ (the dashed line), at $\vev{m} = 0$.
+There is only a single intersection between this function and $f(\vev{m})$ (the dashed line), at $\vev{m} = 0$, which we should interpret as a disordered phase.
 
 \begin{center}\includegraphics[width=0.7\textwidth]{figs/unit09_consistency.pdf}\end{center}
 
-Before interpreting this result, let's check how the intersections depend on \be and $H$.
-In the next plot below we keep the same temperature $T = 1 / \be = 4$ while turning the external magnetic field back on.
-A positive $H > 0$ simply shifts $g(\vev{m})$ to the left (the green line), while a negative $H < 0$ shifts it to the right (the blue line).
-For $H = \pm 2$, there is still only a single intersection, at $\vev{m} \approx \pm 0.88$.
-We can see that because $-1 \leq \tanh x \leq 1$, the mean-field self-consistency condition can only ever predict $-1 \leq \vev{m} \leq 1$, in accord with the definition of the magnetization.
+To confirm our interpretation of this result, let's check how the intersections depend on \be and $H$.
+In the next plot below we keep the same temperature $T = 1 / \be = 4$ while comparing two non-zero values for the external magnetic field.
+A positive $H = 2$ simply shifts $g(\vev{m})$ to the left (the green line), while a negative $H = -2$ shifts it to the right (the blue line).
+In both cases there is still only a single intersection, at $\vev{m} \approx \pm 0.88$ for $H = \pm 2$.
+We can interpret this non-zero result as an indication that the system is in an ordered phase where the spins tend to align with the external field. \\[-24 pt]
+\begin{center}\includegraphics[width=0.69\textwidth]{figs/unit09_consistency_H.pdf}\end{center} % WARNING: ADJUSTED SIZE BY HAND TO FIT BOTH ON PAGE
 
-\begin{center}\includegraphics[width=0.7\textwidth]{figs/unit09_consistency_H.pdf}\end{center}
-
-Next, if we decrease the temperature, $g(\vev{m})$ becomes steeper, more rapidly interpolating between those limiting values $-1 \leq \tanh x \leq 1$.
+From our work in the previous section, we can expect that the spins' alignment will increase --- approaching the minimal-energy ground state --- as the temperature decreases.
+Decreasing the temperature increases $\be$, which causes the argument of the $\tanh$ to vary more rapidly with $\vev{m}$, making $g(\vev{m})$ a steeper function that more rapidly approaches its limiting values $\pm 1$.
 The plot below illustrates this for $T = 1 / \be = 2$, so that $\be = \frac{1}{2}$ is doubled.
 Already for this temperature and magnetic field $H = \pm 2$, the intersection is $\vev{m} \approx \pm 1$ to a very good approximation.
-We can interpret this result as an indication that the system is in an ordered phase where all spins are aligned with the external field.
+We can also appreciate that $-1 \leq \tanh x \leq 1$ ensures that the mean-field self-consistency condition can only ever be satisfied for $-1 \leq \vev{m} \leq 1$, reassuringly consistent with the definition of the magnetization. \\[-24 pt]
+\begin{center}\includegraphics[width=0.69\textwidth]{figs/unit09_consistency_H-beta.pdf}\end{center} % WARNING: ADJUSTED SIZE BY HAND TO FIT BOTH ON PAGE
 
-\begin{center}\includegraphics[width=0.7\textwidth]{figs/unit09_consistency_H-beta.pdf}\end{center}
-
-To search for a phase transition we need to turn off that external field by setting $H = 0$, and consider how the solutions of the self-consistency condition depend on the temperature.
-We do this in the next plot below, considering a low temperature $T = 2$ with $\be = \frac{1}{2}$ (the red line), the same green curve for $T = 4$ shown in the first plot above, and a high temperature $T = 8$ with $\be = \frac{1}{8}$ (the blue line).
-While the $\vev{m} = 0$ expected in the disordered phase is always a possible solution, something interesting happens at lower temperatures, where the steeper $\tanh$ function introduces two additional solutions at $\vev{m} = \pm m_0$.
-As $T \to 0$, this $m_0 \to 1$, approaching the magnetization of the ordered phase.
+Also in the previous section, we saw that the Ising model spins should align at low temperatures, even without an external field to promote one direction over the other.
+We hope to see this behaviour captured by the mean-field approximation, which we can check by considering the self-consistency condition for various temperatures with $H = 0$.
+The plot below shows the results, considering a low temperature $T = 2$ with $\be = \frac{1}{2}$ (the blue line), the same green curve for $T = 4$ shown in the first plot above, and a high temperature $T = 8$ with $\be = \frac{1}{8}$ (the red line).
+While the $\vev{m} = 0$ expected in the disordered phase is always a possible solution, something interesting happens at lower temperatures, where the steeper $\tanh$ function introduces two additional solutions at non-zero $\vev{m} = \pm m_0$ corresponding to the ordered phase.
+As $T \to 0$, this magnetization approaches its maximum value $m_0 \to 1$.
 
 \begin{center}\includegraphics[width=0.7\textwidth]{figs/unit09_consistency_beta.pdf}\end{center}
 
 When there are three solutions $\vev{m} = \left\{-m_0, 0, m_0\right\}$ at low temperatures, we can determine that the $\vev{m} = 0$ solution is actually \textit{unstable}.
-In this case, the slope of the $\tanh$ at $\vev{m} = 0$ must be greater than $1$.
-Any positive value $\vev{m} = \varepsilon > 0$ would therefore produce $\tanh\left[2\be d\vev{m}\right] > \vev{m}$, violating the self-consistency condition in \eq{eq:consistency}.
-Since the violation comes from $\vev{m}$ being too small compared to the $\tanh$, $\vev{m}$ would be driven to increase further, until it eventually reached the non-zero solution $\vev{m} = m_0$.
-The analogous argument implies any negative value $\vev{m} = -\varepsilon < 0$ would drive $\vev{m}$ away from zero and to the $\vev{m} = -m_0$ solution.
+Here we are venturing briefly into non-equilibrium territory, and thinking of the mean-field system as a `blind' process that attempts to satisfy the self-consistency condition $\vev{m} = \tanh\left[2\be d\vev{m}\right]$, based only on knowledge of whether the expectation value of the magnetization is too small or too large compared to the $\tanh$. % TODO: Changing expectation value sign of non-equilibrium... Could mention `quenches'...
+Once the magnetization is self-consistent, the system can happily settle into thermodynamic equilibrium.
 
-This argument can be visualized by plotting $\tanh\left[2\be d\vev{m}\right] - \vev{m}$ vs.\ $\vev{m}$ as shown in the final plot below.
-Whenever this difference is negative, it implies $\vev{m}$ is larger than the self-consistency condition allows, and therefore consistency requires reducing $\vev{m}$, shown by arrows pointing to the left.
-Conversely, whenever the difference is positive, $\vev{m}$ would have to increase to recover consistency, shown by the arrows pointing to the right.
+From the figure above we can see that (with $H = 0$) we can have three solutions only when the slope of the $\tanh$ at $\vev{m} = 0$ is greater than $1$. % TODO: Need at least one for asymptotic consistency...
+Any positive value $\vev{m} = \varepsilon > 0$ would then produce $\tanh\left[2\be d\vev{m}\right] > \vev{m}$, which the system `feels' as a magnetization that is too small to be self-consistent.
+This drives the system to continue increasing its magnetization, until it eventually settles at the non-zero solution $\vev{m} = m_0$.
+Similarly, any negative magnetization $\vev{m} = -\varepsilon < 0$ would drive $\vev{m}$ away from zero and to the $\vev{m} = -m_0$ solution.
+
+This argument can be visualized more easily by plotting $\tanh\left[2\be d\vev{m}\right] - \vev{m}$ vs.\ $\vev{m}$ as shown in the final plot below.
+Whenever this difference is negative, it implies $\vev{m}$ is larger than the self-consistency condition allows, driving the system to smaller $\vev{m}$ as shown by the arrows pointing to the left.
+Conversely, whenever the difference is positive, the system `seeks' self-consistency by increasing $\vev{m}$ as shown by the arrows pointing to the right.
 For the low temperature $T = 2$, we see that the arrows move the system away from the unstable solution $\vev{m} = 0$ and to the stable solutions $\vev{m} = \pm m_0$.
 
 \begin{center}\includegraphics[width=0.7\textwidth]{figs/unit09_consistency_flow.pdf}\end{center}
 
-Reassuringly, the mean-field approximation with $H = 0$ therefore reproduces the behaviour we derived in the previous section.
-For high temperatures we have $\vev{m} = 0$ consistent with the disordered phase, while for low temperatures we have $|\vev{m}| = m_0 \to 1$ consistent with the ordered phase.
-We can also determine the temperature at which the $\vev{m} = \pm m_0$ solutions appear and the $\vev{m} = 0$ solution becomes unstable.
+So in the end we can conclude that the non-interacting mean-field approximation successfully captures at least the high- and low-temperature limits of the interacting zero-field Ising model that we determined in the previous section.
+For high temperatures the mean-field self-consistency condition demands $\vev{m} = 0$ consistent with the disordered phase, while for low temperatures it produces $|\!\vev{m}\!| = m_0 > 0$ consistent with the ordered phase. % TODO: Note $|\!\vev{m}\!|$ vs.\ $\vev{|m|}$...
+
+Going further, now that we have a more tractable non-interacting system we can consider the value of the temperature at which the $\vev{m} = \pm m_0$ solutions appear and the $\vev{m} = 0$ solution becomes unstable.
 As described above, this occurs whenever the slope of the $\tanh$ function at $\vev{m} = 0$ is greater than $1$.
-Using $\tanh(x) = x + \cO\left(x^3\right)$ for $x \approx 0$, what is the slope of this $\tanh$?
+Let's call the corresponding temperature $T_c$, though it remains to be determined whether it is really a critical temperature of a true phase transition.
+Expanding $\tanh(x) = x + \cO\left(x^3\right)$ for $x \approx 0$, what is $T_c$?
 \begin{mdframed}
-  $\displaystyle \left. \frac{d}{d\vev{m}} \tanh\left[2\be d\vev{m}\right]\right|_{\vev{m} = 0} = $ \\[50 pt]
+  \ \\[50 pt]
 \end{mdframed}
 
-You should find that the change from the high-temperature disordered phase to the low-temperature ordered phase occurs at $T_c = 2d$ in $d$ dimensions, or equivalently $\be_c = \frac{1}{2d}$.
-Despite the subscript, we don't yet know if this $T_c$ is a true critical temperature.
-In order to check whether the mean-field approximation of the $H = 0$ Ising model predicts a crossover or a true phase transition, we need to check whether or not the order parameter $\vev{m}$ or its derivatives are discontinuous at $T_c$.
-We can do this by considering the self-consistency condition for a temperature $T = 1 / \be$ lower than but close to $T_c = 2d$, which would produce $0 < |\vev{m}| \ll 1$ and allow us to expand
-\begin{equation*}
-  \vev{m} = \tanh\left[\frac{2d}{T} \vev{m}\right] \approx \frac{T_c}{T} \vev{m} - \frac{1}{3}\left(\frac{T_c}{T} \vev{m}\right)^3.
-\end{equation*}
+You should find that the change from the high-temperature disordered phase to the low-temperature ordered phase occurs at $T_c = 2d$ in $d$ dimensions, or equivalently $\be_c = \frac{1}{2d}$ --- corresponding to the green lines in the two figures above with $d = 2$.
+In order to determine whether or not this is a true critical temperature, we need to check whether the order parameter $\vev{m}$ or its $T$-derivatives are discontinuous at $T_c$.
+We can do this by considering the self-consistency condition for a temperature $T$ lower than but very near to $T_c = 2d$, which would produce $0 < |\vev{m}| \ll 1$ and allow us to expand $\tanh(x) = x - \frac{x^3}{3} + \cO\left(x^5\right)$.
 What is the resulting prediction for $\vev{m}$?
 \begin{mdframed}
   \ \\[100 pt]
 \end{mdframed}
 
-Approximating $\frac{T}{T_c} \approx 1$, your result should resemble
+Making the approximation $\left(\frac{T}{T_c}\right)^2 \approx 1$, your result should resemble
 \begin{equation*}
   \vev{m} = \pm \sqrt{3} \left(\frac{T_c - T}{T_c}\right)^{1 / 2} \qquad \mbox{for } \ T \lesssim T_c.
 \end{equation*}
@@ -393,24 +394,28 @@ However, its first derivative
 \begin{equation*}
   \frac{d\vev{m}}{dT} \propto \frac{1}{\left(T_c - T\right)^{1 / 2}}
 \end{equation*}
-diverges as $T \to T_c$ from below, predicting a second-order phase transition with critical temperature $T_c = 2d$ in $d$ dimensions.
-The power-law dependence $\vev{m} \propto \left(T_c - T\right)^b$ is a generic feature of second-order phase transitions, where the power $b$ is known as a \textbf{critical exponent}, in this case $b = 1 / 2$.
+diverges as $T \to T_c$ from below.
+This is the situation we discussed at the end of the previous section, which predicts a second-order phase transition with critical temperature $T_c = 2d$ in $d$ dimensions.
+The power-law dependence $\vev{m} \propto \left(T_c - T\right)^b$ with \textit{non-integer} $b$ is a generic feature of second-order phase transitions. % TODO: With integer $b$, derivatives flatten and eventually vanish...
+The power $b$ is known as a \textbf{critical exponent}, in this case $b = 1 / 2$.
 
 At this point we have invested some effort to find that the mean-field approximation of the $d$-dimensional Ising model, with $H = 0$, predicts a second-order phase transition at $T_c = 2d$ with critical exponent $1 / 2$.
-Let's wrap up by quickly checking the reliability of the mean-field approximation and the accuracy of these results it has given us.
+Let's wrap up this section with some quick comments on the reliability of the mean-field approximation and the accuracy of these results it has given us.
 
 The accuracy of the mean-field results turns out to depend on the number of dimensions.
-For the one-dimensional ($d = 1$) Ising model that Ising himself solved, there is no phase transition at all.\footnote{You can find the exact solution of the one-dimensional Ising model in Section~5.3.1 of David Tong's \href{https://www.damtp.cam.ac.uk/user/tong/statphys.html}{\textit{Lectures on Statistical Physics}} (reference~1 in the list of further reading on page~6).}
-The mean-field approximation fails badly in this case.
+For the one-dimensional Ising model that Ising himself solved, there is no phase transition at all, as we will derive in the next section.
+In other words, the mean-field approximation simply fails for $d = 1$.
 
 The situation improves for the two-dimensional Ising model.
-Onsager's exact $H = 0$ solution reveals a second-order phase transition, with inverse critical temperature $\be_c = \frac{1}{2} \log\left(1 + \sqrt{2}\right) \approx 0.44$ and $\vev{m} \propto \left(T_c - T\right)^{1 / 8}$ for $T \lesssim T_c$ corresponding to a critical exponent $1 / 8$.
-While the mean-field approach now provides the correct qualitative behaviour, its prediction $\be_c = \frac{1}{2d} = 0.25$ is off by almost a factor of $2$, while the mean-field critical exponent $b = 1 / 2$ is four times larger than the true $b = 1 / 8$.
+Onsager's exact $H = 0$ solution features a second-order phase transition, at an inverse critical temperature $\be_c = \frac{1}{2} \log\left(1 + \sqrt{2}\right) \approx 0.44$ that had been exactly determined a few years before his work.
+For $T \lesssim T_c$, the magnetization vanishes as $\vev{m} \propto \left(T_c - T\right)^{1 / 8}$, corresponding to a critical exponent $1 / 8$.
+While the mean-field prediction of a second-order phase transition is now qualitatively correct, at a quantitative level its predicted $\be_c = \frac{1}{2d} = 0.25$ is off by almost a factor of $2$, while the mean-field critical exponent $b = 1 / 2$ is four times larger than the true $b = 1 / 8$.
 
-For higher dimensions $d \geq 3$ there is no known exact solution for the Ising model, but the existence of a second-order phase transition can be established, while the corresponding critical temperature and critical exponents can be computed numerically.
-In three dimensions the mean-field $T_c = 2d = 6$ and $b = 1 / 2$ are still only rough first approximations to the true $T_c \approx 4.5$ and $b \approx 0.32$. % From Tong and arXiv:1806.03558
+For higher dimensions $d \geq 3$ there is no known exact solution for the Ising model, but the existence of a second-order phase transition can be established and the corresponding critical temperature and critical exponents can be computed numerically, as we will discuss in Unit~10.
+In three dimensions the mean-field $T_c = 2d = 6$ and $b = 1 / 2$ are still significantly different from the true $T_c \approx 4.5$ and $b \approx 0.32$. % From Tong and arXiv:1806.03558
 The mean-field prediction for the critical exponent $b = 1 / 2$ turns out to be correct for $d \geq 4$, while the critical temperature $T_c = 2d$ gradually approaches the true value as the number of dimensions increases.
-(Numerical computations find $T_c \approx 6.7$, $8.8$, $10.8$ and $12.9$ for $d = 4$, $5$, $6$ and $7$, respectively.) % From arXiv:1202.3031 and arXiv:1502.07613
-Formally, the mean-field approximation exactly reproduces the Ising model in the unphysical limit of infinite dimensions, $d \to \infty$.
-Roughly speaking, the greater reliability of the mean-field approach in higher dimensions is due to the larger number of nearest neighbours for each site, $2d$, which allow that site to interact with a better approximation to the mean spin.
+Numerical computations find $T_c \approx 6.7$, $8.8$, $10.8$ and $12.9$ for $d = 4$, $5$, $6$ and $7$, respectively, so that the mean-field result improves from being $\sim$$19\%$ too high for $d = 4$ to only $\sim$$9\%$ too high for $d = 7$. % From arXiv:1202.3031 and arXiv:1502.07613
+Formally, the mean-field approximation exactly reproduces the Ising model in the abstract limit of infinite dimensions, $d \to \infty$.
+Roughly speaking, the greater reliability of the mean-field approach in higher dimensions is due to the larger number of nearest neighbours for each site, $2d$.
+The larger number of nearest-neighbour spins produces a more reliable approximation of the mean spin in the effective field seen by each site in the mean-field approach.
 % ------------------------------------------------------------------
