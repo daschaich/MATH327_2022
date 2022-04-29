@@ -1,0 +1,2651 @@
+1
+00:00:02,690 --> 00:00:07,040
+It is just about time to get underway, so here is
+
+2
+00:00:07,220 --> 00:00:12,120
+the six-digit code for today:
+
+3
+00:00:15,220 --> 00:00:18,760
+two six two, four seven four.
+
+4
+00:00:22,520 --> 00:00:27,260
+So far this week we have introduced
+
+5
+00:00:27,530 --> 00:00:30,620
+interactions and phase transitions in general,
+
+6
+00:00:30,890 --> 00:00:35,330
+looked at the Ising model on a d-dimensional simple cubic lattice
+
+7
+00:00:35,330 --> 00:00:40,820
+as the simple playground to make those discussions
+
+8
+00:00:40,820 --> 00:00:45,590
+more quantitative, and we've seen on Tuesday the two
+
+9
+00:00:45,590 --> 00:00:49,730
+distinct phases that pop up or emerge from the
+
+10
+00:00:49,730 --> 00:00:54,830
+Ising model at high and low temperatures. So any questions
+
+11
+00:00:54,830 --> 00:00:58,130
+about those general issues before we pick up and
+
+12
+00:00:58,130 --> 00:01:00,500
+start to look at the more interesting regime of
+
+13
+00:01:00,500 --> 00:01:04,190
+what happens in between those two limiting
+
+14
+00:01:04,190 --> 00:01:04,880
+behaviors?
+
+15
+00:01:09,430 --> 00:01:10,900
+Let's see...
+
+16
+00:01:15,180 --> 00:01:18,120
+To quickly recap what we have
+
+17
+00:01:20,800 --> 00:01:24,860
+gone over, the Ising model
+
+18
+00:01:28,150 --> 00:01:33,130
+itself is defined by this energy that sums over
+
+19
+00:01:34,150 --> 00:01:37,750
+pairs of nearest neighbor spins, multiply by each
+
+20
+00:01:37,750 --> 00:01:40,330
+other in addition to the usual.
+
+21
+00:01:43,410 --> 00:01:47,450
+Coupling between the STEM degrees of freedom and.
+
+22
+00:01:49,040 --> 00:01:52,700
+The external magnetic field spins have values plus
+
+23
+00:01:52,700 --> 00:01:59,280
+or minus one, and the nearest neighbors are. You
+
+24
+00:01:59,360 --> 00:02:04,170
+find. By the underlying lattice structure of.
+
+25
+00:02:07,350 --> 00:02:10,740
+Which we may take a look at some of the
+
+26
+00:02:10,740 --> 00:02:15,440
+possibilities this afternoon is the detail, no
+
+27
+00:02:15,450 --> 00:02:20,590
+particular person boundary conditions. To.
+
+28
+00:02:23,030 --> 00:02:29,040
+Out of the space on the page and simplify the
+
+29
+00:02:29,550 --> 00:02:34,920
+overall structure of the lattice and be considered
+
+30
+00:02:35,070 --> 00:02:43,180
+the zero field is the model. And the of high and
+
+31
+00:02:43,180 --> 00:02:48,580
+low temperature. So as the temperature becomes
+
+32
+00:02:48,580 --> 00:02:50,580
+high, we end up with.
+
+33
+00:02:53,820 --> 00:02:57,600
+Equal opportunities for all of the microstates,
+
+34
+00:02:57,600 --> 00:03:02,240
+just one over. The total mobilization factor to
+
+35
+00:03:02,240 --> 00:03:09,080
+end and with all microstates equally probable, the
+
+36
+00:03:09,260 --> 00:03:14,430
+phase is determined by. The degeneracy is the
+
+37
+00:03:14,430 --> 00:03:14,940
+number.
+
+38
+00:03:17,220 --> 00:03:20,470
+District microstates with a given energy
+
+39
+00:03:23,030 --> 00:03:27,260
+for a different distribution of operating expense.
+
+40
+00:03:29,360 --> 00:03:37,350
+And. If we characterize this by the magnetization.
+
+41
+00:03:39,400 --> 00:03:43,630
+So, William, verbalised difference, looking at the
+
+42
+00:03:44,110 --> 00:03:48,130
+absolute value of the case of zero external fuel.
+
+43
+00:03:50,790 --> 00:03:53,880
+And the total magnetization womanize by the number
+
+44
+00:03:53,880 --> 00:03:58,320
+of spins, which is the difference between upward
+
+45
+00:03:58,320 --> 00:04:01,890
+and downward when he divided by the total.
+
+46
+00:04:04,730 --> 00:04:09,320
+When the. Things is determined just by counting
+
+47
+00:04:09,320 --> 00:04:12,770
+the degeneracy of the numbers of possible
+
+48
+00:04:12,770 --> 00:04:15,080
+microstates with different distributions of
+
+49
+00:04:15,100 --> 00:04:20,690
+operating expense. We have roughly equal numbers.
+
+50
+00:04:20,720 --> 00:04:24,320
+That is where binomial coefficient is separately,
+
+51
+00:04:25,400 --> 00:04:28,030
+which was a topic of one of the first tutorials
+
+52
+00:04:28,040 --> 00:04:31,530
+that we did for the start of the term. The
+
+53
+00:04:31,730 --> 00:04:36,530
+magnetization then becomes. Approximately zero
+
+54
+00:04:36,710 --> 00:04:39,500
+approaching exactly zero in that thermodynamic
+
+55
+00:04:39,500 --> 00:04:43,150
+limit. But the number of degrees of freedom
+
+56
+00:04:43,600 --> 00:04:44,560
+becoming large.
+
+57
+00:04:46,580 --> 00:04:50,840
+The opposite limit, how low temperatures, the
+
+58
+00:04:51,650 --> 00:04:55,750
+probabilities are exponentially sensitive to.
+
+59
+00:04:56,980 --> 00:05:02,470
+Their energies in particular, all excited energy
+
+60
+00:05:02,470 --> 00:05:05,590
+levels are exponentially suppressed compared to
+
+61
+00:05:05,590 --> 00:05:09,060
+the ground states, just to say that the. The
+
+62
+00:05:09,170 --> 00:05:10,340
+Granite State wins.
+
+63
+00:05:12,870 --> 00:05:18,730
+Evy. I have seen from this energy that. The.
+
+64
+00:05:19,720 --> 00:05:22,450
+Ground state with the minimum energy occurs, the
+
+65
+00:05:22,450 --> 00:05:25,750
+absence of electrical field for all of the spin's
+
+66
+00:05:25,750 --> 00:05:27,360
+are aligned in the same direction.
+
+67
+00:05:30,520 --> 00:05:33,910
+Whether that is plus or minus, we can't tell but
+
+68
+00:05:33,910 --> 00:05:34,240
+that.
+
+69
+00:05:36,830 --> 00:05:41,300
+Produces what we call the order phase. But there
+
+70
+00:05:41,300 --> 00:05:45,890
+is a tendency for all of these things to align in
+
+71
+00:05:45,890 --> 00:05:49,070
+one direction or another with the absolute value
+
+72
+00:05:49,070 --> 00:05:52,730
+of the magnetization approaching its maximum value
+
+73
+00:05:52,950 --> 00:05:58,960
+of one. As the temperature gets smaller and this
+
+74
+00:05:58,960 --> 00:06:05,740
+order phase. Is in contrast to the disorder things
+
+75
+00:06:05,740 --> 00:06:12,080
+up here and maybe give some intuition beyond. Just
+
+76
+00:06:12,080 --> 00:06:14,450
+writing down words of equations, we can look at
+
+77
+00:06:14,450 --> 00:06:20,690
+some examples of microstates of the easy model. At
+
+78
+00:06:21,200 --> 00:06:24,590
+high and low temperatures, these are some figures
+
+79
+00:06:24,590 --> 00:06:30,660
+from. Schroeder's book on thermal physics, where
+
+80
+00:06:31,260 --> 00:06:35,540
+he's considering a 20 by 20 lattice in Colorado
+
+81
+00:06:35,550 --> 00:06:38,370
+squares in that light as either black or white,
+
+82
+00:06:38,370 --> 00:06:41,670
+depending on whether the skin is a plus or minus
+
+83
+00:06:41,670 --> 00:06:48,750
+one. And even for systems that would certainly not
+
+84
+00:06:48,750 --> 00:06:52,860
+add another page to use 20 by 20 degrees of
+
+85
+00:06:52,860 --> 00:06:57,180
+freedom do correspond to two to the four hundred
+
+86
+00:06:57,180 --> 00:07:00,120
+power possible microstates. So that's about 10 to
+
+87
+00:07:00,120 --> 00:07:03,370
+the power of one hundred twenty. So
+
+88
+00:07:05,800 --> 00:07:10,910
+few samples are coming from. A computer program
+
+89
+00:07:10,910 --> 00:07:15,230
+that samples those microstates proportional to the
+
+90
+00:07:15,230 --> 00:07:18,470
+probability distribution and at high temperatures,
+
+91
+00:07:18,720 --> 00:07:20,720
+we can get a visual sense that.
+
+92
+00:07:23,800 --> 00:07:26,620
+Given the roughly equal probabilities for all the
+
+93
+00:07:26,620 --> 00:07:31,600
+different microstates we are. Almost guaranteed to
+
+94
+00:07:31,990 --> 00:07:35,170
+end up, for example, from that flat distribution
+
+95
+00:07:35,740 --> 00:07:41,690
+with a. What the even number of operating expenses
+
+96
+00:07:41,700 --> 00:07:45,030
+when black squares in this case, so. Even
+
+97
+00:07:45,270 --> 00:07:48,060
+comparing Iran and missile states, but those four
+
+98
+00:07:48,060 --> 00:07:52,290
+hundred spins are said to be black or white here
+
+99
+00:07:52,320 --> 00:07:55,560
+with equal probability. If you have a temperature
+
+100
+00:07:55,560 --> 00:07:58,200
+of 10. In their.
+
+101
+00:08:01,350 --> 00:08:04,210
+In the. Units of.
+
+102
+00:08:06,580 --> 00:08:10,850
+Of magnetic fields, so. Get into those units a bit
+
+103
+00:08:10,850 --> 00:08:13,730
+later on, this is a relatively high temperature
+
+104
+00:08:14,300 --> 00:08:18,460
+where you can see the. If we didn't have to leave
+
+105
+00:08:18,460 --> 00:08:20,170
+this out here, we wouldn't necessarily be able to
+
+106
+00:08:20,170 --> 00:08:22,660
+tell the difference between that random mental
+
+107
+00:08:22,690 --> 00:08:27,290
+state and the. Because they draw from the top of
+
+108
+00:08:27,300 --> 00:08:30,660
+the distribution at a relatively high temperature,
+
+109
+00:08:31,230 --> 00:08:34,620
+while the situation changes as we go to the low
+
+110
+00:08:34,620 --> 00:08:37,950
+temperatures, we end up with big blocks of spins
+
+111
+00:08:37,950 --> 00:08:40,350
+all around in one direction or another,
+
+112
+00:08:41,340 --> 00:08:45,660
+corresponding to almost all sides of this lattice
+
+113
+00:08:45,660 --> 00:08:50,920
+being either white or covered in black. And then
+
+114
+00:08:51,850 --> 00:08:55,330
+the interesting question is what happens in
+
+115
+00:08:55,330 --> 00:08:57,670
+between those high, high and low temperature
+
+116
+00:08:57,670 --> 00:09:01,960
+regimes, which is what we'll focus on today and
+
+117
+00:09:01,960 --> 00:09:06,430
+probably on Tuesday as well. We can see and it is
+
+118
+00:09:06,430 --> 00:09:08,650
+more intermediate temperatures, there is a more
+
+119
+00:09:08,650 --> 00:09:11,320
+intermediate behavior there. Still a mixture of
+
+120
+00:09:11,320 --> 00:09:15,670
+black and white spin's that there are regions
+
+121
+00:09:15,700 --> 00:09:20,340
+where the spins are all stay here, the mostly
+
+122
+00:09:20,350 --> 00:09:24,790
+black, and here they're mostly white. So if we
+
+123
+00:09:24,790 --> 00:09:30,330
+were to zoom in on smaller sections of this twenty
+
+124
+00:09:30,520 --> 00:09:33,100
+one lattice, you might see something that looked
+
+125
+00:09:33,520 --> 00:09:36,190
+like the lower temperature case. But if we were to
+
+126
+00:09:36,190 --> 00:09:39,280
+zoom out and look at the latest as a whole, we
+
+127
+00:09:39,290 --> 00:09:41,770
+still have roughly equal numbers of operating
+
+128
+00:09:42,190 --> 00:09:46,480
+expense as we did in the high temperature phase
+
+129
+00:09:47,170 --> 00:09:52,000
+just to sort of this home. This is a larger system.
+
+130
+00:09:52,880 --> 00:09:54,200
+Computed in the same way.
+
+131
+00:09:57,170 --> 00:09:59,660
+Numerically sampled from the probability
+
+132
+00:09:59,660 --> 00:10:03,020
+distribution, now with four hundred by four
+
+133
+00:10:03,020 --> 00:10:05,300
+hundred sites so that there are something like ten
+
+134
+00:10:05,720 --> 00:10:09,230
+to the forty eight thousand possible microstates.
+
+135
+00:10:13,450 --> 00:10:13,800
+And.
+
+136
+00:10:15,920 --> 00:10:21,830
+Temperature here is set to be two point two seven,
+
+137
+00:10:22,100 --> 00:10:25,400
+which is an interesting number that we'll get back
+
+138
+00:10:25,400 --> 00:10:31,460
+to if we can see islands of alliances, of all
+
+139
+00:10:31,460 --> 00:10:36,790
+different scales, easier to look at the marksman's
+
+140
+00:10:36,800 --> 00:10:39,530
+visually and with this little island of mostly
+
+141
+00:10:39,530 --> 00:10:42,260
+black spins there, the larger island over there.
+
+142
+00:10:42,680 --> 00:10:48,290
+So this one water just filed over here. If we had
+
+143
+00:10:48,410 --> 00:10:51,860
+selected any of those kind of 20 by 20, Latisse
+
+144
+00:10:52,430 --> 00:10:55,310
+being looked at the previous set of figures. You
+
+145
+00:10:55,310 --> 00:10:58,380
+might have thought the system was butterface. But
+
+146
+00:10:58,460 --> 00:11:00,920
+looking at the larger scale system, we could see
+
+147
+00:11:01,580 --> 00:11:04,450
+equal numbers of upward and downward pointing
+
+148
+00:11:04,490 --> 00:11:09,560
+spins. So an overall visualization that's more
+
+149
+00:11:09,560 --> 00:11:14,850
+consistent with this phase. So, two. Briefly
+
+150
+00:11:14,900 --> 00:11:17,480
+policy, if there are any further questions about
+
+151
+00:11:17,480 --> 00:11:23,050
+those visas before we dive into. Putting this sort
+
+152
+00:11:23,050 --> 00:11:23,740
+of visual.
+
+153
+00:11:26,120 --> 00:11:30,470
+Consideration, home work, mathematical footing.
+
+154
+00:11:34,040 --> 00:11:40,920
+We zoom back in here, the key concept that. Makes
+
+155
+00:11:42,000 --> 00:11:42,540
+the.
+
+156
+00:11:44,870 --> 00:11:47,730
+Discussion of these high temperature cases, very
+
+157
+00:11:47,750 --> 00:11:53,900
+mathematically well-defined, is the concept of the
+
+158
+00:11:53,900 --> 00:11:57,890
+order parameter, which in the case of the easy
+
+159
+00:11:57,890 --> 00:12:00,800
+model is the magnetization we've been discussing.
+
+160
+00:12:01,250 --> 00:12:07,370
+This is a quantity that is small in one phase,
+
+161
+00:12:07,710 --> 00:12:09,710
+what we've identified as the disordered phase with
+
+162
+00:12:09,710 --> 00:12:13,280
+reference to the sorts of visualizations of the
+
+163
+00:12:13,280 --> 00:12:16,790
+user model, and it becomes it goes to zero and
+
+164
+00:12:16,790 --> 00:12:20,390
+that sort of limits. But there's a number of
+
+165
+00:12:20,390 --> 00:12:24,330
+degrees of freedom. But the other ordered phase or
+
+166
+00:12:24,330 --> 00:12:30,350
+the parameter is not zero and in particular large
+
+167
+00:12:30,350 --> 00:12:32,660
+enough to be easily distinguished from zero.
+
+168
+00:12:36,750 --> 00:12:40,650
+The lawsuit over some of the forward construction
+
+169
+00:12:40,650 --> 00:12:42,660
+of the theory of these transitions, which could be
+
+170
+00:12:42,660 --> 00:12:47,520
+a model in itself, but there is a distinction
+
+171
+00:12:47,520 --> 00:12:52,860
+between the true order parameter and just any
+
+172
+00:12:52,860 --> 00:12:57,300
+given quantity. We want to define that by behave
+
+173
+00:12:57,300 --> 00:12:59,850
+differently in these two phases. And that
+
+174
+00:12:59,850 --> 00:13:04,290
+distinction is that the order parameter formally
+
+175
+00:13:04,470 --> 00:13:08,910
+is related to some derivative of the free energy.
+
+176
+00:13:11,470 --> 00:13:16,450
+So in addition to finishing in one phase and the
+
+177
+00:13:16,450 --> 00:13:20,090
+other, it's got to be a different order parameter,
+
+178
+00:13:20,090 --> 00:13:23,690
+it has to be related to a derivative of the of the
+
+179
+00:13:23,710 --> 00:13:26,470
+free energy use of water, of the partition
+
+180
+00:13:26,470 --> 00:13:31,450
+function and. Just to give a so we've always
+
+181
+00:13:31,760 --> 00:13:35,790
+assumed this to be the case for now. It is
+
+182
+00:13:35,790 --> 00:13:38,460
+possible to have what are called topological phase
+
+183
+00:13:38,460 --> 00:13:44,730
+transitions that have a actual transition between
+
+184
+00:13:44,730 --> 00:13:47,640
+two different phases but do not have an altered
+
+185
+00:13:47,640 --> 00:13:53,480
+parameter characterizing them. And these are. Not
+
+186
+00:13:53,480 --> 00:13:55,930
+only interesting, but important as well, so I
+
+187
+00:13:55,980 --> 00:13:58,520
+mentioned in passing here that the most famous
+
+188
+00:13:58,520 --> 00:14:01,870
+example of a technological transition without
+
+189
+00:14:01,890 --> 00:14:06,530
+water is known as the transition. Discovery
+
+190
+00:14:06,540 --> 00:14:11,090
+independently by Brzezinski is to be impossible to
+
+191
+00:14:11,090 --> 00:14:19,010
+tell us the K.A., which was a recently recognized
+
+192
+00:14:19,280 --> 00:14:22,700
+Nobel Prize in physics five years ago. Now, we can
+
+193
+00:14:22,700 --> 00:14:25,860
+also generalize this concept of water parameters
+
+194
+00:14:25,880 --> 00:14:30,470
+you think of. Specific systems that have multiple
+
+195
+00:14:30,470 --> 00:14:33,590
+distinct transitions, each with multiple distinct
+
+196
+00:14:33,830 --> 00:14:37,100
+order parameters related to different derivatives
+
+197
+00:14:37,100 --> 00:14:41,660
+of that free energy. But for the time being, just.
+
+198
+00:14:43,140 --> 00:14:47,150
+Keep working with the. Using ball with the
+
+199
+00:14:47,170 --> 00:14:50,490
+magnetization is that over the perimeter, you will
+
+200
+00:14:50,800 --> 00:14:54,790
+see its relationship to free energy in just a few
+
+201
+00:14:54,790 --> 00:15:00,680
+minutes. And with the border parameter in hand,
+
+202
+00:15:00,980 --> 00:15:07,160
+distinguished. The disordered phase there is zero.
+
+203
+00:15:08,350 --> 00:15:12,340
+And the order phase would is not necessarily its
+
+204
+00:15:12,340 --> 00:15:15,980
+maximum value, but anything distinct from zero. We
+
+205
+00:15:15,990 --> 00:15:21,780
+can formally define the phase transition and
+
+206
+00:15:21,780 --> 00:15:25,890
+distinguish it from a smooth and gradual crossover
+
+207
+00:15:26,250 --> 00:15:30,270
+between two distinct phases, which is the.
+
+208
+00:15:32,310 --> 00:15:35,130
+The question of the drive to what is a phase
+
+209
+00:15:35,130 --> 00:15:39,000
+transition mathematically, so mathematically we
+
+210
+00:15:39,000 --> 00:15:42,870
+only have a phase transition when the order
+
+211
+00:15:42,870 --> 00:15:48,690
+parameter itself is discontinuous or diversions or
+
+212
+00:15:48,810 --> 00:15:52,080
+one of its derivatives with respect to the control
+
+213
+00:15:52,080 --> 00:15:55,740
+parameters of the system, exhibit such a
+
+214
+00:15:56,070 --> 00:16:00,100
+discontinuity or divergence, which typically will
+
+215
+00:16:00,150 --> 00:16:04,380
+only appear in that thermodynamic limit of an
+
+216
+00:16:04,380 --> 00:16:08,430
+infinite number of degrees of freedom. So we say
+
+217
+00:16:08,430 --> 00:16:11,910
+that the we express the order parameter as a
+
+218
+00:16:11,910 --> 00:16:17,050
+function of the control parameters. And see if it
+
+219
+00:16:17,060 --> 00:16:19,070
+or any of its derivatives with respect to those
+
+220
+00:16:19,350 --> 00:16:23,730
+parameters have. Discontinuous behavior included
+
+221
+00:16:23,730 --> 00:16:28,740
+divergences, and if they do the value of the
+
+222
+00:16:28,740 --> 00:16:33,290
+control parameter. Corresponding to that
+
+223
+00:16:33,480 --> 00:16:36,870
+divergence, which is commendably is known as the
+
+224
+00:16:37,140 --> 00:16:41,750
+critical point of that phase transition. So that
+
+225
+00:16:41,750 --> 00:16:46,970
+is the general definition that we can quickly
+
+226
+00:16:46,970 --> 00:16:50,870
+specialize to the easy model itself, where having
+
+227
+00:16:50,870 --> 00:16:54,680
+turned off the external fuel to the suction, the
+
+228
+00:16:54,680 --> 00:16:58,610
+temperature is the only remaining program that we
+
+229
+00:16:58,610 --> 00:17:01,340
+have to to very well fix the structure with a
+
+230
+00:17:01,340 --> 00:17:04,640
+fixed number of degrees of freedom. So that
+
+231
+00:17:04,640 --> 00:17:09,130
+critical point. Becomes a critical temperature,
+
+232
+00:17:09,580 --> 00:17:12,360
+T.S.. Where?
+
+233
+00:17:15,060 --> 00:17:18,900
+If we do have a phase transition, there are these
+
+234
+00:17:19,020 --> 00:17:24,480
+two possibilities to consider the border itself is
+
+235
+00:17:24,480 --> 00:17:28,980
+discontinuous in this case or the border parameter
+
+236
+00:17:29,460 --> 00:17:33,060
+is continuous, but one of its derivatives with
+
+237
+00:17:33,060 --> 00:17:38,070
+respect to the temperature, is discontinuous with
+
+238
+00:17:38,070 --> 00:17:43,010
+versions. So these two cases or. Coming out of
+
+239
+00:17:43,100 --> 00:17:46,880
+some obscure process of historical understanding
+
+240
+00:17:47,510 --> 00:17:51,980
+are known as the first and second order phase
+
+241
+00:17:51,980 --> 00:17:54,710
+transitions, respectively, so the first order
+
+242
+00:17:54,710 --> 00:17:59,700
+phase transition. There is a. The street jump in
+
+243
+00:17:59,700 --> 00:18:03,780
+the water perimeter itself, so the magnetization
+
+244
+00:18:03,930 --> 00:18:05,270
+in the case of the easy go.
+
+245
+00:18:11,870 --> 00:18:15,170
+There is a second order phase transition, that
+
+246
+00:18:15,170 --> 00:18:19,490
+order parameter is continuous at the critical time,
+
+247
+00:18:19,750 --> 00:18:23,530
+really continuous for all temperatures. But it's
+
+248
+00:18:23,530 --> 00:18:28,240
+derivative as a discontinuity, which we can see
+
+249
+00:18:28,240 --> 00:18:32,260
+from this schematic picture here, if we were to
+
+250
+00:18:32,260 --> 00:18:36,030
+approach that critical temperature from. Lower
+
+251
+00:18:36,030 --> 00:18:39,300
+temperatures, the left hand side, and we see that
+
+252
+00:18:39,300 --> 00:18:42,540
+the derivative of this line has a very large
+
+253
+00:18:42,540 --> 00:18:46,170
+negative slope becoming larger and larger as we
+
+254
+00:18:46,170 --> 00:18:52,030
+approach to see. That corresponds to probably try
+
+255
+00:18:52,030 --> 00:18:55,690
+to draw that to the side.
+
+256
+00:18:58,640 --> 00:19:02,150
+Derivative with respect to temperature of that
+
+257
+00:19:02,150 --> 00:19:02,990
+order parameter.
+
+258
+00:19:06,260 --> 00:19:06,620
+That.
+
+259
+00:19:10,480 --> 00:19:13,450
+I said it was negative slope, so I just.
+
+260
+00:19:15,890 --> 00:19:22,810
+And those actions down to negative values. We're
+
+261
+00:19:22,820 --> 00:19:29,990
+coming from the left, the eventually subversions
+
+262
+00:19:29,990 --> 00:19:33,750
+option A. Infinitely negative value is coming from
+
+263
+00:19:33,750 --> 00:19:36,830
+the right with the. Value of the A parameter is
+
+264
+00:19:36,830 --> 00:19:43,740
+always zero. The slope itself is. Derivative of
+
+265
+00:19:43,740 --> 00:19:48,760
+zero, which is zero, and that gives us, in this
+
+266
+00:19:48,780 --> 00:19:54,410
+case, the discontinuity. In the first derivative
+
+267
+00:19:54,410 --> 00:19:57,470
+of the order or so, it is still able to transition,
+
+268
+00:19:58,190 --> 00:20:03,530
+but with that. Discontinuity in the derivative
+
+269
+00:20:03,530 --> 00:20:07,370
+rather than the order itself becomes known as the
+
+270
+00:20:07,370 --> 00:20:10,700
+second order phase transition. So historically,
+
+271
+00:20:10,700 --> 00:20:12,830
+there were also discussions of third or fourth
+
+272
+00:20:12,830 --> 00:20:15,320
+order phase transitions where depending on how
+
+273
+00:20:15,320 --> 00:20:17,960
+many derivatives you had to take to see this
+
+274
+00:20:17,960 --> 00:20:21,140
+discontinuity, that would be the order of the
+
+275
+00:20:21,140 --> 00:20:25,250
+phase transition. That's an antiquated terminology
+
+276
+00:20:25,250 --> 00:20:26,420
+these days and.
+
+277
+00:20:29,350 --> 00:20:34,690
+Modern parlance, anything that features a
+
+278
+00:20:34,690 --> 00:20:37,800
+continuous order parameter, but a discontinuity at
+
+279
+00:20:37,810 --> 00:20:41,320
+some finite number of derivatives is just that
+
+280
+00:20:41,770 --> 00:20:46,270
+second order phase transition. So whenever the
+
+281
+00:20:46,720 --> 00:20:49,220
+order perimeter is continuous, is the second row
+
+282
+00:20:49,260 --> 00:20:49,840
+the case?
+
+283
+00:20:51,950 --> 00:20:59,270
+And as the. One final comment on the. General
+
+284
+00:20:59,930 --> 00:21:02,150
+aspects of his transition before looking in more
+
+285
+00:21:02,150 --> 00:21:06,800
+detail at this model mentioned above in this
+
+286
+00:21:06,800 --> 00:21:09,680
+definition, the role of that through the equipment
+
+287
+00:21:09,680 --> 00:21:13,310
+which is typically required in order to see actual
+
+288
+00:21:13,310 --> 00:21:18,590
+discontinuities. So what happens? In general, we
+
+289
+00:21:18,590 --> 00:21:22,520
+have a system with a finite number of computers,
+
+290
+00:21:22,570 --> 00:21:28,290
+that freedom that's. Instead of the actual
+
+291
+00:21:29,040 --> 00:21:34,200
+discontinuity showing up in court versus control
+
+292
+00:21:36,390 --> 00:21:42,300
+parameter as in increases, is the sort of smooth
+
+293
+00:21:42,300 --> 00:21:44,100
+behavior that.
+
+294
+00:21:48,640 --> 00:21:51,230
+More and more rapidly, Gary.
+
+295
+00:21:53,350 --> 00:21:54,220
+So this is.
+
+296
+00:21:58,930 --> 00:22:01,280
+It's more the smaller the end is, the smaller this
+
+297
+00:22:01,700 --> 00:22:03,170
+is its.
+
+298
+00:22:06,610 --> 00:22:09,460
+It becomes a more rapid transition. And it's only
+
+299
+00:22:09,460 --> 00:22:14,440
+in the limits of infinite and that there is
+
+300
+00:22:16,330 --> 00:22:21,700
+additional discontinuity emerging, so.
+
+301
+00:22:25,760 --> 00:22:30,290
+Our formal definition is sometimes some of the
+
+302
+00:22:30,770 --> 00:22:35,030
+textbooks, you'll see that they will say true
+
+303
+00:22:35,030 --> 00:22:39,320
+phase transitions only occur when there are an
+
+304
+00:22:39,320 --> 00:22:43,190
+infinite number of degrees of freedom. But really,
+
+305
+00:22:43,190 --> 00:22:48,230
+we can tell based on how the independence of the
+
+306
+00:22:48,230 --> 00:22:50,840
+entrepreneur on the temperature varies as the
+
+307
+00:22:50,840 --> 00:22:53,960
+system size increases, whether that discontinuity
+
+308
+00:22:53,960 --> 00:22:57,800
+is developing or equivalently, that divergence in
+
+309
+00:22:58,400 --> 00:23:03,470
+its first derivative. So these techniques are.
+
+310
+00:23:06,620 --> 00:23:10,640
+They will find out how the system varies as its
+
+311
+00:23:10,640 --> 00:23:13,820
+numbers of degrees of freedom, change and.
+
+312
+00:23:16,050 --> 00:23:19,160
+I think we will get into that and this morning,
+
+313
+00:23:19,160 --> 00:23:23,680
+you have enough other topics to. To go over in the
+
+314
+00:23:23,680 --> 00:23:29,470
+time remaining is the way to distinguish whether
+
+315
+00:23:29,470 --> 00:23:32,560
+or not a change between faces is a true transition,
+
+316
+00:23:33,160 --> 00:23:37,330
+even when these systems are finite, as of course,
+
+317
+00:23:37,330 --> 00:23:42,750
+everything physical is. So that is.
+
+318
+00:23:46,360 --> 00:23:50,330
+Abstract or generic? Definition of phase
+
+319
+00:23:50,330 --> 00:23:54,640
+transitions of first and second order. And
+
+320
+00:23:54,660 --> 00:23:57,420
+assuming there are questions about that, we can
+
+321
+00:23:58,050 --> 00:24:00,600
+make things a bit more solid by
+
+322
+00:24:02,760 --> 00:24:06,660
+looking in more detail at the U.S. model. As it.
+
+323
+00:24:08,030 --> 00:24:10,130
+Transitions between its high temperature
+
+324
+00:24:10,130 --> 00:24:13,100
+disordered phase and that low temperature order
+
+325
+00:24:13,100 --> 00:24:16,640
+things, so this might allow some of those abstract
+
+326
+00:24:16,640 --> 00:24:21,280
+discussions to be made more concrete. But, of
+
+327
+00:24:21,280 --> 00:24:24,160
+course, mentioned earlier that the easy model is
+
+328
+00:24:24,880 --> 00:24:28,180
+only soluble analytically in one or two dimensions.
+
+329
+00:24:30,290 --> 00:24:34,100
+The end still a net zero for your case, and in
+
+330
+00:24:34,100 --> 00:24:36,980
+particular, if you want to restore an external
+
+331
+00:24:36,980 --> 00:24:40,850
+magnetic field, the solution is only known in the
+
+332
+00:24:40,850 --> 00:24:44,430
+one dimensional case. So. If you want to say
+
+333
+00:24:44,430 --> 00:24:44,940
+anything
+
+334
+00:24:46,980 --> 00:24:51,920
+mathematical about this. There are sort of only
+
+335
+00:24:51,920 --> 00:24:55,610
+two options available to us. One is numerical
+
+336
+00:24:55,610 --> 00:24:57,950
+simulation of the sort you did on that computer
+
+337
+00:24:57,950 --> 00:25:02,750
+project, which is relegated to Unit 10 or have
+
+338
+00:25:02,750 --> 00:25:06,620
+some general discussion of that. What we're
+
+339
+00:25:07,130 --> 00:25:10,460
+focused on here is a way to get an approximation
+
+340
+00:25:11,180 --> 00:25:17,000
+to the using model. That will allow us to look at
+
+341
+00:25:17,300 --> 00:25:22,690
+the transition region. Hopefully in a reliable way.
+
+342
+00:25:24,900 --> 00:25:29,100
+Even in the presence of a non-zero external field
+
+343
+00:25:29,280 --> 00:25:33,510
+where the resolution no longer needs an average
+
+344
+00:25:33,510 --> 00:25:38,560
+value. So to start the process towards. This
+
+345
+00:25:38,570 --> 00:25:42,240
+result, we can. Look at a bit more detail about
+
+346
+00:25:42,240 --> 00:25:49,070
+the deposition. With a non-zero external fuel. And
+
+347
+00:25:49,070 --> 00:25:53,750
+in particular, we can see that from its definition
+
+348
+00:25:53,750 --> 00:25:56,710
+is the difference between the number of operating
+
+349
+00:25:56,720 --> 00:25:59,960
+expenses and the brutality and expense, it is
+
+350
+00:26:00,340 --> 00:26:03,170
+probably related to the sum over the spin's
+
+351
+00:26:03,170 --> 00:26:08,030
+themselves. We look at this sum that whenever we
+
+352
+00:26:08,030 --> 00:26:10,850
+have a positive spin, it contributes a plus one.
+
+353
+00:26:11,270 --> 00:26:13,010
+Whenever we have a negative spin to contribute to
+
+354
+00:26:13,020 --> 00:26:14,540
+minus one, which
+
+355
+00:26:16,860 --> 00:26:20,000
+overall estimates just gives us the total number
+
+356
+00:26:20,000 --> 00:26:23,060
+of operating expenses, minus the total number of
+
+357
+00:26:23,070 --> 00:26:26,510
+dollars on expense, kind of one minus one for each
+
+358
+00:26:26,510 --> 00:26:28,400
+of the corresponding degrees of freedom.
+
+359
+00:26:30,920 --> 00:26:33,590
+And of course, this is useful because we've seen
+
+360
+00:26:33,950 --> 00:26:38,420
+exactly the similar spins before, it showed up in
+
+361
+00:26:39,320 --> 00:26:44,480
+the using model energy in the first place, which
+
+362
+00:26:44,480 --> 00:26:49,680
+means that we can rewrite. The internal energy for
+
+363
+00:26:49,690 --> 00:26:54,700
+getting microstates I in terms of this
+
+364
+00:26:54,700 --> 00:27:02,370
+magnetization, so. And is the average value of all
+
+365
+00:27:02,370 --> 00:27:06,770
+these things in the given microstates? So multiply
+
+366
+00:27:06,780 --> 00:27:11,520
+three by and relates that sum itself to end times
+
+367
+00:27:11,520 --> 00:27:14,190
+magnetization for a total magnetization. The
+
+368
+00:27:14,190 --> 00:27:19,610
+Capital M. That varies with the number of spins of
+
+369
+00:27:19,610 --> 00:27:24,350
+the system, so plugging this internal energy in to
+
+370
+00:27:24,530 --> 00:27:30,060
+the economic competition function. Some of you to
+
+371
+00:27:30,060 --> 00:27:34,230
+the minus made the Times internal energy, the
+
+372
+00:27:34,260 --> 00:27:36,720
+negative sides cancel out, we can overall factor
+
+373
+00:27:36,720 --> 00:27:41,680
+hold the temperature better on both terms. And we
+
+374
+00:27:41,680 --> 00:27:45,430
+have an expression for the partition function that
+
+375
+00:27:45,820 --> 00:27:50,140
+explicitly depends on the translation of each
+
+376
+00:27:50,140 --> 00:27:53,740
+microstates defined by the spin configuration.
+
+377
+00:27:55,990 --> 00:27:59,560
+So this is the promised connection between that
+
+378
+00:27:59,560 --> 00:28:04,720
+magnetization and free energy see organization
+
+379
+00:28:04,730 --> 00:28:07,570
+appearing in the partition function.
+
+380
+00:28:10,350 --> 00:28:15,390
+And the free energy itself is just the logarithm
+
+381
+00:28:15,390 --> 00:28:18,450
+of that production function with a factor of minus
+
+382
+00:28:18,450 --> 00:28:23,510
+two fronts that we can. Plug into a derivative
+
+383
+00:28:23,510 --> 00:28:26,960
+with respect to the external feel. With an eye
+
+384
+00:28:26,960 --> 00:28:29,630
+towards getting something that depends on the
+
+385
+00:28:29,650 --> 00:28:31,550
+magnetization, so.
+
+386
+00:28:34,810 --> 00:28:38,430
+Proceeding with the definition of that free energy.
+
+387
+00:28:40,730 --> 00:28:47,350
+The derivative of the log. This one over Z, that's
+
+388
+00:28:47,370 --> 00:28:52,740
+the derivative of Z with respect to H and moving
+
+389
+00:28:52,740 --> 00:28:56,550
+that derivative through the sun over microstates.
+
+390
+00:28:58,300 --> 00:29:00,790
+The derivative of the exponential is simple enough
+
+391
+00:29:00,790 --> 00:29:06,700
+to do in our heads. We end up with some overall.
+
+392
+00:29:07,750 --> 00:29:14,540
+Microstates of from Chambal Bita. Times,
+
+393
+00:29:14,560 --> 00:29:18,340
+mobilization and times that same exponential
+
+394
+00:29:19,240 --> 00:29:23,920
+factor was derivative we have just taken.
+
+395
+00:29:30,080 --> 00:29:33,350
+So the inverse temperature data and the
+
+396
+00:29:33,350 --> 00:29:40,600
+temperature cancel and. Looking at the inverse
+
+397
+00:29:40,620 --> 00:29:44,280
+protection function multiplied by the sum of
+
+398
+00:29:44,280 --> 00:29:47,730
+Raulston configurations of the mechanization of
+
+399
+00:29:47,730 --> 00:29:49,860
+the corresponding spined configuration.
+
+400
+00:29:52,220 --> 00:29:57,230
+We can identify that as just the expectation value
+
+401
+00:29:57,440 --> 00:30:00,500
+of the total magnetization with a negative side
+
+402
+00:30:01,310 --> 00:30:06,110
+for a criminal, 18 times the expectation value of
+
+403
+00:30:06,440 --> 00:30:09,020
+the normalized micronization that ranges from
+
+404
+00:30:09,170 --> 00:30:15,010
+minus one to one. So rearranging some of these
+
+405
+00:30:15,030 --> 00:30:18,210
+intermediate steps, that gives us an expression
+
+406
+00:30:18,330 --> 00:30:21,270
+for that expectation, value of the magnetization
+
+407
+00:30:21,270 --> 00:30:27,350
+or order parameter it is. Minus to you, sorry,
+
+408
+00:30:27,500 --> 00:30:31,670
+plus to your friend. So the minus signs cancel out
+
+409
+00:30:32,180 --> 00:30:38,990
+those equality's. And define convert that. Tea to
+
+410
+00:30:38,990 --> 00:30:39,650
+one of the.
+
+411
+00:30:41,780 --> 00:30:45,590
+And normalization factor or whatever in the times,
+
+412
+00:30:45,590 --> 00:30:45,920
+the.
+
+413
+00:30:49,430 --> 00:30:53,150
+Derivative with respect to external fuel of the
+
+414
+00:30:53,150 --> 00:30:55,310
+logarithm of the protection function. So this is
+
+415
+00:30:55,310 --> 00:30:59,420
+the promised connection between magnetization and
+
+416
+00:30:59,420 --> 00:31:04,670
+the free energy that confirms it is a formal order
+
+417
+00:31:04,670 --> 00:31:05,270
+parameter.
+
+418
+00:31:09,080 --> 00:31:13,130
+Is that quantity is rigorously defined?
+
+419
+00:31:16,970 --> 00:31:21,500
+Now, if we go back to this relationship between
+
+420
+00:31:21,500 --> 00:31:25,580
+the position for a given spin configuration and
+
+421
+00:31:25,580 --> 00:31:28,850
+the average value of the some number that
+
+422
+00:31:28,850 --> 00:31:32,730
+configuration. You can push the.
+
+423
+00:31:35,270 --> 00:31:39,920
+Would apply the expectation value to both sides of
+
+424
+00:31:39,920 --> 00:31:46,080
+that relation. And then relate the order itself to
+
+425
+00:31:46,710 --> 00:31:50,400
+the expectation value of the average spin, or to
+
+426
+00:31:50,400 --> 00:31:53,640
+say the other way, the average of the expectations,
+
+427
+00:31:53,640 --> 00:31:58,470
+values of all the spins as we sum over all of the.
+
+428
+00:31:59,670 --> 00:32:02,940
+Spin configurations, so the expectation value is
+
+429
+00:32:02,940 --> 00:32:05,970
+given by that sum of all possible spin
+
+430
+00:32:05,970 --> 00:32:09,360
+configurations, meaning that this quantity is
+
+431
+00:32:09,360 --> 00:32:12,960
+independent of any particular configuration. It is
+
+432
+00:32:12,960 --> 00:32:17,100
+simply a function of our two control parameters.
+
+433
+00:32:19,750 --> 00:32:25,900
+So. But on the next page, that's Paul.
+
+434
+00:32:29,670 --> 00:32:35,160
+The average spin is a function of the inverse
+
+435
+00:32:35,160 --> 00:32:37,910
+temperature data, and that means that appeals to
+
+436
+00:32:37,910 --> 00:32:42,940
+an age independent of. The spin configuration
+
+437
+00:32:42,940 --> 00:32:46,570
+itself. And there's a trick that we can play
+
+438
+00:32:46,600 --> 00:32:51,940
+around with looking at the spin spin interaction
+
+439
+00:32:52,120 --> 00:32:57,360
+in the internal energy of the user model. We can't
+
+440
+00:32:57,570 --> 00:33:00,270
+exactly rewrite this by adding and subtracting
+
+441
+00:33:00,900 --> 00:33:04,400
+that average magnetization from both of these
+
+442
+00:33:04,590 --> 00:33:09,330
+factors, so SCBA minus M plus M is just as
+
+443
+00:33:09,330 --> 00:33:14,280
+subjective. And if we organize this as the
+
+444
+00:33:14,280 --> 00:33:20,760
+fluctuations sometimes called Beltagy, how the
+
+445
+00:33:20,910 --> 00:33:25,500
+speed S.J fluctuates around the average value of
+
+446
+00:33:25,500 --> 00:33:26,010
+the spin.
+
+447
+00:33:28,410 --> 00:33:31,260
+Then we can expand this product into.
+
+448
+00:33:33,550 --> 00:33:37,720
+Four terms, so the fluctuations square S.J in this
+
+449
+00:33:37,720 --> 00:33:40,780
+case correspond to nearest neighbor sites defined
+
+450
+00:33:40,790 --> 00:33:44,350
+by the structure and the cross terms, the
+
+451
+00:33:44,500 --> 00:33:47,740
+individual spins multiplied by this constant
+
+452
+00:33:47,740 --> 00:33:52,770
+magnetization in duration and on the temperature
+
+453
+00:33:52,770 --> 00:33:55,750
+of magnetic field, minus that overall constants
+
+454
+00:33:56,620 --> 00:33:57,580
+and the squared.
+
+455
+00:33:59,740 --> 00:34:03,070
+So what we've done in this equation, 114, is
+
+456
+00:34:03,070 --> 00:34:06,910
+actually take a simple product of two things, make
+
+457
+00:34:06,910 --> 00:34:10,240
+it a lot more complicated by. We'll leave it up to
+
+458
+00:34:10,250 --> 00:34:11,750
+fluctuations around the absolute.
+
+459
+00:34:14,880 --> 00:34:20,170
+By subtracting that absolute squared, the. Purpose
+
+460
+00:34:20,210 --> 00:34:24,160
+for the benefit that we gain from doing this. Is.
+
+461
+00:34:25,390 --> 00:34:30,270
+By conjecturing. That these fluctuations on
+
+462
+00:34:30,270 --> 00:34:35,670
+average are small, we can make an approximation
+
+463
+00:34:35,820 --> 00:34:39,810
+that this term of two small factors multiplied by
+
+464
+00:34:39,810 --> 00:34:42,120
+each other can be reflected.
+
+465
+00:34:48,410 --> 00:34:50,210
+Leaving only the.
+
+466
+00:34:53,040 --> 00:34:57,200
+Remaining terms in this expansion. I should note
+
+467
+00:34:57,200 --> 00:35:00,950
+that this is somewhat non-trivial approximation
+
+468
+00:35:00,950 --> 00:35:01,490
+because
+
+469
+00:35:04,340 --> 00:35:08,960
+obviously these are the two values of that you can
+
+470
+00:35:08,960 --> 00:35:13,640
+take plus or minus one cannot be cannot both be
+
+471
+00:35:13,640 --> 00:35:15,860
+close to the average magnetization. So before you
+
+472
+00:35:15,870 --> 00:35:19,970
+put the flip one of these spins. We see a big
+
+473
+00:35:19,970 --> 00:35:22,970
+shift in that individual fluctuation, but if we
+
+474
+00:35:22,970 --> 00:35:27,640
+suppose on average, that's. All of those big
+
+475
+00:35:28,000 --> 00:35:30,400
+individual fluctuations around the mechanisation
+
+476
+00:35:30,400 --> 00:35:35,890
+cancel out, which. We know that the climate they
+
+477
+00:35:35,890 --> 00:35:39,760
+have to give us that position as the average, we
+
+478
+00:35:39,760 --> 00:35:44,230
+can justify this approximation, which then
+
+479
+00:35:44,230 --> 00:35:49,090
+replaces that. Spin, spin, interaction term in the
+
+480
+00:35:49,450 --> 00:35:52,960
+easing, the internal energy to what is called what
+
+481
+00:35:52,960 --> 00:35:58,290
+is known as the field approximation. They're only.
+
+482
+00:36:01,000 --> 00:36:05,380
+Terms linear in the individual spins remain in the
+
+483
+00:36:05,440 --> 00:36:07,450
+song over here to stay with us.
+
+484
+00:36:10,810 --> 00:36:14,530
+And this summer, Brewer's neighbors that simplify
+
+485
+00:36:14,620 --> 00:36:17,770
+that second term is just a constant for every one
+
+486
+00:36:17,770 --> 00:36:21,970
+of the nearest neighbors that we have computed
+
+487
+00:36:21,970 --> 00:36:25,030
+earlier this week that there are these times and
+
+488
+00:36:25,510 --> 00:36:30,180
+possible terms. In the sun for a p dimensional
+
+489
+00:36:30,180 --> 00:36:32,880
+symbol for ubiquitous, so that constant factor
+
+490
+00:36:32,880 --> 00:36:38,490
+just comes out front end times and Times Square
+
+491
+00:36:39,330 --> 00:36:41,610
+with the overall negative side pences, with the
+
+492
+00:36:41,610 --> 00:36:47,340
+relative negative side. And then in the other term,
+
+493
+00:36:48,030 --> 00:36:53,880
+we have the two spins on either side of the link
+
+494
+00:36:53,880 --> 00:36:56,750
+defining or the link connecting these nearest
+
+495
+00:36:56,760 --> 00:36:57,290
+neighbors.
+
+496
+00:36:59,540 --> 00:37:03,360
+Which means that if we sum over the overall
+
+497
+00:37:03,360 --> 00:37:05,690
+population, the largest, the entire large volume,
+
+498
+00:37:06,230 --> 00:37:11,810
+every single spin is going to appear twice, once
+
+499
+00:37:12,290 --> 00:37:16,940
+from one, says S.J onces effectively.
+
+500
+00:37:23,570 --> 00:37:24,320
+There are then.
+
+501
+00:37:28,950 --> 00:37:34,020
+Yeah, to the. Copies of each individual has been
+
+502
+00:37:34,020 --> 00:37:37,410
+submitted in some of her legs,
+
+503
+00:37:39,990 --> 00:37:41,930
+recall maybe be a bit more detail in this written
+
+504
+00:37:41,950 --> 00:37:46,500
+down here, thinking of how many times it's been a
+
+505
+00:37:46,500 --> 00:37:51,270
+little counted as we go over some of the links in
+
+506
+00:37:51,660 --> 00:37:54,250
+however many dimensions that we have, we've
+
+507
+00:37:54,270 --> 00:37:58,410
+counted that there are two deep links connected to
+
+508
+00:37:58,410 --> 00:38:01,510
+each of these spans. All of which are included in
+
+509
+00:38:01,510 --> 00:38:03,340
+this song, so.
+
+510
+00:38:05,480 --> 00:38:09,720
+We can rewrite. This some of your neighbors
+
+511
+00:38:09,720 --> 00:38:14,000
+assisted some over the themselves with that cost a
+
+512
+00:38:14,040 --> 00:38:19,740
+factor of two and the cost factor coming along
+
+513
+00:38:20,490 --> 00:38:24,330
+from our expansion in terms of fluctuations. So
+
+514
+00:38:24,330 --> 00:38:30,990
+combining that some over. Dispense with the some,
+
+515
+00:38:30,990 --> 00:38:36,050
+you already have connectivity, make them feel this
+
+516
+00:38:36,060 --> 00:38:40,650
+equation one 15 results where we just have a sum
+
+517
+00:38:40,650 --> 00:38:46,320
+over the spin's times that two times zation plus
+
+518
+00:38:46,320 --> 00:38:49,710
+the external magnetic field, which we can write in
+
+519
+00:38:49,710 --> 00:38:55,590
+a. More evocative way by defining effective
+
+520
+00:38:56,340 --> 00:39:01,800
+magnetic field that depends both on the control
+
+521
+00:39:01,800 --> 00:39:05,610
+parameter itself to be. Magnetic field we started
+
+522
+00:39:05,610 --> 00:39:09,630
+off with, as well as the mean value of the spin
+
+523
+00:39:10,290 --> 00:39:14,280
+multiplied by the number of links connected to
+
+524
+00:39:14,580 --> 00:39:20,980
+each site in the sun. So this is sort of the
+
+525
+00:39:20,980 --> 00:39:23,980
+historical origin of the name of this
+
+526
+00:39:23,980 --> 00:39:27,130
+approximation, we have introduced an effective
+
+527
+00:39:27,820 --> 00:39:33,280
+feel that you spin that sees that depends on the
+
+528
+00:39:33,700 --> 00:39:37,880
+value of the spin given by the magnetization. So
+
+529
+00:39:38,570 --> 00:39:43,230
+this result is. Goes by the name of the main field
+
+530
+00:39:43,320 --> 00:39:47,520
+approximation, which otherwise is a bit mysterious
+
+531
+00:39:47,520 --> 00:39:53,710
+while neglecting these fluctuations. Gives us this
+
+532
+00:39:53,890 --> 00:39:58,110
+effective feel, depending on the spin and in
+
+533
+00:39:58,130 --> 00:40:05,920
+essence, we are supposing that we can average over
+
+534
+00:40:06,220 --> 00:40:10,120
+all of the nearest neighbors that you seize to
+
+535
+00:40:10,810 --> 00:40:16,080
+produce. And approximately Konsta factor that we
+
+536
+00:40:16,080 --> 00:40:19,890
+can account for just as a modification of that
+
+537
+00:40:19,890 --> 00:40:22,770
+magnetic field, which is sort of the conceptual
+
+538
+00:40:22,770 --> 00:40:27,540
+aspect of this, that cycle, back to on Tuesday,
+
+539
+00:40:30,120 --> 00:40:35,130
+when we wrap up the discussion of the windfield
+
+540
+00:40:35,130 --> 00:40:38,730
+approximation itself will get a bit further today,
+
+541
+00:40:39,120 --> 00:40:42,600
+stirred by. Considering what happens from the.
+
+542
+00:40:43,580 --> 00:40:47,240
+Take this new expression for the energy in the
+
+543
+00:40:47,260 --> 00:40:51,200
+mutual approximation and put it through our
+
+544
+00:40:51,830 --> 00:40:55,260
+criterion for identifying an interactive system.
+
+545
+00:40:58,190 --> 00:40:59,330
+I remind you is.
+
+546
+00:41:01,340 --> 00:41:06,010
+Looking at what happens to energy when. An
+
+547
+00:41:06,010 --> 00:41:11,350
+arbitrary degree of freedom is changed. In this
+
+548
+00:41:11,350 --> 00:41:16,160
+case, it is. A single spin where the only thing we
+
+549
+00:41:16,160 --> 00:41:20,880
+can do to get to. Change it is the game, its value.
+
+550
+00:41:22,830 --> 00:41:26,340
+So when we flip that single spin, this first term
+
+551
+00:41:26,340 --> 00:41:29,940
+is a constant until the independence of the
+
+552
+00:41:30,170 --> 00:41:36,900
+Confederation and the dependence on the external
+
+553
+00:41:37,350 --> 00:41:39,300
+on the effective magnetic field, that we just pick
+
+554
+00:41:39,300 --> 00:41:43,280
+up a negative sign for the spin of the other state,
+
+555
+00:41:43,280 --> 00:41:46,890
+the same and not too surprisingly, the
+
+556
+00:41:46,890 --> 00:41:53,170
+corresponding change in the energy. Is just twice
+
+557
+00:41:53,410 --> 00:41:56,940
+that effective magnetic field times has been
+
+558
+00:41:56,940 --> 00:41:59,080
+installed as this is.
+
+559
+00:42:02,010 --> 00:42:05,430
+Independence of all of the other degrees of
+
+560
+00:42:05,430 --> 00:42:05,880
+freedom.
+
+561
+00:42:09,810 --> 00:42:15,300
+We have taken our using model, the paradigm of an
+
+562
+00:42:15,300 --> 00:42:17,610
+interacting system and
+
+563
+00:42:19,620 --> 00:42:24,690
+reduced it to, you know, interacting approximation,
+
+564
+00:42:25,020 --> 00:42:28,170
+but still accounts for some of these nearest
+
+565
+00:42:28,170 --> 00:42:32,280
+neighbor interactions through this definition of
+
+566
+00:42:32,280 --> 00:42:35,670
+the effective magnetic field arising from
+
+567
+00:42:35,670 --> 00:42:37,770
+expanding precisely those nearest neighbor
+
+568
+00:42:37,770 --> 00:42:38,580
+interactions.
+
+569
+00:42:42,790 --> 00:42:46,230
+So let's see. When the time goes.
+
+570
+00:42:48,250 --> 00:42:55,450
+We have enough time to. Push forward the analysis
+
+571
+00:42:55,450 --> 00:43:00,510
+of this new fuel approximation to. And we set up
+
+572
+00:43:00,630 --> 00:43:05,640
+the identification of a phase transition in
+
+573
+00:43:05,640 --> 00:43:10,280
+Mischaracterisation, which. Is now much simpler
+
+574
+00:43:10,280 --> 00:43:14,090
+than in the case, the the is involved because as a
+
+575
+00:43:14,300 --> 00:43:16,370
+not interacting system through our formal
+
+576
+00:43:16,370 --> 00:43:19,910
+definition, we can expect the petition function
+
+577
+00:43:19,910 --> 00:43:23,300
+and other observables to factories to boil down
+
+578
+00:43:23,780 --> 00:43:27,830
+into just a product of that single particle
+
+579
+00:43:28,010 --> 00:43:32,340
+partition function. Just as happened for the full
+
+580
+00:43:32,470 --> 00:43:40,450
+on the case back in three. So. Plugging in that
+
+581
+00:43:40,450 --> 00:43:44,550
+mean fuel energy. Into the corresponding
+
+582
+00:43:45,000 --> 00:43:45,900
+protection function.
+
+583
+00:43:49,630 --> 00:43:53,980
+Try to put both views on the projector at the same
+
+584
+00:43:53,980 --> 00:43:59,500
+time. We have this overall concept turn up front,
+
+585
+00:44:00,070 --> 00:44:03,160
+that's as it does not depend on any of the spin
+
+586
+00:44:03,160 --> 00:44:07,960
+configurations. We can just pull out. The
+
+587
+00:44:08,040 --> 00:44:11,210
+multiplicative factor of the exponential of minus
+
+588
+00:44:11,400 --> 00:44:15,020
+the times this constant in these times, in times,
+
+589
+00:44:15,020 --> 00:44:18,660
+standardization squared and the dimensions, and
+
+590
+00:44:18,660 --> 00:44:23,040
+then all the same configurations are defined by.
+
+591
+00:44:24,290 --> 00:44:27,410
+The plus minus one values for each of those things
+
+592
+00:44:28,130 --> 00:44:34,800
+where the remaining split independent piece. Of
+
+593
+00:44:35,390 --> 00:44:40,430
+this exponential factor. It was just given by the
+
+594
+00:44:40,440 --> 00:44:44,590
+some overspenders with some prefecture just
+
+595
+00:44:45,150 --> 00:44:48,270
+justified to be this X minus B the times, the
+
+596
+00:44:48,270 --> 00:44:53,670
+effective magnetic field, which was put back many
+
+597
+00:44:53,670 --> 00:44:56,240
+weeks ago to another track, expenses to the
+
+598
+00:44:56,250 --> 00:45:02,210
+equation. Forty one we had exactly this for. Of
+
+599
+00:45:02,210 --> 00:45:05,520
+the protection function. Aware that some of our
+
+600
+00:45:05,520 --> 00:45:09,120
+spins inside the exponential can be broken up into
+
+601
+00:45:09,120 --> 00:45:13,500
+the product of the exponential of the spin with
+
+602
+00:45:13,500 --> 00:45:17,310
+the spin taking two values plus or minus one, we
+
+603
+00:45:17,310 --> 00:45:22,860
+have the exponential of X plus the exponential or
+
+604
+00:45:22,860 --> 00:45:26,580
+minus X known to his friends as a hyperbolic
+
+605
+00:45:26,580 --> 00:45:30,470
+cosine for each of those and spins independently
+
+606
+00:45:30,860 --> 00:45:35,190
+the factories calculation that just raises. That's
+
+607
+00:45:35,190 --> 00:45:40,690
+hyperbolic, cosine. To the nth power that we can
+
+608
+00:45:41,140 --> 00:45:45,430
+insert the defective magnetic field to get the
+
+609
+00:45:46,330 --> 00:45:50,770
+full equation one 16 or the beam partition
+
+610
+00:45:50,770 --> 00:45:55,510
+function, a constant exponential factor times a.
+
+611
+00:45:56,480 --> 00:45:59,170
+And powers are being hyperbolic, cosine that
+
+612
+00:45:59,210 --> 00:46:04,490
+depend on the mechanization. So this is far
+
+613
+00:46:04,490 --> 00:46:08,470
+simpler than the easy model where in a general
+
+614
+00:46:09,260 --> 00:46:12,320
+number of dimensions, there is no known analytic
+
+615
+00:46:12,320 --> 00:46:17,450
+solution. But it is interesting that. The
+
+616
+00:46:18,290 --> 00:46:22,130
+partition function depends explicitly on the order
+
+617
+00:46:22,130 --> 00:46:24,800
+parameter, the expectation value of this
+
+618
+00:46:24,800 --> 00:46:29,810
+magnetization, which we have recently seen, is
+
+619
+00:46:29,810 --> 00:46:36,420
+itself. Related to the derivative of that petition
+
+620
+00:46:36,420 --> 00:46:40,680
+function. So if we look at the derivative we
+
+621
+00:46:41,400 --> 00:46:44,180
+derived in general terms earlier. The
+
+622
+00:46:44,220 --> 00:46:47,490
+mechanization is one over 10 times better times
+
+623
+00:46:47,490 --> 00:46:50,250
+the derivative of the larger the production
+
+624
+00:46:50,250 --> 00:46:52,010
+function with respect to the magnetic field.
+
+625
+00:46:54,190 --> 00:46:59,910
+All of this factor depends on age and only one way
+
+626
+00:47:00,420 --> 00:47:04,560
+that's inside the hyperbolic cosine. So the longer
+
+627
+00:47:04,560 --> 00:47:08,700
+the power brings the power in, down, out front, we
+
+628
+00:47:08,700 --> 00:47:12,090
+have the logarithm of the hyperbolic cosine of the
+
+629
+00:47:12,100 --> 00:47:14,670
+defective magnetic field, plus a bunch of other
+
+630
+00:47:14,670 --> 00:47:17,430
+terms that are independent of each drop out of
+
+631
+00:47:17,430 --> 00:47:21,750
+that derivative. So taking the derivative of that
+
+632
+00:47:22,260 --> 00:47:26,250
+long term, what's the hyperbolic cosine of the
+
+633
+00:47:26,250 --> 00:47:29,250
+denominator and then the chain rule it through to
+
+634
+00:47:29,250 --> 00:47:33,820
+get a hyperbolic sign in the numerator with a
+
+635
+00:47:34,200 --> 00:47:36,510
+again, another application of the chain rule,
+
+636
+00:47:36,630 --> 00:47:41,520
+taking a base out front, cancel out the one over
+
+637
+00:47:41,520 --> 00:47:46,090
+data that we started off with. So since you
+
+638
+00:47:46,090 --> 00:47:51,940
+because if they a and we have an expression that
+
+639
+00:47:51,940 --> 00:47:58,810
+has the. Order parameter the. Expectation, value
+
+640
+00:47:58,810 --> 00:48:00,790
+of the organization on both the left and right
+
+641
+00:48:00,790 --> 00:48:05,690
+hand sides. We found that that magnetization is
+
+642
+00:48:05,690 --> 00:48:10,130
+equal to the township itself with some dependence
+
+643
+00:48:10,130 --> 00:48:12,920
+on the increased temperature they're going to feel
+
+644
+00:48:13,250 --> 00:48:19,250
+and dimensionality of the system. So. The
+
+645
+00:48:19,430 --> 00:48:22,430
+Minnifield approximation is only self-consistent
+
+646
+00:48:22,760 --> 00:48:27,120
+when this equation 117 is satisfied, look,
+
+647
+00:48:27,500 --> 00:48:30,170
+considering that order parameter as the.
+
+648
+00:48:32,890 --> 00:48:36,610
+The variable, the degree of freedom to to analyze,
+
+649
+00:48:37,270 --> 00:48:40,240
+so that is where we will pick up next Tuesday,
+
+650
+00:48:40,810 --> 00:48:43,210
+university will be closed on Monday for the bank
+
+651
+00:48:43,210 --> 00:48:47,140
+holiday. We will look at the solutions of the
+
+652
+00:48:47,140 --> 00:48:50,290
+self-consistent supervision equivalent to finding
+
+653
+00:48:50,290 --> 00:48:56,710
+the roots of the hyperbolic geometric equation,
+
+654
+00:48:57,290 --> 00:49:02,230
+leading the charge of X to X itself. And we will
+
+655
+00:49:02,230 --> 00:49:07,930
+see what those self-consistent solutions have to
+
+656
+00:49:07,930 --> 00:49:12,220
+say about the phases of the mutual approximation,
+
+657
+00:49:12,760 --> 00:49:17,860
+depending on the temperature dimensionality. So
+
+658
+00:49:18,250 --> 00:49:20,410
+are there any questions before we break for the
+
+659
+00:49:20,410 --> 00:49:24,660
+morning? So we'll pick up with that on Tuesday,
+
+660
+00:49:24,690 --> 00:49:29,040
+this afternoon with that, some of homework
+
+661
+00:49:29,130 --> 00:49:30,300
+solutions and
+
+662
+00:49:32,910 --> 00:49:34,860
+some the things that we can do with. Let us know
+
+663
+00:49:35,070 --> 00:49:35,880
+what, General.
