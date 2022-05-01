@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 9}
-\renewcommand{\moddate}{Last modified 28 Apr.~2022}
+\renewcommand{\moddate}{Last modified 2 May 2022}
 \setcounter{section}{9}
 \setcounter{subsection}{0}
 \phantomsection
@@ -418,4 +418,60 @@ Numerical computations find $T_c \approx 6.7$, $8.8$, $10.8$ and $12.9$ for $d =
 Formally, the mean-field approximation exactly reproduces the Ising model in the abstract limit of infinite dimensions, $d \to \infty$.
 Roughly speaking, the greater reliability of the mean-field approach in higher dimensions is due to the larger number of nearest neighbours for each site, $2d$.
 The larger number of nearest-neighbour spins produces a more reliable approximation of the mean spin in the effective field seen by each site in the mean-field approach.
+% ------------------------------------------------------------------
+
+
+
+% ------------------------------------------------------------------
+\subsection{Supplement: Ising model exact results}
+If time permits, it is not too hard to prove some of the exact results mentioned above, for Ising models in one and two dimensions where the mean-field approximation is least reliable.
+
+\subsubsection{One-dimensional partition function and magnetization}
+The special property of the one-dimensional Ising model that helps us derive a closed-form expression for its partition function is the fact that it has exactly as many links as it has sites.
+Looking back to the illustration on page~134, we can rewrite the nearest-neighbour interaction term as
+\begin{equation*}
+  \sum_{(jk)} s_j s_k = \sum_{n = 1}^N s_n s_{n + 1},
+\end{equation*}
+where the periodic boundary conditions identify $s_{N + 1} = s_1$.
+If we also rewrite $H \sum_{n = 1}^N s_n = \frac{H}{2} \sum_{n = 1}^N \left(s_n + s_{n + 1}\right)$, then the full internal energy is
+\begin{equation*}
+  E_i = -\sum_{n = 1}^N \left[s_n s_{n + 1} + \frac{H}{2}\left(s_n + s_{n + 1}\right)\right].
+\end{equation*}
+Inserting this into the partition function $Z(\be, N, H) = \sum_{\left\{s_n\right\}} \exp\left[-\be E(s_n)\right]$, we can convert the exponential of the sum into a product of exponentials,
+\begin{equation*}
+  Z = \sum_{s_1 = \pm 1} \cdots \sum_{s_N = \pm 1} \prod_{n = 1}^N \exp\left[\be s_n s_{n + 1} + \frac{\be H}{2}\left(s_n + s_{n + 1}\right)\right].
+\end{equation*}
+
+Similarly to \eq{eq:spin_part_func} for the non-interacting case, we are going to distribute the summations.
+Now, however, we have to keep track of the fact that a given spin $s_j$ will appear both when $n = j$ and when $n + 1 = j$, and for each spin configuration it must have the same value both times it appears.
+An elegant way to account for all allowed possibilities is through matrix multiplication.
+Use the $2\times 2$ matrix
+\begin{equation}
+  T_n = \begin{pmatrix} e^{\be + \be H} & e^{-\be} \\ e^{-\be} & e^{\be - \be H} \end{pmatrix}
+\end{equation}
+to collect the exponential factors for the four possibilities
+\begin{equation*}
+  \left\{s_n, s_{n + 1}\right\} = \begin{pmatrix} \left\{1, 1\right\} & \left\{1, -1\right\} \\ \left\{-1, 1\right\} & \left\{-1, -1\right\} \end{pmatrix}.
+\end{equation*}
+The matrix product $T_n \cdot T_{n + 1}$ then provides the sum over all contributions with consistent values for $s_{n + 1}$.
+Repeating this for all terms in the product $\prod_{n = 1}^N$, the periodic boundary conditions introduce a (cyclic) trace, making the exact partition function simply
+\begin{equation*}
+  Z = \mbox{Tr}\left[\prod_{n = 1}^N T_n \right].
+\end{equation*}
+What's more, since $T_n \equiv T$ is actually independent of $n$, this simplifies further to
+\begin{equation}
+  Z = \mbox{Tr}\left[T^N \right].
+\end{equation}
+
+$T$ is known as the \textbf{transfer matrix}, because it `transfers' information about the value of the spins from one link to the next.
+We can see that rewriting the magnetic-field term in the energy just helped to make $T$ more symmetric.
+If we are able to diagonalize
+\begin{equation*}
+  T = \begin{pmatrix} \la_+ & 0 \\ 0 & \la_- \end{pmatrix},
+\end{equation*}
+then will obtain the partition function $Z = \mbox{Tr}\left[T^N \right] = \la_+^N + \la_-^N$.
+\TODO{...}
+
+\subsubsection{Two-dimensional critical temperature}
+\TODO{...}
 % ------------------------------------------------------------------
