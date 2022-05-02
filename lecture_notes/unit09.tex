@@ -177,7 +177,7 @@ What is the ground-state energy of the $N$-site Ising model in $d$ dimensions?
 
 As mentioned above, both of these degenerate ground states have the maximal magnetization $|m| = 1$.
 Let's check what effect the first excited state would have on the overall magnetization of the system.
-The first excited energy level is obtained by flipping a single spin --- negating its value.
+The first excited energy level is obtained by flipping a single spin --- negating its value. % TODO: Caveat for 1d in Section 9.4 below...
 Starting from the two degenerate ground states, this produces all possible micro-states with $(n_+, n_-) = (N - 1, 1)$ and $(1, N - 1)$.
 Because any one of the $N$ spins in the lattice could be flipped, the degeneracy of this first excited energy level grows with $N$:
 \begin{equation*}
@@ -454,7 +454,7 @@ to collect the exponential factors for the four possibilities
   \left\{s_n, s_{n + 1}\right\} = \begin{pmatrix} \left\{1, 1\right\} & \left\{1, -1\right\} \\ \left\{-1, 1\right\} & \left\{-1, -1\right\} \end{pmatrix}.
 \end{equation*}
 The matrix product $T_n \cdot T_{n + 1}$ then provides the sum over all contributions with consistent values for $s_{n + 1}$.
-Repeating this for all terms in the product $\prod_{n = 1}^N$, the periodic boundary conditions introduce a (cyclic) trace, making the exact partition function simply
+Repeating this for all terms in $\prod_{n = 1}^N$, the periodic boundary conditions produce the (cyclic) trace, making the exact partition function simply
 \begin{equation*}
   Z = \mbox{Tr}\left[\prod_{n = 1}^N T_n \right].
 \end{equation*}
@@ -463,15 +463,77 @@ What's more, since $T_n \equiv T$ is actually independent of $n$, this simplifie
   Z = \mbox{Tr}\left[T^N \right].
 \end{equation}
 
-$T$ is known as the \textbf{transfer matrix}, because it `transfers' information about the value of the spins from one link to the next.
-We can see that rewriting the magnetic-field term in the energy just helped to make $T$ more symmetric.
-If we are able to diagonalize
+$T$ is known as the \textbf{transfer matrix} --- roughly speaking, it `transfers' information about the values of the spins from one link to the next.
+At this point we can appreciate that our earlier rewriting of the magnetic-field term in the energy just helped to make $T$ more symmetric.
+If we now diagonalize
 \begin{equation*}
-  T = \begin{pmatrix} \la_+ & 0 \\ 0 & \la_- \end{pmatrix},
+  T = \begin{pmatrix} e^{\be} e^{\be H} & e^{-\be} \\ e^{-\be} & e^{\be} e^{-\be H} \end{pmatrix} \quad \lra \quad \begin{pmatrix} \la_+ & 0 \\ 0 & \la_- \end{pmatrix},
 \end{equation*}
-then will obtain the partition function $Z = \mbox{Tr}\left[T^N \right] = \la_+^N + \la_-^N$.
-\TODO{...}
+the partition function will become simply
+\begin{equation*}
+  Z = \mbox{Tr}\left[\begin{pmatrix} \la_+ & 0 \\ 0 & \la_- \end{pmatrix}^N\right] = \mbox{Tr}\begin{pmatrix} \la_+^N & 0 \\ 0 & \la_-^N \end{pmatrix} = \la_+^N + \la_-^N.
+\end{equation*}
+\newpage % WARNING: FORMATTING BY HAND
+\noindent What are the two eigenvalues $\la_{\pm}$ of $T$?
+\begin{mdframed}
+  \ \\[100 pt]
+\end{mdframed}
+
+With $\be \geq 0$ and $H \geq 0$, we can check that both eigenvalues are real and $\la_+ > \la_-$.
+For asymptotically high temperatures, $\be \to 0$, the eigenvalues reduce to $\la_+ = 2$ and $\la_- = 0$ independent of $H$.
+In the special case $H = 0$, the eigenvalues are $\la_+ = 2\cosh\be$ and $\la_- = 2\sinh\be$, while $H > 0$ typically produces $\la_+ \gg \la_-$.
+Because $\la_- / \la_+ < 1$, for sufficiently large $N \gg 1$ we can further simplify
+\begin{equation*}
+  Z = \la_+^N\left[1 + \left(\frac{\la_-}{\la_+}\right)^N \right] \approx \la_+^N = e^{N\be} \cosh^N(\be H)\left[1 + \sqrt{1 - \frac{2\sinh(2\be)}{e^{2\be}\cosh^2(\be H)}}\right]^N.
+\end{equation*}
+
+So there we have it --- the solution of the Ising model in one dimension.
+As usual, the partition function $Z$ is not so revelatory in and of itself.
+Its principal value lies in enabling us to predict observables like the magnetization --- so let's do that, returning to the zero-field case for which we computed the mean-field critical temperature and critical exponent in the previous section:
+\begin{mdframed}
+  $\displaystyle \vev{m} = \left. \frac{1}{N\be} \pderiv{}{H}\log Z \right|_{H = 0} = $ \\[80 pt]
+\end{mdframed}
+Note that we set $H = 0$ only \textit{after} computing the derivative of the free energy, which avoids the need to consider the absolute value.
+Upon setting $H = 0$, something remarkable happens: $\vev{m} = 0$ for all temperatures!
+
+As claimed at the end of the previous section, the one-dimensional Ising model has no phase transition at all.
+It is always in the disordered phase, even in the limit of absolute zero $T \to 0$.
+In addition to revealing that the mean-field approximation fails in one dimension, this result also contradicts our general consideration of the phases of the $d$-dimensional Ising model in \secref{sec:Ising_phases}.
+What went wrong there?
+
+The problematic argument in \secref{sec:Ising_phases} was our claim that \textit{all} the degenerate micro-states of the first excited energy level correspond to flipping a single spin to oppose the full alignment of the ground state.
+This is true for any $d > 1$ simple cubic lattice, and even in one dimension this does account for $2N$ of the micro-states with next-to-minimal energy $E_1$.
+However, uniquely in one dimension there are additional micro-states with $E_1$.
+
+Fixing $d = 1$, suppose we start from the ground state and flip spin $s_j$ to reach the first excited energy level.
+Relative to the ground-state energy $E_0 = -N$, the energy of this micro-state is increased to $E_1 = -N + 4$ due to the positive contributions from the $s_{j - 1} s_j$ and $s_j s_{j + 1}$ links.
+But if we now consider \textit{also} flipping spin $s_{j + 1}$, the $s_j s_{j + 1}$ link goes back to providing a negative contribution while the positive contribution shifts to the $s_{j + 1} s_{j + 2}$ link.
+This gives us an additional $2N$ micro-states featuring a flipped nearest-neighbour \textit{pair} of spins, with the same energy $E_1$ but a smaller magnetization $|m| = 1 - \frac{4}{N}$.
+And we can continue this process, finding more degenerate micro-states with a flipped block of \textit{any} number of neighbouring spins up to $N - 1$, and hence any magnetization, including $m = 0$.
+
+Therefore, for $d = 1$ only, our argument that the first excited energy level of the Ising model corresponds to the unique magnetization $|m| = 1 - \frac{2}{N} \to 1$ was incorrect.
+As we have now seen from our exact solution, there is actually no ordered phase in one dimension. % TODO: More generic result beyond just Ising model...
+A useful way to visualize this sort of behaviour is to think of all these micro-states in the first excited energy level as consisting of two \textit{domains} --- one in which the spins point up and the other in which they point down.
+The two \textbf{domain walls} separating these domains are able to move freely through the lattice without changing the energy, but as the domain walls move the magnetization samples the full range of values $-\left(1 - \frac{2}{N}\right) \leq m \leq 1 - \frac{2}{N}$.
 
 \subsubsection{Two-dimensional critical temperature}
+While the zero-field Ising model on the $d = 2$ square lattice has also been exactly solved, both Onsager's original calculation and subsequent re-derivations using simpler techniques go substantially beyond this module.
+However, a few years before Onsager published his famous result, \href{https://en.wikipedia.org/wiki/Hans_Kramers}{Hans Kramers} and \href{https://en.wikipedia.org/wiki/Gregory_Wannier}{G.~H.~Wannier} were able to determine the exact $d = 2$ critical temperature \href{https://doi.org/10.1103/PhysRev.60.252}{in 1941}.
+They did this by identifying a relation between two Ising model partition functions, without actually evaluating either sum over micro-states:
+\begin{equation*}
+  \frac{Z(\be)}{2^N \cosh^{2N} \be} = \frac{Z(\betw)}{2e^{2N\betw}},
+\end{equation*}
+where the two inverse temperatures \be and \betw are related by
+\begin{equation*}
+  \sinh(2\be) = \frac{1}{\sinh(2\betw)}.
+\end{equation*}
+This relation is now known as \href{https://en.wikipedia.org/wiki/Kramers-Wannier_duality}{Kramers--Wannier duality}, and the general concept of duality has become a powerful tool in modern theoretical physics.
+Note that small \be implies large \betw and vice versa --- the duality relates one $d = 2$ Ising model at a high temperature to another one at a low temperature.
+
+Although it can be instructive to explicitly compare such high- and low-temperature partition functions, by computing series expansions as we did for the non-interacting spin system in \secref{sec:spin_info} and for the Einstein solid in a tutorial, to keep this section under control I'll skip that exercise.
+Those who are interested can find it in Sections~5.3.2 and 5.3.3 of David Tong's \href{https://www.damtp.cam.ac.uk/user/tong/statphys.html}{\textit{Lectures on Statistical Physics}} (the first item in the list of further reading on page~5).
+Some of the manipulations below, which may seem to come out of thin air, can be motivated by considering these expansions.
+
+To start with, we 
 \TODO{...}
 % ------------------------------------------------------------------
