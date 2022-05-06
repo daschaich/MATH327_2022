@@ -1,0 +1,2155 @@
+1
+00:00:02,080 --> 00:00:08,840
+Okay, sorry for delay getting underway. In addition
+
+2
+00:00:08,840 --> 00:00:09,320
+to Zoom
+
+3
+00:00:15,220 --> 00:00:19,780
+not behaving itself on here, there were also issues with the
+
+4
+00:00:19,780 --> 00:00:25,960
+printer again, which means that we don't have things printed out to go through
+
+5
+00:00:26,080 --> 00:00:31,220
+some of the derivations we'll be talking
+
+6
+00:00:31,220 --> 00:00:37,430
+about today.  Though I did manage to make a note of the code
+
+7
+00:00:37,430 --> 00:00:41,050
+for this afternoon's class,
+
+8
+00:00:43,480 --> 00:00:43,750
+which if I copied it down correctly should be
+
+9
+00:00:46,130 --> 00:00:52,370
+five eight, two seven, six eight.
+
+10
+00:00:56,010 --> 00:00:56,240
+And, let's get
+
+11
+00:01:00,240 --> 00:01:04,990
+started, as usual, by checking in to see if you have any
+
+12
+00:01:04,990 --> 00:01:08,190
+questions about what we've gone through in the module
+
+13
+00:01:08,200 --> 00:01:10,970
+so far, what remains or
+
+14
+00:01:13,840 --> 00:01:15,220
+to that?
+
+15
+00:01:21,950 --> 00:01:29,090
+And if not, then we ran out of time last week,
+
+16
+00:01:29,420 --> 00:01:36,210
+going through the third. How they plan for for the
+
+17
+00:01:36,210 --> 00:01:40,290
+tutorial, which was just to give a little
+
+18
+00:01:40,470 --> 00:01:44,670
+reorientation on the security problem, looking at
+
+19
+00:01:44,670 --> 00:01:47,340
+different structures versus thinking more
+
+20
+00:01:47,340 --> 00:01:51,630
+qualitatively about the possible grievances,
+
+21
+00:01:51,720 --> 00:01:55,710
+responding to order to disorder two phases
+
+22
+00:01:55,710 --> 00:01:58,700
+depending on the level of structure. And
+
+23
+00:01:58,810 --> 00:02:02,490
+countering the concept of frustrated anti-terror
+
+24
+00:02:02,500 --> 00:02:08,440
+magnetism where. There are trying to the Latisse
+
+25
+00:02:08,740 --> 00:02:11,830
+that is not bipartite, so I'm trying to remember
+
+26
+00:02:11,830 --> 00:02:15,790
+now how much of this we actually discussed last
+
+27
+00:02:15,790 --> 00:02:18,270
+week and how much was just in the pit of the
+
+28
+00:02:18,280 --> 00:02:25,150
+solutions that went online a few days ago. But
+
+29
+00:02:26,020 --> 00:02:28,390
+bipartite Gladys's like those.
+
+30
+00:02:30,390 --> 00:02:33,050
+Which include those like the square and Honeycomb
+
+31
+00:02:33,060 --> 00:02:36,990
+badasses, allowed all of the latest sites to be
+
+32
+00:02:36,990 --> 00:02:42,060
+broken up into two distinct sets its theby and the
+
+33
+00:02:42,060 --> 00:02:44,580
+parts dividing all the sites into two different
+
+34
+00:02:44,580 --> 00:02:49,980
+parts, like square minus the serial, red, black,
+
+35
+00:02:49,980 --> 00:02:54,320
+checkerboard and. Which also holds the shifted way
+
+36
+00:02:54,620 --> 00:02:56,870
+for the.
+
+37
+00:03:00,940 --> 00:03:07,310
+Lettuce. But not for the utilities, so that if we
+
+38
+00:03:07,310 --> 00:03:16,220
+have to sell one bit of spin there, one down there,
+
+39
+00:03:16,670 --> 00:03:19,970
+if an entity, a couple that prefers this
+
+40
+00:03:19,970 --> 00:03:25,190
+orientation to reduce the energy, then there is no
+
+41
+00:03:25,190 --> 00:03:29,780
+way of making all three interactions between these
+
+42
+00:03:29,780 --> 00:03:30,050
+three.
+
+43
+00:03:32,360 --> 00:03:36,920
+Also, the order one or the other of them has to be
+
+44
+00:03:37,250 --> 00:03:39,560
+giving a positive contribution to the energy or
+
+45
+00:03:39,560 --> 00:03:47,600
+frustrated one that is expanded to the full set of
+
+46
+00:03:47,980 --> 00:03:51,230
+lattice with many sites. Then there are many
+
+47
+00:03:51,230 --> 00:03:56,090
+possible ground states. Most are all degenerate
+
+48
+00:03:56,300 --> 00:04:00,410
+and trying to keep track of all of these
+
+49
+00:04:00,410 --> 00:04:04,370
+configurations with that grossetête energy is one
+
+50
+00:04:04,370 --> 00:04:10,070
+of these exponentially hard, not polynomial. Not
+
+51
+00:04:10,140 --> 00:04:14,200
+deterministic all your problems in. Some
+
+52
+00:04:14,200 --> 00:04:20,350
+situations. So. Maybe the best thing for me to do,
+
+53
+00:04:20,360 --> 00:04:23,120
+which is why I'm back on canvas.
+
+54
+00:04:25,200 --> 00:04:26,140
+Wants to.
+
+55
+00:04:28,750 --> 00:04:33,700
+Grab the file that was uploaded next, I think
+
+56
+00:04:33,720 --> 00:04:37,800
+should be in the discussion, so make sure that you
+
+57
+00:04:37,810 --> 00:04:41,800
+are able to get it even before it's uploaded to
+
+58
+00:04:43,120 --> 00:04:46,430
+that module. Paige.
+
+59
+00:04:50,840 --> 00:04:59,040
+OK, so I'll fix that this afternoon and go through
+
+60
+00:04:59,040 --> 00:05:05,190
+the back door that is available to me at.
+
+61
+00:05:09,510 --> 00:05:12,670
+And windows were just not built at the moment.
+
+62
+00:05:15,660 --> 00:05:18,840
+We'll have here once it loads a better
+
+63
+00:05:18,840 --> 00:05:24,830
+illustration of. The frustrated MP for magnetism
+
+64
+00:05:24,830 --> 00:05:28,730
+that we went through last week, should it ever
+
+65
+00:05:29,750 --> 00:05:33,140
+choose to load a small PDF?
+
+66
+00:05:35,140 --> 00:05:36,120
+What's going on?
+
+67
+00:05:41,630 --> 00:05:42,550
+Should not be.
+
+68
+00:05:44,590 --> 00:05:47,230
+Such a challenge, so here it is, finally,
+
+69
+00:05:49,600 --> 00:05:54,000
+technology going slow, but it gets there and so
+
+70
+00:05:54,040 --> 00:05:56,980
+this little drawing here on the on the right
+
+71
+00:05:56,990 --> 00:05:59,620
+actually took from a paper all the way back in
+
+72
+00:05:59,620 --> 00:06:05,470
+nineteen fifty showing a one of the many. States
+
+73
+00:06:05,470 --> 00:06:09,760
+of this A.M. is a model of the triangle, the
+
+74
+00:06:09,760 --> 00:06:14,470
+latest that has the minimum ground energy, there
+
+75
+00:06:14,500 --> 00:06:20,100
+are all sorts of ways that the. Upward pointing at
+
+76
+00:06:20,130 --> 00:06:22,700
+the point expense, the pluses and minuses in the
+
+77
+00:06:22,700 --> 00:06:26,060
+system can be shifted in order to keep that same
+
+78
+00:06:26,060 --> 00:06:28,940
+energy. So even in the limit of absolute zero
+
+79
+00:06:28,940 --> 00:06:32,330
+temperature, all of those battleground states
+
+80
+00:06:32,660 --> 00:06:37,760
+produce a non-zero entropy for the system. And
+
+81
+00:06:38,240 --> 00:06:42,400
+trying to you can prove that in the latest system.
+
+82
+00:06:42,410 --> 00:06:45,830
+So not just the simple Tudeh frustrated energy for
+
+83
+00:06:45,860 --> 00:06:48,710
+a but going into three dimensions or looking at
+
+84
+00:06:49,460 --> 00:06:51,170
+the random spin class couplings.
+
+85
+00:06:53,560 --> 00:06:57,500
+It's possible to prove that. Solving those systems
+
+86
+00:06:57,500 --> 00:07:01,910
+is ENPI complete problem in the language of
+
+87
+00:07:01,910 --> 00:07:04,520
+theoretical computer science, that any
+
+88
+00:07:05,210 --> 00:07:10,250
+non-deterministic polynomial task can be mapped to
+
+89
+00:07:10,700 --> 00:07:15,440
+solving such a system where this non-deterministic
+
+90
+00:07:15,440 --> 00:07:19,070
+polynomial means that if you have an answer given
+
+91
+00:07:19,070 --> 00:07:22,370
+to you, it's quick and easy to check. But actually
+
+92
+00:07:22,370 --> 00:07:26,720
+finding that answer in a systematic way is hard
+
+93
+00:07:26,720 --> 00:07:29,840
+for Sheck. Part of the sense that the amount of
+
+94
+00:07:29,840 --> 00:07:33,110
+work required for any algorithm increases
+
+95
+00:07:33,110 --> 00:07:35,780
+exponentially with, in this case, the number of
+
+96
+00:07:35,960 --> 00:07:39,390
+lattice sites. So
+
+97
+00:07:41,820 --> 00:07:42,480
+that was.
+
+98
+00:07:45,150 --> 00:07:47,450
+Stuff that we discussed, if not in so much detail
+
+99
+00:07:47,580 --> 00:07:51,240
+last week, went through the bare bones of it and.
+
+100
+00:07:52,420 --> 00:07:55,760
+Focus on. So.
+
+101
+00:07:59,880 --> 00:08:06,780
+Using model with. A couple in jail could be thrown
+
+102
+00:08:06,780 --> 00:08:09,690
+into granted for a positive or negative, but the.
+
+103
+00:08:10,850 --> 00:08:15,430
+Novel feature here that we consider. That's one of
+
+104
+00:08:15,430 --> 00:08:19,300
+the simple tilings of two dimensional space and
+
+105
+00:08:19,330 --> 00:08:21,880
+fully connected lattice, or a complete graph,
+
+106
+00:08:21,880 --> 00:08:26,480
+which is the. Diagram that I had on here, and I
+
+107
+00:08:26,480 --> 00:08:29,870
+don't think we had a chance to discuss this last
+
+108
+00:08:29,870 --> 00:08:35,320
+week, so. What the complete graph is sort of I
+
+109
+00:08:35,420 --> 00:08:37,640
+tend to call the fully connected lattice just to
+
+110
+00:08:38,120 --> 00:08:40,280
+emphasize the connection to the other lattices
+
+111
+00:08:40,280 --> 00:08:45,820
+with the. Thinking about is every single site is a
+
+112
+00:08:45,820 --> 00:08:50,650
+nearest neighbor of every other site, which we can.
+
+113
+00:08:51,700 --> 00:08:54,250
+Interpret in a couple of different ways, the more
+
+114
+00:08:54,330 --> 00:08:59,020
+physical lay and the more mathematical. The more
+
+115
+00:08:59,020 --> 00:09:02,350
+abstract mathematical way we have, the idea that
+
+116
+00:09:02,350 --> 00:09:05,080
+all of the sites in the system are equally far
+
+117
+00:09:05,080 --> 00:09:10,430
+away from each other, which is not possible to bad
+
+118
+00:09:10,470 --> 00:09:12,580
+ratio in a two dimensional surface.
+
+119
+00:09:14,790 --> 00:09:17,670
+Essentially, we are treating these mathematically
+
+120
+00:09:17,670 --> 00:09:20,640
+as of all of the lines in each of these, lattices
+
+121
+00:09:21,030 --> 00:09:24,300
+is the same length. Whether they're connecting
+
+122
+00:09:25,230 --> 00:09:30,020
+those two points, they're those two points or
+
+123
+00:09:30,270 --> 00:09:33,270
+they're just the same distance in some abstract
+
+124
+00:09:33,270 --> 00:09:37,620
+space, in a more physical approach. You can say
+
+125
+00:09:37,620 --> 00:09:40,260
+that maybe the distance doesn't matter as a
+
+126
+00:09:40,650 --> 00:09:42,810
+physical length, but the strength of the
+
+127
+00:09:42,810 --> 00:09:46,320
+interaction is the same independent of that
+
+128
+00:09:46,320 --> 00:09:50,790
+distance, so that if you have arrangements of
+
+129
+00:09:50,820 --> 00:09:53,640
+particles like this in some crystal, there's a
+
+130
+00:09:53,640 --> 00:09:56,310
+long range interaction between them. They all
+
+131
+00:09:56,310 --> 00:09:58,800
+behave essentially as though they were right next
+
+132
+00:09:58,800 --> 00:09:59,400
+to each other
+
+133
+00:10:02,550 --> 00:10:05,400
+in terms of how that interaction.
+
+134
+00:10:07,510 --> 00:10:09,970
+Manifest itself, the effects of that interaction
+
+135
+00:10:09,970 --> 00:10:13,840
+on all the different particles so you can go
+
+136
+00:10:13,840 --> 00:10:16,600
+through the accounting here, but it's also an easy
+
+137
+00:10:17,680 --> 00:10:23,830
+question to see that. There are one 1/2 times
+
+138
+00:10:23,830 --> 00:10:28,960
+entertained by this one leaks in this total fully
+
+139
+00:10:28,960 --> 00:10:31,810
+connected Latisse over every one of the insights
+
+140
+00:10:32,680 --> 00:10:35,950
+there are in minus one links to the miners from
+
+141
+00:10:35,950 --> 00:10:39,490
+other sites. And then each of those links has two
+
+142
+00:10:39,490 --> 00:10:42,100
+sites out there. And so there's a double counting
+
+143
+00:10:42,100 --> 00:10:46,990
+for that argument and also recognize that.
+
+144
+00:10:49,990 --> 00:10:55,180
+Factor of in times of minus one or two as the
+
+145
+00:10:55,360 --> 00:10:59,830
+binomial coefficient of choosing two sites out of
+
+146
+00:10:59,830 --> 00:11:04,950
+the total. Fought to define each one, so the total
+
+147
+00:11:04,950 --> 00:11:08,250
+number of links is scaling like the square of the
+
+148
+00:11:08,250 --> 00:11:12,460
+number of sites in every state, hands and legs
+
+149
+00:11:12,510 --> 00:11:16,860
+connected to it, and the total number of sites.
+
+150
+00:11:17,640 --> 00:11:24,720
+And the task was to consider using model on this
+
+151
+00:11:25,200 --> 00:11:28,320
+fully connected lattice. And.
+
+152
+00:11:30,530 --> 00:11:35,300
+Try to see if we can solve it, similar to the way
+
+153
+00:11:35,300 --> 00:11:39,020
+we solved the using model on the one dimensional
+
+154
+00:11:39,470 --> 00:11:45,200
+chain of spins this morning. This is one of the
+
+155
+00:11:45,200 --> 00:11:48,410
+situations where an interacting system of this
+
+156
+00:11:48,410 --> 00:11:53,120
+sort has an exact analytic solution. The partition
+
+157
+00:11:53,120 --> 00:11:59,300
+function can be expressed. As a closed formality
+
+158
+00:11:59,310 --> 00:12:01,830
+expression rather than a sum over all
+
+159
+00:12:01,830 --> 00:12:09,000
+configurations and fight back to these comments
+
+160
+00:12:09,000 --> 00:12:13,140
+that the printer refused to give me a few minutes
+
+161
+00:12:13,140 --> 00:12:15,270
+ago, the.
+
+162
+00:12:18,060 --> 00:12:22,470
+Starting point for this was the hit we lost over
+
+163
+00:12:22,470 --> 00:12:26,220
+last week and something that. I showed off earlier
+
+164
+00:12:26,220 --> 00:12:26,950
+in the week as.
+
+165
+00:12:29,660 --> 00:12:33,630
+With a bit of a connection to going from. The
+
+166
+00:12:33,670 --> 00:12:38,140
+sweet songs to continuous intervals in this case.
+
+167
+00:12:39,670 --> 00:12:43,660
+The answers to rather than trying to sum over each
+
+168
+00:12:43,660 --> 00:12:47,830
+individual, link some over the different possible
+
+169
+00:12:47,830 --> 00:12:51,340
+values of the magnetization when each of these
+
+170
+00:12:51,340 --> 00:12:55,840
+sites can be pointing upward. So.
+
+171
+00:12:57,840 --> 00:12:58,650
+We know that.
+
+172
+00:13:01,960 --> 00:13:06,670
+For insights, there are countless one possible
+
+173
+00:13:06,670 --> 00:13:13,250
+values of discussion and all the of I not one, so
+
+174
+00:13:13,330 --> 00:13:15,500
+that half of them get zero or give them all the
+
+175
+00:13:15,500 --> 00:13:22,670
+lie down. There is an plus one. Going from the
+
+176
+00:13:22,680 --> 00:13:26,370
+overall accusation of negative one plus one, those
+
+177
+00:13:26,370 --> 00:13:30,270
+limits. And then for a large enough and
+
+178
+00:13:31,290 --> 00:13:34,230
+enforcement values, all evenly spaced in that
+
+179
+00:13:34,230 --> 00:13:39,480
+interval plus minus one, we can replace that sum
+
+180
+00:13:39,480 --> 00:13:42,330
+over the discrete values with the integral over
+
+181
+00:13:42,330 --> 00:13:46,020
+the continuous value similar to what we did before
+
+182
+00:13:46,020 --> 00:13:50,790
+with ideal gases and what showed up and generated
+
+183
+00:13:50,790 --> 00:13:53,310
+some questions about the homework that was due
+
+184
+00:13:53,490 --> 00:13:57,480
+yesterday. So that's why I didn't save this
+
+185
+00:13:57,480 --> 00:14:01,050
+discussion to have right now, but at least the
+
+186
+00:14:01,050 --> 00:14:05,740
+first little bit of the solution. On the Qantas
+
+187
+00:14:05,740 --> 00:14:10,270
+side earlier in the week, where the key what
+
+188
+00:14:10,270 --> 00:14:12,670
+distinguishes this fully connected Latisse from
+
+189
+00:14:13,240 --> 00:14:16,430
+the easy model we've been considering all square
+
+190
+00:14:16,430 --> 00:14:20,270
+and trying to lattices and so on, is that. Now,
+
+191
+00:14:20,510 --> 00:14:23,060
+with all of the sites connected to all of the
+
+192
+00:14:23,060 --> 00:14:25,880
+other sites and straightforward to break up this
+
+193
+00:14:26,360 --> 00:14:33,500
+sum over all of those links into a product of some
+
+194
+00:14:33,590 --> 00:14:36,430
+over individual sites, would you give us that
+
+195
+00:14:36,440 --> 00:14:39,320
+magnetization that we're going to be integrating
+
+196
+00:14:39,320 --> 00:14:44,140
+over just the. Average value of the spin's, some
+
+197
+00:14:44,240 --> 00:14:46,380
+for all the sites. So.
+
+198
+00:14:48,520 --> 00:14:51,730
+We started off with the song over J. Less than K
+
+199
+00:14:51,730 --> 00:14:54,190
+to avoid double counting, but we can't just as
+
+200
+00:14:54,190 --> 00:14:58,180
+well double counted, added a factor of two. So
+
+201
+00:14:58,180 --> 00:15:01,540
+that's a fairly trivial identity, getting all the
+
+202
+00:15:02,050 --> 00:15:03,910
+changes that are not equal to KS. And if we
+
+203
+00:15:03,910 --> 00:15:08,680
+replace the sum over S.J time, this came with a
+
+204
+00:15:08,800 --> 00:15:13,470
+product of the two songs. One over S.J. and S.K.,
+
+205
+00:15:14,520 --> 00:15:18,480
+this product will have all of the terms we want
+
+206
+00:15:18,900 --> 00:15:22,620
+and also all of those we don't want J equals K, so
+
+207
+00:15:22,620 --> 00:15:26,010
+there are any of those for each value of J equals
+
+208
+00:15:26,010 --> 00:15:30,090
+K, they give a factor of S squared, which is
+
+209
+00:15:30,090 --> 00:15:33,540
+always one for E in the plus minus one, and we
+
+210
+00:15:33,540 --> 00:15:38,220
+subtract that off and have everything in terms of
+
+211
+00:15:38,220 --> 00:15:41,760
+the magnetization. So sum over and values of one
+
+212
+00:15:42,720 --> 00:15:48,000
+and. And there are the two factors of in times
+
+213
+00:15:48,000 --> 00:15:55,590
+stabilization there, so the energy then as the
+
+214
+00:15:55,600 --> 00:15:57,480
+simple form of writing everything in terms of
+
+215
+00:15:57,510 --> 00:16:02,400
+acquisition, and then that gives us the partition
+
+216
+00:16:02,400 --> 00:16:05,940
+function as the sum of all possible values of the
+
+217
+00:16:05,950 --> 00:16:09,770
+mechanisation times, the exponential minus theta
+
+218
+00:16:10,350 --> 00:16:15,140
+times, the energy. I can't scribble over the
+
+219
+00:16:15,140 --> 00:16:19,400
+screen that's up here, but I can sort of point to
+
+220
+00:16:20,300 --> 00:16:22,850
+different features of this map. You may already
+
+221
+00:16:22,850 --> 00:16:24,740
+have looked at this and go through it fairly
+
+222
+00:16:25,160 --> 00:16:25,750
+quickly.
+
+223
+00:16:31,020 --> 00:16:33,780
+Split things up into terms one that depends on
+
+224
+00:16:33,780 --> 00:16:36,300
+that couple, on the defense, on the external field
+
+225
+00:16:36,300 --> 00:16:40,980
+age, and then each value of the magnetization is
+
+226
+00:16:41,220 --> 00:16:45,390
+defined by the number of upper expense or the
+
+227
+00:16:45,390 --> 00:16:48,480
+number of Delaporte expense with our usual
+
+228
+00:16:48,480 --> 00:16:51,780
+binomial coefficients, the total number of spins
+
+229
+00:16:52,050 --> 00:16:57,360
+choosing, that's a pretty pointed number. So
+
+230
+00:16:57,360 --> 00:16:59,400
+converting this into an integral to the
+
+231
+00:16:59,440 --> 00:17:04,470
+magnetization, the next step is to express this
+
+232
+00:17:04,470 --> 00:17:07,920
+binomial coefficient in terms of the magnetization.
+
+233
+00:17:09,020 --> 00:17:12,620
+And I may give you five minutes or so to to play
+
+234
+00:17:12,620 --> 00:17:16,790
+with that and get a expression for the partition
+
+235
+00:17:16,790 --> 00:17:20,450
+function entirely in terms of the magnetization,
+
+236
+00:17:21,350 --> 00:17:24,050
+and then you can start to think about how that
+
+237
+00:17:24,050 --> 00:17:27,500
+might be evaluated to get a closed form expression
+
+238
+00:17:28,310 --> 00:17:31,220
+or, in other words, to exactly solve this
+
+239
+00:17:31,880 --> 00:17:34,400
+particular system. So let me know if this is
+
+240
+00:17:34,400 --> 00:17:36,920
+something that you have already done during the
+
+241
+00:17:36,920 --> 00:17:39,830
+week. I suspect not given the homework to
+
+242
+00:17:39,830 --> 00:17:40,760
+yesterday, but
+
+243
+00:17:43,970 --> 00:17:47,600
+so long as you keep yourselves entertained, say,
+
+244
+00:17:47,600 --> 00:17:51,140
+for the next five minutes, pause the recording and
+
+245
+00:17:51,140 --> 00:17:54,650
+check in that door before pausing to say if there
+
+246
+00:17:54,650 --> 00:18:00,440
+are any questions about what the next step or
+
+247
+00:18:00,440 --> 00:18:04,850
+steps would be in the quest to solve this
+
+248
+00:18:04,850 --> 00:18:05,450
+expression.
+
+249
+00:18:11,660 --> 00:18:14,750
+I'll give you a chance to work on it rather than
+
+250
+00:18:15,380 --> 00:18:21,050
+just listening to me ramble on. So I've got the
+
+251
+00:18:21,290 --> 00:18:24,990
+recording back the way again and. Now that you've
+
+252
+00:18:24,990 --> 00:18:28,200
+had a little bit of time to wrestle with this and
+
+253
+00:18:28,200 --> 00:18:33,510
+see it's moving pieces, I'll reveal a nice trick
+
+254
+00:18:33,510 --> 00:18:37,440
+that can help to simplify things, though I should
+
+255
+00:18:37,440 --> 00:18:41,630
+mention that there are. Several distinct ways of
+
+256
+00:18:42,170 --> 00:18:45,980
+solving articles of this sort, so what we're doing
+
+257
+00:18:45,980 --> 00:18:50,000
+today is one focused on combinatorics and
+
+258
+00:18:50,000 --> 00:18:51,860
+approximations, and it's also possible to
+
+259
+00:18:51,860 --> 00:18:54,020
+introduce auxillary variables, what's called a
+
+260
+00:18:54,530 --> 00:18:58,220
+cover story, part of its transformation. And in
+
+261
+00:18:58,220 --> 00:19:01,560
+these comments, there's a link to a whole textbook
+
+262
+00:19:01,560 --> 00:19:07,250
+whose second chapter is solving this system, but
+
+263
+00:19:07,250 --> 00:19:09,650
+is sometimes noted security advice model rather
+
+264
+00:19:09,650 --> 00:19:13,010
+than using model on the fully connected lattice.
+
+265
+00:19:13,790 --> 00:19:20,210
+The trick that can help us simplify the approach
+
+266
+00:19:21,380 --> 00:19:26,120
+commented on in these comments is to take this
+
+267
+00:19:26,120 --> 00:19:26,970
+fundamental fact
+
+268
+00:19:30,870 --> 00:19:33,260
+and this fact factorial.
+
+269
+00:19:35,260 --> 00:19:39,600
+Only I left enough space in front of that to cast
+
+270
+00:19:39,890 --> 00:19:47,150
+an exponential. Will, this new law helps in a few
+
+271
+00:19:47,150 --> 00:19:51,410
+ways. First of all, that exponential factor added
+
+272
+00:19:52,040 --> 00:19:55,880
+to the exponential speed multiplier against the
+
+273
+00:19:55,880 --> 00:19:58,400
+overall degree and just becomes the single
+
+274
+00:19:58,400 --> 00:20:02,900
+exponential of this logarithm, plus that being
+
+275
+00:20:03,050 --> 00:20:07,880
+able to anticipate a this one possibly better H
+
+276
+00:20:07,880 --> 00:20:10,100
+and M, and you can also.
+
+277
+00:20:12,320 --> 00:20:17,500
+Expand the logarithm of this ratio of factories in
+
+278
+00:20:18,110 --> 00:20:22,310
+the usual way, so the living couple of terms and
+
+279
+00:20:22,320 --> 00:20:26,810
+service expansion of that toilet is more and more
+
+280
+00:20:26,810 --> 00:20:31,650
+in line, minus an. We'll have the minus and plus,
+
+281
+00:20:31,750 --> 00:20:34,110
+plus, plus, minus the kids that only your
+
+282
+00:20:34,130 --> 00:20:37,160
+children's names and.
+
+283
+00:20:47,820 --> 00:20:53,370
+And subscripts, and then it's being in the
+
+284
+00:20:53,580 --> 00:20:58,890
+relation between him and mechanisation. We get the
+
+285
+00:20:58,890 --> 00:21:01,110
+first step, complete the partition function
+
+286
+00:21:01,800 --> 00:21:02,700
+expressed.
+
+287
+00:21:06,050 --> 00:21:10,520
+So I mentioned that in the course of plugging in
+
+288
+00:21:11,270 --> 00:21:14,600
+this expression, there are some nice cancellations
+
+289
+00:21:14,690 --> 00:21:17,660
+and simplifications. So.
+
+290
+00:21:20,690 --> 00:21:26,360
+What we can see is that. There are anywhere to
+
+291
+00:21:26,480 --> 00:21:30,390
+look in terms two of those that cancel off the
+
+292
+00:21:30,410 --> 00:21:35,010
+meeting, then log in. And then there are two
+
+293
+00:21:35,010 --> 00:21:39,630
+factors of an over to a half with the negative
+
+294
+00:21:39,630 --> 00:21:43,860
+sign, which is plus over to the law, to this two
+
+295
+00:21:43,860 --> 00:21:47,790
+factors that give an analog to an area to look for
+
+296
+00:21:48,660 --> 00:21:52,380
+properties that the logarithm and then for the
+
+297
+00:21:53,040 --> 00:21:57,990
+arguments of the log would be minus and over two
+
+298
+00:21:57,990 --> 00:22:01,680
+times log one plus one minus seven. We have a
+
+299
+00:22:01,680 --> 00:22:05,450
+minus or two types of log of quantity. One minus
+
+300
+00:22:05,460 --> 00:22:08,190
+ten squared can absorb that negative side to put
+
+301
+00:22:08,190 --> 00:22:12,960
+it into the. And finally, the midterms come in
+
+302
+00:22:12,960 --> 00:22:15,540
+with opposite sides, minus in the first term and
+
+303
+00:22:15,540 --> 00:22:20,190
+plus in the second. So we have over two times the
+
+304
+00:22:20,190 --> 00:22:25,170
+log of that second argument, one minus M over that
+
+305
+00:22:25,170 --> 00:22:30,510
+log of one plus N. And then we insert that back
+
+306
+00:22:30,510 --> 00:22:35,220
+into the partition function we had about to pull
+
+307
+00:22:35,220 --> 00:22:39,620
+out the Halstead's magnetization and the piece
+
+308
+00:22:39,780 --> 00:22:46,380
+there is missing DNA there where, as advertised,
+
+309
+00:22:46,380 --> 00:22:51,630
+we have just the overall exponential of some
+
+310
+00:22:51,630 --> 00:22:55,980
+series of terms that we get out of the vaccination
+
+311
+00:22:55,980 --> 00:23:04,410
+for the final factor. And then on. And then Jagan
+
+312
+00:23:04,410 --> 00:23:10,200
+Square an inch that we had before, is it possible
+
+313
+00:23:10,200 --> 00:23:13,860
+to get both of these on the same screen? Not so
+
+314
+00:23:13,860 --> 00:23:19,020
+easily you can recognize. That after pulling out
+
+315
+00:23:19,020 --> 00:23:21,810
+that overall factor of nd you're left with those
+
+316
+00:23:22,410 --> 00:23:25,290
+final two terms that appear here and what I've
+
+317
+00:23:25,290 --> 00:23:29,490
+done at the end of this first line is pull out the
+
+318
+00:23:29,490 --> 00:23:32,910
+overall factor and and represent that as the
+
+319
+00:23:32,910 --> 00:23:36,640
+exponential of this function of the position, race
+
+320
+00:23:36,870 --> 00:23:37,530
+and power.
+
+321
+00:23:39,580 --> 00:23:40,260
+And.
+
+322
+00:23:43,030 --> 00:23:43,930
+I guess the.
+
+323
+00:23:52,000 --> 00:23:54,100
+The next step that.
+
+324
+00:23:56,860 --> 00:23:58,900
+We could go through that I may already flash on
+
+325
+00:23:58,900 --> 00:24:02,680
+the screen, is how to evaluate this integral now
+
+326
+00:24:02,680 --> 00:24:07,510
+that it is all expressed as a somewhat awkward
+
+327
+00:24:07,510 --> 00:24:09,160
+function of that magnetization.
+
+328
+00:24:11,470 --> 00:24:15,790
+And what we can do is take an approach similar to
+
+329
+00:24:16,270 --> 00:24:19,540
+what we did and looking at the Sommerfeld
+
+330
+00:24:19,540 --> 00:24:23,590
+expansion just before the spring break, we argued
+
+331
+00:24:23,590 --> 00:24:27,740
+that. These exponential functions that we're
+
+332
+00:24:27,740 --> 00:24:35,160
+integrated over have some steep peak in. So they
+
+333
+00:24:36,570 --> 00:24:36,970
+this.
+
+334
+00:24:41,760 --> 00:24:42,390
+The.
+
+335
+00:24:45,340 --> 00:24:48,070
+Peake is going to be further amplified in this
+
+336
+00:24:48,070 --> 00:24:52,540
+case by the exponential function being raised to
+
+337
+00:24:53,050 --> 00:24:57,640
+the power of a very large integer, no greater than
+
+338
+00:24:57,640 --> 00:25:04,480
+one. So a solution, a way to solve this equation,
+
+339
+00:25:04,490 --> 00:25:07,510
+sometimes called the closest method, a step is to
+
+340
+00:25:07,510 --> 00:25:15,460
+sense method is to find the maximum of this
+
+341
+00:25:15,460 --> 00:25:18,730
+function that is being exponentially added and
+
+342
+00:25:18,730 --> 00:25:22,570
+then having that exponential rate to the power and.
+
+343
+00:25:23,590 --> 00:25:32,280
+Prove. Are your to assume that? It is. Harrex to
+
+344
+00:25:32,740 --> 00:25:38,000
+approximatively function. Around that maximum,
+
+345
+00:25:38,430 --> 00:25:41,170
+this is the effect of losing the public safety
+
+346
+00:25:41,190 --> 00:25:46,350
+that we did in the context of quantum gases, and
+
+347
+00:25:46,350 --> 00:25:50,460
+then that simplifies the structure of the integral
+
+348
+00:25:50,460 --> 00:25:54,240
+enough to to solve it in a fairly straight order.
+
+349
+00:25:59,160 --> 00:25:59,730
+So.
+
+350
+00:26:03,050 --> 00:26:06,230
+I think at this point, you may as well just keep
+
+351
+00:26:06,230 --> 00:26:08,810
+talking through the solution rather than going
+
+352
+00:26:09,470 --> 00:26:11,870
+back and forth and leaving it for you to play with
+
+353
+00:26:11,870 --> 00:26:16,460
+things, the first step of following that procedure
+
+354
+00:26:16,700 --> 00:26:23,330
+is to find the maximum of this function itself.
+
+355
+00:26:24,420 --> 00:26:29,240
+Which we need to take the derivative of all of
+
+356
+00:26:29,240 --> 00:26:33,260
+this with respect to M., the final two terms are
+
+357
+00:26:34,010 --> 00:26:37,610
+easy ones that long for his independent so we can
+
+358
+00:26:37,610 --> 00:26:40,890
+get rid of that. And.
+
+359
+00:26:43,170 --> 00:26:46,920
+As we go through this review of.
+
+360
+00:26:50,880 --> 00:26:53,580
+May as well work through some aspects of it in the
+
+361
+00:26:53,580 --> 00:26:58,160
+first term, we have that one of the finest and
+
+362
+00:26:58,170 --> 00:27:01,060
+square which is moving into the denominator, the
+
+363
+00:27:01,770 --> 00:27:04,020
+beginning of two times and the numerator that
+
+364
+00:27:04,020 --> 00:27:07,140
+cancels out to be the denominator.
+
+365
+00:27:12,070 --> 00:27:15,320
+And in front of the factory of.
+
+366
+00:27:18,300 --> 00:27:23,030
+The fact the. And then when taking the derivative
+
+367
+00:27:23,030 --> 00:27:27,890
+of M times the log, we can recall ratio of two
+
+368
+00:27:27,890 --> 00:27:28,250
+separate
+
+369
+00:27:30,860 --> 00:27:37,120
+times, the derivative of. One minus one minus
+
+370
+00:27:37,120 --> 00:27:44,800
+seven is now with the Chambal. Negative sign in
+
+371
+00:27:44,800 --> 00:27:48,910
+the numerator and then the denominator will be
+
+372
+00:27:49,240 --> 00:27:54,250
+negative four plus M signs
+
+373
+00:27:56,310 --> 00:28:01,450
+for other factors of negative one coming from the
+
+374
+00:28:01,450 --> 00:28:05,670
+chain will last two terms. Just give us bitted J
+
+375
+00:28:05,710 --> 00:28:07,000
+and B, the beach.
+
+376
+00:28:15,200 --> 00:28:17,390
+The noise cancellation of the.
+
+377
+00:28:19,970 --> 00:28:20,940
+We arrange.
+
+378
+00:28:24,410 --> 00:28:28,370
+Two factors here, that factor, the denominator is
+
+379
+00:28:28,990 --> 00:28:30,440
+one more than.
+
+380
+00:28:32,970 --> 00:28:37,820
+So out about the denominator, we have one minus in
+
+381
+00:28:37,820 --> 00:28:38,120
+Times
+
+382
+00:28:40,310 --> 00:28:45,620
+Square. So their willingness to the to their end
+
+383
+00:28:45,650 --> 00:28:50,630
+of the numerator and one minus in the denominator.
+
+384
+00:28:50,750 --> 00:28:55,130
+So this term here, which is that entirely in the
+
+385
+00:28:55,130 --> 00:28:59,270
+left with just the log and the
+
+386
+00:29:01,400 --> 00:29:04,060
+two simple terms that depend on that coupling
+
+387
+00:29:04,100 --> 00:29:09,090
+electric field. And the log itself is actually a
+
+388
+00:29:09,090 --> 00:29:12,090
+bit simpler than it might seem at first glance,
+
+389
+00:29:12,240 --> 00:29:17,040
+thanks to a new identity, that once they don't
+
+390
+00:29:17,040 --> 00:29:20,700
+have to look up from hyperbolic trigonometry, that
+
+391
+00:29:21,210 --> 00:29:25,800
+the inverse hyperbolic tangent of some function is
+
+392
+00:29:26,430 --> 00:29:31,440
+one 1/2 times the log of there's a typo here. The
+
+393
+00:29:31,500 --> 00:29:35,130
+actual relation is one plus in the numerator and
+
+394
+00:29:35,130 --> 00:29:39,030
+one minus in the denominator, and we can reverse
+
+395
+00:29:39,030 --> 00:29:44,160
+with an overall negative sign on the log. So this
+
+396
+00:29:44,160 --> 00:29:44,910
+term here
+
+397
+00:29:47,130 --> 00:29:48,630
+is negative.
+
+398
+00:29:52,950 --> 00:30:00,020
+And we found this to be the times and for each
+
+399
+00:30:02,170 --> 00:30:05,790
+of the interesting sets distributed to zero to
+
+400
+00:30:05,790 --> 00:30:12,630
+identify extremely simply that the. Magnetization
+
+401
+00:30:13,230 --> 00:30:17,730
+itself at the extreme end of this argument is the
+
+402
+00:30:17,730 --> 00:30:21,780
+chance of better times JAAM plus stage, which is
+
+403
+00:30:22,380 --> 00:30:26,730
+essentially the self consistency condition that we
+
+404
+00:30:26,730 --> 00:30:27,390
+derived.
+
+405
+00:30:29,520 --> 00:30:33,060
+Through the midfield approximation earlier this
+
+406
+00:30:33,060 --> 00:30:37,470
+week. And we study the solutions in some detail.
+
+407
+00:30:37,490 --> 00:30:41,930
+The only difference here compared to the lecture
+
+408
+00:30:41,930 --> 00:30:44,670
+earlier this week is the presence of the coupling,
+
+409
+00:30:44,690 --> 00:30:50,540
+Jay, coming from the definition of the model.
+
+410
+00:30:53,770 --> 00:31:01,120
+There is better than the two times that we had in
+
+411
+00:31:01,120 --> 00:31:04,450
+the midfield approximation, counting the simple
+
+412
+00:31:04,450 --> 00:31:09,490
+Kubic nearest neighbor pairs for each spin in that
+
+413
+00:31:09,490 --> 00:31:15,160
+context, and I guess based on comments at the end
+
+414
+00:31:15,160 --> 00:31:16,840
+of our treatment of the midfield approach, it's
+
+415
+00:31:16,840 --> 00:31:24,220
+not surprising to see. A way to recover the
+
+416
+00:31:24,220 --> 00:31:26,980
+Medfield result from this fully connected lattice,
+
+417
+00:31:27,310 --> 00:31:29,940
+precisely because we saw the wheels of
+
+418
+00:31:29,950 --> 00:31:32,590
+approximation perhaps better the more neighbors
+
+419
+00:31:32,590 --> 00:31:35,250
+each side has, and it is fully connected that as
+
+420
+00:31:35,290 --> 00:31:40,130
+each side has that maximum number of neighbors. So
+
+421
+00:31:40,760 --> 00:31:44,690
+it's another derivative to distinguish Minimbah
+
+422
+00:31:44,690 --> 00:31:48,230
+from Máximo after we've set the first derivative
+
+423
+00:31:48,230 --> 00:31:52,220
+to zero. We want that second derivative to be less
+
+424
+00:31:52,220 --> 00:31:56,480
+than zero to get a maximum. And this is an even
+
+425
+00:31:56,480 --> 00:31:59,570
+simpler derivative that we can now pretty much do
+
+426
+00:32:00,050 --> 00:32:05,150
+in our heads what we did before today, one by one,
+
+427
+00:32:05,150 --> 00:32:08,060
+over one minus M squared, and that's remaining
+
+428
+00:32:08,060 --> 00:32:13,430
+factor of beta. So if we consider that this sort
+
+429
+00:32:13,430 --> 00:32:16,940
+of solution to the self-consistent condition, we
+
+430
+00:32:16,940 --> 00:32:23,240
+see that this is only a maximum of the arguments
+
+431
+00:32:23,240 --> 00:32:26,630
+appearing in the partition function when beta is
+
+432
+00:32:26,630 --> 00:32:30,110
+sufficiently small so that the second derivative
+
+433
+00:32:30,110 --> 00:32:32,540
+is less than zero. And this is an alternative way
+
+434
+00:32:32,540 --> 00:32:36,980
+of identifying that critical temperature rather
+
+435
+00:32:36,980 --> 00:32:41,480
+than looking at the what I call the flow lines of
+
+436
+00:32:41,750 --> 00:32:43,940
+trying to resolve that, self-consistent the
+
+437
+00:32:43,940 --> 00:32:46,910
+condition of the graphical method we went through
+
+438
+00:32:46,910 --> 00:32:52,200
+in the lecture. This tells us the points, the
+
+439
+00:32:52,350 --> 00:32:55,830
+what's called the curious temperature, where this
+
+440
+00:32:55,830 --> 00:32:58,200
+disorder selection becomes unstable and the
+
+441
+00:32:58,200 --> 00:33:03,000
+ordered solutions remain stable. And if we focus
+
+442
+00:33:03,000 --> 00:33:09,550
+on those. Stable ordered solutions at. Arbitrarily
+
+443
+00:33:09,550 --> 00:33:13,600
+small temperatures, they remain máxima as that.
+
+444
+00:33:15,830 --> 00:33:18,160
+Stable value, the solution of itself, and this is
+
+445
+00:33:18,170 --> 00:33:23,140
+a condition approaches one and this. Ratio
+
+446
+00:33:23,140 --> 00:33:29,290
+diverges. And we can then plug in as they all fit
+
+447
+00:33:29,290 --> 00:33:32,830
+on the same screen, not quite. Keep an eye on this
+
+448
+00:33:32,830 --> 00:33:36,520
+and plug it into the usual Taylor expansion around
+
+449
+00:33:37,150 --> 00:33:41,710
+one of those two non-zero solutions, the ordered
+
+450
+00:33:41,710 --> 00:33:45,970
+phase, knowing that in order to account for the
+
+451
+00:33:45,970 --> 00:33:49,390
+second solution, we will just have to double what
+
+452
+00:33:49,390 --> 00:33:53,050
+we get out of considering this one side of the
+
+453
+00:33:53,530 --> 00:33:56,400
+diagram of the expansion of the entire ground
+
+454
+00:33:56,410 --> 00:34:02,720
+around this maximum. But this line here is just
+
+455
+00:34:02,720 --> 00:34:06,680
+plugging in what we had earlier. In terms of the
+
+456
+00:34:06,680 --> 00:34:11,150
+full function F, it appears in the grand. Jeff
+
+457
+00:34:11,260 --> 00:34:14,260
+organized in such a way to call back to that
+
+458
+00:34:14,260 --> 00:34:17,260
+self-consistent deconditioned in terms of this
+
+459
+00:34:17,260 --> 00:34:23,240
+representation of the. Our tenge, which cancels
+
+460
+00:34:23,240 --> 00:34:26,090
+out almost everything in these brackets, except
+
+461
+00:34:26,090 --> 00:34:32,060
+for a minus MJM zero over two and in particular
+
+462
+00:34:33,170 --> 00:34:35,720
+all explicit dependence on that external magnetic
+
+463
+00:34:35,720 --> 00:34:41,570
+field drops out. At these self-consistent points,
+
+464
+00:34:41,570 --> 00:34:45,680
+though, there remains implicit dependence in
+
+465
+00:34:45,830 --> 00:34:49,670
+determining what this M0 actually is, the solution
+
+466
+00:34:49,670 --> 00:34:51,700
+to that self-consistent condition.
+
+467
+00:34:54,170 --> 00:34:57,140
+But at this point, we are just about done, we can
+
+468
+00:34:57,140 --> 00:35:03,500
+take this expansion of. That function F and plug
+
+469
+00:35:03,500 --> 00:35:08,000
+it back in to where it first showed up in the
+
+470
+00:35:08,000 --> 00:35:13,220
+partition function we had. The exponential of end
+
+471
+00:35:13,220 --> 00:35:20,600
+times, this function f of the magnetization so we
+
+472
+00:35:20,600 --> 00:35:24,290
+can pull out now from that, if you go over to the
+
+473
+00:35:24,290 --> 00:35:28,910
+first two terms that do not depend on them. So
+
+474
+00:35:28,910 --> 00:35:33,860
+that gives us. Another factor of either the minus
+
+475
+00:35:33,860 --> 00:35:37,460
+and the timestep zero over two from the second
+
+476
+00:35:37,460 --> 00:35:42,460
+term and the exponential of that log is just its
+
+477
+00:35:42,470 --> 00:35:46,040
+arguments for over one minus seven squared raised
+
+478
+00:35:46,040 --> 00:35:50,150
+to the power of another two. And all that remains
+
+479
+00:35:50,330 --> 00:35:57,050
+in the integral is a nice Gaussian integration. So
+
+480
+00:35:57,050 --> 00:36:01,970
+long as we can expand the domain of integration
+
+481
+00:36:01,970 --> 00:36:06,080
+from minus one to one all the way out to minus
+
+482
+00:36:06,080 --> 00:36:08,870
+infinity to infinity, that is also something that
+
+483
+00:36:08,870 --> 00:36:11,300
+we justified with doing Sommerfeld expansion,
+
+484
+00:36:11,510 --> 00:36:15,890
+showing that the errors that are introduced by.
+
+485
+00:36:17,140 --> 00:36:19,720
+Including those nonphysical values of the
+
+486
+00:36:19,730 --> 00:36:24,630
+magnetization are exponentially small and indeed
+
+487
+00:36:24,640 --> 00:36:27,520
+vanish in that thermodynamic limit of going to
+
+488
+00:36:27,520 --> 00:36:30,610
+infinity, where there are rigorous balance, you
+
+489
+00:36:30,610 --> 00:36:34,480
+can prove and that. Are proven, if you want to see
+
+490
+00:36:34,480 --> 00:36:39,940
+them in in this book from published a few years
+
+491
+00:36:39,940 --> 00:36:42,040
+ago, some folks in Switzerland,
+
+492
+00:36:44,770 --> 00:36:50,080
+but proceeding to carry out that Gaussian
+
+493
+00:36:50,110 --> 00:36:53,650
+integration just gives us that square root of pi
+
+494
+00:36:53,800 --> 00:36:58,830
+divided by the multiplicative factor on the minus
+
+495
+00:36:58,830 --> 00:37:06,420
+seven squared, which is. Just one minus beta Jim
+
+496
+00:37:06,430 --> 00:37:11,360
+undisputedly and not squared, divided by what,
+
+497
+00:37:11,370 --> 00:37:16,450
+minus amnot squared? So in the end, we have a
+
+498
+00:37:16,450 --> 00:37:18,780
+closed form expression for the protection function,
+
+499
+00:37:18,790 --> 00:37:23,350
+we did do some expansions and approximations to
+
+500
+00:37:23,620 --> 00:37:26,200
+obtain this, and it is possible to show that this
+
+501
+00:37:26,200 --> 00:37:32,770
+is actually an exact solution with a bit more work
+
+502
+00:37:32,770 --> 00:37:35,620
+and a bit more care that I figured I would spare
+
+503
+00:37:35,620 --> 00:37:38,470
+you and.
+
+504
+00:37:40,640 --> 00:37:43,820
+Much as we saw this morning, we're looking at the
+
+505
+00:37:43,820 --> 00:37:47,630
+exact solution for the one, the easy model, just
+
+506
+00:37:47,630 --> 00:37:50,990
+having a partitioned function is not necessarily
+
+507
+00:37:51,590 --> 00:37:55,190
+so useful for us. Just looking at that, it's
+
+508
+00:37:55,190 --> 00:38:00,320
+unclear what it really means in a intuitive
+
+509
+00:38:00,320 --> 00:38:05,810
+physical sense. The use of having this is as a
+
+510
+00:38:05,840 --> 00:38:10,670
+starting point for. Doing analysis of observables
+
+511
+00:38:10,670 --> 00:38:14,510
+coming from those derivatives of the free minus
+
+512
+00:38:14,510 --> 00:38:19,280
+two times blog, the petition function, and we've
+
+513
+00:38:19,280 --> 00:38:22,550
+actually seen what we will get for the
+
+514
+00:38:22,550 --> 00:38:28,820
+memorisation already when we isolated the.
+
+515
+00:38:30,230 --> 00:38:34,250
+Argument of the exponential and looked at its
+
+516
+00:38:34,250 --> 00:38:38,450
+extreme until we recovered the exactly the bean
+
+517
+00:38:38,450 --> 00:38:43,390
+field relation that we got from the field
+
+518
+00:38:43,400 --> 00:38:46,940
+approximation, which is the exact solution, the
+
+519
+00:38:46,940 --> 00:38:50,840
+transcendental equation coming from this partition
+
+520
+00:38:50,840 --> 00:38:55,310
+function, which resulted in class earlier in the
+
+521
+00:38:55,310 --> 00:39:00,500
+week to find this result for the magnetization and
+
+522
+00:39:00,500 --> 00:39:03,470
+in particular predictions for that critical
+
+523
+00:39:03,470 --> 00:39:06,290
+temperature and the critical exponents of the
+
+524
+00:39:06,290 --> 00:39:09,860
+corresponding second order phase transition. So.
+
+525
+00:39:13,940 --> 00:39:17,990
+In retrospect, I'm glad I gave a somewhat easier
+
+526
+00:39:17,990 --> 00:39:21,440
+problem on the homework rather than than this one,
+
+527
+00:39:22,220 --> 00:39:27,140
+but hopefully this was entertaining to see how the
+
+528
+00:39:27,140 --> 00:39:31,120
+analysis goes through to get exact results in
+
+529
+00:39:31,130 --> 00:39:33,980
+statistical physics. And it also calls back to
+
+530
+00:39:34,610 --> 00:39:36,890
+some of the techniques that we've seen before, the
+
+531
+00:39:36,890 --> 00:39:39,620
+summer of expansion that apply this method of
+
+532
+00:39:39,620 --> 00:39:46,050
+steepest descent. And we're used to. Manipulate
+
+533
+00:39:46,330 --> 00:39:50,920
+certain documentation to binomial coefficient to
+
+534
+00:39:51,520 --> 00:39:55,210
+get things in a more tractable state, so I'll stop
+
+535
+00:39:55,210 --> 00:39:58,660
+talking there. If there are any questions about.
+
+536
+00:39:59,650 --> 00:40:03,580
+This security device model for the other aspects
+
+537
+00:40:03,850 --> 00:40:09,490
+of the model I to shut them up now, otherwise, you
+
+538
+00:40:09,550 --> 00:40:12,910
+know, get one step closer to enjoying the weekend
+
+539
+00:40:13,510 --> 00:40:15,570
+with the warmer weather.

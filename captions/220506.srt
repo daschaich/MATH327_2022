@@ -1,0 +1,2595 @@
+1
+00:00:02,100 --> 00:00:06,250
+All right, we can get under way this Friday
+
+2
+00:00:06,300 --> 00:00:09,570
+morning, after the final homework assignment was
+
+3
+00:00:09,570 --> 00:00:12,240
+due, so congratulations for completing all of
+
+4
+00:00:12,240 --> 00:00:18,360
+those in-term assignments.  And before I forget I have six
+
+5
+00:00:18,360 --> 00:00:20,700
+digits for you this morning:
+
+6
+00:00:27,760 --> 00:00:28,160
+Four nine, eight three, nine four.
+
+7
+00:00:31,600 --> 00:00:37,450
+And yes, the remaining milestones to look forward
+
+8
+00:00:37,450 --> 00:00:38,080
+to are one final week of
+
+9
+00:00:40,480 --> 00:00:44,110
+content then a couple of weeks until the final
+
+10
+00:00:44,110 --> 00:00:52,430
+exam on the first of June. So let's do a quick recap
+
+11
+00:00:52,430 --> 00:00:56,840
+of what we focused on earlier this week to pick things back
+
+12
+00:00:56,840 --> 00:00:57,200
+up,
+
+13
+00:00:59,870 --> 00:01:10,770
+so is. Of the today and. Last time we focused on
+
+14
+00:01:11,800 --> 00:01:17,340
+the Minnifield approximation to using model in
+
+15
+00:01:17,580 --> 00:01:22,240
+these dimensions. And in particular, the solutions
+
+16
+00:01:22,250 --> 00:01:31,340
+of self-consistent condition expressed allowable
+
+17
+00:01:31,340 --> 00:01:35,570
+values of the order parameter, the magnetization.
+
+18
+00:01:36,470 --> 00:01:43,280
+In terms of function of that, the perimeter itself
+
+19
+00:01:43,970 --> 00:01:44,450
+is.
+
+20
+00:01:48,030 --> 00:01:48,540
+To.
+
+21
+00:01:51,340 --> 00:01:53,440
+The and then
+
+22
+00:01:55,600 --> 00:02:00,250
+the the over where does not appear be.
+
+23
+00:02:04,560 --> 00:02:05,430
+So Peter H.
+
+24
+00:02:10,420 --> 00:02:13,160
+In particular, you're taking a graphical approach
+
+25
+00:02:13,160 --> 00:02:16,190
+to the intersection of those two functions. We saw
+
+26
+00:02:16,190 --> 00:02:16,760
+that the.
+
+27
+00:02:18,770 --> 00:02:21,710
+Solution to this were faced with vanishing or a
+
+28
+00:02:21,720 --> 00:02:26,910
+parameter becomes unstable. And.
+
+29
+00:02:31,590 --> 00:02:36,240
+Prefers instead a non-zero value of the
+
+30
+00:02:36,300 --> 00:02:39,450
+mobilization as the temperature.
+
+31
+00:02:41,470 --> 00:02:44,830
+Decreases, which is sort of related to that
+
+32
+00:02:44,830 --> 00:02:50,870
+expression. And we further were able to predict
+
+33
+00:02:50,870 --> 00:02:54,160
+things to the bean field approximation, giving us
+
+34
+00:02:54,380 --> 00:03:00,640
+a theory that this change from disorder to to
+
+35
+00:03:00,710 --> 00:03:06,570
+order the. Phases was actually a true second order.
+
+36
+00:03:09,100 --> 00:03:10,180
+Phase transition.
+
+37
+00:03:15,470 --> 00:03:19,690
+At the critical temperature, you see this place,
+
+38
+00:03:19,700 --> 00:03:22,790
+the number of dimensions of the system, and we
+
+39
+00:03:22,790 --> 00:03:29,620
+introduced the concept of. And critical questions
+
+40
+00:03:30,680 --> 00:03:32,840
+of the way in which.
+
+41
+00:03:35,540 --> 00:03:40,510
+The order parameter, the magnetization. Varies as
+
+42
+00:03:41,050 --> 00:03:44,350
+the temperature approaches from below is
+
+43
+00:03:44,350 --> 00:03:47,590
+proportional to the difference to the one half
+
+44
+00:03:47,590 --> 00:03:48,010
+hour.
+
+45
+00:03:54,500 --> 00:03:57,380
+For tea, less than political temperature.
+
+46
+00:04:02,820 --> 00:04:08,810
+And when we wrapped up with a bit of. A bit of a
+
+47
+00:04:08,810 --> 00:04:12,140
+rush at the end of yesterday was looking at how.
+
+48
+00:04:13,140 --> 00:04:17,160
+This Manfield approximation, how accurate that
+
+49
+00:04:17,160 --> 00:04:19,830
+actually is or systems of various dimensions. And
+
+50
+00:04:19,830 --> 00:04:23,790
+before we revisit that, are there any questions
+
+51
+00:04:23,790 --> 00:04:28,380
+about the approximation more generally, the way we
+
+52
+00:04:28,590 --> 00:04:32,580
+derive solutions to it or other aspects of
+
+53
+00:04:33,060 --> 00:04:34,800
+interacting systems or the biological?
+
+54
+00:04:45,780 --> 00:04:46,260
+So.
+
+55
+00:04:49,750 --> 00:04:53,630
+After this. Refer to it a bit more detail about
+
+56
+00:04:53,630 --> 00:04:56,840
+how well we feel fortunate because we want to turn
+
+57
+00:04:56,840 --> 00:05:00,890
+from that sort of graphical analysis to something
+
+58
+00:05:00,890 --> 00:05:04,250
+more mathematical, getting some exact results for
+
+59
+00:05:04,470 --> 00:05:07,130
+the U.S. model for one dimension, and then in two
+
+60
+00:05:07,130 --> 00:05:09,920
+dimensions, the two dimensional case will probably
+
+61
+00:05:09,920 --> 00:05:13,840
+spill over into next Monday. But one dimensions,
+
+62
+00:05:13,850 --> 00:05:18,590
+we will surely see that there is, in fact, phase
+
+63
+00:05:18,590 --> 00:05:23,240
+transition at all. This is a model which slightly
+
+64
+00:05:23,330 --> 00:05:26,300
+contradicts the prediction from the battlefield
+
+65
+00:05:26,300 --> 00:05:31,190
+approximation of that second of transition at TCT
+
+66
+00:05:31,240 --> 00:05:39,270
+sequels to one equals one. So we will prove an
+
+67
+00:05:39,270 --> 00:05:41,370
+absence of a phase transition that the complete
+
+68
+00:05:41,370 --> 00:05:45,960
+failure of your model and we will also see we
+
+69
+00:05:45,960 --> 00:05:48,140
+won't be able to solve the two dimensional case
+
+70
+00:05:48,150 --> 00:05:51,990
+and see why, but we will be able to determine.
+
+71
+00:05:53,360 --> 00:06:00,340
+It's critical temperature that. Can be found
+
+72
+00:06:00,340 --> 00:06:04,000
+through a trick of this duality and actually
+
+73
+00:06:04,000 --> 00:06:08,160
+agrees with the exact solution that all results
+
+74
+00:06:08,220 --> 00:06:14,350
+are derived. It's a famous work in the 1940s. And
+
+75
+00:06:14,590 --> 00:06:18,210
+comparing that exact solution to meaningful
+
+76
+00:06:18,220 --> 00:06:20,560
+approximation, things are a bit better than the
+
+77
+00:06:20,560 --> 00:06:24,070
+one dimensional case, we now have the exact
+
+78
+00:06:24,070 --> 00:06:26,620
+solution. And believe your approximation, the
+
+79
+00:06:26,620 --> 00:06:30,220
+prediction for a second phase transition at some
+
+80
+00:06:30,220 --> 00:06:34,980
+of the quantitative details are not quite right.
+
+81
+00:06:34,990 --> 00:06:40,060
+So the critical temperature and the exact case is
+
+82
+00:06:41,260 --> 00:06:44,530
+just over two. It's up to point to seven point
+
+83
+00:06:44,530 --> 00:06:47,290
+forty four. And that should be compared with the
+
+84
+00:06:47,680 --> 00:06:50,830
+ticker for predicting that we could feel more. So
+
+85
+00:06:50,830 --> 00:06:54,340
+it's all about a factor of two. And the critical
+
+86
+00:06:54,340 --> 00:06:57,820
+exponents that the legislation is proportional to
+
+87
+00:06:58,330 --> 00:07:02,890
+comes out to be one based in two dimensions rather
+
+88
+00:07:02,890 --> 00:07:06,580
+than the one half that we feel. That theory
+
+89
+00:07:06,760 --> 00:07:09,640
+predicts the approximation, as you call it. So.
+
+90
+00:07:10,870 --> 00:07:13,630
+There's a correct qualitative prediction of your
+
+91
+00:07:13,630 --> 00:07:17,150
+second phase transition, but the real details of
+
+92
+00:07:17,170 --> 00:07:20,820
+that transition are still not captured by the wind
+
+93
+00:07:20,830 --> 00:07:26,960
+field approach, but aside. Mentioned things do
+
+94
+00:07:26,960 --> 00:07:29,270
+keep getting better and higher and higher
+
+95
+00:07:29,300 --> 00:07:33,000
+dimensions. The reason for that being that in
+
+96
+00:07:33,000 --> 00:07:35,430
+higher dimensions, each site has more nearest
+
+97
+00:07:35,430 --> 00:07:36,930
+neighbors, so
+
+98
+00:07:39,420 --> 00:07:43,560
+replacing those by an average would mean over them,
+
+99
+00:07:43,890 --> 00:07:47,790
+does a better job of capturing the actual behavior
+
+100
+00:07:48,090 --> 00:07:53,310
+of the system. And the complication now is that
+
+101
+00:07:53,340 --> 00:07:56,220
+once we get to dimensions, there is no known
+
+102
+00:07:56,880 --> 00:08:00,930
+analytic solution to the using hole, and such a
+
+103
+00:08:00,930 --> 00:08:05,940
+solution may not even exist. But both the.
+
+104
+00:08:08,070 --> 00:08:13,450
+Parameter and. Critical experience can be computed
+
+105
+00:08:13,460 --> 00:08:16,910
+from numerical analysis to establish that there is
+
+106
+00:08:16,910 --> 00:08:20,420
+indeed a phase transition for all the time the
+
+107
+00:08:20,420 --> 00:08:25,300
+national theories. And you can use those numerical
+
+108
+00:08:25,300 --> 00:08:28,540
+calculations to compute the corresponding critical
+
+109
+00:08:28,540 --> 00:08:32,020
+temperature and critical exposures that we can
+
+110
+00:08:32,020 --> 00:08:35,620
+compare to the Millfield predictions. So in three
+
+111
+00:08:35,620 --> 00:08:37,400
+dimensions, which has been studied, a lot of this,
+
+112
+00:08:37,450 --> 00:08:41,510
+the focus of the magazine article I put up on the
+
+113
+00:08:42,110 --> 00:08:48,180
+site there is. Actually, precise values to several
+
+114
+00:08:48,180 --> 00:08:50,910
+significant figures for both the critical
+
+115
+00:08:50,910 --> 00:08:55,710
+temperature and the critical time only put down to
+
+116
+00:08:55,710 --> 00:08:57,570
+significant figures here just because that's all
+
+117
+00:08:57,580 --> 00:09:00,090
+we need to compare to the need for oxidation.
+
+118
+00:09:03,270 --> 00:09:06,930
+We're now about three quarters of the way to the
+
+119
+00:09:07,090 --> 00:09:09,210
+minefield prediction of three dimensions, critical
+
+120
+00:09:09,210 --> 00:09:12,340
+temperature of six compared to the true four point
+
+121
+00:09:12,360 --> 00:09:17,870
+five. And the critical exponent compared to lower
+
+122
+00:09:17,870 --> 00:09:21,320
+dimensions is steadily creeping up toward the main
+
+123
+00:09:21,320 --> 00:09:26,480
+field limit. So from. One eighth to a little under
+
+124
+00:09:26,480 --> 00:09:32,210
+a third president predicts about half. And sort of
+
+125
+00:09:32,350 --> 00:09:34,900
+similar calculations with less precision have been
+
+126
+00:09:35,410 --> 00:09:39,760
+carried out in four or five, six and seven
+
+127
+00:09:39,760 --> 00:09:45,130
+dimensions. Finding. For instance, the critical
+
+128
+00:09:45,130 --> 00:09:48,940
+temperature is steadily approaching, that too deep
+
+129
+00:09:48,940 --> 00:09:52,480
+coming from the main fuel approximation. So if we
+
+130
+00:09:52,960 --> 00:09:59,360
+compare. The numerical results, two, eight, 10, 12
+
+131
+00:09:59,360 --> 00:10:01,760
+and 14 for those for different nationalities that
+
+132
+00:10:01,760 --> 00:10:05,270
+the use, the model, we see that the discrepancy
+
+133
+00:10:05,510 --> 00:10:09,470
+drops from about 20 percent to about 10 percent
+
+134
+00:10:09,470 --> 00:10:12,650
+going up through those higher dimensions than the
+
+135
+00:10:13,520 --> 00:10:15,980
+formal limit where the dimensionality goes to
+
+136
+00:10:16,100 --> 00:10:19,640
+infinity. Every state has an infinite number of
+
+137
+00:10:19,640 --> 00:10:23,170
+nearest neighbors that capture the true
+
+138
+00:10:23,810 --> 00:10:28,670
+magnetization of the system there in the field.
+
+139
+00:10:28,670 --> 00:10:33,380
+Approximation actually becomes exact in that
+
+140
+00:10:34,100 --> 00:10:41,470
+abstract limit. So. That was just a few final
+
+141
+00:10:41,470 --> 00:10:45,190
+comments about the mutual approximation that ran
+
+142
+00:10:45,190 --> 00:10:51,340
+out of time to cover Tuesday. And now we will turn
+
+143
+00:10:51,340 --> 00:10:56,930
+to justify some of the claims in here for the
+
+144
+00:10:56,950 --> 00:11:00,250
+other dimension to exact results right now and
+
+145
+00:11:00,250 --> 00:11:03,490
+then going into some of the ideas behind those
+
+146
+00:11:03,820 --> 00:11:08,270
+numerical analysis on. In both cases, the showing
+
+147
+00:11:08,270 --> 00:11:11,840
+of techniques that can be applied to using
+
+148
+00:11:11,840 --> 00:11:15,590
+violence that are much more generally useful for
+
+149
+00:11:15,950 --> 00:11:18,650
+more complicated sorts of systems and reactions.
+
+150
+00:11:19,700 --> 00:11:23,480
+Some of the questions about that wrap up before
+
+151
+00:11:23,480 --> 00:11:28,370
+moving on to some more formal mathematical
+
+152
+00:11:28,370 --> 00:11:29,300
+manipulations.
+
+153
+00:11:39,550 --> 00:11:44,620
+So let's begin this consideration of the one
+
+154
+00:11:44,620 --> 00:11:47,200
+dimensional exact result just by recalling the
+
+155
+00:11:47,200 --> 00:11:52,460
+system in question, back up the. Figure from last
+
+156
+00:11:52,460 --> 00:11:56,870
+week that I used to adjust the focus of the
+
+157
+00:11:56,880 --> 00:12:01,400
+project this morning and here recalled that with
+
+158
+00:12:01,400 --> 00:12:04,940
+periodic boundary conditions, the inside is a
+
+159
+00:12:04,940 --> 00:12:09,110
+model in one dimension simply can be represented
+
+160
+00:12:09,110 --> 00:12:15,170
+as the circle, the wagons and the number of links
+
+161
+00:12:15,170 --> 00:12:18,830
+between nearest neighbor pairs of sites is
+
+162
+00:12:18,830 --> 00:12:21,650
+actually the same number as the overall number of
+
+163
+00:12:21,650 --> 00:12:25,550
+sites there are and links for and sites. Because
+
+164
+00:12:25,550 --> 00:12:28,910
+we can just see by observation or count by seeing
+
+165
+00:12:28,910 --> 00:12:32,630
+that each site connected to links connects the two
+
+166
+00:12:32,630 --> 00:12:37,820
+sites. So this allows uniquely in one dimension.
+
+167
+00:12:39,120 --> 00:12:43,810
+This special property is that we can take
+
+168
+00:12:43,810 --> 00:12:49,240
+advantage of the. A limited number of links per
+
+169
+00:12:49,240 --> 00:12:53,290
+site to rewrite some of our nearest neighbour
+
+170
+00:12:53,290 --> 00:12:59,480
+cares just as Asama over those links. We count
+
+171
+00:12:59,480 --> 00:13:04,640
+from one up to n take the product of the spin it
+
+172
+00:13:04,640 --> 00:13:08,180
+side in and the spin cycle plus one that accounts
+
+173
+00:13:08,180 --> 00:13:11,750
+for every single link that we have in this picture,
+
+174
+00:13:11,750 --> 00:13:15,950
+which I'll probably put up on the board in just a
+
+175
+00:13:15,950 --> 00:13:16,640
+few minutes.
+
+176
+00:13:19,290 --> 00:13:26,140
+So. We. Take this some oversights and some of the
+
+177
+00:13:26,140 --> 00:13:27,940
+links with some of the some of the sites, we can
+
+178
+00:13:27,940 --> 00:13:31,210
+combine that with the some of the sites that
+
+179
+00:13:31,210 --> 00:13:35,340
+already appeared in the internal energy for the
+
+180
+00:13:35,350 --> 00:13:38,680
+U.S. model coupled to that external magnetic field.
+
+181
+00:13:39,860 --> 00:13:43,400
+For later convenience, we do a trivial
+
+182
+00:13:43,400 --> 00:13:46,550
+manipulation of adding each side twice and
+
+183
+00:13:46,550 --> 00:13:50,840
+dividing by two in order to have the two terms and
+
+184
+00:13:50,840 --> 00:13:56,510
+the internal energy, both involving spin and plus
+
+185
+00:13:56,510 --> 00:14:00,050
+one. The product coming from your name appears in
+
+186
+00:14:00,050 --> 00:14:02,070
+the net coupling to the.
+
+187
+00:14:04,370 --> 00:14:10,040
+So inserting this into our petition from the
+
+188
+00:14:10,040 --> 00:14:14,330
+so-called spin configurations of exponential
+
+189
+00:14:14,330 --> 00:14:17,370
+growth. Might this be the times, the internal
+
+190
+00:14:17,380 --> 00:14:21,310
+energy that some so the exponential of the song
+
+191
+00:14:21,310 --> 00:14:26,680
+turns into the product of exponential and the sum
+
+192
+00:14:26,680 --> 00:14:32,300
+over speed configurations? It is just this long
+
+193
+00:14:32,300 --> 00:14:36,380
+series of different sounds over the two values,
+
+194
+00:14:36,380 --> 00:14:40,090
+plus or minus one that each of the hospitals can
+
+195
+00:14:40,100 --> 00:14:47,910
+adopt. So what we want to do is the same. Approach
+
+196
+00:14:48,240 --> 00:14:53,550
+is not an attractive case, but we were able to
+
+197
+00:14:54,180 --> 00:14:58,080
+distribute all of those and sums over the spins in
+
+198
+00:14:58,080 --> 00:15:00,620
+a hyperbolic cosine out of each one that just
+
+199
+00:15:00,660 --> 00:15:04,950
+recently have power. But now there's a
+
+200
+00:15:04,950 --> 00:15:11,900
+complication coming from the. Term with both sub
+
+201
+00:15:11,910 --> 00:15:17,670
+and an estimated one, namely that on any given
+
+202
+00:15:17,670 --> 00:15:22,020
+spin is going to appear twice in this product over
+
+203
+00:15:22,230 --> 00:15:26,330
+the site once when excellent response to anyone
+
+204
+00:15:27,140 --> 00:15:30,240
+else wants to. For example, spend five is going to
+
+205
+00:15:30,240 --> 00:15:33,780
+appear both equals five and you have to spend five
+
+206
+00:15:33,780 --> 00:15:37,230
+times to six, but also in equals four. It has been
+
+207
+00:15:37,230 --> 00:15:41,310
+four times five. And if we were to freely solve
+
+208
+00:15:42,240 --> 00:15:45,560
+both of those contributions over those values of
+
+209
+00:15:45,630 --> 00:15:50,280
+spin, we would include inconsistent on physical
+
+210
+00:15:50,280 --> 00:15:55,650
+contributions where the value of the spin was not
+
+211
+00:15:55,650 --> 00:15:58,320
+being treated so consistently. We're looking at
+
+212
+00:15:58,830 --> 00:16:01,380
+one of the two nearest neighbor interactions
+
+213
+00:16:01,380 --> 00:16:02,870
+compared to its other one.
+
+214
+00:16:05,700 --> 00:16:11,690
+So the. Elliott, way to impose these constraints
+
+215
+00:16:11,900 --> 00:16:18,290
+that the. Spain has the same value. Both times, it
+
+216
+00:16:18,290 --> 00:16:21,980
+appears, is to recast the.
+
+217
+00:16:24,480 --> 00:16:28,650
+Exponential factors multiply here as a matrix and
+
+218
+00:16:28,650 --> 00:16:32,460
+use matrix multiplication to ensure that.
+
+219
+00:16:35,190 --> 00:16:38,190
+Carry through the information about what speed has,
+
+220
+00:16:38,400 --> 00:16:43,830
+so first to define this two by two matrix. I'm
+
+221
+00:16:44,370 --> 00:16:49,200
+going to call it an oversight and where each of
+
+222
+00:16:49,200 --> 00:16:53,760
+the components corresponds to the four possible
+
+223
+00:16:53,760 --> 00:16:58,250
+combinations. Of values, the spins that site and
+
+224
+00:16:58,260 --> 00:17:03,050
+then one in these exponential factors. So as an
+
+225
+00:17:03,050 --> 00:17:09,390
+example, if both S7 plus one are one, we pick up E
+
+226
+00:17:09,420 --> 00:17:13,460
+to the positive Baida and one plus one of the two
+
+227
+00:17:13,760 --> 00:17:20,900
+is to be the H in the next one for the final term
+
+228
+00:17:20,900 --> 00:17:24,600
+as the sun cancels its drops out of the products
+
+229
+00:17:24,620 --> 00:17:25,310
+minus one.
+
+230
+00:17:27,370 --> 00:17:32,470
+And if we consider taking the product of two of
+
+231
+00:17:32,470 --> 00:17:33,430
+these matrices.
+
+232
+00:17:35,450 --> 00:17:41,250
+You will see that in that Matrix product. The. The
+
+233
+00:17:41,290 --> 00:17:43,660
+road here, for instance, is going to be contracted
+
+234
+00:17:43,660 --> 00:17:47,710
+with the first column, so the value is where?
+
+235
+00:17:49,060 --> 00:17:53,170
+Spirit then has minus one or both going to be
+
+236
+00:17:53,800 --> 00:17:54,520
+contracted.
+
+237
+00:17:58,550 --> 00:18:01,400
+I should have focused on the diagonal pieces,
+
+238
+00:18:01,400 --> 00:18:05,150
+really, so contracting both of these spin minus
+
+239
+00:18:05,150 --> 00:18:11,900
+ones with the second column of the next matrix in
+
+240
+00:18:11,900 --> 00:18:15,890
+the row incorrectly pick up the value of the spin
+
+241
+00:18:16,010 --> 00:18:20,840
+minus one in a consistent way. So hopefully, if
+
+242
+00:18:20,840 --> 00:18:22,670
+this is not intuitively obvious and something, you
+
+243
+00:18:22,670 --> 00:18:25,730
+can convince yourself that possibly by writing
+
+244
+00:18:25,730 --> 00:18:30,590
+down some further examples, but going over the
+
+245
+00:18:30,590 --> 00:18:37,160
+product of all these two by two matrices, we will
+
+246
+00:18:37,160 --> 00:18:41,960
+end up contracting all of the internal indices
+
+247
+00:18:41,960 --> 00:18:44,630
+that correspond to the repeated values of the
+
+248
+00:18:44,630 --> 00:18:49,700
+spin's will be left only with the spin one and
+
+249
+00:18:49,750 --> 00:18:52,880
+spin capital and plus one either side of that
+
+250
+00:18:52,880 --> 00:18:57,050
+product and periodic common conditions then
+
+251
+00:18:57,620 --> 00:19:03,770
+identify those. So we call that. Economic
+
+252
+00:19:03,770 --> 00:19:08,670
+conditions imposed plus one is exactly the same as
+
+253
+00:19:08,690 --> 00:19:14,620
+a one, so. Closing that loop and ensuring that.
+
+254
+00:19:16,120 --> 00:19:20,050
+The value of this single spin wrapping around the
+
+255
+00:19:20,050 --> 00:19:23,110
+periodic boundary is also self-consistent, just
+
+256
+00:19:23,110 --> 00:19:28,280
+gives us the overall cyclic trace. Of that product
+
+257
+00:19:28,280 --> 00:19:30,950
+of all matrices. My question
+
+258
+00:19:33,200 --> 00:19:39,960
+is, why was. And. The choice is what better
+
+259
+00:19:39,960 --> 00:19:43,270
+conditions to perform order? Of the Trece.
+
+260
+00:19:45,900 --> 00:19:49,080
+So what that trace is doing, if we write that out,
+
+261
+00:19:50,250 --> 00:19:54,690
+we can drop the index and because as we can see,
+
+262
+00:19:55,110 --> 00:19:58,300
+all of these matrices are actually independent of
+
+263
+00:19:58,300 --> 00:20:02,460
+them, just call the T.. So this trace is giving us
+
+264
+00:20:02,470 --> 00:20:06,650
+benefactors of this matrix so as to buy that I
+
+265
+00:20:06,720 --> 00:20:10,590
+enjoy are those two values of the spin system one
+
+266
+00:20:10,770 --> 00:20:14,290
+and two. That is correct. That's been true. It's
+
+267
+00:20:14,290 --> 00:20:18,690
+been three. We have some consistent values of
+
+268
+00:20:18,690 --> 00:20:22,040
+students. That's why the state index appears to be
+
+269
+00:20:22,970 --> 00:20:31,880
+sold over shake and so on. Similarly, T.J., L. all
+
+270
+00:20:31,880 --> 00:20:37,490
+the way to this tea and call it capital and then.
+
+271
+00:20:39,350 --> 00:20:42,020
+What would be enforced when that is identified
+
+272
+00:20:42,020 --> 00:20:46,950
+with speed by the very first Conex? So we have the
+
+273
+00:20:47,000 --> 00:20:52,150
+in the final index on this product of matrices is
+
+274
+00:20:52,150 --> 00:20:56,380
+the same as the first one and also has to be some
+
+275
+00:20:56,380 --> 00:21:02,830
+over. In that song, to produce or to impose this
+
+276
+00:21:02,830 --> 00:21:05,770
+constraint that the same value of the state
+
+277
+00:21:05,770 --> 00:21:06,780
+appears in.
+
+278
+00:21:09,180 --> 00:21:12,750
+Both terms in both the actions that was involved
+
+279
+00:21:13,500 --> 00:21:17,310
+and we can recognize that I already put the sign
+
+280
+00:21:17,310 --> 00:21:20,580
+there, but this Matrix product with all of the
+
+281
+00:21:20,580 --> 00:21:23,760
+indices cyclically contracted is indeed the
+
+282
+00:21:23,760 --> 00:21:28,180
+definition of the phrase. Which is also useful
+
+283
+00:21:28,600 --> 00:21:32,410
+because it gives us just the single number that
+
+284
+00:21:32,410 --> 00:21:35,560
+the petition function is rather than a two by two
+
+285
+00:21:35,560 --> 00:21:40,740
+matrix. So this is the simplest case we can also
+
+286
+00:21:40,740 --> 00:21:41,280
+consider.
+
+287
+00:21:44,130 --> 00:21:46,220
+More complicated situations where periodic
+
+288
+00:21:46,240 --> 00:21:48,780
+boundary conditions are not imposed and some of
+
+289
+00:21:48,810 --> 00:21:51,270
+the standards will have different numbers in your
+
+290
+00:21:51,270 --> 00:21:54,300
+state attraction to that case, you would still get
+
+291
+00:21:54,300 --> 00:21:59,460
+a trace of all of the spins in the middle of that
+
+292
+00:21:59,460 --> 00:22:03,390
+chain with different factors appearing to accept
+
+293
+00:22:03,400 --> 00:22:06,060
+the absence of periodic boundary conditions. But
+
+294
+00:22:06,060 --> 00:22:10,360
+it is the. I guess the trace, in essence, is that
+
+295
+00:22:10,360 --> 00:22:13,150
+reflection of how the periodic boundary conditions
+
+296
+00:22:13,150 --> 00:22:18,850
+simplify the set up, as we saw before, by ensuring
+
+297
+00:22:18,850 --> 00:22:21,380
+that all of the sites have the same number of
+
+298
+00:22:21,430 --> 00:22:21,870
+links.
+
+299
+00:22:24,030 --> 00:22:29,830
+So. I'll leave that there for now. I keep thinking
+
+300
+00:22:29,830 --> 00:22:34,110
+about all of this remains unclear. We can move
+
+301
+00:22:34,110 --> 00:22:40,820
+forward to, actually. Try to solve our partisan
+
+302
+00:22:40,820 --> 00:22:44,060
+function, which is now written in a more compact
+
+303
+00:22:44,060 --> 00:22:49,470
+way, and we originally had it's just the trees and
+
+304
+00:22:49,490 --> 00:22:54,260
+powers of this two by two matrix that are in the
+
+305
+00:22:54,260 --> 00:22:58,130
+business is known as the transfer matrix, the idea
+
+306
+00:22:58,130 --> 00:23:02,600
+being that it's transferring information about the
+
+307
+00:23:02,600 --> 00:23:07,550
+value of a given spin from one week to the next so
+
+308
+00:23:07,550 --> 00:23:13,420
+that the links are treating. That's been in a
+
+309
+00:23:13,460 --> 00:23:14,540
+self-consistent way.
+
+310
+00:23:17,510 --> 00:23:20,090
+And if we want to.
+
+311
+00:23:23,110 --> 00:23:27,280
+Figure out the trace of a large number of
+
+312
+00:23:27,280 --> 00:23:30,190
+identical products in The Matrix. The simple way
+
+313
+00:23:30,190 --> 00:23:32,980
+to do that is to diagnose the Matrix and then all
+
+314
+00:23:32,980 --> 00:23:34,960
+of these powers simply.
+
+315
+00:23:38,190 --> 00:23:43,350
+Carry through into powers of the eigenvalues that
+
+316
+00:23:43,350 --> 00:23:46,320
+appear on the diagonal, so multiplying diagonal
+
+317
+00:23:46,320 --> 00:23:49,530
+matrices, it's easy in that sense and then taking
+
+318
+00:23:49,530 --> 00:23:54,420
+the trace itself is also easy is just the sum of
+
+319
+00:23:54,420 --> 00:23:57,870
+those powers of in this case for two by three
+
+320
+00:23:57,870 --> 00:24:03,270
+matrices, these two. Different eigenvalues, I've
+
+321
+00:24:03,300 --> 00:24:06,180
+called them the plus and minus.
+
+322
+00:24:11,110 --> 00:24:16,890
+Yes, this may well be the. First time of matrices
+
+323
+00:24:16,890 --> 00:24:20,180
+and relations are appearing in this particular
+
+324
+00:24:20,630 --> 00:24:28,690
+module, so I can. Check in and remind you or ask,
+
+325
+00:24:30,010 --> 00:24:33,370
+what is the strategy to stabilize the matrix of
+
+326
+00:24:33,370 --> 00:24:36,820
+this or how do we find these eigenvalues lamda
+
+327
+00:24:36,820 --> 00:24:38,080
+plus or minus?
+
+328
+00:24:40,870 --> 00:24:41,410
+See?
+
+329
+00:24:48,790 --> 00:24:49,390
+Rather than.
+
+330
+00:24:53,230 --> 00:24:56,350
+Putting that on your list gives you the reminder
+
+331
+00:24:56,520 --> 00:25:01,330
+this is the. So the first appearance that the
+
+332
+00:25:01,340 --> 00:25:05,170
+eigenvalues are coming from the roots of the
+
+333
+00:25:05,210 --> 00:25:09,110
+characteristic polynomial. So we take the
+
+334
+00:25:09,950 --> 00:25:14,930
+determinants of this matrix to the transfer matrix,
+
+335
+00:25:15,530 --> 00:25:20,720
+subtract. Lamda minus the identity and the look at
+
+336
+00:25:20,720 --> 00:25:24,260
+the detriment of vets that are represented by the.
+
+337
+00:25:26,610 --> 00:25:29,440
+Square eliminators on either side of that matrix,
+
+338
+00:25:29,450 --> 00:25:33,840
+so. Subtracting that language just modifies the
+
+339
+00:25:33,840 --> 00:25:38,410
+diagonal components of this matrix, using the data
+
+340
+00:25:39,040 --> 00:25:41,220
+in the data minus lambda.
+
+341
+00:25:43,380 --> 00:25:45,630
+Either the White House made the afternoon holds
+
+342
+00:25:46,400 --> 00:25:51,420
+the key to the beat of the White House page, again
+
+343
+00:25:51,420 --> 00:25:55,830
+minus Linda, if we take the determination that
+
+344
+00:25:55,830 --> 00:25:59,060
+it's just the product of the was minus the product
+
+345
+00:25:59,070 --> 00:26:02,690
+at the time to two cities are simple in that way.
+
+346
+00:26:03,940 --> 00:26:08,670
+So we can pull out that positive factor of Lambda
+
+347
+00:26:08,680 --> 00:26:11,770
+Square. It will be two negative factors,
+
+348
+00:26:11,780 --> 00:26:15,460
+Portugal's lamda, both of which have either
+
+349
+00:26:15,460 --> 00:26:19,000
+positive baylon, one of which has either debated
+
+350
+00:26:19,000 --> 00:26:23,140
+each other as to why this day and age.
+
+351
+00:26:26,080 --> 00:26:29,710
+Plus, sign about the overall negative sign there.
+
+352
+00:26:31,380 --> 00:26:34,830
+And then finally, the product of those commercials.
+
+353
+00:26:36,650 --> 00:26:40,850
+Gives us the use of the two Beira plus or minus
+
+354
+00:26:41,270 --> 00:26:45,680
+chancel and subtracting the product off nine one
+
+355
+00:26:45,800 --> 00:26:49,610
+is each of the minus two data, which we can.
+
+356
+00:26:51,440 --> 00:26:54,940
+Recognize as corresponding to some of those nice
+
+357
+00:26:54,950 --> 00:26:59,540
+hyperbolic trigonometric functions, we have the.
+
+358
+00:27:00,360 --> 00:27:10,120
+Lambda Square. Minus Lamda times to Coche. That is
+
+359
+00:27:10,130 --> 00:27:15,160
+the way to cool. For the rival, so will either the
+
+360
+00:27:15,160 --> 00:27:19,840
+X plus, even minus X, the cosine and similarly the
+
+361
+00:27:20,170 --> 00:27:24,580
+two terms in the X minus equal minus six are twice
+
+362
+00:27:24,580 --> 00:27:29,470
+the hyperbolic sign now of two data rather than a
+
+363
+00:27:29,740 --> 00:27:34,320
+H. And we want to find the lambda, which is
+
+364
+00:27:34,330 --> 00:27:37,810
+characteristic polynomial is equal to zero which.
+
+365
+00:27:39,470 --> 00:27:41,030
+We can get just from the.
+
+366
+00:27:43,080 --> 00:27:46,950
+Quadratic equation varlet, why I was calling the
+
+367
+00:27:47,460 --> 00:27:52,940
+eigenvalue Linda plus and minus is there will be a
+
+368
+00:27:52,950 --> 00:27:56,490
+plus or minus appearing in the solutions here that
+
+369
+00:27:56,490 --> 00:28:01,150
+we. That factor over to a survey was commissioned
+
+370
+00:28:01,150 --> 00:28:05,260
+by the Square. That's one A minus B is the
+
+371
+00:28:05,260 --> 00:28:09,270
+negative of the coefficient of 11 to. Used to be
+
+372
+00:28:09,270 --> 00:28:17,260
+the hyperbolic cosine each. And then plus or minus
+
+373
+00:28:17,260 --> 00:28:21,820
+the square root of the discriminant B squared, or
+
+374
+00:28:21,820 --> 00:28:29,660
+he'd be to bad A. Cos squared in H and then minus
+
+375
+00:28:29,660 --> 00:28:33,350
+four, a C factor of eight.
+
+376
+00:28:36,420 --> 00:28:38,940
+Some of you better
+
+377
+00:28:41,160 --> 00:28:45,270
+and we can check easily enough that this
+
+378
+00:28:45,270 --> 00:28:49,140
+expression. First of all, we can cancel out the
+
+379
+00:28:49,140 --> 00:28:51,750
+fact that you to all the way through with it seems
+
+380
+00:28:52,080 --> 00:28:55,410
+to a slightly simpler.
+
+381
+00:28:58,110 --> 00:29:02,360
+Because we're interested in systems with. Now,
+
+382
+00:29:02,560 --> 00:29:05,650
+negative temperatures and zero positive, as well
+
+383
+00:29:05,650 --> 00:29:11,260
+as negative externalities like fields, how we
+
+384
+00:29:11,270 --> 00:29:11,950
+define the.
+
+385
+00:29:14,900 --> 00:29:17,690
+Those parameters that appear in here for those
+
+386
+00:29:17,690 --> 00:29:21,950
+regimes, both of these eigenvalues possibilities
+
+387
+00:29:21,980 --> 00:29:26,510
+are real. So that you factor in the square root is
+
+388
+00:29:26,630 --> 00:29:32,600
+positive. And it's easy enough to see that the
+
+389
+00:29:32,600 --> 00:29:35,000
+solution that the plus side is always going to be
+
+390
+00:29:35,840 --> 00:29:40,790
+larger than that with the negative side. Thanks to
+
+391
+00:29:41,240 --> 00:29:44,960
+the reality of that security factor, we can check
+
+392
+00:29:44,960 --> 00:29:49,040
+that has been close to zero, this expression, so
+
+393
+00:29:49,040 --> 00:29:52,100
+the temperature is going to be a very high
+
+394
+00:29:52,100 --> 00:29:56,710
+temperature limit there by cosigns. Go to one. Has
+
+395
+00:29:56,790 --> 00:30:02,230
+to be exponential factors. And we end up with the
+
+396
+00:30:02,230 --> 00:30:05,920
+factor of one from the first term and the
+
+397
+00:30:05,970 --> 00:30:09,850
+sensuousness hero square root of one from the
+
+398
+00:30:09,850 --> 00:30:12,970
+second term, which is one plus or minus one.
+
+399
+00:30:14,670 --> 00:30:18,570
+Independent of that external fuel and especially
+
+400
+00:30:18,570 --> 00:30:22,740
+case zero field easing automotive, we turn off the
+
+401
+00:30:23,070 --> 00:30:27,320
+external fuel set to zero. That also puts those
+
+402
+00:30:27,330 --> 00:30:33,950
+hydraulics lines to one. And. We ended up just
+
+403
+00:30:33,950 --> 00:30:34,370
+with.
+
+404
+00:30:36,880 --> 00:30:40,210
+Because in that. It's somewhere.
+
+405
+00:30:42,740 --> 00:30:47,940
+So I think the margin will be zero. And the plus
+
+406
+00:30:47,940 --> 00:30:56,530
+minus is just. That's E Tanabata. From seven to
+
+407
+00:30:56,890 --> 00:31:03,100
+one with zero plus or minus the square root. Two
+
+408
+00:31:03,110 --> 00:31:06,950
+data from the cost minus the essential to the data,
+
+409
+00:31:07,700 --> 00:31:13,850
+which is needed to be the. Minus the. Minus two
+
+410
+00:31:13,850 --> 00:31:16,670
+beta taking account of that factor of two in their.
+
+411
+00:31:17,820 --> 00:31:22,090
+Those two factors cancel out the positive, the
+
+412
+00:31:22,140 --> 00:31:25,890
+minus two beta squared. That gives us either the
+
+413
+00:31:25,890 --> 00:31:32,460
+beta plus or minus the minus beta as advertised.
+
+414
+00:31:33,610 --> 00:31:40,850
+Is twice the sign, the sign satisfying? The
+
+415
+00:31:41,120 --> 00:31:47,830
+overall. Expected behavior that the task is always
+
+416
+00:31:48,430 --> 00:31:54,130
+truly greater than divide us, and if if we we can
+
+417
+00:31:54,130 --> 00:31:57,310
+numerically plot all of this for the case of both
+
+418
+00:31:57,700 --> 00:32:02,350
+non-zero speed and age, the typically this.
+
+419
+00:32:03,860 --> 00:32:07,190
+There's a very large exponential hierarchy between
+
+420
+00:32:07,190 --> 00:32:10,550
+those two eigenvalues, but in any case, because
+
+421
+00:32:11,180 --> 00:32:14,450
+LAMDA plus is the larger eigenvalue, we can
+
+422
+00:32:14,900 --> 00:32:17,290
+rewrite our partition function
+
+423
+00:32:20,100 --> 00:32:23,120
+before we have to trust the power in this name
+
+424
+00:32:23,180 --> 00:32:26,900
+minus the power. And if we pull out of a factor of
+
+425
+00:32:26,900 --> 00:32:30,710
+LAMDA plus to the end times one plus that ratio of
+
+426
+00:32:30,710 --> 00:32:35,630
+the two eigenvalues as then becomes sufficiently
+
+427
+00:32:35,630 --> 00:32:36,230
+large.
+
+428
+00:32:38,280 --> 00:32:41,130
+Something less than one race to a large power.
+
+429
+00:32:41,440 --> 00:32:44,460
+It's going to be driven down to zero, leaving us
+
+430
+00:32:44,460 --> 00:32:47,920
+just with. And even simpler expressions for the
+
+431
+00:32:47,950 --> 00:32:52,840
+action function is the largest eigenvalue to the
+
+432
+00:32:52,840 --> 00:32:55,420
+power of the number of spins in our one
+
+433
+00:32:55,420 --> 00:32:59,200
+dimensional system. It can be right here pulling
+
+434
+00:32:59,200 --> 00:33:03,250
+out the overall factor of the hyperbolic cosine of.
+
+435
+00:33:04,380 --> 00:33:08,240
+Just to further emphasize how this is always. A
+
+436
+00:33:08,240 --> 00:33:13,370
+real positive result. So there it is, we've solved
+
+437
+00:33:13,370 --> 00:33:16,730
+the one dimensional using model. That's what the
+
+438
+00:33:17,060 --> 00:33:21,050
+solution looks like and it's not really.
+
+439
+00:33:24,030 --> 00:33:27,840
+Revelatory to sit and stare at all these
+
+440
+00:33:28,110 --> 00:33:31,950
+exponential factors, what we can do to extract
+
+441
+00:33:31,950 --> 00:33:36,360
+information from the solution is to use this to
+
+442
+00:33:36,840 --> 00:33:40,710
+predict some observables and in particular, we're
+
+443
+00:33:40,710 --> 00:33:46,330
+interested in the order parameter for the. Ordered
+
+444
+00:33:46,330 --> 00:33:49,000
+in disorder phases that we've been considering
+
+445
+00:33:49,000 --> 00:33:51,700
+this week as the metaphysician that we have
+
+446
+00:33:51,700 --> 00:33:57,760
+related to a derivative of the free energy. With
+
+447
+00:33:57,760 --> 00:34:02,320
+respect to the external magnetic field and maybe
+
+448
+00:34:02,320 --> 00:34:05,080
+worth mentioning, we're emphasizing in this
+
+449
+00:34:05,080 --> 00:34:07,840
+calculation that the order of limits.
+
+450
+00:34:09,920 --> 00:34:13,220
+Those that will take an interview tomorrow and
+
+451
+00:34:13,340 --> 00:34:15,620
+we're going to consider the zero field.
+
+452
+00:34:18,090 --> 00:34:22,050
+Is what the countries where we obtain solutions
+
+453
+00:34:22,050 --> 00:34:26,340
+from the population on Tuesday and.
+
+454
+00:34:28,360 --> 00:34:31,930
+Considering that Israel will limit, we have to set
+
+455
+00:34:31,980 --> 00:34:37,800
+the field to zero only after. Taking this
+
+456
+00:34:37,800 --> 00:34:40,860
+derivative of the free energy and getting the
+
+457
+00:34:41,040 --> 00:34:44,100
+result for people to parameter by doing that, we
+
+458
+00:34:44,100 --> 00:34:46,960
+don't have to worry about the absolute value that
+
+459
+00:34:46,960 --> 00:34:50,400
+we. Introduced, we were doing things more
+
+460
+00:34:50,730 --> 00:34:52,890
+heuristically last week.
+
+461
+00:34:54,890 --> 00:35:01,170
+And what we find so. We. Like in.
+
+462
+00:35:04,570 --> 00:35:05,260
+The.
+
+463
+00:35:07,900 --> 00:35:10,480
+Expression here that the petition functions said
+
+464
+00:35:10,510 --> 00:35:14,950
+is land of lost to power and then.
+
+465
+00:35:17,700 --> 00:35:20,340
+There is some simplification that.
+
+466
+00:35:22,540 --> 00:35:26,110
+Occurs to the derivative, so first of all, the
+
+467
+00:35:26,210 --> 00:35:28,870
+more that that power can bring down a factor in
+
+468
+00:35:28,870 --> 00:35:33,670
+the case that the one in the denominator and the
+
+469
+00:35:34,000 --> 00:35:38,050
+derivative of the logarithm is one over argue into
+
+470
+00:35:38,050 --> 00:35:41,410
+the law of the law. So.
+
+471
+00:35:43,970 --> 00:35:46,910
+Instead, at the end, pick up that one over there,
+
+472
+00:35:46,940 --> 00:35:51,380
+plus you still have to bailout the derivative of
+
+473
+00:35:51,590 --> 00:35:55,320
+us with respect to that magnetic field and then
+
+474
+00:35:56,540 --> 00:35:59,460
+evaluated that it will set off the magnetic field.
+
+475
+00:35:59,480 --> 00:36:06,100
+So what is that derivative of eigenvalue, the
+
+476
+00:36:06,130 --> 00:36:10,910
+transfer matrix with respect to the field? But at
+
+477
+00:36:10,930 --> 00:36:13,950
+it from. I work above
+
+478
+00:36:16,240 --> 00:36:21,340
+the times, I'd like to assign each the positive
+
+479
+00:36:21,340 --> 00:36:29,380
+side. And the square root. On to the costs would
+
+480
+00:36:29,390 --> 00:36:33,020
+have been a. Miles, to synch
+
+481
+00:36:35,490 --> 00:36:36,740
+to to better.
+
+482
+00:36:40,790 --> 00:36:46,110
+So each of these terms is going to. The main after
+
+483
+00:36:46,110 --> 00:36:51,290
+taking the H. On the eve of the bailout, we'll
+
+484
+00:36:51,290 --> 00:36:54,530
+just pass through the derivative of the cost is
+
+485
+00:36:54,530 --> 00:37:00,080
+going to give us hyperbolic some of bit H and when
+
+486
+00:37:00,080 --> 00:37:03,350
+we take the derivative of the square root of this
+
+487
+00:37:03,350 --> 00:37:06,110
+discriminators the quadratic equation, something
+
+488
+00:37:06,110 --> 00:37:07,550
+interesting happens, people.
+
+489
+00:37:10,820 --> 00:37:13,560
+So the argument for the square root will go to the
+
+490
+00:37:13,980 --> 00:37:20,580
+denominator. We have one over that square root of
+
+491
+00:37:21,510 --> 00:37:27,030
+the square and then the. Chain rule takes the
+
+492
+00:37:27,030 --> 00:37:28,460
+derivative of that argument.
+
+493
+00:37:31,750 --> 00:37:34,930
+Into the numerator, and if we call that, we can
+
+494
+00:37:35,410 --> 00:37:42,280
+pull out net overall growth sector. We can see
+
+495
+00:37:42,280 --> 00:37:46,690
+that in the second term, there will be an overall
+
+496
+00:37:46,690 --> 00:37:53,210
+factor of. Two times the coshed times the senge,
+
+497
+00:37:54,720 --> 00:37:58,170
+so overall up to some complicated, no matter what
+
+498
+00:37:58,170 --> 00:38:02,280
+the square root equations, both terms here and the
+
+499
+00:38:02,280 --> 00:38:06,270
+proportional to the hyperbolic senge, and when we
+
+500
+00:38:06,720 --> 00:38:12,930
+set that set H to zero, the argument of that
+
+501
+00:38:12,930 --> 00:38:15,870
+hyperbolic sentence goes to zero and we find
+
+502
+00:38:15,870 --> 00:38:20,480
+overall. That would setting it to zero in the
+
+503
+00:38:20,480 --> 00:38:21,970
+expression for the immigration.
+
+504
+00:38:24,530 --> 00:38:28,760
+We have zero magnetization with the zero
+
+505
+00:38:29,120 --> 00:38:35,360
+independent of the temperature, so. This is
+
+506
+00:38:36,830 --> 00:38:41,600
+something this application coming from the zero
+
+507
+00:38:41,600 --> 00:38:46,430
+field case. And what's more, it is the.
+
+508
+00:38:49,420 --> 00:38:54,100
+The proof of the claim that we discussed at the
+
+509
+00:38:54,100 --> 00:38:56,440
+end of our consideration that we feel
+
+510
+00:38:56,440 --> 00:39:01,500
+approximation. Zero field using one dimension has
+
+511
+00:39:02,100 --> 00:39:04,950
+no pasteurisation at all. The position is always
+
+512
+00:39:04,950 --> 00:39:08,640
+zero responding personality disorder phase, even
+
+513
+00:39:08,640 --> 00:39:13,650
+as the temperature goes to be vanishingly small
+
+514
+00:39:13,650 --> 00:39:19,490
+value. So. That is, of course, revealing the
+
+515
+00:39:19,640 --> 00:39:21,980
+administrations of the need for an approximation
+
+516
+00:39:21,980 --> 00:39:24,320
+before the election where there are a minimal
+
+517
+00:39:24,320 --> 00:39:27,470
+number of nearest neighbor interactions for the
+
+518
+00:39:27,470 --> 00:39:34,010
+system. We can also recall that last week we tried
+
+519
+00:39:34,010 --> 00:39:39,320
+to treat the independence of the dimensionality
+
+520
+00:39:39,320 --> 00:39:42,770
+and claim that there were always these two
+
+521
+00:39:42,770 --> 00:39:45,920
+different places at high temperatures and this one.
+
+522
+00:39:47,220 --> 00:39:50,610
+And that argument that we went through with
+
+523
+00:39:50,670 --> 00:39:54,130
+General mention is. Again, it is also being
+
+524
+00:39:54,130 --> 00:39:57,510
+contradicted by this exact result in the
+
+525
+00:39:57,590 --> 00:40:02,680
+individual case, so it's worth Rabinow. This.
+
+526
+00:40:04,230 --> 00:40:07,770
+Consideration of the individual case by thinking
+
+527
+00:40:07,770 --> 00:40:12,870
+about what went wrong in our discussions last week,
+
+528
+00:40:14,250 --> 00:40:15,960
+a bit more heuristic in terms of.
+
+529
+00:40:20,660 --> 00:40:24,040
+The two faces of these high temperatures will be
+
+530
+00:40:24,500 --> 00:40:27,500
+argued that high temperatures, all of the
+
+531
+00:40:27,500 --> 00:40:29,720
+microstates Appu with roughly equal probability.
+
+532
+00:40:31,000 --> 00:40:35,650
+And therefore, to the distribution of spin's with
+
+533
+00:40:35,650 --> 00:40:39,070
+the largest multiplicity wins. So that's the
+
+534
+00:40:39,070 --> 00:40:42,820
+factorial enhancements of the disorder stage with
+
+535
+00:40:42,860 --> 00:40:45,980
+roughly equal distance. And in contrast, we have
+
+536
+00:40:46,060 --> 00:40:48,400
+argued that more temperatures there is an
+
+537
+00:40:48,400 --> 00:40:52,480
+exponential preference for border states close to
+
+538
+00:40:52,480 --> 00:40:58,500
+the ground states where. We claim that the first
+
+539
+00:40:58,500 --> 00:41:01,650
+extended interview level was exponentially
+
+540
+00:41:01,800 --> 00:41:06,330
+suppressed and corresponded to the value of the
+
+541
+00:41:06,350 --> 00:41:09,810
+mobilization that was close to the maximum value
+
+542
+00:41:09,840 --> 00:41:15,000
+on. We treated that first extended energy level as
+
+543
+00:41:15,810 --> 00:41:18,900
+what we would have upon flipping a single skin.
+
+544
+00:41:20,040 --> 00:41:23,280
+Against the line, the others have taken this from
+
+545
+00:41:23,280 --> 00:41:26,430
+the ground, say the line to this first excited
+
+546
+00:41:26,430 --> 00:41:32,040
+state and there were no objections when we went
+
+547
+00:41:32,040 --> 00:41:36,000
+through that class is true for two dimensions at
+
+548
+00:41:36,000 --> 00:41:41,280
+higher. But there are uniquely in one dimension.
+
+549
+00:41:43,170 --> 00:41:43,920
+Difference.
+
+550
+00:41:46,060 --> 00:41:49,870
+States that also have the same energy as you can
+
+551
+00:41:49,880 --> 00:41:55,060
+get the biggest single step, and this is where it
+
+552
+00:41:55,060 --> 00:42:01,120
+might be worthwhile to draw that. So. Motivational
+
+553
+00:42:01,130 --> 00:42:05,900
+system on the board, if I suppose that you can
+
+554
+00:42:05,900 --> 00:42:13,360
+have. The same number of spins, more circular
+
+555
+00:42:13,370 --> 00:42:17,980
+pattern, feeling the links between them, one of
+
+556
+00:42:17,980 --> 00:42:20,150
+the ground states is where all the moral and the
+
+557
+00:42:20,170 --> 00:42:26,530
+negative about this line is to denote the minus
+
+558
+00:42:26,560 --> 00:42:29,470
+one down for the spin and consider flipping one of
+
+559
+00:42:29,500 --> 00:42:36,460
+those two plus spin plus one. This was one of the
+
+560
+00:42:36,460 --> 00:42:42,350
+microstates that. Has the maximum next of energy
+
+561
+00:42:42,530 --> 00:42:47,640
+for One Direction's. Instead of a minus and all
+
+562
+00:42:47,690 --> 00:42:52,590
+this in line to take out a positive contribution
+
+563
+00:42:52,590 --> 00:42:57,680
+to the energy of a plus two from each of you to
+
+564
+00:42:58,100 --> 00:43:01,250
+separate your actions of that spirit, that is an
+
+565
+00:43:01,250 --> 00:43:07,230
+energy, a minus and plus for. And there are days
+
+566
+00:43:07,260 --> 00:43:09,510
+where any one of these things can be said. So that
+
+567
+00:43:09,510 --> 00:43:12,360
+is what we went through before. And what happens
+
+568
+00:43:12,360 --> 00:43:15,870
+in one dimension or in one dimension, but not in
+
+569
+00:43:16,230 --> 00:43:21,930
+higher dimensions, is if we were to slip another
+
+570
+00:43:21,930 --> 00:43:25,530
+step and say this one up here, you would have a
+
+571
+00:43:25,530 --> 00:43:28,800
+higher energy positive contributions for those two
+
+572
+00:43:28,800 --> 00:43:32,580
+things, which is those two things. But if we were
+
+573
+00:43:32,580 --> 00:43:37,020
+to foot one of the two things, number one, we
+
+574
+00:43:37,020 --> 00:43:40,560
+already flipped. We now get back to a negative
+
+575
+00:43:40,560 --> 00:43:43,650
+contribution for the interaction between those two.
+
+576
+00:43:43,740 --> 00:43:46,560
+They are alive. And we still only have two
+
+577
+00:43:46,560 --> 00:43:50,500
+positive contributions now from these two. And
+
+578
+00:43:50,520 --> 00:43:54,440
+there's not clear for me to distinguish things in
+
+579
+00:43:54,450 --> 00:44:01,400
+here from these two links that surround the. Set
+
+580
+00:44:01,480 --> 00:44:04,070
+of neighboring spins that are aligned in the
+
+581
+00:44:04,070 --> 00:44:07,820
+opposite direction. So this is another microstates
+
+582
+00:44:07,820 --> 00:44:10,650
+that contributes to that first excitement and
+
+583
+00:44:11,510 --> 00:44:16,090
+again. Imagine rotating all these around the
+
+584
+00:44:16,090 --> 00:44:19,090
+circles near the other end possibilities,
+
+585
+00:44:21,910 --> 00:44:25,480
+and the same thing happens if we took the next
+
+586
+00:44:25,480 --> 00:44:26,890
+step again only
+
+587
+00:44:29,200 --> 00:44:34,390
+to positive contributions at the energy level as
+
+588
+00:44:34,930 --> 00:44:39,700
+more and more of the overall mobilization is
+
+589
+00:44:40,330 --> 00:44:45,550
+decreasing further and further away from. The
+
+590
+00:44:46,710 --> 00:44:50,370
+value of one, and in the case that I have out here,
+
+591
+00:44:50,900 --> 00:44:53,030
+we have flipped enough spins to have a vanishing
+
+592
+00:44:53,190 --> 00:44:58,540
+position with the same energy, that first energy
+
+593
+00:44:58,590 --> 00:45:04,310
+level. So it is not the case that all of the
+
+594
+00:45:04,670 --> 00:45:08,480
+microstates in this first extended interview will
+
+595
+00:45:08,510 --> 00:45:12,800
+have evangelisation close to one of the largest
+
+596
+00:45:12,800 --> 00:45:13,190
+Nimetz.
+
+597
+00:45:15,340 --> 00:45:19,130
+That is unique to one dimension where the rough
+
+598
+00:45:19,150 --> 00:45:24,850
+argument from last week was too, too quick to be
+
+599
+00:45:24,850 --> 00:45:29,680
+correct in that we have an exact solution. We can
+
+600
+00:45:29,680 --> 00:45:33,520
+see that accounting for all of these other
+
+601
+00:45:33,540 --> 00:45:35,230
+microstates with different elements of the
+
+602
+00:45:35,230 --> 00:45:38,660
+taxation that contributes to that first excitement,
+
+603
+00:45:38,830 --> 00:45:40,030
+excitement, energy level.
+
+604
+00:45:43,250 --> 00:45:43,840
+Ends up.
+
+605
+00:45:46,720 --> 00:45:50,240
+Removing the possibility of an order phase and a
+
+606
+00:45:50,440 --> 00:45:55,510
+transition in this one dimensional case. And.
+
+607
+00:45:59,300 --> 00:46:04,360
+It is useful in this exercise to. Draw and sort of
+
+608
+00:46:04,360 --> 00:46:05,800
+what I have here with these.
+
+609
+00:46:08,690 --> 00:46:13,000
+Double lines separating these domains of skills
+
+610
+00:46:13,040 --> 00:46:15,890
+that are on the line in one particular direction.
+
+611
+00:46:16,910 --> 00:46:22,460
+So this sort of analysis is often presented in
+
+612
+00:46:22,460 --> 00:46:29,300
+terms of walls, barriers between those two domains
+
+613
+00:46:30,050 --> 00:46:33,890
+where for the students boycott all the students
+
+614
+00:46:33,890 --> 00:46:40,100
+put down. And because if either of these domain
+
+615
+00:46:40,100 --> 00:46:45,140
+walls move around the system, they don't introduce
+
+616
+00:46:45,140 --> 00:46:50,360
+any energy costs. They. Shift the positive
+
+617
+00:46:50,360 --> 00:46:52,820
+contribution from one week to the next without
+
+618
+00:46:52,820 --> 00:46:56,840
+change the total number, we can analyze the system
+
+619
+00:46:56,840 --> 00:47:00,590
+as well as they can create a group so that we as a
+
+620
+00:47:00,590 --> 00:47:04,890
+country to grow without any energy costs. Covering
+
+621
+00:47:04,890 --> 00:47:10,420
+all values of the magnetization. With at least one
+
+622
+00:47:10,690 --> 00:47:11,290
+spin.
+
+623
+00:47:13,620 --> 00:47:16,440
+Not aligned with all the others, so covering that
+
+624
+00:47:16,650 --> 00:47:20,130
+nearly full range that approaches the full range
+
+625
+00:47:20,130 --> 00:47:26,640
+of atomisation as in increases so.
+
+626
+00:47:30,770 --> 00:47:34,830
+That's where our earlier discussion went wrong
+
+627
+00:47:35,530 --> 00:47:38,330
+with the one dimensional case and we will pick up
+
+628
+00:47:38,330 --> 00:47:41,390
+on Monday with the calculation of the two
+
+629
+00:47:41,390 --> 00:47:43,510
+dimensional critical temperature
+
+630
+00:47:46,130 --> 00:47:51,480
+there's. Not much point in starting that just in
+
+631
+00:47:51,480 --> 00:47:57,600
+the remaining minute shipping, this stopping point
+
+632
+00:47:57,600 --> 00:48:00,580
+at the end of the exact one dimensional solution I
+
+633
+00:48:00,630 --> 00:48:03,960
+just mentioned historically, this is this exact
+
+634
+00:48:03,960 --> 00:48:07,080
+solution and one dimensions is but using found is
+
+635
+00:48:07,650 --> 00:48:11,550
+the work that led him to conclude that the easy
+
+636
+00:48:11,550 --> 00:48:13,740
+model could not actually describe phase
+
+637
+00:48:13,740 --> 00:48:18,690
+transitions. Of course, at that point. So the
+
+638
+00:48:18,690 --> 00:48:22,300
+demonstration. That these conditions are indeed
+
+639
+00:48:23,050 --> 00:48:27,550
+possible, higher dimensions is a necessary step to
+
+640
+00:48:28,030 --> 00:48:31,930
+using models adoption and brought use to talk
+
+641
+00:48:31,960 --> 00:48:34,900
+about all sorts of things that the motivation.
+
+642
+00:48:35,880 --> 00:48:37,920
+When coming back from the spring break last week,
+
+643
+00:48:37,920 --> 00:48:42,840
+so we'll pick up with. What do you do about Monday?
+
+644
+00:48:42,870 --> 00:48:46,050
+Are there any questions about the one that is
+
+645
+00:48:46,110 --> 00:48:50,160
+involved before we shut down for this morning?
+
+646
+00:48:55,390 --> 00:48:58,300
+Not seeing any I will see you back in the
+
+647
+00:48:58,300 --> 00:49:03,360
+afternoon to over the. Variations of the model and
+
+648
+00:49:03,360 --> 00:49:05,790
+different set of structures and possibly other
+
+649
+00:49:08,040 --> 00:49:11,970
+fun things as time permits accuracy, then.
