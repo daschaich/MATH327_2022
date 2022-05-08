@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 9}
-\renewcommand{\moddate}{Last modified 5 May 2022}
+\renewcommand{\moddate}{Last modified 8 May 2022}
 \setcounter{section}{9}
 \setcounter{subsection}{0}
 \phantomsection
@@ -520,13 +520,15 @@ The two \textbf{domain walls} separating these domains are able to move freely t
 While the zero-field Ising model on the $d = 2$ square lattice has also been exactly solved, both Onsager's original calculation and subsequent re-derivations using simpler techniques go substantially beyond this module.
 However, a few years before Onsager published his famous result, \href{https://en.wikipedia.org/wiki/Hans_Kramers}{Hans Kramers} and \href{https://en.wikipedia.org/wiki/Gregory_Wannier}{G.~H.~Wannier} were able to determine the exact $d = 2$ critical temperature \href{https://doi.org/10.1103/PhysRev.60.252}{in 1941}.
 They did this by identifying a relation between two Ising model partition functions, without actually evaluating either sum over micro-states:
-\begin{equation*}
+\begin{equation}
+  \label{eq:dual_Z}
   \frac{Z(\be)}{2^N \cosh^{2N} \be} = \frac{Z(\betw)}{2e^{2N\betw}},
-\end{equation*}
+\end{equation}
 where the two inverse temperatures \be and \betw are related by
-\begin{equation*}
+\begin{equation}
+  \label{eq:dual_beta}
   \sinh(2\be) = \frac{1}{\sinh(2\betw)}.
-\end{equation*}
+\end{equation}
 This relation is now known as \href{https://en.wikipedia.org/wiki/Kramers-Wannier_duality}{Kramers--Wannier duality}, and the general concept of duality has become a powerful tool in modern theoretical physics.
 Note that small \be implies large \betw and vice versa --- the duality relates one $d = 2$ Ising model at a high temperature to another one at a low temperature.
 
@@ -631,10 +633,61 @@ It's easy to see that
   C_p(\be) = \left(\cosh \be\right) \exp\left[p \log \tanh \be\right] = \left(\cosh \be\right) \exp\left[\frac{1 - \stw_j \stw_k}{2} \log \tanh \be\right],
 \end{equation*}
 substituting $p = (1 - \stw_j \stw_k) / 2$.
-Breaking up the two terms in the exponential gives us
+Breaking up the exponential gives us
 \begin{equation*}
-  C_p(\be) = \left(\cosh \be \sinh \be\right)^{1 / 2} \exp\left[-\frac{1}{2} \stw_j \stw_k \log \sqrt{\tanh \be}\right].
+  C_p(\be) = \left(\cosh\be \sinh\be\right)^{1 / 2} \exp\left[-\frac{1}{2} \stw_j \stw_k \log \tanh \be\right].
+\end{equation*}
+Inserting this into the partition function, the product over all links just provides $2N$ factors of the $\stw_n$-independent first term, and we can then convert the product of exponentials into an exponential of the sum, producing
+\begin{equation*}
+  Z = \frac{1}{2} \left(2\cosh\be \sinh\be\right)^N \sum_{\left\{\stw\right\}} \exp\left[-\frac{\log \tanh \be}{2} \sum_{(jk)} \stw_j \stw_k\right].
 \end{equation*}
 
+If we define
+\begin{equation*}
+  \betw \equiv -\frac{\log \tanh \be}{2},
+\end{equation*}
+then we can recognize the sum over $\left\{\stw\right\}$ configurations as simply a zero-field Ising model partition function $Z(\betw)$ as in \eq{eq:Ising_zero_field}.
+We can also recognize this definition of \betw as equivalent to \eq{eq:dual_beta}:
+\begin{mdframed}
+  \ \\[100 pt]
+\end{mdframed}
+Using similar manipulations, we can express the spin-independent prefactor in terms of either \be or $\betw$,
+\begin{equation*}
+  2\cosh\be \sinh\be = \sinh(2\be) = \frac{1}{\sinh(2\betw)},
+\end{equation*}
+or in the mixed form that reproduces \eq{eq:dual_Z}:
+\begin{equation*}
+  2\cosh\be \sinh\be = 2\cosh^2 \be \tanh\be = \frac{2\cosh^2 \be}{e^{2\betw}} \quad \implies \quad \frac{Z(\be)}{\left(2\cosh^2\be\right)^N} = \frac{Z(\betw)}{2e^{2N\betw}}.
+\end{equation*}
 
+We have successfully derived Kramers--Wannier duality!
+Now let's briefly interpret what it means.
+It's a worthwhile \textbf{exercise} to show that multiplying a partition function by an overall spin-independent factor, $Z(\be) \to c(\be) Z(\be)$, has no effect on expectation values.
+(Try it!)
+Therefore the relation above identifies a $d = 2$ Ising system at temperature \be with another such system at temperature $\betw$, where small \be corresponds to large \betw and vice versa.
+
+However, this does \textit{not} mean that $d = 2$ Ising model behaves the same at low and high temperatures.
+Indeed, we saw already in \secref{sec:Ising_phases} that it changes between qualitatively different ordered and disordered phases in these two regimes.
+What Kramers--Wannier duality is telling us is that the ordered phase of Ising spins in two dimensions, characterized by their order parameter, is secretly equivalent to the disordered phase of the \textit{dual} spins --- a different set of degrees of freedom, which can be characterized by a `disorder parameter'.
+Similarly, the disordered phase of the original system maps onto the ordered phase of the dual system.
+
+If we assume there is a single phase transition where the ordered and disorederd phases coincide, then Kramers--Wannier duality implies this must occur when $\be = \betw$.
+In other words,
+\begin{equation*}
+  \sinh^2(2\be_c) = 1 \quad \Lra \quad \be_c = \frac{1}{2} \mathrm{arcsinh}(1) = \frac{\log\left(1 + \sqrt{2}\right)}{2} = 0.440686\dots,
+\end{equation*}
+recalling (or looking up) that $\mathrm{arcsinh}(x) = \log{x + \sqrt{x^2 + 1}}$.
+Because this exact critical temperature $T_c = 2 / \log\left(1 + \sqrt{2}\right) = 2.269185\dots$ was predicted three years before Onsager analytically solved the $d = 2$ Ising model, the fact that his solution correctly reproduced this $T_c$ was a significant check of its correctness.
+
+As mentioned at the start of this subsection, dualities of this sort are a pillar of theoretical physics in the 21st century.
+In general, these dualities are much more complicated than Kramers--Wannier duality, in two main ways.
+First, the dual degrees of freedom are typically different --- and have different interactions --- than the original degrees of freedom.
+For example, if we were to carry out a similar analysis of the three-dimensional Ising model, we would find that the dual system is \textit{not} just another Ising model. % TODO: It is a Z2 gauge theory, sometimes (perhaps confusingly) called an `Ising gauge model'...
+The $d = 2$ Ising model is a special case of a \textbf{self-dual} system, which we exploited to determine $T_c$.
+
+Second, the Ising model is special in that we were able to explicitly derive the duality it exhibits, which is typically not (yet) possible.
+Instead, most dualities have to be conjectured and then checked by subjecting them to as many tests as possible.
+For example, this is the case for \textit{holographic dualities} that are conjectured to relate certain theories of quantum gravity to non-gravitational quantum systems that can be much easier to analyze mathematically.
+As an aside, the fully connected lattice we encountereed in recent tutorials also makes an appearance in holography --- the behaviour of interacting fermions on this fully connected lattice (known as the \href{https://en.wikipedia.org/wiki/Sachdev-Ye-Kitaev_model}{SYK model}, named after Subir Sachdev, Jinwu Ye and Alexei Kitaev) is conjected to be dual to the gravitational dynamics of quantum black holes.
+Roughly \href{https://inspirehep.net/literature/342314}{one thousand} scientific studies of the SYK model and its conjectured holographic duality have been published since 2016!
 % ------------------------------------------------------------------
