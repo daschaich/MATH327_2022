@@ -1,0 +1,2551 @@
+1
+00:00:05,250 --> 00:00:11,100
+Okay, I think we can get going. Welcome to the final week of the teaching
+
+2
+00:00:11,100 --> 00:00:15,720
+term in Statistical Physics.  With the printer again
+
+3
+00:00:16,000 --> 00:00:21,490
+having trouble, we'll be a bit more impromptu
+
+4
+00:00:21,660 --> 00:00:24,940
+than usual today.  So starting with the six-digit code
+
+5
+00:00:29,440 --> 00:00:32,030
+for the system: six one, seven seven,
+
+6
+00:00:35,830 --> 00:00:36,330
+zero three.
+
+7
+00:00:39,010 --> 00:00:43,840
+The plan for today is now that we're in the last
+
+8
+00:00:43,840 --> 00:00:48,910
+week, we can do some more fun stuff looking at so-called
+
+9
+00:00:49,570 --> 00:00:51,670
+Kramers--Wannier duality that may be the most
+
+10
+00:00:51,670 --> 00:00:58,710
+mathematically complex bit of calculation that
+
+11
+00:00:58,850 --> 00:01:03,580
+we do.  But before we dive into dualities, let's
+
+12
+00:01:03,620 --> 00:01:09,230
+just regroup after the weekend and recall
+
+13
+00:01:13,610 --> 00:01:18,940
+the other part of the supplemental information
+
+14
+00:01:18,940 --> 00:01:22,450
+that we've been going through, on exact solutions to
+
+15
+00:01:23,650 --> 00:01:28,960
+these simple realizations of the Ising model.  So in
+
+16
+00:01:28,960 --> 00:01:34,320
+one dimension on Friday, we exactly solved that
+
+17
+00:01:34,340 --> 00:01:38,950
+using model, just this chain of spins pointing
+
+18
+00:01:38,990 --> 00:01:42,950
+either up or down with a vicious circle, the power
+
+19
+00:01:42,950 --> 00:01:49,460
+to split itself with the one, and that exact
+
+20
+00:01:49,460 --> 00:01:53,930
+solution gave us some nasty closed form expression
+
+21
+00:01:53,930 --> 00:01:58,070
+for the partition function, which. We don't
+
+22
+00:01:58,070 --> 00:02:01,010
+directly care about so much except as a means to
+
+23
+00:02:01,400 --> 00:02:04,220
+compute observable expectation values through
+
+24
+00:02:04,220 --> 00:02:09,110
+derivatives of free energy. So first of all, the
+
+25
+00:02:09,110 --> 00:02:13,190
+reason that we were able to solve this model in
+
+26
+00:02:13,190 --> 00:02:21,550
+one dimension and more was thanks to. The relation
+
+27
+00:02:21,550 --> 00:02:24,270
+between the links and sites, so there were the
+
+28
+00:02:24,710 --> 00:02:30,190
+same number of links as there were sites, and you
+
+29
+00:02:30,190 --> 00:02:34,300
+could rearrange the some of our nearest neighbor
+
+30
+00:02:34,300 --> 00:02:39,880
+interaction terms so as to recast it into a some
+
+31
+00:02:39,880 --> 00:02:44,230
+oversight's with constraints imposed on the values
+
+32
+00:02:44,230 --> 00:02:48,040
+of the site every point it appeared in that
+
+33
+00:02:48,340 --> 00:02:52,800
+petition function. That will be resolved through.
+
+34
+00:02:54,150 --> 00:02:56,760
+Formulating the calculation in terms of the
+
+35
+00:02:56,760 --> 00:03:01,320
+transfer matrix, matrix multiplication. Imposing
+
+36
+00:03:01,320 --> 00:03:03,360
+those constraints automatically for us, those
+
+37
+00:03:03,360 --> 00:03:06,270
+constraints will be something that comes up again
+
+38
+00:03:06,720 --> 00:03:10,980
+today in two dimensions. Now from the results for.
+
+39
+00:03:12,480 --> 00:03:16,720
+Magnetization coming from the. Derivative of the
+
+40
+00:03:16,720 --> 00:03:19,810
+free energy with respect, the feel feel our exact
+
+41
+00:03:19,810 --> 00:03:25,970
+solution. That was always vanishing for any
+
+42
+00:03:25,970 --> 00:03:31,370
+temperatures, for increased temperature data. So.
+
+43
+00:03:33,920 --> 00:03:39,230
+There is no easy transition at all in the one
+
+44
+00:03:39,230 --> 00:03:42,920
+dimensional realization, the easy ball that was
+
+45
+00:03:42,920 --> 00:03:47,000
+initially studied in the 1920s, which means, first
+
+46
+00:03:47,000 --> 00:03:50,990
+of all, that meaningful approximation that
+
+47
+00:03:50,990 --> 00:03:54,250
+predicts a second order phase transition. At a
+
+48
+00:03:55,180 --> 00:03:58,100
+critical temperature of two in this case would be
+
+49
+00:03:58,110 --> 00:04:02,000
+a critical experience of a half. You confirmed
+
+50
+00:04:02,000 --> 00:04:05,170
+that this fails badly in what direction, given
+
+51
+00:04:05,210 --> 00:04:09,590
+quantitatively the right results and our earlier
+
+52
+00:04:09,590 --> 00:04:14,750
+discussion in Section two that identified the
+
+53
+00:04:15,230 --> 00:04:18,380
+order disorder phases of using model without
+
+54
+00:04:18,890 --> 00:04:22,820
+explicitly considering the dimensionality also
+
+55
+00:04:22,820 --> 00:04:23,310
+failed.
+
+56
+00:04:25,550 --> 00:04:27,170
+Because it didn't take into account.
+
+57
+00:04:30,560 --> 00:04:31,130
+The.
+
+58
+00:04:33,450 --> 00:04:36,720
+Tussler microstates for that first excited energy
+
+59
+00:04:36,720 --> 00:04:39,090
+level that could have any value of the
+
+60
+00:04:39,090 --> 00:04:40,080
+magnetization.
+
+61
+00:04:42,310 --> 00:04:43,300
+Serrations.
+
+62
+00:04:45,450 --> 00:04:50,580
+We phrase this in terms of domains of upward and
+
+63
+00:04:50,580 --> 00:04:54,030
+downward, what extends with domain walls between
+
+64
+00:04:54,030 --> 00:04:56,370
+the necrophiliac to move around the system,
+
+65
+00:04:56,520 --> 00:05:00,160
+producing microstates with any value of
+
+66
+00:05:00,330 --> 00:05:04,410
+magnetization, but the same energy.
+
+67
+00:05:11,060 --> 00:05:13,760
+Is one of the arguments that we went through more
+
+68
+00:05:13,760 --> 00:05:17,570
+quickly, probably we than first considering using
+
+69
+00:05:17,570 --> 00:05:19,760
+moral high and low temperature limits.
+
+70
+00:05:22,650 --> 00:05:26,260
+So are there any questions about. The one the
+
+71
+00:05:26,260 --> 00:05:30,300
+exact solution more. Anything that came before it,
+
+72
+00:05:30,300 --> 00:05:33,840
+before we go and see what we can do in one
+
+73
+00:05:33,840 --> 00:05:37,590
+dimension higher up in the two dimensional system.
+
+74
+00:05:42,760 --> 00:05:47,780
+Although. The two dimensional using model with.
+
+75
+00:05:48,660 --> 00:05:52,890
+Zero zero feel and the square lasts without any
+
+76
+00:05:52,890 --> 00:05:56,850
+frustration. There is an exact solution for the
+
+77
+00:05:56,860 --> 00:06:02,650
+system by Morrisson Singer of the 1940s, which is
+
+78
+00:06:02,760 --> 00:06:07,740
+sort of a superhuman feat of mathematics. That is
+
+79
+00:06:07,740 --> 00:06:10,350
+one of those things you can read through it and
+
+80
+00:06:10,350 --> 00:06:12,240
+don't really learn anything except that the
+
+81
+00:06:12,390 --> 00:06:15,990
+Vatican installations all over Dallas. But
+
+82
+00:06:17,340 --> 00:06:20,130
+historically, in fact, before about three years
+
+83
+00:06:20,130 --> 00:06:24,450
+before Einziger came up with that solution, there
+
+84
+00:06:24,450 --> 00:06:29,160
+was a bit of a breakthrough made by two other
+
+85
+00:06:29,160 --> 00:06:33,780
+physicists named Tom Kramers and Gregory William.
+
+86
+00:06:34,990 --> 00:06:40,060
+We're actually able to determine the exact
+
+87
+00:06:40,180 --> 00:06:42,650
+critical temperature of the two dimensional using
+
+88
+00:06:42,700 --> 00:06:46,810
+model without being able to solve it. And then
+
+89
+00:06:46,820 --> 00:06:51,730
+Ozgur subsequently proposed a solution, is able to
+
+90
+00:06:51,730 --> 00:06:54,970
+confirm and check that it did indeed reproduce
+
+91
+00:06:54,970 --> 00:06:58,240
+this critical temperature that we will be dropping
+
+92
+00:06:58,870 --> 00:07:02,950
+today, possibly wrapping up tomorrow morning. This
+
+93
+00:07:02,950 --> 00:07:05,020
+is one of the more complicated calculations that I
+
+94
+00:07:05,020 --> 00:07:09,310
+don't want to to rush through the basic idea. Just
+
+95
+00:07:09,310 --> 00:07:13,840
+to have a goal in mind as we go through this
+
+96
+00:07:14,230 --> 00:07:18,700
+supplementary subsection is that we want to show
+
+97
+00:07:18,700 --> 00:07:22,690
+that two different easy models at different but
+
+98
+00:07:22,690 --> 00:07:27,940
+related in temperature is better until they are
+
+99
+00:07:27,970 --> 00:07:31,210
+related with these funny looking three factors
+
+100
+00:07:31,210 --> 00:07:35,500
+that we were hoping to derive to the petition
+
+101
+00:07:35,500 --> 00:07:38,040
+function for that to the easy model that
+
+102
+00:07:38,050 --> 00:07:42,480
+temperature data is that proportional to. The
+
+103
+00:07:42,490 --> 00:07:45,430
+partition partition for the difference is the
+
+104
+00:07:45,440 --> 00:07:47,620
+model in two dimensions at a different.
+
+105
+00:07:49,420 --> 00:07:52,450
+Temperature, Tilde, and the specific relation
+
+106
+00:07:52,450 --> 00:07:55,360
+between beard and beard is held, it is given by
+
+107
+00:07:56,020 --> 00:07:59,050
+the inverse relationship between a hyperbolic
+
+108
+00:07:59,050 --> 00:08:06,910
+cinches of too big and too big to kill. So this is
+
+109
+00:08:08,350 --> 00:08:11,110
+this relation is now known as Kramers
+
+110
+00:08:11,120 --> 00:08:15,430
+biodegradability and is one of the earliest
+
+111
+00:08:15,430 --> 00:08:21,130
+examples of. This more general concept of duality,
+
+112
+00:08:21,970 --> 00:08:24,220
+not the earliest, but one of the real
+
+113
+00:08:24,220 --> 00:08:27,790
+breakthroughs in its development where duality has
+
+114
+00:08:28,930 --> 00:08:31,960
+become one of the most powerful tools in twenty
+
+115
+00:08:31,960 --> 00:08:36,220
+first century theoretical physics, perhaps most
+
+116
+00:08:36,220 --> 00:08:38,790
+famously through so-called holographic duality,
+
+117
+00:08:38,890 --> 00:08:42,220
+stimulate certain theories of quantum gravity to
+
+118
+00:08:42,220 --> 00:08:46,260
+simpler systems that resemble, in many ways the
+
+119
+00:08:46,270 --> 00:08:48,850
+physical systems we've been working with,
+
+120
+00:08:49,540 --> 00:08:54,180
+especially in this unit on track and theories. So
+
+121
+00:08:54,180 --> 00:08:58,560
+one thing to note in this equation, 120 to related
+
+122
+00:08:58,590 --> 00:09:01,410
+to temperatures of the two parties and functions,
+
+123
+00:09:02,040 --> 00:09:05,640
+is that when one of these babies is large, as
+
+124
+00:09:05,670 --> 00:09:08,820
+large, the the other must be small. So there's an
+
+125
+00:09:08,820 --> 00:09:14,060
+inverse relation between the temperature and the
+
+126
+00:09:14,070 --> 00:09:18,290
+dual temperature. The same thing holds if it is
+
+127
+00:09:18,300 --> 00:09:22,320
+small, the atmosphere must be large. And so it's
+
+128
+00:09:22,320 --> 00:09:27,330
+also for the temperature itself. So this is
+
+129
+00:09:27,720 --> 00:09:33,630
+another general feature of Dallis that. One of the
+
+130
+00:09:33,960 --> 00:09:37,560
+pairs of dual systems is that some high
+
+131
+00:09:37,560 --> 00:09:41,160
+temperature or resemble settings, a strong
+
+132
+00:09:41,160 --> 00:09:44,400
+coupling, and it gets related to a different
+
+133
+00:09:44,400 --> 00:09:49,370
+system and a low temperature or recoupling. And
+
+134
+00:09:49,370 --> 00:09:53,090
+vice versa, which allows different approximation
+
+135
+00:09:53,090 --> 00:09:55,550
+techniques to be applied in those different
+
+136
+00:09:55,550 --> 00:10:01,220
+regimes. So one thing we could do to the build up
+
+137
+00:10:01,220 --> 00:10:05,180
+to this overall result of going after is then
+
+138
+00:10:05,930 --> 00:10:09,110
+carry out the high and low temperature expansions
+
+139
+00:10:09,470 --> 00:10:13,220
+of the two dimensional model, much as we did for
+
+140
+00:10:13,220 --> 00:10:18,230
+knowledge and systems. And also, as we saw for
+
+141
+00:10:18,680 --> 00:10:21,470
+some of the homework problems even last week,
+
+142
+00:10:22,010 --> 00:10:26,000
+really, we replaced discrete spins with variables
+
+143
+00:10:26,510 --> 00:10:29,990
+and looked at the high temperature limits simplify
+
+144
+00:10:31,850 --> 00:10:35,120
+in the interests of time. Even though this is a
+
+145
+00:10:35,120 --> 00:10:40,460
+supplement, we will skip over that exercise.
+
+146
+00:10:48,790 --> 00:10:52,900
+You can find the basic methods to do it in some of
+
+147
+00:10:52,930 --> 00:10:54,610
+the the references that
+
+148
+00:10:56,620 --> 00:10:58,900
+are in the very beginning of the lecture, notes
+
+149
+00:10:59,320 --> 00:11:03,550
+David Thomas lectures on statistical physics. The
+
+150
+00:11:03,550 --> 00:11:07,990
+only downside to skipping that motivational
+
+151
+00:11:07,990 --> 00:11:09,810
+exercise is looking at the high and low
+
+152
+00:11:09,820 --> 00:11:12,490
+temperature limits of existing models. Is that
+
+153
+00:11:12,490 --> 00:11:18,370
+some of the tricks we will apply are motivated by
+
+154
+00:11:18,370 --> 00:11:23,170
+that and that seem to come out of thin air just
+
+155
+00:11:23,170 --> 00:11:26,380
+going through things more directly. The first of
+
+156
+00:11:26,380 --> 00:11:31,190
+those is is an example where we start off with two
+
+157
+00:11:31,360 --> 00:11:33,810
+is multiplication function that we know of
+
+158
+00:11:35,320 --> 00:11:37,630
+exponential with minus beta types. The energy
+
+159
+00:11:37,630 --> 00:11:40,970
+energy itself is that some of our own neighbor
+
+160
+00:11:40,970 --> 00:11:44,030
+repairs of the product of spins on those nearest
+
+161
+00:11:44,030 --> 00:11:48,010
+the sites magnetic field is set to zero and we fix
+
+162
+00:11:48,520 --> 00:11:53,200
+two dimensions. So each site has four nearest
+
+163
+00:11:53,200 --> 00:11:56,560
+neighbors in this cell. Left, right and up and
+
+164
+00:11:56,590 --> 00:12:02,880
+down. Now, as usual, the exponential sum is
+
+165
+00:12:02,880 --> 00:12:05,220
+converted to the product of exponential factors
+
+166
+00:12:06,000 --> 00:12:06,630
+and then
+
+167
+00:12:08,910 --> 00:12:12,330
+uniquely because the speed variables and the easy
+
+168
+00:12:12,330 --> 00:12:17,020
+model are always just plus or minus one another,
+
+169
+00:12:17,220 --> 00:12:21,540
+they are multiplied or not. We can rewrite the
+
+170
+00:12:21,540 --> 00:12:25,260
+exponential factor in terms of hyper trigonometric
+
+171
+00:12:25,260 --> 00:12:29,880
+functions, which is easy to check just by brute
+
+172
+00:12:29,880 --> 00:12:36,750
+force. If we plug in the possibility SJS K
+
+173
+00:12:37,620 --> 00:12:43,330
+positive one, then on one side. This identity
+
+174
+00:12:43,330 --> 00:12:49,690
+we've declared would have. Plus, Lustbader, and on
+
+175
+00:12:49,740 --> 00:12:54,040
+the other side, you would have a clash. He's a
+
+176
+00:12:54,060 --> 00:12:58,660
+debater plus into the minus beta, plus the cinch,
+
+177
+00:12:59,570 --> 00:13:03,240
+if the beta minus even want to speed up. Where
+
+178
+00:13:03,900 --> 00:13:07,650
+those two terms cancel and we get even better
+
+179
+00:13:07,650 --> 00:13:13,470
+equals to the better. And similarly, the only
+
+180
+00:13:13,470 --> 00:13:15,300
+other possible.
+
+181
+00:13:17,540 --> 00:13:21,830
+Set up where the product is negative. On the left
+
+182
+00:13:21,830 --> 00:13:25,550
+hand side, that picks up the negative one to be to
+
+183
+00:13:25,550 --> 00:13:29,390
+the negative bitter and the negative sides appear
+
+184
+00:13:29,390 --> 00:13:35,000
+in a slightly different place from the other
+
+185
+00:13:35,000 --> 00:13:40,570
+presence of that factor of SJT Times case. So now
+
+186
+00:13:40,580 --> 00:13:44,720
+it's the Pluspetrol terms that cancel. And we've
+
+187
+00:13:44,720 --> 00:13:49,130
+confirmed this first. Rewriting of the protection
+
+188
+00:13:49,130 --> 00:13:54,450
+function in terms of. Cautious and cinches of the
+
+189
+00:13:54,770 --> 00:13:59,930
+temperature with this factor, the nearest neighbor,
+
+190
+00:14:00,210 --> 00:14:02,540
+skin products, time to ask.
+
+191
+00:14:04,700 --> 00:14:10,360
+And. What we are going to do with that expression
+
+192
+00:14:10,570 --> 00:14:15,940
+is rewrite the sum of two terms as an explicit sum
+
+193
+00:14:16,780 --> 00:14:23,700
+over two terms. Where we will raise this product
+
+194
+00:14:23,740 --> 00:14:27,620
+spent SJS Cages of Power PJAK, so a different
+
+195
+00:14:27,620 --> 00:14:31,280
+power for every year as they prepare for the every
+
+196
+00:14:31,460 --> 00:14:35,330
+link in the labs and we will multiply that by a
+
+197
+00:14:35,330 --> 00:14:39,020
+baby dependent's prefecture, the capital C, with
+
+198
+00:14:39,050 --> 00:14:41,870
+that same subscripts, that power of zero one
+
+199
+00:14:42,500 --> 00:14:48,530
+responding to the side of. Times something to the
+
+200
+00:14:48,530 --> 00:14:52,970
+power. Zero is just cosmetic by itself, when see
+
+201
+00:14:53,720 --> 00:14:58,120
+when P equals one, we identify C one with the of
+
+202
+00:14:58,160 --> 00:15:02,750
+data with a escaped space. The power one.
+
+203
+00:15:04,750 --> 00:15:12,050
+So. We now have a product overall to add links in
+
+204
+00:15:12,050 --> 00:15:17,060
+this two dimensional lattice and we some over a
+
+205
+00:15:17,060 --> 00:15:22,040
+variable power that takes two values for each of
+
+206
+00:15:22,040 --> 00:15:23,960
+those to add links.
+
+207
+00:15:26,060 --> 00:15:32,390
+And if we just simplify the organization of this.
+
+208
+00:15:33,960 --> 00:15:38,540
+Is to rearrange this product of Solms into the
+
+209
+00:15:38,590 --> 00:15:41,850
+so-called configuration systems of just the same
+
+210
+00:15:42,240 --> 00:15:45,540
+sort of setup that we've been dealing with in
+
+211
+00:15:45,540 --> 00:15:47,880
+terms of the spins on the log and the partition
+
+212
+00:15:47,880 --> 00:15:50,970
+function, the microstates are defined by all
+
+213
+00:15:50,970 --> 00:15:54,960
+possible configurations of spins, happy values,
+
+214
+00:15:54,960 --> 00:15:59,220
+plus one or minus one point down. And we can
+
+215
+00:15:59,220 --> 00:16:02,790
+recognize that this combination of the product and
+
+216
+00:16:02,790 --> 00:16:06,870
+some is also accounting for all possible
+
+217
+00:16:06,870 --> 00:16:10,680
+combinations of these powers being either zero or
+
+218
+00:16:10,680 --> 00:16:16,740
+one now on the two end wings of the two
+
+219
+00:16:16,740 --> 00:16:18,420
+dimensional. That is with us.
+
+220
+00:16:20,790 --> 00:16:25,320
+And I will probably start talking more loosely
+
+221
+00:16:25,320 --> 00:16:30,240
+that whenever one of these powers, PJAK equals one,
+
+222
+00:16:30,840 --> 00:16:33,120
+we can say that the corresponding link between
+
+223
+00:16:33,120 --> 00:16:36,870
+sites Chain K is on and similarly, that link is
+
+224
+00:16:36,960 --> 00:16:40,800
+off when that power equals zero sum of all
+
+225
+00:16:40,800 --> 00:16:46,190
+possible configurations of. Ways of turning the
+
+226
+00:16:46,190 --> 00:16:52,810
+two lakes all off in the system. So that is sort
+
+227
+00:16:52,810 --> 00:16:55,870
+of the first big step toward the Kramers wanted.
+
+228
+00:16:55,900 --> 00:17:00,100
+Well, it is so clear so far what we are doing is
+
+229
+00:17:00,100 --> 00:17:01,300
+not necessarily by.
+
+230
+00:17:07,640 --> 00:17:10,310
+If there are objections coming up for that, I was
+
+231
+00:17:10,310 --> 00:17:15,620
+shocked about, but by recasting this product of
+
+232
+00:17:15,620 --> 00:17:18,950
+cells in terms of their configuration, so we are
+
+233
+00:17:18,950 --> 00:17:25,070
+left with a convenient. Products as the innermost
+
+234
+00:17:25,080 --> 00:17:29,370
+level of operations we have to do to define this
+
+235
+00:17:29,730 --> 00:17:32,580
+function, which is convenience, we can split it up
+
+236
+00:17:32,580 --> 00:17:36,570
+into the two parts, one of which depends on the
+
+237
+00:17:36,810 --> 00:17:39,780
+temperature data, but not Austins, the other of
+
+238
+00:17:39,780 --> 00:17:43,410
+which depends on spins, not on that in temperature.
+
+239
+00:17:45,770 --> 00:17:46,550
+And.
+
+240
+00:17:49,090 --> 00:17:53,280
+Focusing on the. Only remaining evidence of the
+
+241
+00:17:53,280 --> 00:17:58,440
+spin that isolated this to be a product of all
+
+242
+00:17:58,440 --> 00:18:02,600
+pairs of skins, nearest neighbor gators over all
+
+243
+00:18:02,630 --> 00:18:08,730
+the links to the LAS. So within that product, over
+
+244
+00:18:08,740 --> 00:18:13,300
+all of those legs, any given spin is going to show
+
+245
+00:18:13,300 --> 00:18:17,330
+up four times. So if that is the standard
+
+246
+00:18:17,800 --> 00:18:21,100
+deviation of these four nearest neighbors in two
+
+247
+00:18:21,100 --> 00:18:25,780
+dimensions all over each of those four legs.
+
+248
+00:18:32,060 --> 00:18:32,380
+Next
+
+249
+00:18:34,580 --> 00:18:35,780
+on this one at.
+
+250
+00:18:38,970 --> 00:18:39,360
+Yes.
+
+251
+00:18:41,720 --> 00:18:49,430
+Up. The four powers of Essive Ed raised to the
+
+252
+00:18:49,700 --> 00:18:53,950
+four different key variables to respond to
+
+253
+00:18:55,520 --> 00:18:59,590
+individually each of these four legs. I think
+
+254
+00:19:01,820 --> 00:19:04,300
+what is shown on the next page,
+
+255
+00:19:06,410 --> 00:19:09,870
+so there was a. Type in here that I connected my
+
+256
+00:19:09,870 --> 00:19:14,040
+hands and that was printed and copied, so each
+
+257
+00:19:14,040 --> 00:19:19,170
+link appears in four times the sum over words for
+
+258
+00:19:19,410 --> 00:19:23,970
+nearest neighbors. So we can define the overall
+
+259
+00:19:24,540 --> 00:19:29,610
+part of those four factors of the spin as that
+
+260
+00:19:30,150 --> 00:19:32,730
+leads to a capital P power that depends only on
+
+261
+00:19:32,730 --> 00:19:38,960
+the site and sums over all of the. Lower case
+
+262
+00:19:38,960 --> 00:19:42,770
+powers, zero or one, the corresponding to these
+
+263
+00:19:42,770 --> 00:19:45,200
+four banks being either on or off.
+
+264
+00:19:48,100 --> 00:19:48,700
+And then.
+
+265
+00:19:51,390 --> 00:19:56,420
+Repeating that for all and of the links all end of
+
+266
+00:19:56,430 --> 00:20:00,910
+the spectrum, the system. Accounting for all of
+
+267
+00:20:00,910 --> 00:20:06,600
+the. Links that they are attached to. We can move
+
+268
+00:20:06,600 --> 00:20:11,100
+the configuration over to the spin's themselves
+
+269
+00:20:12,120 --> 00:20:16,740
+through the skin independence concept vectors, see
+
+270
+00:20:16,760 --> 00:20:24,650
+the OR side. And consider what happens in the
+
+271
+00:20:24,650 --> 00:20:28,820
+overall plot oversights as we sum over all
+
+272
+00:20:28,820 --> 00:20:32,780
+possible values for the individual things that are
+
+273
+00:20:32,780 --> 00:20:38,180
+now raised to this complicated power, some for.
+
+274
+00:20:39,590 --> 00:20:44,810
+There are variables to zero one that live on the
+
+275
+00:20:44,810 --> 00:20:46,450
+four legs that has to be slight.
+
+276
+00:20:49,940 --> 00:20:51,380
+And as there are.
+
+277
+00:20:55,560 --> 00:20:59,310
+Only two possible values that each state can take,
+
+278
+00:20:59,880 --> 00:21:04,590
+the sum of each of the state variables in the
+
+279
+00:21:04,590 --> 00:21:07,370
+configuration. Some is fairly easy to think about.
+
+280
+00:21:09,070 --> 00:21:12,730
+It will break up in the usual way like this on the
+
+281
+00:21:12,730 --> 00:21:20,730
+long track, Chase will have. Horsfield. Yes, and
+
+282
+00:21:21,570 --> 00:21:25,680
+because neither minus one, plus one in the song,
+
+283
+00:21:26,250 --> 00:21:31,220
+you have the stuff going to one to this karaoke
+
+284
+00:21:31,240 --> 00:21:37,590
+and plus minus one race to the. So if Pat is on,
+
+285
+00:21:38,910 --> 00:21:42,330
+then those positive and negative contributions
+
+286
+00:21:42,720 --> 00:21:48,180
+will cancel. It will be the contribution of 08,
+
+287
+00:21:48,390 --> 00:21:51,420
+the petition function from that particular site
+
+288
+00:21:51,580 --> 00:21:54,870
+for this particular stinking federation. And as it
+
+289
+00:21:54,870 --> 00:21:58,440
+is a product overall site, the product as a whole
+
+290
+00:21:58,620 --> 00:22:03,400
+will be set to zero and just vanish. So the only
+
+291
+00:22:03,400 --> 00:22:07,210
+contributions to the petition function will come
+
+292
+00:22:07,360 --> 00:22:11,890
+when this summer over the powers of the four
+
+293
+00:22:11,890 --> 00:22:16,000
+nearest neighbor lakes is even either zero, two or
+
+294
+00:22:16,000 --> 00:22:19,000
+four. Those are the only possibilities that we
+
+295
+00:22:19,000 --> 00:22:23,350
+have, in which case these two contributions will
+
+296
+00:22:23,650 --> 00:22:31,730
+add some up to two. So. Any non-zero contribution
+
+297
+00:22:31,730 --> 00:22:35,330
+to the protection function will bring in this
+
+298
+00:22:35,330 --> 00:22:42,190
+factory to. And a chronic or delta defined here,
+
+299
+00:22:42,580 --> 00:22:47,680
+that is Delta up two to develop the knowledge to
+
+300
+00:22:48,130 --> 00:22:54,550
+chronic or Delta where this is very similar to the
+
+301
+00:22:54,610 --> 00:22:58,900
+usual chronic delta. It is one whenever the
+
+302
+00:22:58,990 --> 00:23:03,190
+argument is that even number. So it equals zero
+
+303
+00:23:03,310 --> 00:23:04,840
+bodies to.
+
+304
+00:23:07,570 --> 00:23:13,050
+Vanishes if the arguments over the powers are
+
+305
+00:23:13,120 --> 00:23:15,820
+never as much as non-zero.
+
+306
+00:23:18,500 --> 00:23:23,120
+So we can pull out those benefactors of to. In
+
+307
+00:23:23,120 --> 00:23:27,590
+front of all of the rest of the mutilations going
+
+308
+00:23:27,590 --> 00:23:32,730
+on that were left with just a. Product. Well,
+
+309
+00:23:33,000 --> 00:23:38,780
+that's. Break down, what is going on in? This
+
+310
+00:23:38,780 --> 00:23:43,690
+equation, 123 of the milestones of the procedure.
+
+311
+00:23:44,660 --> 00:23:51,710
+We have. No more thumbs over the stills, so all of
+
+312
+00:23:51,710 --> 00:23:55,010
+the original spin degrees of freedom have been
+
+313
+00:23:55,130 --> 00:23:58,880
+sold over that configuration. So you've accounted
+
+314
+00:23:58,880 --> 00:24:01,570
+for all of them and are left with the Cortini
+
+315
+00:24:01,790 --> 00:24:05,780
+configuration. So we introduced over the Powers
+
+316
+00:24:05,960 --> 00:24:10,250
+011. So Oversight's.
+
+317
+00:24:16,140 --> 00:24:19,560
+And for all of those considerations, we take the
+
+318
+00:24:19,560 --> 00:24:25,240
+product of regulatory functions. Over all of those
+
+319
+00:24:25,240 --> 00:24:29,620
+sites and then multiply that by the product out
+
+320
+00:24:30,010 --> 00:24:36,490
+and by two product deltas that require that. For
+
+321
+00:24:36,490 --> 00:24:42,310
+peace on both sides or add up to an even number,
+
+322
+00:24:42,310 --> 00:24:46,090
+some even number of links connected to each site
+
+323
+00:24:46,420 --> 00:24:53,890
+is turned on and. The key that makes this tricky.
+
+324
+00:24:54,950 --> 00:24:59,410
+Is that in order for that product to be down zero,
+
+325
+00:24:59,960 --> 00:25:04,340
+every single site has to have an even number of
+
+326
+00:25:06,380 --> 00:25:10,160
+links connected to it as we go across this whole
+
+327
+00:25:10,220 --> 00:25:14,100
+two dimensional lattice and sites. So there are
+
+328
+00:25:14,880 --> 00:25:19,380
+there's a set of and interrelated constraints on
+
+329
+00:25:20,160 --> 00:25:23,590
+this petition function. As
+
+330
+00:25:25,930 --> 00:25:28,630
+as we checked, to make sure that all the powers
+
+331
+00:25:29,170 --> 00:25:34,390
+connected to giving sites and even number of those
+
+332
+00:25:34,390 --> 00:25:38,230
+powers also affect the similar things at all, the
+
+333
+00:25:38,230 --> 00:25:41,050
+nearest neighbor sites that have their three other
+
+334
+00:25:41,050 --> 00:25:45,010
+contributions that then have to add up to even
+
+335
+00:25:45,010 --> 00:25:47,280
+numbers in terms.
+
+336
+00:25:52,320 --> 00:25:58,290
+Although we've taken care of the original some of
+
+337
+00:25:58,430 --> 00:26:02,730
+the Oscar configurations you now have at the.
+
+338
+00:26:06,990 --> 00:26:10,110
+The new configuration cell that we introduced over
+
+339
+00:26:11,010 --> 00:26:14,370
+configurations of links being pulled off is now
+
+340
+00:26:14,370 --> 00:26:18,870
+subject to an interrelated constraints.
+
+341
+00:26:22,210 --> 00:26:27,130
+Ensuring that at every later sites there is a.
+
+342
+00:26:30,110 --> 00:26:34,800
+Even number of links to another zero two four four.
+
+343
+00:26:35,240 --> 00:26:39,590
+And what these constraints are. Effectively
+
+344
+00:26:39,590 --> 00:26:44,240
+telling us is that the on off variables we've
+
+345
+00:26:44,240 --> 00:26:48,310
+introduced are not really independent, which may
+
+346
+00:26:48,320 --> 00:26:51,290
+be intuitively obvious given that there are twice
+
+347
+00:26:51,290 --> 00:26:54,170
+as many links interventions as there are sites.
+
+348
+00:26:54,830 --> 00:26:57,650
+And if we started off with a statistical system
+
+349
+00:26:57,650 --> 00:27:02,000
+that had only been seven degrees of freedom with
+
+350
+00:27:02,000 --> 00:27:04,360
+two values we've tried to rewrite, we've
+
+351
+00:27:04,370 --> 00:27:07,040
+successfully rewritten that in terms of a
+
+352
+00:27:07,040 --> 00:27:11,420
+different set to enter those again, each with two
+
+353
+00:27:11,420 --> 00:27:15,110
+values, zero one rather than plus or minus one.
+
+354
+00:27:16,170 --> 00:27:22,310
+There is necessarily some redundancy in. The sum
+
+355
+00:27:22,390 --> 00:27:24,910
+of all configurations of that larger number of
+
+356
+00:27:24,910 --> 00:27:28,780
+degrees of freedom that is representing the
+
+357
+00:27:28,780 --> 00:27:33,520
+original system. So at this point, if you were
+
+358
+00:27:33,520 --> 00:27:38,320
+trying to solve the easy model in this way, we
+
+359
+00:27:38,770 --> 00:27:42,340
+might seem a bit stuck in possibly going down the
+
+360
+00:27:43,000 --> 00:27:43,950
+wrong alley.
+
+361
+00:27:47,170 --> 00:27:50,770
+And maybe I should pause before going out just to
+
+362
+00:27:50,770 --> 00:27:54,580
+check in that everything, the manipulation is
+
+363
+00:27:54,580 --> 00:27:59,530
+going on so far here, along with the qualitative
+
+364
+00:28:00,280 --> 00:28:04,650
+story that. We've done a bunch of manipulations to
+
+365
+00:28:04,650 --> 00:28:07,920
+our system and something that, if anything, looks
+
+366
+00:28:07,920 --> 00:28:11,910
+even trickier to solve than be at our starting
+
+367
+00:28:11,910 --> 00:28:15,150
+points in terms of the degrees of freedom.
+
+368
+00:28:19,080 --> 00:28:27,840
+The. triple-O. The key is that having gone through
+
+369
+00:28:27,840 --> 00:28:31,530
+this procedure to replace the original seven
+
+370
+00:28:31,530 --> 00:28:35,880
+degrees of freedom with these new link variables,
+
+371
+00:28:36,330 --> 00:28:41,070
+people subject for years, they say, OK, we can
+
+372
+00:28:41,640 --> 00:28:46,260
+partially undo, unwind that work by introducing a
+
+373
+00:28:46,890 --> 00:28:53,670
+new set of. Spins plus or minus one, and then try
+
+374
+00:28:53,670 --> 00:28:57,390
+working backwards to get more or less back to our
+
+375
+00:28:57,390 --> 00:29:01,920
+starting points, but we're not exactly undoing
+
+376
+00:29:01,920 --> 00:29:03,300
+everything we've done. And getting back to the
+
+377
+00:29:03,300 --> 00:29:05,670
+original case, we want to do something a bit
+
+378
+00:29:05,670 --> 00:29:11,260
+different. So that we don't just. Undo all the
+
+379
+00:29:11,260 --> 00:29:15,850
+work we did, but instead simplify the current
+
+380
+00:29:15,850 --> 00:29:18,010
+expressions to get back to something that we can
+
+381
+00:29:18,010 --> 00:29:23,650
+recognize as. No easy model. So.
+
+382
+00:29:26,540 --> 00:29:30,050
+While we are introducing a new set of plus or
+
+383
+00:29:30,050 --> 00:29:34,640
+minus one spins, these have to be a different set
+
+384
+00:29:34,760 --> 00:29:37,100
+than the original ones we started off with so that
+
+385
+00:29:37,100 --> 00:29:40,940
+we can then. Come up with some relation between
+
+386
+00:29:41,090 --> 00:29:46,570
+the original spinnerets. And these so-called dual
+
+387
+00:29:46,990 --> 00:29:51,780
+spins, so still that that are associated with each
+
+388
+00:29:52,060 --> 00:29:56,760
+side and like the original spin's, take the values
+
+389
+00:29:56,770 --> 00:30:01,730
+plus or minus one. That we now want to relate to
+
+390
+00:30:02,510 --> 00:30:05,780
+the values of the powers that without the link.
+
+391
+00:30:10,160 --> 00:30:12,620
+The mathematical expressions here at the bottom of
+
+392
+00:30:12,620 --> 00:30:16,130
+the page that do this relation are maybe.
+
+393
+00:30:17,670 --> 00:30:22,020
+Unintuitive to look at what we have, we can easily
+
+394
+00:30:22,020 --> 00:30:26,940
+check that these products of the Tilted Spin's
+
+395
+00:30:27,660 --> 00:30:30,300
+take values plus or minus one, so that when we
+
+396
+00:30:30,300 --> 00:30:33,270
+have one minus that product of the two that
+
+397
+00:30:33,270 --> 00:30:34,350
+corresponds to.
+
+398
+00:30:36,350 --> 00:30:41,300
+Link powers of either zero one player, but how
+
+399
+00:30:41,300 --> 00:30:47,800
+exactly we decided that the. Power of link one
+
+400
+00:30:47,800 --> 00:30:51,220
+four should be related to dual spans, three and
+
+401
+00:30:51,220 --> 00:30:57,890
+four is best revealed by. Identifying these dual
+
+402
+00:30:57,890 --> 00:31:03,410
+stems with the geometry of the latter system. And
+
+403
+00:31:03,410 --> 00:31:06,770
+specifically identifying them with the so-called
+
+404
+00:31:06,770 --> 00:31:11,960
+dual address, which is on a more basic concept
+
+405
+00:31:11,960 --> 00:31:14,900
+that we've not really gone into so much in this
+
+406
+00:31:14,900 --> 00:31:17,870
+module. The idea is that.
+
+407
+00:31:20,090 --> 00:31:25,310
+Dual legacies are those that connects the central
+
+408
+00:31:25,310 --> 00:31:29,210
+points of each of the cells of the specifically
+
+409
+00:31:29,210 --> 00:31:33,170
+two dimensional lattice, it's easier to see where.
+
+410
+00:31:35,360 --> 00:31:37,820
+We draw a small
+
+411
+00:31:41,000 --> 00:31:44,460
+square lattice in two dimensions and go through
+
+412
+00:31:44,480 --> 00:31:47,870
+the procedure, I mentioned connecting all the
+
+413
+00:31:47,870 --> 00:31:51,700
+symptoms of this.
+
+414
+00:31:55,700 --> 00:32:00,320
+I swear that is the size of that square lattice
+
+415
+00:32:00,430 --> 00:32:04,070
+identified with the centers of the placates of the
+
+416
+00:32:04,070 --> 00:32:09,950
+original letters and what we have done in the
+
+417
+00:32:10,250 --> 00:32:12,320
+equations on the previous page,
+
+418
+00:32:14,510 --> 00:32:22,550
+20 feet on the screen, or what is related to the
+
+419
+00:32:22,550 --> 00:32:28,240
+two dual spins to the link of the original lattice
+
+420
+00:32:28,250 --> 00:32:32,480
+that crosses between them. So if I draw in the
+
+421
+00:32:32,480 --> 00:32:39,230
+duel links that do a lattice. We can see that. We
+
+422
+00:32:39,430 --> 00:32:44,050
+want to hear between spin one, spin two is
+
+423
+00:32:44,050 --> 00:32:49,110
+separating dual spins, one to agree with that. But
+
+424
+00:32:49,120 --> 00:32:53,080
+if we go to the other side where that link one for
+
+425
+00:32:55,570 --> 00:33:01,280
+separating the other pair of dual spins. As to the
+
+426
+00:33:01,280 --> 00:33:05,660
+three and the four, and it's this graphical
+
+427
+00:33:05,660 --> 00:33:09,860
+procedure that uniquely specifies how each link in
+
+428
+00:33:09,860 --> 00:33:15,710
+the original lattice is connected to the pairs of
+
+429
+00:33:15,710 --> 00:33:19,430
+dual standards that separates so.
+
+430
+00:33:22,680 --> 00:33:26,470
+That duopolies construction is how all of these
+
+431
+00:33:26,470 --> 00:33:30,090
+relations are determined, specifying which link
+
+432
+00:33:30,100 --> 00:33:32,950
+variable is connected to which to spin variables,
+
+433
+00:33:34,780 --> 00:33:35,290
+and
+
+434
+00:33:37,330 --> 00:33:41,320
+what we can see based on that connection is, first
+
+435
+00:33:41,320 --> 00:33:46,090
+of all, that we are reaffirming that the link
+
+436
+00:33:46,090 --> 00:33:50,530
+variables are not all dependent. We can see that,
+
+437
+00:33:50,920 --> 00:33:57,700
+for example, two of them are depend on each of the
+
+438
+00:33:57,970 --> 00:33:59,970
+first things that we have considered here. So if
+
+439
+00:33:59,980 --> 00:34:03,840
+you want to amplify both depend on which will spin
+
+440
+00:34:04,240 --> 00:34:05,170
+as to the one.
+
+441
+00:34:07,510 --> 00:34:11,280
+And for instance, one four people, one three both
+
+442
+00:34:11,290 --> 00:34:16,030
+depend on the doorstep, three rapidly, that's just
+
+443
+00:34:16,030 --> 00:34:17,830
+because there are.
+
+444
+00:34:20,830 --> 00:34:24,100
+Links to the original Latisse appearing on both
+
+445
+00:34:24,100 --> 00:34:27,070
+sides of each of the dual Spillane's that we've
+
+446
+00:34:27,190 --> 00:34:30,700
+put into this universelle that is that generalized
+
+447
+00:34:30,700 --> 00:34:36,410
+for all and. Spins in the form two dimensional
+
+448
+00:34:36,410 --> 00:34:40,310
+lattice, as well as the dual two dimensional as.
+
+449
+00:34:46,060 --> 00:34:50,740
+In addition to confirming that the link variables
+
+450
+00:34:50,950 --> 00:34:55,320
+PJAK, the powers that be introduced, manipulations
+
+451
+00:34:55,330 --> 00:34:57,280
+of the petition function
+
+452
+00:34:59,620 --> 00:35:01,050
+in addition to confirming that there's not
+
+453
+00:35:01,060 --> 00:35:06,340
+independence, the patterns of dependence that we
+
+454
+00:35:06,340 --> 00:35:10,980
+have introduced by working in terms of these dual
+
+455
+00:35:10,990 --> 00:35:16,300
+variables are exactly what we need to take care of
+
+456
+00:35:16,300 --> 00:35:20,450
+the. Not to try to belittle factors in the sense
+
+457
+00:35:20,450 --> 00:35:24,920
+that if we look at the four powers that
+
+458
+00:35:24,920 --> 00:35:29,170
+contributes to. This particular spin at the center
+
+459
+00:35:29,920 --> 00:35:31,600
+of the cell here.
+
+460
+00:35:33,710 --> 00:35:37,490
+And add up all of the foreign contributions in
+
+461
+00:35:37,490 --> 00:35:43,260
+terms of the two things we get for factors, half
+
+462
+00:35:44,280 --> 00:35:45,530
+the world is.
+
+463
+00:35:50,980 --> 00:35:56,170
+For factors of happiness, for relations and then
+
+464
+00:35:56,380 --> 00:36:00,130
+subtracting from that, the sum over all four pairs.
+
+465
+00:36:01,300 --> 00:36:04,930
+Of products of dual spins, which we can factor
+
+466
+00:36:04,930 --> 00:36:10,670
+into a product of to some of the spins. With
+
+467
+00:36:10,840 --> 00:36:14,500
+digital spin as being either. Plus one or minus
+
+468
+00:36:14,500 --> 00:36:18,370
+one, there are only three values that the sum of
+
+469
+00:36:18,370 --> 00:36:19,480
+two of them can take.
+
+470
+00:36:22,540 --> 00:36:26,930
+Minus two, zero and plus two, if we have both of
+
+471
+00:36:26,950 --> 00:36:30,820
+them being a plus two, then we have four of the
+
+472
+00:36:30,820 --> 00:36:35,860
+two is to try to give us a zero. If all four of
+
+473
+00:36:35,860 --> 00:36:42,650
+them are, if you like, minus two. We have. This is
+
+474
+00:36:42,650 --> 00:36:46,420
+the same minus two squared is four two two zero,
+
+475
+00:36:47,300 --> 00:36:52,310
+if any of them are zero factors. So plus one minus
+
+476
+00:36:52,330 --> 00:36:55,190
+four plus one plus minus one that we just have the
+
+477
+00:36:55,190 --> 00:36:58,130
+two left over. And if one set is.
+
+478
+00:37:00,730 --> 00:37:05,110
+Plus two and the other is minus. And we have two
+
+479
+00:37:05,110 --> 00:37:09,820
+minus two or four, so the only possibilities that
+
+480
+00:37:09,820 --> 00:37:13,300
+are allowed by the usual spin formulation are for
+
+481
+00:37:13,900 --> 00:37:19,000
+the number of links to other sites to be even so
+
+482
+00:37:19,000 --> 00:37:24,280
+that the product over all those interdependent.
+
+483
+00:37:25,420 --> 00:37:28,240
+Trying to give Delta functions not to just
+
+484
+00:37:28,240 --> 00:37:31,060
+collapses to to be one.
+
+485
+00:37:34,310 --> 00:37:34,860
+And.
+
+486
+00:37:37,720 --> 00:37:41,550
+We already, to some extent, went through the other
+
+487
+00:37:41,550 --> 00:37:46,470
+exercise, the other piece of the puzzle that needs
+
+488
+00:37:46,470 --> 00:37:49,550
+to be in place in order for this dualistic
+
+489
+00:37:49,560 --> 00:37:53,250
+formulation to be a legitimate way of rewriting
+
+490
+00:37:53,430 --> 00:37:54,140
+the system.
+
+491
+00:37:56,880 --> 00:38:00,740
+We have to be able to show that all possible. Oh,
+
+492
+00:38:01,510 --> 00:38:06,040
+values or possible ways of obtaining. Even numbers
+
+493
+00:38:06,040 --> 00:38:11,410
+of links to sites are accounted for by the dual
+
+494
+00:38:11,410 --> 00:38:17,080
+standards that we have defined their relations to.
+
+495
+00:38:17,990 --> 00:38:19,480
+The links that appear between them.
+
+496
+00:38:21,970 --> 00:38:27,280
+So we've shown that zero, two and four are all
+
+497
+00:38:27,280 --> 00:38:33,430
+accounted for and right at. Explicitly.
+
+498
+00:38:44,540 --> 00:38:50,810
+If we set this sum over the next one to be four,
+
+499
+00:38:51,680 --> 00:38:57,500
+then that's rearranges to tell us that the product
+
+500
+00:38:57,500 --> 00:39:00,650
+of these two sons of the dual spin's.
+
+501
+00:39:04,270 --> 00:39:11,630
+Has to be negative for. So. Rearranging, pulling
+
+502
+00:39:11,750 --> 00:39:14,940
+that one half spin product backward to the left
+
+503
+00:39:14,940 --> 00:39:19,640
+hand side, we get it equal to two times to minus
+
+504
+00:39:19,680 --> 00:39:22,690
+for just two times negative two, which is four.
+
+505
+00:39:23,310 --> 00:39:29,610
+And the only way to achieve that with the spin is
+
+506
+00:39:29,820 --> 00:39:31,830
+plus or minus one is to have one of the factors,
+
+507
+00:39:31,830 --> 00:39:35,950
+the two multiplied by the other being negative two.
+
+508
+00:39:36,510 --> 00:39:41,010
+So. There are two ways.
+
+509
+00:39:47,400 --> 00:39:49,260
+Achieving that either.
+
+510
+00:39:52,760 --> 00:39:57,140
+One in three, both being one, two and four, both
+
+511
+00:39:57,140 --> 00:40:03,320
+being negative one or the opposite, flipping every.
+
+512
+00:40:04,550 --> 00:40:05,120
+Stephen.
+
+513
+00:40:07,890 --> 00:40:09,270
+In a coordinated way.
+
+514
+00:40:11,400 --> 00:40:17,520
+So in general, at least for single example, we've
+
+515
+00:40:17,520 --> 00:40:19,080
+been looking at here.
+
+516
+00:40:21,210 --> 00:40:25,620
+There are two configurations of the dual spin's
+
+517
+00:40:26,250 --> 00:40:31,470
+that leave the corresponding to each configuration
+
+518
+00:40:31,470 --> 00:40:37,410
+of the link powers that be reformulated our system
+
+519
+00:40:37,410 --> 00:40:41,370
+and to start off with so interchangeable.
+
+520
+00:40:43,950 --> 00:40:47,910
+Of those dual spins to negative values.
+
+521
+00:40:50,890 --> 00:40:57,960
+And all of the P j k factors. Would be unchanged.
+
+522
+00:40:58,620 --> 00:40:59,190
+So.
+
+523
+00:41:02,470 --> 00:41:06,130
+This isn't quite the full proof that this is
+
+524
+00:41:06,700 --> 00:41:11,740
+possible to generalise before and spin the system,
+
+525
+00:41:12,130 --> 00:41:15,230
+which you can find in a pretty nice way, the
+
+526
+00:41:15,240 --> 00:41:17,860
+interview from before any of us were born.
+
+527
+00:41:20,330 --> 00:41:23,970
+I was just. Say that it turns out to be the case,
+
+528
+00:41:23,970 --> 00:41:27,330
+that what we've done for one side here generalizes
+
+529
+00:41:27,960 --> 00:41:31,800
+to the full dual system despite the
+
+530
+00:41:31,800 --> 00:41:33,960
+interconnections between the different sites and
+
+531
+00:41:33,960 --> 00:41:39,930
+links. So if we rewrite that configuration so over
+
+532
+00:41:40,230 --> 00:41:44,670
+the powers of the link, the links are off in terms
+
+533
+00:41:44,670 --> 00:41:50,310
+of the usual using. Configuration some over these
+
+534
+00:41:50,310 --> 00:41:53,970
+dual spins, minus one. You just need to stick in
+
+535
+00:41:54,540 --> 00:42:00,120
+this extra power, but have to compensate for the
+
+536
+00:42:00,120 --> 00:42:04,100
+double counting from negating all values of those
+
+537
+00:42:04,470 --> 00:42:05,820
+things. So
+
+538
+00:42:09,090 --> 00:42:13,920
+we now have even further progress and got rid of
+
+539
+00:42:13,920 --> 00:42:14,280
+the.
+
+540
+00:42:16,500 --> 00:42:20,500
+Of all dependents or explicit dependents, I should
+
+541
+00:42:20,500 --> 00:42:24,340
+say, on the spin degrees of freedom and all that
+
+542
+00:42:24,340 --> 00:42:28,120
+is left apart from factors of two, it's just a
+
+543
+00:42:28,120 --> 00:42:30,780
+bunch of hyper trigonometric functions that now
+
+544
+00:42:30,790 --> 00:42:37,060
+depend on the values it spends at the side of the
+
+545
+00:42:37,060 --> 00:42:40,840
+door and sort of taking the product over all those
+
+546
+00:42:41,380 --> 00:42:44,140
+nearest neighbor pairs dual Latisse.
+
+547
+00:42:46,590 --> 00:42:50,130
+Which just requires a little bit more
+
+548
+00:42:51,450 --> 00:42:58,170
+trigonometric manipulation. Where we can proceed
+
+549
+00:42:58,170 --> 00:43:02,610
+just by doing another identification that is easy
+
+550
+00:43:02,610 --> 00:43:06,750
+enough to check. Remember that we want this
+
+551
+00:43:06,750 --> 00:43:11,010
+capital city to be hyperbolic, cosine, what is
+
+552
+00:43:11,010 --> 00:43:18,200
+index is zero and we assign the index as one. So
+
+553
+00:43:18,200 --> 00:43:22,370
+this idea of identity is easy to check in both of
+
+554
+00:43:22,370 --> 00:43:24,850
+those cases are confirmed, that will be a zero.
+
+555
+00:43:25,400 --> 00:43:27,940
+The exponential factor, that's one we get the
+
+556
+00:43:28,370 --> 00:43:32,000
+cosine. The key is one that we have been
+
+557
+00:43:32,210 --> 00:43:35,360
+exponential of the law, which just brings down its
+
+558
+00:43:35,360 --> 00:43:40,560
+arguments, the senge over Coche of the cost and
+
+559
+00:43:40,580 --> 00:43:40,680
+the.
+
+560
+00:43:42,900 --> 00:43:48,390
+So that is quick check and then we substitute in
+
+561
+00:43:49,050 --> 00:43:54,530
+the. Relation between each of these links and the
+
+562
+00:43:54,530 --> 00:43:58,100
+original letters, which we define as capital C
+
+563
+00:43:58,100 --> 00:44:03,650
+variable and the product of dual spins of the two
+
+564
+00:44:03,650 --> 00:44:07,370
+sides that are separated by the corresponding link,
+
+565
+00:44:08,000 --> 00:44:10,910
+and conveniently because we're doing this for
+
+566
+00:44:10,910 --> 00:44:13,480
+every site, Bilitis, we don't have to be careful
+
+567
+00:44:13,520 --> 00:44:18,560
+track of exactly which dual speeds are separated
+
+568
+00:44:18,560 --> 00:44:21,020
+by exactly which links. We just know that all
+
+569
+00:44:21,020 --> 00:44:26,360
+pairs will be accounted for in the overall sum. So
+
+570
+00:44:28,370 --> 00:44:33,710
+the two factors in this exponential. Are going to
+
+571
+00:44:33,710 --> 00:44:38,630
+be or can be just broken up, how this first term,
+
+572
+00:44:38,640 --> 00:44:42,230
+the one half can be moved inside the log and the
+
+573
+00:44:42,230 --> 00:44:44,540
+exponential of the cancers that were actually left
+
+574
+00:44:44,540 --> 00:44:47,870
+with the torchbearer, the times, the square root
+
+575
+00:44:48,080 --> 00:44:52,720
+of attention. So that cancels out the square root
+
+576
+00:44:52,740 --> 00:44:55,040
+of the cause. It brings in the square root of the.
+
+577
+00:44:56,560 --> 00:45:01,300
+Out front reduces to that factor and then there is
+
+578
+00:45:01,300 --> 00:45:05,560
+just the dual spin defense attorney now hiding out
+
+579
+00:45:05,560 --> 00:45:10,050
+as the coefficient on the one hand and exponential
+
+580
+00:45:10,270 --> 00:45:14,510
+so somewhat. Normally, when you're packing things
+
+581
+00:45:14,510 --> 00:45:19,610
+that we can simplify by converting the product
+
+582
+00:45:19,610 --> 00:45:20,300
+overall,
+
+583
+00:45:23,000 --> 00:45:25,820
+nearest neighbor, pairs of the dual. So we have
+
+584
+00:45:25,840 --> 00:45:33,330
+here. The product. Exponentially now can be recast
+
+585
+00:45:33,330 --> 00:45:37,230
+just as the exponential of some reversing the very
+
+586
+00:45:37,230 --> 00:45:39,930
+first thing that we did, everything else is
+
+587
+00:45:39,930 --> 00:45:43,020
+independent of the dual spins that can come out in
+
+588
+00:45:43,020 --> 00:45:49,070
+front of the configuration. And if we say. That's
+
+589
+00:45:49,220 --> 00:45:52,000
+the three factor on the song over the years,
+
+590
+00:45:52,110 --> 00:45:54,500
+repairs is just some.
+
+591
+00:45:56,970 --> 00:46:00,030
+Dual temperature, dual temperature in Childhelp,
+
+592
+00:46:00,570 --> 00:46:03,720
+then we can recognize everything apart from that
+
+593
+00:46:03,720 --> 00:46:08,520
+pretty factor as the partition function for the
+
+594
+00:46:08,520 --> 00:46:13,890
+two dimensional using model. Add this to Obeida
+
+595
+00:46:14,550 --> 00:46:17,850
+given by negative a half of the log of the
+
+596
+00:46:17,850 --> 00:46:22,910
+tensions of the original temperature. I guess
+
+597
+00:46:22,940 --> 00:46:25,070
+there's just enough time to.
+
+598
+00:46:27,220 --> 00:46:33,690
+Confirm that this is. The destination we started
+
+599
+00:46:34,680 --> 00:46:38,550
+targeting right at the beginning, so we have the
+
+600
+00:46:38,970 --> 00:46:43,050
+dual production function where if we rearrange
+
+601
+00:46:44,250 --> 00:46:49,740
+this equation to isolate. The typical tangent of
+
+602
+00:46:49,740 --> 00:46:55,150
+Peter. There has to be an exponential besides the
+
+603
+00:46:55,170 --> 00:47:00,990
+negative two times of the children. So if I take
+
+604
+00:47:01,550 --> 00:47:06,400
+so easily to belittle that and then subtract the
+
+605
+00:47:06,420 --> 00:47:09,300
+minus to the child, that is.
+
+606
+00:47:12,290 --> 00:47:16,280
+One over the of the inverse of this relation,
+
+607
+00:47:17,150 --> 00:47:19,400
+minus the tangent itself.
+
+608
+00:47:22,330 --> 00:47:25,060
+We can break up into a.
+
+609
+00:47:28,270 --> 00:47:31,830
+Of simply because.
+
+610
+00:47:39,170 --> 00:47:39,720
+Within.
+
+611
+00:47:51,210 --> 00:47:51,690
+And.
+
+612
+00:47:53,890 --> 00:47:59,220
+Then getting that all into. The common denominator
+
+613
+00:47:59,220 --> 00:48:02,200
+is what to do with half square miles of central
+
+614
+00:48:02,250 --> 00:48:06,020
+square, the usual. Relation, one that we're
+
+615
+00:48:06,170 --> 00:48:09,650
+probably familiar with, and then that cost the
+
+616
+00:48:09,660 --> 00:48:15,400
+times since Batur, which we can recognize or churn
+
+617
+00:48:15,410 --> 00:48:16,310
+through the.
+
+618
+00:48:18,790 --> 00:48:26,340
+The formula cost. They have essentially the best
+
+619
+00:48:26,460 --> 00:48:33,110
+quarter. In the Beda plus either minus beta, the
+
+620
+00:48:34,620 --> 00:48:42,360
+minus minus beta. Gives us quarter EBITDA minus.
+
+621
+00:48:43,640 --> 00:48:46,790
+Minus two, which was a half.
+
+622
+00:48:49,040 --> 00:48:56,210
+Synch to data, we are not putting in the values
+
+623
+00:48:56,210 --> 00:48:59,630
+factors, other half with this since Peter.
+
+624
+00:49:00,650 --> 00:49:05,590
+Research, censorship of. To ensure that equal to
+
+625
+00:49:06,620 --> 00:49:12,280
+one over. I don't like the formula since to date
+
+626
+00:49:12,300 --> 00:49:16,500
+itself, which was the point we started off
+
+627
+00:49:16,500 --> 00:49:19,590
+targeting the relation between the temperatures of
+
+628
+00:49:19,590 --> 00:49:26,550
+the two. I do all systems, so run out of time with
+
+629
+00:49:26,550 --> 00:49:30,810
+just final qualitative comments to get through, we
+
+630
+00:49:30,810 --> 00:49:33,690
+got through all of the mathematical manipulations,
+
+631
+00:49:33,690 --> 00:49:38,220
+so we'll pick up tomorrow morning in the other
+
+632
+00:49:38,220 --> 00:49:44,330
+room, quickly, see what it means. What benefit
+
+633
+00:49:44,330 --> 00:49:49,550
+does this do you give us that for there to be some
+
+634
+00:49:50,000 --> 00:49:53,670
+more broader applications to start ramping up the
+
+635
+00:49:54,280 --> 00:49:57,960
+pull the module? So the final question, questions
+
+636
+00:49:57,980 --> 00:49:59,630
+for today
+
+637
+00:50:02,160 --> 00:50:05,410
+have a chance to follow up about anything until
+
+638
+00:50:06,290 --> 00:50:09,860
+tomorrow morning. But I've got a few.
