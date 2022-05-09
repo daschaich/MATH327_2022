@@ -1,90 +1,125 @@
 % ------------------------------------------------------------------
 \renewcommand{\thisunit}{MATH327 Unit 10}
-\renewcommand{\moddate}{Last modified 8 May 2022}
+\renewcommand{\moddate}{Last modified 10 May 2022}
 \setcounter{section}{10}
 \setcounter{subsection}{0}
 \phantomsection
 \addcontentsline{toc}{section}{Unit 10: Synthesis and broader applications}
 \section*{Unit 10: Synthesis and broader applications} % TODO: Synthesizing interacting systems with numerical techniques used for computer project...
 \subsection{\label{sec:MonteCarlo}Monte Carlo importance sampling}
-Last week we wrapped up our discussion of the mean-field approximation to the Ising model by comparing some of its predictions against results from numerical computations for systems in $d \geq 3$ dimensions where no exact solution is known.
-These numerical results may have come as a surprise given the statement at the end of \secref{sec:Ising} that numerically evaluating the Ising model partition function even for tiny systems with $N \sim 1000$ spins is far beyond the capabilities of existing or foreseeable supercomputers.
-To quantify `tiny', consider that $N \sim 1000$ would correspond to a $10\times 10\times 10$ lattice in three dimensions or a $6\times 6\times 6\times 6$ lattice in four dimensions, both very far from the thermodynamic limit of interest for phase transitions.
+Although we were able to derive some exact results for the Ising model in one and two dimensions, it's worth recalling that for $3 \leq d < \infty$ no exact solution is known even for this simple system.
+In general, interacting statistical systems are not exactly solvable.
+In order to explore their broad applications throughout the mathematical sciences and beyond, we therefore need to analyze them either through systematic approximation schemes (such as \emph{perturbation theory}) or by numerical computations.
+Numerical methods have become increasingly important over the past fifty years, and in this section we'll outline the general methods they employ.
 
-The key is that practical numerical computations do not perform a `brute-force' evaluation of every single micro-state that is summed over in the formal definition of the partition function (and hence in the expectation values that we have derived from the partition function).
-Instead, they proceed by (pseudo-)randomly selecting (or \textbf{sampling}) a small subset of those micro-states, and using this subset to compute results for the average energy, magnetization, and other thermodynamic quantities.
-The law of large numbers allows us to treat these averages as controlled approximations to the true ensemble expectation values.
+Our goal is to compute expectation values of interest, which are formally defined by sums over all micro-states.
+Considering the canonical ensemble for simplicity,
+\begin{equation*}
+  \vev{\cO} = \sum_{i = 1}^M \cO_i \; p_i = \frac{1}{Z} \sum_{i = 1}^M \cO_i \; e^{-\be E_i} = \frac{\sum_{i = 1}^M \cO_i \; e^{-\be E_i}}{\sum_{i = 1}^M e^{-\be E_i}}.
+\end{equation*}
+We already saw, at the end of \secref{sec:Ising}, that enormous computational resources would be required to carry out such sums over micro-states.
+Even for tiny Ising systems with $N \sim 1000$ spins, the largest existing or foreseeable supercomputers would have to run for far longer than the age of the universe in order to evaluate the roughly $2^{1000} \sim 10^{300}$ terms in the partition function.
+To quantify `tiny', consider that $N \sim 1000$ would correspond to a $10\times 10\times 10$ lattice in three dimensions or a $6\times 6\times 6\times 6$ lattice in four dimensions, both very far from the $N \to \infty$ thermodynamic limit of interest for phase transitions.
+
+And yet, at the end of \secref{sec:mean_field} we were able to quote numerical results for the Ising model critical temperature for $3 \leq d \leq 7$, along with a $d = 3$ critical exponent.
+These results are obtainable because practical numerical computations do not perform a `brute-force' evaluation of every single micro-state.
+Instead, they proceed by (pseudo-)randomly \textbf{sampling} a very small subset of those micro-states, and using this subset to compute results for the average energy, magnetization, and other thermodynamic quantities.
+So long as this sampling is done appropriately, the law of large numbers allows us to treat these averages as controlled approximations to the true ensemble expectation values.
 
 As we saw in the computer project, such numerical calculations employ pseudo-random numbers rather than complete randomness, which allows them to be reproducible up to very high precision by different people using different computers.
 Due to the role of randomness, these numerical approaches have become known as \textbf{Monte Carlo} methods, based on a whimsical reference to the famous gambling centre in Monaco.
-Monte Carlo methods are crucial in statistical physics because they are applicable even to the interacting systems introduced last week, where there are no longer dramatic simplifications from factorization.
+Monte Carlo methods are crucial in statistical physics, and related disciplines, because they are very broadly applicable to interacting systems that no longer benefit from dramatic simplifications through factorization.
 
-An intuitive illustration of how Monte Carlo methods work is provided by using them to numerically evaluate integrals.
+We can gain some intuition about how Monte Carlo methods work by using such pseudo-random sampling to numerically evaluate a simple integral.
 The idea is that the integral can be numerically approximated by evaluating its integrand at randomly sampled points in the integration domain, and normalizing by the number of samples.
-A simple example is to compute
+An amusing example is to compute
 \begin{align*}
-  \int_{-1}^1 dx \int_{-1}^1 dy \ H\!\left(1 - \left\{x^2 + y^2\right\}\right) & = \pi \qquad &
+  \pi & = \int_{-1}^1 dx \int_{-1}^1 dy \ H\!\left(1 - \left\{x^2 + y^2\right\}\right) \qquad &
   H(r) & = \left\{\begin{array}{l}1 \qquad \mbox{for } \ r \geq 0 \\
                                   0 \qquad \mbox{for } \ r < 0\end{array}\right. ,
 \end{align*}
-which is just the area of a disk with radius $R = 1$, in a square integration domain with area $4$, as shown below.
-Since the integrand is either $0$ or $1$ for each randomly sampled point in that domain, simply counting the fraction of the $S$ samples that lie in the disk provides a numerical determination of $\pi$, with a \textit{statistical uncertainty} that vanishes $\sim 1 / \sqrt{S}$.
-In just a few minutes, \href{https://github.com/daschaich/MATH327_2122/blob/master/lecture_notes/unit10_pi.py}{this Python code} predicts $\pi = 3.14155 \pm 0.00024$ purely from the statistics of pseudo-random numbers.
+where the Heaviside step function $H(r)$ picks out a disk with radius $R = 1$ in a square integration domain with area $4$, as shown below.
+Since the integrand is either $0$ or $1$ for each randomly sampled point in that domain, simply counting the fraction of the $S$ samples that lie in the disk provides a numerical determination of $\pi$, with a \textit{statistical uncertainty} that vanishes $\propto 1 / \sqrt{S}$.
+In just a few minutes, \href{https://github.com/daschaich/MATH327_2022/blob/master/lecture_notes/unit10_pi.py}{this Python code} predicts $\pi = 3.14152 \pm 0.00023$ purely from sampling pseudo-random numbers.
 
 \begin{center}\includegraphics[width=0.6\textwidth]{figs/unit10_pi.pdf}\end{center}
 
-Of course, Monte Carlo integration is an extremely inefficient way to determine $\pi$.
-These numerical methods are most useful when analytic solutions are not available, and especially for very high-dimensional integrals such as partition functions of statistical systems.
-State-of-the-art research in theoretical physics routinely uses Monte Carlo methods to numerically evaluate billion-dimensional integrals.
+Of course, numerically computing $\pi$ can be done far more efficiently with other, more specialized, techniques.
+Monte Carlo integration is most useful when we need to consider very high-dimensional integrals --- such as partition functions of interacting statistical systems, interpreted as $N$-dimensional integrals over the system's $N$ degrees of freedom.
+To illustrate the scale of computations that can currently be carried out, ongoing theoretical physics research here in Liverpool routinely uses Monte Carlo methods to numerically evaluate roughly billion-dimensional integrals.
 
-Switching back to the language of statistical ensembles, there are an enormous number of possible micro-states for any interacting systems of interest, only a vanishingly small fraction of which can be sampled in a reasonable amount of time.
-Even if we put in the time to sample a trillion ($10^{12}$) micro-states of the tiny $N \sim 1000$ Ising systems considered above, this would account for only about one part in $10^{288}$ of the total $2^N \sim 10^{300}$ micro-states.
-Even worse, as $N$ increases the number of possible Ising model micro-states grows exponentially quickly, $2^N$, and each micro-state takes more work to sample.
-For a concrete example, \href{https://arxiv.org/abs/1502.07613}{this research publication} from 2015 includes a calculation with $N \sim 10^9$ that was only able to sample $\sim 10^4$ out of roughly $2^{10^9} \sim 10^{300{,}000{,}000}$ micro-states. % N=64^5~1e9 and log_10(2^(64^5))~3e8
+At this point, you might be concerned that such sampling can account for only an extremely small fraction of the possible micro-states for the systems under consideration, suggesting a risk of inaccurate results from unrepresentative sampling.
+This is a new manifestation of the obstacle we encountered when considering brute-force computations above.
+If the brute-force evaluation of every single micro-state takes far longer than the age of the universe, then the fraction we could sample in a reasonable amount of time (say, a day) is almost vanishingly small.
 
-For sufficiently high temperatures, our consideration of the disordered phase of the Ising model in \secref{sec:Ising_phases} suggests that randomly sampling even such a tiny fraction of the micro-states would still suffice.
-All of those micro-states are equally probably in the infinite-temperature limit, where we would just need to consider enough samples $S$ to produce reasonably small statistical uncertainties $\sim 1 / \sqrt{S}$.
-However, the low-temperature ordered phase is more challenging.
-We saw that the large-scale behaviour of the system in this phase is dominated by a very small number of micro-states.
-For sufficiently low temperatures, just the two degenerate ground states effectively determine the magnetization, with only exponentially suppressed corrections from higher-energy excited states.
-As there is essentially no chance of randomly sampling either of those two ground states, the approach described above seems doomed to fail.
+As a concrete example, if we generously suppose our computer only needs a few nanoseconds to sample a micro-state of a tiny $N \sim 1000$ Ising system, over the course of a day it would sample roughly ten trillion ($10^{13}$) spin configurations --- only about one part in $10^{287}$ of the total $2^N \sim 10^{300}$ micro-states.
+To make the situation even worse, as $N$ increases the number of possible Ising model micro-states grows \textit{exponentially} quickly, $\sim$$2^N$, in addition to the more modest growth in the amount of computing required to sample each micro-state.
+For illustration, 2015 research \href{https://arxiv.org/abs/1502.07613}{arXiv:1502.07613} numerically predicting $T_c$ for the Ising model in $d = 5$, $6$ and $7$ dimensions includes calculations up to $N = 64^5 \approx 10^9$.
+Out of the roughly $2^{10^9} \sim 10^{323{,}000{,}000}$ micro-states for this systems, only $\sim$$10^4$ could be sampled in a reasonable amount of time.
+How much trust should we place in results from such numerical work?
 
-The cure is to carefully guide the procedure so that the probability of sampling a particular micro-state $\om_i$ is proportional to its probability $p_i \propto e^{-\be E_i}$, without introducing any bias.
-This is known as \textbf{importance sampling}, since it preferentially samples the important micro-states that make the most significant contributions to the partition function and derived quantities.
-As $\be \to \infty$ in the low-temperature phase, the probability of sampling the ground states would be exponentially enhanced, as desired.
-As $\be \to 0$ in the high-temperature phase, there would be little change compared to the more straightforward approach described above, since all micro-states would become equally probable.
+Thinking back to our consideration of the ordered and disordered phases of the Ising model in \secref{sec:Ising_phases}, we could make a case that everything may work out in the high-temperature disordered phase.
+In the infinite-temperature limit, all the micro-states become equally probable, and observable expectation values are determined by the degeneracies of the different energy levels.
+Random sampling is more likely to account for the dominant energy levels with large degeneracies, making it plausible that reasonable results could be obtained by averaging even over such a tiny fraction of the total number of micro-states.
 
-A challenge facing importance sampling is that the energies $E_i$ are not known in advance.
-They are generally only computed for those few micro-states that are sampled.
-An ingenious way to get around this challenge\footnote{This approach was developed in 1953 by \href{https://en.wikipedia.org/wiki/Nicholas_Metropolis}{Nick Metropolis}, \href{https://en.wikipedia.org/wiki/Arianna_W._Rosenbluth}{Arianna Rosenbluth}, \href{https://en.wikipedia.org/wiki/Marshall_Rosenbluth}{Marshall Rosenbluth}, \href{https://en.wikipedia.org/wiki/Augusta_H._Teller}{Mici Teller} and \href{https://en.wikipedia.org/wiki/Edward_Teller}{Edward Teller}.  In an infamous misfiring of alphabetical ordering, it remains widely known as the ``Metropolis algorithm'' even though Metropolis's role was providing specialized computing equipment rather than creating the algorithm itself.  In addition, the key contributions of Arianna Rosenbluth and Mici Teller were under-appreciated for many years.} is by incorporating the concept of Markov chains that we encountered all the way back in \secref{sec:diffusion}.
-Recall that a Markov chain is a process in which the next micro-state to be sampled is chosen based on the micro-state currently under consideration, with no `memory' of any other micro-states that may already have been sampled.
+In the low-temperature ordered phase, however, the opposite occurs.
+As the temperature decreases, the large-scale behaviour of the system in this phase is dominated by a very small number of micro-states.
+For sufficiently low temperatures, observable expectation values are effectively determined by the two degenerate minimum-energy micro-states with all spins aligned either up or down.
+Only exponentially suppressed corrections would then be introduced by higher-energy excited states.
+As there is essentially no chance of randomly sampling either of those two minimum-energy micro-states, the random sampling approach described above seems doomed to fail.
 
-Applying this to the Ising model, we can begin with any random spin configuration.
-Randomly selecting one spin, $s_i$, we compute $\De E_i$, the change in the system's energy that would be caused by flipping $s_i \to -s_i$.
+A key breakthrough that made numerical results truly reliable was the invention of stochastic procedures to sample any micro-state $\om_i$ with a probability proportional to its Boltzmann factor, $p_i \propto e^{-\be E_i}$.
+Such automated procedures are known as \textit{algorithms} (a term that evolved from the name of \href{https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi}{Muhammad ibn Musa al-Khwarizmi}), and the overall approach is called \textbf{importance sampling}, since it preferentially samples the important micro-states that make the most significant contributions to the partition function and derived quantities. % TODO: Persian mathematician active in the early 9th century...
+Assuming we have such an algorithm, applying it to the $\be \to \infty$ low-temperature phase considered above would produce an exponentially enhanced probability of sampling low-energy micro-states, as desired.
+As $\be \to 0$ in the high-temperature phase, there would be little change compared to the more straightforward pseudo-random sampling considered above, since all micro-states would become equally probable.
+
+The challenge is to design importance sampling algorithms in the first place.
+In particular, these algorithms can't rely on knowing the full set of micro-state energies $E_i$, and the corresponding probabilities $p_i$, since enumerating these data would be equivalent to brute-force computation of the full partition function.
+In essence, the algorithm has to exploit its stochastic aspect --- its use of pseudo-random numbers --- to guide it to important, high-probability micro-states.
+And this guiding needs to be done without introducing any other bias that might cause distorted results to be obtained from averaging over the tiny fraction of micro-states that can be sampled in a reasonable amount of time.
+
+A \href{https://en.wikipedia.org/wiki/Equation_of_State_Calculations_by_Fast_Computing_Machines}{famous solution} to this challenge was developed in 1953 by \href{https://en.wikipedia.org/wiki/Nicholas_Metropolis}{Nick Metropolis}, \href{https://en.wikipedia.org/wiki/Arianna_W._Rosenbluth}{Arianna Rosenbluth}, \href{https://en.wikipedia.org/wiki/Marshall_Rosenbluth}{Marshall Rosenbluth}, \href{https://en.wikipedia.org/wiki/Augusta_H._Teller}{Mici Teller} and \href{https://en.wikipedia.org/wiki/Edward_Teller}{Edward Teller}.
+I will call this solution the Metropolis--Rosenbluth--Teller algorithm, or the MRT algorithm for short.\footnote{In an infamous misfiring of alphabetical ordering, this remains widely known as the ``Metropolis algorithm'' even though Metropolis's role was providing specialized computing equipment rather than creating the algorithm itself.  In addition, the key contributions of Arianna Rosenbluth and Mici Teller were widely under-appreciated for many years.}
+It relies on the concept of Markov chains that we briefly discussed when considering random walks all the way back in \secref{sec:diffusion}.
+To reiterate the key concept, a Markov chain is a process in which the next micro-state to be sampled is pseudo-randomly chosen based on the micro-state currently under consideration, with no `memory' of any other micro-states that may previously have been sampled.
+
+We can use the Ising model to illustrate how the MRT algorithm employs Markov chains to sample micro-states proportionally to their importance.
+Any spin configuration can serve equally well as the initial micro-state at the start of the chain.
+Starting from this initial configuration, we pseudo-randomly select one spin, $s_j$, and compute $\De E_j$, the change in the system's energy that would be caused by flipping $s_j \to -s_j$.
 We then update the spin configuration by `accepting' this spin flip with probability
 \begin{equation}
   \label{eq:MRTprob}
-  P_{\text{accept}} = \mbox{min}\left\{1, e^{-\be \De E}\right\},
+  P_{\text{accept}} = \mbox{min}\left\{1, e^{-\be \De E_j}\right\},
 \end{equation}
 which defines the next micro-state in the Markov chain.
-Importantly, this new micro-state may be identical to the previous micro-state with probability $P_{\text{reject}} = 1 - P_{\text{accept}}$.
-This is exactly what we would want in the zero-temperature limit where the ground state should dominate.
-We then repeat this single-spin update procedure as many times as our computers can handle.
+Importantly, this new micro-state may be identical to the previous micro-state --- this occurs with probability $P_{\text{reject}} = 1 - P_{\text{accept}}$.
+The final step of the algorithm is to repeat this single-spin update procedure as many times as our computers can handle.
 
-Digging into \eq{eq:MRTprob}, we can see that a spin flip that lowers the energy will always be accepted, since $\De E < 0 \implies e^{-\be \De E} > 1$.
-The algorithm is therefore free to approach the minimum-energy ground state of the system.
+We can appreciate why micro-states may need to be repeated in the Markov chain by considering what should happen if we were to sample the ground state at low temperatures.
+In this regime, the ground state should dominate, so the algorithm should sample it repeatedly, proportionally to its probability.
+
+Digging into \eq{eq:MRTprob}, we can see that any spin flip that lowers the energy will always be accepted, since $\De E < 0 \implies e^{-\be \De E} > 1$.
+The MRT algorithm is therefore free to approach the minimum-energy ground state of the system.
 If it is in the ground state, then any spin flip will increase the energy, $\De E > 0$, and will only be accepted with an exponentially suppressed probability $e^{-\be \De E} \to 0$ as $T = 1 / \be \to 0$, as desired.
-More generally, if we consider two micro-states $\om_A$ and $\om_B$ with $E_A \leq E_B$, then the relative probabilities of moving between these two micro-states are
-\begin{equation*}
+More generally, if we consider two micro-states $\om_A$ and $\om_B$, then the relative probabilities of moving between these two micro-states are
+\begin{equation}
+  \label{eq:MRTdistribution}
   \frac{P(A \to B)}{P(B \to A)} = \frac{\mbox{min}\left\{1, e^{-\be(E_B - E_A)}\right\}}{\mbox{min}\left\{1, e^{-\be(E_A - E_B)}\right\}} = \frac{e^{-\be(E_B - E_A)}}{1} = \frac{e^{-\be E_B}}{e^{-\be E_A}},
-\end{equation*}
-confirming that the micro-states $\om_i$ will indeed be sampled with probabilities proportional to the Boltzmann factors $e^{-\be E_i}$ that quantify their importance.
+\end{equation}
+regardless of whether $E_A \leq E_B$ or $E_B \leq E_A$.
 
-You can find more information about this \textit{Metropolis--Rosenbluth--Teller} algorithm in Section~8.2 of Schroeder's \textit{Introduction to Thermal Physics} (reference~2 in the list of further reading on page~6), including a single-page annotated code applying it to the two-dimensional Ising model.
-While this is the most famous and most widely used Monte Carlo algorithm in existence, it is far from the only one.
-There is an enormous amount of ongoing research developing, optimizing and applying more elaborate Monte Carlo methods to investigate topics throughout the mathematical sciences and beyond.
+So long as every micro-state can be generated from any other micro-state by making a series of pseudo-random changes to individual degrees of freedom, \eq{eq:MRTdistribution} ensures that the micro-states $\om_i$ will indeed be sampled with probabilities proportional to the Boltzmann factors $e^{-\be E_i}$ that quantify their importance.
+The necessary condition that the Markov chain can reach every micro-state (at least in principle) is called \textbf{ergodicity}.
+Because the micro-state probabilities $p_i$ are effectively `felt out' through the accept/reject test described above, in non-ergodic situations the algorithm will fail to account for the probabilities of micro-states that can't be reached by the Markov chain.
+This can easily lead to incorrect results.
+
+You can read more about the MRT algorithm in Section~8.2 of Dan Schroe-der's \textit{Introduction to Thermal Physics} (the second item in the list of further reading on page~5), which provides a single-page annotated code implementing it for the two-dimensional Ising model. % WARNING: Hyphenating by hand
+While the conceptually simple MRT algorithm is the most famous means to carry out Markov-chain Monte Carlo importance sampling, it is far from the only option, and often far from the best.
+If time permits, we may discuss some of the challenges that make it advantageous to go beyond the MRT algorithm, in particular the issue of \textbf{auto-correlations}.
+
+For now, suffice it to say that there is an enormous amount of ongoing research developing, optimizing and applying more elaborate Monte Carlo methods to investigate topics throughout the mathematical sciences and beyond.
 In \secref{sec:broad} we will briefly look at some of these broader applications.
-First, there is another important concept to introduce, called universality, which helps to explain why interacting statistical systems are so useful to apply to such a diverse range of scientific investigations.
+First, there is another important concept to introduce, called universality, which helps to reveal why interacting statistical systems are so useful to apply to such a diverse range of scientific investigations.
 % ------------------------------------------------------------------
 
 
@@ -152,8 +187,7 @@ A Monte Carlo calculation of the sort described in \secref{sec:MonteCarlo} can t
 
 The figure below comes from \href{https://www.washingtonpost.com/graphics/2020/world/corona-simulator/}{an over-simplified simulation} provided by the \textit{Washington Post} to illustrate these concepts.
 Here individuals are modeled simply as a gas of interacting particles in two dimensions, and various ways of restricting their motion are used to explore the likely effects of measures such as quarantines and social distancing.
-By coincidence, the scale of this simulation, which considers a population of just $200$ people, is comparable to the first importance sampling Monte Carlo calculation carried out in 1953 as a first application of the Metropolis--Rosenbluth--Teller algorithm.
-\href{https://en.wikipedia.org/wiki/Equation_of_State_Calculations_by_Fast_Computing_Machines}{That historic investigation} computed the pressure (i.e., equation of state) for $224$ interacting particles in a two-dimensional `volume'.
+By coincidence, the scale of this simulation, which considers a population of just $200$ people, is comparable to the first importance sampling Monte Carlo calculation carried out in 1953, as a first application of the MRT algorithm, which computed the pressure (i.e., equation of state) for $224$ interacting particles in a two-dimensional `volume'.
 At the time, this required several days of computing time on a state-of-the-art machine; now these sorts of calculations are easily done on a smartphone.
 
 \begin{center}\includegraphics[width=0.8\textwidth]{figs/unit10_epidemic.pdf}\end{center}

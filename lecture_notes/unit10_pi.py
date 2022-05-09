@@ -3,14 +3,14 @@ import random
 import time
 import numpy as np
 # ------------------------------------------------------------------
-# Compute pi through Monte Carlo importance sampling
-random.seed(42)
+# Compute pi through Monte Carlo sampling
+random.seed(327)
 
 # Loop over various numbers of samples
 for N in [1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9]:
   secs = -time.time()
 
-  # Break each into 20 chunks to monitor fluctuations
+  # Break each N into 20 chunks to monitor fluctuations
   bins = 20
   per_bin = int(N / bins)
   P = np.empty(bins, dtype = np.float)
