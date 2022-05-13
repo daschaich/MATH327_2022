@@ -1,0 +1,3035 @@
+1
+00:00:03,130 --> 00:00:05,910
+All right, I think we may as well get under way
+
+2
+00:00:05,910 --> 00:00:10,470
+and wrap up the final meeting and recording for
+
+3
+00:00:10,680 --> 00:00:14,770
+statistical physics. I'm not surprised that there's a
+
+4
+00:00:14,770 --> 00:00:17,110
+small crowd at this point because it's fairly
+
+5
+00:00:17,110 --> 00:00:20,470
+obvious that there won't be any new
+
+6
+00:00:20,470 --> 00:00:22,480
+content coming this afternoon that will be on
+
+7
+00:00:22,480 --> 00:00:27,550
+the exam. We will try to have some fun looking at
+
+8
+00:00:27,550 --> 00:00:30,790
+some of the broader applications of
+
+9
+00:00:30,850 --> 00:00:36,100
+statistical physics, including lattice field theory.
+
+10
+00:00:37,630 --> 00:00:42,760
+So this is picking up from the end of the formal
+
+11
+00:00:43,810 --> 00:00:47,450
+concept we went through this morning, and even
+
+12
+00:00:47,470 --> 00:00:49,930
+though it is a tutorial, I think it's fine just to
+
+13
+00:00:51,160 --> 00:00:55,240
+chat a bit about these broader applications, not
+
+14
+00:00:55,240 --> 00:00:59,370
+doing detailed calculations or anything very
+
+15
+00:00:59,410 --> 00:01:03,320
+rigorous, but just sort of spotting where the
+
+16
+00:01:03,430 --> 00:01:06,490
+concepts and tools from statistical physics can
+
+17
+00:01:06,490 --> 00:01:11,020
+find use. Of course, this is the last scheduled
+
+18
+00:01:11,020 --> 00:01:15,130
+opportunity for you to ask anything, any burning
+
+19
+00:01:15,130 --> 00:01:19,930
+questions before we enter the exam period. I
+
+20
+00:01:19,930 --> 00:01:23,260
+probably won't. Continue holding the schedule
+
+21
+00:01:23,260 --> 00:01:25,570
+office hours over the next few weeks, but you're
+
+22
+00:01:25,570 --> 00:01:29,430
+always free to schedule a meeting.
+
+23
+00:01:33,470 --> 00:01:36,260
+If you need one through the Web interface link
+
+24
+00:01:36,260 --> 00:01:40,270
+from the. Lecture notes in Canada site before
+
+25
+00:01:41,350 --> 00:01:45,330
+actually getting into things. You can have.
+
+26
+00:01:46,620 --> 00:01:51,970
+Actions to up. That through the last six
+
+27
+00:01:55,190 --> 00:01:58,090
+or nine, seven seven.
+
+28
+00:02:05,270 --> 00:02:08,510
+In the first of a broader application that.
+
+29
+00:02:10,950 --> 00:02:13,260
+I have in my interview to talk about is actually
+
+30
+00:02:14,130 --> 00:02:17,310
+something I mentioned without details earlier in
+
+31
+00:02:17,310 --> 00:02:21,750
+the week as the domain in which a lot of
+
+32
+00:02:22,080 --> 00:02:24,580
+theoretical physics research your little world
+
+33
+00:02:24,960 --> 00:02:27,420
+operates through important mathematical
+
+34
+00:02:27,420 --> 00:02:34,000
+calculations applied to quantum field. It is. And
+
+35
+00:02:34,870 --> 00:02:37,360
+this is what I anticipated and started talking
+
+36
+00:02:37,360 --> 00:02:41,930
+about in the. The introductory remarks, but
+
+37
+00:02:41,960 --> 00:02:44,990
+quantum field theories are several molecules ended
+
+38
+00:02:44,990 --> 00:02:50,450
+up with cells. The basic idea is that. We have
+
+39
+00:02:50,450 --> 00:02:55,190
+some fields that are defined at every point in
+
+40
+00:02:55,190 --> 00:02:58,190
+space and time, and they interact with each other
+
+41
+00:02:58,250 --> 00:03:02,710
+and even with themselves in order to. Produced
+
+42
+00:03:02,830 --> 00:03:05,680
+essentially all of the behavior that we observe in
+
+43
+00:03:05,680 --> 00:03:09,820
+the universe from the strong nuclear force to
+
+44
+00:03:10,420 --> 00:03:12,850
+investigations here. The report for applications
+
+45
+00:03:12,850 --> 00:03:15,820
+to the Higgs boson on dark matter and even that
+
+46
+00:03:15,820 --> 00:03:19,060
+holographic duality that relates these quantum
+
+47
+00:03:19,060 --> 00:03:23,740
+field theories to particular proposals for quantum
+
+48
+00:03:23,740 --> 00:03:25,940
+gravity. The.
+
+49
+00:03:28,740 --> 00:03:33,990
+Fundamental object that governs the behavior of
+
+50
+00:03:34,470 --> 00:03:36,930
+the particular set of fields and interactions that
+
+51
+00:03:36,930 --> 00:03:41,190
+arise in any given quantum field theory, is this
+
+52
+00:03:41,190 --> 00:03:46,290
+object here known as the find the path to go after
+
+53
+00:03:46,290 --> 00:03:48,840
+the Senate declining to introduce it around the
+
+54
+00:03:48,840 --> 00:03:54,120
+middle of the 20th century? And what this is, is a
+
+55
+00:03:54,120 --> 00:03:58,770
+big old integral over all of the configurations of
+
+56
+00:03:58,770 --> 00:04:01,050
+all of these fields at every point in space and
+
+57
+00:04:01,050 --> 00:04:05,310
+time of the exponential of what's called the
+
+58
+00:04:05,310 --> 00:04:08,670
+actions of the integral over three dimensional
+
+59
+00:04:08,670 --> 00:04:13,050
+space and the time dimension of the production of
+
+60
+00:04:13,050 --> 00:04:16,250
+the system that depends on those fields and
+
+61
+00:04:16,830 --> 00:04:18,840
+includes the information about how the fields are
+
+62
+00:04:18,840 --> 00:04:20,060
+interacting with each other.
+
+63
+00:04:22,440 --> 00:04:26,120
+And then this exponential comes with the argument
+
+64
+00:04:26,440 --> 00:04:29,150
+that she comes to the pretty factor, the imaginary
+
+65
+00:04:29,150 --> 00:04:32,950
+union divided by constant and.
+
+66
+00:04:35,280 --> 00:04:39,880
+Looking at the overall form of this equation. Even
+
+67
+00:04:39,880 --> 00:04:44,830
+the fact that we call this a Z is a sense that we
+
+68
+00:04:44,830 --> 00:04:48,760
+should try to interpret it as something like the
+
+69
+00:04:48,760 --> 00:04:52,540
+partition function of a statistical system that
+
+70
+00:04:52,540 --> 00:04:56,290
+we've been introduced to in this module dealing
+
+71
+00:04:56,320 --> 00:04:58,810
+with for several weeks.
+
+72
+00:05:01,070 --> 00:05:04,400
+The one of the main differences is that both the
+
+73
+00:05:04,400 --> 00:05:08,090
+passage of the bill and the graduate itself are
+
+74
+00:05:08,090 --> 00:05:12,890
+functions of the people, so they depend on those
+
+75
+00:05:12,890 --> 00:05:15,590
+fields, Capital Phi, which in turn are functions
+
+76
+00:05:15,950 --> 00:05:19,970
+of space and time. And there are also some.
+
+77
+00:05:22,810 --> 00:05:27,130
+The other key difference in here is the presence
+
+78
+00:05:27,130 --> 00:05:30,940
+of this factor of turning this exponential into a
+
+79
+00:05:30,940 --> 00:05:37,150
+pure phase. Rather than a real number like the
+
+80
+00:05:38,320 --> 00:05:39,380
+magician functions.
+
+81
+00:05:41,650 --> 00:05:45,940
+So the football analogy to that petition function.
+
+82
+00:05:46,770 --> 00:05:51,090
+This has not been a place of the energy cost of
+
+83
+00:05:51,310 --> 00:05:54,390
+securing a place of the temperature that we can
+
+84
+00:05:54,390 --> 00:05:57,690
+interpret as quantum fluctuations that depend on
+
+85
+00:05:59,100 --> 00:06:01,980
+global timescales to play that role similar to
+
+86
+00:06:02,430 --> 00:06:07,170
+thermal fluctuations in the canonical ensemble and
+
+87
+00:06:07,440 --> 00:06:12,730
+to get rid of that. Imaginary factor that gets in
+
+88
+00:06:12,730 --> 00:06:18,040
+the way of this analogy, you can do the trick of
+
+89
+00:06:19,000 --> 00:06:24,010
+formulating the theory in an imaginary time. We're
+
+90
+00:06:24,880 --> 00:06:26,980
+zoom in to see if that helps to focus on the
+
+91
+00:06:26,980 --> 00:06:32,260
+screen, we define this imaginary time tell that is
+
+92
+00:06:32,260 --> 00:06:36,280
+related to the usual time t by a factor of
+
+93
+00:06:37,150 --> 00:06:39,930
+plugging that in gives two factors. That squares
+
+94
+00:06:39,960 --> 00:06:45,250
+make it one. And we have a path integral that
+
+95
+00:06:45,250 --> 00:06:48,640
+looks essentially the same as a precision function
+
+96
+00:06:48,760 --> 00:06:53,510
+with observable expectation values. Given, as
+
+97
+00:06:53,510 --> 00:06:56,450
+always, by the control over all these operations,
+
+98
+00:06:57,260 --> 00:07:00,080
+but the value of this observable, it depends on
+
+99
+00:07:00,080 --> 00:07:05,400
+that field configuration weighted by. This also
+
+100
+00:07:05,440 --> 00:07:06,030
+factor.
+
+101
+00:07:08,370 --> 00:07:14,170
+So this is the. System that we analyze through
+
+102
+00:07:14,170 --> 00:07:18,260
+multicolor point sampling algorithms. One
+
+103
+00:07:18,620 --> 00:07:21,710
+limitation to this approach is that working in
+
+104
+00:07:21,710 --> 00:07:25,400
+imaginary time that is known as overprotection is
+
+105
+00:07:25,400 --> 00:07:30,900
+only valid in thermal equilibrium. So we are
+
+106
+00:07:31,290 --> 00:07:33,990
+restricted in this approach from being able to
+
+107
+00:07:33,990 --> 00:07:37,170
+access any non equilibrium quantities, but as
+
+108
+00:07:37,170 --> 00:07:39,390
+we've seen in this module, that was itself
+
+109
+00:07:39,390 --> 00:07:41,430
+entirely equal, that we understood a lot we could
+
+110
+00:07:41,430 --> 00:07:43,500
+do with that limitation.
+
+111
+00:07:45,820 --> 00:07:49,660
+The last complication in this formulation of
+
+112
+00:07:49,660 --> 00:07:53,200
+quantum field theory is that this package itself
+
+113
+00:07:53,200 --> 00:07:57,310
+is written for all these configurations, formally
+
+114
+00:07:57,310 --> 00:08:00,790
+becomes an infinite dimensional integral when we.
+
+115
+00:08:01,720 --> 00:08:04,240
+Imagine those fields to be filled every point in a
+
+116
+00:08:04,240 --> 00:08:07,420
+continuous space time and infinitesimal shifts
+
+117
+00:08:07,810 --> 00:08:09,790
+with a new degree of freedom from each of the
+
+118
+00:08:09,790 --> 00:08:16,060
+fields of play, which. Is something that, well, as
+
+119
+00:08:16,060 --> 00:08:19,330
+you might expect, for a interactive system that
+
+120
+00:08:19,340 --> 00:08:23,650
+can only be evaluated in very special, very
+
+121
+00:08:23,650 --> 00:08:27,610
+simplified situations and in general, we need to
+
+122
+00:08:27,730 --> 00:08:31,150
+regularize this integral, somewhat similarly to
+
+123
+00:08:31,150 --> 00:08:36,100
+how we regularized the momentum of the ideal gas
+
+124
+00:08:36,100 --> 00:08:40,020
+particles when we first looked at those in Florida.
+
+125
+00:08:41,260 --> 00:08:45,390
+And we do that by getting rid of continuous space
+
+126
+00:08:45,400 --> 00:08:49,120
+of time and actually replacing space and time by
+
+127
+00:08:49,120 --> 00:08:52,000
+less of the same so that we look for the easy
+
+128
+00:08:52,000 --> 00:08:56,890
+model. The conceptual difference here is that.
+
+129
+00:08:58,130 --> 00:09:01,100
+Because the easy model, we can imagine that
+
+130
+00:09:01,100 --> 00:09:04,910
+Latisse representing the locations of magnetic
+
+131
+00:09:04,910 --> 00:09:06,890
+dipoles and molecules that are.
+
+132
+00:09:09,320 --> 00:09:11,750
+Arranged into a regular grandmother, interactions
+
+133
+00:09:11,750 --> 00:09:16,390
+with each other. So they are objects that live in
+
+134
+00:09:16,390 --> 00:09:20,020
+a continuous space of time in this perspective, it
+
+135
+00:09:20,020 --> 00:09:22,780
+is space and time themselves that are no longer
+
+136
+00:09:22,840 --> 00:09:27,910
+continuous but only exist at these three points in
+
+137
+00:09:28,330 --> 00:09:34,230
+the regular lattice. So this approach of. With
+
+138
+00:09:34,280 --> 00:09:36,770
+rotating and then this ties in space and time
+
+139
+00:09:37,400 --> 00:09:40,760
+defines lattice field theory and the image here
+
+140
+00:09:40,760 --> 00:09:44,150
+that I'm using to give a feel for what a lattice
+
+141
+00:09:44,150 --> 00:09:46,220
+looks like is actually taken from a lattice field
+
+142
+00:09:46,220 --> 00:09:49,370
+through calculation of properties, of protons,
+
+143
+00:09:49,370 --> 00:09:53,000
+based on the quarks and blue, all that they are
+
+144
+00:09:53,000 --> 00:09:57,380
+composed of. So. And each of the individual points
+
+145
+00:09:57,650 --> 00:10:00,950
+in this three dimensional grid that corresponds to
+
+146
+00:10:00,950 --> 00:10:04,850
+a snapshot of the lattice calculation at
+
+147
+00:10:05,030 --> 00:10:09,050
+particular points in that imaginary time, we have
+
+148
+00:10:09,050 --> 00:10:15,680
+a value for the court field, which carries what is
+
+149
+00:10:15,680 --> 00:10:18,950
+called a color charge that's somewhat analogous to
+
+150
+00:10:18,950 --> 00:10:20,940
+electric charge. The difference of a few and one
+
+151
+00:10:21,110 --> 00:10:26,450
+is one of which being that instead of being just a
+
+152
+00:10:26,450 --> 00:10:30,110
+single number, electric charge could be one unit
+
+153
+00:10:30,440 --> 00:10:34,580
+two units, one to one ratio on the colored charge
+
+154
+00:10:34,820 --> 00:10:38,570
+is a linear combination of red and blue and green,
+
+155
+00:10:39,320 --> 00:10:43,250
+which is the characteristic feature that led to
+
+156
+00:10:43,250 --> 00:10:46,730
+this becoming known as color in the first place.
+
+157
+00:10:47,870 --> 00:10:51,860
+And these linear combinations are shown by the
+
+158
+00:10:51,860 --> 00:10:55,390
+colors of the individual points of the quark field
+
+159
+00:10:55,610 --> 00:10:59,630
+in this discrete space. We're the size of the
+
+160
+00:10:59,630 --> 00:11:03,320
+point indicates the magnitude of the charge that
+
+161
+00:11:03,320 --> 00:11:05,840
+comes along with its orientation in this
+
+162
+00:11:06,260 --> 00:11:10,880
+particular space. So that's the sort of games you
+
+163
+00:11:10,880 --> 00:11:15,740
+play with a quantum field theory, democratized in
+
+164
+00:11:15,740 --> 00:11:16,820
+a lot of space time
+
+165
+00:11:19,220 --> 00:11:25,090
+and. The key final step for going from numerical
+
+166
+00:11:25,090 --> 00:11:28,840
+calculations that can employ this finite number of
+
+167
+00:11:28,840 --> 00:11:31,390
+degrees of freedom on a finite computer to get
+
+168
+00:11:31,480 --> 00:11:35,020
+back to the quantum field theory that we started
+
+169
+00:11:35,020 --> 00:11:39,610
+off with and to analyze in getting you a space and
+
+170
+00:11:39,610 --> 00:11:44,020
+time is to repeat these calculations a few
+
+171
+00:11:44,020 --> 00:11:47,320
+different times, each time with a larger number of
+
+172
+00:11:47,320 --> 00:11:50,080
+states, time points that are located closer and
+
+173
+00:11:50,080 --> 00:11:53,230
+closer to each other, eventually allowing
+
+174
+00:11:53,980 --> 00:11:56,500
+extrapolation to what's called the continual
+
+175
+00:11:56,500 --> 00:11:59,080
+limits, where you would have infinitely many
+
+176
+00:11:59,080 --> 00:12:03,450
+lattice sites close together, reproducing some of
+
+177
+00:12:03,460 --> 00:12:06,160
+the very continuous space of time. And at that
+
+178
+00:12:06,160 --> 00:12:09,760
+point that week, rotation to imaginary time can be
+
+179
+00:12:09,810 --> 00:12:14,750
+undone. We are. Restricted to equilibrium
+
+180
+00:12:14,760 --> 00:12:18,720
+quantities, and we get back the predictions for
+
+181
+00:12:18,960 --> 00:12:22,440
+the real world in which we live and in particular
+
+182
+00:12:22,440 --> 00:12:27,780
+very successful predictions with quantities like
+
+183
+00:12:27,780 --> 00:12:32,100
+the masses and interactions of subatomic particles
+
+184
+00:12:32,100 --> 00:12:36,280
+being predicted to better than one thousand. And
+
+185
+00:12:36,280 --> 00:12:36,810
+Premal.
+
+186
+00:12:38,850 --> 00:12:44,350
+And also broadly applicable not just to. Theories
+
+187
+00:12:44,350 --> 00:12:48,160
+like the strong nuclear force that govern
+
+188
+00:12:48,160 --> 00:12:51,990
+subatomic particles, but also to. Systems of dark
+
+189
+00:12:51,990 --> 00:12:56,540
+matter experience holographic Beechcraft as well.
+
+190
+00:12:57,910 --> 00:13:02,450
+And in all of these cases. Thanks using a sample
+
+191
+00:13:02,460 --> 00:13:05,550
+of Monte Carlo, the uncertainty as they come along
+
+192
+00:13:05,550 --> 00:13:08,070
+are under control and can be systematically
+
+193
+00:13:08,070 --> 00:13:12,230
+improved if we just. I tackle the problem with
+
+194
+00:13:12,440 --> 00:13:15,710
+additional resources, or if we come up with more
+
+195
+00:13:15,710 --> 00:13:19,310
+clever and more efficient algorithms. That the.
+
+196
+00:13:20,260 --> 00:13:26,630
+Get more bang for your computer, Buck. So. That,
+
+197
+00:13:26,630 --> 00:13:29,330
+of course, lettuce field theory is an example
+
+198
+00:13:29,360 --> 00:13:31,280
+within the mathematical sciences, so it's.
+
+199
+00:13:33,620 --> 00:13:36,200
+Perhaps intuitively obvious that statistical
+
+200
+00:13:36,200 --> 00:13:39,260
+physics can be relevant and applicable to this.
+
+201
+00:13:40,070 --> 00:13:44,540
+Sociology is an example of the discipline well
+
+202
+00:13:44,580 --> 00:13:47,660
+beyond mathematical sciences, where it may be more
+
+203
+00:13:47,660 --> 00:13:50,690
+surprising that statistical physics has anything
+
+204
+00:13:50,690 --> 00:13:58,500
+to say. But there is a. Diverse and active field
+
+205
+00:13:59,190 --> 00:14:01,920
+calling itself social physics, that is.
+
+206
+00:14:05,680 --> 00:14:09,940
+Credible and able to use the tools of statistical
+
+207
+00:14:09,940 --> 00:14:14,320
+physics to accurately describe various aspects of
+
+208
+00:14:14,680 --> 00:14:19,390
+the social and political behavior of humans, and
+
+209
+00:14:20,590 --> 00:14:25,360
+one particular example that is so easy to get a
+
+210
+00:14:25,360 --> 00:14:29,530
+grip on and see how statistical physics can
+
+211
+00:14:29,530 --> 00:14:33,430
+connect to these sorts of political behavioral
+
+212
+00:14:33,430 --> 00:14:40,300
+dynamics is what we call voter models, which have
+
+213
+00:14:40,300 --> 00:14:43,600
+been around for half a century or more, used to
+
+214
+00:14:44,140 --> 00:14:47,380
+model not only elections, but also the process of.
+
+215
+00:14:48,970 --> 00:14:51,850
+Debates and opinion, information concerning
+
+216
+00:14:51,850 --> 00:14:55,120
+various different questions about political
+
+217
+00:14:55,120 --> 00:14:57,850
+propositions, individual candidates or political
+
+218
+00:14:57,850 --> 00:14:58,420
+parties.
+
+219
+00:15:00,910 --> 00:15:05,850
+Where? The question itself is boiled down to baked
+
+220
+00:15:05,850 --> 00:15:09,810
+into the definition of this model. Individuals are
+
+221
+00:15:10,350 --> 00:15:14,100
+represented as spin degrees of freedom, similar to
+
+222
+00:15:14,220 --> 00:15:16,380
+the easy model for the value of the spin
+
+223
+00:15:16,860 --> 00:15:20,070
+represents the opinion that they hold on whatever
+
+224
+00:15:20,070 --> 00:15:24,300
+question or candidate is under consideration. So
+
+225
+00:15:24,300 --> 00:15:28,590
+we can say that the spin indicates support for
+
+226
+00:15:29,310 --> 00:15:32,340
+this candidate or question downstairs indicates
+
+227
+00:15:32,790 --> 00:15:37,020
+opposition and the interactions between different
+
+228
+00:15:37,020 --> 00:15:42,000
+voters have some drive to align the voters with
+
+229
+00:15:42,000 --> 00:15:45,180
+each other through that process of debate and
+
+230
+00:15:45,180 --> 00:15:48,840
+discussion on this topic. And then there are
+
+231
+00:15:49,500 --> 00:15:52,290
+various ways this can be generalized beyond the
+
+232
+00:15:52,710 --> 00:15:57,720
+easy model itself, because adding a third option,
+
+233
+00:15:58,690 --> 00:16:02,070
+the value zero indicator, people who don't
+
+234
+00:16:02,070 --> 00:16:06,000
+actually have an opinion on whatever is under
+
+235
+00:16:06,000 --> 00:16:08,730
+consideration, or we can extend the range of
+
+236
+00:16:08,730 --> 00:16:12,400
+opinions to quantify how strongly different people
+
+237
+00:16:12,400 --> 00:16:18,060
+might hold. Some might be very committed to their
+
+238
+00:16:18,060 --> 00:16:20,220
+opinion and wanted to change it and eager to
+
+239
+00:16:20,220 --> 00:16:22,960
+change other people's minds. Some people might
+
+240
+00:16:23,490 --> 00:16:26,130
+might not be neutral, might not care enough to
+
+241
+00:16:26,220 --> 00:16:30,550
+make a big deal out of that. Can be. Incorporated
+
+242
+00:16:30,550 --> 00:16:33,400
+into this model, these sorts of generalizations,
+
+243
+00:16:33,400 --> 00:16:36,220
+but perhaps the key generalization, distinguishing
+
+244
+00:16:36,380 --> 00:16:39,820
+all models from the easy model is the.
+
+245
+00:16:42,080 --> 00:16:45,620
+The draft structure that's there to find out why
+
+246
+00:16:46,310 --> 00:16:48,980
+use the word drafts rather than Baathists, because
+
+247
+00:16:48,980 --> 00:16:52,740
+they should be. Not as regular as the lattice
+
+248
+00:16:52,740 --> 00:16:54,780
+structure that we've been dealing with, different
+
+249
+00:16:54,780 --> 00:16:58,810
+people can have many different interactions, both
+
+250
+00:16:58,830 --> 00:17:01,440
+with different numbers of individuals and also
+
+251
+00:17:01,740 --> 00:17:04,320
+interactions that carry greater or lesser weights
+
+252
+00:17:04,320 --> 00:17:07,470
+similar to the different coupling and the links
+
+253
+00:17:07,470 --> 00:17:11,040
+that we've introduced for the easier model. So
+
+254
+00:17:11,040 --> 00:17:15,920
+maybe the picture is worth many words about this.
+
+255
+00:17:16,230 --> 00:17:20,460
+So what's shown here is an example of this sort of
+
+256
+00:17:20,460 --> 00:17:23,670
+graph coming from the publication of about 10
+
+257
+00:17:23,670 --> 00:17:26,850
+years ago illustrating how things can work in one
+
+258
+00:17:26,850 --> 00:17:28,680
+of the simple cases where there are only two
+
+259
+00:17:28,680 --> 00:17:33,100
+possibilities. So let's open up his clues and down
+
+260
+00:17:33,100 --> 00:17:38,520
+this color red. And in this particular analysis,
+
+261
+00:17:38,820 --> 00:17:42,810
+the. Well, you can start off by seeing that
+
+262
+00:17:42,810 --> 00:17:47,340
+depending on which person we should note in this
+
+263
+00:17:47,340 --> 00:17:49,980
+graph we're considering, it could have different
+
+264
+00:17:49,980 --> 00:17:53,460
+numbers of connections to the other nodes or even
+
+265
+00:17:53,460 --> 00:17:57,960
+some that are isolated all by themselves, some
+
+266
+00:17:57,960 --> 00:18:02,880
+that have a very dense collection of links to many
+
+267
+00:18:02,880 --> 00:18:07,710
+other individuals. And the key feature of the
+
+268
+00:18:07,770 --> 00:18:10,980
+model that was being analyzed in this work was
+
+269
+00:18:10,980 --> 00:18:16,360
+that. The graph was dynamic and evolving, these
+
+270
+00:18:16,960 --> 00:18:19,650
+links between different individuals would be
+
+271
+00:18:19,850 --> 00:18:26,140
+repeated and destroyed with greater probability
+
+272
+00:18:26,140 --> 00:18:29,590
+for creation between people with similar opinions
+
+273
+00:18:29,590 --> 00:18:32,410
+on this topic and a greater probability for
+
+274
+00:18:32,410 --> 00:18:36,720
+severing links between people with opposing views.
+
+275
+00:18:37,960 --> 00:18:38,470
+The.
+
+276
+00:18:40,690 --> 00:18:45,850
+Result of this particular analysis that included
+
+277
+00:18:45,850 --> 00:18:49,210
+that that type of evolution of the graph structure
+
+278
+00:18:49,210 --> 00:18:54,520
+itself was a phase transition to two different
+
+279
+00:18:54,520 --> 00:19:00,360
+phases here. Once the system is reached, one of
+
+280
+00:19:00,360 --> 00:19:04,320
+these spaces was characterized by a consensus that
+
+281
+00:19:04,320 --> 00:19:07,320
+developed the vast majority of the individuals
+
+282
+00:19:07,830 --> 00:19:11,460
+with only a few outliers, whereas the other things
+
+283
+00:19:11,940 --> 00:19:15,000
+that is pictured here saw the whole population
+
+284
+00:19:15,000 --> 00:19:17,730
+become increasingly polarized, splitting into
+
+285
+00:19:18,600 --> 00:19:20,850
+distinct groups that increasingly only had
+
+286
+00:19:20,850 --> 00:19:24,690
+connections with those who shared their opinion
+
+287
+00:19:27,130 --> 00:19:30,930
+on this topic. And over time, there was a clear
+
+288
+00:19:30,930 --> 00:19:34,580
+boundary forming between those groups with fairly
+
+289
+00:19:34,590 --> 00:19:37,170
+few relatively small number of connections
+
+290
+00:19:37,170 --> 00:19:40,800
+crossing that boundary and that sort of behavior.
+
+291
+00:19:40,800 --> 00:19:44,970
+That polarization, which drew stable, long lasting
+
+292
+00:19:45,090 --> 00:19:50,730
+camps with opposing views, also appears in simpler
+
+293
+00:19:51,360 --> 00:19:55,440
+analysis or simple models that keep the
+
+294
+00:19:55,620 --> 00:19:59,820
+connections fixed. Is there are connections of
+
+295
+00:19:59,820 --> 00:20:02,460
+individuals lives that are very difficult to to
+
+296
+00:20:02,460 --> 00:20:07,800
+suffer long term friends or family, even with the
+
+297
+00:20:08,580 --> 00:20:12,570
+connections fixed and not being created or severed?
+
+298
+00:20:14,310 --> 00:20:18,150
+A similar transition to consensus can result once
+
+299
+00:20:18,540 --> 00:20:22,320
+an opinion reaches a critical concentration that
+
+300
+00:20:23,100 --> 00:20:27,720
+can be quantified through numerical multicar
+
+301
+00:20:27,840 --> 00:20:32,280
+calculations, and there is a possibility for these
+
+302
+00:20:32,430 --> 00:20:35,970
+so-called stable consensus spaces where even
+
+303
+00:20:35,970 --> 00:20:41,550
+though the population is roughly evenly split. The.
+
+304
+00:20:44,500 --> 00:20:48,930
+The different opinions are. Concentrated in two
+
+305
+00:20:48,930 --> 00:20:52,650
+clusters of voters that agree with each other and
+
+306
+00:20:52,650 --> 00:20:55,710
+interact with each other with only limited
+
+307
+00:20:55,710 --> 00:20:58,110
+interaction with those who have the opposite
+
+308
+00:20:58,110 --> 00:21:01,770
+opinion, and the only difference compared to this
+
+309
+00:21:01,770 --> 00:21:04,550
+work with the evolving graph is the interpretation
+
+310
+00:21:04,680 --> 00:21:05,130
+where.
+
+311
+00:21:07,450 --> 00:21:10,510
+Now, instead of forming or breaking connections
+
+312
+00:21:10,900 --> 00:21:13,270
+between people with civil war or opposing views,
+
+313
+00:21:13,870 --> 00:21:16,480
+the main dynamics of people's lives changing
+
+314
+00:21:16,990 --> 00:21:19,720
+depending on who they interact with, a fixed
+
+315
+00:21:19,720 --> 00:21:22,180
+pattern. And, of course, in general, you can have
+
+316
+00:21:22,180 --> 00:21:27,670
+both sorts of contributions in the mix at the same
+
+317
+00:21:27,670 --> 00:21:29,530
+time. So.
+
+318
+00:21:32,340 --> 00:21:34,800
+A caveat, caveat that you can see in this is that
+
+319
+00:21:34,800 --> 00:21:38,550
+there are lots of modeling choices you can make
+
+320
+00:21:38,820 --> 00:21:41,760
+and know the fundamental theory of human
+
+321
+00:21:41,760 --> 00:21:45,630
+interaction to guide them. What has to be done is
+
+322
+00:21:45,630 --> 00:21:49,590
+to compare the predictions of these sorts of
+
+323
+00:21:49,590 --> 00:21:54,000
+calculations with actual observations of opinion
+
+324
+00:21:54,000 --> 00:21:58,710
+polls and election results, which can then
+
+325
+00:21:58,710 --> 00:22:02,970
+validate various different aspects of the model or
+
+326
+00:22:02,970 --> 00:22:04,870
+invalidate them as the case may be.
+
+327
+00:22:06,870 --> 00:22:11,610
+So that, I think, is something about voter models,
+
+328
+00:22:11,610 --> 00:22:14,190
+which are a nice place to start due to their
+
+329
+00:22:14,190 --> 00:22:16,800
+similarity with the U.S. model. And maybe
+
+330
+00:22:16,800 --> 00:22:19,860
+something else that might be more familiar these
+
+331
+00:22:19,860 --> 00:22:21,030
+days is using.
+
+332
+00:22:24,740 --> 00:22:27,860
+Interactive statistical systems to battle the
+
+333
+00:22:28,010 --> 00:22:30,710
+spread of disease in populations.
+
+334
+00:22:32,720 --> 00:22:34,730
+The degrees of freedom are, again, individuals
+
+335
+00:22:34,970 --> 00:22:39,520
+interested in. The interactions of these degrees
+
+336
+00:22:39,520 --> 00:22:42,550
+of freedom with each other are now influencing
+
+337
+00:22:43,120 --> 00:22:46,540
+whether or not susceptible individuals pick up
+
+338
+00:22:46,780 --> 00:22:50,200
+whatever infection is present in the broader.
+
+339
+00:22:51,940 --> 00:22:54,010
+Population and.
+
+340
+00:22:56,140 --> 00:22:56,580
+We
+
+341
+00:22:59,370 --> 00:23:03,700
+go through this link in the. Lecture notes, we can
+
+342
+00:23:03,700 --> 00:23:04,110
+see.
+
+343
+00:23:07,220 --> 00:23:13,380
+Some quick examples of the sorts of problems with
+
+344
+00:23:13,820 --> 00:23:17,400
+that, this is a quick example of. A simple
+
+345
+00:23:17,400 --> 00:23:22,600
+modeling of spread of some disease from the ground
+
+346
+00:23:25,200 --> 00:23:28,110
+with the disease and their interactions with the
+
+347
+00:23:29,760 --> 00:23:32,820
+folks who have not yet had the disease spread the
+
+348
+00:23:32,820 --> 00:23:37,080
+infection until eventually almost everyone is ill
+
+349
+00:23:37,080 --> 00:23:44,370
+and gradually recover. In this case. And. Just by
+
+350
+00:23:44,370 --> 00:23:50,670
+a an amusing coincidence, the two hundred little
+
+351
+00:23:50,670 --> 00:23:55,120
+circles that are bouncing around in this. A little
+
+352
+00:23:55,120 --> 00:23:58,630
+simulation. Which is different every time with a
+
+353
+00:23:58,630 --> 00:24:00,610
+different set of pseudo random numbers being
+
+354
+00:24:00,610 --> 00:24:05,230
+sampled. This is very nearly the same scale as the
+
+355
+00:24:05,230 --> 00:24:07,870
+very first important sampling multicolor that was
+
+356
+00:24:07,870 --> 00:24:11,340
+ever done by Petropolis, Rosenbluth and Teller in
+
+357
+00:24:11,410 --> 00:24:14,890
+nineteen fifty three, where they looked at two
+
+358
+00:24:14,890 --> 00:24:18,100
+hundred twenty four discs in a two dimensional
+
+359
+00:24:18,100 --> 00:24:21,760
+volume and computed the pressure of the equation
+
+360
+00:24:21,760 --> 00:24:25,600
+of state from Montecarlo. Important sample. So
+
+361
+00:24:25,600 --> 00:24:28,570
+back in nineteen fifty three, this calculation
+
+362
+00:24:28,570 --> 00:24:30,520
+took several days and the most powerful
+
+363
+00:24:30,940 --> 00:24:33,820
+supercomputers in existence. And now it's quick
+
+364
+00:24:33,820 --> 00:24:37,480
+and easy to run on your phone without incurring
+
+365
+00:24:37,480 --> 00:24:40,450
+any significant stress on the processor or the
+
+366
+00:24:40,450 --> 00:24:42,280
+battery. And by.
+
+367
+00:24:44,570 --> 00:24:49,100
+Tossing in further similar generalizations to this
+
+368
+00:24:49,430 --> 00:24:53,330
+type of modeling, somewhat similar to voter models,
+
+369
+00:24:53,750 --> 00:24:56,870
+you can back up the effects of, say, closed
+
+370
+00:24:56,870 --> 00:25:01,730
+borders or more general quarantines. You can see
+
+371
+00:25:01,730 --> 00:25:05,810
+what happens if a border that was closed happens
+
+372
+00:25:05,810 --> 00:25:08,630
+to bump involved. The disease is still spreading
+
+373
+00:25:08,630 --> 00:25:13,010
+on one side and quickly passes into the other. Or
+
+374
+00:25:13,220 --> 00:25:19,430
+if you suppose that some of the individuals, the
+
+375
+00:25:19,430 --> 00:25:22,610
+degrees of freedom in the simulation are locked
+
+376
+00:25:22,610 --> 00:25:25,400
+down and not moving around. So in this case, I
+
+377
+00:25:25,400 --> 00:25:29,030
+think three quarters of the population is fixed in
+
+378
+00:25:29,030 --> 00:25:34,880
+place. And the number of. Sick individuals grows
+
+379
+00:25:34,910 --> 00:25:38,990
+much more slowly as a consequence of that is there
+
+380
+00:25:39,020 --> 00:25:41,570
+are fewer. InterAction's.
+
+381
+00:25:43,970 --> 00:25:47,090
+Occurring to spread that disease, which can even
+
+382
+00:25:47,090 --> 00:25:50,630
+be made even more extreme by supposing that seven
+
+383
+00:25:50,630 --> 00:25:56,410
+eighths of the population is. Stuck in place. And
+
+384
+00:25:56,530 --> 00:26:02,230
+we can compare what we're used at once to judge
+
+385
+00:26:02,560 --> 00:26:09,120
+what sorts of interventions and. Can help to
+
+386
+00:26:10,320 --> 00:26:15,210
+reduce the numbers of sick individuals over time
+
+387
+00:26:15,210 --> 00:26:18,750
+and in some cases even protect some people from
+
+388
+00:26:19,470 --> 00:26:22,160
+falling ill at all. And.
+
+389
+00:26:24,750 --> 00:26:27,900
+This is obviously a very simplistic and
+
+390
+00:26:27,900 --> 00:26:32,850
+unrealistic example put out by The Washington Post,
+
+391
+00:26:33,450 --> 00:26:36,780
+but larger scale and more realistic versions of
+
+392
+00:26:37,260 --> 00:26:39,630
+these sorts of epidemiological simulations.
+
+393
+00:26:41,830 --> 00:26:45,910
+Some of which are connected to research in the
+
+394
+00:26:45,910 --> 00:26:48,910
+School of Engineering here in Liverpool, Simon
+
+395
+00:26:48,920 --> 00:26:53,620
+Maskell's group of distributed, distributed
+
+396
+00:26:53,620 --> 00:26:55,660
+algorithms to do the sort of thing quickly and
+
+397
+00:26:55,660 --> 00:27:00,100
+efficiently that feeds into government operations
+
+398
+00:27:00,290 --> 00:27:02,800
+and depending on the government, can help guide
+
+399
+00:27:02,800 --> 00:27:05,770
+the decisions about what restrictions to impose in
+
+400
+00:27:05,770 --> 00:27:09,250
+the interests of public health and how long it
+
+401
+00:27:09,250 --> 00:27:14,470
+would be best to retain those restrictions. And
+
+402
+00:27:14,830 --> 00:27:17,410
+just to connect this with the actual content of
+
+403
+00:27:17,800 --> 00:27:19,780
+our module, the.
+
+404
+00:27:22,060 --> 00:27:24,970
+As we discussed in Section one point, to enforce
+
+405
+00:27:24,970 --> 00:27:26,560
+laying the foundations for.
+
+406
+00:27:28,900 --> 00:27:32,140
+Probability spaces and statistical ensembles. Each
+
+407
+00:27:32,140 --> 00:27:35,140
+of these numerical simulations needs to be
+
+408
+00:27:35,140 --> 00:27:39,010
+repeated many times, just slightly more sets of
+
+409
+00:27:39,010 --> 00:27:43,810
+random numbers in order to gain some control over
+
+410
+00:27:44,440 --> 00:27:46,900
+the central values of the predictions and also the
+
+411
+00:27:46,900 --> 00:27:51,820
+scale fluctuations that come out to quantify what
+
+412
+00:27:51,820 --> 00:27:56,230
+the proper advice is and what weight it should
+
+413
+00:27:56,270 --> 00:27:58,900
+carry, how reliable it is in terms of its
+
+414
+00:27:58,930 --> 00:28:00,400
+uncertainty, its various.
+
+415
+00:28:03,700 --> 00:28:08,620
+So feel free to ask any questions you have about
+
+416
+00:28:08,620 --> 00:28:12,250
+any of these topics or generalizations, if there's
+
+417
+00:28:12,640 --> 00:28:13,660
+just one last
+
+418
+00:28:17,050 --> 00:28:20,710
+voter application to another biological example
+
+419
+00:28:22,240 --> 00:28:30,160
+there. Various animals can. Where am I going here?
+
+420
+00:28:32,190 --> 00:28:39,750
+Exhibit. Collective behavior examples can be both
+
+421
+00:28:39,830 --> 00:28:42,290
+flocks of birds or swarms of insects or even
+
+422
+00:28:42,290 --> 00:28:45,730
+traffic on busy streets or crowds of pedestrians
+
+423
+00:28:46,520 --> 00:28:52,280
+and as an example to. Actually show you what I'm
+
+424
+00:28:52,280 --> 00:28:54,440
+talking about, rather than just trying to explain
+
+425
+00:28:54,440 --> 00:28:57,470
+the words, I'm not talking about family, but we'll
+
+426
+00:28:57,470 --> 00:29:00,840
+get through. Or go down five.
+
+427
+00:29:08,260 --> 00:29:12,340
+And look at this flock of several hundred or
+
+428
+00:29:12,350 --> 00:29:16,750
+possibly thousand starlings in Europe that are
+
+429
+00:29:17,740 --> 00:29:22,490
+carrying out some coordinated motion. Forming
+
+430
+00:29:23,000 --> 00:29:25,070
+shapeshifting clowns that.
+
+431
+00:29:28,020 --> 00:29:29,850
+Break merged together and.
+
+432
+00:29:33,410 --> 00:29:36,230
+In general, wander across the sky with some
+
+433
+00:29:36,740 --> 00:29:40,340
+influence from possible predators searching for
+
+434
+00:29:40,340 --> 00:29:43,790
+food or other external driving processes.
+
+435
+00:29:47,080 --> 00:29:49,180
+Turn down the volume
+
+436
+00:29:51,870 --> 00:29:52,110
+over
+
+437
+00:29:54,190 --> 00:29:59,670
+water and see the individual degrees of freedom at
+
+438
+00:29:59,680 --> 00:30:02,080
+its most elevated, relatively small number of
+
+439
+00:30:02,620 --> 00:30:03,490
+physics terms.
+
+440
+00:30:05,530 --> 00:30:09,270
+All of which are. Coordinating with each other
+
+441
+00:30:09,660 --> 00:30:15,660
+much more tightly than you. Well, we expect just
+
+442
+00:30:15,660 --> 00:30:21,030
+from all of these animals. Behaving independently,
+
+443
+00:30:21,060 --> 00:30:28,090
+so the. Interpretation of this, the body of this
+
+444
+00:30:28,090 --> 00:30:31,570
+in terms of statistical physics is to.
+
+445
+00:30:34,490 --> 00:30:39,770
+Model them as model, use this sort of behavior or
+
+446
+00:30:40,490 --> 00:30:45,350
+swarming with just the emotion of crowds as an
+
+447
+00:30:45,350 --> 00:30:51,250
+interacting gas. Of particles that have a tendency
+
+448
+00:30:51,250 --> 00:30:57,220
+to align the direction of their motions with the.
+
+449
+00:30:58,270 --> 00:31:00,970
+Fractured emotion of there, of the particles that
+
+450
+00:31:00,970 --> 00:31:03,880
+are near them, as this is a guess, what particles
+
+451
+00:31:03,880 --> 00:31:09,370
+are near them is varying over time. And about
+
+452
+00:31:09,670 --> 00:31:13,300
+twenty five years ago, one of the foundational
+
+453
+00:31:13,720 --> 00:31:18,150
+models in this sort of analysis was published is,
+
+454
+00:31:18,280 --> 00:31:20,980
+again, one of those where it's named only after
+
+455
+00:31:20,980 --> 00:31:23,390
+the first author would have five or six authors
+
+456
+00:31:23,390 --> 00:31:27,220
+that work during nouns
+
+457
+00:31:29,350 --> 00:31:34,480
+that provide formulated the statistical physics
+
+458
+00:31:34,480 --> 00:31:39,040
+model for particles in a gas interacting with each
+
+459
+00:31:39,040 --> 00:31:42,340
+other to avoid the direction of their motion and
+
+460
+00:31:42,340 --> 00:31:46,390
+show two different phases, one in which the
+
+461
+00:31:46,390 --> 00:31:49,270
+average angle of the motion of all the particles
+
+462
+00:31:49,270 --> 00:31:54,130
+of that gas is disordered. So it averages to zero.
+
+463
+00:31:56,100 --> 00:31:59,370
+And another phase in which there was a. Long
+
+464
+00:31:59,370 --> 00:32:03,840
+distance or large scale order among the directions
+
+465
+00:32:03,840 --> 00:32:06,180
+in which many departments are moving, which then
+
+466
+00:32:06,180 --> 00:32:10,810
+produces these sorts of patterns, they're called
+
+467
+00:32:10,830 --> 00:32:16,070
+reverberations, is for Fox because shapeshifting
+
+468
+00:32:16,080 --> 00:32:16,680
+flaps.
+
+469
+00:32:19,590 --> 00:32:23,600
+And ever since the mid 90s, there's been lots of
+
+470
+00:32:23,880 --> 00:32:29,100
+time to apply, refine and test these sorts of
+
+471
+00:32:29,100 --> 00:32:33,120
+models with a good deal of success, empirical
+
+472
+00:32:33,120 --> 00:32:36,690
+verification that the statistical physics analysis.
+
+473
+00:32:37,770 --> 00:32:42,530
+Is. A good basis on which to analyze this sort of
+
+474
+00:32:42,540 --> 00:32:50,910
+behavior so that on Tuesday there was a paper
+
+475
+00:32:50,910 --> 00:32:51,840
+published that.
+
+476
+00:32:54,390 --> 00:33:00,970
+Inc. another. Variable into. Models of this sort
+
+477
+00:33:01,360 --> 00:33:06,900
+allowing the. The birds, the particles to change
+
+478
+00:33:06,900 --> 00:33:10,470
+their change, their speed and its magnitude, as
+
+479
+00:33:10,470 --> 00:33:14,100
+well as its direction, which allowed them to
+
+480
+00:33:14,640 --> 00:33:18,900
+obtain good agreement with observations of flocks
+
+481
+00:33:18,900 --> 00:33:23,190
+ranging from as few as it was a couple of dozen
+
+482
+00:33:23,190 --> 00:33:29,160
+birds, up to several thousand. Qualify by filling
+
+483
+00:33:29,160 --> 00:33:31,620
+those those blocks of the high speed camera and
+
+484
+00:33:31,620 --> 00:33:35,670
+quantifying the overall shape of the properties of
+
+485
+00:33:35,670 --> 00:33:39,800
+that order phase that they were forming. And one
+
+486
+00:33:39,800 --> 00:33:42,170
+thing that we can do actually with this
+
+487
+00:33:42,860 --> 00:33:46,700
+statistical physics model is Helen. Is become a
+
+488
+00:33:46,700 --> 00:33:49,670
+bit more quantitative about what these phrases
+
+489
+00:33:49,670 --> 00:33:52,160
+really are and particularly the existence of a
+
+490
+00:33:52,160 --> 00:33:56,060
+bona fide phase transition between them. So rather
+
+491
+00:33:56,060 --> 00:33:59,680
+than be qualitative and saying. In some cases,
+
+492
+00:33:59,680 --> 00:34:03,280
+they're just ordered some places that look like so
+
+493
+00:34:04,600 --> 00:34:07,490
+you can express things in terms of that or rather
+
+494
+00:34:07,510 --> 00:34:13,210
+the average fight and map out the prediction of
+
+495
+00:34:13,210 --> 00:34:16,630
+the model, depending on the density of the
+
+496
+00:34:16,630 --> 00:34:18,880
+particles and the systems and what the density is
+
+497
+00:34:18,880 --> 00:34:23,600
+low where there are few interactions with those
+
+498
+00:34:23,620 --> 00:34:26,620
+interactions are we could strength we end up with
+
+499
+00:34:26,890 --> 00:34:29,350
+particles that are more free to move in any
+
+500
+00:34:29,500 --> 00:34:33,220
+direction that do not been for many of those
+
+501
+00:34:33,260 --> 00:34:38,680
+migrations or storms and high density. This is
+
+502
+00:34:38,680 --> 00:34:41,980
+where that changes and this large scale collective
+
+503
+00:34:41,980 --> 00:34:46,230
+motion can appear arising just from those
+
+504
+00:34:46,240 --> 00:34:51,820
+interactions between. The individual particles in
+
+505
+00:34:51,820 --> 00:34:55,600
+the system, rather than without having to put in
+
+506
+00:34:55,600 --> 00:34:57,860
+any modelling of the
+
+507
+00:34:59,890 --> 00:35:02,800
+whole large scale collection of all those degrees
+
+508
+00:35:02,800 --> 00:35:05,260
+of freedom, just the interactions between the
+
+509
+00:35:05,370 --> 00:35:08,990
+individual microscopic particles predicts the
+
+510
+00:35:09,010 --> 00:35:12,490
+large scale behavior through the process of
+
+511
+00:35:12,490 --> 00:35:17,620
+statistical physics. And depending on exactly what
+
+512
+00:35:17,620 --> 00:35:23,170
+variation of this model you apply, you can predict
+
+513
+00:35:23,170 --> 00:35:26,140
+either a first or second or the transition between
+
+514
+00:35:26,140 --> 00:35:28,720
+those two faces. Again, those are both defined in
+
+515
+00:35:28,720 --> 00:35:31,630
+that thermodynamic limit of an infinite number of
+
+516
+00:35:31,630 --> 00:35:33,370
+particles. And
+
+517
+00:35:35,410 --> 00:35:38,650
+the with these finite flocks of observe, the best
+
+518
+00:35:38,650 --> 00:35:43,450
+thing we can do is try to map out the. Dependence
+
+519
+00:35:43,490 --> 00:35:46,400
+on the size of the flock that is covered by the
+
+520
+00:35:46,790 --> 00:35:50,110
+critical exposures in the case of a second order
+
+521
+00:35:50,120 --> 00:35:53,870
+phase transition, there are a few models that
+
+522
+00:35:54,590 --> 00:35:58,070
+predict difference universality classes for those
+
+523
+00:35:58,070 --> 00:36:01,550
+critical experience and can in principle be either
+
+524
+00:36:01,550 --> 00:36:06,220
+confirmed or ruled out by the observations. Of
+
+525
+00:36:06,220 --> 00:36:10,690
+these migrations in nature, and I'll also mention
+
+526
+00:36:10,690 --> 00:36:17,120
+that in some cases there is severe diffusion, so
+
+527
+00:36:17,120 --> 00:36:19,340
+anomalous diffusion just like that, and the
+
+528
+00:36:19,360 --> 00:36:24,220
+computer project where certain of these birds end
+
+529
+00:36:24,220 --> 00:36:27,760
+up randomly walking very far distances, much more
+
+530
+00:36:27,760 --> 00:36:30,790
+quickly than you would expect from the ordinary
+
+531
+00:36:30,790 --> 00:36:32,500
+law of diffusion coming from the central.
+
+532
+00:36:35,080 --> 00:36:41,290
+So those are sort of for fun illustrations of how
+
+533
+00:36:42,160 --> 00:36:46,030
+the concepts and tools of statistical physics can
+
+534
+00:36:46,480 --> 00:36:52,390
+be recognized or applied in. Domains very far from
+
+535
+00:36:52,780 --> 00:36:56,140
+sophistical physics, both within and even beyond
+
+536
+00:36:56,140 --> 00:36:57,520
+mathematical sciences.
+
+537
+00:37:03,890 --> 00:37:06,110
+Looking at the time we made it, may as well just.
+
+538
+00:37:07,750 --> 00:37:12,310
+Back up with. A quick look back at what we've done
+
+539
+00:37:12,730 --> 00:37:16,510
+through this term, which is the section in the
+
+540
+00:37:16,690 --> 00:37:20,650
+lecture notes, is mostly therefore for you and for
+
+541
+00:37:21,700 --> 00:37:24,610
+others who may be watching the recording to have a
+
+542
+00:37:24,610 --> 00:37:26,680
+quick reference guide to what was discussed,
+
+543
+00:37:26,680 --> 00:37:31,180
+whether from one unit to the next, and also to see
+
+544
+00:37:31,180 --> 00:37:35,050
+how those topics flowed from one to the other,
+
+545
+00:37:35,050 --> 00:37:39,640
+starting with the definition of probability
+
+546
+00:37:39,640 --> 00:37:43,420
+foundations in that unit, one looking at
+
+547
+00:37:44,050 --> 00:37:46,990
+expectation, values and stochastic systems that
+
+548
+00:37:46,990 --> 00:37:50,590
+involve large numbers of degrees of freedom, where
+
+549
+00:37:51,580 --> 00:37:55,430
+the central limit theorem relates stable, large
+
+550
+00:37:55,450 --> 00:37:59,320
+and properties of that full system to the.
+
+551
+00:38:00,520 --> 00:38:03,610
+Underlying elementary degrees of freedom that
+
+552
+00:38:03,610 --> 00:38:08,050
+allows for stable behavior to emerge even from
+
+553
+00:38:08,560 --> 00:38:12,790
+random or at least Karslake processes from
+
+554
+00:38:13,660 --> 00:38:18,010
+resolving one of the historic debates around the
+
+555
+00:38:18,370 --> 00:38:21,310
+origins of statistical physics and the existence
+
+556
+00:38:21,310 --> 00:38:25,570
+of atoms and molecules as the components of large
+
+557
+00:38:25,570 --> 00:38:28,100
+scale substances like gas fields.
+
+558
+00:38:31,210 --> 00:38:32,890
+And the particular
+
+559
+00:38:34,990 --> 00:38:38,830
+sort of probability spaces that we are focusing on
+
+560
+00:38:38,980 --> 00:38:43,060
+in the specific context of statistical physics are
+
+561
+00:38:43,510 --> 00:38:48,160
+not surprising. Statistical samples where the.
+
+562
+00:38:53,070 --> 00:38:53,310
+The.
+
+563
+00:38:55,860 --> 00:38:58,920
+As community spaces, statistical ensembles are
+
+564
+00:38:58,920 --> 00:39:03,810
+viewed as a collection of microstates that's
+
+565
+00:39:04,230 --> 00:39:06,870
+subsystem of a large number of particles can adopt
+
+566
+00:39:07,350 --> 00:39:11,700
+as it evolves in time and if it adopts each of
+
+567
+00:39:11,700 --> 00:39:14,790
+these microstates with some corresponding
+
+568
+00:39:15,240 --> 00:39:20,340
+probability. And by imposing laws of nature like
+
+569
+00:39:20,340 --> 00:39:23,570
+the conservation of energy and the conservation of
+
+570
+00:39:23,880 --> 00:39:28,320
+particle, no, we define various sorts of
+
+571
+00:39:28,330 --> 00:39:31,140
+statistical ensembles through the resulting
+
+572
+00:39:31,150 --> 00:39:34,650
+constraints. The micro canonical ensemble is the
+
+573
+00:39:34,650 --> 00:39:39,450
+most direct example where conservation of energy
+
+574
+00:39:39,930 --> 00:39:43,530
+is imposed on the system itself, which implies
+
+575
+00:39:43,530 --> 00:39:46,860
+that it must be completely isolated from all the
+
+576
+00:39:46,860 --> 00:39:49,860
+rest of the universe, unable to exchange any
+
+577
+00:39:49,860 --> 00:39:51,690
+energy or particles.
+
+578
+00:39:54,320 --> 00:40:01,880
+And gets to the temperature being derived. From
+
+579
+00:40:01,880 --> 00:40:05,510
+the fundamental conservative quantity, the energy.
+
+580
+00:40:05,930 --> 00:40:11,990
+No. And through the second law of thermodynamics,
+
+581
+00:40:11,990 --> 00:40:15,280
+the first being that conservation of energy, Iran
+
+582
+00:40:15,290 --> 00:40:20,180
+will show that the entropy is always not decrease
+
+583
+00:40:20,180 --> 00:40:24,620
+in function as time passes so that we can identify
+
+584
+00:40:24,860 --> 00:40:29,610
+something that's real by searching for. The
+
+585
+00:40:29,610 --> 00:40:33,390
+condition of maximum entropy that we then applied
+
+586
+00:40:33,390 --> 00:40:36,720
+to a more practical set up to be that three was
+
+587
+00:40:36,720 --> 00:40:41,060
+called the canonical ensemble. We're canonical
+
+588
+00:40:41,080 --> 00:40:43,300
+does carry the meaning that this is the usual one
+
+589
+00:40:43,480 --> 00:40:46,960
+we would work with, where the system is allowed to
+
+590
+00:40:46,960 --> 00:40:50,580
+exchange energy with some large reservoir that
+
+591
+00:40:50,590 --> 00:40:53,740
+fixes the temperature and the particle number
+
+592
+00:40:53,740 --> 00:40:57,980
+itself is still fixed, so. The ability of the
+
+593
+00:40:57,980 --> 00:40:59,900
+system to interact with the rest of the universe
+
+594
+00:40:59,900 --> 00:41:03,530
+is what allows us to set it up, manipulate it and
+
+595
+00:41:03,530 --> 00:41:08,750
+observe it and measure quantities such as the
+
+596
+00:41:09,660 --> 00:41:13,070
+capacity entropy and now the internal energy as
+
+597
+00:41:13,400 --> 00:41:17,840
+observables rather than the defining qualities.
+
+598
+00:41:19,050 --> 00:41:24,210
+And by maximizing entropy to impose them going to
+
+599
+00:41:24,210 --> 00:41:29,500
+have to keep. We define partition function where
+
+600
+00:41:29,520 --> 00:41:30,480
+equivalently the.
+
+601
+00:41:32,980 --> 00:41:35,990
+Helmholtz, free energy is the water in the world,
+
+602
+00:41:36,010 --> 00:41:38,650
+that petition function, which are the starting
+
+603
+00:41:38,650 --> 00:41:42,660
+points for driving all of this? Essentially, it is
+
+604
+00:41:42,700 --> 00:41:47,810
+like. Energy capacity, so we looked at. Some of
+
+605
+00:41:47,830 --> 00:41:51,400
+those convictions for the case of simple,
+
+606
+00:41:51,400 --> 00:41:55,240
+distinguishable, indisputable systems have not
+
+607
+00:41:55,240 --> 00:41:59,410
+attracted expense. Where is that pure information
+
+608
+00:41:59,410 --> 00:42:01,660
+content, whether or not the degrees of freedom
+
+609
+00:42:01,660 --> 00:42:05,800
+could be distinguished, led to observable changes
+
+610
+00:42:06,820 --> 00:42:11,950
+in energy and entropy. And we also do torrealba
+
+611
+00:42:11,950 --> 00:42:16,860
+able to. Consider or analyze models like the phone
+
+612
+00:42:17,130 --> 00:42:20,610
+and the better, the devices of cell phones that
+
+613
+00:42:21,660 --> 00:42:23,460
+reproduce experimental measurements for the heat
+
+614
+00:42:23,460 --> 00:42:29,130
+capacities of various materials. Maybe one useful.
+
+615
+00:42:30,240 --> 00:42:34,560
+Aspect of this work to highlight was the trick of
+
+616
+00:42:34,560 --> 00:42:37,740
+simplifying the system by looking at this behavior
+
+617
+00:42:37,740 --> 00:42:41,570
+in the high temperature limits and avoiding work,
+
+618
+00:42:41,970 --> 00:42:44,250
+using that to guide our analysis of the more
+
+619
+00:42:44,280 --> 00:42:47,400
+complicated situation of intermediate temperatures.
+
+620
+00:42:48,600 --> 00:42:52,200
+So with the economic slowdown and we went through
+
+621
+00:42:52,770 --> 00:42:56,540
+two main applications. So we're looking at
+
+622
+00:42:56,540 --> 00:43:03,780
+classical novelistic ideal gas's. Well. We went
+
+623
+00:43:03,780 --> 00:43:06,630
+through that same process of regulating the theory
+
+624
+00:43:07,140 --> 00:43:10,110
+by democratizing the movement and then taking the
+
+625
+00:43:10,110 --> 00:43:13,320
+limits of continuous variation that replace those
+
+626
+00:43:13,320 --> 00:43:14,730
+discrete cells with continuous.
+
+627
+00:43:17,200 --> 00:43:26,350
+And. Also. Derive the pressure and I guess as an
+
+628
+00:43:26,350 --> 00:43:30,070
+equation of state, also looking at the mixing of
+
+629
+00:43:30,850 --> 00:43:34,870
+two gases, if they're distinguishable in the same
+
+630
+00:43:35,130 --> 00:43:39,430
+particles, which can be distinguishable in case
+
+631
+00:43:39,430 --> 00:43:42,730
+produced a non-zero mixing entropy corresponding
+
+632
+00:43:42,730 --> 00:43:46,540
+to an irreversible process. In contrast to that is
+
+633
+00:43:47,050 --> 00:43:51,430
+that in this case, we're combining and we separate
+
+634
+00:43:51,510 --> 00:43:55,140
+the gases is reversible and can be done with no
+
+635
+00:43:55,150 --> 00:44:01,160
+obstruction. And then. Further building on. Those
+
+636
+00:44:01,160 --> 00:44:05,450
+concerns about the Agassiz took systems of ideal
+
+637
+00:44:05,450 --> 00:44:08,870
+gases, put them in some container in contact with
+
+638
+00:44:09,710 --> 00:44:13,760
+two external thermal reservoirs, one them coal,
+
+639
+00:44:14,360 --> 00:44:18,200
+and use the flow of heat from the reservoir to the
+
+640
+00:44:18,200 --> 00:44:23,120
+core reservoir through the idea of gas as a way to
+
+641
+00:44:23,510 --> 00:44:24,610
+extract work.
+
+642
+00:44:27,380 --> 00:44:32,920
+On the violence definably, the tension. Which
+
+643
+00:44:33,370 --> 00:44:36,490
+involves not just the flow of heat, but also
+
+644
+00:44:36,490 --> 00:44:40,960
+various manipulations, expanding and pressing or
+
+645
+00:44:40,960 --> 00:44:45,340
+just holding the volume fixed for the system and
+
+646
+00:44:45,340 --> 00:44:52,060
+by. Introducing preferably diagrams of the entropy
+
+647
+00:44:52,090 --> 00:44:55,720
+temperature diagrams. We had a nice visual mediums
+
+648
+00:44:55,720 --> 00:45:01,150
+to monitor sequences of some of those processes
+
+649
+00:45:01,690 --> 00:45:05,410
+that. Produce a close group that can be repeated
+
+650
+00:45:05,770 --> 00:45:09,720
+arbitrarily many times to finance the cycles of.
+
+651
+00:45:10,900 --> 00:45:15,760
+That can produce a steady flow of work from that
+
+652
+00:45:15,760 --> 00:45:19,750
+heat transfer or going the other way. Can take we
+
+653
+00:45:19,750 --> 00:45:23,050
+can use work that we've done on the system to
+
+654
+00:45:23,050 --> 00:45:23,920
+transfer these.
+
+655
+00:45:26,190 --> 00:45:30,330
+And operate as a refrigerator, so the.
+
+656
+00:45:32,460 --> 00:45:36,810
+Balance of the work that a heat engine is able to
+
+657
+00:45:36,810 --> 00:45:39,540
+produce based on the amount of heat it is to
+
+658
+00:45:39,540 --> 00:45:43,530
+operate, it finds its efficiency. And we spent
+
+659
+00:45:43,530 --> 00:45:47,910
+some time showing that the cycle achieves the
+
+660
+00:45:47,910 --> 00:45:51,470
+maximum possible efficiency. That is allowed by
+
+661
+00:45:51,480 --> 00:45:54,650
+the second law that whereas other psychos on the
+
+662
+00:45:54,650 --> 00:45:59,600
+other side of this cycle model, the operation of
+
+663
+00:45:59,600 --> 00:46:02,360
+internal combustion engines are less efficient,
+
+664
+00:46:02,570 --> 00:46:06,380
+but have access to greater sources of heat through
+
+665
+00:46:06,770 --> 00:46:09,890
+burning fuel rather than waiting for heat transfer.
+
+666
+00:46:11,790 --> 00:46:14,610
+And the third and final statistical example we
+
+667
+00:46:15,150 --> 00:46:18,870
+looked at further generalizes to the situation by
+
+668
+00:46:18,870 --> 00:46:21,010
+putting the system in contact with the progress
+
+669
+00:46:22,140 --> 00:46:25,170
+that allows both the energy and the number of
+
+670
+00:46:25,170 --> 00:46:29,250
+particles to fluctuate while the temperature and
+
+671
+00:46:29,250 --> 00:46:35,820
+chemical potential are kept fixed. And. We did the
+
+672
+00:46:36,120 --> 00:46:39,680
+same sort of interview maximization to find some
+
+673
+00:46:39,690 --> 00:46:44,660
+dynamic equilibrium. That's gave us the tools to
+
+674
+00:46:44,660 --> 00:46:49,310
+apply this to systems of quantum gases. The other
+
+675
+00:46:49,310 --> 00:46:52,800
+main ingredient for me to be part of the system is
+
+676
+00:46:54,020 --> 00:46:56,960
+that rather than looking at all of the possible
+
+677
+00:46:56,960 --> 00:47:01,770
+microstates of a single particle and then. I'm
+
+678
+00:47:02,690 --> 00:47:05,390
+just taking the power of that single political
+
+679
+00:47:05,390 --> 00:47:08,030
+prediction function to define the important
+
+680
+00:47:08,060 --> 00:47:12,080
+opposition function. We saw how that approach can
+
+681
+00:47:12,080 --> 00:47:15,620
+break down when there's a measurable probability
+
+682
+00:47:15,620 --> 00:47:19,220
+for the idea for multiple identical articles to
+
+683
+00:47:19,220 --> 00:47:22,370
+occupy the same energy level, whereas instead the
+
+684
+00:47:22,370 --> 00:47:26,680
+quantum approach. But considering the energy
+
+685
+00:47:26,680 --> 00:47:29,590
+levels themselves, the organization microstates in
+
+686
+00:47:29,590 --> 00:47:33,130
+terms of possible occupation numbers for each of
+
+687
+00:47:33,130 --> 00:47:36,550
+those energy bills, gets around that problem and
+
+688
+00:47:36,550 --> 00:47:39,970
+allows two different types of quantum particles to
+
+689
+00:47:39,970 --> 00:47:43,570
+be distinguished. The boatswain's. That can have
+
+690
+00:47:44,140 --> 00:47:47,110
+any number of identical bosun's occupying the same
+
+691
+00:47:47,620 --> 00:47:52,360
+energy level, while fermions can only have at most
+
+692
+00:47:52,360 --> 00:47:58,710
+one identical formula in any given energy. I also
+
+693
+00:47:58,720 --> 00:48:04,420
+notice the exclusion principle and in the limit of
+
+694
+00:48:04,420 --> 00:48:06,610
+high temperatures with sufficiently negative
+
+695
+00:48:07,000 --> 00:48:11,490
+chemical potentials that you can no virgin recover
+
+696
+00:48:11,920 --> 00:48:18,240
+the classical limit. And the. Earlier approach
+
+697
+00:48:18,240 --> 00:48:22,320
+that we talked about, so just to wrap up the
+
+698
+00:48:22,320 --> 00:48:24,840
+applications more quickly, is that getting more
+
+699
+00:48:24,840 --> 00:48:30,900
+recent? We looked at the full time gas with the.
+
+700
+00:48:31,820 --> 00:48:36,740
+Those Einstein statistics and an. And the grand
+
+701
+00:48:36,740 --> 00:48:39,740
+finale coopetition function from the ensemble,
+
+702
+00:48:40,580 --> 00:48:44,390
+seeing how it provides a good model both for solar
+
+703
+00:48:44,390 --> 00:48:47,390
+radiation as well as the cosmic microwave
+
+704
+00:48:47,390 --> 00:48:50,960
+background, even though it's making the assumption
+
+705
+00:48:51,440 --> 00:48:57,410
+that all of these photons are not attractive. That
+
+706
+00:48:57,410 --> 00:49:02,930
+turns out to be not an issue in throughout that
+
+707
+00:49:02,930 --> 00:49:05,840
+whole range, from the coldest to the hottest
+
+708
+00:49:05,840 --> 00:49:07,750
+regions of the of the universe.
+
+709
+00:49:10,700 --> 00:49:13,970
+And similarly, looking at not attractive females,
+
+710
+00:49:14,180 --> 00:49:19,080
+we focused on the low temperature regime. So where
+
+711
+00:49:19,830 --> 00:49:23,820
+the family function that defines the occupation
+
+712
+00:49:23,820 --> 00:49:29,170
+number of fermions as a function of energy purpose
+
+713
+00:49:29,190 --> 00:49:32,250
+is a step function at low temperatures where all
+
+714
+00:49:32,250 --> 00:49:35,670
+of the low lying energy levels are filled by the
+
+715
+00:49:35,670 --> 00:49:39,750
+single phenomenon that can occupy them. And the
+
+716
+00:49:39,750 --> 00:49:44,070
+higher energy levels are all empty, which defines
+
+717
+00:49:44,070 --> 00:49:47,730
+the fairly energy is the boundary between the
+
+718
+00:49:47,730 --> 00:49:51,960
+filled and empty sets of energy levels and also
+
+719
+00:49:51,960 --> 00:49:56,280
+leaves a non-zero energy and a non-zero degeneracy
+
+720
+00:49:56,280 --> 00:49:59,340
+pressure even in the limits of absolute zero
+
+721
+00:49:59,340 --> 00:50:03,810
+temperature. That plays a key role in Type 1A
+
+722
+00:50:03,810 --> 00:50:07,680
+supernova as being possible. And since the spring
+
+723
+00:50:07,680 --> 00:50:10,500
+break, we've spent all our time looking at this
+
+724
+00:50:10,500 --> 00:50:13,590
+reaction, interacting statistical systems where
+
+725
+00:50:14,160 --> 00:50:17,850
+there are a broader based model to consider, but
+
+726
+00:50:17,850 --> 00:50:21,660
+also a lot more difficulty in analyzing the
+
+727
+00:50:21,670 --> 00:50:24,900
+systems precisely because of the interactions that
+
+728
+00:50:24,900 --> 00:50:30,360
+keep the factories into a bunch of contributions
+
+729
+00:50:30,360 --> 00:50:36,250
+from independent single particles. So the. Testbed
+
+730
+00:50:36,310 --> 00:50:40,750
+for all of this was the easy model of interacting
+
+731
+00:50:40,750 --> 00:50:44,750
+spins on a lattice of the dimensions where you
+
+732
+00:50:44,770 --> 00:50:48,310
+were able to obtain some exact results in one in
+
+733
+00:50:48,310 --> 00:50:52,780
+two dimensions. Compare those to the mean
+
+734
+00:50:53,080 --> 00:50:59,350
+approximation and in higher dimensions. Look a bit
+
+735
+00:50:59,350 --> 00:51:03,370
+this week at the numerical methods that are
+
+736
+00:51:03,790 --> 00:51:07,400
+broadly applicable. Not only to the U.S. model,
+
+737
+00:51:07,940 --> 00:51:12,890
+but to a vast swath of interactive statistical
+
+738
+00:51:12,890 --> 00:51:22,100
+systems, both within and sciences, so. The. Basic
+
+739
+00:51:22,100 --> 00:51:25,340
+three pillars of that margin were the foundations
+
+740
+00:51:25,340 --> 00:51:27,500
+like these, the physical examples of the walls of
+
+741
+00:51:27,500 --> 00:51:31,940
+the premix applications to things like ideal gases,
+
+742
+00:51:32,540 --> 00:51:35,870
+thermodynamic cycles and conditions, along with
+
+743
+00:51:36,020 --> 00:51:39,200
+some more advanced topics like numerical methods,
+
+744
+00:51:39,380 --> 00:51:44,840
+universality. And that is the model that
+
+745
+00:51:48,170 --> 00:51:51,400
+you enjoy the trip and is the master.
+
+746
+00:51:58,890 --> 00:51:59,580
+Yeah, so
+
+747
+00:52:02,280 --> 00:52:05,880
+that is correct. Everything that we've gone
+
+748
+00:52:05,880 --> 00:52:08,760
+through the lectures, it's fair game for the exam
+
+749
+00:52:09,390 --> 00:52:14,330
+and I guess you'll see in a couple of weeks what
+
+750
+00:52:14,600 --> 00:52:18,510
+what turns out to be out there. I have the get
+
+751
+00:52:19,710 --> 00:52:24,050
+about the play. There are two sample exams on the.
+
+752
+00:52:25,950 --> 00:52:30,780
+I can kill this. This is one of them where there
+
+753
+00:52:30,780 --> 00:52:36,720
+is indeed a question on fazing bottle. This is an
+
+754
+00:52:36,720 --> 00:52:39,200
+illustration of the sort of thing you can expect,
+
+755
+00:52:39,690 --> 00:52:43,950
+but we are well over time already. So to leave the
+
+756
+00:52:43,960 --> 00:52:48,690
+sample exams on the module's page for you to
+
+757
+00:52:48,900 --> 00:52:52,230
+explore on your own, yet feel free to contact me
+
+758
+00:52:52,680 --> 00:52:55,560
+with any questions about the program that's at.
+
+759
+00:53:02,080 --> 00:53:02,540
+Sancta.

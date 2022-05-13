@@ -1,0 +1,2771 @@
+1
+00:00:03,280 --> 00:00:07,180
+Okay, we can get under way. Welcome back to the
+
+2
+00:00:07,180 --> 00:00:11,770
+final day, part one.  We can start off with
+
+3
+00:00:14,080 --> 00:00:18,300
+the the last of these codes for this term.
+
+4
+00:00:20,940 --> 00:00:22,710
+We'll see if the system sticks around.
+
+5
+00:00:26,060 --> 00:00:28,370
+Anyway, the code for today is seven five,
+
+6
+00:00:34,050 --> 00:00:34,720
+zero five, two six.
+
+7
+00:00:39,100 --> 00:00:44,290
+And we will see today how well I've planned out the
+
+8
+00:00:46,570 --> 00:00:50,230
+last bit of material to go.  First, are the very questions
+
+9
+00:00:50,230 --> 00:00:50,650
+about the module
+
+10
+00:00:53,080 --> 00:00:57,910
+up until now, before we keep going with the last
+
+11
+00:00:57,910 --> 00:01:01,210
+few topics on broader applications.
+
+12
+00:01:05,440 --> 00:01:06,670
+So just see.
+
+13
+00:01:10,160 --> 00:01:14,360
+Thirteenth of May and the first half of this week,
+
+14
+00:01:14,360 --> 00:01:16,640
+we went through.
+
+15
+00:01:19,530 --> 00:01:20,400
+Was one year.
+
+16
+00:01:22,440 --> 00:01:23,130
+Duality.
+
+17
+00:01:26,120 --> 00:01:30,060
+What were these two dimensional using model, the
+
+18
+00:01:30,130 --> 00:01:31,090
+square lattice?
+
+19
+00:01:33,700 --> 00:01:37,750
+Which predicted the exact critical temperature of
+
+20
+00:01:37,750 --> 00:01:43,210
+the system to cover the log of one plus route to
+
+21
+00:01:43,390 --> 00:01:47,070
+Jefri, plug in the numbers to that exact formula,
+
+22
+00:01:47,530 --> 00:01:51,680
+temperature is enough to want to settle. And this
+
+23
+00:01:51,680 --> 00:01:55,790
+was obtainable through the duality without
+
+24
+00:01:55,790 --> 00:02:01,150
+actually. Being able to solve the original to
+
+25
+00:02:01,150 --> 00:02:04,660
+match up with a model or its dual system, which in
+
+26
+00:02:04,660 --> 00:02:07,980
+this special case turned out to be a similar look
+
+27
+00:02:08,000 --> 00:02:10,660
+at using model, is defined with dual speed
+
+28
+00:02:10,660 --> 00:02:14,650
+variables on the dual lattice, another square
+
+29
+00:02:14,650 --> 00:02:18,500
+lattice that just shifted about half a unique
+
+30
+00:02:18,610 --> 00:02:26,640
+dimension and is dualities are. A major. Tool in
+
+31
+00:02:26,640 --> 00:02:28,980
+the twenty first century theoretical physics
+
+32
+00:02:28,980 --> 00:02:33,930
+applied to all sorts of situations, mostly less
+
+33
+00:02:33,930 --> 00:02:38,250
+precise and less solidly defined than simple
+
+34
+00:02:38,250 --> 00:02:39,600
+creators wanted to do reality.
+
+35
+00:02:41,750 --> 00:02:45,500
+Where certain systems exhibits in some
+
+36
+00:02:45,500 --> 00:02:48,320
+circumstances the same behavior as other dual
+
+37
+00:02:48,320 --> 00:02:52,520
+systems that may be easier to analyze, the special
+
+38
+00:02:52,520 --> 00:02:55,800
+case should have holographic duality. Is that
+
+39
+00:02:55,940 --> 00:02:59,840
+really quantum gravity to quantum field theories
+
+40
+00:02:59,840 --> 00:03:03,100
+that are so different from the system systems
+
+41
+00:03:03,110 --> 00:03:06,230
+we've working with and will probably pop up before
+
+42
+00:03:06,230 --> 00:03:11,950
+the end of this hour? And another? Equally
+
+43
+00:03:12,380 --> 00:03:16,130
+widespread. Tool in the.
+
+44
+00:03:18,270 --> 00:03:20,940
+Modern analysis of complex systems.
+
+45
+00:03:26,500 --> 00:03:30,010
+Numerical analysis of contract statistical systems.
+
+46
+00:03:32,880 --> 00:03:35,100
+Making use of the.
+
+47
+00:03:37,440 --> 00:03:39,410
+Has computers that have been developed over the
+
+48
+00:03:39,410 --> 00:03:46,210
+past 70 years or so. Where? We saw that.
+
+49
+00:03:48,490 --> 00:03:52,060
+If we were to try to do a brute force computation
+
+50
+00:03:52,480 --> 00:03:55,450
+of all of the microstates, then a statistical
+
+51
+00:03:55,450 --> 00:03:59,470
+system, even with the most powerful supercomputers
+
+52
+00:03:59,470 --> 00:04:02,320
+we can imagine building that obey the laws of
+
+53
+00:04:02,320 --> 00:04:06,670
+physics, a calculation of that sort of small,
+
+54
+00:04:06,670 --> 00:04:10,900
+simple systems would require far longer than the
+
+55
+00:04:10,900 --> 00:04:15,540
+age of the universe to complete. So. The only way
+
+56
+00:04:15,540 --> 00:04:18,180
+we can actually get results from these miracle
+
+57
+00:04:18,180 --> 00:04:24,550
+analysis is to do so-called sampling. Not a small
+
+58
+00:04:24,550 --> 00:04:30,150
+number. Of microstates in the system, which. Leads
+
+59
+00:04:30,150 --> 00:04:36,360
+to that same challenge and a different guys where
+
+60
+00:04:37,200 --> 00:04:40,890
+the number of microstates, the proportion that we
+
+61
+00:04:40,890 --> 00:04:44,160
+can reasonably sample in the amount of time we
+
+62
+00:04:44,160 --> 00:04:47,020
+want our calculations to run before we have
+
+63
+00:04:47,050 --> 00:04:51,300
+results is vanishingly small. One example here,
+
+64
+00:04:51,300 --> 00:04:55,550
+where only about one out of every 10 to the power,
+
+65
+00:04:55,570 --> 00:04:57,870
+three hundred twenty four million microstates
+
+66
+00:04:58,830 --> 00:05:02,820
+could possibly be sample in. This was for the
+
+67
+00:05:02,820 --> 00:05:06,540
+prediction of the critical temperature of the five
+
+68
+00:05:06,540 --> 00:05:11,430
+dimensions and the solution to this we mentioned
+
+69
+00:05:13,050 --> 00:05:17,670
+Tuesday. But any details about it is a approach
+
+70
+00:05:18,180 --> 00:05:21,990
+known as important sampling. Where?
+
+71
+00:05:24,650 --> 00:05:28,220
+What we do is instead of randomly sampling or
+
+72
+00:05:28,220 --> 00:05:31,400
+pseudo randomly sampling microstates just drawn
+
+73
+00:05:32,360 --> 00:05:36,200
+without any knowledge about the system or the full
+
+74
+00:05:36,200 --> 00:05:38,780
+range of possible microstates, we design
+
+75
+00:05:38,780 --> 00:05:40,340
+procedures that.
+
+76
+00:05:42,450 --> 00:05:45,870
+I guarantee to sample any particular microstates
+
+77
+00:05:46,440 --> 00:05:49,550
+with a probability that is proportional to its
+
+78
+00:05:49,890 --> 00:05:53,340
+factor factor, the amount to which it contributes
+
+79
+00:05:53,910 --> 00:05:59,510
+to any given expectation value or. Arbitrary
+
+80
+00:05:59,510 --> 00:06:02,810
+expectation value is given by some of microstates
+
+81
+00:06:02,810 --> 00:06:07,560
+of the observable itself, weighted by. This
+
+82
+00:06:07,570 --> 00:06:09,970
+probability in the multifactor neutralized by the
+
+83
+00:06:09,970 --> 00:06:10,840
+protection function.
+
+84
+00:06:12,870 --> 00:06:14,940
+And the procedures that are designed to do this.
+
+85
+00:06:15,360 --> 00:06:18,270
+I'm sure you've heard the term algorithm's, you
+
+86
+00:06:18,270 --> 00:06:18,720
+may not
+
+87
+00:06:21,390 --> 00:06:25,380
+know that it's named after actually a 9th century
+
+88
+00:06:25,530 --> 00:06:28,230
+Persian mathematician for his
+
+89
+00:06:30,690 --> 00:06:36,210
+name, got Latinist to allegorically. And the idea
+
+90
+00:06:36,210 --> 00:06:40,820
+is. And that's where as an illustration, going
+
+91
+00:06:40,820 --> 00:06:43,490
+back to the example with the last time we're
+
+92
+00:06:43,510 --> 00:06:46,280
+worried about a low temperature phase of the U.S.
+
+93
+00:06:46,300 --> 00:06:52,290
+model where we would have to. Find the minimum
+
+94
+00:06:52,290 --> 00:06:55,680
+energy microstates to all the expectation values,
+
+95
+00:06:56,260 --> 00:06:59,460
+if we do have such an algorithm that samples
+
+96
+00:06:59,460 --> 00:07:03,380
+microstates proportional to the exponential of the
+
+97
+00:07:03,400 --> 00:07:06,630
+speed of times, their energy that in that low
+
+98
+00:07:06,630 --> 00:07:11,430
+temperature regime is very large, this exponential
+
+99
+00:07:11,430 --> 00:07:16,710
+factor is going to be exponentially enhanced for
+
+100
+00:07:16,740 --> 00:07:19,860
+exactly those low energy states that we want to
+
+101
+00:07:19,860 --> 00:07:24,800
+find. So if we have such an algorithm, then it
+
+102
+00:07:24,810 --> 00:07:30,270
+will sample exactly the microstates that we need.
+
+103
+00:07:30,900 --> 00:07:33,120
+And it also continues to work with the high
+
+104
+00:07:33,120 --> 00:07:38,280
+temperature phase where the probability is for
+
+105
+00:07:38,940 --> 00:07:41,670
+each of the microstates become similar. There's
+
+106
+00:07:41,760 --> 00:07:46,320
+less of an issue. With sampling only a very small
+
+107
+00:07:46,320 --> 00:07:46,950
+number of them.
+
+108
+00:07:49,630 --> 00:07:56,640
+So. Let me know if that general idea is not clear.
+
+109
+00:07:58,560 --> 00:08:01,710
+What I'll do in the meantime is move on and start
+
+110
+00:08:01,710 --> 00:08:05,710
+thinking about how we actually get important,
+
+111
+00:08:05,730 --> 00:08:09,680
+simple algorithm. Rather than assuming that we
+
+112
+00:08:09,680 --> 00:08:15,220
+have one. Given the challenge that you don't
+
+113
+00:08:15,220 --> 00:08:19,150
+actually know the probabilities of the microstates,
+
+114
+00:08:19,150 --> 00:08:22,990
+that trying to sample after this depends on the
+
+115
+00:08:23,020 --> 00:08:25,310
+energies of all those microstates and also
+
+116
+00:08:25,330 --> 00:08:28,060
+mobilized by the petition function. So actually,
+
+117
+00:08:28,060 --> 00:08:31,090
+computing all of these to check whether our
+
+118
+00:08:31,090 --> 00:08:34,540
+algorithms sample them correctly would get us back
+
+119
+00:08:34,540 --> 00:08:36,850
+to require that brute force computation at the
+
+120
+00:08:36,850 --> 00:08:42,040
+forward function and then waiting far longer to do
+
+121
+00:08:42,040 --> 00:08:42,420
+so.
+
+122
+00:08:44,660 --> 00:08:50,050
+So there are various solutions to this that. Have
+
+123
+00:08:50,050 --> 00:08:50,380
+been.
+
+124
+00:08:52,510 --> 00:08:58,830
+Invented. And the essence of. Each of them is that
+
+125
+00:08:59,500 --> 00:09:02,100
+is the casting aspect of the algorithms, the use
+
+126
+00:09:02,100 --> 00:09:06,830
+of the pseudo random numbers are. Taking advantage
+
+127
+00:09:06,830 --> 00:09:10,190
+of to guide the system to these important high
+
+128
+00:09:10,190 --> 00:09:13,550
+probability microstates that actually knowing what
+
+129
+00:09:13,820 --> 00:09:16,860
+those probabilities are in absolute terms, but
+
+130
+00:09:16,880 --> 00:09:22,100
+only in in relative terms and. Importantly,
+
+131
+00:09:22,260 --> 00:09:25,920
+whatever procedures in place to encourage the
+
+132
+00:09:25,920 --> 00:09:31,800
+system to go to these of microstates, this has to
+
+133
+00:09:31,800 --> 00:09:36,480
+be done without introducing the other bias that
+
+134
+00:09:36,480 --> 00:09:39,960
+could lead to incorrect results being predicted
+
+135
+00:09:39,960 --> 00:09:44,400
+more generally. Again, we have only this tiny
+
+136
+00:09:44,400 --> 00:09:48,180
+fraction of microstates available to analyze. So
+
+137
+00:09:48,180 --> 00:09:52,570
+probably the most famous way of doing this. Is an
+
+138
+00:09:52,570 --> 00:09:56,110
+algorithm that was developed now almost seven
+
+139
+00:09:56,110 --> 00:09:59,240
+years ago in nineteen fifty three by these five
+
+140
+00:09:59,240 --> 00:10:02,140
+folks, Nick Metropolis, Arianna Rosenbluth, Marcia
+
+141
+00:10:02,170 --> 00:10:07,260
+Elizabeth Taylor and Edward Teller. And I'm going
+
+142
+00:10:07,260 --> 00:10:11,040
+to call this metropolis, even though there are two
+
+143
+00:10:11,050 --> 00:10:15,300
+residences and two towers, there is sort of a.
+
+144
+00:10:16,590 --> 00:10:19,530
+Infamous misfiring of the alphabetical order here
+
+145
+00:10:19,560 --> 00:10:23,070
+that leads to this frequently being referred to as
+
+146
+00:10:23,780 --> 00:10:24,130
+chocolate.
+
+147
+00:10:26,140 --> 00:10:30,220
+Even though Petropolis himself was not actually
+
+148
+00:10:30,220 --> 00:10:33,580
+involved in developing the algorithm, he was the
+
+149
+00:10:33,580 --> 00:10:37,570
+source of the computer equipment that in 1953 was
+
+150
+00:10:37,570 --> 00:10:40,420
+very highly specialized and was used to test the
+
+151
+00:10:40,420 --> 00:10:44,260
+algorithm with a simple calculation that says you
+
+152
+00:10:44,260 --> 00:10:46,550
+can do pretty much instantaneously some.
+
+153
+00:10:48,960 --> 00:10:55,730
+And the. The approach that this Emirati metropolis
+
+154
+00:10:55,750 --> 00:11:01,180
+wrestles with tower algorithm takes to find high
+
+155
+00:11:01,180 --> 00:11:02,950
+probability microstates is that none of those
+
+156
+00:11:02,950 --> 00:11:07,870
+probabilities is to work with the Markov chains
+
+157
+00:11:08,290 --> 00:11:12,070
+that we actually introduced way back in February,
+
+158
+00:11:12,190 --> 00:11:17,920
+be the first unit of this module. And since it's
+
+159
+00:11:17,920 --> 00:11:19,690
+been a while since we saw that, I'll remind you
+
+160
+00:11:19,690 --> 00:11:23,170
+that this Markov chain is a process,
+
+161
+00:11:25,340 --> 00:11:28,780
+the state of the system and based on its state
+
+162
+00:11:28,930 --> 00:11:32,980
+microstates in the context of the samples, we
+
+163
+00:11:33,130 --> 00:11:37,030
+generate a new state that becomes a new link in
+
+164
+00:11:37,030 --> 00:11:40,420
+this chain. And importantly, that depends only on.
+
+165
+00:11:41,550 --> 00:11:42,030
+The.
+
+166
+00:11:45,100 --> 00:11:49,840
+Initial microstates that we start off with without
+
+167
+00:11:49,840 --> 00:11:53,110
+having any memory of looking for it. So if we had
+
+168
+00:11:53,390 --> 00:11:57,190
+to visually represent this sequence of states,
+
+169
+00:11:58,030 --> 00:12:01,630
+we'd have one sample here. This is used with some
+
+170
+00:12:02,290 --> 00:12:07,120
+aspects of some pseudo random number. What is
+
+171
+00:12:07,330 --> 00:12:09,340
+reproducible in the American population to
+
+172
+00:12:09,340 --> 00:12:12,510
+generate a new state that we forget all about that
+
+173
+00:12:12,520 --> 00:12:16,460
+previous states. Just keep the process in this
+
+174
+00:12:16,850 --> 00:12:20,620
+current one that still.
+
+175
+00:12:23,160 --> 00:12:28,530
+Up until we have the statistics that we need to do
+
+176
+00:12:28,530 --> 00:12:32,410
+the prediction for expectation values. Without
+
+177
+00:12:33,140 --> 00:12:35,990
+power, with controlled statistical uncertainties,
+
+178
+00:12:37,490 --> 00:12:42,710
+so. To illustrate the idea of the Metropolis Tower
+
+179
+00:12:42,750 --> 00:12:47,370
+algorithm. More concretely, we can go back to
+
+180
+00:12:47,580 --> 00:12:50,940
+choosing a model that we are now quite familiar
+
+181
+00:12:50,940 --> 00:12:55,470
+with. So each of these links in the chain is going
+
+182
+00:12:55,470 --> 00:12:59,990
+to be a configuration of the spin's. And you can
+
+183
+00:12:59,990 --> 00:13:04,580
+start off with any pseudo randomly chosen spin
+
+184
+00:13:04,580 --> 00:13:07,730
+configuration. So we microstates people. Well, as
+
+185
+00:13:07,730 --> 00:13:11,090
+the initial states at the start of the Walk of
+
+186
+00:13:11,090 --> 00:13:16,260
+Shame. But then from this initial configuration,
+
+187
+00:13:16,920 --> 00:13:19,830
+which was just one of the spins in the system,
+
+188
+00:13:20,550 --> 00:13:22,710
+changed it. So the only thing you can do on the
+
+189
+00:13:23,190 --> 00:13:28,070
+easy model is have only. Two values is the fact
+
+190
+00:13:28,070 --> 00:13:31,940
+that stem from up to down to vice versa, and then
+
+191
+00:13:32,870 --> 00:13:37,460
+we have the key step, which is to decide what the
+
+192
+00:13:37,460 --> 00:13:41,300
+next step is going to be based on flipping the
+
+193
+00:13:41,300 --> 00:13:46,840
+split. So. There are two possibilities, either we
+
+194
+00:13:47,260 --> 00:13:49,960
+define the next state to be the original system
+
+195
+00:13:49,960 --> 00:13:54,130
+unchanged or we define it to be the modified
+
+196
+00:13:54,130 --> 00:13:58,030
+system with the single been flipped and we accept
+
+197
+00:13:58,150 --> 00:14:02,740
+that spin flip with this maybe funny looking
+
+198
+00:14:02,740 --> 00:14:06,700
+probability, the minimum of one hundred percent
+
+199
+00:14:07,150 --> 00:14:10,000
+would be exponential of the change in the energy
+
+200
+00:14:10,660 --> 00:14:13,340
+divided by the temperature multiplied by.
+
+201
+00:14:15,860 --> 00:14:17,480
+So we can.
+
+202
+00:14:21,100 --> 00:14:24,480
+See, before we dig into this acceptance, probably
+
+203
+00:14:24,850 --> 00:14:30,580
+in more detail, it is crucial that we have the
+
+204
+00:14:31,030 --> 00:14:34,660
+capability of having the next
+
+205
+00:14:36,740 --> 00:14:39,550
+stage of the next stage of the identical to the
+
+206
+00:14:39,550 --> 00:14:42,880
+one that just came, because if we think back to
+
+207
+00:14:43,420 --> 00:14:46,330
+that low temperature phase where we want the
+
+208
+00:14:46,330 --> 00:14:49,150
+ground state to dominate expectations, bellman's.
+
+209
+00:14:50,720 --> 00:14:53,150
+You would want to see that ground states being
+
+210
+00:14:53,540 --> 00:14:56,000
+first weeks, this procedure then repeated over and
+
+211
+00:14:56,000 --> 00:14:59,810
+over again so that it does indeed make the
+
+212
+00:14:59,810 --> 00:15:04,100
+greatest contribution to the nation's interest in
+
+213
+00:15:06,560 --> 00:15:11,220
+which. Accounts for its alleged culpability
+
+214
+00:15:11,220 --> 00:15:13,740
+without actually knowing anything about that
+
+215
+00:15:13,920 --> 00:15:19,420
+microsleep probability. So. Talking through this
+
+216
+00:15:19,420 --> 00:15:22,420
+equation, one twenty four in more detail, we have
+
+217
+00:15:22,420 --> 00:15:26,050
+two possibilities when we look this spin.
+
+218
+00:15:28,890 --> 00:15:33,030
+First, the spin flip could lower the total energy
+
+219
+00:15:33,570 --> 00:15:37,550
+of the system or keep it constant, in which case
+
+220
+00:15:37,560 --> 00:15:41,700
+with the Alpha Delta E that is either negative or
+
+221
+00:15:41,790 --> 00:15:44,760
+less equal to zero. In both those cases, the
+
+222
+00:15:44,760 --> 00:15:49,950
+exponential factor is. More than one hundred
+
+223
+00:15:49,950 --> 00:15:53,580
+percent. And we always accept that change, so many
+
+224
+00:15:54,030 --> 00:15:57,090
+students look, that lowers the energy is accepted
+
+225
+00:15:57,910 --> 00:16:02,500
+100 percent probability, which helps US policies,
+
+226
+00:16:02,550 --> 00:16:05,730
+an approach that renewable energy to a seat so
+
+227
+00:16:05,730 --> 00:16:08,720
+long as it can be reached by the individual states.
+
+228
+00:16:09,420 --> 00:16:13,200
+But on the other hand, if we have inexpensive that
+
+229
+00:16:13,200 --> 00:16:17,580
+increases the energy, we'll still have a non-zero
+
+230
+00:16:17,580 --> 00:16:21,660
+chance of accepting that higher energy microstates
+
+231
+00:16:21,660 --> 00:16:24,360
+moving away from the ground states. But that
+
+232
+00:16:24,360 --> 00:16:27,990
+transition probability to the higher energy state
+
+233
+00:16:28,560 --> 00:16:33,000
+is exponentially suppressed and goes to zero as
+
+234
+00:16:33,000 --> 00:16:35,250
+the temperature goes to zero, which encourages the
+
+235
+00:16:35,250 --> 00:16:40,110
+system to hang out in its ground states. So if we
+
+236
+00:16:40,110 --> 00:16:44,450
+look at. The ratio of these transition
+
+237
+00:16:44,450 --> 00:16:49,130
+probabilities for to spin configurations that
+
+238
+00:16:49,910 --> 00:16:54,140
+differ only by flipping a single spin and this way
+
+239
+00:16:54,590 --> 00:16:59,190
+he calls it a B. And from our definition of the
+
+240
+00:16:59,190 --> 00:17:02,330
+acceptance probability. For them, the trouble was
+
+241
+00:17:02,810 --> 00:17:07,070
+not them, the probability of transitioning from A
+
+242
+00:17:07,070 --> 00:17:10,850
+to B is going to be the minimum of one or the
+
+243
+00:17:10,850 --> 00:17:14,930
+exponential of that difference, A minus equally
+
+244
+00:17:15,320 --> 00:17:16,400
+divided by the temperature
+
+245
+00:17:19,100 --> 00:17:21,730
+for going in the other direction from D.. A, it
+
+246
+00:17:21,740 --> 00:17:27,480
+will be the same to interchanging the roles of A
+
+247
+00:17:27,500 --> 00:17:31,850
+and B.. So its energy B minus energy divided by
+
+248
+00:17:31,850 --> 00:17:35,330
+the temperature and regardless of which of these
+
+249
+00:17:35,330 --> 00:17:40,650
+two microstates has the higher temperature. We
+
+250
+00:17:40,650 --> 00:17:44,160
+will always come out with. This ratio of ability
+
+251
+00:17:44,170 --> 00:17:48,450
+is being exponential by the speed of times by the
+
+252
+00:17:48,450 --> 00:17:51,510
+CIA. So we can just see through the two
+
+253
+00:17:51,510 --> 00:17:57,510
+possibilities if the energy bill is lower today
+
+254
+00:17:58,170 --> 00:18:00,630
+than the numerator here is one. And the
+
+255
+00:18:00,630 --> 00:18:04,200
+denominator is the exponential time to speed up by
+
+256
+00:18:04,200 --> 00:18:07,740
+the speed at which we can negate the argument of
+
+257
+00:18:07,740 --> 00:18:10,230
+the exponential spread from the denominator up to
+
+258
+00:18:10,230 --> 00:18:13,140
+the numerator. If we go the other way with the
+
+259
+00:18:13,140 --> 00:18:15,690
+exponential factor comes directly to the numerator,
+
+260
+00:18:15,960 --> 00:18:19,940
+the dominator is one. And we can then break up
+
+261
+00:18:20,600 --> 00:18:23,570
+that difference in the energies to just be the
+
+262
+00:18:23,570 --> 00:18:28,640
+ratio of the and factors for the two final stages
+
+263
+00:18:28,670 --> 00:18:33,500
+the day so the states have the change into. Are
+
+264
+00:18:33,500 --> 00:18:36,770
+selected proportional to their bottom factors
+
+265
+00:18:37,280 --> 00:18:40,500
+without actually having to impute or know those
+
+266
+00:18:40,820 --> 00:18:44,680
+factors in advance before we randomly propose the.
+
+267
+00:18:47,220 --> 00:18:51,530
+So. Both in this case and more generally, again,
+
+268
+00:18:51,630 --> 00:18:55,110
+these sorts of important sampling Markov chain
+
+269
+00:18:55,110 --> 00:19:00,740
+Monte Carlo algorithms are very likely applied to
+
+270
+00:19:01,040 --> 00:19:03,740
+all areas of the mathematical sciences and beyond.
+
+271
+00:19:03,890 --> 00:19:09,230
+Their statistical physics plays a big role in all
+
+272
+00:19:09,230 --> 00:19:14,630
+of these cases, so long as every micro stage can
+
+273
+00:19:14,630 --> 00:19:19,460
+be generated from every other microstates from the
+
+274
+00:19:19,470 --> 00:19:22,580
+series of pseudo random changes to the individual
+
+275
+00:19:22,580 --> 00:19:28,340
+degrees of freedom. Then this results the
+
+276
+00:19:28,340 --> 00:19:32,060
+acceptance probability that those guarantees that
+
+277
+00:19:32,510 --> 00:19:35,360
+the microstates are going to be stable with the
+
+278
+00:19:35,780 --> 00:19:38,750
+probability, without knowing those probabilities
+
+279
+00:19:38,750 --> 00:19:41,900
+in advance in this condition, that all the
+
+280
+00:19:41,900 --> 00:19:45,230
+microstates are accessible based on these
+
+281
+00:19:45,380 --> 00:19:51,200
+individual changes is called ergotism. Be funny
+
+282
+00:19:51,200 --> 00:19:53,690
+looking technical term where.
+
+283
+00:19:56,800 --> 00:20:00,620
+If we had an algorithm, which is not the case that
+
+284
+00:20:00,620 --> 00:20:03,370
+was not regarded, then the argument we went
+
+285
+00:20:03,370 --> 00:20:06,010
+through with this equation, one twenty five would
+
+286
+00:20:06,010 --> 00:20:08,020
+fail because there would be microstates that could
+
+287
+00:20:08,020 --> 00:20:10,720
+not be reached in the first place, will not show
+
+288
+00:20:10,720 --> 00:20:16,570
+up in the process through which the algorithm is
+
+289
+00:20:16,570 --> 00:20:19,720
+guided or feels out. The high probability
+
+290
+00:20:19,720 --> 00:20:23,290
+microstates it will be overlooked, omitted from
+
+291
+00:20:23,500 --> 00:20:26,380
+the averaging over the samples. That gives us
+
+292
+00:20:26,420 --> 00:20:29,380
+excited values and those expectation values. You
+
+293
+00:20:29,510 --> 00:20:32,590
+can either be completely wrong or at least biased.
+
+294
+00:20:35,210 --> 00:20:38,720
+Through overlooking those particular microstates.
+
+295
+00:20:41,490 --> 00:20:47,480
+So that is. All that I'm going to say about. These
+
+296
+00:20:47,480 --> 00:20:50,030
+numerical methods for interactive statistical
+
+297
+00:20:50,030 --> 00:20:55,520
+systems, the. It's pretty easy to design a full
+
+298
+00:20:55,520 --> 00:20:59,780
+module on that topic, one place you can look if
+
+299
+00:20:59,780 --> 00:21:04,100
+you want to play with this a bit more is in the
+
+300
+00:21:04,130 --> 00:21:06,320
+intruders introduction to general physics. The
+
+301
+00:21:06,320 --> 00:21:09,440
+second item on the list of which should be at the
+
+302
+00:21:09,440 --> 00:21:14,230
+library that actually provides a. Annotated a
+
+303
+00:21:14,230 --> 00:21:18,880
+program for running the metropolis, a for two
+
+304
+00:21:18,900 --> 00:21:23,310
+dimensional model that fits on a single page and
+
+305
+00:21:23,310 --> 00:21:26,020
+was used to generate the black and white speed
+
+306
+00:21:26,020 --> 00:21:29,080
+configurations that we looked at spent exploring
+
+307
+00:21:29,110 --> 00:21:32,470
+the easy model. A couple of weeks ago.
+
+308
+00:21:35,110 --> 00:21:40,270
+And I'll just mention, since it's very close to my
+
+309
+00:21:40,270 --> 00:21:44,490
+research, that although this metropolis wasn't
+
+310
+00:21:44,500 --> 00:21:49,290
+with our group is both very famous and very simple,
+
+311
+00:21:49,300 --> 00:21:53,770
+it's. In many cases, far from the best of the best
+
+312
+00:21:54,010 --> 00:21:58,090
+that we could have. And I don't think time is
+
+313
+00:21:58,090 --> 00:22:01,900
+going to permit, but one of the big issues that
+
+314
+00:22:02,860 --> 00:22:05,860
+this sort of algorithm encounters and Markov chain
+
+315
+00:22:06,430 --> 00:22:08,890
+multicolor algorithm to calculate generally, is
+
+316
+00:22:08,890 --> 00:22:12,490
+that because each link in the chain, which
+
+317
+00:22:12,490 --> 00:22:15,730
+microstates is pseudo randomly sample, depends on
+
+318
+00:22:16,120 --> 00:22:20,230
+the one that came before. It obviously resembles
+
+319
+00:22:20,230 --> 00:22:23,050
+that one that came before. This is especially
+
+320
+00:22:23,050 --> 00:22:27,490
+clear in the case of applying the sort of the easy
+
+321
+00:22:27,490 --> 00:22:31,090
+model where all of this is except one are
+
+322
+00:22:31,090 --> 00:22:35,410
+identical, even if the proposed update is
+
+323
+00:22:35,410 --> 00:22:39,970
+acceptable. So that means that the links in this
+
+324
+00:22:39,970 --> 00:22:43,540
+chain microseismic example are correlated to each
+
+325
+00:22:43,540 --> 00:22:48,240
+other. Let's call autocorrelation. And this
+
+326
+00:22:48,240 --> 00:22:52,080
+requires the chain to be run long enough so that
+
+327
+00:22:52,770 --> 00:22:57,030
+the micro say we started off with is forgotten, we
+
+328
+00:22:57,030 --> 00:23:00,510
+get something that is called in front rather than
+
+329
+00:23:01,080 --> 00:23:03,690
+being the same thing with just a few spins flipped.
+
+330
+00:23:05,380 --> 00:23:08,230
+And depending on the details of the algorithm that
+
+331
+00:23:08,230 --> 00:23:11,590
+is used to move from one of these states to the
+
+332
+00:23:11,590 --> 00:23:17,560
+next, those other correlations can linger for
+
+333
+00:23:18,040 --> 00:23:22,810
+exponentially longer numbers of samples, whereas
+
+334
+00:23:22,810 --> 00:23:27,580
+more clever algorithms I'm talking about this
+
+335
+00:23:27,580 --> 00:23:33,090
+afternoon if if there is time. There's more. It's
+
+336
+00:23:33,510 --> 00:23:37,880
+exponentially speed up the calculations. Or
+
+337
+00:23:38,150 --> 00:23:40,340
+equivalently, exponentially improve the
+
+338
+00:23:41,480 --> 00:23:44,150
+uncertainties and the results that we get for a
+
+339
+00:23:44,150 --> 00:23:45,120
+fixed amount of.
+
+340
+00:23:47,370 --> 00:23:50,330
+So are there any questions about. An important
+
+341
+00:23:50,330 --> 00:23:55,100
+sampling for multicolor. The metropolis was ruined
+
+342
+00:23:55,100 --> 00:23:58,070
+before we talk about the last sort of.
+
+343
+00:24:02,970 --> 00:24:05,700
+Formal theoretical topic for module.
+
+344
+00:24:12,100 --> 00:24:17,600
+This last topic before we do some a quick tour of
+
+345
+00:24:17,600 --> 00:24:21,850
+some border applications going into this afternoon,
+
+346
+00:24:22,630 --> 00:24:26,710
+because as you can see here, known as universality,
+
+347
+00:24:27,010 --> 00:24:31,720
+which has to do with phase transitions and in
+
+348
+00:24:31,720 --> 00:24:35,350
+particular the critical experience that govern
+
+349
+00:24:35,950 --> 00:24:40,780
+these transitions when in the case of second phase
+
+350
+00:24:40,780 --> 00:24:44,620
+transitions. So the perimeter is continuous and
+
+351
+00:24:44,620 --> 00:24:47,800
+there is typically a divergence in one or more of
+
+352
+00:24:47,800 --> 00:24:50,350
+its derivatives with respect to the control
+
+353
+00:24:50,390 --> 00:24:55,630
+parameter. So last week, the easy model, we looked
+
+354
+00:24:55,630 --> 00:24:58,990
+at the critical exponent governing the behavior of
+
+355
+00:24:58,990 --> 00:25:02,110
+the magnetization as the critical temperature is
+
+356
+00:25:02,110 --> 00:25:08,910
+approached from below, which. We found two very
+
+357
+00:25:08,990 --> 00:25:12,060
+four different numbers of dimensions and the
+
+358
+00:25:12,060 --> 00:25:17,910
+different approximations this is to be was a half
+
+359
+00:25:19,530 --> 00:25:25,890
+mean case. It was. And indeed, for the exact
+
+360
+00:25:25,890 --> 00:25:29,790
+solution to the 2D model, and it's just under a
+
+361
+00:25:29,790 --> 00:25:34,800
+third in the 3D case. That's not analytically
+
+362
+00:25:34,800 --> 00:25:37,870
+solvable. That can be analyzed numerically if you
+
+363
+00:25:38,340 --> 00:25:43,630
+algorithms like those just discussed. And in
+
+364
+00:25:43,630 --> 00:25:46,000
+addition to characterizing the behavior of this
+
+365
+00:25:46,000 --> 00:25:51,540
+system around its. Phase transition, the regime
+
+366
+00:25:51,540 --> 00:25:54,480
+where it undergoes its most dramatic changes in
+
+367
+00:25:54,480 --> 00:25:58,020
+response to these extraordinary parameters in the
+
+368
+00:25:58,020 --> 00:26:00,690
+course of the 20th century, it was discovered that
+
+369
+00:26:02,010 --> 00:26:06,570
+precisely the same sets of critical exponents turn
+
+370
+00:26:06,570 --> 00:26:10,770
+out to appear in these transitions of various
+
+371
+00:26:10,770 --> 00:26:15,220
+different systems that. You would not have guessed
+
+372
+00:26:15,220 --> 00:26:18,700
+have anything to do with each other so we can
+
+373
+00:26:18,700 --> 00:26:22,330
+illustrate this by considering the liquid gas
+
+374
+00:26:22,330 --> 00:26:26,350
+based transition to the one that we get when we
+
+375
+00:26:26,350 --> 00:26:33,130
+boil the water in the kitchen and the liquid water
+
+376
+00:26:33,130 --> 00:26:36,640
+in that kettle goes at first of all, depending on
+
+377
+00:26:36,640 --> 00:26:38,620
+the pressure on the first or second phase
+
+378
+00:26:38,650 --> 00:26:43,270
+transition into the atmosphere of the scene. This
+
+379
+00:26:43,270 --> 00:26:47,200
+is a fascinating topic to look at and could have
+
+380
+00:26:47,200 --> 00:26:50,650
+been a another supplement if we had more time to
+
+381
+00:26:50,650 --> 00:26:53,160
+get through things, because it does help to
+
+382
+00:26:53,170 --> 00:26:56,230
+illustrate even better than the simple, easy model
+
+383
+00:26:56,230 --> 00:27:00,750
+with the track extends just how. The difficulty
+
+384
+00:27:00,770 --> 00:27:04,570
+becomes to analyze. Statistical systems, when they
+
+385
+00:27:04,570 --> 00:27:08,530
+are interacting, so moving away from an ideal gas
+
+386
+00:27:08,860 --> 00:27:13,210
+to an interacting gas that can have strong enough
+
+387
+00:27:13,210 --> 00:27:17,230
+interactions to change to a different phase of
+
+388
+00:27:17,230 --> 00:27:19,150
+being a liquid at lower temperatures.
+
+389
+00:27:22,490 --> 00:27:25,730
+That removes the factorization that we rely upon
+
+390
+00:27:26,240 --> 00:27:28,940
+and dealing with with classical or quantum gases.
+
+391
+00:27:29,720 --> 00:27:35,470
+Before the break. And requires very elaborate.
+
+392
+00:27:36,680 --> 00:27:40,250
+Mathematical analysis to make any progress,
+
+393
+00:27:41,570 --> 00:27:44,750
+obtaining predictions from the microscopic degrees
+
+394
+00:27:44,750 --> 00:27:49,970
+of freedom. So just to not go through any of those
+
+395
+00:27:49,970 --> 00:27:52,940
+calculations, but sort of flash the results from
+
+396
+00:27:52,940 --> 00:27:57,710
+them. At least in regimes of low intensity, it's
+
+397
+00:27:57,710 --> 00:28:02,000
+possible to introduce a systematic approximation
+
+398
+00:28:02,000 --> 00:28:06,230
+scheme, what's called a cluster expansion that
+
+399
+00:28:07,100 --> 00:28:09,980
+produces, in the end a modification of the
+
+400
+00:28:09,980 --> 00:28:14,630
+equation of the state that deviates from the ideal
+
+401
+00:28:14,630 --> 00:28:19,430
+gas pressure times the volume of the gas equal to
+
+402
+00:28:19,430 --> 00:28:23,170
+the number of molecules in the gas times its
+
+403
+00:28:23,270 --> 00:28:28,740
+temperature. And to that leading turn, we can
+
+404
+00:28:29,610 --> 00:28:34,140
+introduce a series of corrections that depend on
+
+405
+00:28:34,680 --> 00:28:39,300
+the intensity of the number of atoms per unit
+
+406
+00:28:39,300 --> 00:28:42,950
+volume in this case that defines, well, that
+
+407
+00:28:42,960 --> 00:28:47,760
+appears here in the expansion, assuming the role
+
+408
+00:28:47,760 --> 00:28:52,410
+is much smaller than one. And each term in this
+
+409
+00:28:52,410 --> 00:28:57,930
+expansion has a factor that depends on the
+
+410
+00:28:57,930 --> 00:29:00,720
+temperature. It's known as a variable coefficient
+
+411
+00:29:01,500 --> 00:29:05,550
+for obscure historical reasons. And if you go
+
+412
+00:29:05,550 --> 00:29:08,400
+through that cluster expansion, you can compute
+
+413
+00:29:08,910 --> 00:29:13,710
+what this leading variable coefficients is, which
+
+414
+00:29:13,710 --> 00:29:17,190
+in turn, not surprisingly, depends on the
+
+415
+00:29:17,640 --> 00:29:24,730
+interaction between. Two particles in this gas, so
+
+416
+00:29:24,740 --> 00:29:29,390
+moving away from idealogue particles have the
+
+417
+00:29:29,390 --> 00:29:31,970
+interactions between the particles described by an
+
+418
+00:29:31,970 --> 00:29:35,510
+interaction energy. And because these gas
+
+419
+00:29:35,510 --> 00:29:37,820
+particles are not confined to a lattice, we have
+
+420
+00:29:37,820 --> 00:29:40,790
+no concept of Iraq's neighbors. Rather, the
+
+421
+00:29:40,790 --> 00:29:43,820
+interaction energy becomes a function of how far
+
+422
+00:29:43,820 --> 00:29:47,000
+apart those particles are. When they come closer
+
+423
+00:29:47,000 --> 00:29:49,880
+together, we expect them to tell each other, push
+
+424
+00:29:49,880 --> 00:29:54,140
+each other away. And larger businesses that can
+
+425
+00:29:54,140 --> 00:29:57,110
+either continue pushing each other apart or even
+
+426
+00:29:57,110 --> 00:30:02,670
+become attractive. And. Counteract that short
+
+427
+00:30:02,670 --> 00:30:03,460
+range reposing.
+
+428
+00:30:05,510 --> 00:30:08,510
+And while that's that's about the best we can do,
+
+429
+00:30:08,600 --> 00:30:12,350
+starting from the microscopic degrees of freedom,
+
+430
+00:30:13,010 --> 00:30:17,170
+this is insufficient to look at the liquid gas
+
+431
+00:30:17,180 --> 00:30:20,360
+field condition itself just because that phase
+
+432
+00:30:20,360 --> 00:30:22,390
+transition occurs.
+
+433
+00:30:24,500 --> 00:30:25,190
+That's a.
+
+434
+00:30:28,430 --> 00:30:32,390
+Higher density, which is not surprising given the
+
+435
+00:30:32,690 --> 00:30:35,400
+distinction between the density of liquid versus
+
+436
+00:30:35,450 --> 00:30:38,420
+gas, is one of the ways they can be distinguished.
+
+437
+00:30:38,450 --> 00:30:42,440
+The other chief where the professor or how hard it
+
+438
+00:30:42,440 --> 00:30:48,430
+is to to squeeze. Particles in these two phases
+
+439
+00:30:48,440 --> 00:30:52,670
+together, how much pressure do for a change? So
+
+440
+00:30:52,670 --> 00:30:54,800
+the liquid phase can be distinguished from the
+
+441
+00:30:54,800 --> 00:30:59,490
+gases by the higher density of liquid compared to
+
+442
+00:30:59,490 --> 00:31:03,740
+a gas. And the political temperature of that
+
+443
+00:31:03,790 --> 00:31:07,100
+liquid gas based transition can then be identified
+
+444
+00:31:07,110 --> 00:31:11,130
+when. The gas and liquid phase have equal
+
+445
+00:31:11,130 --> 00:31:15,650
+densities. Which then implies that this is the
+
+446
+00:31:16,460 --> 00:31:20,570
+intensity, that the transition is the largest that
+
+447
+00:31:20,570 --> 00:31:24,560
+the gas can actually reach while still remaining a
+
+448
+00:31:24,560 --> 00:31:28,690
+gas before it transitions to become a Liquidnet.
+
+449
+00:31:30,140 --> 00:31:35,570
+So as an alternative approach to this sort of
+
+450
+00:31:35,570 --> 00:31:38,810
+analysis, rather than starting from the
+
+451
+00:31:38,810 --> 00:31:42,890
+microscopic interactions between individual pairs
+
+452
+00:31:42,890 --> 00:31:48,330
+of particles and the gas. We can start from the
+
+453
+00:31:48,330 --> 00:31:50,670
+end point, that equation states that we would like
+
+454
+00:31:50,670 --> 00:31:55,320
+to drive instead of driving it, take it as a model
+
+455
+00:31:55,620 --> 00:31:59,040
+and propose modifications to this model to account
+
+456
+00:31:59,040 --> 00:32:04,620
+for the features of the interactive gas based on
+
+457
+00:32:04,620 --> 00:32:08,400
+some qualitative physical arguments. This was.
+
+458
+00:32:10,040 --> 00:32:12,350
+This approach was pioneered by a fellow named
+
+459
+00:32:12,350 --> 00:32:16,060
+Denver was so particular equation of state I've
+
+460
+00:32:16,070 --> 00:32:19,960
+written here is now known as the pendulum swing
+
+461
+00:32:20,210 --> 00:32:24,900
+states. Miss Daniels was awarded the Nobel Prizes
+
+462
+00:32:25,460 --> 00:32:29,870
+and one hundred, twelve years ago for work on this
+
+463
+00:32:29,910 --> 00:32:33,520
+declaration of state and world. Everyone's. In
+
+464
+00:32:33,520 --> 00:32:36,790
+this case, there are two modifications that would
+
+465
+00:32:36,820 --> 00:32:43,580
+be. Argued for through handwaving policy arguments
+
+466
+00:32:44,570 --> 00:32:49,440
+where compared to at times the intensity of the
+
+467
+00:32:49,460 --> 00:32:53,900
+gas war, you modify both the pressure and the
+
+468
+00:32:53,900 --> 00:32:58,700
+volume of the gas to account for more realistic
+
+469
+00:33:00,710 --> 00:33:03,740
+description of the gas particles than the non
+
+470
+00:33:03,740 --> 00:33:06,830
+interacting, zero sized point particles that we
+
+471
+00:33:07,670 --> 00:33:11,390
+worked with earlier in this module. So looking
+
+472
+00:33:11,390 --> 00:33:14,180
+first at this factor of the volume we are
+
+473
+00:33:14,180 --> 00:33:20,230
+subtracting in times a unknown. Numerical
+
+474
+00:33:20,230 --> 00:33:24,900
+parameter B, we can assume that. India are
+
+475
+00:33:24,910 --> 00:33:29,610
+positive numbers. And the interpretation of this
+
+476
+00:33:29,620 --> 00:33:31,560
+fact that we're subtracting that would get
+
+477
+00:33:31,590 --> 00:33:37,230
+seclusion is that this B represents the. Nonzero
+
+478
+00:33:37,250 --> 00:33:41,560
+void is occupied by each of the particles and the
+
+479
+00:33:41,570 --> 00:33:44,840
+gas, which then has to be subtracted from the
+
+480
+00:33:44,840 --> 00:33:48,110
+total amount of space, the total volume that the
+
+481
+00:33:48,110 --> 00:33:52,920
+gas particles have available to themselves. To to
+
+482
+00:33:52,930 --> 00:33:54,310
+explore and bounce around the.
+
+483
+00:33:56,650 --> 00:33:59,560
+So that's a fairly simple modification, the change
+
+484
+00:33:59,560 --> 00:34:04,600
+in the pressure is a little bit trickier to.
+
+485
+00:34:07,590 --> 00:34:10,680
+To get a handle on it, particularly the fact that
+
+486
+00:34:10,680 --> 00:34:13,810
+it depends on the density squared, is that the
+
+487
+00:34:13,830 --> 00:34:19,380
+correction is a bit so small to say that this is
+
+488
+00:34:19,380 --> 00:34:25,000
+not Zeltzer model. That we can propose to to
+
+489
+00:34:25,050 --> 00:34:28,980
+analyze interacting gases and their phase
+
+490
+00:34:28,980 --> 00:34:32,220
+transition to the liquid phase where what's going
+
+491
+00:34:32,220 --> 00:34:38,040
+on this term is that as the density increases, the
+
+492
+00:34:38,040 --> 00:34:41,280
+particles, if it's volume, are going to be closer
+
+493
+00:34:41,280 --> 00:34:43,710
+to each other and their interactions, we can see
+
+494
+00:34:43,710 --> 00:34:47,180
+what going to be. More likely to produce those
+
+495
+00:34:47,180 --> 00:34:51,230
+large, repulsive forces that keep the particles
+
+496
+00:34:51,230 --> 00:34:55,280
+from occupying the same space. So as those
+
+497
+00:34:55,280 --> 00:34:56,870
+particles are packed more closely together,
+
+498
+00:34:57,320 --> 00:34:59,360
+they're exerting forces on each other, pushing
+
+499
+00:34:59,360 --> 00:35:03,410
+each other apart. And that pushing is the same
+
+500
+00:35:03,410 --> 00:35:07,070
+sort of force that we started off with to derive
+
+501
+00:35:07,070 --> 00:35:10,940
+the concept of pressure so that this independent
+
+502
+00:35:11,060 --> 00:35:15,010
+effect gets added to the pressure in this
+
+503
+00:35:15,020 --> 00:35:20,450
+vanderpoel's equation space as a second deviation
+
+504
+00:35:20,450 --> 00:35:24,720
+from the ideal gas. So. There's obviously no
+
+505
+00:35:24,720 --> 00:35:27,810
+detail, derivation or calculation going into all
+
+506
+00:35:27,840 --> 00:35:31,650
+that. It's just some physically motivated
+
+507
+00:35:31,650 --> 00:35:32,580
+argumentation.
+
+508
+00:35:36,110 --> 00:35:39,650
+This these two modifications are sufficient for
+
+509
+00:35:39,650 --> 00:35:44,360
+this equation of states to correctly describe the
+
+510
+00:35:44,360 --> 00:35:49,360
+existence of a phase transition between liquidy
+
+511
+00:35:49,370 --> 00:35:54,220
+gas phases, one with a. Zero permissibility,
+
+512
+00:35:54,250 --> 00:35:57,250
+another with a larger capacity and similarly with
+
+513
+00:35:57,250 --> 00:36:03,150
+different values, the density. Now, the details of.
+
+514
+00:36:04,450 --> 00:36:08,820
+That phase transition and the properties of. The
+
+515
+00:36:09,000 --> 00:36:11,610
+press's influence on either side of it are not
+
+516
+00:36:11,610 --> 00:36:15,250
+very accurately described by the variables
+
+517
+00:36:15,500 --> 00:36:20,680
+equation of states in that sense. Somewhat similar
+
+518
+00:36:20,680 --> 00:36:24,940
+to the bean field approximation, or at least of
+
+519
+00:36:24,980 --> 00:36:27,250
+dimensions be correctly predicted, it was a phase
+
+520
+00:36:27,250 --> 00:36:31,030
+transition of the critical experience that came
+
+521
+00:36:31,030 --> 00:36:35,380
+out of field analysis were incorrect by
+
+522
+00:36:35,740 --> 00:36:38,200
+significant factors in the case of two or three
+
+523
+00:36:38,200 --> 00:36:38,830
+dimensions.
+
+524
+00:36:40,880 --> 00:36:44,210
+From the analysis of liquid gas disquisition,
+
+525
+00:36:44,210 --> 00:36:48,200
+based on the Vanderwal equation of states, we can
+
+526
+00:36:50,180 --> 00:36:53,900
+do that same sort of analysis, find the critical
+
+527
+00:36:53,900 --> 00:36:57,230
+temperature and predict the set of critical
+
+528
+00:36:57,230 --> 00:37:00,020
+exponents governing the behavior of observables in
+
+529
+00:37:00,050 --> 00:37:02,290
+the system around that critical temperature.
+
+530
+00:37:04,500 --> 00:37:06,870
+This is a second order of transition that is
+
+531
+00:37:06,870 --> 00:37:09,600
+predicted by the federal secretary of state and if
+
+532
+00:37:09,600 --> 00:37:14,100
+we look at the inverse of the density. And the
+
+533
+00:37:14,100 --> 00:37:18,710
+difference between the imprecisely and the cash
+
+534
+00:37:18,730 --> 00:37:21,180
+space and the liquid phase, this is something that
+
+535
+00:37:21,420 --> 00:37:24,090
+needs to vanish at that transition, that that's
+
+536
+00:37:24,420 --> 00:37:29,700
+equal. And. At temperatures slightly below that,
+
+537
+00:37:29,790 --> 00:37:33,400
+his transition, if you were to. Consider the.
+
+538
+00:37:34,460 --> 00:37:37,700
+Destitution, the two phases, we would find that
+
+539
+00:37:37,700 --> 00:37:42,880
+they depended on the temperature. In terms of the
+
+540
+00:37:42,900 --> 00:37:46,260
+critical experience of the half, which is close
+
+541
+00:37:46,260 --> 00:37:51,600
+but not quite the value that it can be measured in
+
+542
+00:37:52,200 --> 00:37:56,300
+physical experiments looking at the densities. Of
+
+543
+00:37:56,320 --> 00:38:00,550
+these objects, not just for liquid water, boiling
+
+544
+00:38:00,880 --> 00:38:05,350
+steam before any liquid gas phase transition and
+
+545
+00:38:05,620 --> 00:38:10,330
+even more, well, various other quantities that
+
+546
+00:38:10,330 --> 00:38:14,440
+mercury alcohol. Do you think that has a dash
+
+547
+00:38:14,630 --> 00:38:19,390
+space actually has the same critical explosion be
+
+548
+00:38:20,140 --> 00:38:24,850
+just under a third independent of precisely what
+
+549
+00:38:24,850 --> 00:38:29,440
+molecules are showing up in this liquid, this gas?
+
+550
+00:38:31,820 --> 00:38:38,750
+So it is a. Remarkable fact that this critical
+
+551
+00:38:38,780 --> 00:38:42,020
+examiner describing the details of this transition
+
+552
+00:38:42,020 --> 00:38:47,070
+does not depend on. What molecules are the
+
+553
+00:38:47,610 --> 00:38:52,450
+quantities being condensed to oil? But the even
+
+554
+00:38:52,470 --> 00:38:56,790
+more surprising bit is that most people want to be
+
+555
+00:38:56,820 --> 00:39:00,690
+that provisos when looking at the densities of
+
+556
+00:39:01,320 --> 00:39:05,340
+liquid gas. His transition is exactly the same
+
+557
+00:39:05,340 --> 00:39:09,630
+value just under the theory that we found for the
+
+558
+00:39:09,630 --> 00:39:14,160
+magnetization, ferromagnetic transition in the
+
+559
+00:39:14,160 --> 00:39:17,790
+easy model, in three dimensions on the simple to
+
+560
+00:39:17,790 --> 00:39:18,570
+replace.
+
+561
+00:39:20,860 --> 00:39:23,560
+It's tempting to suppose that this may just be a
+
+562
+00:39:23,950 --> 00:39:27,370
+coincidence. I will just tell you to read the
+
+563
+00:39:27,370 --> 00:39:32,560
+section that it is not just a coincidence, there
+
+564
+00:39:32,560 --> 00:39:32,920
+are.
+
+565
+00:39:36,470 --> 00:39:39,230
+A full set of critical expenses, depending on
+
+566
+00:39:39,320 --> 00:39:42,360
+which. Observables, we consider it to be a
+
+567
+00:39:42,370 --> 00:39:45,720
+transition that can be computed to many more
+
+568
+00:39:46,110 --> 00:39:49,230
+significant figures than I've put down here, and
+
+569
+00:39:49,230 --> 00:39:53,790
+in all cases they match up precisely between both
+
+570
+00:39:53,790 --> 00:39:58,240
+that fairly easy transition and the liquid gas
+
+571
+00:39:58,240 --> 00:40:02,560
+phase transition. And this is. Exactly, the
+
+572
+00:40:03,790 --> 00:40:08,200
+universality that's. We started off this we
+
+573
+00:40:08,200 --> 00:40:10,280
+started off to motivate this discussion with
+
+574
+00:40:10,280 --> 00:40:11,500
+regards to this transition.
+
+575
+00:40:13,550 --> 00:40:17,990
+So we can appreciate what universality means that
+
+576
+00:40:17,990 --> 00:40:22,220
+these two completely different systems, a three
+
+577
+00:40:22,220 --> 00:40:24,740
+dimensional model of interacting spins.
+
+578
+00:40:26,770 --> 00:40:30,610
+And the liquid gas based position will water or
+
+579
+00:40:30,850 --> 00:40:35,890
+any other substance are governed by exactly the
+
+580
+00:40:35,890 --> 00:40:42,080
+same set of critical exponents? Even though the
+
+581
+00:40:42,090 --> 00:40:44,340
+systems have no connection to each other, there's
+
+582
+00:40:44,340 --> 00:40:49,260
+no way we can model a bunch of H2O molecules, as
+
+583
+00:40:49,270 --> 00:40:53,610
+is expensive L.A. and vice versa. But despite that.
+
+584
+00:40:54,780 --> 00:40:57,330
+The phase transitions that the systems have
+
+585
+00:40:57,810 --> 00:41:02,950
+behaved exactly the same way as governed by their
+
+586
+00:41:03,090 --> 00:41:06,360
+set of critical exponents around the phase
+
+587
+00:41:06,360 --> 00:41:10,950
+transition in this particular set of critical
+
+588
+00:41:10,970 --> 00:41:14,940
+exponents defines. What has become known as the
+
+589
+00:41:14,950 --> 00:41:19,170
+universality class, and you can learn a great deal
+
+590
+00:41:19,380 --> 00:41:24,600
+about any given patronization, any system just by
+
+591
+00:41:24,600 --> 00:41:28,750
+determining what universality class. This
+
+592
+00:41:28,750 --> 00:41:31,450
+transition belongs to that immediately tells you
+
+593
+00:41:31,870 --> 00:41:34,900
+all the most critical explanations of how various
+
+594
+00:41:34,900 --> 00:41:38,710
+observables behave vicinity of that phase position.
+
+595
+00:41:40,060 --> 00:41:43,570
+So that's what universality is, where it comes
+
+596
+00:41:43,570 --> 00:41:47,260
+from is beyond the scope of this model of what it
+
+597
+00:41:47,260 --> 00:41:49,210
+would be, a focus of a.
+
+598
+00:41:51,500 --> 00:41:54,710
+Second graduate level follow, of course, if we
+
+599
+00:41:54,710 --> 00:41:55,340
+were to offer.
+
+600
+00:41:57,800 --> 00:42:01,820
+This is. The derivation of universality, the
+
+601
+00:42:02,150 --> 00:42:05,480
+explanation of how and why it can occur in these
+
+602
+00:42:05,480 --> 00:42:08,120
+physical systems was developed largely in the
+
+603
+00:42:08,120 --> 00:42:12,110
+1960s and 70s and some important names in that
+
+604
+00:42:12,110 --> 00:42:16,940
+process. Of course, there more the prominent folks
+
+605
+00:42:17,780 --> 00:42:21,260
+include Michael Fisher, the catastrophic Nillson,
+
+606
+00:42:21,740 --> 00:42:25,310
+of whom only Ken Wilson was awarded the Nobel
+
+607
+00:42:25,310 --> 00:42:29,780
+Prize for this work in the early 80s. And in fact,
+
+608
+00:42:29,780 --> 00:42:35,000
+at the time, he objected to being the only one
+
+609
+00:42:35,570 --> 00:42:39,620
+recognized say that all three of them should have.
+
+610
+00:42:41,400 --> 00:42:44,370
+Should have become the lawyers for the.
+
+611
+00:42:46,250 --> 00:42:49,810
+Developments of what is called the reorganization
+
+612
+00:42:49,810 --> 00:42:53,080
+group, even though it's not a group that explains
+
+613
+00:42:53,720 --> 00:42:58,470
+universality and how it rises. The takeaway
+
+614
+00:42:58,470 --> 00:43:01,620
+message that was then justified by the work of
+
+615
+00:43:01,620 --> 00:43:04,500
+these folks this year, Kenneth Wilson and others,
+
+616
+00:43:05,160 --> 00:43:11,470
+was that. The large scale behavior of statistical
+
+617
+00:43:11,470 --> 00:43:14,500
+systems and the interactive particles in the
+
+618
+00:43:14,500 --> 00:43:19,490
+vicinity of critical points is insensitive to the
+
+619
+00:43:19,510 --> 00:43:23,680
+details of the underlying systems, the degrees of
+
+620
+00:43:23,680 --> 00:43:25,870
+freedom that define the different possible
+
+621
+00:43:25,870 --> 00:43:31,760
+microstates. So this is. This can be both a
+
+622
+00:43:31,760 --> 00:43:34,730
+blessing and a curse this week, we'll see mostly
+
+623
+00:43:34,730 --> 00:43:37,760
+this afternoon when we look at some broader
+
+624
+00:43:37,760 --> 00:43:41,990
+applications in the review of this module. The
+
+625
+00:43:41,990 --> 00:43:45,350
+fact that the microscopic degrees of freedom may
+
+626
+00:43:45,350 --> 00:43:48,110
+not matter, gravity transition may be covered by
+
+627
+00:43:48,110 --> 00:43:51,920
+this universal, predictable behavior is one of the
+
+628
+00:43:51,920 --> 00:43:55,280
+keys that allows simple statistical models like
+
+629
+00:43:55,280 --> 00:44:00,500
+the easy model to. Really be. Rigorously
+
+630
+00:44:00,500 --> 00:44:03,800
+applicable in widely different domains.
+
+631
+00:44:06,270 --> 00:44:11,250
+To. Accurately model and describe and predict the
+
+632
+00:44:11,250 --> 00:44:16,260
+behavior of physical systems, from theoretical
+
+633
+00:44:16,260 --> 00:44:22,680
+physics to sociology, epidemiology and more. On
+
+634
+00:44:22,680 --> 00:44:27,150
+the other hand, there is a downside to
+
+635
+00:44:27,150 --> 00:44:31,170
+universality if we care what those fundamental
+
+636
+00:44:31,170 --> 00:44:35,430
+degrees of freedom are, because if in our physics
+
+637
+00:44:35,430 --> 00:44:39,060
+experiments we are restricted to relatively large,
+
+638
+00:44:39,060 --> 00:44:43,790
+everyday scales, then all that we can see is
+
+639
+00:44:43,800 --> 00:44:46,470
+universal behavior that could conceivably have
+
+640
+00:44:46,800 --> 00:44:53,370
+arisen from widely different sets of fundamental
+
+641
+00:44:53,370 --> 00:44:57,650
+particles and directions at the. Underlying
+
+642
+00:44:57,650 --> 00:45:02,640
+microscopic level. So this is, for example, why it
+
+643
+00:45:02,660 --> 00:45:04,640
+is so hard to establish whether or not string
+
+644
+00:45:04,640 --> 00:45:11,660
+theory, maybe the physics that underlies phenomena,
+
+645
+00:45:11,660 --> 00:45:14,900
+perhaps the sales that we're able to access, even
+
+646
+00:45:14,900 --> 00:45:19,160
+with the Large Hadron Collider proving scales that
+
+647
+00:45:19,160 --> 00:45:23,570
+are roughly one billion, 10 to minus 15 meters,
+
+648
+00:45:24,200 --> 00:45:27,980
+that's still large scale compared to the
+
+649
+00:45:27,980 --> 00:45:31,880
+hypothesized size of fundamental strings that
+
+650
+00:45:31,880 --> 00:45:36,260
+might be responsible for that scale behavior. But
+
+651
+00:45:37,220 --> 00:45:39,440
+because that large scale behavior becomes
+
+652
+00:45:39,830 --> 00:45:43,250
+insensitive to the details of the underlying
+
+653
+00:45:43,850 --> 00:45:46,340
+microscopic degrees of freedom that interact to
+
+654
+00:45:46,340 --> 00:45:51,580
+produce it. We can't really say whether or not
+
+655
+00:45:51,580 --> 00:45:54,520
+string theory is responsible for any given
+
+656
+00:45:55,090 --> 00:45:58,690
+observation in these experiments. It's just one of
+
+657
+00:45:58,690 --> 00:46:03,190
+many possibilities that become very hard to to
+
+658
+00:46:03,190 --> 00:46:04,000
+disentangle.
+
+659
+00:46:08,020 --> 00:46:11,800
+So I think all more or less wrap up there for the
+
+660
+00:46:11,800 --> 00:46:15,130
+morning, it's a nice place to stop at the end of
+
+661
+00:46:15,130 --> 00:46:20,440
+this section to where we've dealt with the last
+
+662
+00:46:21,190 --> 00:46:24,370
+large scale physics concept of universality that
+
+663
+00:46:24,370 --> 00:46:28,310
+is important to take away from this molecule. And
+
+664
+00:46:28,310 --> 00:46:33,350
+just as a preview for the afternoon, I think a
+
+665
+00:46:33,530 --> 00:46:36,830
+decent use of that final tutorial will be a sort
+
+666
+00:46:36,830 --> 00:46:40,730
+of quick whistle stop tour of various sorts of
+
+667
+00:46:41,300 --> 00:46:46,610
+broader applications of the concepts and tools of
+
+668
+00:46:46,610 --> 00:46:50,960
+statistical physics in other areas of mathematical
+
+669
+00:46:50,960 --> 00:46:54,050
+sciences represented by other molecules here in
+
+670
+00:46:54,050 --> 00:46:59,330
+Liverpool, as well as some applications far beyond
+
+671
+00:46:59,870 --> 00:47:03,230
+what really considered the mathematical sciences.
+
+672
+00:47:04,520 --> 00:47:08,030
+So what we talk about a few of those this
+
+673
+00:47:08,030 --> 00:47:10,640
+afternoon won't say much about them. Just a.
+
+674
+00:47:11,640 --> 00:47:14,070
+Qualitative discussion of motivation and that
+
+675
+00:47:14,070 --> 00:47:16,710
+could upset some of the power of statistical
+
+676
+00:47:16,710 --> 00:47:21,630
+physics. It's not worth getting into that here.
+
+677
+00:47:21,640 --> 00:47:26,440
+I'll just stop. Wrap up by. Reminding us what
+
+678
+00:47:26,440 --> 00:47:30,300
+we've looked at to round out the. Real
+
+679
+00:47:30,300 --> 00:47:32,250
+mathematical content of the course, the important
+
+680
+00:47:32,250 --> 00:47:34,950
+sampling, what the of the various algorithms that
+
+681
+00:47:34,950 --> 00:47:38,640
+could be defined as to sample microstates
+
+682
+00:47:38,640 --> 00:47:41,580
+proportional to their unknown probabilities and
+
+683
+00:47:41,580 --> 00:47:47,670
+then the power of universality to make the
+
+684
+00:47:47,670 --> 00:47:50,760
+predictions coming from these empirical analysis
+
+685
+00:47:50,760 --> 00:47:54,570
+or other methods very broadly applicable to full
+
+686
+00:47:54,600 --> 00:47:57,120
+universality classes with completely different
+
+687
+00:47:57,720 --> 00:48:00,030
+underlying physical degrees of freedom. So are
+
+688
+00:48:00,030 --> 00:48:03,780
+there any questions before we take the break, the
+
+689
+00:48:03,810 --> 00:48:06,600
+meantime, before coming back in the afternoon?
+
+690
+00:48:10,440 --> 00:48:13,680
+You'll have the chance to ask anything about this
+
+691
+00:48:13,680 --> 00:48:17,470
+or the module itself the afternoon, so come up
+
+692
+00:48:17,790 --> 00:48:21,710
+with questions or requests for things to cover,
+
+693
+00:48:22,200 --> 00:48:24,150
+then take care. Until then.
